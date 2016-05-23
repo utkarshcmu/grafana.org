@@ -57,25 +57,26 @@ title: Download
 .row
 
   .columns.medium-12.download-release-heading
-    h3 Grafana v3.0.2 (2016-05-16)
+    h3 Grafana v3.0.3 (2016-05-23)
 
   .columns.medium-12.download-links-wrapper
-    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.0.2-1463383025_amd64.deb" data-download-button="grafana_3.0.0.deb"
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.0.3-1463994644_amd64.deb" data-download-button="grafana_3.0.0.deb"
       i.fa.fa-download
       |  DEB (Ubuntu / Debian 64bit)
-    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.2-1463383025.x86_64.rpm" data-download-button="3.0.0.rpm"
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.3-1463994644.x86_64.rpm" data-download-button="3.0.0.rpm"
       i.fa.fa-download
       |  RPM (Fedora / RHEL  64bit)
-    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.2-1463383025.linux-x64.tar.gz" data-download-button="3.0.0.linux.tar"
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.3-1463994644.linux-x64.tar.gz" data-download-button="3.0.0.linux.tar"
       i.fa.fa-download
       |  Binary TAR (Linux 64bit)
-    a.download-link href="https://grafanarel.s3.amazonaws.com/winbuilds/dist/grafana-3.0.2.windows-x64.zip" data-download-button="3.0.0.windows.zip"
+    a.download-link href="https://grafanarel.s3.amazonaws.com/winbuilds/dist/grafana-3.0.3.windows-x64.zip" data-download-button="3.0.0.windows.zip"
       i.fa.fa-download
       |  Binary ZIP (Windows 64bit)
 
 .row
   .columns.large-12.markdown.download-release-details
     markdown:
+      - All fixes in Grafana v3.0.3 are detailed in [the changelog](https://github.com/grafana/grafana/blob/master/CHANGELOG.md#303-patch-release-2016-05-23)
       - For release news check out the [Grafana 3.0 Stable Release](/blog/2016/05/11/grafana-3-0-stable-released.html) blog post.
       - For feature showcase watch new the Grafana Screencast [What's New In Grafana 3.0](https://youtu.be/1kJyQKgk_oY)
       - Read the new docs article [What's New In Grafana 3.0](http://docs.grafana.org/guides/whats-new-in-v3/).
@@ -117,9 +118,30 @@ title: Download
 hr
 
 .row
-
   .columns.medium-12.download-release-heading
-    h3 Grafana v3.0.1 (2016-05-11)
+    h3 Grafana v3.0.2 (2016-05-16)
+
+  .columns.medium-12.download-links-wrapper
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.0.2-1463383025_amd64.deb" data-download-button="grafana_3.0.0.deb"
+      i.fa.fa-download
+      |  DEB (Ubuntu / Debian 64bit)
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.2-1463383025.x86_64.rpm" data-download-button="3.0.0.rpm"
+      i.fa.fa-download
+      |  RPM (Fedora / RHEL  64bit)
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.2-1463383025.linux-x64.tar.gz" data-download-button="3.0.0.linux.tar"
+      i.fa.fa-download
+      |  Binary TAR (Linux 64bit)
+    a.download-link href="https://grafanarel.s3.amazonaws.com/winbuilds/dist/grafana-3.0.2.windows-x64.zip" data-download-button="3.0.0.windows.zip"
+      i.fa.fa-download
+      |  Binary ZIP (Windows 64bit)
+
+.row
+  .columns.large-12.markdown.download-release-details
+
+    .row
+
+      .columns.medium-12.download-release-heading
+        h3 Grafana v3.0.1 (2016-05-11)
 
   .columns.medium-12.download-links-wrapper
     a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.0.1_amd64.deb" data-download-button="grafana_3.0.0.deb"
@@ -161,24 +183,24 @@ hr
     markdown:
       ## Beta7
 
-      ### Bug fixes
-      * **Dashboard title**: Fixed max dashboard title width (media query) for large screens,  fixes [#4859](https://github.com/grafana/grafana/issues/4859)
+        ### Bug fixes
+          * **Dashboard title**: Fixed max dashboard title width (media query) for large screens,  fixes [#4859](https://github.com/grafana/grafana/issues/4859)
       * **Annotations**: Fixed issue with entering annotation edit view, fixes [#4857](https://github.com/grafana/grafana/issues/4857)
       * **Remove query**: Fixed issue with removing query for data sources without collapsable query editors, fixes [#4856](https://github.com/grafana/grafana/issues/4856)
       * **Graphite PNG*: Fixed issue graphite png rendering option, fixes [#4864](https://github.com/grafana/grafana/issues/4864)
       * **InfluxDB**: Fixed issue missing plus group by iconn, fixes [#4862](https://github.com/grafana/grafana/issues/4862)
 
       ### Enhancements
-      * **InfluxDB**: Added new functions moving_average and difference to query editor, closes [#4698](https://github.com/grafana/grafana/issues/4698)
+        * **InfluxDB**: Added new functions moving_average and difference to query editor, closes [#4698](https://github.com/grafana/grafana/issues/4698)
 
       ## Beta6
 
-      ### Enhancements
-      * **Singlestat**: Support for gauges in singlestat panel. closes [#3688](https://github.com/grafana/grafana/pull/3688)
+        ### Enhancements
+          * **Singlestat**: Support for gauges in singlestat panel. closes [#3688](https://github.com/grafana/grafana/pull/3688)
       * **Templating**: Support for data source as variable, closes [#816](https://github.com/grafana/grafana/pull/816)
 
       ### Bug fixes
-      * **InfluxDB 0.12**: Fixed issue templating and `show tag values` query only returning tags for first measurement,  fixes [#4726](https://github.com/grafana/grafana/issues/4726)
+        * **InfluxDB 0.12**: Fixed issue templating and `show tag values` query only returning tags for first measurement,  fixes [#4726](https://github.com/grafana/grafana/issues/4726)
       * **Templating**: Fixed issue with regex formating when matching multiple values, fixes [#4755](https://github.com/grafana/grafana/issues/4755)
       * **Templating**: Fixed issue with custom all value and escaping, fixes [#4736](https://github.com/grafana/grafana/issues/4736)
       * **Dashlist**: Fixed issue dashboard list panel and caching tags, fixes [#4768](https://github.com/grafana/grafana/issues/4768)
@@ -189,7 +211,7 @@ hr
       * **Singlestat**: Fixes auto-refresh on change for some options, fixes [#4809](https://github.com/grafana/grafana/issues/4809)
 
       ### Breaking changes
-      **Data Source Query Editors**: Issue [#3900](https://github.com/grafana/grafana/issues/3900)
+        **Data Source Query Editors**: Issue [#3900](https://github.com/grafana/grafana/issues/3900)
 
       Query editors have been updated to use the new form styles. External data source plugins needs to be
       updated to work. Sorry to introduce breaking change this late in beta phase. We wanted to get this change
