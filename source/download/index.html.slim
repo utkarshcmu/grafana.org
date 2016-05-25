@@ -57,26 +57,25 @@ title: Download
 .row
 
   .columns.medium-12.download-release-heading
-    h3 Grafana v3.0.3 (2016-05-23)
+    h3 Grafana v3.0.4 (2016-05-25)
 
   .columns.medium-12.download-links-wrapper
-    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.0.3-1463994644_amd64.deb" data-download-button="grafana_3.0.0.deb"
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.0.4-1464167696_amd64.deb" data-download-button="grafana_3.0.0.deb"
       i.fa.fa-download
       |  DEB (Ubuntu / Debian 64bit)
-    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.3-1463994644.x86_64.rpm" data-download-button="3.0.0.rpm"
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.4-1464167696.x86_64.rpm" data-download-button="3.0.0.rpm"
       i.fa.fa-download
       |  RPM (Fedora / RHEL  64bit)
-    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.3-1463994644.linux-x64.tar.gz" data-download-button="3.0.0.linux.tar"
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.4-1464167696.linux-x64.tar.gz" data-download-button="3.0.0.linux.tar"
       i.fa.fa-download
       |  Binary TAR (Linux 64bit)
-    a.download-link href="https://grafanarel.s3.amazonaws.com/winbuilds/dist/grafana-3.0.3.windows-x64.zip" data-download-button="3.0.0.windows.zip"
+    a.download-link href="https://grafanarel.s3.amazonaws.com/winbuilds/dist/grafana-3.0.4.windows-x64.zip" data-download-button="3.0.0.windows.zip"
       i.fa.fa-download
       |  Binary ZIP (Windows 64bit)
 
 .row
   .columns.large-12.markdown.download-release-details
     markdown:
-      - All fixes in Grafana v3.0.3 are detailed in [the changelog](https://github.com/grafana/grafana/blob/master/CHANGELOG.md#303-patch-release-2016-05-23)
       - For release news check out the [Grafana 3.0 Stable Release](/blog/2016/05/11/grafana-3-0-stable-released.html) blog post.
       - For feature showcase watch new the Grafana Screencast [What's New In Grafana 3.0](https://youtu.be/1kJyQKgk_oY)
       - Read the new docs article [What's New In Grafana 3.0](http://docs.grafana.org/guides/whats-new-in-v3/).
@@ -95,6 +94,13 @@ title: Download
       - **Support** for InfluxDB 0.11
       - **Templated data source** Easily reuse the same dashboard for multiple data source instances
       - [Full changelog](https://github.com/grafana/grafana/blob/master/CHANGELOG.md)
+
+      ### 3.0.4 Bug fixes
+      * **Panel**: Fixed blank dashboard issue when switching to other dashboard while in fullscreen edit mode, fixes [#5163](https://github.com/grafana/grafana/pull/5163)
+      * **Templating**: Fixed issue with nested multi select variables and cascading and updating child variable selection state, fixes [#4861](https://github.com/grafana/grafana/pull/4861)
+      * **Templating**: Fixed issue with using templated data source in another template variable query, fixes [#5165](https://github.com/grafana/grafana/pull/5165)
+      * **Singlestat gauge**: Fixed issue with gauge render position, fixes [#5143](https://github.com/grafana/grafana/pull/5143)
+      * **Home dashboard**: Fixes broken home dashboard api, fixes [#5167](https://github.com/grafana/grafana/issues/5167)
 
       ### Breaking changes
 
@@ -115,6 +121,44 @@ title: Download
       you can install it manually from [Grafana.net](http://grafana.net)
 
     = partial "layouts/_newsletter"
+
+.row
+
+  .columns.medium-12.download-release-heading
+    h3 Grafana v3.0.3 (2016-05-23)
+
+  .columns.medium-12.download-links-wrapper
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.0.3-1463994644_amd64.deb" data-download-button="grafana_3.0.0.deb"
+      i.fa.fa-download
+      |  DEB (Ubuntu / Debian 64bit)
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.3-1463994644.x86_64.rpm" data-download-button="3.0.0.rpm"
+      i.fa.fa-download
+      |  RPM (Fedora / RHEL  64bit)
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.0.3-1463994644.linux-x64.tar.gz" data-download-button="3.0.0.linux.tar"
+      i.fa.fa-download
+      |  Binary TAR (Linux 64bit)
+    a.download-link href="https://grafanarel.s3.amazonaws.com/winbuilds/dist/grafana-3.0.3.windows-x64.zip" data-download-button="3.0.0.windows.zip"
+      i.fa.fa-download
+      |  Binary ZIP (Windows 64bit)
+
+.row
+  .columns.large-12.markdown.download-release-details
+    markdown:
+
+      ### Bug fixes
+
+      * **Annotations**: Annotations can now use a template variable as data source, closes [#5054](https://github.com/grafana/grafana/issues/5054)
+      * **Time picker**: Fixed issue timepicker and UTC when reading time from URL, fixes [#5078](https://github.com/grafana/grafana/issues/5078)
+      * **CloudWatch**: Support for Multiple Account by AssumeRole, closes [#3522](https://github.com/grafana/grafana/issues/3522)
+      * **Singlestat**: Fixed alignment and minium height issue, fixes [#5113](https://github.com/grafana/grafana/issues/5113), fixes [#4679](https://github.com/grafana/grafana/issues/4679)
+      * **Share modal**: Fixed link when using grafana under dashboard sub url, fixes [#5109](https://github.com/grafana/grafana/issues/5109)
+      * **Prometheus**: Fixed bug in query editor that caused it not to load when reloading page, fixes [#5107](https://github.com/grafana/grafana/issues/5107)
+      * **Elasticsearch**: Fixed bug when template variable query returns numeric values, fixes [#5097](https://github.com/grafana/grafana/issues/5097), fixes [#5088](https://github.com/grafana/grafana/issues/5088)
+      * **Logging**: Fixed issue with reading logging level value, fixes [#5079](https://github.com/grafana/grafana/issues/5079)
+      * **Timepicker**: Fixed issue with timepicker and UTC when reading time from URL, fixes [#5078](https://github.com/grafana/grafana/issues/5078)
+      * **Docs**: Added docs for org & user preferences HTTP API, closes [#5069](https://github.com/grafana/grafana/issues/5069)
+      * **Plugin list panel**: Now shows correct enable state for apps when not enabled, fixes [#5068](https://github.com/grafana/grafana/issues/5068)
+      * **Elasticsearch**: Templating & Annotation queries that use template variables are now formatted correctly, fixes [#5135](https://github.com/grafana/grafana/issues/5135)
 hr
 
 .row
@@ -137,6 +181,12 @@ hr
 
 .row
   .columns.large-12.markdown.download-release-details
+    markdown:
+      ### Bug fixes
+      * **Templating**: Fixed issue mixing row repeat and panel repeats, fixes [#4988](https://github.com/grafana/grafana/issues/4988)
+      * **Templating**: Fixed issue detecting dependencies in nested variables, fixes [#4987](https://github.com/grafana/grafana/issues/4987), fixes [#4986](https://github.com/grafana/grafana/issues/4986)
+      * **Graph**: Fixed broken PNG rendering in graph panel, fixes [#5025](https://github.com/grafana/grafana/issues/5025)
+      * **Graph**: Fixed broken xaxis on graph panel, fixes [#5024](https://github.com/grafana/grafana/issues/5024)
 
     .row
 
@@ -181,26 +231,26 @@ hr
 .row
   .columns.large-12.markdown.download-release-details
     markdown:
-      ## Beta7
+      ### Beta7
 
-        ### Bug fixes
-          * **Dashboard title**: Fixed max dashboard title width (media query) for large screens,  fixes [#4859](https://github.com/grafana/grafana/issues/4859)
+      ### Bug fixes
+      * **Dashboard title**: Fixed max dashboard title width (media query) for large screens,  fixes [#4859](https://github.com/grafana/grafana/issues/4859)
       * **Annotations**: Fixed issue with entering annotation edit view, fixes [#4857](https://github.com/grafana/grafana/issues/4857)
       * **Remove query**: Fixed issue with removing query for data sources without collapsable query editors, fixes [#4856](https://github.com/grafana/grafana/issues/4856)
       * **Graphite PNG*: Fixed issue graphite png rendering option, fixes [#4864](https://github.com/grafana/grafana/issues/4864)
       * **InfluxDB**: Fixed issue missing plus group by iconn, fixes [#4862](https://github.com/grafana/grafana/issues/4862)
 
       ### Enhancements
-        * **InfluxDB**: Added new functions moving_average and difference to query editor, closes [#4698](https://github.com/grafana/grafana/issues/4698)
+      * **InfluxDB**: Added new functions moving_average and difference to query editor, closes [#4698](https://github.com/grafana/grafana/issues/4698)
 
-      ## Beta6
+      ### Beta6
 
-        ### Enhancements
-          * **Singlestat**: Support for gauges in singlestat panel. closes [#3688](https://github.com/grafana/grafana/pull/3688)
+      ### Enhancements
+      * **Singlestat**: Support for gauges in singlestat panel. closes [#3688](https://github.com/grafana/grafana/pull/3688)
       * **Templating**: Support for data source as variable, closes [#816](https://github.com/grafana/grafana/pull/816)
 
       ### Bug fixes
-        * **InfluxDB 0.12**: Fixed issue templating and `show tag values` query only returning tags for first measurement,  fixes [#4726](https://github.com/grafana/grafana/issues/4726)
+      * **InfluxDB 0.12**: Fixed issue templating and `show tag values` query only returning tags for first measurement,  fixes [#4726](https://github.com/grafana/grafana/issues/4726)
       * **Templating**: Fixed issue with regex formating when matching multiple values, fixes [#4755](https://github.com/grafana/grafana/issues/4755)
       * **Templating**: Fixed issue with custom all value and escaping, fixes [#4736](https://github.com/grafana/grafana/issues/4736)
       * **Dashlist**: Fixed issue dashboard list panel and caching tags, fixes [#4768](https://github.com/grafana/grafana/issues/4768)
@@ -211,7 +261,7 @@ hr
       * **Singlestat**: Fixes auto-refresh on change for some options, fixes [#4809](https://github.com/grafana/grafana/issues/4809)
 
       ### Breaking changes
-        **Data Source Query Editors**: Issue [#3900](https://github.com/grafana/grafana/issues/3900)
+      **Data Source Query Editors**: Issue [#3900](https://github.com/grafana/grafana/issues/3900)
 
       Query editors have been updated to use the new form styles. External data source plugins needs to be
       updated to work. Sorry to introduce breaking change this late in beta phase. We wanted to get this change
@@ -219,29 +269,26 @@ hr
       a data source plugin author and want help with the new form styles work please ask for help in
       [slack channel](http://slack.raintank.io/).
 
-      ## Beta5
-
-        * **grafana-cli**: Fixed issue grafana-cli tool, did not detect the right plugin dir, fixes [#4723](https://github.com/grafana/grafana/issues/4723)
-        * **Graph**: Fixed issue with light theme text color issue in tooltip, fixes [#4702](https://github.com/grafana/grafana/issues/4702)
-        * **Snapshot**: Fixed issue with empty snapshots, fixes [#4706](https://github.com/grafana/grafana/issues/4706)
+      ### Beta5
+      * **grafana-cli**: Fixed issue grafana-cli tool, did not detect the right plugin dir, fixes [#4723](https://github.com/grafana/grafana/issues/4723)
+      * **Graph**: Fixed issue with light theme text color issue in tooltip, fixes [#4702](https://github.com/grafana/grafana/issues/4702)
+      * **Snapshot**: Fixed issue with empty snapshots, fixes [#4706](https://github.com/grafana/grafana/issues/4706)
 
       ### Bug fixes between beta3 and beta4
-
       * **Home dashboard**: Fixed issue with permission denied error on home dashboard, fixes [#4686](https://github.com/grafana/grafana/issues/4686)
       * **Templating**: Fixed issue templating variables that use regex extraction, fixes [#4672](https://github.com/grafana/grafana/issues/4672)
 
       ### Bugfixes between beta2 and beta3
-
-        * **InfluxDB**: Changed multi query encoding to work with InfluxDB 0.11 & 0.12, closes [#4533](https://github.com/grafana/grafana/issues/4533)
-        * **Postgres**: Fixed page render crash when using postgres, fixes [#4559](https://github.com/grafana/grafana/issues/4558)
-        * **Table panel**: Fixed table panel bug when trying to show annotations in table panel, fixes [#4563](https://github.com/grafana/grafana/issues/4563)
-        * **App Config**: Fixed app config issue showing content of other app config, fixes [#4575](https://github.com/grafana/grafana/issues/4575)
-        * **Graph Panel**: Fixed legend option max not updating, fixes [#4601](https://github.com/grafana/grafana/issues/4601)
-        * **Graph Panel**: Fixed issue where newly added graph panels shared same axes config, fixes [#4582](https://github.com/grafana/grafana/issues/4582)
-        * **Graph Panel**: Fixed issue with axis labels overlapping Y-axis, fixes [#4626](https://github.com/grafana/grafana/issues/4626)
-        * **InfluxDB**: Fixed issue with templating query containing template variable, fixes [#4602](https://github.com/grafana/grafana/issues/4602)
-        * **Graph Panel**: Fixed issue with hiding series and stacking, fixes [#4557](https://github.com/grafana/grafana/issues/4557)
-        * **Graph Panel**: Fixed issue with legend height in table mode with few series, affected iframe embedding as well, fixes [#4640](https://github.com/grafana/grafana/issues/4640)
+      * **InfluxDB**: Changed multi query encoding to work with InfluxDB 0.11 & 0.12, closes [#4533](https://github.com/grafana/grafana/issues/4533)
+      * **Postgres**: Fixed page render crash when using postgres, fixes [#4559](https://github.com/grafana/grafana/issues/4558)
+      * **Table panel**: Fixed table panel bug when trying to show annotations in table panel, fixes [#4563](https://github.com/grafana/grafana/issues/4563)
+      * **App Config**: Fixed app config issue showing content of other app config, fixes [#4575](https://github.com/grafana/grafana/issues/4575)
+      * **Graph Panel**: Fixed legend option max not updating, fixes [#4601](https://github.com/grafana/grafana/issues/4601)
+      * **Graph Panel**: Fixed issue where newly added graph panels shared same axes config, fixes [#4582](https://github.com/grafana/grafana/issues/4582)
+      * **Graph Panel**: Fixed issue with axis labels overlapping Y-axis, fixes [#4626](https://github.com/grafana/grafana/issues/4626)
+      * **InfluxDB**: Fixed issue with templating query containing template variable, fixes [#4602](https://github.com/grafana/grafana/issues/4602)
+      * **Graph Panel**: Fixed issue with hiding series and stacking, fixes [#4557](https://github.com/grafana/grafana/issues/4557)
+      * **Graph Panel**: Fixed issue with legend height in table mode with few series, affected iframe embedding as well, fixes [#4640](https://github.com/grafana/grafana/issues/4640)
 
       ### Bugfixes between beta1 and beta2
 
