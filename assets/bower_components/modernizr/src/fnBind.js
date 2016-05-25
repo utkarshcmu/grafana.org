@@ -1,0 +1,1 @@
+define(function(){function n(n,e){return function(){return n.apply(e,arguments)}}return n});

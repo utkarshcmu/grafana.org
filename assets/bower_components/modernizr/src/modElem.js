@@ -1,0 +1,1 @@
+define(["Modernizr","createElement"],function(e,n){var t={elem:n("modernizr")};return e._q.push(function(){delete t.elem}),t});

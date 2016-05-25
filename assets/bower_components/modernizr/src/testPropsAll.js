@@ -1,0 +1,1 @@
+define(["ModernizrProto","cssomPrefixes","is","testProps","domPrefixes","testDOMProps"],function(e,n,t,r,o,i){function u(e,u,a,f,c){var s=e.charAt(0).toUpperCase()+e.slice(1),l=(e+" "+n.join(s+" ")+s).split(" ");return t(u,"string")||t(u,"undefined")?r(l,u,f,c):(l=(e+" "+o.join(s+" ")+s).split(" "),i(l,u,a))}return e.testAllProps=u,u});

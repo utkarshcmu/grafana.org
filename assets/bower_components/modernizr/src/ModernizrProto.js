@@ -1,0 +1,1 @@
+define(["tests"],function(n){var e={_version:"__VERSION__",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(n,e){var t=this;setTimeout(function(){e(t[n])},0)},addTest:function(e,t,r){n.push({name:e,fn:t,options:r})},addAsyncTest:function(e){n.push({name:null,fn:e})}};return e});
