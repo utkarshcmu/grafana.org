@@ -1,1 +1,0 @@
-define(["ModernizrProto","testProps"],function(n,t){var e=n.testProp=function(n,e,r){return t([n],void 0,e,r)};return e});

@@ -1,1 +1,0 @@
-define(function(){var n=document.documentElement;return n});

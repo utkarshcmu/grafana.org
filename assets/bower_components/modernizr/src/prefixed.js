@@ -1,1 +1,0 @@
-define(["ModernizrProto","testPropsAll","cssToDOM","atRule"],function(e,n,t,r){var o=e.prefixed=function(e,o,i){return 0===e.indexOf("@")?r(e):(-1!=e.indexOf("-")&&(e=t(e)),o?n(e,o,i):n(e,"pfx"))};return o});

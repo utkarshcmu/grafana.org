@@ -1,1 +1,0 @@
-define(["ModernizrProto","createElement"],function(n,t){var e=function(n){function e(e,u){var i;return e?(u&&"string"!=typeof u||(u=t(u||"div")),e="on"+e,i=e in u,!i&&r&&(u.setAttribute||(u=t("div")),u.setAttribute(e,""),i="function"==typeof u[e],u[e]!==n&&(u[e]=n),u.removeAttribute(e)),i):!1}var r=!("onblur"in document.documentElement);return e}();return n.hasEvent=e,e});

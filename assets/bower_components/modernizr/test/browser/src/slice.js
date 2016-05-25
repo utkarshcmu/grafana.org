@@ -1,1 +1,0 @@
-describe("slice",function(){var e,t;before(function(n){var r=requirejs.config({context:Math.random().toString().slice(2),baseUrl:"../src",paths:{cleanup:"../test/cleanup"}});r(["slice","cleanup"],function(r,o){e=r,t=o,n()})}),it("returns an instance of `slice`",function(){expect(e).to.equal([].slice)}),after(function(){t()})});
