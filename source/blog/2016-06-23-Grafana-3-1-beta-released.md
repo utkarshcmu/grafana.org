@@ -4,7 +4,11 @@ author: Torkel Ödegaard
 published_on: June 23, 2016
 ---
 
-Grafana 3.1 beta is now released!
+Grafana 3.1 beta is now available for download! We are super excited to announce a new way
+of sharing dashboards for Grafana. Its now possible to download and upload dashboards to
+[Grafana.net](http://grafana.net/dashboards/) which makes it easier to ....
+
+If you built some great dashboards, why not share them with the rest of us?
 
 <div class="text-center">
 <a class="button secondary radius" href="/download">Download Grafana 3.1</a>.
@@ -13,10 +17,10 @@ Grafana 3.1 beta is now released!
 
 ## Release Highlights
 
-- **Dashboard Repository**: Grafana.net now supports download and uploading dashboards.
-- **Dashboard Url**: Timerange and template variable is now part of URL.
-- **Singlestat**: Its now possible to map ranges to values.
-- **Internal metrics**: Grafana now supports sending metrics about its usage.
+- **Dashboard Repository** Grafana.net now supports download and uploading dashboards.
+- **Dashboard Url** Timerange and template variable is now part of URL.
+- **Singlestat** Can now map ranges to text.
+- **Internal metrics** Grafana now supports sending metrics about itself.
 - [Full changelog](https://github.com/grafana/grafana/blob/master/CHANGELOG.md)
 
 ## Breaking changes
