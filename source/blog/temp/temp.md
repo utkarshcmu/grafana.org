@@ -4,7 +4,7 @@ author: Torkel Ödegaard
 published_on: June 23, 2016
 ---
 
-Grafana 3.1 beta is now available for download! In this relase we have focused on
+Grafana 3.1 beta is now available for download! In this release we have focused on
 making monitoring more collaborative by enabling Grafana users to easily
 share dashboards with others. We have also added dashboards to
 [Grafana.net](https://grafana.net) a place where anyone can share and download dashboards
@@ -33,7 +33,7 @@ The export feature is now accessed from the share menu.
 Dashboards exported from Grafana 3.1 are now more portable and easier for others to import than before.
 The export process extracts information data source types used by panels and adds these to a new `inputs`
 section in the dashboard json. So when you or another person tries to import the dashboard they will be asked to
-select data source and optional metrix prefix options.
+select data source and optional metric prefix options.
 
 ![](/assets/img/v31/import_step1.png)
 
@@ -75,7 +75,7 @@ After hitting `Upload Dashboard` button you will be taken to the dashboard page 
 add screenshots and most importantly you can write a detailed README (in Markdown) explaining the config you use for the metric collectors
 (CollectD or similar).
 
-When you are happy with everything you can publish the Dashboard which will make it publicly accessable.
+When you are happy with everything you can publish the Dashboard which will make it publicly accessible.
 
 ### Dashboard Urls
 In Grafana 3.1 the current time range and template variables values are always synced to the URL. This makes it possible to always copy your current
@@ -83,7 +83,7 @@ Grafana url to share with a colleague without having to use the Share modal.
 
 ### Internal metrics
 
-Do you want metrics about viewing metrics? Of couse you do! In this release we added support for sending metrics about Grafana to graphite.
+Do you want metrics about viewing metrics? Of course you do! In this release we added support for sending metrics about Grafana to graphite.
 You can configure interval and server in the config file.
 
 ### Breaking changes
@@ -96,7 +96,7 @@ We have been hard at work on alerting for a long time now and are making substan
 is a much anticipated and important feature and we want to get it right. It is not ready to be
 released in v3.1. But we hope to merge it to master soon after 3.1 stable is released.
 
-Here is an update showing you how you can set alert thresholds by visually draging level handles.
+Here is an update showing you how you can set alert thresholds by visually dragging level handles.
 ![](/assets/img/blog/v3.1/alerting_short.gif)
 
 ### Thanks
@@ -120,5 +120,4 @@ A big thanks to all the Grafana users who contribute by submitting PRs, bug repo
     </row>
   </form>
 </section>
-
 
