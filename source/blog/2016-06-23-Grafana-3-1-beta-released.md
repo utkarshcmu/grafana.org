@@ -1,5 +1,5 @@
 --
-title: Grafana 3.1 Stable Released
+title: Grafana 3.1 Beta Released
 author: Torkel Ödegaard
 published_on: June 23, 2016
 ---
@@ -32,11 +32,11 @@ Sharing dashboards is something that we wanted to do for a very long time and so
 You can browse the dashboard repository at [http://grafana.net/dashboards](http://grafana.net/dashboards).
 When you find a dashboard you like, just copy the URL and head back to Grafana and go to Dashboards -> Import.
 
-<img src="/assets/img/blog/v3.1/grafana_import_dashboards_v3.1.png">
+<img src="/assets/img/blog/v3.0/import_dashboard.png">
 
 Paste the URL pointing to the dashboard page on grafana.net.
 
-<img src="/assets/img/blog/v3.1/grafana_import_dashboard_settings_v3.1.png">
+<img src="/assets/img/blog/v3.0/import_dashboard_settings.png">
 
 ## Dashboard Urls
 
