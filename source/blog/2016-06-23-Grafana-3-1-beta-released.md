@@ -1,12 +1,14 @@
---
+---
 title: Grafana 3.1 Beta Released
 author: Torkel Ödegaard
 published_on: June 23, 2016
 ---
 
-Grafana 3.1 beta is now available for download! We are very excited to announce a new way
-of sharing dashboards for Grafana. We belive that working with metrics is a collaborative task
-and want to make it as easy as possible. See the full changelog below.
+Grafana 3.1 beta is now available for download! In this relase we have focused on
+making monitoring more collaborative by enabling Grafana users to easily
+share dashboards with others. We have also added dashboards to
+[Grafana.net](https://grafana.net) a place where anyone can share and download dashboards
+for popular infrastructure and server applications.
 
 <div class="text-center">
 <a class="button secondary radius" href="/download">Download Grafana 3.1</a>.
@@ -15,46 +17,78 @@ and want to make it as easy as possible. See the full changelog below.
 
 ## Release Highlights
 
-- **Dashboard Repository** Grafana.net now supports download and uploading dashboards.
-- **Dashboard** time range and template variable is now part of URL.
-- **Constant Template Variable** have been added to make path prefixing easier.
+- **Dashboard Repository** at [Grafana.net](https://grafana.net), you can now discover and upload dashboards.
+- **Dashboard** time range and variables values are now always synced with URL.
+- **Constant Template Variable** have been added to make dashboard sharing easier (use as metric prefix).
 - **Singlestat** can now map ranges to text.
 - **Metrics** Grafana now supports sending metrics about itself.
 - [Full changelog](https://github.com/grafana/grafana/blob/master/CHANGELOG.md)
 
-### Breaking changes
-- **Logging** format have been changed to improve log filtering.
+## Dashboard Export & Import
 
-## Dashboard Repository
+The export feature is now reached from the share menu.
 
-Its now possible to download and upload dashboards at [Grafana.net](http://grafana.net/dashboards/).
-We strongly belive that ....
+![](/assets/img/v31/export_menu.png)
 
-- Built Better Together
+Dashboards exported from Grafana 3.1 are now more portable and easier for others to import than before.
+The export process extracts information data source types used by panels and adds these to a new `inputs`
+section in the dashboard json. So when you or another person tries to import the dashboard they will be asked to
+select data source and optional metrix prefix options.
 
-You can browse the dashboard repository at [http://grafana.net/dashboards](http://grafana.net/dashboards).
-When you find a dashboard you like, just copy the URL and head back to Grafana and go to Dashboards -> Import.
+![](/assets/img/v31/import_step1.png)
 
-<img src="/assets/img/blog/v3.0/import_dashboard.png">
+The above screenshot shows the new import modal that gives you 3 options for how to import a dashboard.
+One notable new addition here is the ability to import directly from Dashboards shared on [Grafana.net](https://grafana.net).
 
-- Paste the grafana.net dashboard url.
-- Paste the dashboard json as text.
-- Upload dashboard.json.
+The next step in the import process:
 
-Afterwards Grafana will ask you to set some values before the dashboard can be saved to your grafana instance.
+![](/assets/img/v31/import_step2.png)
 
-<img src="/assets/img/blog/v3.0/import_dashboard_settings.png">
+Here you can change the name of the dashboard and also pick what data sources you want the dashboard to use. The above screenshot
+shows a CollectD dashboard for Graphite that requires a metric prefix be specified.
 
-If you built some great dashboards, why not share them with the rest of us?
+## Discover Dashboards
+
+On [Grafana.net](https://grafana.net) you can now browse & search for dashboards. We have already added a few but
+more are being uploaded every day.
+
+![](/assets/img/v31/gnet_dashboards_list.png)
+
+## Share Dashboards
+
+If you have an awesome MongoDB or Nginx Dashboard why not share it with the rest of the world?
+
+Start by creating a [Grafana.net](https://grafana.net) account and login. Then head over to your profile page.
+
+![](/assets/img/blog/v3.1/gnet_header.png)
+
+From there click on My Dashboards tab and then `Upload Dashboard` button.
+
+![](/assets/img/blog/v3.1/gnet_profile_dashboards.png)
+
+Pick the dashboard json file that you exported from Grafana. At this point we only accept dashboards exported from Grafana v3.1+ as only
+those dashboards contain information about what data source types the panels use.
+
+
+After hitting `Upload Dashboard` button you will be taken to the dashboard page where you can modify dashboard name, description,
+add screenshots and most importantly you can write a detailed README (in Markdown) explaining the config you use for the metric collectors
+(CollectD or similar).
+
+When you are happy with everything you can publish the Dashboard which will make it publicly accessable.
 
 ## Dashboard Urls
-
-Saving the timerange and template variable in the url makes it much easier to share dashboards with others within your organisation.
+Having current time range and template variable value always sync with the URL makes it possible to always copy your current
+Grafana url to share with a colleague without having to use the Share modal.
 
 ## Internal metrics
 
 Do you want metrics about viewing metrics? Ofc you do! In this release we added support for sending metrics about Grafana to graphite.
 You can configure interval and server in the config file.
+
+### Breaking changes
+- **Logging** format have been changed to improve log filtering.
+- **Graphite PNG** Graphite PNG support dropped from Graph panel (use Grafana native PNG instead).
+- **Migration** No longer possible to migrate dashboards from 1.x (Stored in ES or Influx 0.8).
 
 ## Thanks
 A big thank you to everyone who helped test and report issues with the beta release.
@@ -77,3 +111,5 @@ A big thank you to everyone who helped test and report issues with the beta rele
     </row>
   </form>
 </section>
+
+
