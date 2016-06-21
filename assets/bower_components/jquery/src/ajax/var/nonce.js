@@ -1,1 +1,1 @@
-define(["../../core"],function(n){return n.now()});
+define(["../../core"],function(t){return t.now()});
