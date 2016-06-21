@@ -29,6 +29,15 @@ Sharing dashboards is something that we wanted to do for a very long time and so
 - Democratize Metrics ()
 - Built Better Together
 
+You can browse the dashboard repository at [http://grafana.net/dashboards](http://grafana.net/dashboards).
+When you find a dashboard you like, just copy the URL and head back to Grafana and go to Dashboards -> Import.
+
+<img src="/assets/img/blog/v3.1/grafana_import_dashboards_v3.1.png">
+
+Paste the URL pointing to the dashboard page on grafana.net.
+
+<img src="/assets/img/blog/v3.1/grafana_import_dashboard_settings_v3.1.png">
+
 ## Dashboard Urls
 
 Saving the timerange and template variable in the url makes it much easier to share dashboards with others within your organisation.
