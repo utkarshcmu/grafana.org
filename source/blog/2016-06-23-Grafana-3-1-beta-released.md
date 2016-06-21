@@ -4,11 +4,9 @@ author: Torkel Ödegaard
 published_on: June 23, 2016
 ---
 
-Grafana 3.1 beta is now available for download! We are super excited to announce a new way
-of sharing dashboards for Grafana. Its now possible to download and upload dashboards to
-[Grafana.net](http://grafana.net/dashboards/) which makes it easier to ....
-
-If you built some great dashboards, why not share them with the rest of us?
+Grafana 3.1 beta is now available for download! We are very excited to announce a new way
+of sharing dashboards for Grafana. We belive that working with metrics is a collaborative task
+and want to make it as easy as possible. See the full changelog below.
 
 <div class="text-center">
 <a class="button secondary radius" href="/download">Download Grafana 3.1</a>.
@@ -18,19 +16,20 @@ If you built some great dashboards, why not share them with the rest of us?
 ## Release Highlights
 
 - **Dashboard Repository** Grafana.net now supports download and uploading dashboards.
-- **Dashboard Url** Timerange and template variable is now part of URL.
-- **Singlestat** Can now map ranges to text.
-- **Internal metrics** Grafana now supports sending metrics about itself.
+- **Dashboard** time range and template variable is now part of URL.
+- **Constant Template Variable** have been added to make path prefixing easier.
+- **Singlestat** can now map ranges to text.
+- **Metrics** Grafana now supports sending metrics about itself.
 - [Full changelog](https://github.com/grafana/grafana/blob/master/CHANGELOG.md)
 
-## Breaking changes
-- **Logging**: The logging format have been changed to support key, value pairs.
+### Breaking changes
+- **Logging** format have been changed to improve log filtering.
 
 ## Dashboard Repository
 
-Sharing dashboards is something that we wanted to do for a very long time and something that aligns very good with our vision.
+Its now possible to download and upload dashboards at [Grafana.net](http://grafana.net/dashboards/).
+We strongly belive that ....
 
-- Democratize Metrics ()
 - Built Better Together
 
 You can browse the dashboard repository at [http://grafana.net/dashboards](http://grafana.net/dashboards).
@@ -38,9 +37,15 @@ When you find a dashboard you like, just copy the URL and head back to Grafana a
 
 <img src="/assets/img/blog/v3.0/import_dashboard.png">
 
-Paste the URL pointing to the dashboard page on grafana.net.
+- Paste the grafana.net dashboard url.
+- Paste the dashboard json as text.
+- Upload dashboard.json.
+
+Afterwards Grafana will ask you to set some values before the dashboard can be saved to your grafana instance.
 
 <img src="/assets/img/blog/v3.0/import_dashboard_settings.png">
+
+If you built some great dashboards, why not share them with the rest of us?
 
 ## Dashboard Urls
 
@@ -48,7 +53,8 @@ Saving the timerange and template variable in the url makes it much easier to sh
 
 ## Internal metrics
 
-Do you want metrics about view metrics? Ofc you do! In this release we added support for sending metrics about Grafana to graphite.
+Do you want metrics about viewing metrics? Ofc you do! In this release we added support for sending metrics about Grafana to graphite.
+You can configure interval and server in the config file.
 
 ## Thanks
 A big thank you to everyone who helped test and report issues with the beta release.
