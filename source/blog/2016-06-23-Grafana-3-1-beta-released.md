@@ -26,7 +26,7 @@ for popular infrastructure and server applications.
 
 ## Dashboard Export & Import
 
-The export feature is now reached from the share menu.
+The export feature is now accessed from the share menu.
 
 ![](/assets/img/v31/export_menu.png)
 
@@ -50,7 +50,8 @@ shows a CollectD dashboard for Graphite that requires a metric prefix be specifi
 ## Discover Dashboards
 
 On [Grafana.net](https://grafana.net) you can now browse & search for dashboards. We have already added a few but
-more are being uploaded every day.
+more are being uploaded every day. To import a dashboard just copy the dashboard url and head back to Grafana,
+then Dashboard Search -> Import -> Paste Grafana.net Dashboard URL.
 
 ![](/assets/img/v31/gnet_dashboards_list.png)
 
