@@ -26,23 +26,14 @@ and want to make it as easy as possible. See the full changelog below.
 - **Logging** format have been changed to improve log filtering.
 
 ## Dashboard Repository
-
 Its now possible to download and upload dashboards at [Grafana.net](http://grafana.net/dashboards/).
-We strongly belive that ....
 
-- Built Better Together
-
-You can browse the dashboard repository at [http://grafana.net/dashboards](http://grafana.net/dashboards).
-When you find a dashboard you like, just copy the URL and head back to Grafana and go to Dashboards -> Import.
+To import a dashboard just go to Dashboard -> Import and you will see the new Import flow.
+We have added the possbility to import dashboards directly from grafana.net by entering the url.
 
 <img src="/assets/img/blog/v3.0/import_dashboard.png">
 
-- Paste the grafana.net dashboard url.
-- Paste the dashboard json as text.
-- Upload dashboard.json.
-
 Afterwards Grafana will ask you to set some values before the dashboard can be saved to your grafana instance.
-
 <img src="/assets/img/blog/v3.0/import_dashboard_settings.png">
 
 If you built some great dashboards, why not share them with the rest of us?
