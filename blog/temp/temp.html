@@ -1,7 +1,7 @@
 <!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><title>Grafana - Grafana 3.1 Beta Released</title><meta content="Torkel Ödegaard" name="author" /><meta content="width=device-width, initial-scale=1" name="viewport" /><meta content="Grafana is the leading open source project for visualizing metrics. Supporting rich integration for every popular database like Graphite, Prometheus and InfluxDB." name="description" /><meta content="Grafana, Graphite, Dashboard, InfluxDB, OpenTSDB, Elasticsearch, Metrics, Editor, Composer, Analytics, Graphana, Prometheus, Cloudwatch" name="keywords" /><link href="/assets/img/fav32.png" rel="icon" /><link href="/assets/stylesheets/all.css" rel="stylesheet" /><link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" /><script src="/assets/javascripts/all.js"></script><meta content="Grafana 3.1 Beta Released" property="og:title" /><meta content="Grafana.org" property="og:site_name" /><meta content="website" property="og:type" /><meta content="http://grafana.org/assets/img/docs/nice_dashboard.png" property="og:image" /></head><body class="blog blog_temp blog_temp_temp"><section class="nav"><div class="row"><nav class="top-bar" data-topbar="1"><ul class="title-area"><li class="name"><a href="/"><img class="no-shadow" src="/assets/img/logo_new_transparent_200x48.png" width="180px" /></a></li><li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li></ul><section class="meta-top-bar-section"><ul><li><a href="http://docs.grafana.org">Docs</a></li><li><a href="/support/">Support</a></li><li><a href="http://grafana.net/plugins">Plugins</a></li><li><a href="/hosting/">Hosting</a></li></ul></section><section class="top-bar-section"><ul class="right"><li><a href="/features/">Features</a></li><li><a href="/community/">Community</a></li><li><a href="/blog/">Blog</a></li><li class="has-form"><a class="button" href="http://play.grafana.org" id="top-bar-demo-button" target="_blank">Live Demo</a></li><li><a href="https://github.com/grafana/grafana" target="_blank" title="Go to github repository"><i class="fa fa-fw fa-github"></i></a</li><li class="has-form"><a class="button" href="/download" id="top-bar-button">Download</a></li></ul></section></nav></div></section><section class="main"><main><div class="page-header"><div class="page-header-bg"></div><div class="row"><div class="large-12 columns"><h1>Grafana 3.1 Beta Released</h1></div></div><div class="row"><div class="small-9 columns"><h5 class="subheader">Published: June 23, 2016 by Torkel Ödegaard</h5><p id="twitter"><a class="twitter-share-button" data-via="grafana" href="https://twitter.com/share"></a></p><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div><div class="small-3 columns"></div></div></div><div class="page-content row"><div class="large-9 columns image-shadows"><br /><p>Grafana 3.1 beta is now available for download! In this release we have focused on
 making monitoring more collaborative by enabling Grafana users to easily
-share dashboards with others. We have also added dashboards to
-<a href="https://grafana.net">Grafana.net</a> a place where anyone can share and download dashboards
+share dashboards with others. We have also added a dashboards section to
+<a href="https://grafana.net">Grafana.net</a> where you can disover and share dashboards
 for popular infrastructure and server applications.</p>
 
 <div class="text-center">
@@ -12,7 +12,7 @@ for popular infrastructure and server applications.</p>
 <h2 id="release-highlights">Release Highlights</h2>
 
 <ul>
-<li><strong>Dashboard Repository</strong> at <a href="https://grafana.net">Grafana.net</a>, you can now discover and upload dashboards.</li>
+<li><strong>Dashboard Repository</strong> at <a href="https://grafana.net">Grafana.net</a>. You can now discover and upload dashboards.</li>
 <li><strong>Dashboard</strong> time range and variables values are now always synced with URL.</li>
 <li><strong>Constant Template Variable</strong> have been added to make dashboard sharing easier (use as metric prefix).</li>
 <li><strong>Singlestat</strong> can now map ranges to text.</li>
@@ -27,14 +27,14 @@ for popular infrastructure and server applications.</p>
 <p><img src="/assets/img/v31/export_menu.png" /></p>
 
 <p>Dashboards exported from Grafana 3.1 are now more portable and easier for others to import than before.
-The export process extracts information data source types used by panels and adds these to a new <code class="prettyprint">inputs</code>
-section in the dashboard json. So when you or another person tries to import the dashboard they will be asked to
-select data source and optional metric prefix options.</p>
+The export process extracts information from the dashboard, like what data source types are used by panels.
+This information is added to the exported dashboard defintion. So when you or another person tries to
+import the dashboard they will be asked to select data sources and any optional metric prefix.</p>
 
 <p><img src="/assets/img/v31/import_step1.png" /></p>
 
 <p>The above screenshot shows the new import modal that gives you 3 options for how to import a dashboard.
-One notable new addition here is the ability to import directly from Dashboards shared on <a href="https://grafana.net">Grafana.net</a>.</p>
+One notable new addition here is the ability to import a Dashboards directly from <a href="https://grafana.net">Grafana.net</a>.</p>
 
 <p>The next step in the import process:</p>
 
