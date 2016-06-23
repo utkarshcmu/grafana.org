@@ -6,7 +6,7 @@ published_on: June 23, 2016
 
 Grafana 3.1 beta is now available for download! In this release we have focused on
 making monitoring more collaborative by enabling Grafana users to easily
-share and discover dashboard definitions. There is now a dashboards section in
+share and discover dashboard definitions. There is now a dashboards section no
 [Grafana.net](https://grafana.net) where you can discover and share dashboards
 for popular infrastructure and server applications.
 
