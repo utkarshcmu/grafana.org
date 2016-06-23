@@ -5,7 +5,7 @@
   "caniuse": "filesystem",
   "notes": [{
     "name": "W3 Draft",
-    "href": "dev.w3.org/2009/dap/file-system/file-dir-sys.html"
+    "href": "http://dev.w3.org/2009/dap/file-system/file-dir-sys.html"
   }],
   "authors": ["Eric Bidelman (@ebidel)"],
   "tags": ["file"],
@@ -13,4 +13,4 @@
   "knownBugs": ["The API will be present in Chrome incognito, but will throw an exception. See crbug.com/93417"]
 }
 !*/
-define(["Modernizr","prefixed"],function(e,t){e.addTest("filesystem",!!t("requestFileSystem",window))});
+define(["Modernizr","prefixed"],function(A,e){A.addTest("filesystem",!!e("requestFileSystem",window))});

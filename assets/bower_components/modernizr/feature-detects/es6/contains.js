@@ -6,4 +6,4 @@
   "tags": ["es6"]
 }
 !*/
-define(["Modernizr","is"],function(e,n){e.addTest("contains",n(String.prototype.contains,"function"))});
+define(["Modernizr","is"],function(A,e){A.addTest("contains",e(String.prototype.contains,"function"))});

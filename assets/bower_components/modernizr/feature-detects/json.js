@@ -5,9 +5,9 @@
   "caniuse": "json",
   "notes": [{
     "name": "MDN documentation",
-    "href": "http://developer.mozilla.org/en/JSON"
+    "href": "https://developer.mozilla.org/en-US/docs/Glossary/JSON"
   }],
   "polyfills": ["json2"]
 }
 !*/
-define(["Modernizr"],function(e){e.addTest("json","JSON"in window&&"parse"in JSON&&"stringify"in JSON)});
+define(["Modernizr"],function(A){A.addTest("json","JSON"in window&&"parse"in JSON&&"stringify"in JSON)});

@@ -10,9 +10,9 @@
     "href": "https://developer.mozilla.org/en-US/docs/JavaScript_typed_arrays"
   },{
     "name": "Kronos spec",
-    "href": "http://www.khronos.org/registry/typedarray/specs/latest/"
+    "href": "https://www.khronos.org/registry/typedarray/specs/latest/"
   }],
   "polyfills": ["joshuabell-polyfill"]
 }
 !*/
-define(["Modernizr"],function(e){e.addTest("typedarrays","ArrayBuffer"in window)});
+define(["Modernizr"],function(A){A.addTest("typedarrays","ArrayBuffer"in window)});

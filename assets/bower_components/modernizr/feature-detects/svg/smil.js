@@ -6,8 +6,8 @@
   "tags": ["svg"],
   "notes": [{
   "name": "W3C Synchronised Multimedia spec",
-  "href": "http://www.w3.org/AudioVideo/"
+  "href": "https://www.w3.org/AudioVideo/"
   }]
 }
 !*/
-define(["Modernizr","toStringFn"],function(e,t){e.addTest("smil",function(){return!!document.createElementNS&&/SVGAnimate/.test(t.call(document.createElementNS("http://www.w3.org/2000/svg","animate")))})});
+define(["Modernizr","toStringFn"],function(A,e){A.addTest("smil",function(){return!!document.createElementNS&&/SVGAnimate/.test(e.call(document.createElementNS("http://www.w3.org/2000/svg","animate")))})});

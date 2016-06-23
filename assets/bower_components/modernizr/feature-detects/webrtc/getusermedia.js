@@ -7,9 +7,9 @@
   "authors": ["Eric Bidelman"],
   "notes": [{
     "name": "W3C Media Capture and Streams spec",
-    "href": "http://www.w3.org/TR/mediacapture-streams/"
+    "href": "https://www.w3.org/TR/mediacapture-streams/"
   }],
   "polyfills": ["getusermedia"]
 }
 !*/
-define(["Modernizr","prefixed"],function(e,t){e.addTest("getusermedia",!!t("getUserMedia",navigator))});
+define(["Modernizr","prefixed"],function(A,e){A.addTest("getusermedia",!!e("getUserMedia",navigator))});

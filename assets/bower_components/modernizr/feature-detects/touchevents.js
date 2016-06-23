@@ -6,7 +6,7 @@
   "tags": ["media", "attribute"],
   "notes": [{
     "name": "Touch Events spec",
-    "href": "http://www.w3.org/TR/2013/WD-touch-events-20130124/"
+    "href": "https://www.w3.org/TR/2013/WD-touch-events-20130124/"
   }],
   "warnings": [
     "Indicates if the browser supports the Touch Events spec, and does not necessarily reflect a touchscreen device"
@@ -17,4 +17,4 @@
   ]
 }
 !*/
-define(["Modernizr","prefixes","testStyles"],function(e,t,n){e.addTest("touchevents",function(){var e;if("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)e=!0;else{var i=["@media (",t.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");n(i,function(t){e=9===t.offsetTop})}return e})});
+define(["Modernizr","prefixes","testStyles"],function(A,e,t){A.addTest("touchevents",function(){var A;if("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)A=!0;else{var n=["@media (",e.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");t(n,function(e){A=9===e.offsetTop})}return A})});

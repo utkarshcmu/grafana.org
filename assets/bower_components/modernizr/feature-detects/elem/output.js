@@ -6,8 +6,8 @@
   "builderAliases": ["elem_output"],
   "notes": [{
     "name": "WhatWG Spec",
-    "href": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-output-element"
+    "href": "https://html.spec.whatwg.org/multipage/forms.html#the-output-element"
   }]
 }
 !*/
-define(["Modernizr","createElement"],function(e,t){e.addTest("outputelem","value"in t("output"))});
+define(["Modernizr","createElement"],function(A,e){A.addTest("outputelem","value"in e("output"))});

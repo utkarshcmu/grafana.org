@@ -6,7 +6,7 @@
   "tags": ["media"],
   "notes": [{
     "name": "W3C spec",
-    "href": "http://www.w3.org/TR/gamepad/"
+    "href": "https://www.w3.org/TR/gamepad/"
   },{
     "name": "HTML5 Rocks tutorial",
     "href": "http://www.html5rocks.com/en/tutorials/doodles/gamepad/#toc-featuredetect"
@@ -15,4 +15,4 @@
   "polyfills": []
 }
 !*/
-define(["Modernizr","prefixed"],function(e,t){e.addTest("gamepads",!!t("getGamepads",navigator))});
+define(["Modernizr","prefixed"],function(A,w){A.addTest("gamepads",!!w("getGamepads",navigator))});

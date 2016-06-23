@@ -4,8 +4,8 @@
   "property": "cssall",
   "notes": [{
     "name": "Spec",
-    "href": "http://dev.w3.org/csswg/css-cascade/#all-shorthand"
+    "href": "https://drafts.csswg.org/css-cascade/#all-shorthand"
   }]
 }
 !*/
-define(["Modernizr","docElement"],function(e,t){e.addTest("cssall","all"in t.style)});
+define(["Modernizr","docElement"],function(A,e){A.addTest("cssall","all"in e.style)});

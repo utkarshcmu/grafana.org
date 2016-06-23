@@ -5,16 +5,146 @@
   <id>http://grafana.org/blog</id>
   <link href="http://grafana.org/blog"/>
   <link href="http://grafana.org/feed.xml" rel="self"/>
-  <updated>2016-05-11T02:00:00+02:00</updated>
+  <updated>2016-06-23T02:00:00+02:00</updated>
   <author>
     <name>Grafana</name>
   </author>
+  <entry>
+    <title>Grafana 3.1 Beta Released</title>
+    <link rel="alternate" href="http://grafana.org/blog/2016/06/23/grafana-3-1-beta-released.html"/>
+    <id>http://grafana.org/blog/2016/06/23/grafana-3-1-beta-released.html</id>
+    <published>2016-06-23T02:00:00+02:00</published>
+    <updated>2016-06-23T13:15:45+02:00</updated>
+    <author>
+      <name>Torkel Ödegaard</name>
+    </author>
+    <content type="html">&lt;p&gt;Grafana 3.1 beta is now available for download! In this release we have focused on
+making monitoring more collaborative by enabling Grafana users to easily
+share and discover dashboard definitions. There is now a dashboards section in
+&lt;a href="https://grafana.net"&gt;Grafana.net&lt;/a&gt; where you can discover and share dashboards
+for popular infrastructure and server applications.&lt;/p&gt;
+
+&lt;h2 id="release-highlights"&gt;Release Highlights&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dashboard Repository&lt;/strong&gt; at &lt;a href="https://grafana.net"&gt;Grafana.net&lt;/a&gt;. You can now discover and upload dashboards.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dashboard&lt;/strong&gt; time range and variables values are now always synced with URL.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Constant Template Variable&lt;/strong&gt; have been added to make dashboard sharing easier (use as metric prefix).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Singlestat&lt;/strong&gt; can now map ranges to text.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Metrics&lt;/strong&gt; Grafana now supports sending metrics about itself.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/grafana/grafana/blob/master/CHANGELOG.md"&gt;Full changelog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="dashboard-export-amp-import"&gt;Dashboard Export &amp;amp; Import&lt;/h3&gt;
+
+&lt;p&gt;The export feature is now accessed from the share menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/assets/img/v31/export_menu.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dashboards exported from Grafana 3.1 are now more portable and easier for others to import than before.
+The export process extracts information from the dashboard, like what data source types are used by panels.
+This information is added to the exported dashboard defintion. So when you or another person tries to
+import the dashboard they will be asked to select data sources and any optional metric prefix.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/assets/img/v31/import_step1.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The above screenshot shows the new import modal that gives you 3 options for how to import a dashboard.
+One notable new addition here is the ability to import a Dashboards directly from &lt;a href="https://grafana.net"&gt;Grafana.net&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The next step in the import process:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/assets/img/v31/import_step2.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you can change the name of the dashboard and also pick what data sources you want the dashboard to use. The above screenshot
+shows a CollectD dashboard for Graphite that requires a metric prefix be specified.&lt;/p&gt;
+
+&lt;h3 id="discover-dashboards"&gt;Discover Dashboards&lt;/h3&gt;
+
+&lt;p&gt;On &lt;a href="https://grafana.net"&gt;Grafana.net&lt;/a&gt; you can now browse &amp;amp; search for dashboards. We have already added a few but
+more are being uploaded every day. To import a dashboard just copy the dashboard url and head back to Grafana.
+Open Dashboard Search -&amp;gt; Import -&amp;gt; Paste Grafana.net Dashboard URL.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/assets/img/v31/gnet_dashboards_list.png" /&gt;&lt;/p&gt;
+
+&lt;h3 id="share-dashboards"&gt;Share Dashboards&lt;/h3&gt;
+
+&lt;p&gt;If you have an awesome MongoDB, Nginx or Cassandra Dashboard why not share it with the rest of the world?&lt;/p&gt;
+
+&lt;p&gt;Start by creating a &lt;a href="https://grafana.net"&gt;Grafana.net&lt;/a&gt; account and login. Then head over to your profile page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/assets/img/blog/v3.1/gnet_header.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;From there click on My Dashboards tab and then &lt;code class="prettyprint"&gt;Upload Dashboard&lt;/code&gt; button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/assets/img/blog/v3.1/gnet_profile_dashboards.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pick the dashboard json file that you exported from Grafana. At this point we only accept dashboards exported from Grafana v3.1+ as only
+those dashboards contain information about what data source types the panels use.&lt;/p&gt;
+
+&lt;p&gt;After hitting &lt;code class="prettyprint"&gt;Upload Dashboard&lt;/code&gt; button you will be taken to the dashboard page where you can modify dashboard name, description,
+add screenshots and most importantly you can write a detailed README (in Markdown) explaining the config you use for the metric collectors
+(CollectD or similar).&lt;/p&gt;
+
+&lt;p&gt;When you are happy with everything you can publish the Dashboard which will make it publicly accessible.&lt;/p&gt;
+
+&lt;h3 id="dashboard-urls"&gt;Dashboard Urls&lt;/h3&gt;
+
+&lt;p&gt;In Grafana 3.1 the current time range and template variables values are always synced to the URL. This makes it possible to always copy your current
+Grafana url to share with a colleague without having to use the Share modal.&lt;/p&gt;
+
+&lt;h3 id="internal-metrics"&gt;Internal metrics&lt;/h3&gt;
+
+&lt;p&gt;Do you want metrics about viewing metrics? Of course you do! In this release we added support for sending metrics about Grafana to graphite.
+You can configure interval and server in the config file.&lt;/p&gt;
+
+&lt;h3 id="breaking-changes"&gt;Breaking changes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Logging&lt;/strong&gt; format have been changed to improve log filtering.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Graphite PNG&lt;/strong&gt; Graphite PNG support dropped from Graph panel (use Grafana native PNG instead).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Migration&lt;/strong&gt; No longer possible to migrate dashboards from 1.x (Stored in ES or Influx 0.8).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="alerting-update"&gt;Alerting update&lt;/h3&gt;
+
+&lt;p&gt;We have been hard at work on alerting for a long time now and are making substantial progress. This
+is a much anticipated and important feature and we want to get it right. It is not ready to be
+released in v3.1. But we hope to merge it to master soon after 3.1 stable is released.&lt;/p&gt;
+
+&lt;p&gt;Here is an update showing you how you can set alert thresholds by visually dragging level handles.
+&lt;img src="/assets/img/blog/v3.1/alerting_short.gif" /&gt;&lt;/p&gt;
+
+&lt;h3 id="thanks"&gt;Thanks&lt;/h3&gt;
+
+&lt;p&gt;A big thanks to all the Grafana users who contribute by submitting PRs, bug reports &amp;amp; feedback!&lt;/p&gt;
+
+&lt;div class=""&gt;
+&lt;a class="button secondary radius" href="/download"&gt;Download Grafana 3.1&lt;/a&gt;.
+&lt;a class="button primary radius" href="http://play.grafana.org" target="_blank"&gt;Live Demo&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;h4 id="subscribe-to-project-updates"&gt;Subscribe to project updates&lt;/h4&gt;
+
+&lt;section class="newsletter"&gt;
+  &lt;form action="http://grafana.us8.list-manage.com/subscribe/post?u=2aeb5711db2aececc990be536&amp;amp;id=5585d37ecc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"&gt;
+    &lt;row class="collapse"&gt;
+      &lt;div class="medium-10 columns"&gt;
+        &lt;input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address"&gt;
+      &lt;/div&gt;
+      &lt;div class="medium-2 columns"&gt;
+        &lt;input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button postfix"&gt;
+      &lt;/div&gt;
+    &lt;/row&gt;
+  &lt;/form&gt;
+&lt;/section&gt;
+</content>
+  </entry>
   <entry>
     <title>Grafana 3.0 Stable Released</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/05/11/grafana-3-0-stable-released.html"/>
     <id>http://grafana.org/blog/2016/05/11/grafana-3-0-stable-released.html</id>
     <published>2016-05-11T02:00:00+02:00</published>
-    <updated>2016-05-11T11:13:36+02:00</updated>
+    <updated>2016-06-23T09:08:49+02:00</updated>
     <author>
       <name>Torkel Ödegaard</name>
     </author>
@@ -167,7 +297,7 @@ created and maintained by &lt;a href="https://github.com/alexanderzobnin/grafana
     <link rel="alternate" href="http://grafana.org/blog/2016/04/15/clock-plugin-p2.html"/>
     <id>http://grafana.org/blog/2016/04/15/clock-plugin-p2.html</id>
     <published>2016-04-15T02:00:00+02:00</published>
-    <updated>2016-05-10T12:40:48+02:00</updated>
+    <updated>2016-06-23T09:08:49+02:00</updated>
     <author>
       <name>Daniel Lee</name>
     </author>
@@ -339,7 +469,7 @@ created and maintained by &lt;a href="https://github.com/alexanderzobnin/grafana
     <link rel="alternate" href="http://grafana.org/blog/2016/04/08/clock-plugin-p1.html"/>
     <id>http://grafana.org/blog/2016/04/08/clock-plugin-p1.html</id>
     <published>2016-04-08T02:00:00+02:00</published>
-    <updated>2016-05-10T12:40:52+02:00</updated>
+    <updated>2016-06-23T09:08:49+02:00</updated>
     <author>
       <name>Daniel Lee</name>
     </author>
@@ -626,7 +756,7 @@ npm install lodash --save
     <link rel="alternate" href="http://grafana.org/blog/2016/03/31/grafana-3-0-beta-released.html"/>
     <id>http://grafana.org/blog/2016/03/31/grafana-3-0-beta-released.html</id>
     <published>2016-03-31T02:00:00+02:00</published>
-    <updated>2016-04-29T11:05:43+02:00</updated>
+    <updated>2016-04-05T00:01:40+02:00</updated>
     <author>
       <name>Torkel Ödegaard</name>
     </author>
@@ -849,7 +979,7 @@ file.&lt;/p&gt;
     <link rel="alternate" href="http://grafana.org/blog/2016/01/19/Grafana-Its-Rocket-Science.html"/>
     <id>http://grafana.org/blog/2016/01/19/Grafana-Its-Rocket-Science.html</id>
     <published>2016-01-19T01:00:00+01:00</published>
-    <updated>2016-02-19T16:11:55+01:00</updated>
+    <updated>2016-03-02T12:09:54+01:00</updated>
     <author>
       <name>Raj Dutt</name>
     </author>
@@ -883,58 +1013,6 @@ file.&lt;/p&gt;
 
 &lt;div style="font-size:75%"&gt;&lt;em&gt;Main photo courtesy of NASA&lt;/em&gt;&lt;/div&gt;
  
-
-&lt;h4 id="thanks-to-project-sponsors"&gt;Thanks to project sponsors&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://raintank.io"&gt;Raintank&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.squarespace.com"&gt;Squarespace&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.dreamhost.com"&gt;Dreamhost&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.demonware.net"&gt;Demonware&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://developer.mediamath.com/OpenSource"&gt;Mediamath&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Grafana 2.6.0 Released</title>
-    <link rel="alternate" href="http://grafana.org/blog/2015/12/14/Grafana-2-6-Released.html"/>
-    <id>http://grafana.org/blog/2015/12/14/Grafana-2-6-Released.html</id>
-    <published>2015-12-14T01:00:00+01:00</published>
-    <updated>2016-02-19T16:11:55+01:00</updated>
-    <author>
-      <name>Torkel Ödegaard</name>
-    </author>
-    <content type="html">&lt;p&gt;We are proud to announce the v2.6.0 stable release. This release includes a new &lt;a href="http://docs.grafana.org/reference/table_panel"&gt;Table panel&lt;/a&gt;,
-an example of which you can see below.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/assets/img/features/table-panel.png"&gt;&lt;/p&gt;
-
-&lt;p&gt;This new flexible panel enables multiple ways for visualizing time series and logs in a tabular format. The release also includes a new InfluxDB query editor,
-support for Elasticsearch pipeline aggregations, support for multiple Cloudwatch credentials and a ton of minor
-fixes and improvements.&lt;/p&gt;
-
-&lt;p&gt;Check out the &lt;a href="http://docs.grafana.org/guides/whats-new-in-v2-6"&gt;What&amp;rsquo;s New In Grafana v2.6&lt;/a&gt; article
-for more info on new features. There is also a &lt;a href="http://play.grafana.org/dashboard/db/new-features-in-v2-6"&gt;Demo dashboard&lt;/a&gt;
-at the demo site where you can play with the new panel and InfluxDB editor.&lt;/p&gt;
-
-&lt;div class="text-center"&gt;
-  &lt;a class="button secondary radius" href="/download"&gt;Download Grafana 2.6 now&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Upgrading from any previous 2.x version is safe, dashboards are backward compatible.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://docs.grafana.org/installation/debian/"&gt;Installing on Debian / Ubuntu&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://docs.grafana.org/installation/rpm/"&gt;Installing on RPM-based Linux (CentOS, Fedora, OpenSuse, RedHat)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://docs.grafana.org/installation/docker/"&gt;Installing via Docker&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="changelog"&gt;Changelog&lt;/h3&gt;
-
-&lt;p&gt;For a detailed list and link to github issues for everything included in the 2.6 release please
-view the &lt;a href="https://github.com/grafana/grafana/blob/master/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt; file.&lt;/p&gt;
-
-&lt;hr&gt;
 
 &lt;h4 id="thanks-to-project-sponsors"&gt;Thanks to project sponsors&lt;/h4&gt;
 
