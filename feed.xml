@@ -14,13 +14,13 @@
     <link rel="alternate" href="http://grafana.org/blog/2016/06/23/grafana-3-1-beta-released.html"/>
     <id>http://grafana.org/blog/2016/06/23/grafana-3-1-beta-released.html</id>
     <published>2016-06-23T02:00:00+02:00</published>
-    <updated>2016-06-23T16:10:03+02:00</updated>
+    <updated>2016-06-23T16:11:34+02:00</updated>
     <author>
       <name>Torkel Ödegaard</name>
     </author>
     <content type="html">&lt;p&gt;Grafana 3.1 beta is now available for download! In this release we have focused on
 making monitoring more collaborative by enabling Grafana users to easily
-share and discover dashboard definitions. There is now a dashboards section in
+share and discover dashboard definitions. There is now a dashboards section no
 &lt;a href="https://grafana.net"&gt;Grafana.net&lt;/a&gt; where you can discover and share dashboards
 for popular infrastructure and server applications.&lt;/p&gt;
 
