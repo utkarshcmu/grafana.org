@@ -58,7 +58,7 @@ Start by creating a [Grafana.net](https://grafana.net) account and login. Then h
 
 ![](/assets/img/blog/v3.1/gnet_profile_dashboards.png)
 
-From there click on My Dashboards tab and then `Upload Dashboard` button.
+From there click on Dashboards then the `Add Dashboard` button.
 
 Pick the dashboard json file that you exported from Grafana. At this point we only accept dashboards exported from Grafana v3.1+ as only
 those dashboards contain information about what data source types the panels use.
