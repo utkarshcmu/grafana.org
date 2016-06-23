@@ -56,11 +56,9 @@ If you have an awesome MongoDB, Nginx or Cassandra Dashboard why not share it wi
 
 Start by creating a [Grafana.net](https://grafana.net) account and login. Then head over to your profile page.
 
-![](/assets/img/blog/v3.1/gnet_header.png)
+![](/assets/img/blog/v3.1/gnet_profile_dashboards.png)
 
 From there click on My Dashboards tab and then `Upload Dashboard` button.
-
-![](/assets/img/blog/v3.1/gnet_profile_dashboards.png)
 
 Pick the dashboard json file that you exported from Grafana. At this point we only accept dashboards exported from Grafana v3.1+ as only
 those dashboards contain information about what data source types the panels use.
