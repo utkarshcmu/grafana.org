@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://grafana.org/blog/2016/06/23/grafana-3-1-beta-released.html"/>
     <id>http://grafana.org/blog/2016/06/23/grafana-3-1-beta-released.html</id>
     <published>2016-06-23T02:00:00+02:00</published>
-    <updated>2016-06-23T16:11:34+02:00</updated>
+    <updated>2016-06-23T16:23:48+02:00</updated>
     <author>
       <name>Torkel Ödegaard</name>
     </author>
@@ -74,7 +74,7 @@ Open Dashboard Search -&amp;gt; Import -&amp;gt; Paste Grafana.net Dashboard URL
 
 &lt;p&gt;&lt;img src="/assets/img/blog/v3.1/gnet_profile_dashboards.png" /&gt;&lt;/p&gt;
 
-&lt;p&gt;From there click on My Dashboards tab and then &lt;code class="prettyprint"&gt;Upload Dashboard&lt;/code&gt; button.&lt;/p&gt;
+&lt;p&gt;From there click on Dashboards then the &lt;code class="prettyprint"&gt;Add Dashboard&lt;/code&gt; button.&lt;/p&gt;
 
 &lt;p&gt;Pick the dashboard json file that you exported from Grafana. At this point we only accept dashboards exported from Grafana v3.1+ as only
 those dashboards contain information about what data source types the panels use.&lt;/p&gt;
