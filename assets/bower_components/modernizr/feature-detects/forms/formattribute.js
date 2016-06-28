@@ -6,4 +6,4 @@
   "builderAliases": ["forms_formattribute"]
 }
 !*/
-define(["Modernizr","createElement","docElement"],function(A,e,t){A.addTest("formattribute",function(){var A,n=e("form"),i=e("input"),r=e("div"),o="formtest"+(new Date).getTime(),d=!1;n.id=o;try{i.setAttribute("form",o)}catch(a){document.createAttribute&&(A=document.createAttribute("form"),A.nodeValue=o,i.setAttributeNode(A))}return r.appendChild(n),r.appendChild(i),t.appendChild(r),d=n.elements&&1===n.elements.length&&i.form==n,r.parentNode.removeChild(r),d})});
+define(["Modernizr","createElement","docElement"],function(e,r,t){e.addTest("formattribute",function(){var e,n=r("form"),a=r("input"),o=r("div"),i="formtest"+(new Date).getTime(),l=!1;n.id=i;try{a.setAttribute("form",i)}catch(s){document.createAttribute&&(e=document.createAttribute("form"),e.nodeValue=i,a.setAttributeNode(e))}return o.appendChild(n),o.appendChild(a),t.appendChild(o),l=n.elements&&1===n.elements.length&&a.form==n,o.parentNode.removeChild(o),l})});

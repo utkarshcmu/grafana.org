@@ -17,4 +17,4 @@
   "polyfills": ["fakeworker", "html5shims"]
 }
 !*/
-define(["Modernizr"],function(A){A.addTest("webworkers","Worker"in window)});
+define(["Modernizr"],function(e){e.addTest("webworkers","Worker"in window)});

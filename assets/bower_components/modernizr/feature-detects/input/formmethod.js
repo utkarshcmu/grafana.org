@@ -14,4 +14,4 @@
   ]
 }
 !*/
-define(["Modernizr","createElement"],function(A,w){A.addTest("inputformmethod",!!("formMethod"in w("input")))});
+define(["Modernizr","createElement"],function(e,A){e.addTest("inputformmethod",!!("formMethod"in A("input")))});

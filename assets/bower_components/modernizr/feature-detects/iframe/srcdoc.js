@@ -10,4 +10,4 @@
   }]
 }
 !*/
-define(["Modernizr","createElement"],function(e,t){e.addTest("srcdoc","srcdoc"in t("iframe"))});
+define(["Modernizr","createElement"],function(e,n){e.addTest("srcdoc","srcdoc"in n("iframe"))});

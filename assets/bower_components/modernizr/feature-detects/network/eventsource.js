@@ -10,4 +10,4 @@
   }]
 }
 !*/
-define(["Modernizr"],function(A){A.addTest("eventsource","EventSource"in window)});
+define(["Modernizr"],function(e){e.addTest("eventsource","EventSource"in window)});

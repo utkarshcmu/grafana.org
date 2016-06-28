@@ -15,4 +15,4 @@
   "knownBugs": ["False negative on some Chromia browsers."]
 }
 !*/
-define(["Modernizr","createElement"],function(A,e){A.addTest("inlinesvg",function(){var A=e("div");return A.innerHTML="<svg/>","http://www.w3.org/2000/svg"==("undefined"!=typeof SVGRect&&A.firstChild&&A.firstChild.namespaceURI)})});
+define(["Modernizr","createElement"],function(e,n){e.addTest("inlinesvg",function(){var e=n("div");return e.innerHTML="<svg/>","http://www.w3.org/2000/svg"==("undefined"!=typeof SVGRect&&e.firstChild&&e.firstChild.namespaceURI)})});

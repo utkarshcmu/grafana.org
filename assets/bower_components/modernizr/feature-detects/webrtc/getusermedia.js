@@ -12,4 +12,4 @@
   "polyfills": ["getusermedia"]
 }
 !*/
-define(["Modernizr","prefixed"],function(A,e){A.addTest("getusermedia",!!e("getUserMedia",navigator))});
+define(["Modernizr","prefixed"],function(e,A){e.addTest("getusermedia",!!A("getUserMedia",navigator))});

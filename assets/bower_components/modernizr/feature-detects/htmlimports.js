@@ -16,4 +16,4 @@
   "tags": ["html", "import"]
 }
 !*/
-define(["addTest","createElement"],function(A,w){A("htmlimports","import"in w("link"))});
+define(["addTest","createElement"],function(e,t){e("htmlimports","import"in t("link"))});

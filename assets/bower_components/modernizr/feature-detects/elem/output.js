@@ -10,4 +10,4 @@
   }]
 }
 !*/
-define(["Modernizr","createElement"],function(A,e){A.addTest("outputelem","value"in e("output"))});
+define(["Modernizr","createElement"],function(e,t){e.addTest("outputelem","value"in t("output"))});

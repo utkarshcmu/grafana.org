@@ -12,4 +12,4 @@
   "tags": ["es6"]
 }
 !*/
-define(["Modernizr"],function(A){A.addTest("es6collections",!!(window.Map&&window.Set&&window.WeakMap&&window.WeakSet))});
+define(["Modernizr"],function(e){e.addTest("es6collections",!!(window.Map&&window.Set&&window.WeakMap&&window.WeakSet))});

@@ -11,4 +11,4 @@
  }]
  }
  !*/
-define(["Modernizr","prefixed"],function(A,e){A.addTest("intl",!!e("Intl",window))});
+define(["Modernizr","prefixed"],function(e,A){e.addTest("intl",!!A("Intl",window))});

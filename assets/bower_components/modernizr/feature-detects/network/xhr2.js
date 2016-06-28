@@ -13,4 +13,4 @@
   }]
 }
 !*/
-define(["Modernizr"],function(A){A.addTest("xhr2","XMLHttpRequest"in window&&"withCredentials"in new XMLHttpRequest)});
+define(["Modernizr"],function(e){e.addTest("xhr2","XMLHttpRequest"in window&&"withCredentials"in new XMLHttpRequest)});

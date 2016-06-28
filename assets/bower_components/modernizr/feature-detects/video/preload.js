@@ -5,4 +5,4 @@
   "tags": ["video", "media"]
 }
 !*/
-define(["Modernizr","createElement"],function(A,e){A.addTest("videopreload","preload"in e("video"))});
+define(["Modernizr","createElement"],function(e,A){e.addTest("videopreload","preload"in A("video"))});

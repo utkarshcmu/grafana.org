@@ -11,4 +11,4 @@
   }]
 }
 !*/
-define(["Modernizr","prefixed"],function(A,e){A.addTest("vibrate",!!e("vibrate",navigator))});
+define(["Modernizr","prefixed"],function(e,n){e.addTest("vibrate",!!n("vibrate",navigator))});

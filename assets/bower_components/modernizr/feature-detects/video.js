@@ -17,4 +17,4 @@
   ]
 }
 !*/
-define(["Modernizr","createElement"],function(A,e){A.addTest("video",function(){var A=e("video"),w=!1;try{(w=!!A.canPlayType)&&(w=new Boolean(w),w.ogg=A.canPlayType('video/ogg; codecs="theora"').replace(/^no$/,""),w.h264=A.canPlayType('video/mp4; codecs="avc1.42E01E"').replace(/^no$/,""),w.webm=A.canPlayType('video/webm; codecs="vp8, vorbis"').replace(/^no$/,""),w.vp9=A.canPlayType('video/webm; codecs="vp9"').replace(/^no$/,""),w.hls=A.canPlayType('application/x-mpegURL; codecs="avc1.42E01E"').replace(/^no$/,""))}catch(n){}return w})});
+define(["Modernizr","createElement"],function(e,A){e.addTest("video",function(){var e=A("video"),n=!1;try{(n=!!e.canPlayType)&&(n=new Boolean(n),n.ogg=e.canPlayType('video/ogg; codecs="theora"').replace(/^no$/,""),n.h264=e.canPlayType('video/mp4; codecs="avc1.42E01E"').replace(/^no$/,""),n.webm=e.canPlayType('video/webm; codecs="vp8, vorbis"').replace(/^no$/,""),n.vp9=e.canPlayType('video/webm; codecs="vp9"').replace(/^no$/,""),n.hls=e.canPlayType('application/x-mpegURL; codecs="avc1.42E01E"').replace(/^no$/,""))}catch(t){}return n})});

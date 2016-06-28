@@ -10,4 +10,4 @@
   }]
 }
 !*/
-define(["Modernizr","toStringFn"],function(A,e){A.addTest("smil",function(){return!!document.createElementNS&&/SVGAnimate/.test(e.call(document.createElementNS("http://www.w3.org/2000/svg","animate")))})});
+define(["Modernizr","toStringFn"],function(e,n){e.addTest("smil",function(){return!!document.createElementNS&&/SVGAnimate/.test(n.call(document.createElementNS("http://www.w3.org/2000/svg","animate")))})});

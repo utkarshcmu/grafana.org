@@ -9,4 +9,4 @@
   }]
 }
 !*/
-define(["Modernizr","testXhrType"],function(A,e){A.addTest("xhrresponsetypeblob",e("blob"))});
+define(["Modernizr","testXhrType"],function(e,n){e.addTest("xhrresponsetypeblob",n("blob"))});

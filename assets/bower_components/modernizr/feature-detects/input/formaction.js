@@ -15,4 +15,4 @@
   ]
 }
 !*/
-define(["Modernizr","createElement"],function(A,w){A.addTest("inputformaction",!!("formAction"in w("input")),{aliases:["input-formaction"]})});
+define(["Modernizr","createElement"],function(e,A){e.addTest("inputformaction",!!("formAction"in A("input")),{aliases:["input-formaction"]})});

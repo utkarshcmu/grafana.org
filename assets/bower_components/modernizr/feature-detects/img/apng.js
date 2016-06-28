@@ -11,4 +11,4 @@
   }]
 }
 !*/
-define(["Modernizr","createElement","addTest","test/canvas"],function(A,w,e){A.addAsyncTest(function(){if(!A.canvas)return!1;var D=new Image,P=w("canvas"),n=P.getContext("2d");D.onload=function(){e("apng",function(){return"undefined"==typeof P.getContext?!1:(n.drawImage(D,0,0),0===n.getImageData(0,0,1,1).data[3])})},D.src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACGFjVEwAAAABAAAAAcMq2TYAAAANSURBVAiZY2BgYPgPAAEEAQB9ssjfAAAAGmZjVEwAAAAAAAAAAQAAAAEAAAAAAAAAAAD6A+gBAbNU+2sAAAARZmRBVAAAAAEImWNgYGBgAAAABQAB6MzFdgAAAABJRU5ErkJggg=="})});
+define(["Modernizr","createElement","addTest","test/canvas"],function(e,n,t){e.addAsyncTest(function(){if(!e.canvas)return!1;var r=new Image,i=n("canvas"),o=i.getContext("2d");r.onload=function(){t("apng",function(){return"undefined"==typeof i.getContext?!1:(o.drawImage(r,0,0),0===o.getImageData(0,0,1,1).data[3])})},r.src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACGFjVEwAAAABAAAAAcMq2TYAAAANSURBVAiZY2BgYPgPAAEEAQB9ssjfAAAAGmZjVEwAAAAAAAAAAQAAAAEAAAAAAAAAAAD6A+gBAbNU+2sAAAARZmRBVAAAAAEImWNgYGBgAAAABQAB6MzFdgAAAABJRU5ErkJggg=="})});

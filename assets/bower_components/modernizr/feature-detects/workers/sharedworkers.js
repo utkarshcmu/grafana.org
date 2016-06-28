@@ -11,4 +11,4 @@
   }]
 }
 !*/
-define(["Modernizr"],function(A){A.addTest("sharedworkers","SharedWorker"in window)});
+define(["Modernizr"],function(e){e.addTest("sharedworkers","SharedWorker"in window)});

@@ -15,4 +15,4 @@
   "polyfills": ["perfnow"]
 }
 !*/
-define(["Modernizr","prefixed"],function(A,e){A.addTest("performance",!!e("performance",window))});
+define(["Modernizr","prefixed"],function(e,n){e.addTest("performance",!!n("performance",window))});

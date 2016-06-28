@@ -10,4 +10,4 @@
   }]
 }
 !*/
-define(["Modernizr","prefixed"],function(A,e){A.addTest("quotamanagement",function(){var A=e("temporaryStorage",navigator),t=e("persistentStorage",navigator);return!(!A||!t)})});
+define(["Modernizr","prefixed"],function(e,n){e.addTest("quotamanagement",function(){var e=n("temporaryStorage",navigator),t=n("persistentStorage",navigator);return!(!e||!t)})});

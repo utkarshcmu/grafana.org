@@ -7,4 +7,4 @@
   "polyfills": ["indexeddb"]
 }
 !*/
-define(["Modernizr","prefixed"],function(A,e){var t;try{t=e("indexedDB",window)}catch(n){}A.addTest("indexeddb",!!t),t&&A.addTest("indexeddb.deletedatabase","deleteDatabase"in t)});
+define(["Modernizr","prefixed"],function(e,A){var n;try{n=A("indexedDB",window)}catch(t){}e.addTest("indexeddb",!!n),n&&e.addTest("indexeddb.deletedatabase","deleteDatabase"in n)});

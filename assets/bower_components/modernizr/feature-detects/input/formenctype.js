@@ -15,4 +15,4 @@
   ]
 }
 !*/
-define(["Modernizr","createElement"],function(A,w){A.addTest("inputformenctype",!!("formEnctype"in w("input")),{aliases:["input-formenctype"]})});
+define(["Modernizr","createElement"],function(e,A){e.addTest("inputformenctype",!!("formEnctype"in A("input")),{aliases:["input-formenctype"]})});

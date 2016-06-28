@@ -11,4 +11,4 @@
   "builderAliases": ["web_intents"]
 }
 !*/
-define(["Modernizr","prefixed"],function(A,w){A.addTest("webintents",!!w("startActivity",navigator))});
+define(["Modernizr","prefixed"],function(e,A){e.addTest("webintents",!!A("startActivity",navigator))});

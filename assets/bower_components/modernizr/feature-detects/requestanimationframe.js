@@ -13,4 +13,4 @@
   "polyfills": ["raf"]
 }
 !*/
-define(["Modernizr","prefixed"],function(A,e){A.addTest("requestanimationframe",!!e("requestAnimationFrame",window),{aliases:["raf"]})});
+define(["Modernizr","prefixed"],function(e,n){e.addTest("requestanimationframe",!!n("requestAnimationFrame",window),{aliases:["raf"]})});

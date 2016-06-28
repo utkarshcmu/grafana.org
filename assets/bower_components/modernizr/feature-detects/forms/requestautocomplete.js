@@ -9,4 +9,4 @@
   }]
 }
 !*/
-define(["Modernizr","createElement","prefixed"],function(A,e,t){A.addTest("requestautocomplete",!!t("requestAutocomplete",e("form")))});
+define(["Modernizr","createElement","prefixed"],function(e,t,r){e.addTest("requestautocomplete",!!r("requestAutocomplete",t("form")))});

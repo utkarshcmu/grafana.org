@@ -15,4 +15,4 @@
   }]
 }
 !*/
-define(["Modernizr","test/input"],function(A){A.addTest("datalistelem",A.input.list)});
+define(["Modernizr","test/input"],function(e){e.addTest("datalistelem",e.input.list)});

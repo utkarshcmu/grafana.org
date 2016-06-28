@@ -17,4 +17,4 @@
   ]
 }
 !*/
-define(["Modernizr","prefixes","testStyles"],function(A,e,t){A.addTest("touchevents",function(){var A;if("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)A=!0;else{var n=["@media (",e.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");t(n,function(e){A=9===e.offsetTop})}return A})});
+define(["Modernizr","prefixes","testStyles"],function(e,n,t){e.addTest("touchevents",function(){var e;if("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)e=!0;else{var i=["@media (",n.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");t(i,function(n){e=9===n.offsetTop})}return e})});

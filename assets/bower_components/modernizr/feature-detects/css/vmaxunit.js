@@ -14,4 +14,4 @@
   }]
 }
 !*/
-define(["Modernizr","docElement","testStyles","roundedEquals"],function(A,e,t,n){t("#modernizr1{width: 50vmax}#modernizr2{width:50px;height:50px;overflow:scroll}#modernizr3{position:fixed;top:0;left:0;bottom:0;right:0}",function(e){var t=e.childNodes[2],i=e.childNodes[1],o=e.childNodes[0],r=parseInt((i.offsetWidth-i.clientWidth)/2,10),d=o.clientWidth/100,a=o.clientHeight/100,s=parseInt(50*Math.max(d,a),10),w=parseInt((window.getComputedStyle?getComputedStyle(t,null):t.currentStyle).width,10);A.addTest("cssvmaxunit",n(s,w)||n(s,w-r))},3)});
+define(["Modernizr","docElement","testStyles","roundedEquals"],function(e,t,n,i){n("#modernizr1{width: 50vmax}#modernizr2{width:50px;height:50px;overflow:scroll}#modernizr3{position:fixed;top:0;left:0;bottom:0;right:0}",function(t){var n=t.childNodes[2],r=t.childNodes[1],o=t.childNodes[0],s=parseInt((r.offsetWidth-r.clientWidth)/2,10),a=o.clientWidth/100,c=o.clientHeight/100,l=parseInt(50*Math.max(a,c),10),u=parseInt((window.getComputedStyle?getComputedStyle(n,null):n.currentStyle).width,10);e.addTest("cssvmaxunit",i(l,u)||i(l,u-s))},3)});

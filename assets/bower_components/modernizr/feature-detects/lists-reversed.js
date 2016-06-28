@@ -9,4 +9,4 @@
   "builderAliases": ["lists_reversed"]
 }
 !*/
-define(["Modernizr","createElement"],function(A,e){A.addTest("olreversed","reversed"in e("ol"))});
+define(["Modernizr","createElement"],function(e,n){e.addTest("olreversed","reversed"in n("ol"))});
