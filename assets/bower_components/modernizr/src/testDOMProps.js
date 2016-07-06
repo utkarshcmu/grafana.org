@@ -1,1 +1,0 @@
-define(["is","fnBind"],function(t,e){function n(n,i,r){var o;for(var s in n)if(n[s]in i)return r===!1?n[s]:(o=i[n[s]],t(o,"function")?e(o,r||i):o);return!1}return n});

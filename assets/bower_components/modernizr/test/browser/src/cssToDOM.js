@@ -1,1 +1,0 @@
-describe("cssToDOM",function(){var e,t;before(function(n){var i=requirejs.config({context:Math.random().toString().slice(2),baseUrl:"../src",paths:{cleanup:"../test/cleanup"}});i(["cssToDOM","cleanup"],function(i,r){e=i,t=r,n()})}),it("converts kebab to camel",function(){expect(e("fake-detect")).to.equal("fakeDetect")}),after(function(){t()})});

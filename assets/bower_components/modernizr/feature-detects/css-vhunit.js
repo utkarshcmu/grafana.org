@@ -1,0 +1,1 @@
+Modernizr.addTest("cssvhunit",function(){var t;return Modernizr.testStyles("#modernizr { height: 50vh; }",function(e,n){var o=parseInt(window.innerHeight/2,10),i=parseInt((window.getComputedStyle?getComputedStyle(e,null):e.currentStyle).height,10);t=i==o}),t});

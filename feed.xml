@@ -5,16 +5,73 @@
   <id>http://grafana.org/blog</id>
   <link href="http://grafana.org/blog"/>
   <link href="http://grafana.org/feed.xml" rel="self"/>
-  <updated>2016-06-22T17:00:00-07:00</updated>
+  <updated>2016-07-05T20:00:00-04:00</updated>
   <author>
     <name>Grafana</name>
   </author>
   <entry>
+    <title>Dear Graphite Users and Developers</title>
+    <link rel="alternate" href="http://grafana.org/blog/2016/07/06/dear-graphite-users-and-developers.html"/>
+    <id>http://grafana.org/blog/2016/07/06/dear-graphite-users-and-developers.html</id>
+    <published>2016-07-05T20:00:00-04:00</published>
+    <updated>2016-07-06T13:19:32-04:00</updated>
+    <author>
+      <name>Raj Dutt</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="/assets/img/v2/graphite.png"&gt;&lt;/p&gt;
+
+&lt;p&gt;My name is Raj Dutt, and I am the co-founder and CEO of raintank, Inc.&lt;/p&gt;
+
+&lt;p&gt;As many of you know, raintank is the company behind Grafana, which our co-founder Torkel created as a front-end for Graphite almost 3 years ago. Today, Grafana supports dozens of different time series databases.&lt;/p&gt;
+
+&lt;p&gt;Overall, we think Graphite is pretty awesome. &lt;/p&gt;
+
+&lt;p&gt;Originally written by Chris Davis at Orbitz in 2006, it has helped many thousands of companies achieve a quantum leap in how they handled their metrics. Over the last year, I’ve had conversations with hundreds of Grafana users who love and depend on Graphite.&lt;/p&gt;
+
+&lt;p&gt;Torkel, our co-founder, and the creator of Grafana, says “Graphite” every time he’s asked which time series database he’d recommend:&lt;/p&gt;
+
+&lt;p&gt;&lt;q class="quote"&gt;Graphite is still king when it comes to its query capabilities, no other TSDB supports the rich analytics, nested queries, group by’s and transforms that Graphite gives you.&lt;span style="float:right; font-weight:bold; margin-top:10px; margin-right:10px; padding-bottom:20px;"&gt;–Torkel Odegaard&lt;/span&gt;&lt;/q&gt;&lt;/p&gt;
+
+&lt;p&gt;Indeed, even 10 years later, Graphite leads the field in the expressiveness and power of its query language, and how simple it is to send metrics into. It’s a very stable and well understood piece of software, for all of its warts.  Best of all, it’s completely open source.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, it’s definitely beginning to show its age. There’s lots of lessons learned in the last decade. In general, it’s not very loved these days, especially relative to all the value it’s bringing to the world. In many of the conversations I’ve had, concerns about the overall health and velocity of the project is expressed.&lt;/p&gt;
+
+&lt;p&gt;At raintank, this situation saddens us. &lt;/p&gt;
+
+&lt;p&gt;Together with the Grafana community, we want to help revive Graphite, and give it some much needed resources and momentum. We recognize that we don’t own or control the Graphite project, and we’d like to be good members of the community.&lt;/p&gt;
+
+&lt;p&gt;A few weeks ago, Jason Dixon, the unofficial shepherd of the Graphite project, and organizer of Monitorama joined the raintank team. When I first went down to Baltimore to talk to Jason about what we were doing, I was really impressed with his passion for the Graphite project, and open-source in general.&lt;/p&gt;
+
+&lt;p&gt;I’m so excited that that passion is going to be more focused on the Graphite project. &lt;/p&gt;
+
+&lt;p&gt;Actions speak louder than words, so here’s what we’re doing:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;We’re putting some effort into propping up the Graphite project itself. Now that Jason’s day job is all about Graphite, things like this can move more quickly. The effort started months ago, in the open, like everything we build at raintank. &lt;a href="http://graphiteapp.org"&gt;Getting a new website up&lt;/a&gt; is the first step in a long road of better promoting the project, and reducing friction for both users and developers. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We will be announcing Enterprise Support Subscriptions for Graphite very soon. Graphite support will be bundled with Grafana support at no additional charge on all of our support offerings. We will also be announcing a hosted Graphite-compatible offering on grafana.net&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We’re going to be organizing events around Graphite, so that Graphite users can come together and share their Graphite stories, and learn from each other. We are a tremendously large community, and there’s so much opportunity for cross-pollination.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We’re thinking about how to improve Graphite itself. The first step will be to better maintain and support the existing code base, but there are a few key areas we’re thinking a lot about (and even already working on in some cases):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Graphite doesn’t support series dimensionality; it doesn’t do “tags”. Everything has to be encoded in the series name itself. While super-simple, this can also be very limiting. Especially with the way infrastructure is run today.&lt;/li&gt;
+&lt;li&gt;Performance could be better. There’s been some talk and some effort (hi &lt;a href="https://twitter.com/dgryski"&gt;@dgryski&lt;/a&gt;) about re-writing the CPU intensive API bits in Go. Whisper in particular could be replaced. Graphite could learn from the methods documented in tricks of the Facebook Gorilla paper.&lt;/li&gt;
+&lt;li&gt;It can be a bit challenging to install, tune, and scale a large Graphite cluster. The experience for new and extremely large users can be a bit overwhelming.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most Graphite users are also Grafana users, so this is very well aligned with our overall “&lt;a href="https://blog.raintank.io/democratize-metrics-sounds-interesting-but-what-does-it-mean/"&gt;democratize metrics&lt;/a&gt;” mission at raintank.&lt;/p&gt;
+
+&lt;p&gt;We are a small, not-quite-profitable company of 11 people who are really into open source monitoring. &lt;/p&gt;
+
+&lt;p&gt;There’s no way we can do this alone. We’re going to need your help. Our goal is a smooth path forward, and a continued story, for the wealth of existing Graphite users.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Grafana 3.1 Beta Released</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/06/23/grafana-3-1-beta-released.html"/>
     <id>http://grafana.org/blog/2016/06/23/grafana-3-1-beta-released.html</id>
-    <published>2016-06-22T17:00:00-07:00</published>
-    <updated>2016-06-28T13:05:09-07:00</updated>
+    <published>2016-06-22T20:00:00-04:00</published>
+    <updated>2016-07-06T12:35:52-04:00</updated>
     <author>
       <name>Torkel Ödegaard</name>
     </author>
@@ -141,8 +198,8 @@ released in v3.1. But we hope to merge it to master soon after 3.1 stable is rel
     <title>Grafana 3.0 Stable Released</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/05/11/grafana-3-0-stable-released.html"/>
     <id>http://grafana.org/blog/2016/05/11/grafana-3-0-stable-released.html</id>
-    <published>2016-05-10T17:00:00-07:00</published>
-    <updated>2016-05-11T11:57:30-07:00</updated>
+    <published>2016-05-10T20:00:00-04:00</published>
+    <updated>2016-05-19T11:10:22-04:00</updated>
     <author>
       <name>Torkel Ödegaard</name>
     </author>
@@ -294,8 +351,8 @@ created and maintained by &lt;a href="https://github.com/alexanderzobnin/grafana
     <title>Timing is Everything. Editor Mode in Grafana 3.0 for the Clock Panel Plugin</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/04/15/clock-plugin-p2.html"/>
     <id>http://grafana.org/blog/2016/04/15/clock-plugin-p2.html</id>
-    <published>2016-04-14T17:00:00-07:00</published>
-    <updated>2016-05-11T11:57:30-07:00</updated>
+    <published>2016-04-14T20:00:00-04:00</published>
+    <updated>2016-05-19T11:10:22-04:00</updated>
     <author>
       <name>Daniel Lee</name>
     </author>
@@ -466,8 +523,8 @@ created and maintained by &lt;a href="https://github.com/alexanderzobnin/grafana
     <title>Timing is Everything. Writing the Clock Panel Plugin for Grafana 3.0</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/04/08/clock-plugin-p1.html"/>
     <id>http://grafana.org/blog/2016/04/08/clock-plugin-p1.html</id>
-    <published>2016-04-07T17:00:00-07:00</published>
-    <updated>2016-05-11T11:57:30-07:00</updated>
+    <published>2016-04-07T20:00:00-04:00</published>
+    <updated>2016-05-19T11:10:22-04:00</updated>
     <author>
       <name>Daniel Lee</name>
     </author>
@@ -753,8 +810,8 @@ npm install lodash --save
     <title>Grafana 3.0 Beta Released</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/03/31/grafana-3-0-beta-released.html"/>
     <id>http://grafana.org/blog/2016/03/31/grafana-3-0-beta-released.html</id>
-    <published>2016-03-30T17:00:00-07:00</published>
-    <updated>2016-05-11T11:57:30-07:00</updated>
+    <published>2016-03-30T20:00:00-04:00</published>
+    <updated>2016-04-12T14:12:49-04:00</updated>
     <author>
       <name>Torkel Ödegaard</name>
     </author>
@@ -970,57 +1027,6 @@ you can install it manually from &lt;a href="http://grafana.net"&gt;Grafana.net&
 in the 3.0 release please view the
 &lt;a href="https://github.com/grafana/grafana/blob/master/CHANGELOG.md"&gt;CHANGELOG.md&lt;/a&gt;
 file.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Grafana- It's Rocket Science</title>
-    <link rel="alternate" href="http://grafana.org/blog/2016/01/19/Grafana-Its-Rocket-Science.html"/>
-    <id>http://grafana.org/blog/2016/01/19/Grafana-Its-Rocket-Science.html</id>
-    <published>2016-01-18T16:00:00-08:00</published>
-    <updated>2016-02-12T16:01:26-08:00</updated>
-    <author>
-      <name>Raj Dutt</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img src="/assets/img/v2/rocket_science_twitter.png"&gt;&lt;/p&gt;
-
-&lt;p&gt;At &lt;a href="http://raintank.io" target="_blank"&gt;raintank&lt;/a&gt;, all our software is open source. We haven’t talked much about how the whole stack will fit together (more on that soon…), but starting with &lt;a href="http://www.grafana.org" target="_blank"&gt;Grafana&lt;/a&gt;, every &lt;a href="https://github.com/raintank/litmus-plugin" target="_blank"&gt;piece&lt;/a&gt; &lt;a href="https://github.com/raintank/raintank-metric" target="_blank"&gt;of&lt;/a&gt; &lt;a href="https://github.com/raintank/raintank-probe" target="_blank"&gt;it&lt;/a&gt; is being developed in the open.&lt;/p&gt;
-
-&lt;p&gt;Our core revenue model is OpenSaaS: We couple our software with optional hosted services that we provide. These services are also powered by software that is open source.&lt;/p&gt;
-
-&lt;p&gt;Most of our users will simply choose to download our open source software, and won&amp;rsquo;t pay us anything. Many will choose to host our stack with another provider.&lt;/p&gt;
-
-&lt;p&gt;That may sound alarming to a potential raintank investor, but it’s actually totally OK, and expected. Not only does open source help us create much better software, but if done right it gives us the most amazing distribution channel that money can’t buy.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s hard to keep up with the awesome ways that Grafana is being used, let alone by whom. Difficulty identifying  your users and successes isn’t an issue most software or SaaS companies face, but it’s pretty endemic in open source. It&amp;rsquo;s something that we&amp;rsquo;re focusing on improving this year at raintank.&lt;/p&gt;
-
-&lt;p&gt;In many situations, we find out that someone is using Grafana in the most indirect ways: a tweet, a job posting that mentions it, a blog post, an issue filed, a PR, or sometimes even a thank you note.&lt;/p&gt;
-
-&lt;p&gt;It’s always a thrill to find out when someone cool is finding value in your software. One of the biggest thrills so far came a few days ago, when our very own Dieter Plaetinck noticed  Grafana on a screen at the SpaceX Launch Control Center during their recent Falcon 9 launch:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/assets/img/v2/grafana-spotted.png" /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br/&gt;
-&lt;strong&gt;Watch &lt;a href="https://youtu.be/ANv5UfZsvZQ"&gt;The Falcon has landed&lt;/a&gt;&lt;/strong&gt;
-&lt;iframe width="640" height="360" src="https://www.youtube.com/embed/ANv5UfZsvZQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-
-&lt;p&gt;A bunch of us at raintank are huge fans of SpaceX, and follow the launches regularly. We’d love to learn more about what they&amp;rsquo;re doing with Grafana (and have already contacted them). &lt;/p&gt;
-
-&lt;p&gt;In the meantime, knowing that they’ve gotten some small value out of Grafana, and it&amp;rsquo;s up on screen visualizing their measurement data, is just an awesome feeling. &lt;/p&gt;
-
-&lt;p&gt;Onwards and upwards, open source, Grafana, and SpaceX!&lt;/p&gt;
-
-&lt;div style="font-size:75%"&gt;&lt;em&gt;Main photo courtesy of NASA&lt;/em&gt;&lt;/div&gt;
- 
-
-&lt;h4 id="thanks-to-project-sponsors"&gt;Thanks to project sponsors&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://raintank.io"&gt;Raintank&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.squarespace.com"&gt;Squarespace&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.dreamhost.com"&gt;Dreamhost&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.demonware.net"&gt;Demonware&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://developer.mediamath.com/OpenSource"&gt;Mediamath&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>

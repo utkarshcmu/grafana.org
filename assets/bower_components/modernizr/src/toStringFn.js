@@ -1,1 +1,0 @@
-define(function(){var t={}.toString;return t});
