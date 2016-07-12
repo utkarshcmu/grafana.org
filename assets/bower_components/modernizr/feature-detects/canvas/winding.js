@@ -6,8 +6,8 @@
   "async" : false,
   "notes": [{
     "name": "Article",
-    "href": "http://blogs.adobe.com/webplatform/2013/01/30/winding-rules-in-canvas/"
+    "href": "https://blogs.adobe.com/webplatform/2013/01/30/winding-rules-in-canvas/"
   }]
 }
 !*/
-define(["Modernizr","createElement","test/canvas"],function(e,t){e.addTest("canvaswinding",function(){if(e.canvas===!1)return!1;var n=t("canvas").getContext("2d");return n.rect(0,0,10,10),n.rect(2,2,6,6),n.isPointInPath(5,5,"evenodd")===!1})});
+define(["Modernizr","createElement","test/canvas"],function(A,e){A.addTest("canvaswinding",function(){if(A.canvas===!1)return!1;var t=e("canvas").getContext("2d");return t.rect(0,0,10,10),t.rect(2,2,6,6),t.isPointInPath(5,5,"evenodd")===!1})});

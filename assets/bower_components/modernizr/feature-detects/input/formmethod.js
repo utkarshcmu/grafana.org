@@ -4,14 +4,14 @@
   "property": "inputformmethod",
   "notes": [{
     "name": "WHATWG Spec",
-    "href": "http://www.whatwg.org/specs/web-apps/current-work/multipage/association-of-controls-and-forms.html#attr-fs-formmethod"
+    "href": "https://html.spec.whatwg.org/multipage/forms.html#attr-fs-formmethod"
   }, {
     "name": "Wufoo demo",
-    "href": "http://www.wufoo.com/html5/attributes/14-formmethod.html"
+    "href": "https://www.wufoo.com/html5/attributes/14-formmethod.html"
   }],
   "polyfills": [
     "webshims"
   ]
 }
 !*/
-define(["Modernizr","createElement"],function(e,t){e.addTest("inputformmethod",!!("formMethod"in t("input")))});
+define(["Modernizr","createElement"],function(A,w){A.addTest("inputformmethod",!!("formMethod"in w("input")))});

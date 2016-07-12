@@ -10,8 +10,8 @@
     },
     {
       "name": "Article",
-      "href": "http://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas"
+      "href": "https://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas"
     }]
 }
 !*/
-define(["Modernizr","createElement","test/canvas"],function(e,t){e.addTest("canvasblending",function(){if(e.canvas===!1)return!1;var n=t("canvas").getContext("2d");try{n.globalCompositeOperation="screen"}catch(i){}return"screen"===n.globalCompositeOperation})});
+define(["Modernizr","createElement","test/canvas"],function(A,e){A.addTest("canvasblending",function(){if(A.canvas===!1)return!1;var t=e("canvas").getContext("2d");try{t.globalCompositeOperation="screen"}catch(n){}return"screen"===t.globalCompositeOperation})});

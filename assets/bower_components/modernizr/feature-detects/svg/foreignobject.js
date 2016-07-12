@@ -5,8 +5,8 @@
   "tags": ["svg"],
   "notes": [{
     "name": "W3C Spec",
-    "href": "http://www.w3.org/TR/SVG11/extend.html"
+    "href": "https://www.w3.org/TR/SVG11/extend.html"
   }]
 }
 !*/
-define(["Modernizr","toStringFn"],function(e,t){e.addTest("svgforeignobject",function(){return!!document.createElementNS&&/SVGForeignObject/.test(t.call(document.createElementNS("http://www.w3.org/2000/svg","foreignObject")))})});
+define(["Modernizr","toStringFn"],function(A,e){A.addTest("svgforeignobject",function(){return!!document.createElementNS&&/SVGForeignObject/.test(e.call(document.createElementNS("http://www.w3.org/2000/svg","foreignObject")))})});

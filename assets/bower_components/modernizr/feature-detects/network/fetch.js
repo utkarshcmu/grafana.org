@@ -11,4 +11,4 @@
   "polyfills": ["fetch"]
 }
 !*/
-define(["Modernizr"],function(e){e.addTest("fetch","fetch"in window)});
+define(["Modernizr"],function(A){A.addTest("fetch","fetch"in window)});

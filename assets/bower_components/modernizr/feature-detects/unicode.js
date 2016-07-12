@@ -8,4 +8,4 @@
   ]
 }
 !*/
-define(["Modernizr","createElement","testStyles","isSVG"],function(e,t,n,i){e.addTest("unicode",function(){var e,r=t("span"),o=t("span");return n("#modernizr{font-family:Arial,sans;font-size:300em;}",function(t){r.innerHTML=i?"\u5987":"&#5987",o.innerHTML=i?"\u2606":"&#9734",t.appendChild(r),t.appendChild(o),e="offsetWidth"in r&&r.offsetWidth!==o.offsetWidth}),e})});
+define(["Modernizr","createElement","testStyles","isSVG"],function(A,e,t,n){A.addTest("unicode",function(){var A,i=e("span"),r=e("span");return t("#modernizr{font-family:Arial,sans;font-size:300em;}",function(e){i.innerHTML=n?"\u5987":"&#5987",r.innerHTML=n?"\u2606":"&#9734",e.appendChild(i),e.appendChild(r),A="offsetWidth"in i&&i.offsetWidth!==r.offsetWidth}),A})});

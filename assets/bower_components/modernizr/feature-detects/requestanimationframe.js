@@ -8,9 +8,9 @@
   "authors": ["Addy Osmani"],
   "notes": [{
     "name": "W3C spec",
-    "href": "http://www.w3.org/TR/animation-timing/"
+    "href": "https://www.w3.org/TR/animation-timing/"
   }],
   "polyfills": ["raf"]
 }
 !*/
-define(["Modernizr","prefixed"],function(e,t){e.addTest("requestanimationframe",!!t("requestAnimationFrame",window),{aliases:["raf"]})});
+define(["Modernizr","prefixed"],function(A,e){A.addTest("requestanimationframe",!!e("requestAnimationFrame",window),{aliases:["raf"]})});

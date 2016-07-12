@@ -5,4 +5,4 @@
   "tags": ["audio", "media"]
 }
 !*/
-define(["Modernizr","createElement"],function(e,t){e.addTest("audioloop","loop"in t("audio"))});
+define(["Modernizr","createElement"],function(A,w){A.addTest("audioloop","loop"in w("audio"))});

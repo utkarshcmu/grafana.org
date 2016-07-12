@@ -8,14 +8,11 @@
   "warnings": ["This test is a dupe of Modernizr.input.list. Only around for legacy reasons."],
   "notes": [{
     "name": "CSS Tricks Article",
-    "href": "http://css-tricks.com/15346-relevant-dropdowns-polyfill-for-datalist/"
-  },{
-    "name": "Mike Taylor Test",
-    "href": "http://miketaylr.com/test/datalist.html"
+    "href": "https://css-tricks.com/15346-relevant-dropdowns-polyfill-for-datalist/"
   },{
     "name": "Mike Taylor Code",
-    "href": "http://miketaylr.com/code/datalist.html"
+    "href": "https://miketaylr.com/code/datalist.html"
   }]
 }
 !*/
-define(["Modernizr","test/input"],function(e){e.addTest("datalistelem",e.input.list)});
+define(["Modernizr","test/input"],function(A){A.addTest("datalistelem",A.input.list)});

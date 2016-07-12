@@ -7,8 +7,8 @@
   "authors": ["Paul Sayre"],
   "notes": [{
     "name": "MDN Docs",
-    "href": "http://developer.mozilla.org/en/DOM/window.navigator.mozBattery"
+    "href": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/battery"
   }]
 }
 !*/
-define(["Modernizr","prefixed"],function(e,t){e.addTest("lowbattery",function(){var e=.2,n=t("battery",navigator);return!!(n&&!n.charging&&n.level<=e)})});
+define(["Modernizr","prefixed"],function(A,e){A.addTest("lowbattery",function(){var A=.2,t=e("battery",navigator);return!!(t&&!t.charging&&t.level<=A)})});

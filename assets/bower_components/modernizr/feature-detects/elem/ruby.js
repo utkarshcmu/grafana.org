@@ -8,8 +8,8 @@
   "authors": ["Cătălin Mariș"],
   "notes": [{
     "name": "WHATWG Specification",
-    "href": "http://www.whatwg.org/specs/web-apps/current-work/multipage/text-level-semantics.html#the-ruby-element"
+    "href": "https://html.spec.whatwg.org/multipage/semantics.html#the-ruby-element"
   }]
 }
 !*/
-define(["Modernizr","createElement","docElement"],function(e,t,n){e.addTest("ruby",function(){function e(e,t){var n;return window.getComputedStyle?n=document.defaultView.getComputedStyle(e,null).getPropertyValue(t):e.currentStyle&&(n=e.currentStyle[t]),n}function i(){n.removeChild(r),r=null,o=null,s=null}var r=t("ruby"),o=t("rt"),s=t("rp"),a="display",c="fontSize";return r.appendChild(s),r.appendChild(o),n.appendChild(r),"none"==e(s,a)||"ruby"==e(r,a)&&"ruby-text"==e(o,a)||"6pt"==e(s,c)&&"6pt"==e(o,c)?(i(),!0):(i(),!1)})});
+define(["Modernizr","createElement","docElement"],function(e,t,r){e.addTest("ruby",function(){function e(e,t){var r;return window.getComputedStyle?r=document.defaultView.getComputedStyle(e,null).getPropertyValue(t):e.currentStyle&&(r=e.currentStyle[t]),r}function n(){r.removeChild(l),l=null,i=null,o=null}var l=t("ruby"),i=t("rt"),o=t("rp"),d="display",u="fontSize";return l.appendChild(o),l.appendChild(i),r.appendChild(l),"none"==e(o,d)||"ruby"==e(l,d)&&"ruby-text"==e(i,d)||"6pt"==e(o,u)&&"6pt"==e(i,u)?(n(),!0):(n(),!1)})});
