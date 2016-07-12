@@ -57,6 +57,45 @@ title: Download
 .row
 
   .columns.medium-12.download-release-heading
+    h3 Grafana v3.1.0 (2016-07-12)
+
+  .columns.medium-12.download-links-wrapper
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.1.0-1468321182_amd64.deb" data-download-button="grafana_3.1.0.deb"
+      i.fa.fa-download
+      |  DEB (Ubuntu / Debian 64bit)
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.1.0-1468321182.x86_64.rpm" data-download-button="3.1.0.rpm"
+      i.fa.fa-download
+      |  RPM (Fedora / RHEL  64bit)
+    a.download-link href="https://grafanarel.s3.amazonaws.com/builds/grafana-3.1.0-1468321182.linux-x64.tar.gz" data-download-button="3.1.0.linux.tar"
+      i.fa.fa-download
+      |  Binary TAR (Linux 64bit)
+    a.download-link href="https://grafanarel.s3.amazonaws.com/winbuilds/dist/grafana-3.1.0.windows-x64.zip" data-download-button="3.1.0.windows.zip"
+      i.fa.fa-download
+      |  Binary ZIP (Windows 64bit)
+
+.row
+  .columns.large-12.markdown.download-release-details
+    markdown:
+      - For release details check out the [Grafana 3.1 Release](/blog/2016/07/12/grafana-3-1-released.html) blog post.
+
+      ### Release highlights
+      - **Dashboard Repository** at [Grafana.net](https://grafana.net). You can now discover and upload dashboards.
+      - **Dashboard** time range and variables values are now always synced with URL.
+      - **Constant Template Variable** have been added to make dashboard sharing easier (use as metric prefix).
+      - **Singlestat** can now map ranges to text.
+      - **Metrics** Grafana now supports sending metrics about itself.
+      - [Full changelog](https://github.com/grafana/grafana/blob/master/CHANGELOG.md)
+
+      ### Breaking changes
+      - **Logging** Log ouput format have been changed to improve log filtering.
+      - **Graphite PNG** Graphite PNG support dropped from Graph panel (use Grafana native PNG instead).
+      - **Migration** No longer possible to migrate dashboards from 1.x (Stored in ES or Influx 0.8).
+
+    = partial "layouts/_newsletter"
+
+.row
+
+  .columns.medium-12.download-release-heading
     h3 Grafana v3.1.0-beta1 (2016-06-23)
 
   .columns.medium-12.download-links-wrapper
@@ -75,23 +114,6 @@ title: Download
 
 .row
   .columns.large-12.markdown.download-release-details
-    markdown:
-      - For release details check out the [Grafana 3.1 Beta Release](/blog/2016/06/23/grafana-3-1-beta-released.html) blog post.
-
-      ### Release highlights
-      - **Dashboard Repository** at [Grafana.net](https://grafana.net). You can now discover and upload dashboards.
-      - **Dashboard** time range and variables values are now always synced with URL.
-      - **Constant Template Variable** have been added to make dashboard sharing easier (use as metric prefix).
-      - **Singlestat** can now map ranges to text.
-      - **Metrics** Grafana now supports sending metrics about itself.
-      - [Full changelog](https://github.com/grafana/grafana/blob/master/CHANGELOG.md)
-
-      ### Breaking changes
-      - **Logging** format have been changed to improve log filtering.
-      - **Graphite PNG** Graphite PNG support dropped from Graph panel (use Grafana native PNG instead).
-      - **Migration** No longer possible to migrate dashboards from 1.x (Stored in ES or Influx 0.8).
-
-    = partial "layouts/_newsletter"
 
 .row
 

@@ -1,7 +1,7 @@
 ---
 title: Grafana 3.1.0 Released
 author: Torkel Ödegaard
-published_on: July 14, 2016
+published_on: July 12, 2016
 ---
 
 Grafana 3.1.0 stable is now available for download!
@@ -35,7 +35,7 @@ a number of dashboards there.
 
 [![](/assets/img/blog/v3.1/gnet_dashboards.png)](https://grafana.net/dashboards)
 
-You can filter by what data source or collector you use. There are already dashboards available for Graphite, Collectd, Prometheus, and node exporter, AWS CloudWatch, Memcached and Nginx. 
+You can filter by what data source or collector you use. There are already dashboards available for Graphite, Collectd, Prometheus, and node exporter, AWS CloudWatch, Memcached and Nginx.
 
 Anyone can share a dashboard on Grafana.net, just sign in and go the profile page and then
 the dashboards link in the side nav, then hit the `Upload dashboard` button. Remember to be
