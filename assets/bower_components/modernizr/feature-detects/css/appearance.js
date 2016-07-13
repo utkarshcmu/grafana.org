@@ -9,8 +9,8 @@
     "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-appearance"
   },{
     "name": "CSS-Tricks CSS Almanac: appearance",
-    "href": "https://css-tricks.com/almanac/properties/a/appearance/"
+    "href": "http://css-tricks.com/almanac/properties/a/appearance/"
   }]
 }
 !*/
-define(["Modernizr","testAllProps"],function(A,e){A.addTest("appearance",e("appearance"))});
+define(["Modernizr","testAllProps"],function(e,t){e.addTest("appearance",t("appearance"))});

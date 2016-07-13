@@ -9,19 +9,19 @@
   "notes": [
     {
       "name": "MDN Docs",
-      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events"
+      "href": "http://developer.mozilla.org/en/CSS/pointer-events"
     },{
       "name": "Test Project Page",
-      "href": "https://ausi.github.com/Feature-detection-technique-for-pointer-events/"
+      "href": "http://ausi.github.com/Feature-detection-technique-for-pointer-events/"
     },{
       "name": "Test Project Wiki",
-      "href": "https://github.com/ausi/Feature-detection-technique-for-pointer-events/wiki"
+      "href": "http://github.com/ausi/Feature-detection-technique-for-pointer-events/wiki"
     },
     {
       "name": "Related Github Issue",
-      "href": "https://github.com/Modernizr/Modernizr/issues/80"
+      "href": "http://github.com/Modernizr/Modernizr/issues/80"
     }
   ]
 }
 !*/
-define(["Modernizr","createElement"],function(A,e){A.addTest("csspointerevents",function(){var A=e("a").style;return A.cssText="pointer-events:auto","auto"===A.pointerEvents})});
+define(["Modernizr","createElement"],function(e,t){e.addTest("csspointerevents",function(){var e=t("a").style;return e.cssText="pointer-events:auto","auto"===e.pointerEvents})});

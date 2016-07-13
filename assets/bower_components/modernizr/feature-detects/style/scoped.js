@@ -8,9 +8,9 @@
   "authors": ["Cătălin Mariș"],
   "notes": [{
     "name": "WHATWG Specification",
-    "href": "https://html.spec.whatwg.org/multipage/semantics.html#attr-style-scoped"
+    "href": "http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#attr-style-scoped"
   }],
   "polyfills": ["scoped-styles"]
 }
 !*/
-define(["Modernizr","createElement"],function(A,e){A.addTest("stylescoped","scoped"in e("style"))});
+define(["Modernizr","createElement"],function(e,t){e.addTest("stylescoped","scoped"in t("style"))});

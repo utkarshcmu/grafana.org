@@ -7,8 +7,8 @@
   "builderAliases": ["workers_sharedworkers"],
   "notes": [{
     "name": "W3C Reference",
-    "href": "https://www.w3.org/TR/workers/"
+    "href": "http://www.w3.org/TR/workers/"
   }]
 }
 !*/
-define(["Modernizr"],function(A){A.addTest("sharedworkers","SharedWorker"in window)});
+define(["Modernizr"],function(e){e.addTest("sharedworkers","SharedWorker"in window)});

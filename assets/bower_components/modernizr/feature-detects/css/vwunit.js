@@ -10,8 +10,8 @@
     "href": "https://github.com/Modernizr/Modernizr/issues/572"
   },{
     "name": "JSFiddle Example",
-    "href": "https://jsfiddle.net/FWeinb/etnYC/"
+    "href": "http://jsfiddle.net/FWeinb/etnYC/"
   }]
 }
 !*/
-define(["Modernizr","testStyles"],function(A,e){e("#modernizr { width: 50vw; }",function(e){var t=parseInt(window.innerWidth/2,10),n=parseInt((window.getComputedStyle?getComputedStyle(e,null):e.currentStyle).width,10);A.addTest("cssvwunit",n==t)})});
+define(["Modernizr","testStyles"],function(e,t){t("#modernizr { width: 50vw; }",function(t){var n=parseInt(window.innerWidth/2,10),i=parseInt((window.getComputedStyle?getComputedStyle(t,null):t.currentStyle).width,10);e.addTest("cssvwunit",i==n)})});

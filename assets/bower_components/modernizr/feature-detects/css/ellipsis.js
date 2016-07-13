@@ -9,4 +9,4 @@
   "tags": ["css"]
 }
 !*/
-define(["Modernizr","testAllProps"],function(A,e){A.addTest("ellipsis",e("textOverflow","ellipsis"))});
+define(["Modernizr","testAllProps"],function(t,e){t.addTest("ellipsis",e("textOverflow","ellipsis"))});

@@ -7,11 +7,11 @@
   "builderAliases": ["css_resize"],
   "notes": [{
     "name": "W3C Specification",
-    "href": "https://www.w3.org/TR/css3-ui/#resize"
+    "href": "http://www.w3.org/TR/css3-ui/#resize"
   },{
     "name": "MDN Docs",
     "href": "https://developer.mozilla.org/en/CSS/resize"
   }]
 }
 !*/
-define(["Modernizr","testAllProps"],function(A,e){A.addTest("cssresize",e("resize","both",!0))});
+define(["Modernizr","testAllProps"],function(e,t){e.addTest("cssresize",t("resize","both",!0))});

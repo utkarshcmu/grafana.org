@@ -16,4 +16,4 @@
   ]
 }
 !*/
-define(["Modernizr"],function(A){A.addTest("geolocation","geolocation"in navigator)});
+define(["Modernizr"],function(e){e.addTest("geolocation","geolocation"in navigator)});

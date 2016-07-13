@@ -11,4 +11,4 @@
   "polyfills": ["jdataview"]
 }
 !*/
-define(["Modernizr"],function(A){A.addTest("dataview","undefined"!=typeof DataView&&"getFloat64"in DataView.prototype)});
+define(["Modernizr"],function(e){e.addTest("dataview","undefined"!=typeof DataView&&"getFloat64"in DataView.prototype)});

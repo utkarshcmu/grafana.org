@@ -7,11 +7,11 @@
   "builderAliases": ["css_displayrunin"],
   "notes": [{
     "name": "CSS Tricks Article",
-    "href": "https://css-tricks.com/596-run-in/"
+    "href": "http://css-tricks.com/596-run-in/"
   },{
     "name": "Related Github Issue",
     "href": "https://github.com/Modernizr/Modernizr/issues/198"
   }]
 }
 !*/
-define(["Modernizr","testAllProps"],function(A,e){A.addTest("displayrunin",e("display","run-in"),{aliases:["display-runin"]})});
+define(["Modernizr","testAllProps"],function(e,t){e.addTest("displayrunin",t("display","run-in"),{aliases:["display-runin"]})});

@@ -7,8 +7,8 @@
   "tags": ["css"],
   "notes": [{
     "name": "Comprehensive Compat Chart",
-    "href": "https://muddledramblings.com/table-of-css3-border-radius-compliance"
+    "href": "http://muddledramblings.com/table-of-css3-border-radius-compliance"
   }]
 }
 !*/
-define(["Modernizr","testAllProps"],function(A,e){A.addTest("borderradius",e("borderRadius","0px",!0))});
+define(["Modernizr","testAllProps"],function(e,t){e.addTest("borderradius",t("borderRadius","0px",!0))});

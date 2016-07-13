@@ -6,7 +6,7 @@
   "builderAliases": ["custom_protocol_handler"],
   "notes": [{
     "name": "WHATWG overview",
-    "href": "https://developers.whatwg.org/timers.html#custom-handlers"
+    "href": "http://developers.whatwg.org/timers.html#custom-handlers"
   },{
     "name": "MDN documentation",
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/navigator.registerProtocolHandler"
@@ -15,4 +15,4 @@
   "polyfills": []
 }
 !*/
-define(["Modernizr"],function(A){A.addTest("customprotocolhandler",function(){if(!navigator.registerProtocolHandler)return!1;try{navigator.registerProtocolHandler("thisShouldFail")}catch(A){return A instanceof TypeError}return!1})});
+define(["Modernizr"],function(e){e.addTest("customprotocolhandler",function(){if(!navigator.registerProtocolHandler)return!1;try{navigator.registerProtocolHandler("thisShouldFail")}catch(e){return e instanceof TypeError}return!1})});

@@ -5,4 +5,4 @@
   "authors": ["Erich Ocean"]
 }
 !*/
-define(["Modernizr"],function(A){A.addTest("ie8compat",!window.addEventListener&&!!document.documentMode&&7===document.documentMode)});
+define(["Modernizr"],function(e){e.addTest("ie8compat",!window.addEventListener&&!!document.documentMode&&7===document.documentMode)});

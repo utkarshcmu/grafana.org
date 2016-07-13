@@ -7,7 +7,7 @@
     "href": "https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers.oninput"
   },{
     "name": "WHATWG spec",
-    "href": "https://html.spec.whatwg.org/multipage/forms.html#common-input-element-attributes"
+    "href": "http://www.whatwg.org/specs/web-apps/current-work/multipage/common-input-element-attributes.html#common-event-behaviors"
   },{
     "name": "Detecting onInput support",
     "href": "http://danielfriesen.name/blog/2010/02/16/html5-browser-maze-oninput-support"
@@ -16,4 +16,4 @@
   "tags": ["event"]
 }
 !*/
-define(["Modernizr","docElement","createElement","testStyles","hasEvent"],function(A,e,t,n,i){A.addTest("oninput",function(){var A,n=t("input");if(n.setAttribute("oninput","return"),i("oninput",e)||"function"==typeof n.oninput)return!0;try{var o=document.createEvent("KeyboardEvent");A=!1;var r=function(e){A=!0,e.preventDefault(),e.stopPropagation()};o.initKeyEvent("keypress",!0,!0,window,!1,!1,!1,!1,0,"e".charCodeAt(0)),e.appendChild(n),n.addEventListener("input",r,!1),n.focus(),n.dispatchEvent(o),n.removeEventListener("input",r,!1),e.removeChild(n)}catch(d){A=!1}return A})});
+define(["Modernizr","docElement","createElement","testStyles","hasEvent"],function(e,t,n,i,r){e.addTest("oninput",function(){var e,i=n("input");if(i.setAttribute("oninput","return"),r("oninput",t)||"function"==typeof i.oninput)return!0;try{var o=document.createEvent("KeyboardEvent");e=!1;var s=function(t){e=!0,t.preventDefault(),t.stopPropagation()};o.initKeyEvent("keypress",!0,!0,window,!1,!1,!1,!1,0,"e".charCodeAt(0)),t.appendChild(i),i.addEventListener("input",s,!1),i.focus(),i.dispatchEvent(o),i.removeEventListener("input",s,!1),t.removeChild(i)}catch(a){e=!1}return e})});

@@ -6,9 +6,9 @@
   "authors": ["Mike Taylor"],
   "notes": [{
     "name": "WHATWG spec",
-    "href": "https://html.spec.whatwg.org/multipage/forms.html#input-type-attr-summary"
+    "href": "http://www.whatwg.org/specs/web-apps/current-work/multipage/the-input-element.html#input-type-attr-summary"
   }],
   "knownBugs": ["Some blackberry devices report false positive for input.multiple"]
 }
 !*/
-define(["Modernizr","createElement","inputElem"],function(A,e,t){var n="autocomplete autofocus list placeholder max min multiple pattern required step".split(" "),i={};A.input=function(A){for(var n=0,r=A.length;r>n;n++)i[A[n]]=!!(A[n]in t);return i.list&&(i.list=!(!e("datalist")||!window.HTMLDataListElement)),i}(n)});
+define(["Modernizr","createElement","inputElem"],function(e,t,n){var r="autocomplete autofocus list placeholder max min multiple pattern required step".split(" "),i={};e.input=function(e){for(var r=0,o=e.length;o>r;r++)i[e[r]]=!!(e[r]in n);return i.list&&(i.list=!(!t("datalist")||!window.HTMLDataListElement)),i}(r)});

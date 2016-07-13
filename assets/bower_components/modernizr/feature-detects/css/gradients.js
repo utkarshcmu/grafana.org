@@ -7,14 +7,17 @@
   "knownBugs": ["False-positives on webOS (https://github.com/Modernizr/Modernizr/issues/202)"],
   "notes": [{
     "name": "Webkit Gradient Syntax",
-    "href": "https://webkit.org/blog/175/introducing-css-gradients/"
+    "href": "http://webkit.org/blog/175/introducing-css-gradients/"
   },{
-    "name": "Linear Gradient Syntax",
-    "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient"
+    "name": "Mozilla Linear Gradient Syntax",
+    "href": "http://developer.mozilla.org/en/CSS/-moz-linear-gradient"
+  },{
+    "name": "Mozilla Radial Gradient Syntax",
+    "href": "http://developer.mozilla.org/en/CSS/-moz-radial-gradient"
   },{
     "name": "W3C Gradient Spec",
-    "href": "https://drafts.csswg.org/css-images-3/#gradients"
+    "href": "dev.w3.org/csswg/css3-images/#gradients-"
   }]
 }
 !*/
-define(["Modernizr","prefixes","createElement"],function(A,e,t){A.addTest("cssgradients",function(){for(var n,i="background-image:",o="gradient(linear,left top,right bottom,from(#9f9),to(white));",r="",d=0,a=e.length-1;a>d;d++)n=0===d?"to ":"",r+=i+e[d]+"linear-gradient("+n+"left top, #9f9, white);";A._config.usePrefixes&&(r+=i+"-webkit-"+o);var w=t("a"),s=w.style;return s.cssText=r,(""+s.backgroundImage).indexOf("gradient")>-1})});
+define(["Modernizr","prefixes","createElement"],function(t,e,n){t.addTest("cssgradients",function(){var i="background-image:",r="gradient(linear,left top,right bottom,from(#9f9),to(white));",o="linear-gradient(left top,#9f9, white);",s=i+e.join(o+i).slice(0,-i.length);t._config.usePrefixes&&(s+=i+"-webkit-"+r);var a=n("a"),c=a.style;return c.cssText=s,(""+c.backgroundImage).indexOf("gradient")>-1})});

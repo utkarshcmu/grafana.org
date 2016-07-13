@@ -8,8 +8,8 @@
   "authors": ["Erik Dahlstrom"],
   "notes": [{
     "name": "W3C Spec",
-    "href": "https://www.w3.org/TR/SVG11/filters.html"
+    "href": "http://www.w3.org/TR/SVG11/filters.html"
   }]
 }
 !*/
-define(["Modernizr"],function(A){A.addTest("svgfilters",function(){var A=!1;try{A="SVGFEColorMatrixElement"in window&&2==SVGFEColorMatrixElement.SVG_FECOLORMATRIX_TYPE_SATURATE}catch(e){}return A})});
+define(["Modernizr"],function(e){e.addTest("svgfilters",function(){var e=!1;try{e="SVGFEColorMatrixElement"in window&&2==SVGFEColorMatrixElement.SVG_FECOLORMATRIX_TYPE_SATURATE}catch(t){}return e})});

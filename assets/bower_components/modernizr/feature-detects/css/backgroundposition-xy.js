@@ -7,11 +7,11 @@
   "authors": ["Allan Lei", "Brandom Aaron"],
   "notes": [{
     "name": "Demo",
-    "href": "https://jsfiddle.net/allanlei/R8AYS/"
+    "href": "http://jsfiddle.net/allanlei/R8AYS/"
   }, {
     "name": "Adapted From",
     "href": "https://github.com/brandonaaron/jquery-cssHooks/blob/master/bgpos.js"
   }]
 }
 !*/
-define(["Modernizr","testAllProps"],function(A,e){A.addTest("bgpositionxy",function(){return e("backgroundPositionX","3px",!0)&&e("backgroundPositionY","5px",!0)})});
+define(["Modernizr","testAllProps"],function(e,t){e.addTest("bgpositionxy",function(){return t("backgroundPositionX","3px",!0)&&t("backgroundPositionY","5px",!0)})});

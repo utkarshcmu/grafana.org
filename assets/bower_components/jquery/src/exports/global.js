@@ -1,1 +1,1 @@
-var _jQuery=window.jQuery,_$=window.$;jQuery.noConflict=function(e){return window.$===jQuery&&(window.$=_$),e&&window.jQuery===jQuery&&(window.jQuery=_jQuery),jQuery},noGlobal||(window.jQuery=window.$=jQuery);
+define(["../core","../var/strundefined"],function(t,e){var n=window.jQuery,i=window.$;t.noConflict=function(e){return window.$===t&&(window.$=i),e&&window.jQuery===t&&(window.jQuery=n),t},typeof noGlobal===e&&(window.jQuery=window.$=t)});
