@@ -24,10 +24,10 @@
       .large-3.columns
         br
         h4 Posts
-        - blog.articles[0...3].each do |article|
+        - blog.articles[0...5].each do |article|
           p= link_to article.title, article
 
         hr
 
         h4 About Grafana
-        p Grafana is an open source metrics dashboard and graph composer for Graphite and InfluxDB
+        p Grafana is an open source metrics dashboard and graph composer for almost any metric data store.

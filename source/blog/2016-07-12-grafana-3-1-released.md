@@ -35,7 +35,7 @@ a number of dashboards there.
 
 [![](/assets/img/blog/v3.1/gnet_dashboards.png)](https://grafana.net/dashboards)
 
-You can filter by what data source or collector you use. There are already dashboards available for Graphite, Collectd, Prometheus, and node exporter, AWS CloudWatch, Memcached and Nginx.
+You can filter by what data source or collector you use. There are already dashboards available for Graphite, Collectd, Prometheus, node exporter, AWS CloudWatch, Memcached and Nginx.
 
 Anyone can share a dashboard on Grafana.net, just sign in and go the profile page and then
 the dashboards link in the side nav, then hit the `Upload dashboard` button. Remember to be
@@ -60,7 +60,7 @@ The dashboard has the following graphs:
 - Logins
 
 ### Breaking changes
-- **Logging** format have been changed to improve log filtering.
+- **Logging** format has been changed to improve log filtering.
 - **Graphite PNG** Graphite PNG support dropped from Graph panel (use Grafana native PNG instead).
 - **Migration** No longer possible to import dashboards from 1.x stored in ES or Influx 0.8
 

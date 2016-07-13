@@ -11,6 +11,7 @@ end
 
 page "/blog/*", :layout => :article
 page "/blog/index.html", :layout => :layout
+page "/blog/archive/index.html", :layout => :layout
 
 activate :blog do |blog|
   blog.prefix = "blog"
