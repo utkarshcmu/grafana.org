@@ -5,7 +5,7 @@
   <id>http://grafana.org/blog</id>
   <link href="http://grafana.org/blog"/>
   <link href="http://grafana.org/feed.xml" rel="self"/>
-  <updated>2016-07-12T02:00:00+02:00</updated>
+  <updated>2016-07-11T20:00:00-04:00</updated>
   <author>
     <name>Grafana</name>
   </author>
@@ -13,8 +13,8 @@
     <title>Grafana 3.1.0 Released</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/07/12/grafana-3-1-released.html"/>
     <id>http://grafana.org/blog/2016/07/12/grafana-3-1-released.html</id>
-    <published>2016-07-12T02:00:00+02:00</published>
-    <updated>2016-07-13T16:01:37+02:00</updated>
+    <published>2016-07-11T20:00:00-04:00</published>
+    <updated>2016-07-14T12:33:26-04:00</updated>
     <author>
       <name>Torkel Ödegaard</name>
     </author>
@@ -115,8 +115,8 @@ The dashboard has the following graphs:&lt;/p&gt;
     <title>Dear Graphite Users and Developers</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/07/06/dear-graphite-users-and-developers.html"/>
     <id>http://grafana.org/blog/2016/07/06/dear-graphite-users-and-developers.html</id>
-    <published>2016-07-06T02:00:00+02:00</published>
-    <updated>2016-07-11T10:10:54+02:00</updated>
+    <published>2016-07-05T20:00:00-04:00</published>
+    <updated>2016-07-06T13:19:32-04:00</updated>
     <author>
       <name>Raj Dutt</name>
     </author>
@@ -172,8 +172,8 @@ The dashboard has the following graphs:&lt;/p&gt;
     <title>Grafana 3.1 Beta Released</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/06/23/grafana-3-1-beta-released.html"/>
     <id>http://grafana.org/blog/2016/06/23/grafana-3-1-beta-released.html</id>
-    <published>2016-06-23T02:00:00+02:00</published>
-    <updated>2016-07-11T10:10:54+02:00</updated>
+    <published>2016-06-22T20:00:00-04:00</published>
+    <updated>2016-07-06T12:35:52-04:00</updated>
     <author>
       <name>Torkel Ödegaard</name>
     </author>
@@ -300,8 +300,8 @@ released in v3.1. But we hope to merge it to master soon after 3.1 stable is rel
     <title>Grafana 3.0 Stable Released</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/05/11/grafana-3-0-stable-released.html"/>
     <id>http://grafana.org/blog/2016/05/11/grafana-3-0-stable-released.html</id>
-    <published>2016-05-11T02:00:00+02:00</published>
-    <updated>2016-05-11T11:13:36+02:00</updated>
+    <published>2016-05-10T20:00:00-04:00</published>
+    <updated>2016-05-19T11:10:22-04:00</updated>
     <author>
       <name>Torkel Ödegaard</name>
     </author>
@@ -453,8 +453,8 @@ created and maintained by &lt;a href="https://github.com/alexanderzobnin/grafana
     <title>Timing is Everything. Editor Mode in Grafana 3.0 for the Clock Panel Plugin</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/04/15/clock-plugin-p2.html"/>
     <id>http://grafana.org/blog/2016/04/15/clock-plugin-p2.html</id>
-    <published>2016-04-15T02:00:00+02:00</published>
-    <updated>2016-05-10T12:40:48+02:00</updated>
+    <published>2016-04-14T20:00:00-04:00</published>
+    <updated>2016-05-19T11:10:22-04:00</updated>
     <author>
       <name>Daniel Lee</name>
     </author>
@@ -625,8 +625,8 @@ created and maintained by &lt;a href="https://github.com/alexanderzobnin/grafana
     <title>Timing is Everything. Writing the Clock Panel Plugin for Grafana 3.0</title>
     <link rel="alternate" href="http://grafana.org/blog/2016/04/08/clock-plugin-p1.html"/>
     <id>http://grafana.org/blog/2016/04/08/clock-plugin-p1.html</id>
-    <published>2016-04-08T02:00:00+02:00</published>
-    <updated>2016-05-10T12:40:52+02:00</updated>
+    <published>2016-04-07T20:00:00-04:00</published>
+    <updated>2016-05-19T11:10:22-04:00</updated>
     <author>
       <name>Daniel Lee</name>
     </author>
