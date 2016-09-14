@@ -1,13 +1,13 @@
 ---
 title: Getting Plugins to work in Snapshot Mode
 author: Daniel Lee
-published_on: June 25, 2016
+published_on: September 14, 2016
 ---
 #
 
 ![](blog/Grafana-snapshot-example.png)
 
-Grafana has this great feature where you can save a snapshot of your dashboard. Instead of sending a screenshot of a dashboard to someone, you can send them a static and interactive json document. With your on-prem Grafana, the snapshot is saved on the Grafana server and you can send the link to a coworker. Raintank also hosts a snapshot server if you want to send the snapshot to someone who doesn't have access to your Grafana server.
+Grafana has this great feature where you can [save a snapshot of your dashboard](http://docs.grafana.org/reference/sharing/). Instead of sending a screenshot of a dashboard to someone, you can send them a working, interactive Grafana dashboard with the snapshot data embedded inside it. The snapshot can be saved on your Grafana server and is available to all your co-workers. Raintank also hosts a [snapshot server](http://snapshot.raintank.io/) if you want to send the snapshot to someone who doesn't have access to your Grafana server.
 
 ![](blog/snapshots.gif)
 
@@ -72,6 +72,6 @@ loadLocationDataFromFile(reload) {
   }
 ```
 
-And that's it. It is really easy to forget to add this support but it enables a great feature and can be used to demo your panel. Try out my [Worldmap Panel snapshot here]().
+And that's it. It is really easy to forget to add this support but it enables a great feature and can be used to demo your panel. Try out my [Worldmap Panel snapshot here](https://snapshot.raintank.io/dashboard/snapshot/dXSzImhFkrffwtrcPXeWfC44timza0Ai).
 
 P.S. If there is a panel plugin that you would like to be installed on the Raintank Snapshot server then please contact us via [Slack](https://raintank.slack.com) or [GitHub](https://github.com/grafana/grafana).
