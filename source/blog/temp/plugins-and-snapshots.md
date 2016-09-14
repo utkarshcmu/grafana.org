@@ -7,9 +7,17 @@ published_on: September 14, 2016
 
 ![](blog/Grafana-snapshot-example.png)
 
-Grafana has this great feature where you can [save a snapshot of your dashboard](http://docs.grafana.org/reference/sharing/). Instead of sending a screenshot of a dashboard to someone, you can send them a working, interactive Grafana dashboard with the snapshot data embedded inside it. The snapshot can be saved on your Grafana server and is available to all your co-workers. Raintank also hosts a [snapshot server](http://snapshot.raintank.io/) if you want to send the snapshot to someone who doesn't have access to your Grafana server.
+Grafana has this great feature where you can [save a snapshot of your dashboard](http://docs.grafana.org/reference/sharing/). Instead of sending a screenshot of a dashboard to someone, you can send them a working, interactive Grafana dashboard with the snapshot data embedded inside it. The snapshot can be saved on your Grafana server and is then available to all your co-workers (see the gif below on where to find snapshots in Grafana).
 
 ![](blog/snapshots.gif)
+
+## The Raintank Snapshot Server
+
+Raintank also hosts a [snapshot server](http://snapshot.raintank.io/) if you want to send the snapshot to someone who doesn't have access to your Grafana server.
+
+Grafana.net's API had a short outage in August. One of my colleagues posted [this snapshot](https://snapshot.raintank.io/dashboard/snapshot/qKYyscuHq4bpLYOZ41KaJGeeTHE3EIlG) on our Slack channel to highlight that incoming API calls had dropped to zero and that the API was down for everyone. This is one example of how useful snapshots can be. They are also great for post-mortems at a later date!
+
+## Snapshots and Plugins
 
 This all works because Grafana saves a snapshot of the current data in the dashboard json instead of fetching the data from a data source. However, if you are building a custom panel plugin then this will not work straight out of the box. You will need to make some small (and easy!) changes first.
 
