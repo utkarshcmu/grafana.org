@@ -1,0 +1,87 @@
+<!DOCTYPE html><html><head><meta charset="utf-8" /><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><title>Grafana - Getting Plugins to work in Snapshot Mode</title><meta content="Torkel Ödegaard" name="author" /><meta content="width=device-width, initial-scale=1" name="viewport" /><meta content="Grafana is the leading open source project for visualizing metrics. Supporting rich integration for every popular database like Graphite, Prometheus and InfluxDB." name="description" /><meta content="Grafana, Graphite, Dashboard, InfluxDB, OpenTSDB, Elasticsearch, Metrics, Editor, Composer, Analytics, Graphana, Prometheus, Cloudwatch" name="keywords" /><link href="/assets/img/fav32.png" rel="icon" /><link href="/assets/stylesheets/all.css" rel="stylesheet" /><link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" /><script src="/assets/javascripts/all.js"></script><meta content="Getting Plugins to work in Snapshot Mode" property="og:title" /><meta content="Grafana.org" property="og:site_name" /><meta content="website" property="og:type" /><meta content="http://grafana.org/assets/img/docs/nice_dashboard.png" property="og:image" /></head><body class="blog blog_temp blog_temp_plugins-and-snapshots"><section class="nav"><div class="row"><nav class="top-bar" data-topbar="1"><ul class="title-area"><li class="name"><a href="/"><img class="no-shadow" src="/assets/img/logo_new_transparent_200x48.png" width="180px" /></a></li><li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li></ul><section class="meta-top-bar-section"><ul><li><a href="http://docs.grafana.org">Docs</a></li><li><a href="/support/">Support</a></li><li><a href="http://grafana.net/plugins">Plugins</a></li><li><a href="/hosting/">Hosting</a></li></ul></section><section class="top-bar-section"><ul class="right"><li><a href="/features/">Features</a></li><li><a href="/community/">Community</a></li><li><a href="/blog/">Blog</a></li><li class="has-form"><a class="button" href="http://play.grafana.org" id="top-bar-demo-button" target="_blank">Live Demo</a></li><li><a href="https://github.com/grafana/grafana" target="_blank" title="Go to github repository"><i class="fa fa-fw fa-github"></i></a</li><li class="has-form"><a class="button" href="/download" id="top-bar-button">Download</a></li></ul></section></nav></div></section><section class="main"><main><div class="page-header"><div class="page-header-bg"></div><div class="row"><div class="large-12 columns"><h1>Getting Plugins to work in Snapshot Mode</h1></div></div><div class="row"><div class="small-9 columns"><h5 class="subheader">Published: September 14, 2016 by Daniel Lee</h5><p id="twitter"><a class="twitter-share-button" data-via="grafana" href="https://twitter.com/share"></a></p><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div><div class="small-3 columns"></div></div></div><div class="page-content row"><div class="large-9 columns image-shadows"><br /><p><img src="/assets/img/blog/Grafana-snapshot-example.png" /></p>
+
+<p>Grafana has this great feature where you can <a href="http://docs.grafana.org/reference/sharing/">save a snapshot of your dashboard</a>. Instead of sending a screenshot of a dashboard to someone, you can send them a working, interactive Grafana dashboard with the snapshot data embedded inside it. The snapshot can be saved on your Grafana server and is available to all your co-workers. Raintank also hosts a <a href="http://snapshot.raintank.io/">snapshot server</a> if you want to send the snapshot to someone who doesn&rsquo;t have access to your Grafana server.</p>
+
+<p><img src="/assets/img/blog/snapshots.gif" /></p>
+
+<p>This all works because Grafana saves a snapshot of the current data in the dashboard json instead of fetching the data from a data source. However, if you are building a custom panel plugin then this will not work straight out of the box. You will need to make some small (and easy!) changes first.</p>
+
+<p>This time I am going to use the <a href="https://github.com/grafana/worldmap-panel">Worldmap Panel</a> as an example. The <a href="https://github.com/grafana/clock-panel">Clock Panel</a>, that I used in my <a href="http://grafana.org/blog/2016/04/08/clock-plugin-p1.html">previous</a> blog <a href="http://grafana.org/blog/2016/04/15/clock-plugin-p2.html">posts</a>, does not have any data sources and works in snapshot mode without any changes. The Worldmap Panel has two different types of data that need to be saved in the snapshot/dashboard json file. The first data source is the time series data and the second one is the location data used to draw the circles on the map (coordinates for countries or the states in the US for example).</p>
+
+<h2 id="enabling-support-for-loading-snapshot-data">Enabling support for loading snapshot data</h2>
+
+<p>Grafana automatically saves data from data sources in the dashboard json when the snapshot is created so we do not have to write any code for that. Enabling snapshot support for reading time series data is very simple. First in the constructor, we need to add an event handler for <code class="prettyprint">data-snapshot-load</code>. This event is triggered by Grafana when the snapshot data is loaded from the dashboard json.</p>
+<pre class="highlight javascript"><code><span class="nx">constructor</span><span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">$injector</span><span class="p">,</span> <span class="nx">contextSrv</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kr">super</span><span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">$injector</span><span class="p">);</span>
+    <span class="p">...</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">events</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'init-edit-mode'</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">onInitEditMode</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">));</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">events</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'data-received'</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">onDataReceived</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">));</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">events</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'panel-teardown'</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">onPanelTeardown</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">));</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">events</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'data-snapshot-load'</span><span class="p">,</span> <span class="k">this</span><span class="p">.</span><span class="nx">onDataSnapshotLoad</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">));</span>
+</code></pre>
+
+<p>Then we need to create a simple event handler that just forwards the data on to our regular <code class="prettyprint">data-received</code> handler:</p>
+<pre class="highlight javascript"><code><span class="nx">onDataSnapshotLoad</span><span class="p">(</span><span class="nx">snapshotData</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">onDataReceived</span><span class="p">(</span><span class="nx">snapshotData</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>This will cover most use cases for snapshot support. Sometimes you will want to save data that is not time series data from a Grafana data source and then you have to do a bit more work to get snapshot support.</p>
+
+<h2 id="saving-custom-data-for-snapshots">Saving custom data for snapshots</h2>
+
+<p>The second data source in the Worldmap Panel is not time series data and is not saved automatically by Grafana. We have to do that ourselves in this case. Location data can come from a variety of sources: json endpoints, Elasticsearch geoip data or a static json file.</p>
+
+<p><img src="/assets/img/blog/Grafana-save-snapshot.png" /></p>
+
+<p>Grafana gives us a chance to save data to the dashboard json when it is creating a snapshot. In the &lsquo;data-received&rsquo; event handler, you can check the snapshot flag on the dashboard object. If this is true, then Grafana is creating a snapshot and you can manually save custom data to the panel json. In this case, I created a new field called snapshotLocationData and copied in the location data (an array of objects containing place names and coordinates).</p>
+<pre class="highlight javascript"><code><span class="nx">onDataReceived</span><span class="p">(</span><span class="nx">dataList</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">dataList</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+  <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">dashboard</span><span class="p">.</span><span class="nx">snapshot</span> <span class="o">&amp;&amp;</span> <span class="k">this</span><span class="p">.</span><span class="nx">locations</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">panel</span><span class="p">.</span><span class="nx">snapshotLocationData</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">locations</span><span class="p">;</span>
+  <span class="p">}</span>
+</code></pre>
+
+<p>Now the location data is saved in the dashboard json but we will have to load it manually as well.</p>
+
+<h2 id="loading-custom-data-for-snapshots">Loading custom data for snapshots</h2>
+
+<p>The Worldmap Panel has a function that loads the location data for the panel. The data sources for location data are not available from a snapshot so a guard check is made to see if there is any snapshot data available first. If there is, then the snapshot data is used instead of trying to load the data from a data source.</p>
+<pre class="highlight javascript"><code><span class="nx">loadLocationDataFromFile</span><span class="p">(</span><span class="nx">reload</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">map</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="nx">reload</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+  <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">panel</span><span class="p">.</span><span class="nx">snapshotLocationData</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">locations</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">panel</span><span class="p">.</span><span class="nx">snapshotLocationData</span><span class="p">;</span>
+    <span class="k">return</span><span class="p">;</span>
+  <span class="p">}</span>
+</code></pre>
+
+<p>And that&rsquo;s it. It is really easy to forget to add this support but it enables a great feature and can be used to demo your panel. Try out my <a href="https://snapshot.raintank.io/dashboard/snapshot/dXSzImhFkrffwtrcPXeWfC44timza0Ai">Worldmap Panel snapshot here</a>.</p>
+
+<p>P.S. If there is a panel plugin that you would like to be installed on the Raintank Snapshot server then please contact us via <a href="https://raintank.slack.com">Slack</a> or <a href="https://github.com/grafana/grafana">GitHub</a>.</p>
+<hr style="margin-top:30px; margin-bottom:30px"/>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'grafanablog'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div><div class="large-3 columns"><br /><h4>Posts</h4><p><a href="/blog/2016/07/12/grafana-3-1-released.html">Grafana 3.1.0 Released</a></p><p><a href="/blog/2016/07/06/dear-graphite-users-and-developers.html">Dear Graphite Users and Developers</a></p><p><a href="/blog/2016/06/23/grafana-3-1-beta-released.html">Grafana 3.1 Beta Released</a></p><p><a href="/blog/2016/05/11/grafana-3-0-stable-released.html">Grafana 3.0 Stable Released</a></p><p><a href="/blog/2016/04/15/clock-plugin-p2.html">Timing is Everything. Editor Mode in Grafana 3.0 for the Clock Panel Plugin</a></p><hr /><h4>About Grafana</h4><p>Grafana is an open source metrics dashboard and graph composer for almost any metric data store.</p></div></div></main></section><div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls"><div class="slides"></div><h3 class="title"></h3><a class="prev">‹</a><a class="next">›</a><a class="close">×</a><a class="play-pause"></a><ol class="indicator"></ol></div><footer class="page-footer"><div class="footer-bg"></div><div class="footer-content row text-center"><section class="newsletter"><div class="row"><h3 class="text-center">Get notified of new releases</h3></div><div class="row"><div class="medium-10 large-6 columns medium-offset-1 large-offset-3"><form action="http://grafana.us8.list-manage.com/subscribe/post?u=2aeb5711db2aececc990be536&amp;id=5585d37ecc" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" target="_blank"><div class="row collapse"><div class="medium-10 columns"><input class="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" type="email" value="" /></div><div class="medium-2 columns"><input class="button postfix" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe" /></div></div></form></div></div></section><div class="footer-social"><span><i class="fa fa-github"></i><a href="https://github.com/grafana/grafana/issues">issue tracker</a> on GitHub</span><span><i class="fa fa-comment"></i><a href="irc://chat.freenode.net/#grafana">#grafana</a> on freenode</span><span><i class="fa fa-twitter"></i><a href="http://twitter.com/grafana">@grafana</a> on Twitter</span><span><i class="fa fa-envelope"></i><a href="mailto:torkel@grafana.org">email</a></span></div><div class="row copyright text-center">&copy; 2015 Torkel Ödegaard &amp; Coding Instinct AB</div></div></footer><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-47280256-1', 'grafana.org');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview', {
+ 'page': location.pathname + location.search  + location.hash,
+});</script></body></html>

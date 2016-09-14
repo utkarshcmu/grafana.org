@@ -10,8 +10,8 @@
     "href": "https://github.com/Modernizr/Modernizr/issues/572"
   },{
     "name": "JSFiddle Example",
-    "href": "http://jsfiddle.net/glsee/JRmdq/8/"
+    "href": "https://jsfiddle.net/glsee/JRmdq/8/"
   }]
 }
 !*/
-define(["Modernizr","docElement","testStyles","roundedEquals"],function(e,t,n,i){n("#modernizr1{width: 50vm;width:50vmin}#modernizr2{width:50px;height:50px;overflow:scroll}",function(n){var o=n.childNodes[1],r=n.childNodes[0],a=parseInt((r.offsetWidth-r.clientWidth)/2,10),s=t.clientWidth/100,u=t.clientHeight/100,d=parseInt(50*Math.min(s,u),10),c=parseInt((window.getComputedStyle?getComputedStyle(o,null):o.currentStyle).width,10);e.addTest("cssvminunit",i(d,c)||i(d,c-a))},2)});
+define(["Modernizr","docElement","testStyles","roundedEquals"],function(e,t,n,i){n("#modernizr1{width: 50vm;width:50vmin}#modernizr2{width:50px;height:50px;overflow:scroll}#modernizr3{position:fixed;top:0;left:0;bottom:0;right:0}",function(t){var n=t.childNodes[2],r=t.childNodes[1],o=t.childNodes[0],s=parseInt((r.offsetWidth-r.clientWidth)/2,10),a=o.clientWidth/100,c=o.clientHeight/100,u=parseInt(50*Math.min(a,c),10),l=parseInt((window.getComputedStyle?getComputedStyle(n,null):n.currentStyle).width,10);e.addTest("cssvminunit",i(u,l)||i(u,l-s))},3)});

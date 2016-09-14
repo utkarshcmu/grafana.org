@@ -5,4 +5,4 @@
   "tags": ["video", "media"]
 }
 !*/
-define(["Modernizr","createElement"],function(e,t){e.addTest("videoloop","loop"in t("video"))});
+define(["Modernizr","createElement"],function(t,e){t.addTest("videoloop","loop"in e("video"))});

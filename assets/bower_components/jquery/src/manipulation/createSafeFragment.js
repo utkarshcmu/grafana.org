@@ -1,0 +1,1 @@
+define(["./var/nodeNames"],function(t){function e(e){var n=t.split("|"),i=e.createDocumentFragment();if(i.createElement)for(;n.length;)i.createElement(n.pop());return i}return e});

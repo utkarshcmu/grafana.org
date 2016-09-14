@@ -11,4 +11,4 @@
   ]
 }
 !*/
-define(["Modernizr"],function(t){var e=window.CSS;t.addTest("cssescape",e?"function"==typeof e.escape:!1)});
+define(["Modernizr"],function(e){var t=window.CSS;e.addTest("cssescape",t?"function"==typeof t.escape:!1)});

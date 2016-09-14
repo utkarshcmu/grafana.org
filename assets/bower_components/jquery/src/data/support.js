@@ -1,0 +1,1 @@
+define(["../var/document","../var/support"],function(t,e){return function(){var n=t.createElement("div");e.deleteExpando=!0;try{delete n.test}catch(i){e.deleteExpando=!1}n=null}(),e});
