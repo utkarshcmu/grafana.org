@@ -13,4 +13,4 @@
   }]
 }
 !*/
-define(["Modernizr","hasEvent"],function(e,t){e.addTest("inputsearchevent",t("search"))});
+define(["Modernizr","hasEvent"],function(t,e){t.addTest("inputsearchevent",e("search"))});

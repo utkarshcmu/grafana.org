@@ -13,4 +13,4 @@
   }]
 }
 !*/
-define(["Modernizr","testStyles"],function(e,t){e.addTest("hiddenscroll",function(){return t("#modernizr {width:100px;height:100px;overflow:scroll}",function(e){return e.offsetWidth===e.clientWidth})})});
+define(["Modernizr","testStyles"],function(t,e){t.addTest("hiddenscroll",function(){return e("#modernizr {width:100px;height:100px;overflow:scroll}",function(t){return t.offsetWidth===t.clientWidth})})});
