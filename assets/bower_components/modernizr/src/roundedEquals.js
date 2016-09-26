@@ -1,1 +1,0 @@
-define(function(){function t(t,e){return t-1===e||t===e||t+1===e}return t});

@@ -1,1 +1,0 @@
-define(function(){function t(t,e){return function(){return t.apply(e,arguments)}}return t});
