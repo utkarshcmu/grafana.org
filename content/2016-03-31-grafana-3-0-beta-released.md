@@ -1,10 +1,8 @@
-+++
-title = "Grafana 3.0 Beta Released"
-description = "Grafana 3.0 is now available for download. This blog post describes some of the new features found this release."
-keywords = ["release"]
-author = "Torkel Ödegaard"
-date = "2016-03-31"
-+++
+---
+title: Grafana 3.0 Beta Released
+author: Torkel Ödegaard
+published_on: March 31, 2016
+---
 
 Today is the day! We are pleased to announce that Grafana 3.0 beta
 is released along with a preview of [Grafana.net](http://grafana.net)! Since our last release

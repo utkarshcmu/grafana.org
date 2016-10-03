@@ -17,7 +17,7 @@ module.exports = function(grunt) {
       },
       content: {
         files: ["content/**/*", "layouts/**/*"],
-        tasks: ["hugo"],
+        tasks: ["hugo:dev"],
         options: {spawn: false},
       },
       sass: {
@@ -135,7 +135,7 @@ module.exports = function(grunt) {
     var args = ["--destination=dist/"];
 
     if (target === "dev") {
-      args.push("--baseUrl=http://localhost:1345");
+      args.push("--baseUrl=http://localhost:3002");
       args.push("--buildDrafts=true");
       args.push("--buildFuture=true");
     }
@@ -167,17 +167,22 @@ module.exports = function(grunt) {
     });
   });
 
-  grunt.registerTask("default", [
-      "hugo:dev",
+  grunt.registerTask("assets-dev", [
       "sass",
       "postcss",
       "babel",
       "systemjs",
   ]);
 
+  grunt.registerTask("default", [
+      "hugo:dev",
+      "assets-dev",
+  ]);
+
   grunt.registerTask("build", [
       "clean",
-      "default",
+      "hugo",
+      "assets-dev",
       "cssmin",
       "uglify",
       "filerev",
