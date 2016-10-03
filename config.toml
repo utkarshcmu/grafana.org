@@ -1,4 +1,4 @@
-baseurl = "http://grafana.org/"
+baseurl = "http://staging.grafana.org/"
 languageCode = "en-us"
 title = "Beautiful Metrics and Analytics dashboards, Data Visualization and Monitoring"
 canonifyurls = false
