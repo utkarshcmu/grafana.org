@@ -1,31 +1,15 @@
-#top-bar-button {
-  background: $primary-color;
-  font-weight: normal;
-  margin-top: 1.9rem;
-  border-radius: $global-radius;
-}
-
-#top-bar-demo-button {
-  background: transparent;
-  margin-top: 1.9rem;
-  font-weight: normal;
-  border-radius: $global-radius;
-  border: 1px solid $tertiary-color;
-}
-.top-bar-section {
-  .fa-github {
-    font-size: 1.7em;
-    position: relative;
-    top: 0.2em;
-  }
-}
 
 .top-bar.expanded {
   background-color: black;
 }
 
+.top-bar-download-link {
+  color: #FF6700;
+  text-shadow: -1px 1px 10px #F07F18;
+}
+
 @media #{$topbar-media-query} {
-  .top-bar-section {  
+  .top-bar-section {
     li {
       &.hover {
         > a:not(.button) {
@@ -34,6 +18,7 @@
             background: $topbar-link-bg-hover;
           }
           color: $topbar-link-color-hover;
+
         }
       }
       &:not(.has-form) {
@@ -46,6 +31,11 @@
             background-color: $topbar-link-bg-color-hover;
             @if ($topbar-link-bg-hover) {
               background: $topbar-link-bg-hover;
+            }
+
+            &.top-bar-download-link {
+              color: #FF6700;
+              text-shadow: -1px 1px 10px #F07F18;
             }
           }
         }
@@ -62,6 +52,11 @@
             color: $topbar-link-color-active-hover;
           }
         }
+      }
+
+      .top-bar-download-link {
+        color: #FF6700;
+        text-shadow: -1px 1px 10px #F07F18;
       }
     }
   }
