@@ -1,7 +1,11 @@
 {
-  "name": "PROJECT_NAME",
+  "name": "Grafana",
   "dependencies": {
     "foundation": "~5.4.0",
-    "lodash": "~3.3.1"
+    "lodash": "~3.3.1",
+    "lightgallery.js": "^0.0.3",
+    "lg-thumbnail.js": "^0.0.4",
+    "lg-fullscreen.js": "^0.0.1",
+    "lg-zoom.js": "^0.0.2"
   }
 }

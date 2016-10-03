@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+	<div class="main">
+		{{ range .Data.Pages }}
+				{{if eq .Type "index" }}
+						{{.Content}}
+				{{end}}
+		{{ end }}
+	</div>
+
+{{ partial "footer.html" . }}
+
