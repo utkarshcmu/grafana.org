@@ -36,53 +36,23 @@
 		<!-- build:js js/app.bundle.js -->
 		<script src="/js/app.bundle.js" defer></script>
 		<!-- endbuild -->
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-47280256-1', 'grafana.org');
+			ga('require', 'linkid', 'linkid.js');
+			ga('send', 'pageview', {
+				'page': location.pathname + location.search  + location.hash,
+			});
+		</script>
 	</head>
 
 	<body class="{{ if .Params.body_class }}{{ .Params.body_class }}{{ end }}">
 
 		{{ partial "navbar.html" . }}
 
-				<!--   title == "Grafana &#45; " + (data.page.title || "Beautiful Metrics, Analytics, dashboards and monitoring!") -->
-				<!--  -->
-				<!--   &#45; if data.page.redirect -->
-				<!--     meta http&#45;equiv="refresh" content="0; url=#{data.page.redirect}" -->
-				<!--     link rel="canonical" href="#{data.page.redirect}" -->
-				<!--  -->
-				<!--   meta name="author" content="Torkel Ödegaard" -->
-				<!--   meta name="viewport" content="width=device&#45;width, initial&#45;scale=1" -->
-				<!--   meta name="description" content="" -->
-				<!--   meta name="keywords" content="Grafana, Graphite, Dashboard, InfluxDB, OpenTSDB, Elasticsearch, Metrics, Editor, Composer, Analytics, Graphana, Prometheus, Cloudwatch" -->
-				<!--  -->
-				<!--   link rel="icon" href="/assets/img/fav32.png" -->
-				<!--  -->
-				<!--   == stylesheet_link_tag "all" -->
-				<!--   == stylesheet_link_tag "//netdna.bootstrapcdn.com/font&#45;awesome/4.4.0/css/font&#45;awesome.css" -->
-				<!--   == stylesheet_link_tag "https://fonts.googleapis.com/css?family=Open+Sans:400,600" -->
-				<!--  -->
-				<!--   == javascript_include_tag  "all" -->
-				<!--  -->
-				<!--   meta property="og:title" content=(data.page.title || "The leading graph and dashboard builder for visualizing time series metrics.") -->
-				<!--   meta property="og:site_name" content="Grafana.org" -->
-				<!--   meta property="og:type" content="website" -->
-				<!--   meta property="og:image" content="http://grafana.org/assets/img/docs/nice_dashboard.png" -->
-				<!--  -->
-				<!-- body class="#{page_classes}" -->
-				<!--   = partial "layouts/nav" -->
-				<!--  -->
-				<!--   section.main -->
-				<!--     == yield -->
-				<!--  -->
-				<!--   <div id="blueimp&#45;gallery" class="blueimp&#45;gallery blueimp&#45;gallery&#45;controls"> -->
-				<!--       <div class="slides"></div> -->
-				<!--       <h3 class="title"></h3> -->
-				<!--       <a class="prev">‹</a> -->
-				<!--       <a class="next">›</a> -->
-				<!--       <a class="close">×</a> -->
-				<!--       <a class="play&#45;pause"></a> -->
-				<!--       <ol class="indicator"></ol> -->
-				<!--   </div> -->
-				<!--  -->
-				<!--   = partial "layouts/_footer" -->
-				<!--   = partial "layouts/analytics" -->
-				<!--  -->
-				<!--  -->
+

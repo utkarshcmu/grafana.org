@@ -1,8 +1,10 @@
----
-title: "Grafana 3.0 Beta Released"
-description: "Grafana 3.0 Beta Released"
-date: "2016-04-01"
----
++++
+title = "Grafana 3.0 Beta Released"
+description = "Grafana 3.0 is now available for download. This blog post describes some of the new features found this release."
+keywords = ["release"]
+author = "Torkel Ödegaard"
+date = "2016-05-23"
++++
 
 ## Sample Post 1
 
@@ -20,4 +22,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, non, ratione, mol
 
 ## foo
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, neque, eveniet voluptate eos debitis illum qui nostrum eius maxime ratione assumenda suscipit impedit deserunt voluptatibus odio ducimus non. Ex, ratione.
+aorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, neque, eveniet voluptate eos debitis illum qui nostrum eius maxime ratione assumenda suscipit impedit deserunt voluptatibus odio ducimus non. Ex, ratione.
