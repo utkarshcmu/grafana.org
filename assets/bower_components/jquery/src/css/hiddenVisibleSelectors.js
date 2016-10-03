@@ -1,1 +1,1 @@
-define(["../core","../selector"],function(e){e.expr.filters.hidden=function(e){return e.offsetWidth<=0&&e.offsetHeight<=0},e.expr.filters.visible=function(t){return!e.expr.filters.hidden(t)}});
+define(["../core","../selector"],function(t){"use strict";t.expr.pseudos.hidden=function(e){return!t.expr.pseudos.visible(e)},t.expr.pseudos.visible=function(t){return!!(t.offsetWidth||t.offsetHeight||t.getClientRects().length)}});

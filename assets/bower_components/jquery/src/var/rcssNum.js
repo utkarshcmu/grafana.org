@@ -1,0 +1,1 @@
+define(["../var/pnum"],function(t){"use strict";return new RegExp("^(?:([+-])=|)("+t+")([a-z%]*)$","i")});

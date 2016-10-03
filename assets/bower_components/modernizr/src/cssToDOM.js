@@ -1,0 +1,1 @@
+define(function(){function t(t){return t.replace(/([a-z])-([a-z])/g,function(t,e,i){return e+i.toUpperCase()}).replace(/^-/,"")}return t});

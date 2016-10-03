@@ -1,0 +1,1 @@
+define(function(){"use strict";return function(t,e){for(var n=[];t;t=t.nextSibling)1===t.nodeType&&t!==e&&n.push(t);return n}});

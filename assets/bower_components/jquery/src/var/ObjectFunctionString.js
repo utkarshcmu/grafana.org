@@ -1,0 +1,1 @@
+define(["./fnToString"],function(t){"use strict";return t.call(Object)});

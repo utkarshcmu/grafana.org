@@ -1,0 +1,1 @@
+define(["Modernizr","modElem"],function(t,e){var n={style:e.elem.style};return t._q.unshift(function(){delete n.style}),n});

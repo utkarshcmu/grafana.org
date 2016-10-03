@@ -1,0 +1,1 @@
+define(["../Data"],function(t){"use strict";return new t});

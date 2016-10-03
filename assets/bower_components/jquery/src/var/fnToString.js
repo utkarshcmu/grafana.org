@@ -1,0 +1,1 @@
+define(["./hasOwn"],function(t){"use strict";return t.toString});

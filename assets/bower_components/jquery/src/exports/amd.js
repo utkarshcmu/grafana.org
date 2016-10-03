@@ -1,1 +1,1 @@
-define(["../core"],function(e){"function"==typeof define&&define.amd&&define("jquery",[],function(){return e})});
+define(["../core"],function(t){"use strict";"function"==typeof define&&define.amd&&define("jquery",[],function(){return t})});
