@@ -12,25 +12,38 @@ export AWS_DEFAULT_PROFILE=$BUCKET
 
 echo "cfg file: $AWS_CONFIG_FILE ; profile: $AWS_DEFAULT_PROFILE"
 
+gzip_all() {
+  rm -Rf dist_gzip/
+  rsync -a --progress dist/ dist_gzip/
+  gzip -9fr dist_gzip/
+  FILES=`find dist_gzip`
+  for FILE in $FILES; do
+    NEW_FILE=${FILE/.gz/}
+    if [ "${FILE}" != "${NEW_FILE}" ]; then
+      mv ${FILE} ${NEW_FILE}
+    fi;
+  done;
+}
+
 setup_s3() {
-	echo "Create $BUCKET"
-	# Try creating the bucket. Ignore errors (it might already exist).
-	aws s3 mb --profile $BUCKET s3://$BUCKET 2>/dev/null || true
-	# Check access to the bucket.
-	echo "test $BUCKET exists"
-	aws s3 --profile $BUCKET ls s3://$BUCKET
-	# Make the bucket accessible through website endpoints.
-	echo "make $BUCKET accessible as a website"
-	#aws s3 website s3://$BUCKET --index-document index.html --error-document jsearch/index.html
-	s3conf=$(cat s3_website.json | envsubst)
-	echo
-	echo $s3conf
-	echo
-	aws s3api --profile $BUCKET put-bucket-website --bucket $BUCKET --website-configuration "$s3conf"
+  echo "Create $BUCKET"
+  # Try creating the bucket. Ignore errors (it might already exist).
+  aws s3 mb --profile $BUCKET s3://$BUCKET 2>/dev/null || true
+  # Check access to the bucket.
+  echo "test $BUCKET exists"
+  aws s3 --profile $BUCKET ls s3://$BUCKET
+  # Make the bucket accessible through website endpoints.
+  echo "make $BUCKET accessible as a website"
+  #aws s3 website s3://$BUCKET --index-document index.html --error-document jsearch/index.html
+  s3conf=$(cat s3_website.json)
+  echo
+  echo $s3conf
+  echo
+  aws s3api --profile $BUCKET put-bucket-website --bucket $BUCKET --website-configuration "$s3conf"
 }
 
 upload_s3() {
-	src=dist/
+	src=dist_gzip/
 	dst=s3://$BUCKET
 
 	cache=max-age=3600
@@ -45,13 +58,17 @@ upload_s3() {
 
 	exclude="--exclude bower/*"
 	include=""
+	encoding='--content-encoding=gzip'
 
-  run="aws s3 sync $src $dst $OPTIONS --profile $BUCKET --cache-control $cache --acl public-read $include $exclude"
+  run="aws s3 cp $src $dst --recursive $include $exclude --profile $BUCKET --cache-control $cache --acl public-read $encoding"
   echo "======================="
   echo "$run"
   echo "======================="
   $run
+
+  rm -rf dist_gzip
 }
 
-setup_s3
+#setup_s3
+gzip_all
 upload_s3
