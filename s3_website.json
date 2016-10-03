@@ -1,4 +1,7 @@
 {
+  "ErrorDocument": {
+    "Key": "404.html"
+  },
   "IndexDocument": {
     "Suffix": "index.html"
   }

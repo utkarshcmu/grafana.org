@@ -6,6 +6,7 @@
     "lightgallery.js": "^0.0.3",
     "lg-thumbnail.js": "^0.0.4",
     "lg-fullscreen.js": "^0.0.1",
-    "lg-zoom.js": "^0.0.2"
+    "lg-zoom.js": "^0.0.2",
+    "es6-shim": "^0.35.1"
   }
 }

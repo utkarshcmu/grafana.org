@@ -2,11 +2,11 @@ baseurl = "http://grafana.org/"
 languageCode = "en-us"
 title = "Beautiful Metrics and Analytics dashboards, Data Visualization and Monitoring"
 canonifyurls = false
-relativeURLs = true
+relativeURLs = false
 verbose = true
 enableRobotsTXT = true
 disableSitemap = false
 disableRSS = true
 
 [permalinks]
-  blog = "blog/:year/:month/:day/:title.html/"
+  blog = "blog/:year/:month/:day/:title/"

@@ -44,9 +44,9 @@ upload_s3() {
 	echo
 
 	exclude="--exclude bower/*"
-	include="--recursive"
+	include=""
 
-  run="aws s3 cp $src $dst $OPTIONS --profile $BUCKET --cache-control $cache --acl public-read $include $exclude"
+  run="aws s3 sync $src $dst $OPTIONS --profile $BUCKET --cache-control $cache --acl public-read $include $exclude"
   echo "======================="
   echo "$run"
   echo "======================="

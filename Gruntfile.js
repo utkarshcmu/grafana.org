@@ -29,7 +29,7 @@ module.exports = function(grunt) {
       },
       js: {
         files: ["static/js/**/*"],
-        tasks: ["babel", "systemjs"],
+        tasks: ["babel", "systemjs", "concat"],
         options: {
           spawn: false
         }
@@ -89,6 +89,16 @@ module.exports = function(grunt) {
       },
     },
 
+    concat:  {
+      js: {
+        src: [
+          'dist/bower/es6-shim/es6-shim.js',
+          'dist/js/app.bundle.js',
+        ],
+        dest: 'dist/js/app.bundle.js'
+      },
+    },
+
     cssmin: {
       build: {
         expand: true,
@@ -113,7 +123,10 @@ module.exports = function(grunt) {
     },
 
     usemin: {
-      html: ["dist/**/*.html"]
+      html: ["dist/**/*.html"],
+      options: {
+        assetsDirs: ['dist']
+      }
     },
 
     filerev: {
@@ -160,33 +173,34 @@ module.exports = function(grunt) {
         console.log('Build complete');
         done();
       })
-    .catch(function(err) {
-      console.log('Build error');
-      console.log(err);
-      done(false);
-    });
+        .catch(function(err) {
+          console.log('Build error');
+          console.log(err);
+          done(false);
+        });
   });
 
   grunt.registerTask("assets-dev", [
-      "sass",
-      "postcss",
-      "babel",
-      "systemjs",
+    "sass",
+    "postcss",
+    "babel",
+    "systemjs",
+    "concat",
   ]);
 
   grunt.registerTask("default", [
-      "hugo:dev",
-      "assets-dev",
+    "hugo:dev",
+    "assets-dev",
   ]);
 
   grunt.registerTask("build", [
-      "clean",
-      "hugo",
-      "assets-dev",
-      "cssmin",
-      "uglify",
-      "filerev",
-      "usemin",
+    "clean",
+    "hugo",
+    "assets-dev",
+    "cssmin",
+    "uglify",
+    "filerev",
+    "usemin",
   ]);
 
 };

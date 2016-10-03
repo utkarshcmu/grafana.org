@@ -1,4 +1,4 @@
-var buildFetcher = function() {
+export function buildFetcher() {
 
   var dateSortDesc = function (file1, file2) {
     if (file1.date > file2.date) return -1;
@@ -51,4 +51,4 @@ var buildFetcher = function() {
     });
   });
 
-}();
+}
