@@ -5,19 +5,18 @@
   margin: 0;
   padding: 0;
 
-  &:last-child {
-    margin-right: 30px;
-  }
-
   li {
     display: block;
     font-size: 14px;
     font-weight: 500;
 
     a {
+      font-family: $header-font-family;
+      text-transform: uppercase;
+      font-weight: 600;
       display: block;
       width: 100%;
-      color: $white;
+      color: darken($topbar-link-color, 25%);
       padding: 12px 0;
       padding-left: 15px;
     }
@@ -43,7 +42,6 @@
       font-size: 0.8rem;
 
       a {
-        color: $iron;
         padding: 10px 15px;
       }
 

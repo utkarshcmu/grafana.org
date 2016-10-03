@@ -22,14 +22,14 @@ module.exports = function(grunt) {
       },
       sass: {
         files: ["static/sass/**/*"],
-        tasks: ["sass", "postcss"],
+        tasks: ["hugo:dev", "assets-dev"],
         options: {
           spawn: false
         }
       },
       js: {
         files: ["static/js/**/*"],
-        tasks: ["babel", "systemjs", "concat"],
+        tasks: ["hugo:dev", "assets-dev"],
         options: {
           spawn: false
         }
