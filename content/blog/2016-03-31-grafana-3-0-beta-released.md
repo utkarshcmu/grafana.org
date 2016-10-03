@@ -1,5 +1,5 @@
 ---
-title: Grafana 3.1 Beta Released
+title: Grafana 3.0 Beta Released
 author: Torkel Ödegaard
 published_on: March 31, 2016
 ---

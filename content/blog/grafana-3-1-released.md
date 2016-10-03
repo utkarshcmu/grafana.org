@@ -1,8 +1,9 @@
----
-title: Grafana 3.1.0 Released
-author: Torkel Ödegaard
-published_on: July 12, 2016
----
++++
+title = "Grafana 3.1.0 Released"
+author = "Torkel Ödegaard"
+keywords = ["release"]
+date = "2016-07-12"
++++
 
 Grafana 3.1.0 stable is now available for download!
 
