@@ -1,3 +1,35 @@
+@import 'buttons.scss';
+
+.download-row-aside {
+  padding: 0 0 0 1rem;
+  width: 17rem;
+  float: left;
+
+  h2 {
+    font-style: italic;
+  }
+
+  .download-row-aside-step {
+    color: $text-muted-color;
+  }
+
+  .download-row-aside-icon {
+    padding: rem-calc(5);
+    font-size: rem-calc(80);
+    color: $text-muted-color;
+  }
+
+}
+
+.download-another-version-selector {
+  padding-top: 0.5rem;
+  float: right;
+}
+
+.download-row-content {
+  margin-left: 17rem;
+}
+
 .install-steps {
   padding-bottom: rem-calc(30);
 
@@ -21,14 +53,16 @@
 }
 
 .download-release-heading {
-  text-align: center;
 }
 
 .download-other-ways {
-  a.button {
-    margin-right: rem-calc(15);
-    margin-bottom: rem-calc(0);
-    padding: rem-calc(10);
+  a {
+    background-color: $primary-color;
+    color: white;
+    margin-right: rem-calc(5);
+    padding: rem-calc(6);
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
   }
 }
 
@@ -38,10 +72,17 @@
 
 a.download-link {
   display: inline-block;
-  font-size: 80%;
-  color: $white-text-color;
-  background-color: $secondary-color;
+  font-size: 1.2rem;
   border-radius: 3px;
-  padding: rem-calc(10) rem-calc(15);
-  margin: rem-calc(10);
+  padding-right: 10px;
+
+  .text-muted {
+    font-size: 80%;
+  }
+
+  &:hover {
+    .text-muted {
+      color: darken($text-muted-color, 17%);
+    }
+  }
 }

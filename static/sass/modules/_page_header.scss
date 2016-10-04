@@ -10,6 +10,7 @@
     margin-bottom: 0rem;
     text-shadow: 3px 3px 5px black;
     color: $white-text-color;
+    font-style: italic;
   }
 
   h5 {
@@ -36,6 +37,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.download-page {
+  .page-header-bg {
+    background-image: url(/assets/img/header_cover2.png);
+  }
 }
 
 .page-content {

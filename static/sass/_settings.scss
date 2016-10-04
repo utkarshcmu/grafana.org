@@ -29,6 +29,7 @@ $success-color: #43AC6A;
 $warning-color: #f08a24;
 $info-color: #a0d3e8;
 $white-text-color: #FFFFFF;
+$text-muted-color: gray;
 
 // c. Global
 $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -42,6 +43,9 @@ $body-font-color: #222;
 $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $body-font-weight: normal;
 $body-font-style: normal;
+
+$anchor-font-color: $secondary-color;
+$anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -17%);
 
 $row-width: rem-calc(1060); //1148
 
@@ -58,8 +62,8 @@ $header-top-margin: .2rem;
 $header-bottom-margin: .5rem;
 $header-text-rendering: optimizeLegibility;
 
-$header-font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$header-font-weight: 600;
+$header-font-family: "PT Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-weight: 400;
 $header-font-style: normal;
 $header-line-height: 1.4;
 $header-top-margin: .2rem;
@@ -98,7 +102,7 @@ $blockquote-cite-font-size: rem-calc(13);
 $blockquote-cite-font-color: lighten($header-font-color, 23%);
 $blockquote-cite-link-color: $blockquote-cite-font-color;
 
-$grafana-top-nav-bg: black;
+$grafana-top-nav-bg: rgba(0, 0, 0, 0.6);
 $topbar-bg: transparent;
 $topbar-dropdown-bg: transparent;
 $topbar-dropdown-bg: transparent;
@@ -122,6 +126,20 @@ $topbar-button-font-size: 1.75rem;
 $topbar-breakpoint: 51; // Change to 9999px for always mobile layout
 $topbar-media-query: "only screen and (min-width: 53em)";
 $topbar-link-text-transform: uppercase;
-$topbar-link-weight: 600
+$topbar-link-weight: 600;
+
+$tabs-navigation-padding: rem-calc(10) !default;
+$tabs-navigation-bg-color: $silver !default;
+$tabs-navigation-active-bg-color: $white !default;
+$tabs-navigation-hover-bg-color: scale-color($tabs-navigation-bg-color, $lightness: -6%) !default;
+$tabs-navigation-font-color: $jet !default;
+$tabs-navigation-active-font-color: $tabs-navigation-font-color !default;
+$tabs-navigation-font-size: rem-calc(16) !default;
+$tabs-navigation-font-family: $body-font-family !default;
+
+$tabs-content-margin-bottom: rem-calc(24) !default;
+$tabs-content-padding: 1rem;
+
+$tabs-vertical-navigation-margin-bottom: 1.25rem !default;
 
 
