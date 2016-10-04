@@ -23,5 +23,6 @@ $(window).on('load', () =>  {
     });
   });
 
+  $(document).foundation();
 
 });

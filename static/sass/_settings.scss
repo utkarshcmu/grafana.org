@@ -48,11 +48,6 @@ $row-width: rem-calc(1060); //1148
 $dark-hero-bg: #1f1f1f;
 $features-banner-bg: #0099CC;
 
-$grafana-top-nav-bg: rgba(0, 0, 0, 0.6);
-$topbar-bg: transparent;
-$topbar-dropdown-bg: transparent;
-$topbar-dropdown-bg: transparent;
-
 // We use these to control header font styles
 $header-font-family: $body-font-family;
 $header-font-weight: $font-weight-normal;
@@ -102,6 +97,11 @@ $blockquote-border: 3px solid $secondary-color;
 $blockquote-cite-font-size: rem-calc(13);
 $blockquote-cite-font-color: lighten($header-font-color, 23%);
 $blockquote-cite-link-color: $blockquote-cite-font-color;
+
+$grafana-top-nav-bg: black;
+$topbar-bg: transparent;
+$topbar-dropdown-bg: transparent;
+$topbar-dropdown-bg: transparent;
 
 $topbar-height: 80px; // was 80px TRW
 $topbar-link-color: #DDD;

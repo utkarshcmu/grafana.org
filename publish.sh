@@ -70,5 +70,6 @@ upload_s3() {
 }
 
 #setup_s3
+grunt build
 gzip_all
 upload_s3

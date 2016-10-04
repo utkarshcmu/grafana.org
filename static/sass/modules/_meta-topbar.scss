@@ -30,7 +30,9 @@
 @media only screen and (min-width: 53em) {
   .meta-top-bar-section {
     float: right;
-    height: 20px;
+    &:after {
+      clear: both;
+    }
   }
 
   .meta-top-bar-section ul {

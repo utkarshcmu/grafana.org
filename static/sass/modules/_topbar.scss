@@ -11,27 +11,14 @@
 @media #{$topbar-media-query} {
   .top-bar-section {
     li {
-      &.hover {
-        > a:not(.button) {
-          background-color: $topbar-link-bg-color-hover;
-          @if ($topbar-link-bg-hover) {
-            background: $topbar-link-bg-hover;
-          }
-          color: $topbar-link-color-hover;
-
-        }
-      }
       &:not(.has-form) {
         a:not(.button) {
           padding: 0 $topbar-link-padding;
-          margin-top: 20px;
+          margin-top: 0px;
           line-height: 60px;
           background: $topbar-link-bg;
           &:hover {
             background-color: $topbar-link-bg-color-hover;
-            @if ($topbar-link-bg-hover) {
-              background: $topbar-link-bg-hover;
-            }
 
             &.top-bar-download-link {
               color: #FF6700;
