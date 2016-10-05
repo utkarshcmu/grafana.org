@@ -1,1 +1,1 @@
-define(["../../core"],function(t){"use strict";return t.now()});
+define(["../../core"],function(e){return e.now()});

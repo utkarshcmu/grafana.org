@@ -1,1 +1,1 @@
-define(function(){"use strict";return/^margin/});
+define(function(){return/^margin/});

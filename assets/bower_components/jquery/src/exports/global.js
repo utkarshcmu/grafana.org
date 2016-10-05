@@ -1,1 +1,1 @@
-define(["../core"],function(t,e){"use strict";var n=window.jQuery,i=window.$;t.noConflict=function(e){return window.$===t&&(window.$=i),e&&window.jQuery===t&&(window.jQuery=n),t},e||(window.jQuery=window.$=t)});
+define(["../core","../var/strundefined"],function(e,t){var n=window.jQuery,r=window.$;e.noConflict=function(t){return window.$===e&&(window.$=r),t&&window.jQuery===e&&(window.jQuery=n),e},typeof noGlobal===t&&(window.jQuery=window.$=e)});

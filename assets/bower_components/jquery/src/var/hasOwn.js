@@ -1,1 +1,1 @@
-define(["./class2type"],function(t){"use strict";return t.hasOwnProperty});
+define(["./class2type"],function(t){return t.hasOwnProperty});

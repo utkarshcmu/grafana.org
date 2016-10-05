@@ -1,1 +1,1 @@
-define(["./core"],function(t){"use strict";t.fn.extend({bind:function(t,e,n){return this.on(t,null,e,n)},unbind:function(t,e){return this.off(t,null,e)},delegate:function(t,e,n,i){return this.on(e,t,n,i)},undelegate:function(t,e,n){return 1===arguments.length?this.off(t,"**"):this.off(e,t||"**",n)}}),t.parseJSON=JSON.parse});
+define(["./core","./traversing"],function(e){e.fn.size=function(){return this.length},e.fn.andSelf=e.fn.addBack});

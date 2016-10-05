@@ -1,1 +1,1 @@
-define(["./arr"],function(t){"use strict";return t.push});
+define(["./arr"],function(t){return t.push});

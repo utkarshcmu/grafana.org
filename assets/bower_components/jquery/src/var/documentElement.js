@@ -1,1 +1,0 @@
-define(["./document"],function(t){"use strict";return t.documentElement});

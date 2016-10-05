@@ -1,1 +1,0 @@
-define(["ModernizrProto","domPrefixes","createElement"],function(e,t,n){var r=function(e,r){var o=!1,i=n("div"),a=i.style;if(e in a){var c=t.length;for(a[e]=r,o=a[e];c--&&!o;)a[e]="-"+t[c]+"-"+r,o=a[e]}return""===o&&(o=!1),o};return e.prefixedCSSValue=r,r});

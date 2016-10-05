@@ -1,1 +1,1 @@
-define(["../../core","../../selector"],function(t){"use strict";return t.expr.match.needsContext});
+define(["../../core","../../selector"],function(t){return t.expr.match.needsContext});

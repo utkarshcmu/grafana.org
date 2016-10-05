@@ -1,1 +1,0 @@
-define(["../../core","../../selector"],function(t){"use strict";return function(e,n){return e=n||e,"none"===e.style.display||""===e.style.display&&t.contains(e.ownerDocument,e)&&"none"===t.css(e,"display")}});
