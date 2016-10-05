@@ -1,13 +1,20 @@
-+++
-title       = "Download Grafana"
-description = "Grafana downloads and release details"
-body_class = "download-page"
-+++
+{{ partial "header.html" . }}
+
+<div class="main">
+
+<div class="page-header">
+	<div class="page-header-bg"></div>
+	<div class="row">
+		<div class="large-12 columns">
+			<h1>Grafana Download</h1>
+		</div>
+	</div>
+</div>
 
 <div class="page-content row">
 	<br>
 	<div class="large-12 columns">
-		<div class="download-row row">
+		<div class="download-row">
 			<aside class="download-row-aside">
 				<h2><span class="download-row-aside-step">Step 1:</span> Install</h2>
 
@@ -17,32 +24,40 @@ body_class = "download-page"
 			</aside>
 
 			<div class="download-row-content">
+
 				<div class="download-release-heading">
 					<div class="download-another-version-selector">
 						<button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="tiny round button dropdown">
 							Need a different version?
 						</button>
 						<ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="true">
-							<li><a href="#">This is a link</a></li>
-							<li><a href="#">This is another</a></li>
-							<li><a href="#">Yet another</a></li>
+							{{ range .Site.Pages.ByDate.Reverse }}
+							{{if eq .Section "download" }}
+							<li><a href="{{ .RelPermalink }}">v{{ .Params.grafana_version }}</a></li>
+							{{ end }}
+							{{ end }}
 						</ul>
 					</div>
 
-					<h2>Grafana v3.1.1 <span class="text-muted">(2016-08-01)</span></h2>
+					<h2>Grafana v{{ .Params.grafana_version }} <span class="download-release-date">({{ .Date.Format "2 Jan 2006" }})</span></h2>
+				</div>
+				<div class="clearfix"></div>
+
+				<div class="section-strike">
+					<span>Files</span>
 				</div>
 
-				<div class="columns medium-12 download-links-wrapper">
-					<a class="download-link" data-download-button="grafana_3.1.1.deb" href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.1.1-1470047149_amd64.deb">
+				<div class="download-links-wrapper">
+					<a class="download-link" data-download-button="grafana_{{ .Params.grafana_version }}.deb" href="https://grafanarel.s3.amazonaws.com/builds/grafana_{{ .Params.grafana_build }}_amd64.deb">
 						<strong>.deb </strong> <span class="text-muted">(64bit)</span>
 					</a>
-					<a class="download-link" data-download-button="grafana_3.1.1.deb" href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.1.1-1470047149_amd64.deb">
+					<a class="download-link" data-download-button="grafana_{{ .Params.grafana_version }}.rpm" href="https://grafanarel.s3.amazonaws.com/builds/grafana-{{ .Params.grafana_build }}.x86_64.rpm">
 						<strong>.rpm </strong> <span class="text-muted">(64bit)</span>
 					</a>
-					<a class="download-link" data-download-button="grafana_3.1.1.deb" href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.1.1-1470047149_amd64.deb">
+					<a class="download-link" data-download-button="grafana_{{ .Params.grafana_version }}.tar.gz" href="https://grafanarel.s3.amazonaws.com/builds/grafana-{{ .Params.grafana_build }}.linux-x64.tar.gz">
 						<strong>.tar.gz </strong> <span class="text-muted">(Linux 64bit)</span>
 					</a>
-					<a class="download-link" data-download-button="grafana_3.1.1.deb" href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.1.1-1470047149_amd64.deb">
+					<a class="download-link" data-download-button="grafana_{{ .Params.grafana_version }}.zip" href="https://grafanarel.s3.amazonaws.com/winbuilds/dist/grafana-{{ .Params.grafana_version }}.windows-x64.zip">
 						<strong>.zip</strong> <span class="text-muted">(Windows 64bit)</span>
 					</a>
 					<a class="download-link" data-download-button="mac" href="http://docs.grafana.org/installation/mac">
@@ -50,10 +65,11 @@ body_class = "download-page"
 					</a>
 				</div>
 
-				<div class="download-release-heading">
-					<h4><i class="fa fa-server"></i> Package Repositories</h4>
+				<div class="section-strike">
+					<span>Repositories</span>
 				</div>
-				<div class="columns medium-12 download-links-wrapper">
+
+				<div class="download-links-wrapper">
 					<a class="download-link" data-download-button="grafana_3.1.1.deb" href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.1.1-1470047149_amd64.deb">
 						<strong>APT</strong> <span class="text-muted">(ubuntu/debian)</span>
 					</a>
@@ -68,34 +84,9 @@ body_class = "download-page"
 					</a>
 				</div>
 
-				<hr>
+				{{ .Content }}
 
-				<p>
-					For release details check out the <a href="http://grafana.org/blog/2016/07/12/grafana-3-1-released.html">Grafana 3.1 Released</a> blog post.
-				</p>
-
-				<ul class="tabs" data-tab role="tablist">
-					<li class="tab-title active" role="presentation"><a href="#panel2-1" role="tab" tabindex="0" aria-selected="true" aria-controls="panel2-1">Release Highlights</a></li>
-					<li class="tab-title" role="presentation"><a href="#panel2-2" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-2">Bug Fixes</a></li>
-					<li class="tab-title" role="presentation"><a href="#panel2-3" role="tab" tabindex="0" aria-selected="false" aria-controls="panel2-3">Breaking Changes</a></li>
-				</ul>
-
-				<div class="tabs-content">
-					<section role="tabpanel" aria-hidden="false" class="content active" id="panel2-1">
-						<h4>Grafana 3.1 Highlights</h4>
-					</section>
-					<section role="tabpanel" aria-hidden="true" class="content" id="panel2-2">
-						<h2>Second panel content goes here...</h2>
-					</section>
-					<section role="tabpanel" aria-hidden="true" class="content" id="panel2-3">
-						<h2>Third panel content goes here...</h2>
-					</section>
-					<section role="tabpanel" aria-hidden="true" class="content" id="panel2-4">
-						<h2>Fourth panel content goes here...</h2>
-					</section>
-				</div>
 			</div>
-		</div>
 
 		<div class="download-row row">
 			<aside class="download-row-aside">
@@ -117,6 +108,8 @@ body_class = "download-page"
 			</div>
 		</div>
 
-    </div>
+	</div>
 </div>
 
+
+{{ partial "footer.html" . }}

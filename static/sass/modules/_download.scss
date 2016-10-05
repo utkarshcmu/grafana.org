@@ -1,9 +1,23 @@
 @import 'buttons.scss';
 
+body.download-page {
+  background-image: none;
+}
+
+.download-release {
+  display: none;
+}
+
+.download-row {
+  position: relative;
+}
+
 .download-row-aside {
   padding: 0 0 0 1rem;
   width: 17rem;
-  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
 
   h2 {
     font-style: italic;
@@ -26,6 +40,11 @@
   float: right;
 }
 
+.download-release-date {
+  color: $text-muted-color;
+  font-size: 80%;
+}
+
 .download-row-content {
   margin-left: 17rem;
 }
@@ -44,30 +63,9 @@
   }
 }
 
-.newsletter-slim {}
-
 .download-links-wrapper {
   margin-top: rem-calc(10);
   margin-bottom: rem-calc(20);
-  text-align: center;
-}
-
-.download-release-heading {
-}
-
-.download-other-ways {
-  a {
-    background-color: $primary-color;
-    color: white;
-    margin-right: rem-calc(5);
-    padding: rem-calc(6);
-    font-size: 0.8rem;
-    border-radius: 0.2rem;
-  }
-}
-
-.download-release-details {
-  margin-bottom: rem-calc(40);
 }
 
 a.download-link {
@@ -85,4 +83,37 @@ a.download-link {
       color: darken($text-muted-color, 17%);
     }
   }
+}
+
+.section-strike {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: rem-calc(30);
+  color: $text-muted-color;
+}
+
+.section-strike > span {
+  position: relative;
+  display: inline-block;
+}
+
+.section-strike > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: $hr-border-color;
+}
+
+
+.section-strike > span:after {
+  left: 120%;
+}
+
+.download-highlights-header-details {
+  position: relative;
+  margin-bottom: 1rem;
+  margin-top: 0.15rem;
 }

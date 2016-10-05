@@ -5,6 +5,7 @@
 @import "../bower/lightgallery.js/dist/css/lightgallery.css";
 @import "../bower/lightgallery.js/dist/css/lg-transitions.css";
 
+@import "modules/mixins";
 @import "modules/startpage";
 @import "modules/download";
 @import "modules/tsdb-list";
@@ -18,13 +19,14 @@
 @import "modules/features";
 @import "modules/blog";
 @import "modules/lightbox";
+@import "modules/tabs";
 
 
 html {
   -webkit-font-smoothing: antialiased;
 }
 
-h2 {
+h1, h2, h3 {
   font-style: italic;
 }
 
@@ -148,9 +150,4 @@ pre {
 //   }
 // }
 
-.markdown {
-  p {
-    margin-bottom: 0;
-  }
-}
 
