@@ -26,6 +26,7 @@ $(window).on('load', () =>  {
 
   $('[data-download-link]').click(function() {
     $('.download-plaform-tip').hide();
+
     var label = $(this).data('download-link')
     ga('send', 'event', 'download', 'download', label)
     var asd = $('.download-plaform-tip[data-type="' + label + '"]').show();

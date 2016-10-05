@@ -11,6 +11,12 @@
 			</h5>
 		</div>
 		<div class="small-9 columns">
+			{{ if isset .Params "cover_photo" }}
+			<p>
+				<img src="{{ .Params.cover_photo }}"></img>
+			</p>
+			{{ end }}
+
 			<p>
 				{{ .Summary }}
 			</p>
