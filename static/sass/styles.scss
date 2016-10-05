@@ -1,7 +1,10 @@
-@import "_settings";
 
 @import "../bower/foundation/scss/normalize.scss";
+@import "../bower/foundation/scss/foundation/functions";
+@import "_settings";
+
 @import "../bower/foundation/scss/foundation.scss";
+
 @import "../bower/lightgallery.js/dist/css/lightgallery.css";
 @import "../bower/lightgallery.js/dist/css/lg-transitions.css";
 

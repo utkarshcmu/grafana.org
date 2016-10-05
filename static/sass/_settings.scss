@@ -1,5 +1,3 @@
-@import "../bower/foundation/scss/foundation/functions.scss";
-
 $white       : #FFFFFF;
 $ghost       : #FAFAFA;
 $snow        : #F9F9F9;
@@ -39,7 +37,7 @@ $font-weight-normal: normal !default;
 $font-weight-bold: bold !default;
 
 $body-bg: #FFF;
-$body-font-color: #222;
+$body-font-color: #333;
 $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $body-font-weight: normal;
 $body-font-style: normal;
@@ -47,7 +45,7 @@ $body-font-style: normal;
 $anchor-font-color: $secondary-color;
 $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -17%);
 
-$row-width: rem-calc(1060); //1148
+//$row-width: rem-calc(1060); //1148
 $spacer: 1rem;
 
 $dark-hero-bg: #1f1f1f;
@@ -57,7 +55,7 @@ $features-banner-bg: #0099CC;
 $header-font-family: $body-font-family;
 $header-font-weight: $font-weight-normal;
 $header-font-style: normal;
-$header-font-color: scale-color($body-font-color, $lightness: 10%);
+$header-font-color: #222;
 $header-line-height: 1.4;
 $header-top-margin: .2rem;
 $header-bottom-margin: .5rem;
@@ -156,3 +154,4 @@ $tabs-top-margin: 2rem;
 $tabs-border-color: $iron;
 
 $paragraph-margin-bottom: 1rem;
+

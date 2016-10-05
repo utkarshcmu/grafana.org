@@ -41,6 +41,7 @@
 
 					<h2>Grafana v{{ .Params.grafana_version }} <span class="download-release-date">({{ .Date.Format "2 Jan 2006" }})</span></h2>
 				</div>
+
 				<div class="clearfix"></div>
 
 				<div class="section-strike">
@@ -70,42 +71,77 @@
 				</div>
 
 				<div class="download-links-wrapper">
-					<a class="download-link" data-download-button="grafana_3.1.1.deb" href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.1.1-1470047149_amd64.deb">
+					<a class="download-link" href="http://docs.grafana.org/installation/debian/">
 						<strong>APT</strong> <span class="text-muted">(ubuntu/debian)</span>
 					</a>
-					<a class="download-link" data-download-button="grafana_3.1.1.deb" href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.1.1-1470047149_amd64.deb">
+					<a class="download-link" href="http://docs.grafana.org/installation/rpm/">
 						<strong>YUM</strong> <span class="text-muted">(Centos/Redhat)</span>
 					</a>
-					<a class="download-link" data-download-button="grafana_3.1.1.deb" href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.1.1-1470047149_amd64.deb">
+					<a class="download-link" href="http://docs.grafana.org/installation/docker/">
 						<strong>Docker</strong> <span class="text-muted">(image)</span>
 					</a>
-					<a class="download-link" data-download-button="grafana_3.1.1.deb" href="https://grafanarel.s3.amazonaws.com/builds/grafana_3.1.1-1470047149_amd64.deb">
+					<a class="download-link" href="http://docs.grafana.org/installation/mac/">
 						<strong>Builds</strong> <span class="text-muted">(nightly)</span>
 					</a>
 				</div>
 
+				<br>
+
 				{{ .Content }}
 
+				<hr>
 			</div>
 
 		<div class="download-row row">
 			<aside class="download-row-aside">
 				<h2><span class="download-row-aside-step">Step 2:</span> Configure</h2>
+
+				<figure>
+					<i class="fa fa-cogs download-row-aside-icon"></i>
+				</figure>
 			</aside>
 
 			<div class="download-row-content">
-				asd
+				<h3>Choose your Configuration Options</h3>
+
+				<p>
+				The Grafana backend has a number of <a href="http://docs.grafana.org/installation/configuration/">configuration options</a>
+				defined in it's config file (usually located at <span class="label info">/etc/grafana/grafana</span> on linux systems).
+				</p>
+
+				<p>
+					In this config file you can change things like the default admin password, http port, grafana database (sqlite3, mysql, postgres),
+					authentication options (google, github, ldap, auth proxy) along with many other options.
+				<p>
+
+				<p>
+					Start you grafana server. Login with your admin user (default admin/admin). Open side menu (click the Grafana icon in top menu)
+					head to Data Sources and add your data source.
+				</p>
+				<br>
+
+				<hr>
 			</div>
 		</div>
 
 		<div class="download-row row">
 			<aside class="download-row-aside">
 				<h2><span class="download-row-aside-step">Step 3:</span> Graph it!</h2>
+				<i class="fa fa-bar-chart download-row-aside-icon"></i>
 			</aside>
 
 			<div class="download-row-content">
-				asdas
+				<h3>Visualize Your Data</h3>
+				Now that Grafana is installed and configured it's time for the fun stuff: Graphing the data! There a
+				a number of places to get help. You can start by reading the <a href="http://docs.grafana.org/guides/gettingstarted/">Getting Started</a>
+				guide or checkout the one of the many <a href="https://www.youtube.com/grafana">screencasts</a>.
+
+				<img src="/assets/img/white_graph.png"></img>
 			</div>
+
+			<br>
+			<br>
+			<br>
 		</div>
 
 	</div>
