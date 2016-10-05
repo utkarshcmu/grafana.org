@@ -22,7 +22,7 @@
 
 .gf-tabs-link {
   padding: 4px 13px 4px 13px;
-  top: 5px;
+  top: 6px;
   margin-right: 10px;
   //border: 1px solid transparent;
   border-color: $tabs-border-color;
@@ -31,7 +31,7 @@
   border-color: $tabs-border-color;
   position: relative;
   display: block;
-  color: lighten($body-font-color, 40%);
+  color: lighten($body-font-color, 30%);
 
   border-radius: 2px 2px 0 0;
 

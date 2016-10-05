@@ -106,7 +106,7 @@ $topbar-bg: transparent;
 $topbar-dropdown-bg: transparent;
 $topbar-dropdown-bg: transparent;
 
-$topbar-height: 80px; // was 80px TRW
+$topbar-height: rem-calc(80); // was 80px TRW
 $topbar-link-color: #DDD;
 $topbar-link-color-hover: #fff;
 $topbar-link-color-active: #fff;
@@ -117,7 +117,7 @@ $topbar-link-hover-lightness: 5%; // Darken by 10%
 $topbar-link-bg-hover: #1A1A1A;
 $topbar-link-bg-active: transparent;
 $topbar-link-bg-active-hover: lighten($topbar-link-bg-hover, 5%);
-$topbar-link-padding: 15px; // was 18 so that it didn't wrap at smaller screen sizes TRW
+$topbar-link-padding: rem-calc(15); // was 18 so that it didn't wrap at smaller screen sizes TRW
 
 
 $topbar-link-font-family: $header-font-family;

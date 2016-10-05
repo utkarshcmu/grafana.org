@@ -8,6 +8,8 @@
 @import "../bower/lightgallery.js/dist/css/lightgallery.css";
 @import "../bower/lightgallery.js/dist/css/lg-transitions.css";
 
+@import "modules/prism";
+
 @import "modules/mixins";
 @import "modules/startpage";
 @import "modules/download";
@@ -102,12 +104,13 @@ section.main {
   line-height: 1.2;
 }
 
-pre {
-  background-color: #FCFCFC !important;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid rgba(255, 113, 0, 0.5);
+pre,
+pre[class*="language-"] {
+  background-color: #f4f4f4;
+  margin-bottom: 1rem;
   border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 90%;
 
   code {
     padding: 0;
