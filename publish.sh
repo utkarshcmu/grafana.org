@@ -2,6 +2,10 @@
 
 export AWS_S3_BUCKET=staging.grafana.org
 
+if [ $0 != "prod" ]; then
+  AWS_S3_BUCKET=prod.grafana.org
+fi;
+
 export BUCKET=$AWS_S3_BUCKET
 
 export AWS_CONFIG_FILE=$(pwd)/awsconfig
@@ -43,22 +47,22 @@ setup_s3() {
 }
 
 upload_s3() {
-	src=dist_gzip/
-	dst=s3://$BUCKET
+  src=dist_gzip/
+  dst=s3://$BUCKET
 
-	cache=max-age=3600
-	if [ "$NOCACHE" ]; then
-		cache=no-cache
-	fi
+  cache=max-age=3600
+  if [ "$NOCACHE" ]; then
+    cache=no-cache
+  fi
 
-	echo
-	echo "Uploading $src"
-	echo "  to $dst"
-	echo
+  echo
+  echo "Uploading $src"
+  echo "  to $dst"
+  echo
 
-	exclude="--exclude bower/*"
-	include=""
-	encoding='--content-encoding=gzip'
+  exclude="--exclude bower/*"
+  include=""
+  encoding='--content-encoding=gzip'
 
   run="aws s3 cp $src $dst --recursive $include $exclude --profile $BUCKET --cache-control $cache --acl public-read $encoding"
   echo "======================="
@@ -69,7 +73,7 @@ upload_s3() {
   rm -rf dist_gzip
 }
 
-#setup_s3
+setup_s3
 grunt build
 gzip_all
 upload_s3
