@@ -1,7 +1,7 @@
 ---
 title: Grafana 1.7.0-rc1 Released!
 author: Torkel Ödegaard
-published_on: August 5, 2014
+date: 2014-08-05
 ---
 
 New release today! v1.7.0-rc1 is now available for [download](/download).

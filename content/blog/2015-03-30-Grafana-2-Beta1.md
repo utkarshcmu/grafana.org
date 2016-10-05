@@ -1,7 +1,7 @@
 ---
 title: Grafana 2.0-Beta1 Released
 author: Torkel Ödegaard
-published_on: March 30, 2015
+date: 2015-03-30
 ---
 
 Today is an exciting day for the Grafana project, Grafana 2.0-beta1 is released! So much hard work

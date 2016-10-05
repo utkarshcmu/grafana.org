@@ -1,7 +1,7 @@
 ---
 title: Grafana 2.1 Released
 author: Torkel Ödegaard
-published_on: August 4, 2015
+date: 2015-08-04
 ---
 
 <img class="no-shadow" src="/assets/img/blog/new-in-grafana-v2-1.png" alt="what's new in Grafana 2.1"/>

@@ -1,7 +1,7 @@
 ---
 title: Grafana 2.0 Alpha & Preview
 author: Torkel Ödegaard
-published_on: February 10, 2015
+date: 2015-02-10
 ---
 
 As some of you already know, at least those who read the previous blog post [on the future of Grafana](http://grafana.org/blog/2015/01/12/grafana2-the-future-and-raintank.html),

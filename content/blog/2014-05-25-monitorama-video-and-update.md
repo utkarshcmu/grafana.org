@@ -1,7 +1,7 @@
 ---
 title: Video from Monitorama Grafana workshop and project status update
 author: Torkel Ödegaard
-published_on: May 25, 2014
+date: 2014-05-25
 ---
 
 <iframe src="//player.vimeo.com/video/95316672?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="padding-bottom: 10px">

@@ -1,7 +1,7 @@
 ---
 title: Grafana 3.0 Stable Released
 author: Torkel Ödegaard
-published_on: May 11, 2016
+date: 2016-05-11
 ---
 
 Grafana 3.0 Stable is now available for download! Over the past month we've been polishing features,

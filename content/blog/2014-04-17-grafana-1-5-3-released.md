@@ -1,7 +1,7 @@
 ---
 title: Grafana 1.5.3 released.
 author: Torkel Ödegaard
-published_on: April 17, 2014
+date: April 17, 2014-04-17
 ---
 
 Just pushed a new release! v1.5.3 is now available for [download](/download). There is no big new feature, just a collection

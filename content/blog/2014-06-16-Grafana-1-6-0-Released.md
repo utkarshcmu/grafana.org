@@ -1,7 +1,7 @@
 ---
 title: Grafana 1.6.0 released.
 author: Torkel Ödegaard
-published_on: June 16, 2014
+date: 2014-06-16
 ---
 
 New release today! v1.6.0 is now available for [download](/download).

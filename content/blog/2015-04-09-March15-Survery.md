@@ -1,7 +1,7 @@
 ---
 title: March 2015 User Survey
 author: Torkel Ödegaard
-published_on: April 9, 2015
+date: 2015-04-09
 ---
 
 <a href="https://infogr.am/grafana_user_survey_mar2015">

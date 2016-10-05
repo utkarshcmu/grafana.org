@@ -1,7 +1,7 @@
 ---
 title: Monitorama PDX.
 author: Torkel Ödegaard
-published_on: May 1, 2014
+date: 2014-05-01
 ---
 
 On Saturday I am flying to Portland for what I am hoping to be a great conference, [Monitorama PDX](http://monitorama.com/). The last day of the

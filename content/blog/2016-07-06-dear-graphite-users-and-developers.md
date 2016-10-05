@@ -4,8 +4,10 @@ author: Raj Dutt
 date: 2016-07-06
 aliases:
   - blog/2016/07/06/dear-graphite-users-and-developers.html
-cover_photo: /assets/img/v2/graphite.png
+list_photo: /assets/img/v2/graphite.png
 ---
+
+<img src="/assets/img/v2/graphite.png"></img>
 
 My name is Raj Dutt, and I am the co-founder and CEO of raintank, Inc.
 

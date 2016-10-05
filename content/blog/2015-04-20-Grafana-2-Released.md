@@ -1,7 +1,7 @@
 ---
 title: Grafana 2.0 Released
 author: Torkel Ödegaard
-published_on: April 20, 2015
+date: 2015-04-20
 ---
 
 ![](blog/grafana_2_stable_post.png)

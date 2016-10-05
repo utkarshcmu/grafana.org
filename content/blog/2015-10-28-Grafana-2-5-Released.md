@@ -1,7 +1,7 @@
 ---
 title: Grafana 2.5 Released
 author: Torkel Ödegaard
-published_on: October 28, 2015
+date: 2015-10-28
 ---
 
 ## Release highlights

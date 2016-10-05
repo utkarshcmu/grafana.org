@@ -1,7 +1,7 @@
 ---
 title: Grafana- It's Rocket Science
 author: Raj Dutt
-published_on: January 19, 2016
+date: 2016-01-19
 ---
 
 <img src="/assets/img/v2/rocket_science_twitter.png">
@@ -28,14 +28,14 @@ It’s always a thrill to find out when someone cool is finding value in your so
 **Watch [The Falcon has landed](https://youtu.be/ANv5UfZsvZQ)**
 <iframe width="640" height="360" src="https://www.youtube.com/embed/ANv5UfZsvZQ" frameborder="0" allowfullscreen></iframe>
 
-A bunch of us at raintank are huge fans of SpaceX, and follow the launches regularly. We’d love to learn more about what they're doing with Grafana (and have already contacted them). 
+A bunch of us at raintank are huge fans of SpaceX, and follow the launches regularly. We’d love to learn more about what they're doing with Grafana (and have already contacted them).
 
-In the meantime, knowing that they’ve gotten some small value out of Grafana, and it's up on screen visualizing their measurement data, is just an awesome feeling. 
+In the meantime, knowing that they’ve gotten some small value out of Grafana, and it's up on screen visualizing their measurement data, is just an awesome feeling.
 
 Onwards and upwards, open source, Grafana, and SpaceX!
 
 <div style="font-size:75%"><em>Main photo courtesy of NASA</em></div>
- 
+
 
 #### Thanks to project sponsors
 * [Raintank](http://raintank.io)
