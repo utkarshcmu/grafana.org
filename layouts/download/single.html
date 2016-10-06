@@ -82,8 +82,7 @@
 sudo apt-get install -y adduser libfontconfig
 sudo dpkg -i grafana_{{ .Params.grafana_build }}_amd64.deb
 # ... configure your options in /etc/grafana/grafana.ini then
-sudo systemctl start grafana-server</code>
-					</pre>
+sudo systemctl start grafana-server</code></pre>
 					<p>
 					Read the Ubuntu / Debian <a href="http://docs.grafana.org/installation/debian/">installation guide</a> for more info.
 					</p>
@@ -106,10 +105,8 @@ sudo systemctl start grafana-server</code>
 					<pre>
 <code class="language-bash">sudo yum install https://grafanarel.s3.amazonaws.com/builds/grafana-{{ .Params.grafana_build }}.x86_64.rpm
 # ... configure your options in /etc/grafana/grafana.ini then
-sudo systemctl start grafana-server</code>
-					</pre>
+sudo systemctl start grafana-server</code></pre>
 					<p>
-
 					Read the Centos / Redhat <a href="http://docs.grafana.org/installation/rpm/">installation guide</a> for more info.
 					</p>
 				</div>
@@ -153,8 +150,7 @@ tar -zxvf grafana-{{ .Params.grafana_build }}.linux-x64.tar.gz
 cd grafana-{{ .Params.grafana_build }}
 cp conf/sample.ini conf/custom.ini
 #  make changes to conf/custom.ini then start grafana-server
-./bin/grafana-server</code>
-					</pre>
+./bin/grafana-server</code></pre>
 				</div>
 
 				<div class="download-plaform-tip" data-type="mac">
@@ -164,8 +160,7 @@ brew install grafana</code>
 
 # to update use the reinstall command
 brew update
-brew reinstall grafana
-					</pre>
+brew reinstall grafana</pre>
 				</div>
 
 
