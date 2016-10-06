@@ -5,6 +5,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-execute");
   grunt.loadNpmTasks("grunt-contrib-clean");
 
+  var env = grunt.option('env') || "dev";
+
   grunt.initConfig({
     clean: ["dist"],
 
@@ -147,10 +149,18 @@ module.exports = function(grunt) {
     var done = this.async();
     var args = ["--destination=dist/"];
 
-    if (target === "dev") {
-      args.push("--baseUrl=http://localhost:3002");
-      args.push("--buildDrafts=true");
-      args.push("--buildFuture=true");
+    switch (env) {
+      case 'dev':
+        args.push("--baseUrl=http://localhost:3002");
+        args.push("--buildDrafts=true");
+        args.push("--buildFuture=true");
+        break;
+      case 'staging':
+        args.push("--baseUrl=http://staging.grafana.org");
+        break;
+      case 'prod':
+        args.push("--baseUrl=http://grafana.org");
+        break;
     }
 
     hugo = require("child_process").spawn("hugo", args, {stdio: "inherit"});
@@ -189,7 +199,7 @@ module.exports = function(grunt) {
   ]);
 
   grunt.registerTask("default", [
-    "hugo:dev",
+    "hugo",
     "assets-dev",
   ]);
 

@@ -2,6 +2,8 @@
 title: Grafana 1.8.0-rc1 Released!
 author: Torkel Ödegaard
 date: 2014-09-11
+aliases:
+  - blog/2014/09/11/grafana-1-8-0-rc1-released.html
 ---
 
 New release today! v1.8.0-rc1 is now available for [download](/download).

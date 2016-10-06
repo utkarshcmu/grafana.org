@@ -4,6 +4,7 @@ description = "Grafana 3.0 is now available for download. This blog post describ
 keywords = ["release"]
 author = "Torkel Ödegaard"
 date = "2016-03-31"
+aliases = ["blog/2016/03/31/grafana-3-0-beta-released.html"]
 +++
 
 Today is the day! We are pleased to announce that Grafana 3.0 beta

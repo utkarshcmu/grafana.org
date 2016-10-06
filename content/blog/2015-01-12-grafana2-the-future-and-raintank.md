@@ -2,6 +2,8 @@
 title: Grafana 2.0, the future, and raintank
 author: Torkel Ödegaard
 date: 2015-01-12
+aliases:
+  - blog/2015/01/12/grafana2-the-future-and-raintank.html
 ---
 
 

@@ -2,6 +2,8 @@
 title: Grafana- It's Rocket Science
 author: Raj Dutt
 date: 2016-01-19
+aliases:
+  - blog/2016/01/19/Grafana-Its-Rocket-Science.html
 ---
 
 <img src="/assets/img/v2/rocket_science_twitter.png">

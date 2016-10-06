@@ -2,6 +2,8 @@
 title: Grafana 2.6 Beta Released
 author: Torkel Ödegaard
 date: 2015-12-04
+aliases:
+  - blog/2015/12/04/Grafana-2-6-Beta-Released.html
 ---
 
 ## Release highlights

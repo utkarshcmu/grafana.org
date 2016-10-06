@@ -2,6 +2,8 @@
 title: Grafana 1.5.4 released.
 author: Torkel Ödegaard
 date: 2014-05-13
+aliases:
+  - blog/2014/05/13/Grafana-1-5-4-released.html
 ---
 
 New release today! v1.5.4 is now available for [download](/download).

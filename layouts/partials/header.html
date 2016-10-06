@@ -17,12 +17,18 @@
 		<meta name="twitter:site" content="@grafana">
 		<meta name="twitter:url" content="https://twitter.com/grafana" />
 		<meta name="twitter:title" content="{{ .Title }}">
-		<meta name="twitter:image" content="http://grafana.org/assets/img/logo_new_transparent_200x48.png" />
+
+		{{ if and ((.IsPage) (isset .Params "list_photo")) }}
+			<meta name="twitter:image" content="http://grafana.org{{ .Params.list_photo }}" />
+			<meta property="og:image" content="http://grafana.org{{ .Params.list_photo }}" />
+		{{ else}}
+			<meta name="twitter:image" content="http://grafana.org/assets/img/docs/nice_dashboard.png" />
+			<meta property="og:image" content="http://grafana.org/assets/img/docs/nice_dashboard.png" />
+		{{ end }}
 
 		<meta property="og:site_name" content="Grafana.org" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="{{ .Title }}" />
-		<meta property="og:image" content="http://grafana.org/assets/img/logo_new_transparent_200x48.png" />
 
 		<!-- build:css /css/styles.js -->
 		<link href="/css/styles.css" rel="stylesheet">

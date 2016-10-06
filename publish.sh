@@ -2,9 +2,16 @@
 
 export AWS_S3_BUCKET=staging.grafana.org
 
-if [ $0 != "prod" ]; then
-  AWS_S3_BUCKET=prod.grafana.org
+grunt_param="--env=staging"
+
+if [ "$1" = "prod" ]; then
+  echo "Publishing to production"
+  grunt_param="--env=prod"
+  AWS_S3_BUCKET=grafana.org
+else
+  echo "Publishing to staging"
 fi;
+
 
 export BUCKET=$AWS_S3_BUCKET
 
@@ -74,6 +81,5 @@ upload_s3() {
 }
 
 setup_s3
-grunt build
-# gzip_all
+grunt build $grunt_param
 upload_s3
