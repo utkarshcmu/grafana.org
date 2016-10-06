@@ -121,8 +121,11 @@ a.download-link {
       color: $text-muted-color;
     }
 
+    figure {
+      margin: 3rem 0 0 3rem;
+    }
+
     .download-row-aside-icon {
-      padding: rem-calc(5);
       font-size: rem-calc(80);
       color: $text-muted-color;
     }
