@@ -24,12 +24,13 @@ $(window).on('load', () =>  {
     });
   });
 
-  $('[data-download-link]').click(function() {
+  $('[data-download-link]').click(function(evt) {
     $('.download-plaform-tip').hide();
 
     var label = $(this).data('download-link')
     ga('send', 'event', 'download', 'download', label)
-    var asd = $('.download-plaform-tip[data-type="' + label + '"]').show();
+    $('.download-plaform-tip[data-type="' + label + '"]').show();
+    evt.preventDefault();
   });
 
   $(document).foundation();

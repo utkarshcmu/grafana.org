@@ -65,55 +65,107 @@
 				</div>
 
 				<div class="download-plaform-tip" data-type="deb">
-<pre>
+					<div class="download-platform-tip-link">
+						<label>File:</label>
+						<a href="https://grafanarel.s3.amazonaws.com/builds/grafana_{{ .Params.grafana_build }}_amd64.deb">
+							grafana_{{ .Params.grafana_build }}_amd64.deb
+						</a>
+					</div>
+					{{ if isset .Params "grafana_deb_sha" }}
+						<div class="download-platform-tip-sha">
+							<label>SHA1:</label>
+							<span>{{ .Params.grafana_deb_sha }}</span>
+						</div>
+					{{ end }}
+					<pre>
 <code class="language-bash">wget https://grafanarel.s3.amazonaws.com/builds/grafana_{{ .Params.grafana_build }}_amd64.deb
 sudo apt-get install -y adduser libfontconfig
 sudo dpkg -i grafana_{{ .Params.grafana_build }}_amd64.deb
 # ... configure your options in /etc/grafana/grafana.ini then
 sudo systemctl start grafana-server</code>
-</pre>
-<p>
-Read the Ubuntu / Debian <a href="http://docs.grafana.org/installation/debian/">installation guide</a> for more info.
-</p>
+					</pre>
+					<p>
+					Read the Ubuntu / Debian <a href="http://docs.grafana.org/installation/debian/">installation guide</a> for more info.
+					</p>
 				</div>
+
 				<div class="download-plaform-tip" data-type="rpm">
-<pre>
+					<div class="download-platform-tip-link">
+						<label>File:</label>
+						<a href="https://grafanarel.s3.amazonaws.com/builds/grafana-{{ .Params.grafana_build }}.x86_64.rpm">
+							grafana-{{ .Params.grafana_build }}.x86_64.rpm
+						</a>
+					</div>
+					{{ if isset .Params "grafana_rpm_sha" }}
+						<div class="download-platform-tip-sha">
+							<label>SHA1:</label>
+							<span>{{ .Params.grafana_rpm_sha }}</span>
+						</div>
+					{{ end }}
+
+					<pre>
 <code class="language-bash">sudo yum install https://grafanarel.s3.amazonaws.com/builds/grafana-{{ .Params.grafana_build }}.x86_64.rpm
 # ... configure your options in /etc/grafana/grafana.ini then
 sudo systemctl start grafana-server</code>
-</pre>
-<p>
+					</pre>
+					<p>
 
-Read the Centos / Redhat <a href="http://docs.grafana.org/installation/rpm/">installation guide</a> for more info.
-</p>
+					Read the Centos / Redhat <a href="http://docs.grafana.org/installation/rpm/">installation guide</a> for more info.
+					</p>
 				</div>
 
-	<div class="download-plaform-tip" data-type="zip">
-<p>
-Read the Windows <a href="http://docs.grafana.org/installation/windows/">installation guide</a> for more info.
-</p>
-	</div>
+				<div class="download-plaform-tip" data-type="zip">
+					<div class="download-platform-tip-link">
+						<label>File:</label>
+						<a href="https://grafanarel.s3.amazonaws.com/winbuilds/dist/grafana-{{ .Params.grafana_version }}.windows-x64.zip">
+							grafana-{{ .Params.grafana_version }}.windows-x64.zip
+						</a>
+					</div>
+					{{ if isset .Params "grafana_win_sha" }}
+						<div class="download-platform-tip-sha">
+							<label>SHA1:</label>
+							<span>{{ .Params.grafana_win_sha }}</span>
+						</div>
+					{{ end }}
+					<br>
+					<p>
+					Read the Windows <a href="http://docs.grafana.org/installation/windows/">installation guide</a> for more info.
+					</p>
+				</div>
 
 				<div class="download-plaform-tip" data-type="tar.gz">
-<pre>
+					<div class="download-platform-tip-link">
+						<label>File:</label>
+						<a href="https://grafanarel.s3.amazonaws.com/builds/grafana-{{ .Params.grafana_build }}.linux-x64.tar.gz">
+							grafana-{{ .Params.grafana_build }}.linux-x64.tar.gz
+						</a>
+					</div>
+					{{ if isset .Params "grafana_rpm_sha" }}
+						<div class="download-platform-tip-sha">
+							<label>SHA1:</label>
+							<span>{{ .Params.grafana_rpm_sha }}</span>
+						</div>
+					{{ end }}
+
+					<pre>
 <code class="language-bash">wget https://grafanarel.s3.amazonaws.com/builds/grafana-{{ .Params.grafana_build }}.linux-x64.tar.gz
 tar -zxvf grafana-{{ .Params.grafana_build }}.linux-x64.tar.gz
 cd grafana-{{ .Params.grafana_build }}
 cp conf/sample.ini conf/custom.ini
 #  make changes to conf/custom.ini then start grafana-server
 ./bin/grafana-server</code>
-</pre>
+					</pre>
 				</div>
 
-<div class="download-plaform-tip" data-type="mac">
-<pre>
+				<div class="download-plaform-tip" data-type="mac">
+					<pre>
 <code class="language-bash">brew update
 brew install grafana</code>
 
 # to update use the reinstall command
 brew update
 brew reinstall grafana
-</pre>
+					</pre>
 				</div>
 
 
@@ -132,7 +184,7 @@ brew reinstall grafana
 					<a class="download-link" href="http://docs.grafana.org/installation/docker/">
 						<strong>Docker</strong> <span class="text-muted">(image)</span>
 					</a>
-					<a class="download-link" href="http://docs.grafana.org/installation/mac/">
+					<a class="download-link" href="/builds">
 						<strong>Builds</strong> <span class="text-muted">(nightly)</span>
 					</a>
 				</div>

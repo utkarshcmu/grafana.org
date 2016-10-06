@@ -25,22 +25,28 @@ export function buildFetcher() {
     files.sort(dateSortDesc);
 
     $.each(files, function(index, file) {
-      var type;
-      if (file.key.indexOf('.rpm') !== -1) {
-        type = "Redhat/Centos (64bit) .rpm package";
-      } else if (file.key.indexOf('.deb') !== -1)  {
-        type = "Ubuntu/Debian (64bit) .deb package";
-      } else {
-        type = "Linux binary tar";
+      var type, sha1;
+
+      // ends in sha1
+      if (file.key.indexOf('.sha1') == (file.key.length-5)) {
+        return;
       }
 
-      var link = '<a href="https://grafanarel.s3.amazonaws.com/' +
-                    file.key + '">' + file.key.substring(7) +
-                 '</a>';
+      if (file.key.indexOf('.rpm') !== -1) {
+        type = ".rpm (64bit)";
+      } else if (file.key.indexOf('.deb') !== -1)  {
+        type = ".deb (64bit)";
+      } else {
+        type = "Linux (64bit) tar.gz";
+      }
+
+      var link = '<a href="https://grafanarel.s3.amazonaws.com/' + file.key + '">' + file.key.substring(7) + '</a>';
+      var shaLink = '<a href="https://grafanarel.s3.amazonaws.com/' + file.key + '.sha1">sha1</a>';
 
       var tr = $('<tr></tr>');
       tr.append('<td>' + type + '</td>');
       tr.append('<td>' + link + '</td>');
+      tr.append('<td>' + shaLink + '</td>');
       tr.append('<td>' + file.date.toLocaleString() + '</td>');
 
       if (file.key.indexOf('latest') !== -1) {

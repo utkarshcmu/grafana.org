@@ -68,6 +68,17 @@ a.download-link {
   display: none;
 }
 
+.download-platform-tip-sha,
+.download-platform-tip-link {
+  label {
+    display: inline-block;
+    width: 3rem;
+  }
+  span, a {
+    font-size: $form-label-font-size;
+  }
+}
+
 .section-strike > span {
   position: relative;
   display: inline-block;
