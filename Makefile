@@ -4,7 +4,7 @@
 DOCS_MOUNT := $(if $(DOCSDIR),-v $(CURDIR)/$(DOCSDIR):/$(DOCSDIR))
 
 # to allow `make DOCSPORT=9000 docs`
-DOCSPORT := 8000
+DOCSPORT := 3002
 
 # Get the IP ADDRESS
 DOCKER_IP=$(shell python -c "import urlparse ; print urlparse.urlparse('$(DOCKER_HOST)').hostname or ''")
@@ -23,7 +23,7 @@ GITCOMMIT := $(shell git rev-parse --short HEAD 2>/dev/null)
 default: docs-draft
 
 docs: docs-build
-	$(DOCKER_RUN_DOCS) -p $(if $(DOCSPORT),$(DOCSPORT):)8000 -e DOCKERHOST "$(DOCKER_DOCS_IMAGE)" hugo server --port=$(DOCSPORT) --baseUrl=$(HUGO_BASE_URL) --bind=$(HUGO_BIND_IP) --config=./config.toml
+	$(DOCKER_RUN_DOCS) -p $(if $(DOCSPORT),$(DOCSPORT):)3002 -e DOCKERHOST "$(DOCKER_DOCS_IMAGE)" grunt build && grunt connect
 
 docs-draft: docs-build
 	$(DOCKER_RUN_DOCS) -p $(if $(DOCSPORT),$(DOCSPORT):)8000 -e DOCKERHOST "$(DOCKER_DOCS_IMAGE)" hugo server --buildDrafts="true" --port=$(DOCSPORT) --baseUrl=$(HUGO_BASE_URL) --bind=$(HUGO_BIND_IP) --config=config.toml
@@ -37,7 +37,7 @@ test: docs-build
 	docker run --rm "$(DOCKER_DOCS_IMAGE)"
 
 docs-build:
-	docker build -t "$(DOCKER_DOCS_IMAGE)" .
+	docker build -t  "$(DOCKER_DOCS_IMAGE)" .
 
 markdownlint:
 		docker exec -it docker-docs-tools /usr/local/bin/markdownlint /docs/content/

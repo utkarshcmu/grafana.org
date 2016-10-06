@@ -1,8 +1,4 @@
-#
-# See the top level Makefile in https://github.com/docker/docker for usage.
-#
 FROM ubuntu:16.04
-MAINTAINER Docker Docs <docs@docker.com>
 
 RUN apt-get update \
 	&& apt-get install -y gettext git wget libssl-dev make python-dev python-pip python-setuptools subversion-tools vim-tiny ssed curl libffi-dev awscli \
@@ -29,10 +25,20 @@ RUN curl -sSL -o /usr/local/bin/markdownlint https://github.com/docker/markdownl
 RUN curl -sSL -o /usr/local/bin/linkcheck https://github.com/docker/linkcheck/releases/download/2016-08-12/linkcheck \
  && chmod 755 /usr/local/bin/linkcheck
 
+# install nodejs
+RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
+RUN apt-get install -y nodejs
 
-#######################
+RUN npm install -g bower
+
 # Copy the content and theme to the container
 #######################
 WORKDIR /docs
 
 COPY . /docs
+
+RUN bower --allow-root install
+RUN npm install
+RUN npm install -g grunt
+
+

@@ -23,7 +23,7 @@
     "grunt-contrib-watch": "^1.0.0",
     "grunt-execute": "^0.2.2",
     "grunt-postcss": "^0.8.0",
-    "grunt-sass": "^1.1.0",
+    "grunt-sass": "^1.2.1",
     "lg-thumbnail.js": "0.0.4",
     "load-grunt-tasks": "^3.5.0",
     "systemjs": "^0.19.39",
