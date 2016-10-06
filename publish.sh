@@ -47,7 +47,7 @@ setup_s3() {
 }
 
 upload_s3() {
-  src=dist_gzip/
+  src=dist/
   dst=s3://$BUCKET
 
   cache=max-age=3600
@@ -62,7 +62,7 @@ upload_s3() {
 
   exclude="--exclude bower/*"
   include=""
-  encoding='--content-encoding=gzip'
+  encoding=''
 
   run="aws s3 cp $src $dst --recursive $include $exclude --profile $BUCKET --cache-control $cache --acl public-read $encoding"
   echo "======================="
@@ -75,5 +75,5 @@ upload_s3() {
 
 setup_s3
 grunt build
-gzip_all
+# gzip_all
 upload_s3
