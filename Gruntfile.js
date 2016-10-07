@@ -6,6 +6,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-clean");
 
   var env = grunt.option('env') || "dev";
+  var port = parseInt(grunt.option('port') || "3002");
 
   grunt.initConfig({
     clean: ["dist"],
@@ -15,7 +16,7 @@ module.exports = function(grunt) {
 
     watch: {
       options: {
-        livereload: 3003,
+        livereload: port+1,
       },
       content: {
         files: ["content/**/*", "layouts/**/*"],
@@ -64,11 +65,11 @@ module.exports = function(grunt) {
     connect: {
       mysite: {
         options: {
-          hostname: "127.0.0.1",
-          port: 3002,
+          hostname: "*",
+          port: port,
           protocol: "http",
           base: "dist",
-          livereload: 3003,
+          livereload: port+1,
           keepalive: true,
         }
       }
@@ -160,6 +161,10 @@ module.exports = function(grunt) {
         break;
       case 'prod':
         args.push("--baseUrl=http://grafana.org");
+        break;
+      case 'docs':
+        args.push("--baseUrl=http://localhost:3002");
+        args.push("--contentDir=docs");
         break;
     }
 

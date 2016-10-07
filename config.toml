@@ -8,9 +8,5 @@ enableRobotsTXT = true
 disableSitemap = false
 disableRSS = true
 
-pygmentsCodeFences = true
-pygmentsStyle = "monokai"
-pygmentsUseClasses = false
-
 [permalinks]
   blog = "blog/:year/:month/:day/:title/"

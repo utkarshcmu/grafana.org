@@ -5,7 +5,6 @@ RUN apt-get update \
 	&& apt-get clean \
 	&& rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-EXPOSE 8000
 
 # We can go back to using the official version when hugo 0.16 is released with our PR merged.
 #ENV HUGO_VERSION 0.16
@@ -26,19 +25,22 @@ RUN curl -sSL -o /usr/local/bin/linkcheck https://github.com/docker/linkcheck/re
  && chmod 755 /usr/local/bin/linkcheck
 
 # install nodejs
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_5.x | bash -
 RUN apt-get install -y nodejs
 
 RUN npm install -g bower
 
 # Copy the content and theme to the container
 #######################
-WORKDIR /docs
+WORKDIR /site
 
-COPY . /docs
+COPY . /site
 
 RUN bower --allow-root install
+
 RUN npm install
+
 RUN npm install -g grunt
 
-
+EXPOSE 3004
+EXPOSE 3005
