@@ -61,7 +61,7 @@
 		</script>
 	</head>
 
-	<body class="{{ if .Params.body_class }}{{ .Params.body_class }}{{ end }}">
+	<body class="{{ if .Params.body_class }}{{ .Params.body_class }}{{ end }} section-{{ if .IsPage }}{{ .Type }}{{ end }}">
 
 		{{ partial "navbar.html" . }}
 

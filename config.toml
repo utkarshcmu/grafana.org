@@ -10,3 +10,16 @@ disableRSS = true
 
 [permalinks]
   blog = "blog/:year/:month/:day/:title/"
+
+[[menu.docs]]
+  name = "About"
+  url = "/about"
+
+[[menu.docs]]
+  name = "Installation"
+  url = "/installation"
+
+[[menu.docs]]
+  name = "Reference"
+  url = "/reference"
+
