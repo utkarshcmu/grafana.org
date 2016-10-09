@@ -5,18 +5,21 @@
 
 <div class="container-fluid docs-container">
 	<aside class="docs-aside-menu">
+		<div class="docs-toc-heading">Articles</div>
 		{{ partial "docs-menu.html" (dict "menu" .Site.Menus.main "thispage" . "menuopen" "open") }}
 	</aside>
 
 	<div class="docs-content">
-		{{ .Content }}
-	</div>
-
-	<aside class="docs-toc-aside">
-		<div class="docs-toc-search">
+		<div class="docs-search-wrapper">
 			<input class="docs-search-input" id="st-input" value="" name="q" placeholder="Search the docs" type="search">
 		</div>
 
+		<div class="docs-content-inner">
+			{{ .Content }}
+		<div>
+	</div>
+
+	<aside class="docs-toc-aside">
 		<div class="docs-toc-heading">On this page</div>
 
 		<div class="docs-toc">

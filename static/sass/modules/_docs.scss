@@ -1,3 +1,6 @@
+$docs-aside-menu-width: 20rem;
+$docs-toc-aside-width: 17rem;
+
 .page-header-docs {
   position: relative;
   z-index: 2;
@@ -23,124 +26,140 @@
 }
 
 .docs-content {
-  margin-left: 20rem;
+  margin-left: $docs-aside-menu-width;
+  margin-right: $docs-toc-aside-width;
   min-height: 40rem;
-  padding: 1rem 2rem;
+ }
+
+ .docs-content-inner {
+   padding: 1rem 2rem;
+ }
+
+ .nav-sub {
+   list-style: none;
+   margin: 0;
+
+   li {
+     display: block;
+
+     &.menu-open {
+       li {
+         margin-left: 1rem;
+       }
+     }
+   }
+
+   a {
+     font-size: 90%;
+     padding-top: 0.6rem;
+     padding-bottom: 0.6rem;
+     padding-left: 1rem;
+     display: block;
+     cursor: pointer;
+     color: #444444;
+
+     &:hover {
+       background: rgba(0, 0, 0, 0.05);
+     }
+
+     &:hover,
+     &:focus,
+     & {
+       border-bottom: none;
+       text-decoration: none;
+       border-left: 2px solid rgba(188, 181, 185, 0.3);
+     }
+   }
+
+   a.expand-menu {
+     background-color: #fff;
+
+     &:hover {
+       background: rgba(0, 0, 0, 0.05);
+     }
+
+     &.active {
+       background-color: #fff;
+     }
+   }
+ }
+
+ .nav-sub .current-page,
+ .nav-sub .current-page:hover {
+   border-left: 2px solid $secondary-color;
+   color: $secondary-color;
+ }
+
+ .menu-closed .nav-sub {
+   display: none;
+ }
+
+ .menu-open .nav-sub {
+   height: auto;
+ }
+
+ .nav-sub li a {padding-left: 1em;}
+ .nav-sub li li a {padding-left: 1.5em;}
+ .nav-sub li li li a {padding-left: 2em;}
+ .nav-sub li li li li a {padding-left: 2.5em;}
+ .nav-sub li li li li li a {padding-left: 3em;}
+
+ .docs-aside-menu .menu-icon {
+   float: right;
+   color: #b7b9b5;
+ }
+
+ .menu-open .menu-icon:after {
+   margin: 0 5px;
+   font-family: 'FontAwesome';
+   content: "\f053";
+ }
+
+ .menu-closed .menu-icon:after {
+   content: "\f078";
+   margin: 0 5px;
+   font-family: 'FontAwesome';
+ }
+
+ .docs-toc-aside {
+   background: #ffeee8;
+   bottom: 0;
+   position: absolute;
+   width: $docs-toc-aside-width;
+   right: 0;
+   top: 0;
+   font-size: 90%;
+   a {
+     font-size: 90%;
+   }
 }
 
-.nav-sub {
-  list-style: none;
-  margin: 0;
+.docs-search-wrapper {
+  background-color: $secondary-color-bg;
+  padding: 7px;
 
-  li {
-    display: block;
-
-    &.menu-open {
-      li {
-        margin-left: 1rem;
-      }
+  input {
+    margin: 0;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: inset 0 0 3px 0px #626262;
+    &::placeholder {
+      color: $text-muted-color;
     }
   }
-
-  a {
-    font-size: 90%;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    padding-left: 1rem;
-    display: block;
-    cursor: pointer;
-    color: #444444;
-
-    &:hover {
-      background: rgba(0, 0, 0, 0.05);
-    }
-
-    &:hover,
-    &:focus,
-    & {
-      border-bottom: none;
-      text-decoration: none;
-      border-left: 2px solid rgba(188, 181, 185, 0.3);
-    }
-  }
-
-  a.expand-menu {
-    background-color: #fff;
-
-    &:hover {
-      background: rgba(0, 0, 0, 0.05);
-    }
-
-    &.active {
-      background-color: #fff;
-    }
-  }
-}
-
-.nav-sub .current-page,
-.nav-sub .current-page:hover {
-  border-left: 2px solid $secondary-color;
-  color: $secondary-color;
-}
-
-.menu-closed .nav-sub {
-  display: none;
-}
-
-.menu-open .nav-sub {
-  height: auto;
-}
-
-.nav-sub li a {padding-left: 1em;}
-.nav-sub li li a {padding-left: 1.5em;}
-.nav-sub li li li a {padding-left: 2em;}
-.nav-sub li li li li a {padding-left: 2.5em;}
-.nav-sub li li li li li a {padding-left: 3em;}
-
-.docs-aside-menu .menu-icon {
-  float: right;
-  color: #b7b9b5;
-}
-
-.menu-open .menu-icon:after {
-  margin: 0 5px;
-  font-family: 'FontAwesome';
-  content: "\f053";
-}
-
-.menu-closed .menu-icon:after {
-  content: "\f078";
-  margin: 0 5px;
-  font-family: 'FontAwesome';
-}
-
-.docs-toc-aside {
-  background: #ffeee8;
-  bottom: 0;
-  position: absolute;
-  width: 17rem;
-  right: 0;
-  top: 0;
-  font-size: 90%;
-  a {
-    font-size: 90%;
-  }
-}
-
-input.docs-search-input {
-  margin: 0;
 }
 
 .docs-toc-heading {
-  background-color: $secondary-color;
+  background-color: $secondary-color-bg;
   padding: 0.5rem;
   color: white;
-  text-transform: capitalize;
-  padding-left: 0.8rem;
+  text-transform: uppercase;
+  padding: 14px;
+  font-size: 14px;
 }
 
 .docs-toc {
-
   ul {
     margin-left: 0.8rem;
     list-style: none;
