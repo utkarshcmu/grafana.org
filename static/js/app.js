@@ -8,12 +8,17 @@ import '../bower/lg-fullscreen.js/dist/lg-fullscreen.js';
 import '../bower/lg-zoom.js/dist/lg-zoom.js';
 import './prism.js';
 
+import {bootDocs} from './docs.js';
 import {buildFetcher} from './builds.js';
 
 $(window).on('load', () =>  {
 
   if (window.bootData.pageType === 'builds') {
     buildFetcher();
+  }
+
+  if (window.bootData.pageType === 'docs') {
+    bootDocs();
   }
 
   $(".lightbox").each(function() {

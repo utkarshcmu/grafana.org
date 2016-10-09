@@ -1,17 +1,43 @@
+@import "algolia";
+
 $docs-aside-menu-width: 20rem;
 $docs-toc-aside-width: 17rem;
+$docs-subheader-bg-color: transparent;
 
 .page-header-docs {
   position: relative;
   z-index: 2;
   overflow: visible;
-  height: 100px;
   background: black;
 
   background-image: url(/assets/img/v2/home_hero_bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 100px;
+}
+
+.page-header-docs-c1 {
+  position: absolute;
+  right: 0;
+  top: 100px;
+  left: 0;
+  width: $docs-aside-menu-width;
+  background-color: $grafana-top-nav-bg;
+}
+
+.page-header-docs-c2 {
+  margin-left: $docs-aside-menu-width;
+  margin-right: $docs-toc-aside-width;
+  background-color: $grafana-top-nav-bg;
+}
+
+.page-header-docs-c3 {
+  background-color: $grafana-top-nav-bg;
+  position: absolute;
+  width: $docs-toc-aside-width;
+  right: 0;
+  top: 100px;
 }
 
 .docs-container {
@@ -19,16 +45,30 @@ $docs-toc-aside-width: 17rem;
 }
 
 .docs-aside-menu {
-  width: 20rem;
+  width: $docs-aside-menu-width;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.docs-anchor-link {
+  font-size: 80%;
+  padding-left: 1rem;
+  visibility: hidden;
 }
 
 .docs-content {
   margin-left: $docs-aside-menu-width;
   margin-right: $docs-toc-aside-width;
   min-height: 40rem;
+
+  h1, h2, h3, h4, h5 {
+    &:hover {
+      .docs-anchor-link {
+        visibility: visible;
+      }
+    }
+  }
  }
 
  .docs-content-inner {
@@ -135,7 +175,7 @@ $docs-toc-aside-width: 17rem;
 }
 
 .docs-search-wrapper {
-  background-color: $secondary-color-bg;
+  background-color: $docs-subheader-bg-color;
   padding: 7px;
 
   input {
@@ -144,6 +184,7 @@ $docs-toc-aside-width: 17rem;
     border: none;
     border-radius: 2px;
     box-shadow: inset 0 0 3px 0px #626262;
+    width: 100%;
     &::placeholder {
       color: $text-muted-color;
     }
@@ -151,12 +192,14 @@ $docs-toc-aside-width: 17rem;
 }
 
 .docs-toc-heading {
-  background-color: $secondary-color-bg;
+  background-color: $docs-subheader-bg-color;
   padding: 0.5rem;
   color: white;
   text-transform: uppercase;
   padding: 14px;
   font-size: 14px;
+  font-family: $header-font-family;
+  font-weight: bold;
 }
 
 .docs-toc {
@@ -165,4 +208,5 @@ $docs-toc-aside-width: 17rem;
     list-style: none;
   }
 }
+
 
