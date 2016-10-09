@@ -114,9 +114,36 @@
   font-family: 'FontAwesome';
 }
 
-.glyphicon-menu-down:before {
-  content: "\e259";
+.docs-toc-aside {
+  background: #ffeee8;
+  bottom: 0;
+  position: absolute;
+  width: 17rem;
+  right: 0;
+  top: 0;
+  font-size: 90%;
+  a {
+    font-size: 90%;
+  }
 }
-.glyphicon-menu-up:before {
-  content: "\e260";
+
+input.docs-search-input {
+  margin: 0;
 }
+
+.docs-toc-heading {
+  background-color: $secondary-color;
+  padding: 0.5rem;
+  color: white;
+  text-transform: capitalize;
+  padding-left: 0.8rem;
+}
+
+.docs-toc {
+
+  ul {
+    margin-left: 0.8rem;
+    list-style: none;
+  }
+}
+

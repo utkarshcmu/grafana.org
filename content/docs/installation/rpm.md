@@ -9,3 +9,16 @@ identifier = "centos"
 +++
 
 # Centos
+
+## Heading 1
+
+### Sub heading
+
+### Sub heading 2
+
+## Heading 2
+
+## Heading 3
+
+### Sub heading
+
