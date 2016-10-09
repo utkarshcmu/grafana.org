@@ -3,7 +3,6 @@
   z-index: 2;
   overflow: visible;
   height: 100px;
-  margin-bottom: 1rem;
   background: black;
 
   background-image: url(/assets/img/v2/home_hero_bg.jpg);
@@ -25,4 +24,99 @@
 
 .docs-content {
   margin-left: 20rem;
+  min-height: 40rem;
+  padding: 1rem 2rem;
+}
+
+.nav-sub {
+  list-style: none;
+  margin: 0;
+
+  li {
+    display: block;
+
+    &.menu-open {
+      li {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  a {
+    font-size: 90%;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 1rem;
+    display: block;
+    cursor: pointer;
+    color: #444444;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    &:hover,
+    &:focus,
+    & {
+      border-bottom: none;
+      text-decoration: none;
+      border-left: 2px solid rgba(188, 181, 185, 0.3);
+    }
+  }
+
+  a.expand-menu {
+    background-color: #fff;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.05);
+    }
+
+    &.active {
+      background-color: #fff;
+    }
+  }
+}
+
+.nav-sub .current-page,
+.nav-sub .current-page:hover {
+  border-left: 2px solid $secondary-color;
+  color: $secondary-color;
+}
+
+.menu-closed .nav-sub {
+  display: none;
+}
+
+.menu-open .nav-sub {
+  height: auto;
+}
+
+.nav-sub li a {padding-left: 1em;}
+.nav-sub li li a {padding-left: 1.5em;}
+.nav-sub li li li a {padding-left: 2em;}
+.nav-sub li li li li a {padding-left: 2.5em;}
+.nav-sub li li li li li a {padding-left: 3em;}
+
+.docs-aside-menu .menu-icon {
+  float: right;
+  color: #b7b9b5;
+}
+
+.menu-open .menu-icon:after {
+  margin: 0 5px;
+  font-family: 'FontAwesome';
+  content: "\f053";
+}
+
+.menu-closed .menu-icon:after {
+  content: "\f078";
+  margin: 0 5px;
+  font-family: 'FontAwesome';
+}
+
+.glyphicon-menu-down:before {
+  content: "\e259";
+}
+.glyphicon-menu-up:before {
+  content: "\e260";
 }

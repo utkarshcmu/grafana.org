@@ -19,7 +19,7 @@ module.exports = function(grunt) {
         livereload: port+1,
       },
       content: {
-        files: ["content/**/*", "layouts/**/*"],
+        files: ["content/**/*", "layouts/**/*", "config.toml"],
         tasks: ["hugo:dev"],
         options: {spawn: false},
       },

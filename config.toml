@@ -11,15 +11,12 @@ disableRSS = true
 [permalinks]
   blog = "blog/:year/:month/:day/:title/"
 
-[[menu.docs]]
-  name = "About"
-  url = "/about"
+[menu]
+[[menu.main]]
+name = "Welcome to the Docs"
+url = "/"
+weight = -85
 
-[[menu.docs]]
-  name = "Installation"
-  url = "/installation"
 
-[[menu.docs]]
-  name = "Reference"
-  url = "/reference"
+
 

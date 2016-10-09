@@ -4,14 +4,12 @@
 </div>
 
 <div class="container-fluid docs-container">
-	<div class="page-content row-fluid">
-		<aside class="docs-aside-menu">
-			{{ partial "docs-menu.html" (dict "menu" .Site.Menus.docs "thispage" . "menuopen" "open") }}
-		</aside>
+	<aside class="docs-aside-menu">
+		{{ partial "docs-menu.html" (dict "menu" .Site.Menus.main "thispage" . "menuopen" "open") }}
+	</aside>
 
-		<div class="docs-content">
-			{{ .Content }}
-		</div>
+	<div class="docs-content">
+		{{ .Content }}
 	</div>
 
 	<div class="clearfix"></div>

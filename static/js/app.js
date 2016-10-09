@@ -33,6 +33,21 @@ $(window).on('load', () =>  {
     evt.preventDefault();
   });
 
+  $('.expand-menu').on('click touchstart', function(evt) {
+    evt.preventDefault();
+
+    var menu = evt.currentTarget.nextElementSibling;
+    menu = evt.currentTarget.parentElement;
+    if (menu.classList.contains("menu-closed")) {
+      menu.classList.remove("menu-closed")
+      menu.classList.add("menu-open")
+    } else {
+      menu.classList.add("menu-closed")
+      menu.classList.remove("menu-open")
+    }
+    return false;
+  });
+
   $(document).foundation();
 
 });
