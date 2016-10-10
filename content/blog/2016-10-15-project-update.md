@@ -12,8 +12,8 @@ cover_photo = "/assets/img/grafanacon_blog.png"
 {{< imgbox max-width="40%" img="blog/project_update/alert_graph.png" caption="Alerting graph" >}}
 
 I know many are awaiting the next Grafana release, which will include the long anticipated alerting
-feature along with many other improvements. Beside data visualization we hope alerting will be a
-fundamental feature in Grafana. A feature that will continue to evolve and improve for many years.
+feature along with many other improvements. Besides data visualization, we hope alerting will be a
+fundamental feature in Grafana; a feature that will continue to evolve and improve for many years.
 That is why we have really taken the time get the design of the alert rule model and execution
 engine as solid and future proof as possible.
 
@@ -26,18 +26,18 @@ You can already try it out in the [nightly builds](http://grafana.org/builds/).
 
 ## GrafanaCon in New York (Nov 30 - Dec 1)
 
-<img src="/assets/img/grafanacon_blog_list.png" alt="GrafanaCon 2016" title="GrafanaCon 2016"/>
+<a href="http://grafanacon.org" target="_blank"><img src="/assets/img/grafanacon_blog_list.png" alt="GrafanaCon 2016" title="GrafanaCon 2016"/></a><br /><br />
 Join the Grafana team, along with hundreds of monitoring and data aficionados, for our second annual
-GrafanaCon on Wednesday, November 30 and Thursday, December 1, 2016. This two-day event will feature content
+GrafanaCon on <strong>Wednesday, November 30</strong> and <strong>Thursday, December 1, 2016</strong>. This two-day event will feature content
 and speakers from across the Grafana community, led by myself, Torkel Ödegaard, the creator & project lead of Grafana. 
 
-Day 1: Single track format, several talks & panels of general interest. 
-Day 2: Dual track format, more detailed topics and deeper dives. 
+Day 1 will be single track format, several talks & panels of general interest; while day 2 lets you roll up your sleeves in a dual track format for more detailed topics and deeper dives.  There will also be a Plugin Lounge with projects from across the Grafana ecosystem including <strong>Prometheus, Graphite, InfluxDB, worldPing, Kentik, Voxter</strong> and others.
 
-There will also be a Plugin Lounge with projects from across the Grafana ecosystem including Prometheus, Graphite, 
-InfluxDB, worldPing, Kentik, and many others.
+Registration includes full access to both days, an after-party, and refreshments.
 
-Lunch and refreshments will be provided.
+If you’re interested in presenting at GrafanaCon, there’s still time to <a href="http://raintank.io/grafanacon-2016?utm_source=grafana_blog" target="_blank">submit your proposal</a>.
+
+The venue and preliminary speaker schedule will be announced shortly.
 
 Go to [GrafanaCon.org](http://grafanacon.org) and register for an early bird ticket.
 <br/>
@@ -45,7 +45,7 @@ Go to [GrafanaCon.org](http://grafanacon.org) and register for an early bird tic
 
 <hr />
 
-## New screencasts
+## New Screencasts
 
 ### Ep 9 - Elasticsearch
 
