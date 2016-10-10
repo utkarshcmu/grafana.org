@@ -6,7 +6,7 @@ relativeURLs = false
 verbose = true
 enableRobotsTXT = true
 disableSitemap = false
-disableRSS = true
+disableRSS = false
 
 [permalinks]
   blog = "blog/:year/:month/:day/:title/"

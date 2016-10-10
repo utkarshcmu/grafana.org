@@ -4,6 +4,7 @@ author = "Torkel Ödegaard"
 keywords = ["release"]
 date = "2016-10-15"
 draft = true
+cover_photo = "/assets/img/grafanacon_blog.png"
 +++
 
 ## Grafana v4 Update
@@ -21,11 +22,14 @@ You can already try it out in the [nightly builds](http://grafana.org/builds/).
 
 <div class="clearfix"></div>
 
+<hr />
+
 ## GrafanaCon in New York (Nov 30 - Dec 1)
 
+<img src="/assets/img/grafanacon_blog_list.png" alt="GrafanaCon 2016" title="GrafanaCon 2016"/>
 Join the Grafana team, along with hundreds of monitoring and data aficionados, for our second annual
 GrafanaCon on Wednesday, November 30 and Thursday, December 1, 2016. This two-day event will feature content
-and speakers from across the Grafana community, led by myself Torkel Ödegaard, the creator & project lead of Grafana. 
+and speakers from across the Grafana community, led by myself, Torkel Ödegaard, the creator & project lead of Grafana. 
 
 Day 1: Single track format, several talks & panels of general interest. 
 Day 2: Dual track format, more detailed topics and deeper dives. 
@@ -36,6 +40,10 @@ InfluxDB, worldPing, Kentik, and many others.
 Lunch and refreshments will be provided.
 
 Go to [GrafanaCon.org](http://grafanacon.org) and register for an early bird ticket.
+<br/>
+<a href="http://grafanacon.org" class="button secondary radius">Pre-register Now</a>
+
+<hr />
 
 ## New screencasts
 
@@ -68,6 +76,8 @@ Go to [GrafanaCon.org](http://grafanacon.org) and register for an early bird tic
 
 <div class="clearfix"></div>
 
+<hr />
+
 ## New Plugins
 
 New panels, data sources and apps are constantly being added to the [Plugins Repository](https://grafana.net/plugins) on [Grafana.net](https://grafana.net).
@@ -94,7 +104,7 @@ Here are some recent additions.
 <div class="row">
   <div class="medium-6 columns">
    {{< lightboxhelper max-width="100%" img="blog/project_update/sun_and_moon.png" caption="Sun and moon" >}}
-   <a href="https://grafana.net/plugins/fetzerch-sunandmoon-datasource">Sun and Moon</a> is a very cool data source that can show graph or annotations for Sun & Moon position & metrics.
+   <a href="https://grafana.net/plugins/fetzerch-sunandmoon-datasource">Sun and Moon</a> is a very cool data source that can show graph or annotations for Sun &amp; Moon position &amp; metrics.
    Useful for correlating metrics from photovoltaic sensors.
   </div>
   <div class="medium-6 columns">
@@ -105,6 +115,8 @@ Here are some recent additions.
     <br>
   </div>
 </div>
+
+<hr />
 
 ## New Dashboards
 
@@ -127,10 +139,12 @@ treasure trove of ready made reusable dashboards for all kinds of collectors and
 There are many more dashboards to highlight. Instead of listing them all head to [Grafana.net](https://grafana.net/dashboards)
 and checkout the full list.
 
+<hr />
+
 ## Thanks
 
 Big thanks to all the passionate Grafana users and devs out there who continue to submit bug reports, feature
-requests and pull requests. I know we have been lagging behind on address PR's lately but hope to be able to improve on
+requests and pull requests. I know we have been lagging behind on addressing PR's lately but hope to be able to improve on
 that post v4 release.
 
 Until next time, keep on graphing!<br>
