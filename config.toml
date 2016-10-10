@@ -11,13 +11,4 @@ disableRSS = true
 [permalinks]
   blog = "blog/:year/:month/:day/:title/"
 
-[menu]
-[[menu.main]]
-name = "Welcome to the Docs"
-identifer = "root"
-url = "/"
-weight = -85
-
-
-
 
