@@ -3,13 +3,19 @@
 export AWS_S3_BUCKET=staging.grafana.org
 
 grunt_param="--env=staging"
+include=""
 
 if [ "$1" = "prod" ]; then
-  echo "Publishing to production"
+  echo "Publishing to production\n"
   grunt_param="--env=prod"
   AWS_S3_BUCKET=grafana.org
 else
-  echo "Publishing to staging"
+  echo "Publishing to staging\n"
+fi;
+
+if [ "$2" != "" ]; then
+  include="$2"
+  echo "include filter: $include\n"
 fi;
 
 
@@ -67,19 +73,12 @@ upload_s3() {
   echo "  to $dst"
   echo
 
-  exclude="--exclude bower/*"
-  include=""
+  exclude="--exclude *"
   encoding=''
 
-  run="aws s3 cp $src $dst --recursive $include $exclude --profile $BUCKET --cache-control $cache --acl public-read $encoding"
-  echo "======================="
-  echo "$run"
-  echo "======================="
-  $run
-
-  rm -rf dist_gzip
+  aws s3 cp $src $dst --recursive --exclude "*" --include $include --profile $BUCKET --cache-control $cache --acl public-read $encoding
 }
 
-setup_s3
+#setup_s3
 grunt build $grunt_param
 upload_s3
