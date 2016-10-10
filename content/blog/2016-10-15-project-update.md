@@ -109,7 +109,7 @@ Here are some recent additions.
 ## New Dashboards
 
 The [Dashboard Repository](https://grafana.net/dashboards) on [Grafana.net](https://grafana.net) is rapidly becoming
-treasure trove of ready made reusable dashboards for all kinds of collectors and data sources.
+a treasure trove of ready made reusable dashboards for all kinds of collectors and data sources.
 
 <div class="row">
   <div class="medium-6 columns">
