@@ -120,7 +120,7 @@ Here are some recent additions.
 
 ## New Dashboards
 
-The [Dashboard Repository](https://grafana.net/dashboards?utm_source=Grafana_blog") on [Grafana.net](https://grafana.net?utm_source=Grafana_blog") is rapidly becoming
+The [Dashboard Repository](https://grafana.net/dashboards?utm_source=Grafana_blog) on [Grafana.net](https://grafana.net?utm_source=Grafana_blog") is rapidly becoming
 treasure trove of ready made reusable dashboards for all kinds of collectors and data sources.
 
 <div class="row">
