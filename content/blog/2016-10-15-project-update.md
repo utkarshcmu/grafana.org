@@ -64,9 +64,9 @@ Go to [GrafanaCon.org](http://grafanacon.org) and register for an early bird tic
 
 <div class="row">
   <div class="medium-6 columns">
-    In this episode I show how you can find ready made dashboards on [Grafana.net](https://grafana.net) that
+    In this episode I show how you can find ready made dashboards on <a href="https://grafana.net?utm_source=Grafana_blog" target="_blank">Grafana.net</a> that
     are super easy to import into your Grafana server. A also walk through how anyone
-    can share their own dashboards with the rest of the Grafana user community on [Grafana.net](https://grafana.net).
+    can share their own dashboards with the rest of the Grafana user community on <a href="https://grafana.net?utm_source=Grafana_blog" target="_blank">Grafana.net</a>.
   </div>
   <div class="medium-6 columns">
     {{< videobox src="https://www.youtube.com/embed/iUj6DwfBh88" >}}
@@ -80,7 +80,7 @@ Go to [GrafanaCon.org](http://grafanacon.org) and register for an early bird tic
 
 ## New Plugins
 
-New panels, data sources and apps are constantly being added to the [Plugins Repository](https://grafana.net/plugins) on [Grafana.net](https://grafana.net).
+New panels, data sources and apps are constantly being added to the [Plugins Repository](https://grafana.net/plugins?utm_source=Grafana_blog) on [Grafana.net](https://grafana.net?utm_source=Grafana_blog).
 Here are some recent additions.
 
 <div class="row">
@@ -104,13 +104,13 @@ Here are some recent additions.
 <div class="row">
   <div class="medium-6 columns">
    {{< lightboxhelper max-width="100%" img="blog/project_update/sun_and_moon.png" caption="Sun and moon" >}}
-   <a href="https://grafana.net/plugins/fetzerch-sunandmoon-datasource">Sun and Moon</a> is a very cool data source that can show graph or annotations for Sun &amp; Moon position &amp; metrics.
+   <a href="https://grafana.net/plugins/fetzerch-sunandmoon-datasource?utm_source=Grafana_blog">Sun and Moon</a> is a very cool data source that can show graph or annotations for Sun &amp; Moon position &amp; metrics.
    Useful for correlating metrics from photovoltaic sensors.
   </div>
   <div class="medium-6 columns">
     {{< lightboxhelper max-width="100%" img="blog/project_update/kentik_connect.png" caption="Sun and moon" >}}
 
-    <a href="https://grafana.net/plugins/kentik-app">Kentik Connect Pro</a>
+    <a href="https://grafana.net/plugins/kentik-app?utm_source=Grafana_blog">Kentik Connect Pro</a>
      allows you to quickly and easily enhance your visibility into your network traffic. Kentik Connect leverages the power of Kentik Detect, which provides real-time, Internet-scale ingest and querying of network data including flow records (NetFlow, IPFIX, sFlow), BGP, GeoIP, and SNMP.
     <br>
   </div>
@@ -120,23 +120,23 @@ Here are some recent additions.
 
 ## New Dashboards
 
-The [Dashboard Repository](https://grafana.net/dashboards) on [Grafana.net](https://grafana.net) is rapidly becoming
+The [Dashboard Repository](https://grafana.net/dashboards?utm_source=Grafana_blog") on [Grafana.net](https://grafana.net?utm_source=Grafana_blog") is rapidly becoming
 treasure trove of ready made reusable dashboards for all kinds of collectors and data sources.
 
 <div class="row">
   <div class="medium-6 columns">
    {{< lightboxhelper max-width="100%" img="blog/project_update/docker_dashboard.png" caption="Docker Dashboard" >}}
-   <a href="https://grafana.net/dashboards/179">Docker Dashboard</a> is a simple dashboard to monitor a docker
+   <a href="https://grafana.net/dashboards/179?utm_source=Grafana_blog">Docker Dashboard</a> is a simple dashboard to monitor a docker
    container using Prometheus and cAdvisor.
   </div>
   <div class="medium-6 columns">
     {{< lightboxhelper max-width="100%" img="blog/project_update/kubernetes_stats.png" caption="Kubernetes Container Stats" >}}
-    <a href="https://grafana.net/dashboards/482">Kubernetes Container Stats</a> provides summary performance and availability metrics of a Kubernetes Node. The data for this dashboard is expected to come from Snap agents running on every Kubernetes Node.
+    <a href="https://grafana.net/dashboards/482?utm_source=Grafana_blog">Kubernetes Container Stats</a> provides summary performance and availability metrics of a Kubernetes Node. The data for this dashboard is expected to come from Snap agents running on every Kubernetes Node.
   </div>
 </div>
 
 <br>
-There are many more dashboards to highlight. Instead of listing them all head to [Grafana.net](https://grafana.net/dashboards)
+There are many more dashboards to highlight. Instead of listing them all head to [Grafana.net](https://grafana.net/dashboards?utm_source=Grafana_blog)
 and checkout the full list.
 
 <hr />
