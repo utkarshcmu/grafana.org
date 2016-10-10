@@ -13,8 +13,8 @@ draft = true
 I know many are awaiting the next Grafana release, which will include the long anticipated alerting
 feature along with many other improvements. Beside data visualization we hope alerting will be a
 fundamental feature in Grafana. A feature that will continue to evolve and improve for many years.
-That is why we have really taken the time get the core design of the alerting rule an execution
-engine as solid as possible.
+That is why we have really taken the time get the design of the alert rule model and execution
+engine as solid and future proof as possible.
 
 We are busily working on making a beta release by the end of October and stable release by end of November!
 You can already try it out in the [nightly builds](http://grafana.org/builds/).
@@ -127,4 +127,11 @@ treasure trove of ready made reusable dashboards for all kinds of collectors and
 There are many more dashboards to highlight. Instead of listing them all head to [Grafana.net](https://grafana.net/dashboards)
 and checkout the full list.
 
+## Thanks
 
+Big thanks to all the passionate Grafana users and devs out there who continue to submit bug reports, feature
+requests and pull requests. I know we have been lagging behind on address PR's lately but hope to be able to improve on
+that post v4 release.
+
+Until next time, keep on graphing!<br>
+Torkel Ödegaard
