@@ -19,8 +19,8 @@
 		<meta name="twitter:title" content="{{ .Title }}">
 
 		{{ if and ((.IsPage) (isset .Params "cover_image")) }}
-			<meta name="twitter:image" content="{{ .Params.cover_image | absURL }}" />
-			<meta property="og:image" content="{{ .Params.cover_image | absURL }}" />
+			<meta name="twitter:image" content="{{ default "" (index .Params "cover_image") | absURL }}" />
+			<meta property="og:image" content="{{ default "" (index .Params "cover_image") | absURL }}" />
 		{{ else}}
 			<meta name="twitter:image" content="http://grafana.org/assets/img/docs/nice_dashboard.png" />
 			<meta property="og:image" content="http://grafana.org/assets/img/docs/nice_dashboard.png" />
