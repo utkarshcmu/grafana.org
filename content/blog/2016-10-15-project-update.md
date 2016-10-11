@@ -1,9 +1,12 @@
 +++
 title = "Project Update & GrafanaCon"
 author = "Torkel Ödegaard"
-keywords = ["release"]
 date = "2016-10-15"
+keywords = ["Grafana", "Blog", "GrafanaCon", "Update"]
 draft = true
+cover_image = "/assets/img/blog/project_update/grafanacon_blog.png"
+nav_opacity = "0.9"
+description = "Project update blog post covering Grafana v4 progress update, GrafanaCon, new screencasts, new plugins, new dashboards."
 +++
 
 ## Grafana v4 Update
@@ -11,8 +14,8 @@ draft = true
 {{< imgbox max-width="40%" img="blog/project_update/alert_graph.png" caption="Alerting graph" >}}
 
 I know many are awaiting the next Grafana release, which will include the long anticipated alerting
-feature along with many other improvements. Beside data visualization we hope alerting will be a
-fundamental feature in Grafana. A feature that will continue to evolve and improve for many years.
+feature along with many other improvements. Besides data visualization, we hope alerting will be a
+fundamental feature in Grafana; a feature that will continue to evolve and improve for many years.
 That is why we have really taken the time get the design of the alert rule model and execution
 engine as solid and future proof as possible.
 
@@ -21,23 +24,30 @@ You can already try it out in the [nightly builds](http://grafana.org/builds/).
 
 <div class="clearfix"></div>
 
+<hr />
+
 ## GrafanaCon in New York (Nov 30 - Dec 1)
 
+<a href="http://grafanacon.org" target="_blank"><img src="/assets/img/blog/project_update/grafanacon_blog_list.png" alt="GrafanaCon 2016" title="GrafanaCon 2016"/></a><br /><br />
 Join the Grafana team, along with hundreds of monitoring and data aficionados, for our second annual
-GrafanaCon on Wednesday, November 30 and Thursday, December 1, 2016. This two-day event will feature content
-and speakers from across the Grafana community, led by myself Torkel Ödegaard, the creator & project lead of Grafana. 
+GrafanaCon on <strong>Wednesday, November 30</strong> and <strong>Thursday, December 1, 2016</strong>. This two-day event will feature content
+and speakers from across the Grafana community, led by myself, Torkel Ödegaard, the creator & project lead of Grafana. 
 
-Day 1: Single track format, several talks & panels of general interest. 
-Day 2: Dual track format, more detailed topics and deeper dives. 
+Day 1 will be single track format, several talks & panels of general interest; while day 2 lets you roll up your sleeves in a dual track format for more detailed topics and deeper dives.  There will also be a Plugin Lounge with projects from across the Grafana ecosystem including <strong>Prometheus, Graphite, InfluxDB, worldPing, Kentik, Voxter</strong> and others.
 
-There will also be a Plugin Lounge with projects from across the Grafana ecosystem including Prometheus, Graphite, 
-InfluxDB, worldPing, Kentik, and many others.
+Registration includes full access to both days, an after-party, and refreshments.
 
-Lunch and refreshments will be provided.
+If you’re interested in presenting at GrafanaCon, there’s still time to <a href="http://raintank.io/grafanacon-2016?utm_source=grafana_blog" target="_blank">submit your proposal</a>.
+
+The venue and preliminary speaker schedule will be announced shortly.
 
 Go to [GrafanaCon.org](http://grafanacon.org) and register for an early bird ticket.
+<br/>
+<a href="http://grafanacon.org" class="button secondary radius">Pre-register Now</a>
 
-## New screencasts
+<hr />
+
+## New Screencasts
 
 ### Ep 9 - Elasticsearch
 
@@ -56,9 +66,9 @@ Go to [GrafanaCon.org](http://grafanacon.org) and register for an early bird tic
 
 <div class="row">
   <div class="medium-6 columns">
-    In this episode I show how you can find ready made dashboards on [Grafana.net](https://grafana.net) that
+    In this episode I show how you can find ready made dashboards on <a href="https://grafana.net?utm_source=Grafana_blog" target="_blank">Grafana.net</a> that
     are super easy to import into your Grafana server. A also walk through how anyone
-    can share their own dashboards with the rest of the Grafana user community on [Grafana.net](https://grafana.net).
+    can share their own dashboards with the rest of the Grafana user community on <a href="https://grafana.net?utm_source=Grafana_blog" target="_blank">Grafana.net</a>.
   </div>
   <div class="medium-6 columns">
     {{< videobox src="https://www.youtube.com/embed/iUj6DwfBh88" >}}
@@ -68,9 +78,11 @@ Go to [GrafanaCon.org](http://grafanacon.org) and register for an early bird tic
 
 <div class="clearfix"></div>
 
+<hr />
+
 ## New Plugins
 
-New panels, data sources and apps are constantly being added to the [Plugins Repository](https://grafana.net/plugins) on [Grafana.net](https://grafana.net).
+New panels, data sources and apps are constantly being added to the [Plugins Repository](https://grafana.net/plugins?utm_source=Grafana_blog) on [Grafana.net](https://grafana.net?utm_source=Grafana_blog).
 Here are some recent additions.
 
 <div class="row">
@@ -94,44 +106,49 @@ Here are some recent additions.
 <div class="row">
   <div class="medium-6 columns">
    {{< lightboxhelper max-width="100%" img="blog/project_update/sun_and_moon.png" caption="Sun and moon" >}}
-   <a href="https://grafana.net/plugins/fetzerch-sunandmoon-datasource">Sun and Moon</a> is a very cool data source that can show graph or annotations for Sun & Moon position & metrics.
+   <a href="https://grafana.net/plugins/fetzerch-sunandmoon-datasource?utm_source=Grafana_blog">Sun and Moon</a> is a very cool data source that can show graph or annotations for Sun &amp; Moon position &amp; metrics.
    Useful for correlating metrics from photovoltaic sensors.
   </div>
   <div class="medium-6 columns">
     {{< lightboxhelper max-width="100%" img="blog/project_update/kentik_connect.png" caption="Sun and moon" >}}
 
-    <a href="https://grafana.net/plugins/kentik-app">Kentik Connect Pro</a>
+    <a href="https://grafana.net/plugins/kentik-app?utm_source=Grafana_blog">Kentik Connect Pro</a>
      allows you to quickly and easily enhance your visibility into your network traffic. Kentik Connect leverages the power of Kentik Detect, which provides real-time, Internet-scale ingest and querying of network data including flow records (NetFlow, IPFIX, sFlow), BGP, GeoIP, and SNMP.
     <br>
   </div>
 </div>
 
+<hr />
+
 ## New Dashboards
 
-The [Dashboard Repository](https://grafana.net/dashboards) on [Grafana.net](https://grafana.net) is rapidly becoming
-a treasure trove of ready made reusable dashboards for all kinds of collectors and data sources.
+The [Dashboard Repository](https://grafana.net/dashboards?utm_source=Grafana_blog) on [Grafana.net](https://grafana.net?utm_source=Grafana_blog) is rapidly becoming
+treasure trove of ready made reusable dashboards for all kinds of collectors and data sources.
 
 <div class="row">
   <div class="medium-6 columns">
    {{< lightboxhelper max-width="100%" img="blog/project_update/docker_dashboard.png" caption="Docker Dashboard" >}}
-   <a href="https://grafana.net/dashboards/179">Docker Dashboard</a> is a simple dashboard to monitor a docker
+   <a href="https://grafana.net/dashboards/179?utm_source=Grafana_blog">Docker Dashboard</a> is a simple dashboard to monitor a docker
    container using Prometheus and cAdvisor.
   </div>
   <div class="medium-6 columns">
     {{< lightboxhelper max-width="100%" img="blog/project_update/kubernetes_stats.png" caption="Kubernetes Container Stats" >}}
-    <a href="https://grafana.net/dashboards/482">Kubernetes Container Stats</a> provides summary performance and availability metrics of a Kubernetes Node. The data for this dashboard is expected to come from Snap agents running on every Kubernetes Node.
+    <a href="https://grafana.net/dashboards/482?utm_source=Grafana_blog">Kubernetes Container Stats</a> provides summary performance and availability metrics of a Kubernetes Node. The data for this dashboard is expected to come from Snap agents running on every Kubernetes Node.
   </div>
 </div>
 
 <br>
-There are many more dashboards to highlight. Instead of listing them all head to [Grafana.net](https://grafana.net/dashboards)
+There are many more dashboards to highlight. Instead of listing them all head to [Grafana.net](https://grafana.net/dashboards?utm_source=Grafana_blog)
 and checkout the full list.
+
+<hr />
 
 ## Thanks
 
 Big thanks to all the passionate Grafana users and devs out there who continue to submit bug reports, feature
-requests and pull requests. I know we have been lagging behind on address PR's lately but hope to be able to improve on
+requests and pull requests. I know we have been lagging behind on addressing PR's lately but hope to be able to improve on
 that post v4 release.
 
 Until next time, keep on graphing!<br>
 Torkel Ödegaard
+
