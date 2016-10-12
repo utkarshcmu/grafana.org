@@ -14,7 +14,7 @@ else
 fi;
 
 if [ "$2" != "" ]; then
-  include="--include $2"
+  include="$2"
   echo "include filter: $include\n"
 fi;
 
@@ -81,7 +81,7 @@ upload_s3() {
   exclude="--exclude *"
   encoding=''
 
-  aws s3 cp $src $dst --recursive --exclude "bower/*" $include --profile $BUCKET --cache-control $cache --acl public-read $encoding
+  aws s3 cp $src $dst --recursive --exclude "*" --include "css/*.css" --include $include --profile $BUCKET --cache-control $cache --acl public-read $encoding
 }
 
 #setup_s3
