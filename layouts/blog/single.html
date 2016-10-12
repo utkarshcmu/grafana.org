@@ -33,11 +33,16 @@
 			{{ partial "disqus.html" . }}
 		</div>
 		<div class="large-3 columns">
+			<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+				RSS <i class="fa fa-rss"></i>
+			</a>
 			<br>
+			<br>
+
 			<h4>Recent Posts</h4>
 
 			{{ range first 10 .Site.Pages }}
-				{{if eq .Section "blog" }}
+			{{if eq .Section "blog" }}
 				<div class="summary">
 					<h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
 				</div>

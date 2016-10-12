@@ -30,6 +30,11 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="{{ .Title }}" />
 
+		{{ if .RSSLink }}
+			<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="Grafana Blog" />
+			<link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="Grafana Blog" />
+		{{ end }}
+
 		<!-- build:css /css/styles.js -->
 		<link href="/css/styles.css" rel="stylesheet">
 		<!-- endbuild -->

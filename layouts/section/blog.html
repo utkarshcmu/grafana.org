@@ -10,9 +10,13 @@
 </div>
 
 <div class="page-content row">
+	<a class="right" href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+		RSS <i class="fa fa-rss"></i>
+	</a>
+
 	<div class="large-12 columns">
 		{{ range .Data.Pages }}
-				{{ .Render "li"}}
+		{{ .Render "li"}}
 		{{ end }}
 	</div>
 </div>

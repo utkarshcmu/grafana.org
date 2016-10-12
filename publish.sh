@@ -63,6 +63,11 @@ upload_s3() {
   src=dist/
   dst=s3://$BUCKET
 
+  # make site rss use blog rss
+  cp dist/blog/index.xml dist/index.xml
+  # old file name for rss feed
+  cp dist/blog/index.xml dist/feed.xml
+
   cache=max-age=3600
   if [ "$NOCACHE" ]; then
     cache=no-cache
