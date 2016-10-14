@@ -1,6 +1,7 @@
 
 .lightbox {
   box-shadow: 2px 2px 10px #666;
+  margin-bottom: 0.7rem;
 
   & > a {
     display: block;
@@ -62,3 +63,12 @@
   //background-color: rgba(0, 0, 0, 0.5);
 }
 
+.inline-imgbox-right {
+  float: right;
+  margin-left: 1rem;
+}
+
+.inline-imgbox-left {
+  float: left;
+  margin-right: 1rem;
+}

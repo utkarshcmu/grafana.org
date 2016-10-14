@@ -43,6 +43,8 @@ $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 $body-font-weight: normal;
 $body-font-style: normal;
 
+$row-width: rem-calc(1170);
+
 $anchor-font-color: $secondary-color;
 $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -17%);
 

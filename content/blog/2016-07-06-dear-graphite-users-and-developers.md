@@ -4,7 +4,7 @@ author: Raj Dutt
 date: 2016-07-06
 aliases:
   - blog/2016/07/06/dear-graphite-users-and-developers.html
-list_photo: /assets/img/v2/graphite.png
+list_image: /assets/img/v2/graphite.png
 ---
 
 <img src="/assets/img/v2/graphite.png"></img>

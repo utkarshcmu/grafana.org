@@ -52,11 +52,16 @@
 	</div>
 </div>
 
-{{ if isset .Params "cover_photo" }}
+{{ if isset .Params "cover_image" }}
 <style>
 .page-header-bg {
-	background-image: url({{ .Params.cover_photo }});
+	background-image: url({{ .Params.cover_image }});
 }
+{{ if isset .Params "nav_opacity" }}
+	section.nav {
+		background-color: rgba(0,0,0,{{ .Params.nav_opacity }})
+  }
+{{ end }}
 </style>
 {{ end }}
 

@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Grafana - {{ if .Title }}{{ .Title }}{{ end }}</title>
 
-		<meta name="keywords" content="Grafana, Graphite, Dashboard, InfluxDB, OpenTSDB, Elasticsearch, Metrics, Editor, Composer, Analytics, Graphana, Prometheus, Cloudwatch">
+		<meta name="keywords" content="{{ with .Keywords }}{{ delimit . ","}}{{ else }}Grafana, Graphite, Dashboard, InfluxDB, OpenTSDB, Elasticsearch, Metrics, Editor, Composer, Analytics, Graphana, Prometheus, Cloudwatch{{end}}">
 		<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}Grafana is the leading open source project for visualizing metrics. Supporting rich integration for every popular database like Graphite, Prometheus and InfluxDB.{{ end }}">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -18,9 +18,9 @@
 		<meta name="twitter:url" content="https://twitter.com/grafana" />
 		<meta name="twitter:title" content="{{ .Title }}">
 
-		{{ if and ((.IsPage) (isset .Params "list_photo")) }}
-			<meta name="twitter:image" content="http://grafana.org{{ .Params.list_photo }}" />
-			<meta property="og:image" content="http://grafana.org{{ .Params.list_photo }}" />
+		{{ if and ((.IsPage) (isset .Params "cover_image")) }}
+			<meta name="twitter:image" content="{{ default "" (index .Params "cover_image") | absURL }}" />
+			<meta property="og:image" content="{{ default "" (index .Params "cover_image") | absURL }}" />
 		{{ else}}
 			<meta name="twitter:image" content="http://grafana.org/assets/img/docs/nice_dashboard.png" />
 			<meta property="og:image" content="http://grafana.org/assets/img/docs/nice_dashboard.png" />
