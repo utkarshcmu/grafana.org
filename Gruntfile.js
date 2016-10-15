@@ -163,10 +163,6 @@ module.exports = function(grunt) {
       case 'prod':
         args.push("--baseUrl=http://grafana.org");
         break;
-      case 'docs':
-        args.push("--baseUrl=http://localhost:3002");
-        args.push("--contentDir=docs");
-        break;
     }
 
     hugo = require("child_process").spawn("hugo", args, {stdio: "inherit"});

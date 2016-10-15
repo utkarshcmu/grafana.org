@@ -1,0 +1,25 @@
+
+{{ .scratch.Set "headerLinkClass" "" }}
+
+{{ $baseUrl := .scratch.Get "navBaseUrl" }}
+
+{{ if eq $baseUrl "http://docs.grafana.org/"}}
+	{{ .scratch.Set "navBaseUrl" "http://grafana.org/" }}
+{{ end }}
+
+{{ if (hasPrefix .link.URL "http")}}
+	{{ .scratch.Set "navBaseUrl" "" }}
+{{ end }}
+
+{{ if eq .link.Name "Download" }}
+	{{ .scratch.Set "headerLinkClass" "top-bar-download-link" }}
+{{ end }}
+
+
+{{ $baseUrl := .scratch.Get "navBaseUrl" }}
+
+<li>
+	<a href="{{trim $baseUrl "/"}}{{ .link.URL}}" class="{{ .scratch.Get "headerLinkClass" }}">
+		{{ .link.Name }}
+	</a>
+</li>

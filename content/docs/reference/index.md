@@ -2,7 +2,7 @@
 title = "Reference"
 description = "Reference"
 keywords = []
-[menu.main]
+[menu.docs]
 identifier = "reference"
 weight = 3
 +++

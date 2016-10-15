@@ -2,7 +2,7 @@
 title = "UX"
 description = "UX"
 keywords = []
-[menu.main]
+[menu.docs]
 name = "UX"
 parent = "reference"
 weight = 2

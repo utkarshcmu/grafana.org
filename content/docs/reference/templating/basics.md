@@ -2,7 +2,7 @@
 title = "Templating"
 description = "Templating"
 keywords = []
-[menu.main]
+[menu.docs]
 name = "Basics"
 identifier = "templating_basics"
 parent = "templating"

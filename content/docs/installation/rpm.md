@@ -2,7 +2,7 @@
 title = "Installing On Centos"
 description = "Grafana installation documentation"
 keywords = ["Grafana", "Installation"]
-[menu.main]
+[menu.docs]
 name = "Centos"
 parent = "installation"
 identifier = "centos"

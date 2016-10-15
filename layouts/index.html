@@ -2,7 +2,6 @@
 	{{ range .Data.Pages }}
 
 			{{if eq .Type "index" }}
-
 				{{ partial "header.html" . }}
 					{{ .Content }}
 				{{ partial "footer.html" . }}

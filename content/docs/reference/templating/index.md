@@ -2,7 +2,7 @@
 title = "Templating"
 description = "Templating"
 keywords = []
-[menu.main]
+[menu.docs]
 identifier = "templating"
 parent = "reference"
 weight = 3
