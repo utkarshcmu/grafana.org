@@ -160,6 +160,9 @@ module.exports = function(grunt) {
         args.push("--buildDrafts=true");
         args.push("--baseUrl=http://staging.grafana.org");
         break;
+      case 'staging-docs':
+        args.push("--baseUrl=http://staging-docs.grafana.org");
+        break;
       case 'prod':
         args.push("--baseUrl=http://grafana.org");
         break;

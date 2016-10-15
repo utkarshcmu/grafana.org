@@ -13,7 +13,7 @@ disableRSS = false
 
 [[menu.top]]
   name = "Docs"
-  url = "http://docs.grafana.org"
+  url = ""
   weight = 1
 
 [[menu.top]]
