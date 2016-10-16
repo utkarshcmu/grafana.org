@@ -20,19 +20,19 @@ module.exports = function(grunt) {
       },
       content: {
         files: ["content/**/*", "layouts/**/*", "config.toml"],
-        tasks: ["hugo:dev"],
+        tasks: ["hugo"],
         options: {spawn: false},
       },
       sass: {
         files: ["static/sass/**/*"],
-        tasks: ["hugo:dev", "assets-dev"],
+        tasks: ["hugo", "assets-dev"],
         options: {
           spawn: false
         }
       },
       js: {
         files: ["static/js/**/*"],
-        tasks: ["hugo:dev", "assets-dev"],
+        tasks: ["hugo", "assets-dev"],
         options: {
           spawn: false
         }
@@ -160,11 +160,17 @@ module.exports = function(grunt) {
         args.push("--buildDrafts=true");
         args.push("--baseUrl=http://staging.grafana.org");
         break;
-      case 'staging-docs':
-        args.push("--baseUrl=http://staging-docs.grafana.org");
-        break;
       case 'prod':
         args.push("--baseUrl=http://grafana.org");
+      case 'dev-docs':
+        args.push("--baseUrl=http://localhost:3004");
+        args.push("--buildDrafts=true");
+        args.push("--buildFuture=true");
+        break;
+      case 'staging-docs':
+        args.push("--buildDrafts=true");
+        args.push("--buildFuture=true");
+        args.push("--baseUrl=http://staging-docs.grafana.org");
         break;
     }
 
