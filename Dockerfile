@@ -42,5 +42,7 @@ RUN npm install
 
 RUN npm install -g grunt
 
+RUN npm rebuild node-sass
+
 EXPOSE 3004
 EXPOSE 3005
