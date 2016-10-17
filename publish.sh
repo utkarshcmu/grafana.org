@@ -81,7 +81,7 @@ upload_s3() {
   exclude="--exclude *"
   encoding=''
 
-  aws s3 cp $src $dst --recursive --exclude "*" --include "css/*.css" --include $include --profile $BUCKET --cache-control $cache --acl public-read $encoding
+  aws s3 cp $src $dst --recursive --exclude "*" --include "css/*.css" --include "js/*.js" --include $include --profile $BUCKET --cache-control $cache --acl public-read $encoding
 }
 
 #setup_s3
