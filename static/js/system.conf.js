@@ -14,6 +14,4 @@ System.config({
     },
   },
 
-  meta: {
-  }
 });
