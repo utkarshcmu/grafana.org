@@ -82,6 +82,10 @@ h3.startpage-splash-sub-slogan {
   display: none;
   padding-top: 0.5rem;
 
+  a.github-button {
+    color: transparent;
+  }
+
   .github-social {
     iframe {
       margin-right: 0.5rem;

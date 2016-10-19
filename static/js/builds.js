@@ -36,8 +36,12 @@ export function buildFetcher() {
         type = ".rpm (64bit)";
       } else if (file.key.indexOf('.deb') !== -1)  {
         type = ".deb (64bit)";
-      } else {
+      } else if (file.key.indexOf('.linux-') !== -1) {
         type = "Linux (64bit) tar.gz";
+      } else if (file.key.indexOf('.windows-') !== -1) {
+        type = "Windows (64bit) .zip";
+      } else {
+        type = "Unknown build";
       }
 
       var link = '<a href="https://grafanarel.s3.amazonaws.com/' + file.key + '">' + file.key.substring(7) + '</a>';

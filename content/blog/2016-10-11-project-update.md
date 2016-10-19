@@ -1,11 +1,18 @@
 +++
 title = "Project Update & GrafanaCon"
 author = "Torkel Ödegaard"
+<<<<<<< HEAD:content/blog/2016-10-11-project-update.md
 date = "2016-10-11"
 aliases = ["blog/2016/10/15/project-update--grafanacon"]
+||||||| merged common ancestors
+date = "2016-10-15"
+=======
+date = "2016-10-11"
+>>>>>>> master:content/blog/2016-10-11-project-update.md
 keywords = ["Grafana", "Blog", "GrafanaCon", "Update"]
 cover_image = "/assets/img/blog/project_update/grafanacon_blog.png"
 nav_opacity = "0.9"
+aliases = ["blog/2016/10/15/project-update--grafanacon/"]
 description = "Project update blog post covering Grafana v4 progress update, GrafanaCon, new screencasts, new plugins, new dashboards."
 +++
 
