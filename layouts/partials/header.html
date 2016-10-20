@@ -47,7 +47,12 @@
 
 		{{ if .IsPage }}
 			{{ if eq .Type "docs" }}
-				<link rel="canonical" href="http://docs.grafana.org{{ .RelPermalink }}" />
+				<meta test="{{ .RelPermalink }}">
+
+				{{ if hasPrefix .RelPermalink "/v" }}
+					{{ $pageLink := substr .RelPermalink 5 }}
+					<link rel="canonical" href="http://docs.grafana.org{{ $pageLink }}" />
+				{{ end }}
 			{{ end }}
 		{{ end }}
 
