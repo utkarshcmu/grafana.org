@@ -38,3 +38,5 @@ those options.
 - [InfluxDB](../datasources/influxdb.md)
 - [OpenTSDB](../datasources/opentsdb.md)
 
+- [v3.1](/v3.1)
+
