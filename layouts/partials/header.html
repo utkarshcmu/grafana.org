@@ -44,6 +44,12 @@
 
 		<meta name="Copyright" content="Raintank Inc." />
 
+		{{ if .IsPage }}
+			{{ if eq .Type "docs" }}
+				<link rel="canonical" href="http://docs.grafana.org{{ .RelPermalink }}" />
+			{{ end }}
+		{{ end }}
+
 		<!-- build:js /js/app.bundle.js -->
 		<script src="/js/app.bundle.js" defer></script>
 		<!-- endbuild -->

@@ -7,6 +7,7 @@ module.exports = function(grunt) {
 
   var env = grunt.option('env') || "dev";
   var port = parseInt(grunt.option('port') || "3002");
+  var docsVersion = grunt.option('docVersion') || '';
 
   grunt.initConfig({
     clean: ["dist"],
@@ -170,7 +171,7 @@ module.exports = function(grunt) {
       case 'staging-docs':
         args.push("--buildDrafts=true");
         args.push("--buildFuture=true");
-        args.push("--baseUrl=http://staging-docs.grafana.org");
+        args.push("--baseUrl=http://staging-docs.grafana.org/" + docVersion);
         break;
     }
 

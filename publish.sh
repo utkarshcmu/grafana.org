@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 
 export AWS_S3_BUCKET=staging.grafana.org
 
@@ -17,9 +16,9 @@ if [ "$env" == "prod" ]; then
   AWS_S3_BUCKET=grafana.org
 fi;
 
+docVersion=""
 if [ "$2" != "" ]; then
-  include="$2"
-  echo "include filter: $include\n"
+  docVersion="$2"
 fi;
 
 echo "Publishing to env:$env  bucket: $AWS_S3_BUCKET\n"
@@ -68,6 +67,10 @@ upload_s3() {
   src=dist/
   dst=s3://$BUCKET
 
+  if [ "$docVersion" != "" ]; then
+    dst="$dst/$docVersion"
+  fi;
+
   # make site rss use blog rss
   cp dist/blog/index.xml dist/index.xml
   # old file name for rss feed
@@ -86,9 +89,9 @@ upload_s3() {
   exclude="--exclude *"
   encoding=''
 
-  aws s3 cp $src $dst --recursive --exclude "*" --include "css/*.css" --include "js/*.js" --include $include --profile $BUCKET --cache-control $cache --acl public-read $encoding
+  aws s3 cp $src $dst --recursive --exclude "bower/*" --profile $BUCKET --cache-control $cache --acl public-read $encoding
 }
 
-setup_s3
+# setup_s3
 grunt build $grunt_param
 upload_s3

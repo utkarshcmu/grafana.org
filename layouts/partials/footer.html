@@ -33,12 +33,15 @@
 	</div>
 </footer>
 
-<!-- at the end of the BODY -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
-<script type="text/javascript"> docsearch({
-  apiKey: '0bd2bd6939038c5ce2c9395732dcf040',
-  indexName: 'grafana',
-  inputSelector: '#docs-search-input',
-  debug: true // Set debug to true if you want to inspect the dropdown
-});
-</script>
+{{ if .IsPage }}
+	{{ if eq .Type "docs" }}
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+		<script type="text/javascript"> docsearch({
+			apiKey: '0bd2bd6939038c5ce2c9395732dcf040',
+			indexName: 'grafana',
+			inputSelector: '#docs-search-input',
+			debug: true // Set debug to true if you want to inspect the dropdown
+		});
+		</script>
+	{{ end }}
+{{ end }}

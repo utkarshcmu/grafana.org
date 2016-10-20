@@ -1,14 +1,7 @@
 +++
 title = "Project Update & GrafanaCon"
 author = "Torkel Ödegaard"
-<<<<<<< HEAD:content/blog/2016-10-11-project-update.md
 date = "2016-10-11"
-aliases = ["blog/2016/10/15/project-update--grafanacon"]
-||||||| merged common ancestors
-date = "2016-10-15"
-=======
-date = "2016-10-11"
->>>>>>> master:content/blog/2016-10-11-project-update.md
 keywords = ["Grafana", "Blog", "GrafanaCon", "Update"]
 cover_image = "/assets/img/blog/project_update/grafanacon_blog.png"
 nav_opacity = "0.9"
@@ -37,8 +30,8 @@ You can already try it out in the [nightly builds](http://grafana.org/builds/).
 
 <a href="http://grafanacon.org" target="_blank"><img src="/assets/img/blog/project_update/grafanacon_blog_list.png" alt="GrafanaCon 2016" title="GrafanaCon 2016"/></a><br /><br />
 Join the Grafana team, along with hundreds of monitoring and data aficionados, for our second annual
-GrafanaCon on <strong>Wednesday, November 30</strong> and <strong>Thursday, December 1, 2016</strong>. This two-day event will feature content
-and speakers from across the Grafana community, led by myself, Torkel Ödegaard, the creator & project lead of Grafana. 
+GrafanaCon on <strong>Wednesday, November 30</strong> and <strong>Thursday, December 1, 2016</strong>. This two-day event will feature content
+and speakers from across the Grafana community, led by myself, Torkel Ödegaard, the creator & project lead of Grafana.
 
 Day 1 will be single track format, several talks & panels of general interest; while day 2 lets you roll up your sleeves in a dual track format for more detailed topics and deeper dives.  There will also be a Plugin Lounge with projects from across the Grafana ecosystem including <strong>Prometheus, Graphite, InfluxDB, worldPing, Intel, Kentik, Voxter</strong> and others.
 
