@@ -7,7 +7,11 @@ module.exports = function(grunt) {
 
   var env = grunt.option('env') || "dev";
   var port = parseInt(grunt.option('port') || "3002");
-  var docsVersion = grunt.option('docVersion') || '';
+  var docsVersion = grunt.option('docsVersion') || 'latest';
+
+  if (docsVersion === 'root') {
+    docsVersion = "/";
+  }
 
   grunt.initConfig({
     clean: ["dist"],
@@ -161,17 +165,26 @@ module.exports = function(grunt) {
         args.push("--buildDrafts=true");
         args.push("--baseUrl=http://staging.grafana.org");
         break;
-      case 'prod':
-        args.push("--baseUrl=http://grafana.org");
       case 'dev-docs':
         args.push("--baseUrl=http://localhost:3004");
+        args.push("--buildDrafts=true");
+        args.push("--buildFuture=true");
+        break;
+      case 'dev-docs-mac':
+        args.push("--baseUrl=http://192.168.99.100:3004");
         args.push("--buildDrafts=true");
         args.push("--buildFuture=true");
         break;
       case 'staging-docs':
         args.push("--buildDrafts=true");
         args.push("--buildFuture=true");
-        args.push("--baseUrl=http://staging-docs.grafana.org/" + docVersion);
+        args.push("--baseUrl=http://staging-docs.grafana.org/" + docsVersion);
+        break;
+      case 'prod':
+        args.push("--baseUrl=http://grafana.org");
+        break;
+      case 'prod-docs':
+        args.push("--baseUrl=http://docs.grafana.org/" + docsVersion);
         break;
     }
 

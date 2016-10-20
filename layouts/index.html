@@ -1,17 +1,10 @@
-
-	{{ range .Data.Pages }}
-
-			{{if eq .Type "index" }}
-				{{ partial "header.html" . }}
-					{{ .Content }}
-				{{ partial "footer.html" . }}
-
-			{{end}}
-
-			{{if eq .Type "docs_root" }}
-				{{ template "docs/single.html" . }}
-			{{end}}
-
-	{{ end }}
-
-
+{{ range .Data.Pages }}
+{{if eq .Type "index" }}
+{{ partial "header.html" . }}
+{{ .Content }}
+{{ partial "footer.html" . }}
+{{end}}
+{{if eq .Type "docs_root" }}
+	{{ template "docs/single.html" . }}
+{{end}}
+{{ end }}

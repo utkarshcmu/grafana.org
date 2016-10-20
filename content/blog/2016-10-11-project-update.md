@@ -105,12 +105,12 @@ Here are some recent additions.
 
 <div class="row">
   <div class="medium-6 columns">
-   {{< lightboxhelper max-width="100%" img="blog/project_update/sun_and_moon.png" caption="Sun and moon" >}}
+   {{< lightboxhelper max-width="100%" img="/assets/img/blog/project_update/sun_and_moon.png" caption="Sun and moon" >}}
    <a href="https://grafana.net/plugins/fetzerch-sunandmoon-datasource?utm_source=Grafana_blog">Sun and Moon</a> is a very cool data source that can show graph or annotations for Sun &amp; Moon position &amp; metrics.
    Useful for correlating metrics from photovoltaic sensors.
   </div>
   <div class="medium-6 columns">
-    {{< lightboxhelper max-width="100%" img="blog/project_update/kentik_connect.png" caption="Sun and moon" >}}
+    {{< lightboxhelper max-width="100%" img="/assets/img/blog/project_update/kentik_connect.png" caption="Sun and moon" >}}
 
     <a href="https://grafana.net/plugins/kentik-app?utm_source=Grafana_blog">Kentik Connect Pro</a>
      allows you to quickly and easily enhance your visibility into your network traffic. Kentik Connect leverages the power of Kentik Detect, which provides real-time, Internet-scale ingest and querying of network data including flow records (NetFlow, IPFIX, sFlow), BGP, GeoIP, and SNMP.
@@ -127,12 +127,12 @@ treasure trove of ready made reusable dashboards for all kinds of collectors and
 
 <div class="row">
   <div class="medium-6 columns">
-   {{< lightboxhelper max-width="100%" img="blog/project_update/docker_dashboard.png" caption="Docker Dashboard" >}}
+   {{< lightboxhelper max-width="100%" img="/assets/img/blog/project_update/docker_dashboard.png" caption="Docker Dashboard" >}}
    <a href="https://grafana.net/dashboards/179?utm_source=Grafana_blog">Docker Dashboard</a> is a simple dashboard to monitor a docker
    container using Prometheus and cAdvisor.
   </div>
   <div class="medium-6 columns">
-    {{< lightboxhelper max-width="100%" img="blog/project_update/kubernetes_stats.png" caption="Kubernetes Container Stats" >}}
+    {{< lightboxhelper max-width="100%" img="/assets/img/blog/project_update/kubernetes_stats.png" caption="Kubernetes Container Stats" >}}
     <a href="https://grafana.net/dashboards/482?utm_source=Grafana_blog">Kubernetes Container Stats</a> provides summary performance and availability metrics of a Kubernetes Node. The data for this dashboard is expected to come from Snap agents running on every Kubernetes Node.
   </div>
 </div>

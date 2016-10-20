@@ -8,7 +8,6 @@ if [ "$1" != "" ]; then
   env="$1"
 fi;
 
-grunt_param="--env=$env"
 
 AWS_S3_BUCKET=$env.grafana.org
 
@@ -16,12 +15,18 @@ if [ "$env" == "prod" ]; then
   AWS_S3_BUCKET=grafana.org
 fi;
 
-docVersion=""
-if [ "$2" != "" ]; then
-  docVersion="$2"
+if [ "$env" == "prod-docs" ]; then
+  AWS_S3_BUCKET=docs.grafana.org
 fi;
 
-echo "Publishing to env:$env  bucket: $AWS_S3_BUCKET\n"
+docsVersion=""
+if [ "$2" != "" ]; then
+  docsVersion="$2"
+fi;
+
+grunt_param="--env=$env --docsVersion=$docsVersion"
+
+echo "Publishing to env:$env  bucket: $AWS_S3_BUCKET docsVersion: $docsVersion\n"
 
 export BUCKET=$AWS_S3_BUCKET
 
@@ -32,19 +37,6 @@ export AWS_CONFIG_FILE=$(pwd)/awsconfig
 export AWS_DEFAULT_PROFILE=$BUCKET
 
 echo "cfg file: $AWS_CONFIG_FILE ; profile: $AWS_DEFAULT_PROFILE"
-
-gzip_all() {
-  rm -Rf dist_gzip/
-  rsync -a --progress dist/ dist_gzip/
-  gzip -9fr dist_gzip/
-  FILES=`find dist_gzip`
-  for FILE in $FILES; do
-    NEW_FILE=${FILE/.gz/}
-    if [ "${FILE}" != "${NEW_FILE}" ]; then
-      mv ${FILE} ${NEW_FILE}
-    fi;
-  done;
-}
 
 setup_s3() {
   echo "Create $BUCKET"
@@ -67,8 +59,8 @@ upload_s3() {
   src=dist/
   dst=s3://$BUCKET
 
-  if [ "$docVersion" != "" ]; then
-    dst="$dst/$docVersion"
+  if [ "$docsVersion" != "" ]; then
+    dst="$dst/$docsVersion"
   fi;
 
   # make site rss use blog rss

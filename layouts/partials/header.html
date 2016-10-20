@@ -10,6 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 		<link rel="shortcut icon" href="/assets/img/fav32.png" type="image/x-icon">
+		<base href="{{ .Site.BaseURL }}">
 
 		<meta name="application-name" content="Grafana" />
 
@@ -35,8 +36,8 @@
 			<link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="Grafana Blog" />
 		{{ end }}
 
-		<!-- build:css /css/styles.js -->
-		<link href="/css/styles.css" rel="stylesheet">
+		<!-- build:css css/styles.js -->
+		<link href="css/styles.css" rel="stylesheet">
 		<!-- endbuild -->
 
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
@@ -50,8 +51,8 @@
 			{{ end }}
 		{{ end }}
 
-		<!-- build:js /js/app.bundle.js -->
-		<script src="/js/app.bundle.js" defer></script>
+		<!-- build:js js/app.bundle.js -->
+		<script src="js/app.bundle.js" defer></script>
 		<!-- endbuild -->
 
 		<script>
