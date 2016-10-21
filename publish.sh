@@ -56,12 +56,13 @@ setup_s3() {
 }
 
 upload_s3() {
-  src=dist/
-  dst=s3://$BUCKET
 
-  if [ "$docsVersion" != "" ]; then
-    dst="$dst/$docsVersion"
+  if [ "$docsVersion" == "root" ]; then
+    docsVersion=""
   fi;
+
+  src=dist/
+  dst=s3://$BUCKET/$docsVersion
 
   # make site rss use blog rss
   cp dist/blog/index.xml dist/index.xml
