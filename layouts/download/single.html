@@ -139,10 +139,10 @@ sudo systemctl start grafana-server</code></pre>
 							grafana-{{ .Params.grafana_build }}.linux-x64.tar.gz
 						</a>
 					</div>
-					{{ if isset .Params "grafana_rpm_sha" }}
+					{{ if isset .Params "grafana_linux_tar_sha" }}
 						<div class="download-platform-tip-sha">
 							<label>SHA1:</label>
-							<span>{{ .Params.grafana_rpm_sha }}</span>
+							<span>{{ .Params.grafana_linux_tar_sha }}</span>
 						</div>
 					{{ end }}
 
