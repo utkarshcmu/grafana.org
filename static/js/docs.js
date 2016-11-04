@@ -10,9 +10,4 @@ export function bootDocs() {
     }
   }
 
-  console.log('asd');
-  $('.docs-toc a').each(function() {
-    this.href = window.location.pathname + this.href;
-  });
-
 }

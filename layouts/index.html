@@ -3,7 +3,7 @@
 {{ .Content }}
 {{ partial "footer.html" . }}
 {{ end }}
-{{ range where .Data.Pages "Section" "docs_index" }}
+{{ range where .Data.Pages "Title" "Grafana Documentation Site" }}
 	{{ template "docs/single.html" . }}
 {{end}}
 
