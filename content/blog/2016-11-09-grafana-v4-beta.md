@@ -50,10 +50,19 @@ be added your alert rules. If you have configured an external image store in the
 (s3 and webdav options available) you can get very rich notifications with an image of the graph and the metric
 values all included in the notification.
 
-
 ### Annotations
 
+Alert state changes are recorded in a new annotation store that is built into Grafana. This store
+currently only supports storing annotations in Grafana's own internal database (mysql, postgres or sqlite).
+The Grafana annotation storage is currently only used for alert state changes but we hope to add the ability for users
+to add graph comments in the form of annotations directly from within Grafana in a future release.
+
 ### Alert List Panel
+
+{{< imgbox max-width="40%" img="/img/docs/v4/alert_list_panel.png" caption="Alert List Panel" >}}
+
+This new panel allows you to show alert rules or a history of alert rule state changes. You can filter based on states your
+interested in. Very useful panel for overview style dashboards.
 
 ## Ad-hoc filter variable
 
