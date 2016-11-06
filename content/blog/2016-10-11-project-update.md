@@ -11,7 +11,7 @@ description = "Project update blog post covering Grafana v4 progress update, Gra
 
 ## Grafana v4 Update
 
-{{< imgbox max-width="40%" img="blog/project_update/alert_graph.png" caption="Alerting graph" >}}
+{{< imgbox max-width="40%" img="/assets/img/blog/project_update/alert_graph.png" caption="Alerting graph" >}}
 
 I know many are awaiting the next Grafana release, which will include the long anticipated alerting
 feature along with many other improvements. Besides data visualization, we hope alerting will be a
