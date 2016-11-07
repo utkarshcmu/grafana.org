@@ -15,13 +15,19 @@ is is a core new feature: Alerting! Read on below for a detailed description of 
 
 ## Alerting
 
-{{< imgbox max-width="40%" img="/img/docs/v4/alerting.png" caption="Alerting overview" >}}
+{{< imgbox max-width="40%" img="/img/docs/v4/drag_handles_gif.gif" caption="Alerting overview" >}}
 
-Alerting in Grafana allows you to attach rules to your graph panels and have grafana-sever continually
-evaluate those rules. When the conditions in an alert rule is evaluated to true it will switch
-state to `Alerting` and the configured notifications will triggered. When ever an alert
-changes state an annotation event will be stored in Grafana's internal database
-which is used to visualize alert history in the graph.
+Alerting is a really revolutionary feature for Grafana. It transforms Grafana from a
+visualization tool into a truly mission critical monitoring tool. The alert rules are very easy to
+configure using your existing graph panels and threshold levels can be set simply by dragging handles to
+the right side of the graph. The rules will continually be evaluated by grafana-server and
+notifications will be sent out when the rule conditions are met.
+
+This feature has been worked on for over a year with many iterations and rewrites
+just to make sure the foundations are really solid. We are really proud to finally release it!
+Since the alerting execution is processed in the backend all data source plugins are not supported,
+right now Graphite, Prometheus, InfluxDB and OpenTSDB are supported. Elasticsearch is being worked
+on but will be not ready for v4 release.
 
 <div class="clearfix"></div>
 
@@ -29,9 +35,9 @@ which is used to visualize alert history in the graph.
 
 {{< imgbox max-width="40%" img="/img/docs/v4/alerting_conditions.png" caption="Alerting Conditions" >}}
 
-And alert rule is added to graph panel and allows you to specify a name for the rule, how frequently
-it should be evaluated and a series of conditions that all need to be true for the alert rule
-to fire.
+An alert rule can be added to a graph panel. The rule config allows you to specify a name,
+how often the rule should be evaluated and a series of conditions that all need to be true for
+the alert to fire.
 
 Currently the only condition type that exists is a `Query` condition that allows you to
 specify a query letter, time range and an aggregation function. The letter refers to
@@ -46,9 +52,10 @@ of another alert in your conditions, and `Time Of Day`.
 {{< imgbox max-width="40%" img="/img/docs/v4/slack_notification.png" caption="Alerting Slack Notification" >}}
 
 Alerting would not be very useful if there was no way to send notifications when rules trigger and change state. You
-can setup notifications of different types, like `Slack`, `Email`, `Webhook`. The notifications can then
-be added your alert rules. If you have configured an external image store in the grafana.ini config file
-(s3 and webdav options available) you can get very rich notifications with an image of the graph and the metric
+can setup notifications of different types. We currently have `Slack`, `Email`, `Webhook` with more in the
+pipe that will be added during beta period. The notifications can then be added to your alert rules.
+If you have configured an external image store in the grafana.ini config file (s3 and webdav options available)
+you can get very rich notifications with an image of the graph and the metric
 values all included in the notification.
 
 ### Annotations
@@ -108,7 +115,7 @@ We always try to bring some UX/UI refinements & polish in every release.
   <div class="medium-6 columns">
    {{< lightboxhelper max-width="100%" img="/img/docs/v4/tvmode.png" caption="TV mode" >}}
    <video width="320" height="240" controls>
-    <source src="/videos/tvmode.mp4" type="video/mp4">
+    <source src="/assets/videos/tvmode.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
   </div>
