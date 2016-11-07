@@ -11,7 +11,7 @@ draft = true
 
 Grafana v4.0 Beta is now [available for download](http://localhost:3002/download/4_0_0/). As usual
 this release contains a ton of minor new features, fixes and improved UX. But on top of the usual new goodies
-is is a core new feature: Alerting! Read on below for a detailed description of what's new in Grafana v4!
+is a core new feature: Alerting! Read on below for a detailed description of what's new in Grafana v4!
 
 ## Alerting
 
@@ -134,7 +134,7 @@ to hover over the small green icon and the click it to expand the row menu.
 
 There is some minor improvements to drag and drop behaviour. Now when dragging a panel from one row
 to another you will insert the panel and Grafana will automatically make room for it.
-When you drag a panel within a row you will simple reorder the panels.
+When you drag a panel within a row you will simply reorder the panels.
 
 If you look at the animation to the right you can see that you can drag and drop a new panel. This is not
 required, you can also just click the panel type and it will be inserted at the end of the row
