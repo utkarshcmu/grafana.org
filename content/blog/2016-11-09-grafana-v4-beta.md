@@ -25,8 +25,8 @@ notifications will be sent out when the rule conditions are met.
 
 This feature has been worked on for over a year with many iterations and rewrites
 just to make sure the foundations are really solid. We are really proud to finally release it!
-Since the alerting execution is processed in the backend all data source plugins are not supported,
-right now Graphite, Prometheus, InfluxDB and OpenTSDB are supported. Elasticsearch is being worked
+Since the alerting execution is processed in the backend all data source plugins are not supported.
+Right now Graphite, Prometheus, InfluxDB and OpenTSDB are supported. Elasticsearch is being worked
 on but will be not ready for v4 release.
 
 <div class="clearfix"></div>
@@ -35,9 +35,8 @@ on but will be not ready for v4 release.
 
 {{< imgbox max-width="40%" img="/img/docs/v4/alerting_conditions.png" caption="Alerting Conditions" >}}
 
-An alert rule can be added to a graph panel. The rule config allows you to specify a name,
-how often the rule should be evaluated and a series of conditions that all need to be true for
-the alert to fire.
+The rule config allows you to specify a name, how often the rule should be evaluated and a series
+of conditions that all need to be true for the alert to fire.
 
 Currently the only condition type that exists is a `Query` condition that allows you to
 specify a query letter, time range and an aggregation function. The letter refers to
@@ -52,7 +51,7 @@ of another alert in your conditions, and `Time Of Day`.
 {{< imgbox max-width="40%" img="/img/docs/v4/slack_notification.png" caption="Alerting Slack Notification" >}}
 
 Alerting would not be very useful if there was no way to send notifications when rules trigger and change state. You
-can setup notifications of different types. We currently have `Slack`, `Email`, `Webhook` with more in the
+can setup notifications of different types. We currently have `Slack`, `Email` and `Webhook` with more in the
 pipe that will be added during beta period. The notifications can then be added to your alert rules.
 If you have configured an external image store in the grafana.ini config file (s3 and webdav options available)
 you can get very rich notifications with an image of the graph and the metric
@@ -166,7 +165,11 @@ Some nice navigation shortcuts are:
 There are no breaking changes. Old dashboards and features should work the same. Grafana-server will automatically upgrade it's db
 schema on restart. It's advisable to do a backup of Grafana's database before updating.
 
-If your are using plugins make sure to update your plugins.
+If your are using plugins make sure to update your plugins as some might not work perfectly v4.
+
+You can update plugins using grafana-cli
+
+    grafana-cli plugins update-all
 
 ## Changelog
 
