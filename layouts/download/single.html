@@ -12,7 +12,17 @@
 </div>
 
 <div class="page-content row">
-	<br>
+	{{ if not (hasPrefix .Params.grafana_version "4.0") }}
+	<div class="text-center">
+		<div class="beta-notice">
+			<h3>
+				Grafana <a href="/download/4_0_0/">v4.0 Beta is now available!</a> <br>
+			</h3>
+			Alerting, ad-hoc filters and more! <br> <a href="http://docs.grafana.org/guides/whats-new-in-v4/">What's New in Grafana v4.0</a>
+		</div>
+	</div>
+	{{ end }}
+
 	<div class="large-12 columns">
 		<div class="download-row">
 			<aside class="download-row-aside">
@@ -58,7 +68,7 @@
 					<a class="download-link" data-download-link="tar.gz" href="https://grafanarel.s3.amazonaws.com/builds/grafana-{{ .Params.grafana_build }}.linux-x64.tar.gz">
 						<strong>.tar.gz </strong> <span class="text-muted">(Linux 64bit)</span>
 					</a>
-					<a class="download-link" data-download-link="zip" href="https://grafanarel.s3.amazonaws.com/winbuilds/dist/grafana-{{ .Params.grafana_version }}.windows-x64.zip">
+					<a class="download-link" data-download-link="zip" href="https://grafanarel.s3.amazonaws.com/builds/grafana-{{ .Params.grafana_version }}.windows-x64.zip">
 						<strong>.zip</strong> <span class="text-muted">(Windows 64bit)</span>
 					</a>
 					<a class="download-link" data-download-link="mac" href="#mac">
@@ -116,7 +126,7 @@ sudo systemctl start grafana-server</code></pre>
 				<div class="download-plaform-tip" data-type="zip">
 					<div class="download-platform-tip-link">
 						<label>File:</label>
-						<a href="https://grafanarel.s3.amazonaws.com/winbuilds/dist/grafana-{{ .Params.grafana_version }}.windows-x64.zip">
+						<a href="https://grafanarel.s3.amazonaws.com/builds/grafana-{{ .Params.grafana_version }}.windows-x64.zip">
 							grafana-{{ .Params.grafana_version }}.windows-x64.zip
 						</a>
 					</div>

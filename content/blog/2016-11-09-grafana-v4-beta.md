@@ -4,12 +4,11 @@ author = "Torkel Ödegaard"
 date = "2016-11-09"
 keywords = ["Grafana", "Blog", "v4.0", "Beta"]
 description = "Grafana 4.0 Beta Release Highlights"
-draft = true
 +++
 
 ## Grafana v4 Beta available
 
-Grafana v4.0 Beta is now [available for download](http://localhost:3002/download/4_0_0/). As usual
+Grafana v4.0 Beta is now [available for download](/download/4_0_0/). As usual
 this release contains a ton of minor new features, fixes and improved UX. But on top of the usual new goodies
 is a core new feature: Alerting! Read on below for a detailed description of what's new in Grafana v4!
 
@@ -183,6 +182,11 @@ Head to [v4 download page](http://localhost:3002/download/4_0_0/) for download l
 
 Big thanks to all the Grafana users and devs out there who have helped with bug reports, feature
 requests and pull requests!
+
+## GrafanaCon
+
+I will be presenting on everything new in v4.0 at this year's [GrafanaCon](http://grafanacon.org).
+Early bird tickets are sold out but there are still tickets available!
 
 Until next time, keep on graphing!<br>
 Torkel Ödegaard

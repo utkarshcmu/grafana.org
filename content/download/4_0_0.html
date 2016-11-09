@@ -4,6 +4,52 @@ description = "Grafana v4.0.0 beta1 download"
 body_class = "download-page"
 date = "2016-11-09"
 grafana_version = "4.0.0-beta1"
-grafana_build = "4.0.0-beta1"
+grafana_build = "4.0.0-1478693311beta1"
+grafana_deb_sha = "c7db8d16a002ec0f964e4376d79ecd59733a2d6a"
+grafana_win_sha = "7cbddd2e9230f45945eee5da2b4d5562ad7cbc3d"
+grafana_rpm_sha = "bc0f0eeadbff813a81edfe0952acf985a2f6fc74"
+grafana_linux_tar_sha = "a5d11bf87b2040712cae2f16493c0e5b3ac276da"
 +++
+
+{{< releasetabs >}}
+
+<div class="tabs-content markdown">
+	<section role="tabpanel" aria-hidden="false" class="content active" id="panel1">
+			Grafana 4.0 Highlights
+		</h3>
+
+		<div class="download-highlights-header-details">
+			For full details check out <a href="http://docs.grafana.org/guides/whats-new-in-v4/">What's New In Grafana 4.0</a> article.
+		</div>
+
+		<ul>
+			<li><strong>Alerting</strong> Read <a href="http://docs.grafana.org/alerting/rules/">Alerting Engine & Rules Guide</a> for more info.</li>
+			<li><strong>Ad-hoc-filters</strong> Create ad-hoc key value filters that automatically get's applied to all queries.</li>
+			<li><strong>TV-Mode</strong> Grafana will automatically switch to clean TV-mode after user in activity.
+			<li><strong>Keyboard Shortcuts</strong> Powerful new <a href="http://docs.grafana.org/features/shortcuts/">shortcuts</a> make navigation and dashboard editing a breeze.</li>
+			<li><strong>UX improvements</strong> Improved row &amp; controls &amp; UX.
+			<li><a href="https://github.com/grafana/grafana/blob/master/CHANGELOG.md">Full changelog</a></li>
+		</ul>
+	</section>
+
+	<section role="tabpanel" aria-hidden="true" class="content" id="panel2">
+		<ul>
+			<li><strong>Table Panel</strong>: Fixed problem when switching to Mixed datasource in metrics tab, fixes <a href="https://github.com/grafana/grafana/pull/5999">#5999</a></li>
+			<li><strong>Playlist</strong>: Fixed problem with play order not matching order defined in playlist, fixes <a href="https://github.com/grafana/grafana/pull/5467">#5467</a></li>
+			<li><strong>Graph panel</strong>: Fixed problem with auto decimals on y axis when datamin=datamax, fixes <a href="https://github.com/grafana/grafana/pull/6070">#6070</a></li>
+			<li><strong>Snapshot</strong>: Can view embedded panels/png rendered panels in snapshots without login, fixes <a href="https://github.com/grafana/grafana/pull/3769">#3769</a></li>
+			<li><strong>Elasticsearch</strong>: Fix for query template variable when looking up terms without query, no longer relies on elasticsearch default field, fixes <a href="https://github.com/grafana/grafana/pull/3887">#3887</a></li>
+			<li><strong>Elasticsearch</strong>: Fix for displaying IP address used in terms aggregations, fixes <a href="https://github.com/grafana/grafana/pull/4393">#4393</a></li>
+			<li><strong>PNG Rendering</strong>: Fix for server side rendering when using auth proxy, fixes <a href="https://github.com/grafana/grafana/pull/5906">#5906</a></li>
+			<li><strong>OpenTSDB</strong>: Fixed multi-value nested templating for opentsdb, fixes <a href="https://github.com/grafana/grafana/pull/6455">#6455</a></li>
+			<li><strong>Playlist</strong>: Remove playlist items when dashboard is removed, fixes <a href="https://github.com/grafana/grafana/issues/6292">#6292</a></li>
+		</ul>
+	</section>
+
+	<section role="tabpanel" aria-hidden="true" class="content" id="panel3">
+		<div class="download-highlights-header-details">
+			No major breaking change, all dashboards and graphs should look / work the same.
+		</div>
+	</section>
+</div>
 

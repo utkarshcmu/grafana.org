@@ -82,7 +82,7 @@ upload_s3() {
   exclude="--exclude *"
   encoding=''
 
-  aws s3 cp $src $dst --recursive --exclude "bower/*" --profile $BUCKET --cache-control $cache --acl public-read $encoding
+  aws s3 cp $src $dst --recursive --exclude "bower/*" --exclude "videos" --profile $BUCKET --cache-control $cache --acl public-read $encoding
 }
 
 # setup_s3

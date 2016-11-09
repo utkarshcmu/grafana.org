@@ -105,6 +105,10 @@ section.main {
   line-height: 1.2;
 }
 
+code {
+  white-space: nowrap;
+}
+
 pre,
 pre[class*="language-"] {
   background-color: #f4f4f4;
@@ -112,6 +116,10 @@ pre[class*="language-"] {
   border-radius: 4px;
   padding: 0.5rem;
   font-size: 90%;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
 
   code {
     padding: 0;
@@ -119,15 +127,13 @@ pre[class*="language-"] {
     background-color: transparent;
     color: #333;
     font-weight: 100;
+    white-space: pre;
+    white-space: pre-wrap;
   }
 }
 
 .code {
   border-radius: 2px;
-}
-
-code {
-  white-space: nowrap;
 }
 
 .padding-top-medium {
@@ -161,4 +167,13 @@ code {
 //   }
 // }
 
-
+.beta-notice {
+  display: inline-block;
+  width: 550px;
+  padding: 15px;
+  border-radius: 0 0 50px 50px;
+  background: #f1f1f1;
+  margin-bottom: -15px;
+  position: relative;
+  top: -47px;
+}
