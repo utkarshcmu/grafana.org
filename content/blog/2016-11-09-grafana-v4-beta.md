@@ -178,7 +178,7 @@ of new features, changes, and bug fixes.
 
 ## Download
 
-Head to [v4 download page](http://localhost:3002/download/4_0_0/) for download links & instructions.
+Head to [v4 download page](/download/4_0_0/) for download links & instructions.
 
 Big thanks to all the Grafana users and devs out there who have helped with bug reports, feature
 requests and pull requests!
