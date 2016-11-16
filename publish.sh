@@ -1,5 +1,4 @@
-
-export AWS_S3_BUCKET=staging.grafana.org
+#!/bin/bash
 
 env="staging"
 include=""
