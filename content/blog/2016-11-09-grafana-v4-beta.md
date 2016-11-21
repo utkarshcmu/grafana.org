@@ -27,7 +27,7 @@ This feature has been worked on for over a year with many iterations and rewrite
 just to make sure the foundations are really solid. We are really proud to finally release it!
 Since the alerting execution is processed in the backend all data source plugins are not supported.
 Right now Graphite, Prometheus, InfluxDB and OpenTSDB are supported. Elasticsearch is being worked
-on but will be not ready for v4 release.
+on but will not ready for v4 release.
 
 <div class="clearfix"></div>
 
