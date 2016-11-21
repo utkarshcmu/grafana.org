@@ -15,7 +15,7 @@ Grafana 3.0 introduces a new plugin system architecture and these plugins can b
 - If you just want a clock panel for Grafana then the [finished Clock Panel plugin is here](https://grafana.net/plugins/grafana-clock-panel).
 - Check out the current version of the [code on GitHub here](https://github.com/grafana/clock-panel).
 
-![](blog/clock_panel_screenshot.png)
+![](/assets/img/blog/clock_panel_screenshot.png)
 
 ## Introduction
 
@@ -241,11 +241,11 @@ And that's [the first commit](https://github.com/grafana/clock-panel/commit/6a9d
 
 Run grunt to get everything compiled and copied over to the dist folder. Then refresh Grafana and try to add a new panel. The new Clock Panel should be available in the list.
 
-![](blog/clock_panel_add.png)
+![](/assets/img/blog/clock_panel_add.png)
 
 But we're not finished yet. It looks very plain and off center at the moment. We need to style it.
 
-![](blog/clock_panel_unstyled.png)
+![](/assets/img/blog/clock_panel_unstyled.png)
 
 ## 4. Style the plugin
 
@@ -268,7 +268,7 @@ style="height: {{ctrl.height}}px;"
 
 Now the first version of the clock panel plugin is finished and preparations made to take it further. [Check out the code on GitHub](https://github.com/grafana/clock-panel) if you want to contribute or make your own plugin.
 
-![](blog/clock_panel_styled.png)
+![](/assets/img/blog/clock_panel_styled.png)
 
 ## 5. Publish the plugin
 
@@ -280,7 +280,7 @@ grafana-cli plugins install grafana-clock-panel
 
 To publish a plugin, create an account on Grafana.net and then talk to the Grafana developers on Slack who will help you with the last step. [Instructions for publishing can be found on Grafana.net.](https://grafana.net/getting-started)
 
-In the [next post](http://grafana.org/blog/2016/04/15/clock-plugin-p2.html), we will look at how to make the clock customizable. I want to be able to choose date and time format, 12/24 hour clock, customizable colors, font sizes and more. It should be easy to make it do countdowns too.
+In the [next post](http://grafana.org//assets/img/blog/2016/04/15/clock-plugin-p2.html), we will look at how to make the clock customizable. I want to be able to choose date and time format, 12/24 hour clock, customizable colors, font sizes and more. It should be easy to make it do countdowns too.
 
 
 ### References:
