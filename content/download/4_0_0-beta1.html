@@ -1,14 +1,14 @@
 +++
-title       = "Download v4.0.0-beta2"
-description = "Grafana v4.0.0 beta2 download"
+title       = "Download v4.0.0-beta1"
+description = "Grafana v4.0.0 beta1 download"
 body_class = "download-page"
-date = "2016-11-21"
-grafana_version = "4.0.0-beta2"
-grafana_build = "4.0.0-1479719016beta2"
-grafana_deb_sha = "01c7cb0cb8b858b1f1c65d1580acf91defaf20da"
-grafana_win_sha = "60d2a48e6640bb3a034d1f739406d1d80aea0ae4"
-grafana_rpm_sha = "58e324e16ba24325d1409159b2312b6e09401d1c"
-grafana_linux_tar_sha = "161b4a195101b6051e81839034d9f6fa2bc85ed6"
+date = "2016-11-09"
+grafana_version = "4.0.0-beta1"
+grafana_build = "4.0.0-1478693311beta1"
+grafana_deb_sha = "c7db8d16a002ec0f964e4376d79ecd59733a2d6a"
+grafana_win_sha = "7cbddd2e9230f45945eee5da2b4d5562ad7cbc3d"
+grafana_rpm_sha = "bc0f0eeadbff813a81edfe0952acf985a2f6fc74"
+grafana_linux_tar_sha = "a5d11bf87b2040712cae2f16493c0e5b3ac276da"
 +++
 
 {{< releasetabs >}}
@@ -33,16 +33,6 @@ grafana_linux_tar_sha = "161b4a195101b6051e81839034d9f6fa2bc85ed6"
 	</section>
 
 	<section role="tabpanel" aria-hidden="true" class="content" id="panel2">
-		Bug fixes in beta2
-			<ul>
-				<li><strong>Graph Panel</strong>: Log base scale on right Y-axis had no effect, max value calc was not applied, <a href="https://github.com/grafana/grafana/issues/6534)">#6534</a></li>
-				<li><strong>Graph Panel</strong>: Bar width if bars was only used in series override, <a href="https://github.com/grafana/grafana/issues/6528)">#6528</a></li>
-				<li><strong>UI/Browser</strong>: Fixed issue with page/view header gradient border not showing in Safari, <a href="https://github.com/grafana/grafana/issues/6530)">#6530</a></li>
-				<li><strong>Cloudwatch</strong>: Fixed cloudwatch datasource requesting to many datapoints, <a href="https://github.com/grafana/grafana/issues/6544)">#6544</a></li>
-				<li><strong>UX</strong>: Panel Drop zone visible after duplicating panel, and when entering fullscreen/edit view, <a href="https://github.com/grafana/grafana/issues/6598)">#6598</a></li>
-				<li><strong>Templating</strong>: Newly added variable was not visible directly only after dashboard reload, <a href="https://github.com/grafana/grafana/issues/6622)">#6622</a></li>	
-			</ul>
-		Bug fixes since 3.1.1 to 4.0.0
 		<ul>
 			<li><strong>Table Panel</strong>: Fixed problem when switching to Mixed datasource in metrics tab, fixes <a href="https://github.com/grafana/grafana/pull/5999">#5999</a></li>
 			<li><strong>Playlist</strong>: Fixed problem with play order not matching order defined in playlist, fixes <a href="https://github.com/grafana/grafana/pull/5467">#5467</a></li>
