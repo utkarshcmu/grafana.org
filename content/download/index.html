@@ -2,42 +2,70 @@
 title       = "Download"
 description = "Grafana downloads and release details"
 body_class = "download-page"
-date = "2016-08-01"
-grafana_version = "3.1.1"
-grafana_build = "3.1.1-1470047149"
-grafana_deb_sha = "dcdb1461a8fa58c66819aebd35c3912ea40cc845"
-grafana_win_sha = "325d7ad546b9a1b24d836a048a0350b9a5959a1e"
-grafana_rpm_sha = "5989ad695554c5bc924c2284bc035feb379e1e8c"
-grafana_linux_tar_sha = "c281f6612ba93cd3233f70e45823adc7801d8cc1"
+date = "2016-11-29"
+grafana_version = "4.0.0"
+grafana_build = "4.0.0-1480439068"
+grafana_deb_sha = "63612f1c5adfc762a93118d70920eb28e2affc88"
+grafana_win_sha = "41ce1ba12af688e07b583adc03acbec06acabd2d"
+grafana_rpm_sha = "2f4650ba9bd643478aaf00ba940042c6c9b6027b"
+grafana_linux_tar_sha = "1eec915c5d2e199f6704b15c4a2f5610bc1cb425"
 +++
 
 {{< releasetabs >}}
 
 <div class="tabs-content markdown">
-	<section role="tabpanel" aria-hidden="false" class="content active" id="panel1">
+		<section role="tabpanel" aria-hidden="false" class="content active" id="panel1">
 		<h3>
-			Grafana 3.1 Highlights
+			Grafana 4.0 Highlights
 		</h3>
 
 		<div class="download-highlights-header-details">
-			For full details check out <a href="http://grafana.org/blog/2016/07/12/grafana-3-1-released.html">Grafana 3.1 Released</a> blog post.
+			For full details check out <a href="http://docs.grafana.org/guides/whats-new-in-v4/">What's New In Grafana 4.0</a> article.
 		</div>
 
 		<ul>
-			<li><strong>Dashboard Repository</strong> at <a href="https://grafana.net">Grafana.net</a>. You can now discover and upload dashboards.</li>
-			<li><strong>Dashboard</strong> time range and variables values are now always synced with URL.</li>
-			<li><strong>Constant Template Variable</strong> have been added to make dashboard sharing easier (use as metric prefix).</li>
-			<li><strong>Singlestat</strong> can now map ranges to text.</li>
-			<li><strong>Metrics</strong> Grafana now supports sending metrics about itself.</li>
+			<li><strong>Alerting</strong> Read <a href="http://docs.grafana.org/alerting/rules/">Alerting Engine & Rules Guide</a> for more info.</li>
+			<li><strong>Ad-hoc-filters</strong> Create ad-hoc key value filters that automatically get's applied to all queries.</li>
+			<li><strong>TV-Mode</strong> Grafana will automatically switch to clean TV-mode after user in activity.
+			<li><strong>Keyboard Shortcuts</strong> Powerful new <a href="http://docs.grafana.org/features/shortcuts/">shortcuts</a> make navigation and dashboard editing a breeze.</li>
+			<li><strong>UX improvements</strong> Improved row &amp; controls &amp; UX.
 			<li><a href="https://github.com/grafana/grafana/blob/master/CHANGELOG.md">Full changelog</a></li>
 		</ul>
 	</section>
 
 	<section role="tabpanel" aria-hidden="true" class="content" id="panel2">
+		Bug fixes since beta2 to stable
 		<ul>
-			<li><strong>Graphite PNG</strong> Graphite PNG support dropped from Graph panel (use Grafana native PNG instead).</li>
-			<li><strong>Logging</strong> Log ouput format have been changed to improve log filtering.</li>
-			<li><strong>Migration</strong> No longer possible to migrate dashboards from 1.x (Stored in ES or Influx 0.8).</li>
+			<li><strong>Server-side rendering</strong>: Fixed address used when rendering panel via phantomjs and using non default http_addr config <a href="https://github.com/grafana/grafana/issues/6660">#6660</a></li>
+			<li><strong>Graph panel</strong>: Fixed graph panel tooltip sort order issue <a href="https://github.com/grafana/grafana/issues/6648">#6648</a></li>
+			<li><strong>Unsaved changes</strong>: You now navigate to the intended page after saving in the unsaved changes dialog <a href="https://github.com/grafana/grafana/issues/6675">#6675</a></li>
+			<li><strong>TLS Client Auth</strong>: Support for TLS client authentication for datasource proxies <a href="https://github.com/grafana/grafana/issues/2316">#2316</a></li>
+			<li><strong>Alerts out of sync</strong>: Saving dashboards with broken alerts causes sync problem<a href="https://github.com/grafana/grafana/issues/6576">#6576</a></li>
+			<li><strong>Alerting</strong>: Saving an alert with condition "HAS NO DATA" throws an error<a href="https://github.com/grafana/grafana/issues/6701">#6701</a></li>
+			<li><strong>Config</strong>: Improve error message when parsing broken config file <a href="https://github.com/grafana/grafana/issues/6731">#6731</a></li>
+			<li><strong>Table</strong>: Render empty dates as - instead of current date <a href="https://github.com/grafana/grafana/issues/6728">#6728</a></li>
+		</ul>
+		
+		Bug fixes in beta2
+		<ul>
+			<li><strong>Graph Panel</strong>: Log base scale on right Y-axis had no effect, max value calc was not applied, <a href="https://github.com/grafana/grafana/issues/6534">#6534</a></li>
+			<li><strong>Graph Panel</strong>: Bar width if bars was only used in series override, <a href="https://github.com/grafana/grafana/issues/6528">#6528</a></li>
+			<li><strong>UI/Browser</strong>: Fixed issue with page/view header gradient border not showing in Safari, <a href="https://github.com/grafana/grafana/issues/6530">#6530</a></li>
+			<li><strong>Cloudwatch</strong>: Fixed cloudwatch datasource requesting to many datapoints, <a href="https://github.com/grafana/grafana/issues/6544">#6544</a></li>
+			<li><strong>UX</strong>: Panel Drop zone visible after duplicating panel, and when entering fullscreen/edit view, <a href="https://github.com/grafana/grafana/issues/6598">#6598</a></li>
+			<li><strong>Templating</strong>: Newly added variable was not visible directly only after dashboard reload, <a href="https://github.com/grafana/grafana/issues/6622">#6622</a></li>	
+		</ul>
+		Bug fixes since 3.1.1 to 4.0.0
+		<ul>
+			<li><strong>Table Panel</strong>: Fixed problem when switching to Mixed datasource in metrics tab, fixes <a href="https://github.com/grafana/grafana/pull/5999">#5999</a></li>
+			<li><strong>Playlist</strong>: Fixed problem with play order not matching order defined in playlist, fixes <a href="https://github.com/grafana/grafana/pull/5467">#5467</a></li>
+			<li><strong>Graph panel</strong>: Fixed problem with auto decimals on y axis when datamin=datamax, fixes <a href="https://github.com/grafana/grafana/pull/6070">#6070</a></li>
+			<li><strong>Snapshot</strong>: Can view embedded panels/png rendered panels in snapshots without login, fixes <a href="https://github.com/grafana/grafana/pull/3769">#3769</a></li>
+			<li><strong>Elasticsearch</strong>: Fix for query template variable when looking up terms without query, no longer relies on elasticsearch default field, fixes <a href="https://github.com/grafana/grafana/pull/3887">#3887</a></li>
+			<li><strong>Elasticsearch</strong>: Fix for displaying IP address used in terms aggregations, fixes <a href="https://github.com/grafana/grafana/pull/4393">#4393</a></li>
+			<li><strong>PNG Rendering</strong>: Fix for server side rendering when using auth proxy, fixes <a href="https://github.com/grafana/grafana/pull/5906">#5906</a></li>
+			<li><strong>OpenTSDB</strong>: Fixed multi-value nested templating for opentsdb, fixes <a href="https://github.com/grafana/grafana/pull/6455">#6455</a></li>
+			<li><strong>Playlist</strong>: Remove playlist items when dashboard is removed, fixes <a href="https://github.com/grafana/grafana/issues/6292">#6292</a></li>
 		</ul>
 	</section>
 
@@ -46,17 +74,6 @@ grafana_linux_tar_sha = "c281f6612ba93cd3233f70e45823adc7801d8cc1"
 		<div class="download-highlights-header-details">
 			No major breaking change, all dashboards and graphs should look / work the same.
 		</div>
-
-		<ul>
-			<li><strong>IFrame embedding</strong>: Fixed issue of using full iframe height, fixes <a href="https://github.com/grafana/grafana/issues/5606">#5605</a></li>
-			<li><strong>Panel PNG rendering</strong>: Fixed issue detecting render completion, fixes <a href="https://github.com/grafana/grafana/issues/5606">#5605</a></li>
-			<li><strong>Elasticsearch</strong>: Fixed issue with templating query and json parse error, fixes <a href="https://github.com/grafana/grafana/issues/5615">#5615</a></li>
-			<li><strong>Tech</strong>: Upgraded JQuery to 2.2.4 to fix Security vulnerabilitie in 2.1.4, fixes <a href="https://github.com/grafana/grafana/issues/5627">#5627</a></li>
-			<li><strong>Graphite</strong>: Fixed issue with mixed data sources and Graphite, fixes <a href="https://github.com/grafana/grafana/issues/5617">#5617</a></li>
-			<li><strong>Templating</strong>: Fixed issue with template variable query was issued multiple times during dashboard load, fixes <a href="https://github.com/grafana/grafana/issues/5637">#5637</a></li>
-			<li><strong>Zoom</strong>: Fixed issues with zoom in and out on embedded (iframed) panel, fixes <a href="https://github.com/grafana/grafana/issues/4489">#4489</a>, <a href="https://github.com/grafana/grafana/issues/5666">#5666</a></li>
-			<li><strong>Templating</strong>: Row/Panel repeat issue when saving dashboard caused dupes to appear, fixes <a href="https://github.com/grafana/grafana/issues/5591">#5591</a></li>
-		</ul>
 	</section>
 </div>
 
