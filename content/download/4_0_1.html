@@ -1,6 +1,6 @@
 +++
-title       = "Download"
-description = "Grafana downloads and release details"
+title       = "Download v4.0.0-beta2"
+description = "Grafana v4.0.0 beta2 download"
 body_class = "download-page"
 date = "2016-12-02"
 grafana_version = "4.0.1"
@@ -15,7 +15,6 @@ grafana_linux_tar_sha = "4cc95def87c81a5d2af68bafdde2ee65a825f606"
 
 <div class="tabs-content markdown">
 	<section role="tabpanel" aria-hidden="false" class="content active" id="panel1">
-		<h3>
 			Grafana 4.0 Highlights
 		</h3>
 
@@ -34,27 +33,15 @@ grafana_linux_tar_sha = "4cc95def87c81a5d2af68bafdde2ee65a825f606"
 	</section>
 
 	<section role="tabpanel" aria-hidden="true" class="content" id="panel2">
-		Bug fixes since beta2 to stable
-		<ul>
-			<li><strong>Server-side rendering</strong>: Fixed address used when rendering panel via phantomjs and using non default http_addr config <a href="https://github.com/grafana/grafana/issues/6660">#6660</a></li>
-			<li><strong>Graph panel</strong>: Fixed graph panel tooltip sort order issue <a href="https://github.com/grafana/grafana/issues/6648">#6648</a></li>
-			<li><strong>Unsaved changes</strong>: You now navigate to the intended page after saving in the unsaved changes dialog <a href="https://github.com/grafana/grafana/issues/6675">#6675</a></li>
-			<li><strong>TLS Client Auth</strong>: Support for TLS client authentication for datasource proxies <a href="https://github.com/grafana/grafana/issues/2316">#2316</a></li>
-			<li><strong>Alerts out of sync</strong>: Saving dashboards with broken alerts causes sync problem<a href="https://github.com/grafana/grafana/issues/6576">#6576</a></li>
-			<li><strong>Alerting</strong>: Saving an alert with condition "HAS NO DATA" throws an error<a href="https://github.com/grafana/grafana/issues/6701">#6701</a></li>
-			<li><strong>Config</strong>: Improve error message when parsing broken config file <a href="https://github.com/grafana/grafana/issues/6731">#6731</a></li>
-			<li><strong>Table</strong>: Render empty dates as - instead of current date <a href="https://github.com/grafana/grafana/issues/6728">#6728</a></li>
-		</ul>
-		
 		Bug fixes in beta2
-		<ul>
-			<li><strong>Graph Panel</strong>: Log base scale on right Y-axis had no effect, max value calc was not applied, <a href="https://github.com/grafana/grafana/issues/6534">#6534</a></li>
-			<li><strong>Graph Panel</strong>: Bar width if bars was only used in series override, <a href="https://github.com/grafana/grafana/issues/6528">#6528</a></li>
-			<li><strong>UI/Browser</strong>: Fixed issue with page/view header gradient border not showing in Safari, <a href="https://github.com/grafana/grafana/issues/6530">#6530</a></li>
-			<li><strong>Cloudwatch</strong>: Fixed cloudwatch datasource requesting to many datapoints, <a href="https://github.com/grafana/grafana/issues/6544">#6544</a></li>
-			<li><strong>UX</strong>: Panel Drop zone visible after duplicating panel, and when entering fullscreen/edit view, <a href="https://github.com/grafana/grafana/issues/6598">#6598</a></li>
-			<li><strong>Templating</strong>: Newly added variable was not visible directly only after dashboard reload, <a href="https://github.com/grafana/grafana/issues/6622">#6622</a></li>	
-		</ul>
+			<ul>
+				<li><strong>Graph Panel</strong>: Log base scale on right Y-axis had no effect, max value calc was not applied, <a href="https://github.com/grafana/grafana/issues/6534)">#6534</a></li>
+				<li><strong>Graph Panel</strong>: Bar width if bars was only used in series override, <a href="https://github.com/grafana/grafana/issues/6528)">#6528</a></li>
+				<li><strong>UI/Browser</strong>: Fixed issue with page/view header gradient border not showing in Safari, <a href="https://github.com/grafana/grafana/issues/6530)">#6530</a></li>
+				<li><strong>Cloudwatch</strong>: Fixed cloudwatch datasource requesting to many datapoints, <a href="https://github.com/grafana/grafana/issues/6544)">#6544</a></li>
+				<li><strong>UX</strong>: Panel Drop zone visible after duplicating panel, and when entering fullscreen/edit view, <a href="https://github.com/grafana/grafana/issues/6598)">#6598</a></li>
+				<li><strong>Templating</strong>: Newly added variable was not visible directly only after dashboard reload, <a href="https://github.com/grafana/grafana/issues/6622)">#6622</a></li>	
+			</ul>
 		Bug fixes since 3.1.1 to 4.0.0
 		<ul>
 			<li><strong>Table Panel</strong>: Fixed problem when switching to Mixed datasource in metrics tab, fixes <a href="https://github.com/grafana/grafana/pull/5999">#5999</a></li>
@@ -70,11 +57,9 @@ grafana_linux_tar_sha = "4cc95def87c81a5d2af68bafdde2ee65a825f606"
 	</section>
 
 	<section role="tabpanel" aria-hidden="true" class="content" id="panel3">
-
 		<div class="download-highlights-header-details">
 			No major breaking change, all dashboards and graphs should look / work the same.
 		</div>
 	</section>
 </div>
-
 
