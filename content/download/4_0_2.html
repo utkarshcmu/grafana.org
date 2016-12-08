@@ -1,14 +1,14 @@
 +++
-title       = "Download v4.0.0-beta2"
-description = "Grafana v4.0.0 beta2 download"
+title       = "Download v4.0.2"
+description = "Grafana v4.0.2 download"
 body_class = "download-page"
-date = "2016-11-21"
-grafana_version = "4.0.0-beta2"
-grafana_build = "4.0.0-1479719016beta2"
-grafana_deb_sha = "01c7cb0cb8b858b1f1c65d1580acf91defaf20da"
-grafana_win_sha = "60d2a48e6640bb3a034d1f739406d1d80aea0ae4"
-grafana_rpm_sha = "58e324e16ba24325d1409159b2312b6e09401d1c"
-grafana_linux_tar_sha = "161b4a195101b6051e81839034d9f6fa2bc85ed6"
+date = "2016-12-08"
+grafana_version = "4.0.2"
+grafana_build = "4.0.2-1481203731"
+grafana_deb_sha = "4648facbecd8db7cd9348200fc5f79ea97e12df0"
+grafana_win_sha = "9d47680d9252ffce525dd2df45410325884c09b8"
+grafana_rpm_sha = "be12d3c301a374791c467cc120624fa7813cfd0d"
+grafana_linux_tar_sha = "81274ebb469ef00c7a471c3a9399d8c10cdfe2df"
 +++
 
 {{< releasetabs >}}
@@ -33,6 +33,22 @@ grafana_linux_tar_sha = "161b4a195101b6051e81839034d9f6fa2bc85ed6"
 	</section>
 
 	<section role="tabpanel" aria-hidden="true" class="content" id="panel2">
+		Enhancements in 4.0.2
+		<ul>
+			<li><strong>Playlist</strong> Add support for kiosk mode <a href="https://github.com/grafana/grafana/issues/6727">#6727</a></li>
+		</ul>
+
+		Bug fixes since 4.0.2
+		<ul>
+			<li><strong>Alerting</strong> Add alert message to webhook notifications <a href="https://github.com/grafana/grafana/issues/6807">#6807</a></li>
+			<li><strong>Alerting</strong> Fixes a bug where avg() reducer treated null as zero. <a href="https://github.com/grafana/grafana/issues/6879">#6879</a></li>
+			<li><strong>PNG Rendering</strong> Fix for server side rendering when using non default http addr bind and domain setting <a href="https://github.com/grafana/grafana/issues/6813">#6813</a></li>
+			<li><strong>PNG Rendering</strong> Fix for server side rendering when setting enforce_domain to true <a href="https://github.com/grafana/grafana/issues/6769">#6769</a></li>
+			<li><strong>Webhooks</strong> Add content type json to outgoing webhooks <a href="https://github.com/grafana/grafana/issues/6822">#6822</a></li>
+			<li><strong>Keyboard shortcut</strong> Fixed zoom out shortcut <a href="https://github.com/grafana/grafana/issues/6837">#6837</a></li>
+			<li><strong>Webdav</strong> Adds basic auth headers to webdav uploader <a href="https://github.com/grafana/grafana/issues/6779">#6779</a></li>
+		</ul>
+		
 		Bug fixes since 4.0.1
 		<ul>
 			<li><strong>Data proxy</strong>: Fixes a tcp pooling issue in the datasource reverse proxy <a href="https://github.com/grafana/grafana/issues/6759">#6759</a></li>
@@ -40,14 +56,15 @@ grafana_linux_tar_sha = "161b4a195101b6051e81839034d9f6fa2bc85ed6"
 		</ul>
 
 		Bug fixes in beta2
-			<ul>
-				<li><strong>Graph Panel</strong>: Log base scale on right Y-axis had no effect, max value calc was not applied, <a href="https://github.com/grafana/grafana/issues/6534)">#6534</a></li>
-				<li><strong>Graph Panel</strong>: Bar width if bars was only used in series override, <a href="https://github.com/grafana/grafana/issues/6528)">#6528</a></li>
-				<li><strong>UI/Browser</strong>: Fixed issue with page/view header gradient border not showing in Safari, <a href="https://github.com/grafana/grafana/issues/6530)">#6530</a></li>
-				<li><strong>Cloudwatch</strong>: Fixed cloudwatch datasource requesting to many datapoints, <a href="https://github.com/grafana/grafana/issues/6544)">#6544</a></li>
-				<li><strong>UX</strong>: Panel Drop zone visible after duplicating panel, and when entering fullscreen/edit view, <a href="https://github.com/grafana/grafana/issues/6598)">#6598</a></li>
-				<li><strong>Templating</strong>: Newly added variable was not visible directly only after dashboard reload, <a href="https://github.com/grafana/grafana/issues/6622)">#6622</a></li>
-			</ul>
+		<ul>
+			<li><strong>Graph Panel</strong>: Log base scale on right Y-axis had no effect, max value calc was not applied, <a href="https://github.com/grafana/grafana/issues/6534)">#6534</a></li>
+			<li><strong>Graph Panel</strong>: Bar width if bars was only used in series override, <a href="https://github.com/grafana/grafana/issues/6528)">#6528</a></li>
+			<li><strong>UI/Browser</strong>: Fixed issue with page/view header gradient border not showing in Safari, <a href="https://github.com/grafana/grafana/issues/6530)">#6530</a></li>
+			<li><strong>Cloudwatch</strong>: Fixed cloudwatch datasource requesting to many datapoints, <a href="https://github.com/grafana/grafana/issues/6544)">#6544</a></li>
+			<li><strong>UX</strong>: Panel Drop zone visible after duplicating panel, and when entering fullscreen/edit view, <a href="https://github.com/grafana/grafana/issues/6598)">#6598</a></li>
+			<li><strong>Templating</strong>: Newly added variable was not visible directly only after dashboard reload, <a href="https://github.com/grafana/grafana/issues/6622)">#6622</a></li>
+		</ul>
+
 		Bug fixes since 3.1.1 to 4.0.0
 		<ul>
 			<li><strong>Table Panel</strong>: Fixed problem when switching to Mixed datasource in metrics tab, fixes <a href="https://github.com/grafana/grafana/pull/5999">#5999</a></li>

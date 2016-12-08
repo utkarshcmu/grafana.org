@@ -2,13 +2,13 @@
 title       = "Download"
 description = "Grafana downloads and release details"
 body_class = "download-page"
-date = "2016-12-02"
-grafana_version = "4.0.1"
-grafana_build = "4.0.1-1480694114"
-grafana_deb_sha = "d12daa1e1b5381e02148678a6ad2d6b4c41b9c02"
-grafana_win_sha = "c61dc8788f9e8f7229fb47a23a79ced26338b3b5"
-grafana_rpm_sha = "6dae0c887a4afd2835ed236ab9f95586a6f038f3"
-grafana_linux_tar_sha = "4cc95def87c81a5d2af68bafdde2ee65a825f606"
+date = "2016-12-08"
+grafana_version = "4.0.2"
+grafana_build = "4.0.2-1481203731"
+grafana_deb_sha = "4648facbecd8db7cd9348200fc5f79ea97e12df0"
+grafana_win_sha = "9d47680d9252ffce525dd2df45410325884c09b8"
+grafana_rpm_sha = "be12d3c301a374791c467cc120624fa7813cfd0d"
+grafana_linux_tar_sha = "81274ebb469ef00c7a471c3a9399d8c10cdfe2df"
 +++
 
 {{< releasetabs >}}
@@ -34,6 +34,22 @@ grafana_linux_tar_sha = "4cc95def87c81a5d2af68bafdde2ee65a825f606"
 	</section>
 
 	<section role="tabpanel" aria-hidden="true" class="content" id="panel2">
+		Enhancements in 4.0.2
+		<ul>
+			<li><strong>Playlist</strong> Add support for kiosk mode <a href="https://github.com/grafana/grafana/issues/6727">#6727</a></li>
+		</ul>
+
+		Bug fixes in 4.0.2
+		<ul>
+			<li><strong>Alerting</strong> Add alert message to webhook notifications <a href="https://github.com/grafana/grafana/issues/6807">#6807</a></li>
+			<li><strong>Alerting</strong> Fixes a bug where avg() reducer treated null as zero. <a href="https://github.com/grafana/grafana/issues/6879">#6879</a></li>
+			<li><strong>PNG Rendering</strong> Fix for server side rendering when using non default http addr bind and domain setting <a href="https://github.com/grafana/grafana/issues/6813">#6813</a></li>
+			<li><strong>PNG Rendering</strong> Fix for server side rendering when setting enforce_domain to true <a href="https://github.com/grafana/grafana/issues/6769">#6769</a></li>
+			<li><strong>Webhooks</strong> Add content type json to outgoing webhooks <a href="https://github.com/grafana/grafana/issues/6822">#6822</a></li>
+			<li><strong>Keyboard shortcut</strong> Fixed zoom out shortcut <a href="https://github.com/grafana/grafana/issues/6837">#6837</a></li>
+			<li><strong>Webdav</strong> Adds basic auth headers to webdav uploader <a href="https://github.com/grafana/grafana/issues/6779">#6779</a></li>
+		</ul>
+		
 		Bug fixes since 4.0.1
 		<ul>
 			<li><strong>Data proxy</strong>: Fixes a tcp pooling issue in the datasource reverse proxy <a href="https://github.com/grafana/grafana/issues/6759">#6759</a></li>
