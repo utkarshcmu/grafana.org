@@ -1,0 +1,62 @@
++++
+title       = "Download"
+description = "Grafana downloads and release details"
+body_class = "download-page"
+date = "2016-08-01"
+grafana_version = "3.1.1"
+grafana_build = "3.1.1-1470047149"
+grafana_deb_sha = "dcdb1461a8fa58c66819aebd35c3912ea40cc845"
+grafana_win_sha = "325d7ad546b9a1b24d836a048a0350b9a5959a1e"
+grafana_rpm_sha = "5989ad695554c5bc924c2284bc035feb379e1e8c"
+grafana_linux_tar_sha = "c281f6612ba93cd3233f70e45823adc7801d8cc1"
++++
+
+{{< releasetabs >}}
+
+<div class="tabs-content markdown">
+	<section role="tabpanel" aria-hidden="false" class="content active" id="panel1">
+		<h3>
+			Grafana 3.1 Highlights
+		</h3>
+
+		<div class="download-highlights-header-details">
+			For full details check out <a href="http://grafana.org/blog/2016/07/12/grafana-3-1-released.html">Grafana 3.1 Released</a> blog post.
+		</div>
+
+		<ul>
+			<li><strong>Dashboard Repository</strong> at <a href="https://grafana.net">Grafana.net</a>. You can now discover and upload dashboards.</li>
+			<li><strong>Dashboard</strong> time range and variables values are now always synced with URL.</li>
+			<li><strong>Constant Template Variable</strong> have been added to make dashboard sharing easier (use as metric prefix).</li>
+			<li><strong>Singlestat</strong> can now map ranges to text.</li>
+			<li><strong>Metrics</strong> Grafana now supports sending metrics about itself.</li>
+			<li><a href="https://github.com/grafana/grafana/blob/master/CHANGELOG.md">Full changelog</a></li>
+		</ul>
+	</section>
+
+	<section role="tabpanel" aria-hidden="true" class="content" id="panel2">
+		<ul>
+			<li><strong>Graphite PNG</strong> Graphite PNG support dropped from Graph panel (use Grafana native PNG instead).</li>
+			<li><strong>Logging</strong> Log ouput format have been changed to improve log filtering.</li>
+			<li><strong>Migration</strong> No longer possible to migrate dashboards from 1.x (Stored in ES or Influx 0.8).</li>
+		</ul>
+	</section>
+
+	<section role="tabpanel" aria-hidden="true" class="content" id="panel3">
+
+		<div class="download-highlights-header-details">
+			No major breaking change, all dashboards and graphs should look / work the same.
+		</div>
+
+		<ul>
+			<li><strong>IFrame embedding</strong>: Fixed issue of using full iframe height, fixes <a href="https://github.com/grafana/grafana/issues/5606">#5605</a></li>
+			<li><strong>Panel PNG rendering</strong>: Fixed issue detecting render completion, fixes <a href="https://github.com/grafana/grafana/issues/5606">#5605</a></li>
+			<li><strong>Elasticsearch</strong>: Fixed issue with templating query and json parse error, fixes <a href="https://github.com/grafana/grafana/issues/5615">#5615</a></li>
+			<li><strong>Tech</strong>: Upgraded JQuery to 2.2.4 to fix Security vulnerabilitie in 2.1.4, fixes <a href="https://github.com/grafana/grafana/issues/5627">#5627</a></li>
+			<li><strong>Graphite</strong>: Fixed issue with mixed data sources and Graphite, fixes <a href="https://github.com/grafana/grafana/issues/5617">#5617</a></li>
+			<li><strong>Templating</strong>: Fixed issue with template variable query was issued multiple times during dashboard load, fixes <a href="https://github.com/grafana/grafana/issues/5637">#5637</a></li>
+			<li><strong>Zoom</strong>: Fixed issues with zoom in and out on embedded (iframed) panel, fixes <a href="https://github.com/grafana/grafana/issues/4489">#4489</a>, <a href="https://github.com/grafana/grafana/issues/5666">#5666</a></li>
+			<li><strong>Templating</strong>: Row/Panel repeat issue when saving dashboard caused dupes to appear, fixes <a href="https://github.com/grafana/grafana/issues/5591">#5591</a></li>
+		</ul>
+	</section>
+</div>
+
