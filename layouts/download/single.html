@@ -15,6 +15,17 @@
 
 	<div class="large-12 columns">
 		<div class="download-row">
+			{{ if not (hasPrefix .Params.grafana_version "4.1") }}
+			<div class="text-center">
+				<div class="beta-notice">
+					<h3>
+						Grafana <a href="/download/4_1_0/">v4.1 Beta is now available!</a> <br>
+					</h3>
+					<a href="http://docs.grafana.org/guides/whats-new-in-v4-1/">What's New in Grafana v4.1</a>
+				</div>
+			</div>
+			{{ end }}
+
 			<aside class="download-row-aside">
 				<h2><span class="download-row-aside-step">Step 1:</span> Install</h2>
 
