@@ -36,7 +36,7 @@ You can enable/disable the shared tooltip from the dashboard settings menu or cy
 
 {{< imgbox max-width="60%" img="/img/docs/v41/helptext_for_panel_settings.png" caption="Hovering help text" >}}
 
-You can configure the help text in the general tab on any panel.
+You can set a help text in the general tab on any panel. The help text is using Markdown to enable better formating and linking to other sites that can provide more information.
 
 <div class="clearfix"></div>
 
