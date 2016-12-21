@@ -9,9 +9,9 @@ description = "Grafana 4.1 Beta Release Highlights"
 
 ## Grafana v4.1 beta
 
-Grafana v4.1 Beta is now [available for download](/download/4_1_0/). 
-The new version contains a lot of improvement and the majority of them come from pull requests. 
-The fact that we can release 4.1.0-beta1 so quick after 4.0 is all thanks to the Grafana community and all the contributors. 
+Grafana v4.1 Beta is now [available for download](/download/4_1_0/).
+The new version contains a lot of improvement and the majority of them come from pull requests.
+The fact that we can release 4.1.0-beta1 so quickly after 4.0 is all thanks to the Grafana community and all the contributors.
 Big thumbs up!
 
 ## Release Highlights
@@ -27,7 +27,7 @@ Big thumbs up!
 
 {{< imgbox max-width="60%" img="/img/docs/v41/shared_tooltip.gif" caption="Shared tooltip" >}}
 
-Showing the tooltip on all panels at the same time has been a long standing request in Grafana and we are really happy to finally be able to release it. 
+Showing the tooltip on all panels at the same time has been a long standing request in Grafana and we are really happy to finally be able to release it.
 You can enable/disable the shared tooltip from the dashboard settings menu or cycle between default, shared tooltip and shared crosshair by pressing `CTRL + O` or `CMD + O`.
 
 <div class="clearfix"></div>
@@ -42,7 +42,7 @@ You can set a help text in the general tab on any panel. The help text is using 
 
 {{< imgbox max-width="60%" img="/img/docs/v41/helptext_hover.png" caption="Hovering help text" >}}
 
-Panels with a help text available have a little indicator in the top left corner. You can show the help text by hovering the icon.
+Panels with a help text available have a little indicator in the top left corner. You can show the help text by hovering over the icon.
 <div class="clearfix"></div>
 
 
@@ -53,7 +53,7 @@ Panels with a help text available have a little indicator in the top left corner
 In Grafana 4.1.0 you can configure your Cloudwatch data source with `access key` and `secret key` directly in the data source configuration page.
 This enables people to use the Cloudwatch data source without having access to the filesystem where Grafana is running.
 
-Once the `access key` and `secret key` have been saved the user will no longer be able to view them. 
+Once the `access key` and `secret key` have been saved the user will no longer be able to view them.
 <div class="clearfix"></div>
 
 ## Upgrade & Breaking changes
