@@ -18,6 +18,10 @@ if [ "$env" == "prod-docs" ]; then
   AWS_S3_BUCKET=docs.grafana.org
 fi;
 
+if [ "$env" == "staging" ]; then
+  AWS_S3_BUCKET=blogtest.grafana.com
+fi;
+
 docsVersion=""
 if [ "$2" != "" ]; then
   docsVersion="$2"

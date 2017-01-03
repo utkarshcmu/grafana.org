@@ -21,8 +21,8 @@
 				{{ $.Scratch.Set "docsUrl" "http://localhost:3002/docs"}}
 			{{ end }}
 
-			{{ if hasPrefix $baseUrl "http://staging" }}
-				{{ $.Scratch.Set "navBaseUrl" "http://staging.grafana.org"}}
+			{{ if hasPrefix $baseUrl "http://blogtest" }}
+				{{ $.Scratch.Set "navBaseUrl" "http://blogtest.grafana.com.s3-website-us-west-2.amazonaws.com"}}
 				{{ $.Scratch.Set "docsUrl" "http://staging-docs.grafana.org"}}
 			{{ end }}
 
