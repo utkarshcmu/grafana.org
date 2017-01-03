@@ -51,10 +51,14 @@
 
 			<hr>
 
-			<h4>About Grafana</h4>
-			<p>
-			Grafana is an open source metrics dashboard and graph composer for almost any metric data store.
-			</p>
+			<h4>Categories</h4>
+			<ul class="list-unstyled">
+				{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+				<div class="summary">
+					<h5><a href="/categories/{{ $name | urlize }}">{{ $name | title }}</a></h5>
+				</div>
+				{{ end }}
+			</ul>
 		</div>
 	</div>
 </div>
@@ -65,9 +69,9 @@
 	background-image: url({{ .Params.cover_image }});
 }
 {{ if isset .Params "nav_opacity" }}
-	section.nav {
-		background-color: rgba(0,0,0,{{ .Params.nav_opacity }})
-  }
+section.nav {
+	background-color: rgba(0,0,0,{{ .Params.nav_opacity }})
+}
 {{ end }}
 </style>
 {{ end }}

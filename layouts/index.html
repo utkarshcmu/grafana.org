@@ -1,9 +1,53 @@
-{{ range where .Data.Pages "Type" "index" }}
 {{ partial "header.html" . }}
-{{ .Content }}
-{{ partial "footer.html" . }}
-{{ end }}
-{{ range where .Data.Pages "Title" "Grafana Documentation Site" }}
-	{{ template "docs/single.html" . }}
-{{end}}
 
+<div class="page-header">
+	<div class="page-header-bg"></div>
+	<div class="row">
+		<div class="large-12 columns">
+			<h1>Blog</h1>
+		</div>
+	</div>
+</div>
+
+<div class="page-content row">
+	<div class="large-9 columns image-shadows">
+		{{ range first 10 .Data.Pages }}
+			{{ .Render "li"}}
+		{{ end }}
+
+		<hr>
+		<div class="row">
+			<div class="small-3 columns"></div>
+			<div class="small-9 columns">
+				<a class="button secondary radius hollow" href="/blog">Blog Archive</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="large-3 columns">
+		<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+			RSS <i class="fa fa-rss"></i>
+		</a>
+		<hr>
+
+		<h4>Categories</h4>
+		<ul class="list-unstyled">
+			{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+			<div class="summary">
+				<h5><a href="/categories/{{ $name | urlize }}">{{ $name | title }}</a></h5>
+			</div>
+			{{ end }}
+		</ul>
+	</div>
+
+</div>
+
+
+<style>
+.page-header-bg {
+	background-image: url(/assets/img/header_cover3.png);
+}
+</style>
+
+
+{{ partial "footer.html" . }}

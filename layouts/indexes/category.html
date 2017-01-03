@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+
+<div class="page-header">
+	<div class="page-header-bg"></div>
+	<div class="row">
+		<div class="large-12 columns">
+			<h1>Blog</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-9 columns">
+			<h5 class="subheader">
+				Category: {{ .Title | lower }}
+			</h5>
+		</div>
+	</div>
+</div>
+
+<div class="page-content row">
+	<a class="right" href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+		RSS <i class="fa fa-rss"></i>
+	</a>
+
+	<div class="large-12 columns">
+		{{ range .Data.Pages }}
+			{{ .Render "li" }}
+		{{ end}}
+	</div>
+</div>
+
+<style>
+.page-header-bg {
+	background-image: url(/assets/img/header_cover3.png);
+}
+</style>
+
+
+{{ partial "footer.html" . }}

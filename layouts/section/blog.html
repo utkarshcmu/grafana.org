@@ -4,21 +4,46 @@
 	<div class="page-header-bg"></div>
 	<div class="row">
 		<div class="large-12 columns">
-			<h1>Grafana Blog</h1>
+			<h1>Blog Archive</h1>
 		</div>
 	</div>
 </div>
 
 <div class="page-content row">
-	<a class="right" href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
-		RSS <i class="fa fa-rss"></i>
-	</a>
 
-	<div class="large-12 columns">
-		{{ range .Data.Pages }}
-		{{ .Render "li"}}
+	<div class="large-9 columns">
+		{{ range .Data.Pages.GroupByDate "2006" }}
+			<h2>{{ .Key }}</h2>
+			{{ range .Pages }}
+				<article class="blog-archive-item">
+					<h4>
+						<a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+					</h4>
+
+					<div style="margin-bottom: 15px; position: relative; top: -10px;">
+						by {{ .Params.author }} publishd on {{ .Date.Format "2 Jan 2006" }}
+					</div>
+				</article>
+			{{ end }}
 		{{ end }}
 	</div>
+
+	<div class="large-3 columns">
+		<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+			RSS <i class="fa fa-rss"></i>
+		</a>
+		<hr>
+
+		<h4>Categories</h4>
+		<ul class="list-unstyled">
+			{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+			<div class="summary">
+				<h5><a href="/categories/{{ $name | urlize }}">{{ $name | title }}</a></h5>
+			</div>
+			{{ end }}
+		</ul>
+	</div>
+
 </div>
 
 <style>

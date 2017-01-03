@@ -8,7 +8,11 @@ enableRobotsTXT = true
 disableSitemap = false
 disableRSS = false
 
+[taxonomies]
+tag = "tags"
+category = "categories"
+
 [permalinks]
-  blog = "blog/:year/:month/:day/:title/"
+  blog = ":year/:month/:day/:title/"
 
 

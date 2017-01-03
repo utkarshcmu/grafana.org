@@ -1,0 +1,32 @@
+{{ partial "header.html" . }}
+
+<div class="page-header">
+	<div class="page-header-bg"></div>
+	<div class="row">
+		<div class="large-12 columns">
+			<h1>Blog Archive</h1>
+		</div>
+	</div>
+</div>
+
+<div class="page-content row">
+	<a class="right" href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+		RSS <i class="fa fa-rss"></i>
+	</a>
+
+	<div class="large-12 columns">
+	</div>
+
+	<br>
+	<br>
+
+</div>
+
+<style>
+.page-header-bg {
+	background-image: url(/assets/img/header_cover3.png);
+}
+</style>
+
+
+{{ partial "footer.html" . }}
