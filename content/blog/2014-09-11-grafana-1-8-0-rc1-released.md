@@ -4,6 +4,9 @@ author: Torkel Ödegaard
 date: 2014-09-11
 aliases:
   - blog/2014/09/11/grafana-1-8-0-rc1-released.html
+categories:
+  - "Release News"
+  - "Grafana"
 ---
 
 New release today! v1.8.0-rc1 is now available for [download](/download).

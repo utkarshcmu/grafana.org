@@ -4,6 +4,8 @@ author: Torkel Ödegaard
 date: 2014-05-25
 aliases:
   - blog/2014/05/25/monitorama-video-and-update.html
+categories:
+  - "Grafana"
 ---
 
 <iframe src="//player.vimeo.com/video/95316672?portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="padding-bottom: 10px">

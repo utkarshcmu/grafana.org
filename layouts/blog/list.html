@@ -15,6 +15,23 @@
 	</a>
 
 	<div class="large-12 columns">
+		{{ range .Data.Pages.GroupByDate "2006" }}
+		<h2>{{ .Key }}</h2>
+		<ul id="list">
+			{{ range .Pages }}
+				<article>
+					<h1>
+						<a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+					</h1>
+					<time>
+						<span class="month">{{ .Date | dateFormat "Jan" }}</span> <!-- print publish month -->
+						<span class="day">{{ .Date | dateFormat "2" }}</span> <!-- print publish day -->
+					</time>
+					<!-- if you want pages summary you can print it here {{ .Summary }} -->
+				</article>
+				{{ end }}
+		</ul>
+		{{ end }}
 	</div>
 
 	<br>

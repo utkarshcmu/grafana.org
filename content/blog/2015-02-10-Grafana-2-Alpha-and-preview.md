@@ -4,6 +4,9 @@ author: Torkel Ödegaard
 date: 2015-02-10
 aliases:
   - blog/2015/02/10/Grafana-2-Alpha-and-preview.html
+categories:
+  - "Release News"
+  - "Grafana"
 ---
 
 As some of you already know, at least those who read the previous blog post [on the future of Grafana](http://grafana.org/blog/2015/01/12/grafana2-the-future-and-raintank.html),

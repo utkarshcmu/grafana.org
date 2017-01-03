@@ -4,6 +4,8 @@ author: Torkel Ödegaard
 date: 2015-04-09
 aliases:
   - blog/2015/04/09/March15-Survery.html
+categories:
+  - "Grafana"
 ---
 
 <a href="https://infogr.am/grafana_user_survey_mar2015">

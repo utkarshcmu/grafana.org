@@ -4,6 +4,9 @@ author: Torkel Ödegaard
 date: 2015-08-04
 aliases:
   - blog/2015/08/04/Grafana-2-1-Released.html
+categories:
+  - "Release News"
+  - "Grafana"
 ---
 
 <img class="no-shadow" src="/assets/img/blog/new-in-grafana-v2-1.png" alt="what's new in Grafana 2.1"/>

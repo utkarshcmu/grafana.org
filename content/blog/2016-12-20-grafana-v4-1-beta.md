@@ -5,7 +5,7 @@ date = "2016-12-21"
 keywords = ["Grafana", "Blog", "v4.1", "Beta"]
 cover_image = "/assets/img/blog/v4/grafana_shared_tooltips.jpg"
 description = "Grafana 4.1 Beta Release Highlights"
-categories = ["Release news"]
+categories = ["Release News", "Grafana"]
 +++
 
 ## Grafana v4.1 beta

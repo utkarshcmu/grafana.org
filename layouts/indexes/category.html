@@ -10,21 +10,25 @@
 	<div class="row">
 		<div class="small-9 columns">
 			<h5 class="subheader">
-				Category: {{ .Title | lower }}
+				Category: {{ .Title | title }}
 			</h5>
 		</div>
 	</div>
 </div>
 
 <div class="page-content row">
-	<a class="right" href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
-		RSS <i class="fa fa-rss"></i>
-	</a>
-
-	<div class="large-12 columns">
+	<div class="large-9 columns image-shadows">
 		{{ range .Data.Pages }}
 			{{ .Render "li" }}
 		{{ end}}
+	</div>
+	<div class="large-3 columns">
+		<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+			RSS <i class="fa fa-rss"></i>
+		</a>
+		<hr>
+
+		{{ partial "category_list.html" . }}
 	</div>
 </div>
 

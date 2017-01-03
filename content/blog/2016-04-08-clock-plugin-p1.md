@@ -4,6 +4,9 @@ author: Daniel Lee
 date: 2016-04-08
 aliases:
   - blog/2016/04/08/clock-plugin-p1.html
+categories:
+  - "Tutorials"
+  - "Grafana"
 ---
 
 People have been [asking for a Clock Panel in Grafana](https://github.com/grafana/grafana/issues/1693) so I thought I'd give it a try and at the same time show how to build plugins for Grafana.

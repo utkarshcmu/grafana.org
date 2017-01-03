@@ -5,6 +5,9 @@ date: 2016-07-06
 aliases:
   - blog/2016/07/06/dear-graphite-users-and-developers.html
 list_image: /assets/img/v2/graphite.png
+categories:
+  - "Graphite"
+  - "Time Series Databases"
 ---
 
 <img src="/assets/img/v2/graphite.png"></img>

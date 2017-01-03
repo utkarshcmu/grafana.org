@@ -4,6 +4,8 @@ author: Torkel Ödegaard
 date: 2014-05-01
 aliases:
   - blog/2014/05/01/monitorama.html
+categories:
+  - "Grafana"
 ---
 
 On Saturday I am flying to Portland for what I am hoping to be a great conference, [Monitorama PDX](http://monitorama.com/). The last day of the

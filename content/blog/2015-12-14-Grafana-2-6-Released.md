@@ -4,6 +4,9 @@ author: Torkel Ödegaard
 date: 2015-12-14
 aliases:
   - blog/2015/12/14/Grafana-2-6-Released.html
+categories:
+  - "Release News"
+  - "Grafana"
 ---
 
 We are proud to announce the v2.6.0 stable release. This release includes a new [Table panel](http://docs.grafana.org/reference/table_panel),

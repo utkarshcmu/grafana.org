@@ -4,6 +4,9 @@ author: Torkel Ödegaard
 date: 2016-05-11
 aliases:
   - blog/2016/05/11/grafana-3-0-stable-released.html
+categories:
+  - "Release News"
+  - "Grafana"
 ---
 
 Grafana 3.0 Stable is now available for download! Over the past month we've been polishing features,

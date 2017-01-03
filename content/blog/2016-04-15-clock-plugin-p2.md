@@ -4,6 +4,9 @@ author: Daniel Lee
 date: 2016-04-15
 aliases:
   - blog/2016/04/15/clock-plugin-p2.html
+categories:
+  - "Tutorials"
+  - "Grafana"
 ---
 
 In [part 1](http://grafana.org/blog/2016/04/08/clock-plugin-p1.html), I wrote a simple Clock Plugin. However, it's too simple to be usable for most people. In this post, I will show how to make this plugin customizable and at the same time explain more about how plugins can hook into Grafana. To make the clock panel more usable, we should be able to:
