@@ -7,6 +7,7 @@ categories:
   - "Grafana"
 aliases:
   - /ux-the-long-road-to-the-shortest-path/
+cover_image: "/assets/img/blog/migrated/ux_blog_header.svg"
 ---
 
 Torkel and the rest of the team have been hard at work on the next generation of [Grafana](http://grafana.org), which is the foundation for what we're building here at raintank. We're really excited about the [many new features and capabilites](http://grafana.org/blog/2015/02/10/Grafana-2-Alpha-and-preview.html) that [Grafana 2.0](http://play.grafana.org/v2) brings to the table, but they all have big implications from a UI/UX perspective.
@@ -157,7 +158,5 @@ We are placing a very high degree of importance on UI/UX and customer experience
 
 You can reach me on [twitter](//twitter.com/atlantically), [github](//github.com/atlantically) or old fashioned raintank.io email as matt@.
 
---------
 [^1]: We re-referenced this research <a href="http://exisweb.net/menu-eats-hamburger"> Hamburger vs Menu: The Final AB Test</a> and <a href="http://exisweb.net/hamburger-is-ok">Don’t Be Afraid of the Hamburger: A/B Test</a> while we were experimenting, and was the inspiration for trying out the Menu button. Ultimately, since our audience is predominantly  high-frequency daily users, we thought we could take the risk and teach the behavior in a compressed space.
-
 [^2]: When this blog was first posted, I originally said: "Explicitly stating Menu felt like a cop out". That was a dumb thing to say, and not reflective of our actual thoughts.
