@@ -3,7 +3,7 @@ title = "Grafana 4.0 Stable Release"
 author = "Torkel Ödegaard"
 date = "2016-12-12"
 keywords = ["Grafana", "Blog", "v4.0", "Stable", "Release", "Download"]
-cover_image = "/assets/img/blog/v4/grafana_alert.png"
+cover_image = "assets/img/blog/v4/grafana_alert.png"
 description = "Grafana 4.0 Stable Release"
 categories = ["Release News", "Grafana"]
 +++

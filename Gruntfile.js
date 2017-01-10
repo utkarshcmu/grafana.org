@@ -76,6 +76,7 @@ module.exports = function(grunt) {
           base: "dist",
           livereload: port+1,
           keepalive: true,
+          debug: true,
         }
       }
     },
@@ -163,7 +164,7 @@ module.exports = function(grunt) {
         break;
       case 'staging':
         args.push("--buildDrafts=true");
-        args.push("--baseUrl=http://blogtest.grafana.com.s3-website-us-west-2.amazonaws.com");
+        args.push("--baseUrl=http://grafana.com/blog/");
         break;
       case 'dev-docs':
         args.push("--baseUrl=http://localhost:3004");
@@ -181,7 +182,7 @@ module.exports = function(grunt) {
         args.push("--baseUrl=http://staging-docs.grafana.org/" + docsVersion);
         break;
       case 'prod':
-        args.push("--baseUrl=http://grafana.org");
+        args.push("--baseUrl=http://grafana.com/blog/");
         break;
       case 'prod-docs':
         args.push("--baseUrl=http://docs.grafana.org/" + docsVersion);

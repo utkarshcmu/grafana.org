@@ -3,7 +3,7 @@
 <ul class="list-unstyled">
 	{{ range $name, $taxonomy := .Site.Taxonomies.categories }}
 	<div class="summary">
-		<h5><a href="/categories/{{ $name | urlize }}">{{ $name | title }}</a></h5>
+		<h5><a href="categories/{{ $name | urlize }}/">{{ $name | title }}</a></h5>
 	</div>
 	{{ end }}
 </ul>
