@@ -1,14 +1,14 @@
 +++
-title       = "Download v4.1.0 beta"
-description = "Grafana v4.1.0 beta download"
+title       = "Download v4.1.0"
+description = "Grafana v4.1.0 download"
 body_class = "download-page"
-date = "2016-12-21"
-grafana_version = "4.1.0-beta1"
-grafana_build = "4.1.0-1482230757beta1"
-grafana_deb_sha = "f4949b0c9546b05afd7d898d23a3c55c6397c348"
-grafana_win_sha = "cb344a716852cf920a93c788bdf64c449729b73d"
-grafana_rpm_sha = "b6807eacd0177a2eeb78b2d2ed3f82fe15322454"
-grafana_linux_tar_sha = "c176f9d7eefd9115b03e5b3154e2e39096a98bfb"
+date = "2017-01-11"
+grafana_version = "4.1.0"
+grafana_build = "4.1.0-1484056345"
+grafana_deb_sha = "e958348043163ea95f40965096ae684520316398"
+grafana_win_sha = "c9531c458959430db705fd3d971357ca61721376"
+grafana_rpm_sha = "808f9a595a07505196e8bb7a25dac5937ae85330"
+grafana_linux_tar_sha = "a97577874ec02c71bdc879fcbc6c06a13cf3188d"
 +++
 
 {{< releasetabs >}}
@@ -52,6 +52,7 @@ grafana_linux_tar_sha = "c176f9d7eefd9115b03e5b3154e2e39096a98bfb"
             <li><strong>Alert list</strong> Order alerts based on state. <a href="https://github.com/grafana/grafana/issues/6676">#6676</a></li>
             <li><strong>Alerting</strong> Add api endpoint for pausing all alerts. <a href="https://github.com/grafana/grafana/issues/6589">#6589</a></li>
             <li><strong>Graph</strong> Shared crosshair option renamed to shared tooltip, shows tooltip on all graphs as you hover over one graph. <a href="https://github.com/grafana/grafana/pull/1578">#1578</a>, <a href="https://github.com/grafana/grafana/pull/6274">#6274</a></li>
+            <li><strong>Elasticsearch</strong> Added support for all moving average options <a href="https://github.com/grafana/grafana/pull/7154">#7154</a>, thx <a href="https://github.com/vaibhavinbayarea">@vaibhavinbayarea</a></li>
         </ul>
 
         Bugfixes
@@ -61,6 +62,10 @@ grafana_linux_tar_sha = "c176f9d7eefd9115b03e5b3154e2e39096a98bfb"
             <li><strong>Logging</strong> Fixed logging level confing issue <a href="https://github.com/grafana/grafana/issues/6978">#6978</a></li>
             <li><strong>Notifications</strong> Remove html escaping the email subject. <a href="https://github.com/grafana/grafana/issues/6905">#6905</a></li>
             <li><strong>Influxdb</strong> Fixes broken field dropdown when using template vars as measurement. <a href="https://github.com/grafana/grafana/issues/6473">#6473</a></li>
+            <li><strong>Server side PNG rendering</strong> Fixed issue with y-axis label rotation in phantomjs rendered images <a href="https://github.com/grafana/grafana/issues/6924">#6924</a></li>
+            <li><strong>Graph</strong> Fixed centering of y-axis label <a href="https://github.com/grafana/grafana/issues/7099">#7099</a></li>
+            <li><strong>Graph</strong> Fixed graph legend table mode and always visible scrollbar <a href="https://github.com/grafana/grafana/issues/6828">#6828</a></li>
+            <li><strong>Templating</strong> Fixed template variable value groups/tags feature <a href="https://github.com/grafana/grafana/issues/6752">#6752</a></li>
         </ul>
 	</section>
 
