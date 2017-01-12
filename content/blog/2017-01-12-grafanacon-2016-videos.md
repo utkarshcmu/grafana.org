@@ -14,8 +14,10 @@ It was a full two day conference, with over 200 attendees, 10 sponsors, 30 talks
 of topics from the Grafana ecosystem & user community. We also had an awesome and unique venue aboard the **Intrepid Sea, Air & Space Museum**
 which is an aircraft carrier that has been converted into a museum highlighting US naval and air force history (it also has the spaceship Enterprise on board).
 
-The event was big success, attendees and sponsors seemed happy, interesting talks and great after conference party. Was also great to meet some of the
-big Grafana contributers like [Utkarsh Bhatnagar](https://github.com/utkarshcmu) and [Mitsuhiro Tanda](https://github.com/mtanda).
+The event was big success, attendees and sponsors seemed happy, talks where interesting, and the after conference party was a hit.
+Personally it was really amazing seeing how big the Grafana community has become and getting a change to talk to so many users and companies
+that are leveraging Grafana in unique ways. It was also great to meet some of the big Grafana contributers
+like [Utkarsh Bhatnagar](https://github.com/utkarshcmu) and [Mitsuhiro Tanda](https://github.com/mtanda).
 
 ## Videos of Talks
 
@@ -25,7 +27,7 @@ There is a new [playlist](https://www.youtube.com/playlist?list=PLDGkOdUX1Ujp_6O
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/videoseries?list=PLDGkOdUX1Ujp_6OnJ8M-t59eGPs0rZF4Q" frameborder="0" allowfullscreen></iframe>
 
 ## Photos from the event
-Torkel's transportation to and from the conference
+My transportation to and from the conference
 ![](/assets/img/blog/grafanacon_blue_angel.jpg)
 
 The theater was a great place to have talks on day 1.
