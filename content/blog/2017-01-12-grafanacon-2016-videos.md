@@ -9,13 +9,13 @@ description = "GrafanaCon 2016 Videos Available"
 
 ## GrafanaCon 2016
 
-Last November we held the second GrafanaCon. This time it was actually a real conference and not a glorified meetup (Like GrafanaCon 2015).
+Last November we held the second GrafanaCon. This time it was actually a real conference and not a glorified meetup (like GrafanaCon 2015).
 It was a full two day conference, with over 200 attendees, 10 sponsors, 30 talks covering a diverse set
 of topics from the Grafana ecosystem & user community. We also had an awesome and unique venue aboard the **Intrepid Sea, Air & Space Museum**
 which is an aircraft carrier that has been converted into a museum highlighting US naval and air force history (it also has the spaceship Enterprise on board).
 
 The event was big success, attendees and sponsors seemed happy, talks were interesting, and the after conference party was a hit.
-Personally it was really amazing seeing how big the Grafana community has become and getting a change to talk to so many users and companies
+Personally it was really amazing seeing how big the Grafana community has become and getting a chance to talk to so many users and companies
 that are leveraging Grafana in unique ways. It was also great to meet some of the big Grafana contributers
 like [Utkarsh Bhatnagar](https://github.com/utkarshcmu) and [Mitsuhiro Tanda](https://github.com/mtanda).
 
@@ -39,7 +39,7 @@ Day  talks were held in two rooms with a great view of the Hudson.
 
 ![](/assets/img/blog/grafanacon_3.jpg)
 
-Every attendee got a Grafana scarf. The most beautiful and useful peice of swag I have ever seen (but I may be a bit biased).
+Every attendee got a Grafana scarf. The most beautiful and useful piece of swag I have ever seen (but I may be a bit biased).
 
 ![](/assets/img/blog/grafanacon_scarf.jpg)
 
