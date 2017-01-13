@@ -35,7 +35,7 @@ The theater was a great place to have talks on day 1.
 
 ![](/assets/img/blog/grafanacon_day1_theater2.jpg)
 
-Day  talks were held in two rooms with a great view of the Hudson.
+Day 2 talks were held in two rooms with a great view of the Hudson.
 
 ![](/assets/img/blog/grafanacon_3.jpg)
 
