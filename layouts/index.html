@@ -1,15 +1,12 @@
 {{ partial "header.html" . }}
 
-<div class="page-header">
-	<div class="page-header-bg"></div>
-	<div class="row">
-		<div class="large-12 columns">
-			<h1>Blog</h1>
-		</div>
+<div class="page-letterhead">
+	<div class="wrapper">
+		<h1 class="page-letterhead__heading">Blog</h1>
 	</div>
 </div>
 
-<div class="page-content row">
+<div class="wrapper">
 	<div class="large-9 columns image-shadows">
 		{{ range first 10 .Data.Pages }}
 			{{ .Render "li"}}
