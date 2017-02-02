@@ -1,0 +1,141 @@
+.features-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.features-grid__item {
+  padding: rem-calc(30);
+  flex-grow: 1;
+  text-align: center;
+
+  @include at-least(small) {
+    width: 49.999%;
+  }
+
+  @include at-least(medium) {
+    width: 33%;
+  }
+}
+
+.features-grid__img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px $black;
+}
+
+.features-grid__heading {
+  font-size: $font-size-beta;
+  font-style: italic;
+  margin: rem-calc(15 0);
+  color: $off-white2;
+}
+
+.features-grid__text {
+}
+
+
+.github-box {
+  width: rem-calc(140);
+  min-height: 0;
+  padding-left: rem-calc(20);
+  padding-right: rem-calc(20);
+  margin-right: rem-calc(15);
+  display: inline-block;
+  white-space: nowrap;
+
+  .count {
+    margin: rem-calc(0);
+    font-size: $font-size-kilo;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 0;
+    color: $white;
+  }
+
+  span {
+    width: rem-calc(20);
+    color: $light-gray
+  }
+  small {
+    color: $off-white;
+    font-style: italic;
+    margin-left: rem-calc(26);
+  }
+}
+
+// =========================================================================
+// Feature Tabs
+// =========================================================================
+
+.feature-tabs {
+  border-radius: rem-calc(3);
+  background: $dark-gray;
+  margin-bottom: rem-calc(40);
+  box-shadow: -1px -1px 0px 0px rgba(255,255,255,0.1), 1px 1px 0px 0px rgba(0,0,0, 0.3);
+  display: flex;
+}
+
+.feature-tabs__tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-tabs__tab-link {
+  color: $white;
+  font-size: $font-size-beta;
+  font-style: italic;
+  padding: rem-calc(10 8);
+  background: lighten($dark-gray, 6%);
+  text-align: center;
+
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid $black;
+
+  img {
+    max-height: rem-calc(20px);
+  }
+
+  &:hover {
+    background: $dark-gray;
+  }
+
+  &--active {
+    background: $dark-gray;
+    z-index: 100;
+  }
+
+
+  @include at-least(medium) {
+    padding: rem-calc(15 20);
+
+    img {
+      max-height: rem-calc(30px);
+    }
+  }
+
+}
+
+.feature-tabs__pane {
+  box-shadow: 0 0 10px $black;
+}
+
+.feature-tab-content__title {
+  @extend .h5;
+  padding-bottom: $spacer;
+}
+
+.feature-tab-content__text {
+  color: $text-color;
+}
+
+.feature-tab-content__list {
+  padding: rem-calc(0 10);
+
+  li {
+    line-height: rem-calc(25);
+    margin-left: rem-calc(10);
+  }
+}
+

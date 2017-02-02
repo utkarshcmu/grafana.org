@@ -1,5 +1,5 @@
 {{ $thispage := .thispage }}
-<ul class="nav-sub">
+<ul class="nav-sub ui-list">
 {{ range .menu }}
 {{ if .HasChildren }}
     <li class="leaf {{ if $thispage.HasMenuCurrent "docs" . }} active{{end}} {{ if $thispage.HasMenuCurrent "docs" . }} menu-open {{else}} menu-closed {{end}} ">

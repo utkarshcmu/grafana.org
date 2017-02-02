@@ -1,11 +1,24 @@
 .list {
-  margin: 0 rem-calc(10) 0 0;
-  padding: 0 rem-calc(10) 0 0;
+  padding: 0;
+  margin: 0;
 }
 
 .list__header {
   margin-right: rem-calc(10);
   padding-right: rem-calc(10);
+}
+
+.list__footer-note {
+	display: block;
+  margin: $spacer*2 auto $spacer auto;
+  text-align: center;
+	font-size: 90%;
+	strong {
+	color: $white;
+	}
+  i {
+    margin-right: $spacer/2;
+  }
 }
 
 .list__row {
@@ -39,6 +52,11 @@
 .list__item--narrow {
   text-align: left;
   align-self: center;
+  margin-right: rem-calc(20);
+}
+
+.list__item--narrow:last-child {
+  margin-right: 0;
 }
 
 .list__itemImage {
@@ -49,14 +67,23 @@
 .list__itemName {
   color: $white;
   font-weight: bold;
-  font-size: rem-calc(17);
-  margin: 0 rem-calc(10) 0 0;
+  font-size: $font-size-beta;
+  margin: 0 .5rem 0 0;
 }
 
 .list__itemDesc {
   color: $medium-gray;
-  font-size: rem-calc(14);
+  font-size: $font-size-delta;
   line-height: rem-calc(18);
+}
+
+.list__itemFooter {
+
+}
+
+.list__itemFooter > div {
+  display: inline-block;
+  padding-right: rem-calc(20);
 }
 
 .list__itemDate {
@@ -68,4 +95,24 @@
   flex-wrap: wrap;
   text-decoration: none;
   color: $white;
+}
+
+
+.list__item--empty {
+  @extend .list__itemContent;
+  justify-content: center;
+  p {
+    color: $medium-gray;
+  }
+}
+
+.list__table {
+  display: table;
+  li {
+    display: table-row;
+    span {
+      display: table-cell;
+      padding: rem-calc(5);
+    }
+  }
 }

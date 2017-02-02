@@ -1,0 +1,40 @@
+// ==========================================================================
+// EVENTS
+// ==========================================================================
+
+.event__type {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: $font-size-delta;
+  color: $off-white2;
+  margin-right: rem-calc(10);
+}
+
+.event__location {
+  font-weight: 100;
+  font-size: $font-size-delta;
+  color: $medium-gray;
+}
+
+.event__title {
+  margin: 0 auto;
+  color: $white;
+}
+
+.event__copy {
+	b {
+		color: $white;
+	}
+}
+
+.event__margin-bottom {
+  margin-bottom: rem-calc(100);
+}
+
+.event__past {
+  display: block;
+
+  b {
+    color: $white;
+  }
+}

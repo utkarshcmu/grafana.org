@@ -27,7 +27,19 @@
     background-color: $primary-color;
     background: $primary-color;
     cursor: pointer;
+    color: $white;
+  }
+}
 
+.btn--primary.btn--disabled {
+  opacity: .5;
+  &:hover {
+    border-color: $primary-color;
+    background-color: $primary-color;
+    background: linear-gradient($primary-color 0%, darken($primary-color, 10%) 100%);
+    color: $white;
+    opacity: .5;
+    cursor: default;
   }
 }
 
@@ -39,17 +51,24 @@
 .btn--secondary {
   @include font-smoothing;
   border-color: $blue;
-  background: $blue;
+  background: linear-gradient($blue 0%, darken($blue, 5%) 100%);;
   color: $white;
-  font-weight: 400;
-  padding: rem-calc(0 50);
 
-  @include at-least(small) {
-    padding: rem-calc(0 100);
-  }
 
   &:hover {
     opacity: .8;
+  }
+}
+
+.btn--secondary.btn--disabled {
+  opacity: .5;
+  &:hover {
+    border-color: $blue;
+    background-color: $blue;
+    background: linear-gradient($blue 0%, darken($blue, 10%) 100%);
+    color: $white;
+    opacity: .5;
+    cursor: default;
   }
 }
 
@@ -58,15 +77,11 @@
 
 .btn--add {
   @include font-smoothing;
-  border-color: $success-color;
-  background: $success-color;
+  border-color: $alert-online;
+  background: linear-gradient($alert-online 0%, darken($alert-online, 6%) 100%);
   color: $white;
   font-weight: 400;
   padding: rem-calc(0 50);
-
-  @include at-least(small) {
-    padding: rem-calc(0 100);
-  }
 
   a {
   color: $white;
@@ -74,6 +89,18 @@
 
   &:hover {
     opacity: .8;
+  }
+}
+
+.btn--add.btn--disabled {
+  opacity: .5;
+  &:hover {
+    border-color: $alert-online;
+    background-color: $alert-online;
+    background: linear-gradient($alert-online 0%, darken($alert-online, 6%) 100%);
+    color: $white;
+    opacity: .5;
+    cursor: default;
   }
 }
 
@@ -89,7 +116,7 @@
   padding: rem-calc(0 50);
 
   @include at-least(small) {
-    padding: rem-calc(0 100);
+    padding: rem-calc(0 50);
   }
 
   &:hover {
@@ -103,12 +130,24 @@
   }
 }
 
+.btn--delete.btn--disabled {
+  opacity: .5;
+  &:hover {
+    border-color: $monza;
+    background-color: $monza;
+    background: linear-gradient($monza 0%, darken($monza, 10%) 100%);
+    color: $white;
+    opacity: .5;
+    cursor: default;
+  }
+}
+
 a.btn--delete {
   color: $white;
 }
 
 .btn--delete__confirm-delete {
-  &:after{
+  &::after{
     width: 0;
     opacity: 0;
     display: inline-block;
@@ -124,10 +163,55 @@ a.btn--delete {
     100%    {width: 100px; opacity: 1}
 }
 
-.btn--delete__cancel {
+a.btn--delete__cancel {
   cursor: pointer;
-  margin-left: rem-calc(10);
+  color: $white;
+  font-weight: 400;
 }
+
+// Edit
+// ------------------------------------
+
+.btn--edit {
+  @include font-smoothing;
+  border-color: $gray;
+  background: $gray;
+  color: $white;
+  font-weight: 400;
+  padding: rem-calc(0 50);
+
+  @include at-least(small) {
+    padding: rem-calc(0 100);
+  }
+
+  &:hover {
+    opacity: .8;
+  }
+
+  &:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f044";
+  }
+}
+
+a.btn--edit {
+  color: $white;
+}
+
+.btn--download {
+  &:before {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f019";
+    margin-right: rem-calc(5);
+  }
+}
+
+.btn__sidebar {
+  margin-bottom: rem-calc(20);
+}
+
 
 // reversed
 // ------------------------------------
@@ -143,7 +227,6 @@ a.btn--delete {
     background-color: $medium-gray;
     background: $medium-gray;
     cursor: pointer;
-
   }
 }
 
@@ -168,6 +251,16 @@ a.btn--delete {
   line-height: rem-calc(48);
 }
 
+// Hero - for when large just insn't big enough
+// ------------------------------------
+
+.btn--hero {
+  height: rem-calc(60);
+  font-size: $font-size-beta;
+  font-weight: bold;
+  line-height: rem-calc(60);
+}
+
 // Outline -- created mixin for this: _buttons.scss
 // ------------------------------------
 
@@ -188,6 +281,16 @@ a.btn--delete {
   border-color: $white;
   background: transparent;
   color: $white;
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
+.btn--outline-dark {
+  border-color: #333333;
+  background: transparent;
+  color: #333333;
 
   &:hover {
     opacity: .8;
@@ -241,36 +344,76 @@ a.btn--no-outline-secondary {
   color: $secondary-color;
 }
 
-// Secondary action text links (buttonless buttons)
-// ------------------------------------
-
-.btn_submitting {
-  background-color: $light-gray;
-  background: linear-gradient($light-gray 0%, darken($light-gray, 10%) 100%);
-}
-
-.btn_submitting-enter {
-  opacity: 0.01;
-}
-
-.btn_submitting-enter.btn_submitting-enter-active {
-  opacity: 1;
-  transition: opacity 300ms ease-in;
-}
-
-.btn_submitting-leave {
-  opacity: 1;
-}
-
-.btn_submitting-leave.btn_submitting-leave-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in;
-}
-
 // Button spacing when multiple buttons sit next to each other
 // ------------------------------------
+
+.btn-row {
+  margin-bottom: rem-calc(10);
+
+  .btn {
+    margin-right: rem-calc(20);
+  }
+  .btn:last-child {
+    margin-right: 0;
+  }
+}
+
+.btn-row.narrow {
+  margin-bottom: 0;
+}
+
+.btn-row.tall {
+  margin-bottom: rem-calc(40);
+}
 
 .btn-inline {
   margin: rem-calc(0 10 10 10);
 }
 
+.btn--submitting {
+  // TODO
+  opacity: 0.7;
+}
+
+.btn--sub-text {
+  display: block;
+  margin-top: rem-calc(20);
+  font-size: rem-calc(13);
+}
+
+// Saw references to this class, but am not seeing where it lives, so adding here for now. TRW
+.vertical-margin {
+  margin: ($grid-padding * 2) 0;
+}
+
+// Inline Social Button
+
+.inline__social {
+  @include hide-text;
+  display: inline-block;
+  margin-right: rem-calc(10);
+  width: 24px;
+  height: 24px;
+  opacity: 0.6;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 50%;
+}
+
+.inline__social:hover {
+  opacity: 1;
+}
+
+.inline__social.twitter {
+  background: rgba(0,0,0,0.6) url('../../static/img/icon_twitter.svg') no-repeat center center;
+  background-size: 80%;
+}
+
+.inline__social.github {
+  background: rgba(0,0,0,0.6) url('../../static/img/icon_github.svg') no-repeat center center;
+  background-size: 90%;
+}
+
+.inline__social.linkedin {
+  background: rgba(0,0,0,0.6) url('../../static/img/icon_linkedin.svg') no-repeat center center;
+  background-size: 78%;
+}

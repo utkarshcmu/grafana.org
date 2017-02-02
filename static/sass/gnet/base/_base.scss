@@ -17,14 +17,26 @@ body {
   @include pt-sans;
   @include font-smoothing;
   background: $dark-gray;
-  color: $medium-gray;
+  color: $text-color;
   line-height: 1.4;
 }
 
-// a,
-// a:visited {
-//   color: $medium-gray;
-// }
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-color-hover;
+  }
+}
+
+hr {
+  border: $hr-border-style $hr-border-color;
+  border-width: $hr-border-width 0 0;
+  clear: both;
+  height: 0;
+  margin: $hr-margin 0 ($hr-margin - rem-calc($hr-border-width));
+}
 
 .float-left {
   float: left;
@@ -47,3 +59,45 @@ body {
 .no-underline {
   text-decoration: none;
 }
+
+.hidden {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: $text-color-muted !important;
+}
+
+.text-size-sm {
+  font-size: $font-size-epsilon;
+}
+
+//
+// Headings
+//
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  font-style: $headings-font-style;
+  line-height: $headings-line-height;
+  color: $headings-color;
+
+  > b, > strong {
+    color: $primary-color;
+    font-weight: normal;
+  }
+}
+
+.h1 { font-size: $font-size-h1; }
+.h2 { font-size: $font-size-h2; }
+.h3 { font-size: $font-size-h3; }
+.h4 { font-size: $font-size-h4; }
+.h5 { font-size: $font-size-h5; }
+.h6 { font-size: $font-size-h6; }

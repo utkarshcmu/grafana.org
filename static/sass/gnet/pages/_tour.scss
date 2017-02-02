@@ -39,6 +39,10 @@
     color: $color1;
   }
 
+  .btn--primary {
+    color: $white;
+  }
+
   .btn--outline {
     border-color: $color1;
     color: $color1;
@@ -273,7 +277,10 @@
   }
 }
 
-
+.interior-columns--modal {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 // List
 // -------------------------------------------------------------------------
@@ -333,6 +340,15 @@
   color: $primary-color;
   text-align: left;
   margin: rem-calc(15) 0;
+}
+
+
+// List within modal
+// -------------------------------------------------------------------------
+
+ul.hosted-metrics--modal-list {
+  padding-left: rem-calc(16);
+  li {list-style: square;}
 }
 
 // Form Overrides

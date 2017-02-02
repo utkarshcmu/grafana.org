@@ -24,6 +24,10 @@
     @media (min-width: $bp-xlarge) {
       @content;
     }
+  } @else {
+    @media (min-width: $breakpoint) {
+      @content;
+    }
   }
 }
 
@@ -47,6 +51,10 @@
     }
   } @else if $breakpoint == 'xlarge' {
     @media (max-width: $bp-xlarge) {
+      @content;
+    }
+  } @else {
+    @media (max-width: $breakpoint) {
       @content;
     }
   }

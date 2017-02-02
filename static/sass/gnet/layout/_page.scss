@@ -8,62 +8,200 @@
   position: relative;
 }
 
-
-
 // Hero
 // -------------------------------------------------------------------------
 
 .page-section.page-section--hero {
-  padding: rem-calc(120 0 50);
+  padding: rem-calc(20 0 50);
   background-color: $color-page-hero-bg;
   background-image: linear-gradient(135deg, rgba($black, .41) 0%, rgba($color-page-hero-bg, 0) 75%), linear-gradient(to right, rgba($black, .41) 0%, rgba($color-page-hero-bg, 0) 75%);
   box-shadow: inset 100px 100px 260px -70px rgba(0,0,0,1);
   text-align: center;
 }
 
-.page-section.page-section--hero-small {
-  padding: rem-calc(50 0 0);
-  box-shadow: inset 100px 100px 260px -110px rgba(0,0,0,1);
-}
-
 .page-section--hero .page-section__subhead {
   @include at-least(large) {
     padding: 0 10%;
-    a {
-      color: $primary-color;
-    }
   }
 }
 
-.page-section--hero-small .page-section__headline {
-  margin: 0;
-/*  text-align: left;*/
+// Page Letterhead
+// -------------------------------------------------------------------------
+
+.page-letterhead {
+  padding: rem-calc(40 0 30 0);
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+
+  &--graphs {
+    min-height: rem-calc(400);
+  }
+
+  &--hosting {
+    background-image: url(/img/testimonial_bg_red.jpg);
+  }
+
+  &--dashboards,
+  &--plugins,
+  &--get,
+  &--download,
+  &--default {
+    background-image: url(/img/hero_bg_graphs_darkened.jpg);
+  }
 }
 
+
+.page-letterhead__heading {
+  color: $off-white2;
+  font-style: italic;
+  font-size: $font-size-kilo;
+  font-weight: normal;
+  margin-bottom: rem-calc(0);
+  text-shadow: 3px 3px 5px #000;
+  line-height: rem-calc(50);
+  margin-top: 0px;
+
+  @media (min-width: $bp-nav) {
+    font-size: $font-size-mega;
+  }
+}
+
+.page-letterhead__video-section {
+  position: relative;
+  max-height: 800px;
+  overflow: hidden;
+}
+
+.page-letterhead__hero {
+  padding: rem-calc(60 0);
+}
+
+.page-letterhead__vid {
+  width:100%;
+  height: auto;
+  position:absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.page-letterhead__subheading {
+  color: $off-white2;
+  font-weight: normal;
+  font-size: $font-size-beta;
+  text-shadow: 2px 2px 4px #000;
+  margin: rem-calc(0 0 15 0);
+
+  @media (min-width: $bp-nav) {
+    font-size: $font-size-alpha;
+  }
+}
+
+
+.page-letterhead__cta_wrapper {
+  width: rem-calc(200);
+  margin: rem-calc(180) auto 0 auto;
+  .btn {
+    width: 100%;
+  }
+}
+
+// Page Submenu
+// -------------------------------------------------------------------------
+
+.page-submenu {
+  background: $darker-gray;
+  box-shadow: 0px 0px 20px $black;
+  margin-bottom: $spacer*2;
+
+  & .cta {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+.page-submenu__list {
+  text-align: center;
+  position: relative;
+}
+
+.page-submenu__list-item {
+  padding: rem-calc(15 5);
+  color: $white;
+  font-size: $font-size-beta;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+  margin-right: rem-calc(40);
+
+  &--active {
+    border-bottom: 1px solid $primary-color;
+    border-image: $orange-gradient;
+    border-image-slice: 1;
+  }
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+// page section paragraph
+.page-section__paragraph {
+  margin-bottom: rem-calc(30);
+}
 
 // Main
 // -------------------------------------------------------------------------
 
-.page-section.page-section--main {
+.page-section--main {
   background: url('../../static/img/bg_pattern.svg') 0 -500px no-repeat;
 }
 
-
-.page-section.page-section--secondary,
-.page-section.page-section--plugin {
+.page-section--secondary {
   background: url('../../static/img/bg_pattern.svg') 0 350px no-repeat;
-    a {
-      color: $primary-color;
-      text-decoration: none;
-    }
 }
 
-.page-section.page-section--no-bg {
+.page-section--no-bg {
   background: none;
-    a {
-      color: $primary-color;
-      text-decoration: none;
-    }
+}
+
+.page-section--gray-subsection1 {
+  background-color: $gray;
+  background-size: cover;
+  margin-bottom: $spacer * 3;
+  box-shadow: $page-section-with-bg-pattern-shadow;
+}
+
+.page-section--darkgray-subsection1 {
+  background: linear-gradient(to bottom, darken($darker-gray, 3%) 0%, darken($darker-gray, 1%) 100%);
+  background-size: cover;
+  margin-bottom: $spacer * 3;
+}
+
+.page-section--polygon-subsection1 {
+  background: url('../../static/img/polygon_texture_blue.jpg') 0 0 repeat;
+  background-size: cover;
+  padding: rem-calc(30 0);
+  margin-bottom: $spacer * 3;
+  box-shadow: $page-section-with-bg-pattern-shadow;
+}
+
+.page-section--polygon-subsection2 {
+  background: url('../../static/img/polygon_texture_black.jpg') 0 0 repeat;
+  background-size: cover;
+  padding: rem-calc(30 0);
+  margin-bottom: $spacer * 3;
+  box-shadow: $page-section-with-bg-pattern-shadow;
+}
+
+// To allow preceeding section to crash into the bottom (used for callout boxes)
+// -------------------------------------------------------------------------
+.page-section--no-bottom {
+  margin-bottom: 0px;
 }
 
 // Section
@@ -71,6 +209,10 @@
 
 .page-section {
   padding: rem-calc(20 0 0 0);
+}
+
+.page-section__padded {
+  padding: rem-calc(20 0);
 }
 
 .page-section__headline {
@@ -85,6 +227,16 @@
   @include at-least(small) {
     padding: rem-calc(30 0);
     font-size: $font-size-mega;
+  }
+}
+
+.page-section__headline-img {
+  display: block;
+  margin: 0 auto rem-calc(30);
+  &--huge {
+    width: 50%;
+    margin-top: rem-calc(70);
+    margin-bottom: rem-calc(50);
   }
 }
 
@@ -106,6 +258,46 @@
   margin-bottom: 3.125rem;
 }
 
+.page-section__margin-bottom {
+  margin-bottom: rem-calc(50);
+}
+
+
+.page-section__properties--hr {
+  position: relative;
+  width: 70%;
+  margin: rem-calc(20) auto;
+  padding: rem-calc(20 0);
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: rem-calc(1);
+    background: $orange-gradient;
+    content: '';
+  }
+
+  &::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: rem-calc(1);
+    background: $orange-gradient;
+    content: '';
+  }
+
+  img {
+    margin: rem-calc(0 40);
+  }
+  h5 {
+    margin: 0;
+    padding: 0;
+    color: $white;
+  }
+}
 
 .page-section__subhead {
   margin: rem-calc(0 0 50);
@@ -120,6 +312,22 @@
   font-weight: 700;
 }
 
+.page-section__callout {
+  h3 {
+    font-size: $font-size-alpha;
+    font-style: italic;
+    font-weight: 400;
+    color: $white;
+  }
+  p {
+    margin: rem-calc(0 0 24 0);
+    font-size: $font-size-gamma;
+    color: $white;
+    font-weight: 400;
+  }
+}
+
+.page-section__title > b,
 .page-section__headline > b,
 .page-section__subhead > b {
   color: $primary-color;
@@ -127,11 +335,26 @@
 }
 
 .page-section__title {
-  margin: rem-calc(24 0);
+  @extend .h4;
+}
+
+.page-section__title2 {
+  @extend .h5;
+}
+
+.page-section__subtitle {
+  margin: -($spacer/2) 0 $spacer 0;
+  font-size: $font-size-gamma;
   color: $white;
-  font-size: rem-calc(24);
-  font-style: italic;
   font-weight: 400;
+
+  &--short-rag {
+    max-width: 850px;
+  }
+}
+
+h4.page-section__title {
+  font-size: $font-size-alpha;
 }
 
 .page-section__title--with-copy {
@@ -146,12 +369,29 @@
   display: block;
 }
 
-.page-section__title .btn {
-  font-style: initial;
-  color: $white;
+.page-section__note {
+  font-size: 90%;
+  strong {
+    color: $white;
+  }
 }
 
+.page-section__note-icon {
+  margin-left: rem-calc(5);
+  vertical-align: middle;
+}
 
+.page-section__title .btn {
+  font-style: initial;
+}
+
+.page-section__center-padded {
+  text-align: center;
+
+  @include at-least(small) {
+    padding: rem-calc(0 50);
+  }
+}
 
 // Body
 // -------------------------------------------------------------------------
@@ -162,10 +402,6 @@
 .page-content {
   color: $white;
   font-size: rem-calc(14);
-  & a {
-      color: $primary-color;
-      text-decoration: none;
-    }
 }
 
 .page-sidebar {
@@ -204,70 +440,30 @@
   }
 }
 
-.nice-form {
-  label {
-    display: block;
-    cursor: pointer;
-
-    .radio-overlay, .checkbox-overlay {
-      display:inline-block;
-      margin: 5px 5px 0 0;
-      width: 20px;
-      height: 20px;
-      border-radius: 12px;
-      cursor: pointer;
-      vertical-align: bottom;
-      // box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;
-      box-shadow: -1px -1px 0px 0px rgba(0, 0, 0, 0.3), 1px 1px 0px 0px rgba(255, 255, 255, 0.065);
-      background: $darker-gray;
-      outline: none;
-    }
-
-    .checkbox-overlay {
-      border-radius: 0;
-    }
-
-    input {
-        display: none;
-    }
-
-    input[type="radio"]:checked + span:before {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      display: block;
-      content: "";
-      background-position: 0 0;
-      background-image: -webkit-radial-gradient(rgba(247,148,29,1) 0%, rgba(247,148,29,1) 15%, rgba(247,148,29,0.3) 28%, rgba(247,148,29,0) 70% );
-      background-image: -o-radial-gradient(rgba(247,148,29,1) 0%, rgba(247,148,29,1) 15%, rgba(247,148,29,0.3) 28%, rgba(247,148,29,0) 70% );
-      background-image: -moz-radial-gradient(rgba(247,148,29,1) 0%, rgba(247,148,29,1) 15%, rgba(247,148,29,0.3) 28%, rgba(247,148,29,0) 70% );
-      background-image: radial-gradient(rgba(247,148,29,1) 0%, rgba(247,148,29,1) 15%, rgba(247,148,29,0.3) 28%, rgba(247,148,29,0) 70% );
-      background-repeat: no-repeat;
-    }
-
-    input[type="checkbox"]:checked + span:before {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      display: block;
-      content: "";
-      background-position: 0 0;
-      background-image: url("../../static/img/check.svg");
-      background-repeat: no-repeat;
-    }
+.page-sidebar button {
+  margin: rem-calc(0 0 20);
+  @include at-least(small) {
+    margin: rem-calc(0 0 40);
   }
 }
-
-.page-sidebar a {
-  color: $secondary-color;
-  text-decoration: none;
-}
-
 
 .sidebar-subnav--active {
   a {
-  font-weight: 600;
-  color: $primary-color;
+    font-weight: 600;
   }
 }
 
+.page-sidebar--copy-section {
+  margin-top: rem-calc(40);
+  h4 {
+    margin-bottom: 0;
+  }
+}
+
+.page-sidebar--copy {
+  max-width: rem-calc(225);
+  margin-top: 0;
+  color: $medium-gray;
+  font-size: rem-calc(14);
+  line-height: rem-calc(18);
+}
