@@ -76,6 +76,7 @@ module.exports = function(grunt) {
           base: "dist",
           livereload: port+1,
           keepalive: true,
+          debug: true,
         }
       }
     },
@@ -114,6 +115,16 @@ module.exports = function(grunt) {
         src: ["*.css"],
         dest: "dist/css"
       }
+    },
+
+    htmlmin: {                                     // Task
+      dist: {                                      // Target
+        options: {                                 // Target options
+          removeComments: true,
+          collapseWhitespace: true
+        },
+        files: [{expand: true, cwd: 'dist', src: ['**/*.html'], dest: 'dist'}],
+      },
     },
 
     uglify: {
@@ -221,6 +232,7 @@ module.exports = function(grunt) {
     "babel",
     "systemjs",
     "concat",
+    "htmlmin",
   ]);
 
   grunt.registerTask("default", [

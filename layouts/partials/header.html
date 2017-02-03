@@ -40,7 +40,6 @@
 		<!-- endbuild -->
 
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
 
 		<meta name="Copyright" content="Raintank Inc." />
 
@@ -75,7 +74,7 @@
 		</script>
 	</head>
 
-	<body class="{{ if .Params.body_class }}{{ .Params.body_class }}{{ end }} section-{{ if .IsPage }}{{ .Type }}{{ end }}">
+	<body class="{{ if .Params.body_class }}{{ .Params.body_class }}{{ end }} section-{{ if .IsPage }}{{ .Type }}{{ end }} section ">
 
 		{{ partial "navbar.html" . }}
 

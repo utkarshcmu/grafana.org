@@ -1,40 +1,37 @@
 {{ partial "header.html" . }}
 
-<div class="page-letterhead page-letterhead--graphs">
+<div class="page-letterhead">
 	<div class="wrapper">
-		<h1 class="page-letterhead__heading">Blog Archive</h1>
+		<h1 class="page-letterhead__heading">Blog</h1>
 	</div>
 </div>
 
-<div class="page-content row">
-	<a class="right" href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
-		RSS <i class="fa fa-rss"></i>
-	</a>
-
-	<div class="large-12 columns">
-		{{ range .Data.Pages.GroupByDate "2006" }}
-		<h2>{{ .Key }}</h2>
-		<ul id="list">
-			{{ range .Pages }}
-				<article>
-					<h1>
-						<a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-					</h1>
-					<time>
-						<span class="month">{{ .Date | dateFormat "Jan" }}</span> <!-- print publish month -->
-						<span class="day">{{ .Date | dateFormat "2" }}</span> <!-- print publish day -->
-					</time>
-					<!-- if you want pages summary you can print it here {{ .Summary }} -->
-				</article>
-				{{ end }}
-		</ul>
+<div class="wrapper">
+	<div class="large-9 columns image-shadows">
+		{{ range first 10 .Data.Pages }}
+			{{ .Render "li"}}
 		{{ end }}
+
+		<hr>
+		<div class="row">
+			<div class="small-3 columns"></div>
+			<div class="small-9 columns">
+				<a class="button secondary radius hollow" href="/blog">Blog Archive</a>
+			</div>
+		</div>
 	</div>
 
-	<br>
-	<br>
+	<div class="large-3 columns">
+		<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+			RSS <i class="fa fa-rss"></i>
+		</a>
+		<hr>
+
+		{{ partial "category_list.html" . }}
+	</div>
 
 </div>
+
 
 <style>
 .page-header-bg {
