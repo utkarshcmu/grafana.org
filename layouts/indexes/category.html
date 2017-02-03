@@ -1,34 +1,33 @@
 {{ partial "header.html" . }}
 
-<div class="page-header">
-	<div class="page-header-bg"></div>
-	<div class="row">
-		<div class="large-12 columns">
-			<h1>Blog</h1>
-		</div>
-	</div>
-	<div class="row">
-		<div class="small-9 columns">
-			<h5 class="subheader">
-				Category: {{ .Title | title }}
-			</h5>
-		</div>
+<div class="page-letterhead">
+	<div class="wrapper">
+		<h1 class="page-letterhead__heading">Blog</h1>
+		<h2 class="page-letterhead__subheading">
+			Category: {{ .Title | title }}
+			<a class="blog-rss-link" href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+				RSS <i class="fa fa-rss"></i>
+			</a>
+		</h2>
 	</div>
 </div>
 
-<div class="page-content row">
-	<div class="large-9 columns image-shadows">
-		{{ range .Data.Pages }}
-			{{ .Render "li" }}
-		{{ end}}
-	</div>
-	<div class="large-3 columns">
-		<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
-			RSS <i class="fa fa-rss"></i>
-		</a>
-		<hr>
+<div class="wrapper">
+	<div class="row row--no-gutters">
+		<div class="col col--md-9">
+			{{ range .Data.Pages }}
+				{{ .Render "li" }}
+			{{ end}}
+		</div>
 
-		{{ partial "category_list.html" . }}
+		<div class="col col--md-3">
+			<div class="blog-aside">
+				<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+					RSS <i class="fa fa-rss"></i>
+				</a>
+				{{ partial "category_list.html" . }}
+			</div>
+		</div>
 	</div>
 </div>
 

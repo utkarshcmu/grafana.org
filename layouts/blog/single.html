@@ -24,25 +24,27 @@
 			{{ partial "disqus.html" . }}
 		</div>
 		<div class="col col--md-3">
-			<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
-				RSS <i class="fa fa-rss"></i>
-			</a>
-			<br>
-			<br>
+			<div class="blog-aside">
+				<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+					RSS <i class="fa fa-rss"></i>
+				</a>
+				<br>
+				<br>
 
-			<h5>Recent Posts</h5>
+				<h5 class="blog-aside__heading">Recent Posts</h5>
 
-			{{ range first 5 .Site.Pages }}
-			{{if eq .Section "blog" }}
-				<div class="summary">
-					<h5><a href="{{ .RelPermalink }}">{{ .Title }}</a></h5>
-				</div>
+				{{ range first 5 .Site.Pages }}
+				{{if eq .Section "blog" }}
+					<div class="summary">
+						<h6><a href="{{ .RelPermalink }}">{{ .Title }}</a></h6>
+					</div>
+					{{ end }}
 				{{ end }}
-			{{ end }}
 
-			<hr>
+				<hr>
 
-			{{ partial "category_list.html" . }}
+				{{ partial "category_list.html" . }}
+			</div>
 		</div>
 	</div>
 </div>
