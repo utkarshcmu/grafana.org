@@ -1,17 +1,17 @@
 <article class="blog-list-item">
-	<h2>
+	<h2 class="blog-list-item__heading">
 		<a href="{{ .Permalink }}"> {{ .Title }}</a>
 	</h2>
 	<hr>
 
-	<div class="row">
-		<div class="small-3 columns">
-			<h5 class="blog-lite-item--byline">
+	<div class="row row--no-gutters">
+		<div class="col col--sm-3">
+			<div class="blog-lite-item--byline">
 				{{ .Date.Format "2 Jan 2006" }}<br>
 				<a href="#">{{ .Params.author }}</a>
-			</h5>
+			</div>
 		</div>
-		<div class="small-9 columns">
+		<div class="col col--sm-9">
 			{{ if isset .Params "list_image" }}
 			<p>
 				<img src="{{ .Params.list_image }}"></img>
@@ -21,7 +21,7 @@
 			<p>
 				{{ .Summary }}
 			</p>
-			<a class="button secondary radius hollow" href="{{ .Permalink }}">Read Full Post</a>
+			<a class="btn btn-outline" href="{{ .Permalink }}">Read Full Post</a>
 		</div>
 	</div>
 </article>

@@ -16,3 +16,44 @@ q.quote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
+.blog-list-item {
+  margin-bottom: $spacer*2;
+}
+
+.blog-list-item__heading {
+  a {
+    color: $headings-color;
+  }
+}
+
+.blog-aside {
+  padding-left: $spacer*2;
+}
+
+.blog-category-list {
+
+}
+
+.blog-categories__item {
+  font-size: $font-size-delta;
+  display: inline-block;
+  margin: 0 $spacer/2 $spacer/3 0;
+
+  a {
+    color: $off-white;
+    padding: $spacer/2;
+    background: $darker-gray2;
+    border-radius: 5px;
+    display: inline-block;
+
+    &:hover {
+      background: $darker-gray;
+      color: $white;
+    }
+  }
+}
+
+.blog-rss-link {
+  font-size: $font-size-delta;
+}

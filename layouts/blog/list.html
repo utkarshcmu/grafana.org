@@ -7,27 +7,28 @@
 </div>
 
 <div class="wrapper">
-	<div class="large-9 columns image-shadows">
-		{{ range first 10 .Data.Pages }}
-			{{ .Render "li"}}
-		{{ end }}
-
-		<hr>
-		<div class="row">
-			<div class="small-3 columns"></div>
-			<div class="small-9 columns">
-				<a class="button secondary radius hollow" href="/blog">Blog Archive</a>
+	<div class="row">
+		<div class="col col--md-9">
+			{{ range first 10 .Data.Pages }}
+				{{ .Render "li"}}
+			{{ end }}
+			<hr>
+			<div class="row">
+				<div class="col col--sm-3"></div>
+				<div class="col col--sm-9">
+					<a class="btn btn--outline" href="/blog">Blog Archive</a>
+				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="large-3 columns">
-		<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
-			RSS <i class="fa fa-rss"></i>
-		</a>
-		<hr>
+		<div class="col col--3-md">
+			<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+				RSS <i class="fa fa-rss"></i>
+			</a>
+			<hr>
 
-		{{ partial "category_list.html" . }}
+			{{ partial "category_list.html" . }}
+		</div>
 	</div>
 
 </div>

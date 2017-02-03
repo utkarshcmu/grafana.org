@@ -25,7 +25,7 @@ module.exports = function(grunt) {
       },
       content: {
         files: ["content/**/*", "layouts/**/*", "config.toml"],
-        tasks: ["hugo"],
+        tasks: ["hugo", "htmlmin"],
         options: {spawn: false},
       },
       sass: {
