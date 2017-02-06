@@ -2,7 +2,6 @@ module.exports = function(grunt) {
 
   require("load-grunt-tasks")(grunt);
 
-  grunt.loadNpmTasks("grunt-execute");
   grunt.loadNpmTasks("grunt-contrib-clean");
 
   var env = grunt.option('env') || "dev";
@@ -169,6 +168,11 @@ module.exports = function(grunt) {
     switch (env) {
       case 'dev':
         args.push("--baseUrl=http://localhost:3002");
+        args.push("--buildDrafts=true");
+        args.push("--buildFuture=true");
+        break;
+      case 'dev-docs':
+        args.push("--baseUrl=http://localhost:3004");
         args.push("--buildDrafts=true");
         args.push("--buildFuture=true");
         break;
