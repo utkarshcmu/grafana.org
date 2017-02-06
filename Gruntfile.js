@@ -174,28 +174,13 @@ module.exports = function(grunt) {
         break;
       case 'staging':
         args.push("--buildDrafts=true");
-        args.push("--baseUrl=http://staging-docs.grafana.org/");
-        break;
-      case 'dev-docs':
-        args.push("--baseUrl=http://localhost:3004");
-        args.push("--buildDrafts=true");
-        args.push("--buildFuture=true");
-        break;
-      case 'dev-docs-mac':
-        args.push("--baseUrl=http://192.168.99.100:3004");
-        args.push("--buildDrafts=true");
-        args.push("--buildFuture=true");
-        break;
-      case 'staging-docs':
-        args.push("--buildDrafts=true");
-        args.push("--buildFuture=true");
-        args.push("--baseUrl=http://staging-docs.grafana.org/" + docsVersion);
+        args.push("--baseUrl=http://blog-staging.grafana.com.s3-website-us-west-2.amazonaws.com");
         break;
       case 'prod':
-        args.push("--baseUrl=http://grafana.org");
+        args.push("--baseUrl=http://blog.grafana.com.s3-website-us-west-2.amazonaws.com");
         break;
       case 'prod-docs':
-        args.push("--baseUrl=http://docs.grafana.org/" + docsVersion);
+        args.push("--baseUrl=http://docs.grafana.com.s3-website-us-west-2.amazonaws.com/" + docsVersion);
         break;
     }
 
