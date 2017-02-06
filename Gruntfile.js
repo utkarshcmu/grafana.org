@@ -174,7 +174,7 @@ module.exports = function(grunt) {
         break;
       case 'staging':
         args.push("--buildDrafts=true");
-        args.push("--baseUrl=http://blogtest.grafana.com.s3-website-us-west-2.amazonaws.com");
+        args.push("--baseUrl=http://staging-docs.grafana.org/");
         break;
       case 'dev-docs':
         args.push("--baseUrl=http://localhost:3004");
