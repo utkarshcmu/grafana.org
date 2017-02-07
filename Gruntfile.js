@@ -188,7 +188,8 @@ module.exports = function(grunt) {
       case 'staging-docs':
         args.push("--buildDrafts=true");
         args.push("--baseUrl=http://staging-docs.grafana.org/" + docsVersion);
-     case 'prod-docs':
+        break;
+      case 'prod-docs':
         args.push("--baseUrl=http://docs.grafana.org" + docsVersion);
         break;
     }
