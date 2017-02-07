@@ -184,7 +184,7 @@ module.exports = function(grunt) {
         args.push("--baseUrl=http://blog.grafana.com.s3-website-us-west-2.amazonaws.com");
         break;
       case 'prod-docs':
-        args.push("--baseUrl=http://docs.grafana.com.s3-website-us-west-2.amazonaws.com/" + docsVersion);
+        args.push("--baseUrl=http://docs.grafana.com.s3-website-us-west-2.amazonaws.com");
         break;
     }
 
