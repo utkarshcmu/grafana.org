@@ -221,7 +221,6 @@ module.exports = function(grunt) {
     "babel",
     "systemjs",
     "concat",
-    "htmlmin",
   ]);
 
   grunt.registerTask("default", [
@@ -237,6 +236,7 @@ module.exports = function(grunt) {
     "uglify",
     "filerev",
     "usemin",
+    "htmlmin",
   ]);
 
 };
