@@ -6,10 +6,10 @@ export function buildFetcher() {
     return 0;
   };
 
-  var bucket = new AWS.S3({params: {Bucket: 'grafanarel'}});
+  var bucket = new AWS.S3({params: {Bucket: 'grafana-releases'}});
 
 
-  bucket.makeUnauthenticatedRequest('listObjects', {Prefix: 'builds/grafana'}, function (err, data) {
+  bucket.makeUnauthenticatedRequest('listObjects', {Prefix: 'master'}, function (err, data) {
     if (!data || !data.Contents) {
       return;
     }
@@ -44,9 +44,8 @@ export function buildFetcher() {
         type = "Unknown build";
       }
 
-      var link = '<a href="https://grafanarel.s3.amazonaws.com/' + file.key + '">' + file.key.substring(7) + '</a>';
-      var shaLink = '<a href="https://grafanarel.s3.amazonaws.com/' + file.key + '.sha1">sha1</a>';
-
+      var link = '<a href="https://s3-us-west-2.amazonaws.com/grafana-releases/' + file.key + '">' + file.key.substring(7) + '</a>';
+      var shaLink = '<a href="https://s3-us-west-2.amazonaws.com/grafana-releases/' + file.key + '.sha1">sha1</a>';
       var tr = $('<tr></tr>');
       tr.append('<td>' + type + '</td>');
       tr.append('<td>' + link + '</td>');
