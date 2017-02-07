@@ -1,5 +1,61 @@
 
+
 p {
   margin: 0 0 1rem 0;
   text-rendering: optimizeLegibility;
 }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid $black;
+  margin-bottom: 1.25rem;
+  table-layout: auto;
+
+  th {
+    background: $darker-gray2;
+    text-align: left;
+    padding: .5rem .625rem .625rem;
+  }
+
+  td  {
+    padding: .5625rem .625rem;
+  }
+}
+
+
+code {
+  white-space: nowrap;
+  background-color: $darker-gray2;
+  border-color: $black;
+  border-style: solid;
+  border-width: 1px;
+  color: $white;
+  font-family: Consolas,"Liberation Mono",Courier,monospace;
+  font-weight: 400;
+  padding: .125rem .3125rem .0625rem;
+}
+
+pre,
+pre[class*="language-"] {
+  background-color: $darker-gray2;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  padding: 0.8rem;
+  font-size: 90%;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+
+  code {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: $text-color;
+    font-weight: 100;
+    white-space: pre;
+    white-space: pre-wrap;
+  }
+}
+
