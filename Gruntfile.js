@@ -9,7 +9,9 @@ module.exports = function(grunt) {
   var docsVersion = grunt.option('docsVersion') || 'latest';
 
   if (docsVersion === 'root') {
-    docsVersion = "/";
+    docsVersion = "";
+  } else {
+    docsVersion = "/" + docsVersion;
   }
 
   grunt.initConfig({
@@ -184,7 +186,7 @@ module.exports = function(grunt) {
         args.push("--baseUrl=http://blog.grafana.com.s3-website-us-west-2.amazonaws.com");
         break;
       case 'prod-docs':
-        args.push("--baseUrl=http://docs.grafana.com.s3-website-us-west-2.amazonaws.com");
+        args.push("--baseUrl=http://docs.grafana.com.s3-website-us-west-2.amazonaws.com" + docsVersion);
         break;
     }
 

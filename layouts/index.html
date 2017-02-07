@@ -1,9 +1,9 @@
+{{ range where .Data.Pages "Type" "index" }}
 {{ partial "header.html" . }}
-
-<div class="page-letterhead">
-	<div class="wrapper">
-		<h1 class="page-letterhead__heading">Docs & Blog Site</h1>
-	</div>
-</div>
-
+{{ .Content }}
 {{ partial "footer.html" . }}
+{{ end }}
+{{ range where .Data.Pages "Title" "Grafana Documentation Site" }}
+	{{ template "docs/single.html" . }}
+{{end}}
+
