@@ -8,8 +8,8 @@
 	{{ $.Scratch.Set "docsUrl" "http://localhost:3002/docs"}}
 {{ end }}
 
-{{ if hasPrefix $baseUrl "http://blogtest" }}
-	{{ $.Scratch.Set "navBaseUrl" "http://blogtest.grafana.com.s3-website-us-west-2.amazonaws.com"}}
+{{ if hasPrefix $baseUrl "http://staging" }}
+	{{ $.Scratch.Set "navBaseUrl" "http://grafana-net.raintank.io"}}
 	{{ $.Scratch.Set "docsUrl" "http://staging-docs.grafana.org"}}
 {{ end }}
 
@@ -36,33 +36,33 @@
 				<nav class="site-nav">
 					<ul class="ui-list">
 						<li class="site-nav__item site-nav__item--home">
-							<a class="site-nav__link" href="/">Home</a>
+							<a class="site-nav__link" href="{{ $navBaseUrl }}">Home</a>
 						</li>
 						<li class="site-nav__item site-nav__item--text">
-							<a class="site-nav__link" href="/grafana">What is Grafana?</a>
+							<a class="site-nav__link" href="{{ $navBaseUrl }}/grafana">What is Grafana?</a>
 						</li>
 						<li class="site-nav__item site-nav__item--text site-nav__item--dropdown">
 							<div class="site-nav-dropdown__toggle">
-								<a class="site-nav__link" href="/services/support">Services</a>
+								<a class="site-nav__link" href="{{ $navBaseUrl }}/services/support">Services</a>
 							</div>
 							<ul class="site-nav-dropdown__menu ui-list">
 								<li class="site-nav__item site-nav__item--text">
-									<a class="site-nav__link" href="/services/support">Support</a>
+									<a class="site-nav__link" href="{{ $navBaseUrl }}/services/support">Support</a>
 								</li>
 								<li class="site-nav__item site-nav__item--text">
-									<a class="site-nav__link" href="/services/training">Training</a>
+									<a class="site-nav__link" href="{{ $navBaseUrl }}/services/training">Training</a>
 								</li>
 							</ul>
 						</li>
 						<li class="site-nav__item site-nav__item--text">
-							<a class="site-nav__link" href="/dashboards">Dashboards</a>
+							<a class="site-nav__link" href="{{ $navBaseUrl }}/dashboards">Dashboards</a>
 						</li>
 						<li class="site-nav__item site-nav__item--text">
-							<a class="site-nav__link" href="/plugins">Plugins</a>
+							<a class="site-nav__link" href="{{ $navBaseUrl }}/plugins">Plugins</a>
 						</li>
 						<li class="site-nav__item">
 							<span class="site-nav__btn">
-								<a class="btn btn--primary" href="/get">Get Grafana</a>
+								<a class="btn btn--primary" href="{{ $navBaseUrl }}/get">Get Grafana</a>
 							</span>
 						</li>
 					</ul>
@@ -70,22 +70,22 @@
 				<nav class="site-nav site-nav--top">
 					<ul class="ui-list">
 						<li class="site-nav__item site-nav__item--text">
-							<a class="site-nav__link" href="/about">About</a>
+							<a class="site-nav__link" href="{{ $navBaseUrl }}/about">About</a>
 						</li>
 						<li class="site-nav__item site-nav__item--text">
-							<a class="site-nav__link" href="/docs">Docs</a>
+							<a class="site-nav__link" href="{{ $docsUrl }}/docs">Docs</a>
 						</li>
 						<li class="site-nav__item site-nav__item--text" data-reactid="42">
-							<a class="site-nav__link" href="/grafana/community" data-reactid="43">Community</a>
+							<a class="site-nav__link" href="{{ $navBaseUrl }}/grafana/community" data-reactid="43">Community</a>
 						</li>
 						<li class="site-nav__item site-nav__item--text" data-reactid="44">
-							<a class="site-nav__link" href="/about/events" data-reactid="45">Events</a>
+							<a class="site-nav__link" href="{{ $navBaseUrl }}/about/events" data-reactid="45">Events</a>
 						</li>
 						<li class="site-nav__item site-nav__item--text" data-reactid="46">
-							<a class="site-nav__link" href="/blog" data-reactid="47">Blog</a>
+							<a class="site-nav__link" href="{{ $navBaseUrl }}/blog" data-reactid="47">Blog</a>
 						</li>
-						<li class="site-nav__item site-nav__item--text"><a class="site-nav__link" href="/signup">Sign Up</a></li>
-						<li class="site-nav__item site-nav__item--text"><a class="site-nav__link" href="/login">Log In</a></li>
+						<li class="site-nav__item site-nav__item--text"><a class="site-nav__link" href="{{ $navBaseUrl }}/signup">Sign Up</a></li>
+						<li class="site-nav__item site-nav__item--text"><a class="site-nav__link" href="{{ $navBaseUrl }}/login">Log In</a></li>
 					</ul>
 				</nav>
 			</div>

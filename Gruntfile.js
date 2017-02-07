@@ -179,9 +179,13 @@ module.exports = function(grunt) {
         args.push("--buildFuture=true");
         break;
       case 'staging':
-        args.push("--buildDrafts=true");
-        args.push("--baseUrl=http://blog-staging.grafana.com.s3-website-us-west-2.amazonaws.com");
+        args.push("--builddrafts=true");
+        args.push("--baseurl=http://blog-staging.grafana.com.s3-website-us-west-2.amazonaws.com");
         break;
+      case 'staging-docs':
+        args.push("--buildDrafts=true");
+        args.push("--buildFuture=true");
+        args.push("--baseUrl=http://staging-docs.grafana.org/" + docsVersion);
       case 'prod':
         args.push("--baseUrl=http://blog.grafana.com.s3-website-us-west-2.amazonaws.com");
         break;

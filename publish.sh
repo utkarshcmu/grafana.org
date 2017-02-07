@@ -15,11 +15,11 @@ if [ "$env" == "prod" ]; then
 fi;
 
 if [ "$env" == "prod-docs" ]; then
-  AWS_S3_BUCKET=docs.grafana.com
+  AWS_S3_BUCKET=docs.grafana.org
 fi;
 
 if [ "$env" == "staging" ]; then
-  AWS_S3_BUCKET=blog-staging.grafana.com
+  AWS_S3_BUCKET=staging-docs.grafana.org
 fi;
 
 docsVersion=""
