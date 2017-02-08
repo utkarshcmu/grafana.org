@@ -8,17 +8,19 @@ if [ "$1" != "" ]; then
 fi;
 
 
-AWS_S3_BUCKET=$env.grafana.org
+if [ "$env" == "staging" ]; then
+  AWS_S3_BUCKET=staging-blog.grafana.com
+fi;
 
 if [ "$env" == "prod" ]; then
-  AWS_S3_BUCKET=blog.grafana.com
+  aws_s3_bucket=blog.grafana.com
 fi;
 
 if [ "$env" == "prod-docs" ]; then
   AWS_S3_BUCKET=docs.grafana.org
 fi;
 
-if [ "$env" == "staging" ]; then
+if [ "$env" == "staging-docs" ]; then
   AWS_S3_BUCKET=staging-docs.grafana.org
 fi;
 
@@ -88,6 +90,6 @@ upload_s3() {
   aws s3 cp $src $dst --recursive --exclude "bower/*" --exclude "videos" --profile $BUCKET --cache-control $cache --acl public-read $encoding
 }
 
-# setup_s3
+setup_s3
 grunt build $grunt_param
 upload_s3

@@ -180,7 +180,7 @@ module.exports = function(grunt) {
         break;
       case 'staging':
         args.push("--buildDrafts=true");
-        args.push("--baseurl=http://blog-staging.grafana.com.s3-website-us-west-2.amazonaws.com");
+        args.push("--baseUrl=http://staging-blog.grafana.com.s3-website-us-west-2.amazonaws.com");
         break;
       case 'prod':
         args.push("--baseUrl=http://blog.grafana.com.s3-website-us-west-2.amazonaws.com");

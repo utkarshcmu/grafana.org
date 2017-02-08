@@ -1,5 +1,22 @@
 </div>
 
+{{ $.Scratch.Set "navBaseUrl" "https://grafana.com" }}
+{{ $.Scratch.Set "docsUrl" "http://docs.grafana.org" }}
+{{ $baseUrl := (printf "%v" $.Site.BaseURL) }}
+
+{{ if hasPrefix $baseUrl "http://localhost" }}
+	{{ $.Scratch.Set "navBaseUrl" "http://localhost"}}
+	{{ $.Scratch.Set "docsUrl" "http://localhost:3004"}}
+{{ end }}
+
+{{ if hasPrefix $baseUrl "http://staging" }}
+	{{ $.Scratch.Set "navBaseUrl" "http://grafana-net.raintank.io"}}
+	{{ $.Scratch.Set "docsUrl" "http://staging-docs.grafana.org"}}
+{{ end }}
+
+{{ $navBaseUrl := .Scratch.Get "navBaseUrl" }}
+{{ $docsUrl := .Scratch.Get "docsUrl" }}
+
 <div class="page-footer wrapper" data-reactid="166">
    <div class="page-footer__nav" data-reactid="167">
       <div class="page-footer__col page-footer__col--left" data-reactid="168">
@@ -8,9 +25,15 @@
                <li class="site-nav__item site-nav__item--heading" data-reactid="171">
                   <h4 data-reactid="172">Grafana</h4>
                </li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="173"><a class="site-nav__link site-nav__link--discrete" href="/grafana" data-reactid="174">Features</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="175"><a class="site-nav__link site-nav__link--discrete" href="/grafana/testimonials" data-reactid="176">Testimonials</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="177"><a class="site-nav__link site-nav__link--discrete" href="/grafana/contribute" data-reactid="178">Contribute</a></li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="173">
+								 <a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/grafana" data-reactid="174">Features</a>
+							 </li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="175">
+								 <a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/grafana/testimonials" data-reactid="176">Testimonials</a>
+							 </li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="177">
+								 <a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/grafan/contribute" data-reactid="178">Contribute</a>
+							 </li>
             </ul>
          </nav>
          <nav class="site-nav" data-reactid="179">
@@ -18,8 +41,12 @@
                <li class="site-nav__item site-nav__item--heading" data-reactid="181">
                   <h4 data-reactid="182">Services</h4>
                </li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="183"><a class="site-nav__link site-nav__link--discrete" href="/services/support" data-reactid="184">Enterprise Support</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="185"><a class="site-nav__link site-nav__link--discrete" href="/services/training" data-reactid="186">Training</a></li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="183">
+								 <a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/services/support" data-reactid="184">Enterprise Support</a>
+							 </li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="185">
+								 <a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/services/training" data-reactid="186">Training</a>
+							 </li>
             </ul>
          </nav>
          <nav class="site-nav" data-reactid="187">
@@ -27,11 +54,21 @@
                <li class="site-nav__item site-nav__item--heading" data-reactid="189">
                   <h4 data-reactid="190">Plugins</h4>
                </li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="191"><a class="site-nav__link site-nav__link--discrete" href="/plugins?type=panel" data-reactid="192">Panels</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="193"><a class="site-nav__link site-nav__link--discrete" href="/plugins?type=datasource" data-reactid="194">Data Sources</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="195"><a class="site-nav__link site-nav__link--discrete" href="/plugins?type=app" data-reactid="196">Apps</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="197"><a class="site-nav__link site-nav__link--discrete" href="/dashboards" data-reactid="198">Dashboards</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="199"><a class="site-nav__link site-nav__link--discrete" href="/dashboards" data-reactid="200">Collectors</a></li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="191">
+								 <a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/plugins?type=panel" data-reactid="192">Panels</a>
+							 </li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="193">
+								 <a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/plugins?type=datasource" data-reactid="194">Data Sources</a>
+							 </li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="195">
+								 <a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/plugins?type=app" data-reactid="196">Apps</a>
+							 </li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="197">
+								 <a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/dashboards" data-reactid="198">Dashboards</a>
+							 </li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="199">
+								 <a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/dashboards" data-reactid="200">Collectors</a>
+							 </li>
             </ul>
          </nav>
       </div>
@@ -41,11 +78,11 @@
                <li class="site-nav__item site-nav__item--heading" data-reactid="204">
                   <h4 data-reactid="205">About Us</h4>
                </li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="206"><a class="site-nav__link site-nav__link--discrete" href="/about/mission" data-reactid="207">Our Mission</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="208"><a class="site-nav__link site-nav__link--discrete" href="/about/team" data-reactid="209">The Team</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="210"><a class="site-nav__link site-nav__link--discrete" href="/about/events" data-reactid="211">Events</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="212"><a class="site-nav__link site-nav__link--discrete" href="/about/press" data-reactid="213">Press</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="214"><a class="site-nav__link site-nav__link--loud" href="/about/hiring" data-reactid="215">We're Hiring!</a></li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="206"><a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/about/mission" data-reactid="207">Our Mission</a></li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="208"><a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/about/team" data-reactid="209">The Team</a></li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="210"><a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/about/events" data-reactid="211">Events</a></li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="212"><a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/about/press" data-reactid="213">Press</a></li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="214"><a class="site-nav__link site-nav__link--loud" href="{{ $navBaseUrl }}/about/hiring" data-reactid="215">We're Hiring!</a></li>
             </ul>
          </nav>
          <nav class="site-nav" data-reactid="216">
@@ -53,8 +90,8 @@
                <li class="site-nav__item site-nav__item--heading" data-reactid="218">
                   <h4 data-reactid="219">Support</h4>
                </li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="220"><a class="site-nav__link site-nav__link--discrete" href="/docs" data-reactid="221">Docs</a></li>
-               <li class="site-nav__item site-nav__item--text" data-reactid="222"><a class="site-nav__link site-nav__link--discrete" href="/blog" data-reactid="223">Blog</a></li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="220"><a class="site-nav__link site-nav__link--discrete" href="{{ $docsUrl }}" data-reactid="221">Docs</a></li>
+               <li class="site-nav__item site-nav__item--text" data-reactid="222"><a class="site-nav__link site-nav__link--discrete" href="{{ $navBaseUrl }}/blog" data-reactid="223">Blog</a></li>
             </ul>
          </nav>
          <nav class="site-nav" data-reactid="224">
