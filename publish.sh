@@ -87,9 +87,16 @@ upload_s3() {
   exclude="--exclude *"
   encoding=''
 
-  aws s3 cp $src $dst --recursive --exclude "bower/*" --exclude "videos" --profile $BUCKET --cache-control $cache --acl public-read $encoding
+  aws s3 cp $src $dst --recursive \
+    --exclude "bower/*" \
+    --exclude "videos" \
+    --exclude "sass/*" \
+    --profile $BUCKET  \
+    --cache-control $cache \
+    --acl public-read $encoding
+  #aws s3 cp $src $dst --recursive --exclude "bower/*" --exclude "videos" --exclude="img/*" --exclude="assets/*" --profile $BUCKET --cache-control $cache --acl public-read $encoding
 }
 
-setup_s3
+#setup_s3
 grunt build $grunt_param
 upload_s3
