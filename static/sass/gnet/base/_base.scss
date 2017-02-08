@@ -38,6 +38,12 @@ hr {
   margin: $hr-margin 0 ($hr-margin - rem-calc($hr-border-width));
 }
 
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
 .float-left {
   float: left;
 }
@@ -101,3 +107,4 @@ hr {
 .h4 { font-size: $font-size-h4; }
 .h5 { font-size: $font-size-h5; }
 .h6 { font-size: $font-size-h6; }
+

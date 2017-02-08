@@ -160,56 +160,6 @@
   margin-bottom: rem-calc(30);
 }
 
-// Main
-// -------------------------------------------------------------------------
-
-.page-section--main {
-  background: url('../../static/img/bg_pattern.svg') 0 -500px no-repeat;
-}
-
-.page-section--secondary {
-  background: url('../../static/img/bg_pattern.svg') 0 350px no-repeat;
-}
-
-.page-section--no-bg {
-  background: none;
-}
-
-.page-section--gray-subsection1 {
-  background-color: $gray;
-  background-size: cover;
-  margin-bottom: $spacer * 3;
-  box-shadow: $page-section-with-bg-pattern-shadow;
-}
-
-.page-section--darkgray-subsection1 {
-  background: linear-gradient(to bottom, darken($darker-gray, 3%) 0%, darken($darker-gray, 1%) 100%);
-  background-size: cover;
-  margin-bottom: $spacer * 3;
-}
-
-.page-section--polygon-subsection1 {
-  background: url('../../static/img/polygon_texture_blue.jpg') 0 0 repeat;
-  background-size: cover;
-  padding: rem-calc(30 0);
-  margin-bottom: $spacer * 3;
-  box-shadow: $page-section-with-bg-pattern-shadow;
-}
-
-.page-section--polygon-subsection2 {
-  background: url('../../static/img/polygon_texture_black.jpg') 0 0 repeat;
-  background-size: cover;
-  padding: rem-calc(30 0);
-  margin-bottom: $spacer * 3;
-  box-shadow: $page-section-with-bg-pattern-shadow;
-}
-
-// To allow preceeding section to crash into the bottom (used for callout boxes)
-// -------------------------------------------------------------------------
-.page-section--no-bottom {
-  margin-bottom: 0px;
-}
-
 // Section
 // -------------------------------------------------------------------------
 
@@ -397,6 +347,63 @@ h4.page-section__title {
   @include at-least(small) {
     padding: rem-calc(0 50);
   }
+}
+
+// Main background areas
+// -------------------------------------------------------------------------
+
+.page-section--main {
+  background: url('../../static/img/background_polygon_pattern.png') 0 0px no-repeat;
+  background-size: 75%;
+}
+
+.page-section--secondary {
+  background: url('../../static/img/background_polygon_pattern.png') 0 350px no-repeat;
+  background-size: 75%;
+}
+
+.page-section--tertiary {
+  background: url('../../static/img/background_polygon_pattern.png') 0 -550px no-repeat;
+  background-size: 75%;
+}
+
+.page-section--no-bg {
+  background: none;
+}
+
+.page-section--gray-subsection1 {
+  background-color: $gray;
+  background-size: cover;
+  margin-bottom: $spacer * 3;
+  box-shadow: $page-section-with-bg-pattern-shadow;
+}
+
+.page-section--darkgray-subsection1 {
+  background: linear-gradient(to bottom, darken($darker-gray, 3%) 0%, darken($darker-gray, 1%) 100%);
+  background-size: cover;
+  margin-bottom: $spacer * 3;
+}
+
+.page-section--polygon-subsection1 {
+  background: url('../../static/img/polygon_texture_blue.jpg') 0 0 repeat;
+  background-size: cover;
+  padding: rem-calc(30 0);
+  margin-bottom: $spacer * 3;
+  box-shadow: $page-section-with-bg-pattern-shadow;
+}
+
+.page-section--polygon-subsection2 {
+  background: url('../../static/img/polygon_texture_black.jpg') 0 0 repeat;
+  background-size: cover;
+  padding: rem-calc(30 0);
+  margin-bottom: $spacer * 3;
+  box-shadow: $page-section-with-bg-pattern-shadow;
+}
+
+// To allow preceeding section to crash into the bottom (used for callout boxes)
+// -------------------------------------------------------------------------
+.page-section--no-bottom {
+  margin-bottom: 0px;
 }
 
 // Body

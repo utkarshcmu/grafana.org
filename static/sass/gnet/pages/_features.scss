@@ -1,3 +1,18 @@
+// =========================================================================
+// Feature Hero
+// Unique Grafana Features hero image  may be a better way to accomplish this - TRW
+// =========================================================================
+.wrapper--feature-hero-bg {
+  @include at-least(small) {
+    background: url('../../static/img/grafana/features_hero.png') 150% 0 no-repeat;
+    background-size: 70%;
+  }
+}
+
+
+// =========================================================================
+// Main Feature Elements
+// =========================================================================
 .features-grid {
   display: flex;
   flex-direction: row;
@@ -37,31 +52,47 @@
 
 
 .github-box {
-  width: rem-calc(140);
+  width: 90%;
+  height: auto;
   min-height: 0;
   padding-left: rem-calc(20);
   padding-right: rem-calc(20);
-  margin-right: rem-calc(15);
-  display: inline-block;
+  margin: 0 auto 10px auto;
   white-space: nowrap;
+  text-align: center;
 
-  .count {
+  @include at-least(small) {
+    width: rem-calc(140);
+    height: rem-calc(78);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  h3 {
     margin: rem-calc(0);
     font-size: $font-size-kilo;
     font-style: italic;
-    font-weight: bold;
-    line-height: 0;
+    font-weight: 700;
+    line-height: 1.2;
     color: $white;
+
+    small {
+      color: $off-white;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 55%;
+      margin-left: rem-calc(5);
+      @include at-least(small) {
+        margin-left: rem-calc(26);
+        display: block;
+      }
+    }
   }
 
   span {
     width: rem-calc(20);
     color: $light-gray
-  }
-  small {
-    color: $off-white;
-    font-style: italic;
-    margin-left: rem-calc(26);
   }
 }
 
