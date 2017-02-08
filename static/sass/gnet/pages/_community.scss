@@ -1,0 +1,22 @@
+// ==========================================================================
+//
+// Community section
+// ==========================================================================
+
+.newsletter-signup {
+    text-align:center;
+
+    h3 {
+    	font-size: $font-size-alpha;
+    	font-style: italic;
+        font-weight: 400
+    }
+}
+
+.box-divider {
+    border-right: 1px solid $primary-color;
+  -moz-border-image: -moz-$orange-gradient;
+  -webkit-border-image: -webkit-$orange-gradient;
+  border-image: $orange-gradient;
+  border-image-slice: 1;
+}
