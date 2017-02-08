@@ -5,6 +5,9 @@
 		<h1 class="page-letterhead__heading">{{ .Title }}</h1>
 		<h2 class="page-letterhead__subheading">
 			Published: {{ .Date.Format "2 Jan 2006" }} by {{ .Params.author }}
+			<a class="blog-rss-link" href="{{ .RSSLink }}" type="application/rss+xml" target="_blank">
+				RSS <i class="fa fa-rss"></i>
+			</a>
 		</h2>
 		<p id="twitter">
 		<a class="twitter-share-button" data-via="grafana" href="https://twitter.com/share"></a>
@@ -15,7 +18,6 @@
 	</div>
 </div>
 
-
 <div class="wrapper">
 	<div class="row row--no-gutters">
 		<div class="col col--md-9">
@@ -25,9 +27,6 @@
 		</div>
 		<div class="col col--md-3">
 			<div class="blog-aside">
-				<a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
-					RSS <i class="fa fa-rss"></i>
-				</a>
 				<br>
 				<br>
 

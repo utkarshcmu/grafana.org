@@ -1,3 +1,22 @@
+
+// .section-blog {
+//   .page-header {
+//     height: rem-calc(300);
+//
+//     &:after {
+//       position: absolute;
+//       content: "";
+//       top: 0;
+//       bottom: 0;
+//       width: 100%;
+//       background-image: url(/assets/img/v2/home_hero_bg.jpg);
+//       background-position: center;
+//       background-repeat: no-repeat;
+//       background-size: cover;
+//     }
+//   }
+// }
+//
 q.quote {
   background: #ccc;
   border-left: 10px solid #333;
@@ -56,13 +75,7 @@ q.quote:before {
 
 .blog-rss-link {
   font-size: $font-size-delta;
+  float: right;
 }
 
-.section-blog {
-  .page-header {
-    height: rem-calc(300);
-    &::after {
-      background: $primary-color;
-    }
-  }
-}
+
