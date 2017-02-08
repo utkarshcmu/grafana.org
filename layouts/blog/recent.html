@@ -4,8 +4,8 @@
 	<div class="wrapper">
 		<h1 class="page-letterhead__heading">Blog</h1>
 		<h2 class="page-letterhead__subheading">
-			Category: {{ .Title | title }}
-			<a class="blog-rss-link" href="{{ .RSSLink }}" type="application/rss+xml" target="_blank">
+			News, announcenments, articles, metrics & monitoring love...
+			<a class="blog-rss-link" href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
 				RSS <i class="fa fa-rss"></i>
 			</a>
 		</h2>
@@ -15,9 +15,20 @@
 <div class="wrapper">
 	<div class="row row--no-gutters">
 		<div class="col col--md-9">
-			{{ range .Data.Pages }}
-				{{ .Render "li" }}
-			{{ end}}
+			{{ range first 10 .Site.Pages }}
+				{{ .Render "li"}}
+			{{ end }}
+			<hr>
+			<div class="row row--no-gutters">
+				<div class="col col--sm-3"></div>
+				<div class="col col--sm-9">
+					<a class="btn btn--outline" href="/blog/">Blog Archive</a>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
 		</div>
 
 		<div class="col col--md-3">
@@ -27,6 +38,7 @@
 		</div>
 	</div>
 </div>
+
 
 <style>
 .page-header-bg {

@@ -1,7 +1,5 @@
 {{ range where .Data.Pages "Type" "index" }}
-{{ partial "header.html" . }}
-{{ .Content }}
-{{ partial "footer.html" . }}
+	{{ template "blog/recent.html" . }}
 {{ end }}
 {{ range where .Data.Pages "Title" "Grafana Documentation Site" }}
 	{{ template "docs/single.html" . }}

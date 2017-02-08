@@ -4,8 +4,8 @@
 {{ $baseUrl := (printf "%v" $.Site.BaseURL) }}
 
 {{ if hasPrefix $baseUrl "http://localhost" }}
-	{{ $.Scratch.Set "navBaseUrl" "http://localhost:3002"}}
-	{{ $.Scratch.Set "docsUrl" "http://localhost:3002/docs"}}
+	{{ $.Scratch.Set "navBaseUrl" "http://localhost"}}
+	{{ $.Scratch.Set "docsUrl" "http://localhost:3004"}}
 {{ end }}
 
 {{ if hasPrefix $baseUrl "http://staging" }}
