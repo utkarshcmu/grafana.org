@@ -8,8 +8,6 @@ description = "Grafana 4.0 Stable Release"
 categories = ["Release News", "Grafana"]
 +++
 
-## Grafana v4.0 stable is now available
-
 Grafana v4.0.2 is stable is now [available for download](/download). After about 4 weeks of beta fixes and testing
 are proud to announce that Grafana v4.0 stable is now released and production ready. This release contains a ton of minor
 new features, fixes and improved UX. But on top of the usual new goodies is a core new feature: Alerting!
@@ -162,7 +160,7 @@ Some nice navigation shortcuts are:
 
 <div class="clearfix"></div>
 
-## Upgrade & Breaking changes
+### Upgrade & Breaking changes
 
 There are no breaking changes. Old dashboards and features should work the same. Grafana-server will automatically upgrade it's db
 schema on restart. It's advisable to do a backup of Grafana's database before updating.
@@ -173,13 +171,13 @@ You can update plugins using grafana-cli
 
     grafana-cli plugins update-all
 
-## Changelog
+### Changelog
 
 Checkout the [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG.md) file for a complete list
 of new features, changes, and bug fixes.
 
 
-## Download
+### Download
 
 Head to [v4 download page](/download/4_0_0/) for download links & instructions.
 

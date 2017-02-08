@@ -1,4 +1,8 @@
 
+.section-docs,
+.section-blog {
+  line-height: 1.6;
+}
 
 p {
   margin: 0 0 1rem 0;
@@ -26,11 +30,11 @@ table {
 
 code {
   white-space: nowrap;
-  background-color: $darker-gray2;
+  background-color: lighten($body-bg, 4%);
   border-color: $black;
   border-style: solid;
   border-width: 1px;
-  color: $text-color;
+  color: $blue;
   font-family: Consolas,"Liberation Mono",Courier,monospace;
   font-weight: 400;
   padding: .125rem .3125rem .0625rem;

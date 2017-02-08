@@ -150,7 +150,7 @@ $docs-subheader-bg-color: transparent;
     box-sizing: border-box;
     width: 100%;
     &::placeholder {
-      color: $text-muted-color;
+      color: $text-color-muted;
     }
   }
 }
@@ -166,7 +166,6 @@ $docs-subheader-bg-color: transparent;
   text-transform: uppercase;
   padding: 21px;
   font-size: 14px;
-  font-family: $header-font-family;
   font-weight: bold;
 }
 

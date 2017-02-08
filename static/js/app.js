@@ -21,21 +21,12 @@ $(window).on('load', () =>  {
     bootDocs();
   }
 
-  $(".lightbox").each(function() {
+  $(".screenshot").each(function() {
     lightGallery(this, {
       thumbnail: true,
       fullscreen: true,
       animateThumb: true,
     });
-  });
-
-  $('[data-download-link]').click(function(evt) {
-    $('.download-plaform-tip').hide();
-
-    var label = $(this).data('download-link')
-    ga('send', 'event', 'download', 'download', label)
-    $('.download-plaform-tip[data-type="' + label + '"]').show();
-    evt.preventDefault();
   });
 
   $('.expand-menu').on('click touchstart', function(evt) {

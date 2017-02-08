@@ -10,8 +10,6 @@ description = "Project update blog post covering Grafana v4 progress update, Gra
 categories = ["Grafana"]
 +++
 
-## Grafana v4 Update
-
 {{< imgbox max-width="40%" img="/assets/img/blog/project_update/alert_graph.png" caption="Alerting graph" >}}
 
 I know many are awaiting the next Grafana release, which will include the long anticipated alerting

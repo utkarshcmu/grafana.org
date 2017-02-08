@@ -38,6 +38,13 @@
   font-style: italic;
 }
 
+.testimonial-logos__link {
+  display: block;
+  font-weight: bold;
+  font-size: 85%;
+  padding-top: $spacer/2;
+}
+
 .testimonial-container {
   background: url('../../static/img/polygon_texture_black.jpg') 0 0 repeat;
   background-size: cover;

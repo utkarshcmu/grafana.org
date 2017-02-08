@@ -5,7 +5,7 @@
 		<h1 class="page-letterhead__heading">Blog Archive</h1>
 		<h2 class="page-letterhead__subheading">
 			News, announcenments, articles, metrics & monitoring love...
-			<a class="blog-rss-link" href="{{ .RSSlink }}" type="application/rss+xml" target="_blank">
+			<a class="blog-rss-link" href="{{ .RSSLink }}" type="application/rss+xml" target="_blank">
 				RSS <i class="fa fa-rss"></i>
 			</a>
 		</h2>
@@ -36,12 +36,5 @@
 		</div>
 	</article>
 </div>
-
-<style>
-.page-header-bg {
-	background-image: url(/assets/img/header_cover3.png);
-}
-</style>
-
 
 {{ partial "footer.html" . }}

@@ -110,6 +110,13 @@ $form-margin: 0.2rem;
 $text-color:        $lighter-gray;
 $text-color-muted:  $medium-gray;
 
+//
+// Body
+//
+$body-bg: $dark-gray;
+$body-text-color: $text-color;
+$body-line-height: 1.4;
+
 // We use these to style the <hr> element
 $hr-border-width: 1px;
 $hr-border-style: solid;

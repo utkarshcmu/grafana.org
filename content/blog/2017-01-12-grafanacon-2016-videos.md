@@ -7,8 +7,6 @@ cover_image = "/assets/img/blog/grafanacon_carrier.jpg"
 description = "GrafanaCon 2016 Videos Available"
 +++
 
-## GrafanaCon 2016
-
 Last November we held the second GrafanaCon. This time it was actually a real conference and not a glorified meetup (like GrafanaCon 2015).
 It was a full two day conference, with over 200 attendees, 10 sponsors, 30 talks covering a diverse set
 of topics from the Grafana ecosystem & user community. We also had an awesome and unique venue aboard the **Intrepid Sea, Air & Space Museum**
@@ -19,15 +17,17 @@ Personally it was really amazing seeing how big the Grafana community has become
 that are leveraging Grafana in unique ways. It was also great to meet some of the big Grafana contributers
 like [Utkarsh Bhatnagar](https://github.com/utkarshcmu) and [Mitsuhiro Tanda](https://github.com/mtanda).
 
-## Videos of Talks
+### Videos of Talks
 
 Videos from all the talks are available on the official [Grafana Youtube Channel](https://www.youtube.com/channel/UCYCwgQAMm9sTJv0rgwQLCxw).
 There is a new [playlist](https://www.youtube.com/playlist?list=PLDGkOdUX1Ujp_6OnJ8M-t59eGPs0rZF4Q) that contains all the talks.
 
 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/videoseries?list=PLDGkOdUX1Ujp_6OnJ8M-t59eGPs0rZF4Q" frameborder="0" allowfullscreen></iframe>
 
-## Photos from the event
+### Photos from the event
+
 My transportation to and from the conference
+
 ![](/assets/img/blog/grafanacon_blue_angel.jpg)
 
 The theater was a great place to have talks on day 1.
@@ -47,6 +47,6 @@ It was great getting the Grafana Labs team together for the event.
 
 ![](/assets/img/blog/grafanacon_team.jpg)
 
-## Thanks
+### Thanks
 
 A big thanks to all the conference Sponsors, presenters and attendees. Hope to see you all again at GrafanaCon 2017.

@@ -8,8 +8,6 @@ description = "Grafana 4.1 Beta Release Highlights"
 categories = ["Release News", "Grafana"]
 +++
 
-## Grafana v4.1 beta
-
 Grafana v4.1 Beta is now [available for download](/download/4_1_0/).
 The new version contains a lot of improvement and the majority of them come from pull requests.
 The fact that we can release 4.1.0-beta1 so quickly after 4.0 is all thanks to the Grafana community and all the contributors.
@@ -57,18 +55,19 @@ This enables people to use the Cloudwatch data source without having access to t
 Once the `access key` and `secret key` have been saved the user will no longer be able to view them.
 <div class="clearfix"></div>
 
-## Upgrade & Breaking changes
+### Upgrade & Breaking changes
 
 Elasticsearch 1.x is no longer supported. Please upgrade to Elasticsearch 2.x or 5.x. Otherwise Grafan 4.1.0-beta1 contains no breaking changes.
 
-## Changelog
+### Changelog
 
 Checkout the [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG.md) file for a complete list
 of new features, changes, and bug fixes.
 
-## Download
+### Download
 
 Head to [v4.1 download page](/download/4_1_0/) for download links & instructions.
 
-## Thanks
+### Thanks
+
 A big thanks to all the Grafana users who contribute by submitting PRs, bug reports & feedback!

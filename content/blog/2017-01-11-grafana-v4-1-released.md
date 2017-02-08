@@ -7,8 +7,6 @@ cover_image = "/assets/img/blog/v4/grafana_shared_tooltips.jpg"
 description = "Grafana 4.1 Release Highlights"
 +++
 
-## Grafana v4.1
-
 Grafana v4.1 is now [available for download](/download/4_1_0/).
 The new version contains a lot of improvement and the majority of them come from pull requests.
 The fact that we can release 4.1.0 so quickly after 4.0 is all thanks to the Grafana community and all the contributors.
@@ -60,14 +58,15 @@ Once the `access key` and `secret key` have been saved the user will no longer b
 
 Elasticsearch 1.x is no longer supported. Please upgrade to Elasticsearch 2.x or 5.x. Otherwise Grafan 4.1.0 contains no breaking changes.
 
-## Changelog
+### Changelog
 
 Checkout the [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG.md) file for a complete list
 of new features, changes, and bug fixes.
 
-## Download
+### Download
 
 Head to [v4.1 download page](/download/4_1_0/) for download links & instructions.
 
-## Thanks
+### Thanks
+
 A big thanks to all the Grafana users who contribute by submitting PRs, bug reports & feedback!

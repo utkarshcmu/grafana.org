@@ -16,9 +16,9 @@ body {
 body {
   @include pt-sans;
   @include font-smoothing;
-  background: $dark-gray;
-  color: $text-color;
-  line-height: 1.4;
+  background: $body-bg;
+  color: $body-text-color;
+  line-height: $body-line-height;
 }
 
 a {
