@@ -4,9 +4,13 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks("grunt-contrib-clean");
 
+  var useMinTask = require('./tasks/usemin/tasks/usemin');
+  useMinTask(grunt);
+
   var env = grunt.option('env') || "dev";
   var port = parseInt(grunt.option('port') || "3002");
   var docsVersion = grunt.option('docsVersion') || 'latest';
+  var baseUrl = 'http://localhost:3002';
 
   if (docsVersion === 'root') {
     docsVersion = "";
@@ -118,6 +122,13 @@ module.exports = function(grunt) {
       }
     },
 
+    usemin: {
+      html: ['dist/index.html'],
+      options: {
+        assetsDirs: ['dist']
+      }
+    },
+
     htmlmin: {                                     // Task
       dist: {                                      // Target
         options: {                                 // Target options
@@ -142,13 +153,6 @@ module.exports = function(grunt) {
       }
     },
 
-    usemin: {
-      html: ["dist/**/*.html"],
-      options: {
-        assetsDirs: ['dist']
-      }
-    },
-
     filerev: {
       options: {encoding: "utf8", algorithm: "md5", length: 8},
       js: {
@@ -166,33 +170,35 @@ module.exports = function(grunt) {
   grunt.registerTask("hugo", function(target) {
     var done = this.async();
     var args = ["--destination=dist/"];
+    var buildDrafts = false;
 
     switch (env) {
       case 'dev':
-        args.push("--baseUrl=http://localhost:3002");
-        args.push("--buildDrafts=true");
-        args.push("--buildFuture=true");
+        baseUrl = 'http://localhost:3002';
+        buildDrafts = true;
         break;
       case 'dev-docs':
-        args.push("--baseUrl=http://localhost:3004");
-        args.push("--buildDrafts=true");
-        args.push("--buildFuture=true");
+        baseUrl = 'localhost://localhost:3004';
+        buildDrafts = true;
         break;
       case 'staging':
-        args.push("--buildDrafts=true");
-        args.push("--baseUrl=http://staging-blog.grafana.com.s3-website-us-west-2.amazonaws.com");
+        baseUrl = 'http://staging-blog.grafana.com.s3-website-us-west-2.amazonaws.com';
+        buildDrafts = true;
         break;
       case 'prod':
-        args.push("--baseUrl=http://blog.grafana.com.s3-website-us-west-2.amazonaws.com");
+        baseUrl = 'http://blog.grafana.com.s3-website-us-west-2.amazonaws.com';
         break;
       case 'staging-docs':
-        args.push("--buildDrafts=true");
-        args.push("--baseUrl=http://staging-docs.grafana.org/" + docsVersion);
+        buildDrafts = true;
+        baseUrl = 'http://staing-docs.grafana.org';
         break;
       case 'prod-docs':
-        args.push("--baseUrl=http://docs.grafana.org" + docsVersion);
+        baseUrl = 'http://docs.grafana.org';
         break;
     }
+
+    args.push("--buildDrafts=" + buildDrafts);
+    args.push("--baseUrl=" + baseUrl);
 
     hugo = require("child_process").spawn("hugo", args, {stdio: "inherit"});
     hugo.on("exit", function() { done(true); });
@@ -221,6 +227,20 @@ module.exports = function(grunt) {
         });
   });
 
+  grunt.registerTask('remapFilerev', function() {
+    var summary = grunt.filerev.summary;
+    var fixed = {};
+
+    for(var key in summary){
+      if(summary.hasOwnProperty(key)){
+        var orig = key.replace("dist", baseUrl);
+        fixed[orig] = summary[key].replace('dist', baseUrl);
+      }
+    }
+
+    grunt.filerev.summary = fixed;
+  });
+
   grunt.registerTask("assets-dev", [
     "sass",
     "postcss",
@@ -241,6 +261,7 @@ module.exports = function(grunt) {
     "cssmin",
     "uglify",
     "filerev",
+    "remapFilerev",
     "usemin",
     "htmlmin",
   ]);
