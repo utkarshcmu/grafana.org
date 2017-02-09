@@ -178,7 +178,7 @@ module.exports = function(grunt) {
         buildDrafts = true;
         break;
       case 'dev-docs':
-        baseUrl = 'localhost://localhost:3004';
+        baseUrl = 'http://localhost:3004';
         buildDrafts = true;
         break;
       case 'staging':
