@@ -8,6 +8,12 @@
   position: relative;
 }
 
+.page__content {
+  &--no-header {
+    padding-top: rem-calc(96);
+  }
+}
+
 // Hero
 // -------------------------------------------------------------------------
 
@@ -29,49 +35,41 @@
 // -------------------------------------------------------------------------
 
 .page-letterhead {
-  padding: rem-calc(40 0 30 0);
+  padding: rem-calc(150 0 30 0);
   background-position: center 35%;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
 
-  &--graphs {
-    min-height: rem-calc(400);
-  }
-
-  &--hosting {
-    background-image: url(/img/testimonial_bg_red.jpg);
-  }
-
-  &--dashboards,
-  &--plugins,
-  &--get,
-  &--download,
-  &--default {
-    background-image: url(/img/hero_bg_graphs_darkened.jpg);
+  &--video {
+    position: relative;
+    max-height: 800px;
+    overflow: hidden;
   }
 }
 
-
 .page-letterhead__heading {
-  color: $off-white2;
-  font-style: italic;
-  font-size: $font-size-h2;
-  font-weight: normal;
+  @extend .h2;
   margin-bottom: rem-calc(0);
   line-height: rem-calc(50);
-  margin-top: 0px;
 
   @media (min-width: $bp-nav) {
     font-size: $font-size-h1;
   }
-}
 
-.page-letterhead__video-section {
-  position: relative;
-  max-height: 800px;
-  overflow: hidden;
+  > b, > strong {
+    color: $primary-color;
+    font-weight: normal;
+  }
+
+  &--lead {
+    text-align: center;
+  }
+
+  &--on-background {
+    text-shadow: 1px 1px 7px #000;
+  }
 }
 
 .page-letterhead__hero {
@@ -109,7 +107,7 @@
 
 .page-letterhead__cta_wrapper {
   width: rem-calc(200);
-  margin: rem-calc(180) auto 0 auto;
+  margin: rem-calc(100) auto rem-calc(20) auto;
   .btn {
     width: 100%;
   }
@@ -171,7 +169,7 @@
 }
 
 .page-section__headline {
-  margin: rem-calc(0);
+  margin: rem-calc(0 0 16 0);
   padding: rem-calc(15 0);
   color: $white;
   font-size: $font-size-kilo;
@@ -353,17 +351,17 @@ h4.page-section__title {
 
 .page-section--main {
   background: url('../../static/img/background_polygon_pattern.png') 0 0px no-repeat;
-  background-size: 75%;
+  background-size: 55%;
 }
 
 .page-section--secondary {
   background: url('../../static/img/background_polygon_pattern.png') 0 350px no-repeat;
-  background-size: 75%;
+  background-size: 55%;
 }
 
 .page-section--tertiary {
   background: url('../../static/img/background_polygon_pattern.png') 0 -550px no-repeat;
-  background-size: 75%;
+  background-size: 55%;
 }
 
 .page-section--no-bg {

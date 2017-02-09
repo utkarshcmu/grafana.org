@@ -20,3 +20,20 @@
   border-image: $orange-gradient;
   border-image-slice: 1;
 }
+
+.social-container {
+  background: url('../../static/img/polygon_texture_black.jpg') 0 0 repeat;
+  background-size: cover;
+  padding: rem-calc(30 0);
+  box-shadow: $page-section-with-bg-pattern-shadow;
+
+  // a bit hacky
+  .social{
+    margin-bottom: 0;
+  }
+
+  .social__logo {
+    background: transparent;
+    box-shadow: none;
+  }
+}

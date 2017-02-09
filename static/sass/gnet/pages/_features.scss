@@ -123,6 +123,7 @@
 
   border-bottom: 1px solid rgba(255,255,255,0.1);
   border-top: 1px solid $black;
+  width: rem-calc(100);
 
   img {
     max-height: rem-calc(20px);
@@ -140,6 +141,7 @@
 
   @include at-least(medium) {
     padding: rem-calc(15 20);
+    width: rem-calc(150);
 
     img {
       max-height: rem-calc(30px);

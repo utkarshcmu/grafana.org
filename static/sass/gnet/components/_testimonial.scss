@@ -19,7 +19,7 @@
 .testimonial-logos {
   background: url('../../static/img/polygon_texture_black.jpg') 0 0 repeat;
   background-size: cover;
-  padding: rem-calc(20 0);
+  padding: rem-calc(20 0 0 0);
   margin-bottom: $spacer * 3;
   box-shadow: $page-section-with-bg-pattern-shadow;
   text-align: center;
@@ -32,7 +32,7 @@
 }
 
 .testimonial-logos__heading {
-  margin: 0 0 $spacer 0;
+  margin: 0 0 2rem 0;
   font-size: $font-size-beta;
   font-weight: normal;
   font-style: italic;
@@ -42,7 +42,7 @@
   display: block;
   font-weight: bold;
   font-size: 85%;
-  padding-top: $spacer/2;
+  padding: $spacer/2 0 $spacer 0;
 }
 
 .testimonial-container {
