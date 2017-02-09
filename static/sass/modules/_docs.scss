@@ -19,6 +19,7 @@ $docs-subheader-bg-color: transparent;
 
 .docs-aside-menu {
   display: none;
+  padding-top: $spacer;
 }
 
 .docs-container {
@@ -55,7 +56,6 @@ $docs-subheader-bg-color: transparent;
  .nav-sub {
    list-style: none;
    margin: 0;
-   padding-top: $spacer;
 
    li {
      display: block;
@@ -69,8 +69,8 @@ $docs-subheader-bg-color: transparent;
 
    a {
      font-size: 90%;
-     padding-top: 0.6rem;
-     padding-bottom: 0.6rem;
+     padding-top: 0.7rem;
+     padding-bottom: 0.7rem;
      padding-left: 1rem;
      display: block;
      cursor: pointer;
@@ -91,7 +91,6 @@ $docs-subheader-bg-color: transparent;
    }
 
    a.expand-menu {
-
      &:hover {
        background: $darker-gray;
      }
@@ -103,8 +102,9 @@ $docs-subheader-bg-color: transparent;
 
  .nav-sub .current-page,
  .nav-sub .current-page:hover {
-   border-left: 2px solid $secondary-color;
-   color: $secondary-color;
+   @include left-brand-border-gradient();
+   color: $white;
+   background: $darker-gray;
  }
 
  .menu-closed .nav-sub {

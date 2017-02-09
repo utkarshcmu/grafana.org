@@ -99,4 +99,4 @@ upload_s3() {
 
 #setup_s3
 grunt build $grunt_param
-upload_s3
+upload_s4
