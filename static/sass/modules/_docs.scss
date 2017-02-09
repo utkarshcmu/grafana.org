@@ -159,20 +159,30 @@ $docs-subheader-bg-color: transparent;
   display: none;
 }
 
+.docs-toc-aside__box {
+  padding: $spacer/2 $spacer;
+  background: lighten($body-bg, 5%);
+  border: 1px solid $gray;
+  width: 100%;
+  margin-bottom: $spacer;
+  font-size: $font-size-delta;
+  i {
+    padding-right: 5px;
+  }
+}
+
 .docs-toc-heading {
   background-color: $docs-subheader-bg-color;
-  padding: 0.5rem;
   color: white;
   text-transform: uppercase;
-  padding: 21px;
-  font-size: 14px;
   font-weight: bold;
+  margin-bottom: $spacer/2;
 }
 
 .docs-toc {
   padding-top: 0.5rem;
   ul {
-    margin: 0 0 0.8rem 0.8rem;
+    margin: 0 0 0.8rem 0rem;
     list-style: none;
     padding: 0 $spacer / 2;
     ul {
@@ -239,12 +249,10 @@ $docs-subheader-bg-color: transparent;
 
   .docs-toc-aside {
     display: block;
-    background: $darker-gray;
     position: absolute;
     width: $docs-toc-aside-width;
-    padding-bottom: $spacer*2;
     right: 0;
-    top: 0;
+    top: 20px;
   }
 }
 
