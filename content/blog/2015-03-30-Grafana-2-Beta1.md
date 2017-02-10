@@ -1,6 +1,6 @@
 ---
 title: Grafana 2.0-Beta1 Released
-author: Torkel Ödegaard
+author: torkel
 date: 2015-03-30
 aliases:
   - blog/2015/03/30/Grafana-2-Beta1.html

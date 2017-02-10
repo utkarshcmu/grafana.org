@@ -1,6 +1,6 @@
 +++
 title = "Grafana 4.1 Release"
-author = "Carl Bergquist"
+author = "carlb"
 date = "2017-01-11"
 keywords = ["Grafana", "Blog", "v4.1"]
 cover_image = "/assets/img/blog/v4/grafana_shared_tooltips.jpg"

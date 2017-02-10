@@ -1,6 +1,6 @@
 ---
 title: Grafana 2.6.0 Released
-author: Torkel Ödegaard
+author: torkel
 date: 2015-12-14
 aliases:
   - blog/2015/12/14/Grafana-2-6-Released.html

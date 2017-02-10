@@ -1,6 +1,6 @@
 +++
 title = "GrafanaCon 2016 Videos Available"
-author = "Torkel Ödegaard"
+author = "torkel"
 date = "2017-01-13"
 keywords = ["Grafana", "Blog", "GranfaCon"]
 cover_image = "/assets/img/blog/grafanacon_carrier.jpg"

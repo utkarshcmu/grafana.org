@@ -1,6 +1,6 @@
 ---
 title: "UX: The long road to the shortest path"
-author: Matt Toback
+author: matttoback
 date: 2015-02-10
 categories:
   - "UX"

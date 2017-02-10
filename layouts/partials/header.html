@@ -75,7 +75,12 @@
 		</script>
 	</head>
 
-	<body class="{{ if .Params.body_class }}{{ .Params.body_class }}{{ end }} section-{{ if .IsPage }}{{ .Type }}{{ end }} section ">
+	{{ if and .IsPage  (eq .Type "docs") }}
+		<body class="section-docs">
+	{{ else }}
+		<body class="section-blog">
+	{{ end }}
+
 
 		{{ partial "navbar.html" . }}
 

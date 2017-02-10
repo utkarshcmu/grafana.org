@@ -1,6 +1,6 @@
 ---
 title: Monitoring and aviation
-author: Raj Dutt
+author: raj
 date: 2015-01-06
 categories:
   - "Monitoring"

@@ -1,6 +1,6 @@
 +++
 title = "Grafana 4.0 Beta Release"
-author = "Torkel Ödegaard"
+author = "torkel"
 date = "2016-11-09"
 keywords = ["Grafana", "Blog", "v4.0", "Beta"]
 cover_image = "/assets/img/blog/v4/grafana_alert.png"

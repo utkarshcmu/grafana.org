@@ -1,6 +1,6 @@
 ---
 title: "InfluxDB: First impressions"
-author: Anthony Woods
+author: awoods
 date: 2015-01-07
 categories:
   - "Time Series Databases"

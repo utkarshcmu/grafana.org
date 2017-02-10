@@ -1,6 +1,6 @@
 ---
 title: Dear Graphite Users and Developers
-author: Raj Dutt
+author: raj
 date: 2016-07-06
 aliases:
   - blog/2016/07/06/dear-graphite-users-and-developers.html

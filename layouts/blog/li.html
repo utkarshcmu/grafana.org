@@ -1,27 +1,23 @@
 <article class="blog-list-item">
-	<h2 class="blog-list-item__heading">
-		<a href="{{ .Permalink }}"> {{ .Title }}</a>
-	</h2>
-	<hr>
+	{{ $author := index $.Site.Data.authors .Params.author }}
 
-	<div class="row row--no-gutters">
-		<div class="col col--sm-3">
-			<div class="blog-lite-item--byline">
-				{{ .Date.Format "2 Jan 2006" }}<br>
-				<a href="#">{{ .Params.author }}</a>
-			</div>
-		</div>
-		<div class="col col--sm-9">
-			{{ if isset .Params "list_image" }}
-			<p>
-				<img src="{{ .Params.list_image }}"></img>
-			</p>
-			{{ end }}
+	<img class="blog-list-item__author-img" src="{{ $author.imgUrl }}" />
+
+	<div class="blog-list-item__body">
+		<h2 class="blog-list-item__heading">
+			<a href="{{ .Permalink }}"> {{ .Title }}</a>
+		</h2>
+
+		<div class="blog-lite-item--byline">
+			by <a href="/about/team">{{ $author.name }}</a>
+			{{ .Date.Format "2 Jan 2006" }}<br>
 
 			<p>
 				{{ .Summary }}
 			</p>
+
 			<a class="btn btn-outline" href="{{ .Permalink }}">Read Full Post</a>
 		</div>
 	</div>
 </article>
+

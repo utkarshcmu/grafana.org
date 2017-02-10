@@ -1,6 +1,6 @@
 ---
 title: Timing is Everything. Writing the Clock Panel Plugin for Grafana 3.0
-author: Daniel Lee
+author: daniellee
 date: 2016-04-08
 aliases:
   - blog/2016/04/08/clock-plugin-p1.html

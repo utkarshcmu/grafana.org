@@ -1,6 +1,6 @@
 +++
 title = "Project Update & GrafanaCon"
-author = "Torkel Ödegaard"
+author = "torkel"
 date = "2016-10-11"
 keywords = ["Grafana", "Blog", "GrafanaCon", "Update"]
 cover_image = "/assets/img/blog/project_update/grafanacon_blog.png"

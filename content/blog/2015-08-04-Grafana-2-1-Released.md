@@ -1,6 +1,6 @@
 ---
 title: Grafana 2.1 Released
-author: Torkel Ödegaard
+author: torkel
 date: 2015-08-04
 aliases:
   - blog/2015/08/04/Grafana-2-1-Released.html

@@ -1,6 +1,6 @@
 ---
 title: Grafana 3.0 Stable Released
-author: Torkel Ödegaard
+author: torkel
 date: 2016-05-11
 aliases:
   - blog/2016/05/11/grafana-3-0-stable-released.html

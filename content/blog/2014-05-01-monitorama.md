@@ -1,6 +1,6 @@
 ---
 title: Monitorama PDX
-author: Torkel Ödegaard
+author: torkel
 date: 2014-05-01
 aliases:
   - blog/2014/05/01/monitorama.html

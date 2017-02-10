@@ -1,6 +1,6 @@
 ---
 title: Video from Monitorama Grafana workshop and project status update
-author: Torkel Ödegaard
+author: torkel
 date: 2014-05-25
 aliases:
   - blog/2014/05/25/monitorama-video-and-update.html

@@ -1,6 +1,6 @@
 ---
 title: "Designs on capacity"
-author: Raj Dutt
+author: raj
 date: 2015-01-07
 categories:
   - "Company News"

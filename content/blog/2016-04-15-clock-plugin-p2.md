@@ -1,6 +1,6 @@
 ---
 title: Timing is Everything. Editor Mode in Grafana 3.0 for the Clock Panel Plugin
-author: Daniel Lee
+author: daniellee
 date: 2016-04-15
 aliases:
   - blog/2016/04/15/clock-plugin-p2.html

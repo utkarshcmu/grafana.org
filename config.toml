@@ -8,6 +8,7 @@ enableRobotsTXT = true
 disableSitemap = false
 disableRSS = false
 preservetaxonomynames = true
+metaDataFormat = "yaml"
 
 [taxonomies]
 tag = "tags"
