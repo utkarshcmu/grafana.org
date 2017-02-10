@@ -150,6 +150,17 @@
   @include outline-styles($monza, #9e0437);
 }
 
+.home-datasources {
+
+  img {
+    margin: rem-calc(20 10 0 10);
+    vertical-align: middle;
+  }
+
+  small {
+    margin: rem-calc(0 10);
+  }
+}
 
 // Footer CTA
 // -------------------------------------------------------------------------
