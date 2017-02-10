@@ -10,7 +10,11 @@
 
 .page__content {
   &--no-header {
-    padding-top: rem-calc(96);
+    padding-top: $page-header-height-small;
+
+    @include at-least(nav) {
+      padding-top: $page-header-height-large;
+    }
   }
 }
 
@@ -134,12 +138,18 @@
 }
 
 .page-submenu__list-item {
-  padding: rem-calc(15 5);
   color: $white;
-  font-size: $font-size-beta;
   border-bottom: 1px solid transparent;
   display: inline-block;
-  margin-right: rem-calc(40);
+  margin-right: rem-calc(30);
+  padding: rem-calc(10 3);
+  font-size: $font-size-gamma;
+
+  @include at-least(nav) {
+    padding: rem-calc(15 5);
+    margin-right: rem-calc(40);
+    font-size: $font-size-beta;
+  }
 
   &--active {
     border-bottom: 1px solid $primary-color;

@@ -60,7 +60,7 @@ $bp-small: rem-calc(650);
 $bp-medium: rem-calc(992);
 $bp-large: rem-calc(1200);
 $bp-xlarge: rem-calc(1900);
-$bp-nav: rem-calc(992); // Breakpoint for .site-nav width (was 950 -- TW)
+$bp-nav: rem-calc(890); // Breakpoint for .site-nav width (was 950 -- TW)
 
 // Grid
 // --------------------------------------------------------------------------
@@ -159,7 +159,9 @@ $font-size-h6: 1rem;
 // Page Header
 //
 
-$page-header-bg: rgb(0,0,0);
+$page-header-bg: $dark-gray-gradient;
+$page-header-height-small: rem-calc(75);
+$page-header-height-large: rem-calc(92);
 
 //
 // Common Page elements

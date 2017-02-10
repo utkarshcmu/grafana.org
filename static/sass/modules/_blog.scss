@@ -1,10 +1,35 @@
-.page-letterhead {
-  background-image: url(/assets/img/v2/home_hero_bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.section-index,
+.section-blog {
 
+  .page-header {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .page-letterhead {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 20px $black;
+    margin-bottom: $spacer*3;
+
+    &:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url(/assets/img/v2/home_hero_bg.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1;
+      filter: blur(2px);
+      opacity: 0.7;
+    }
+  }
 }
+
 
 q.quote {
   background: #ccc;

@@ -24,6 +24,10 @@
     @media (min-width: $bp-xlarge) {
       @content;
     }
+  } @else if $breakpoint == 'nav' {
+    @media (min-width: $bp-nav) {
+      @content;
+    }
   } @else {
     @media (min-width: $breakpoint) {
       @content;

@@ -4,6 +4,8 @@ author = "Torkel Ödegaard"
 date = "2017-01-13"
 keywords = ["Grafana", "Blog", "GranfaCon"]
 cover_image = "/assets/img/blog/grafanacon_carrier.jpg"
+cover_opacity = "0.3"
+cover_blur = "1px"
 description = "GrafanaCon 2016 Videos Available"
 +++
 

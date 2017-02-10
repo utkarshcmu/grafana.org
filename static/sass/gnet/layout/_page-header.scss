@@ -5,34 +5,20 @@
 
 .page-header {
   position: absolute;
-  padding: 0 0 1.1rem;
+  height: $page-header-height-small;
   background: $page-header-bg;
   top: 0;
   left: 0;
   right: 0;
   box-shadow: inset 100px 100px 260px -70px black;
 
-  &:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    content: "";
-    opacity: 0.5;
-    background: $dark-gray-gradient;
-    box-shadow: inset 100px 100px 260px -70px black;
-    background-position: center 35%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   &--home {
     background: rgba(0,0,0,0.4);
-    &:after {
-      display: none;
-    }
+    box-shadow: none;
+  }
+
+  @include at-least(nav) {
+    height: $page-header-height-large;
   }
 }
 
@@ -56,16 +42,10 @@
   top: rem-calc(-7);
   transition: all .25s ease-out;
 
-  @include at-least(medium) {
-    width: rem-calc(220);
-    height: rem-calc(40);
-    top: rem-calc(-4);
-  }
-
-  @include at-least(large) {
-    width: rem-calc(270);
-    height: rem-calc(48);
-    top: rem-calc(-3);
+  @include at-least(nav) {
+    width: rem-calc(240);
+    height: rem-calc(50);
+    top: rem-calc(3);
   }
 
   > img {

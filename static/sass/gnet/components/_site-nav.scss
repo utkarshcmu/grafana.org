@@ -16,7 +16,7 @@
   transition: left ease-in-out 250ms;
   background: rgba($black, .9);
 
-  @media (min-width: $bp-nav) {
+  @include at-least(nav) {
     position: static;
     margin-top: rem-calc(9); // align navigation w/ Grafana
     padding: 0;
@@ -30,7 +30,7 @@
       left: 50%;
     }
 
-    @media (min-width: $bp-nav) {
+    @include at-least(nav) {
       left: auto;
     }
 
@@ -52,14 +52,14 @@
 }
 
 .site-nav {
-  @media (min-width: $bp-nav) {
+  @include at-least(nav) {
     padding: rem-calc(30 0 0 0);
   }
 
   &--top {
     padding: 0;
 
-    @media (min-width: $bp-nav) {
+    @include at-least(nav) {
       position: absolute;
       top: 0;
       right: 0;
@@ -80,14 +80,14 @@
 .site-nav__item {
   display: block;
 
-  @media (min-width: $bp-nav) {
+  @include at-least(nav) {
     display: inline-block;
   }
 }
 
 .site-nav__social {
   display: none;
-  @media (min-width: $bp-nav) {
+  @include at-least(nav) {
     display: block;
   }
 }
@@ -108,7 +108,7 @@
 
 .site-nav__item--home {
   display: block;
-  @media (min-width: $bp-nav) {
+  @include at-least(nav) {
     display: none;
   }
 
@@ -191,7 +191,7 @@
   outline: none;
   background: transparent;
 
-  @media (min-width: $bp-nav) {
+  @include at-least(nav) {
     display: none;
     margin-top: rem-calc(15);
   }
@@ -294,7 +294,7 @@
   color: $light-gray;
 
   display: none;
-  @media (min-width: rem-calc(840)) {
+  @include at-least(nav) {
     display: inline-block;
   }
 }

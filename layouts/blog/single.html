@@ -2,7 +2,7 @@
 
 <div class="page-letterhead">
 	<div class="wrapper">
-		<h1 class="page-letterhead__heading">{{ .Title }}</h1>
+		<h1 class="page-letterhead__heading page-letterhead__heading--on-background">{{ .Title }}</h1>
 		<h2 class="page-letterhead__subheading">
 			Published: {{ .Date.Format "2 Jan 2006" }} by {{ .Params.author }}
 			<a class="blog-rss-link" href="{{ .RSSLink }}" type="application/rss+xml" target="_blank">
@@ -49,12 +49,21 @@
 
 {{ if isset .Params "cover_image" }}
 <style>
-.page-header-bg {
-	background-image: url({{ .Params.cover_image }});
+.page-letterhead:after {
+	background-image: url({{ .Params.cover_image }}) !important;
 }
-{{ if isset .Params "nav_opacity" }}
-section.nav {
-	background-color: rgba(0,0,0,{{ .Params.nav_opacity }})
+{{ if isset .Params "cover_opacity" }}
+.page-letterhead:after {
+	opacity: {{ .Params.cover_opacity }} !important;
+}
+{{ end }}
+{{ if isset .Params "cover_blur" }}
+.page-letterhead:after {
+	-webkit-filter: blur({{ .Params.cover_blur }}) !important;
+	-moz-filter: blur({{ .Params.cover_blur }}) !important;
+	-o-filter: blur({{ .Params.cover_blur }}) !important;
+	-ms-filter: blur({{ .Params.cover_blur }}) !important;
+	filter: blur({{ .Params.cover_blur }}) !important;
 }
 {{ end }}
 </style>
