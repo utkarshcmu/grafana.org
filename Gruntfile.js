@@ -19,10 +19,9 @@ module.exports = function(grunt) {
   }
 
   grunt.initConfig({
-    clean: ["dist"],
+    baseUrl: baseUrl,
 
-    copy: {
-    },
+    clean: ["dist"],
 
     watch: {
       options: {
@@ -56,6 +55,19 @@ module.exports = function(grunt) {
       dist: {
         files: {
           "dist/css/styles.css": "static/sass/styles.scss",
+        }
+      }
+    },
+
+    'string-replace': {
+      dist: {
+        files: [{expand: true, cwd: 'dist/', src: ['css/*.css', '**/*.html'], dest: 'dist/'}],
+        options: {
+          replacements: [{
+            pattern: /url\((\/assets)/ig,
+            replacement: 'url(<%= baseUrl %>$1'
+          }
+          ]
         }
       }
     },
@@ -197,6 +209,9 @@ module.exports = function(grunt) {
         break;
     }
 
+    // update grunt config
+    grunt.config('baseUrl', baseUrl);
+
     args.push("--buildDrafts=" + buildDrafts);
     args.push("--baseUrl=" + baseUrl);
 
@@ -247,6 +262,7 @@ module.exports = function(grunt) {
     "babel",
     "systemjs",
     "concat",
+    "string-replace",
   ]);
 
   grunt.registerTask("default", [
