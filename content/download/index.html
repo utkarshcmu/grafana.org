@@ -2,13 +2,13 @@
 title       = "Download"
 description = "Grafana downloads and release details"
 body_class = "download-page"
-date = "2017-01-12"
-grafana_version = "4.1.1"
-grafana_build = "4.1.1-1484211277"
-grafana_deb_sha = "b6630328df66c6387d586825919fbbe708e108dc"
-grafana_win_sha = "e73153984dd8b92a067cf82568d978c1edd88285"
-grafana_rpm_sha = "ce099d69f317534d38229dab3ca96ce739e8721c"
-grafana_linux_tar_sha = "9c2505e8ab7c330ff35ac9ff4dce8f4f6b227955"
+date = "2017-02-13"
+grafana_version = "4.1.2"
+grafana_build = "4.1.2-1486989747"
+grafana_deb_sha = "a7700f07225b1a6c64f3d37fac1e434d7b279127"
+grafana_win_sha = "aac88857db5ce21933601a2ec3343a0a486043df"
+grafana_rpm_sha = "bfc30dfa40b24f132cb27b257942beeb67b06c94"
+grafana_linux_tar_sha = "e2de61dde3286f586d27c670eb50a5fddf6b6926"
 +++
 
 {{< releasetabs >}}
@@ -34,6 +34,15 @@ grafana_linux_tar_sha = "9c2505e8ab7c330ff35ac9ff4dce8f4f6b227955"
 	</section>
 
 	<section role="tabpanel" aria-hidden="true" class="content" id="panel2">
+        Changes in 4.1.2
+        <ul>
+            <li><strong>Table</strong> Fixes broken annotation rendering mode in the table panel <a href="https://github.com/grafana/grafana/issues/7268">#7268</a></li>
+            <li><strong>Data Sources</strong> Sorting for lists of data sources in UI is now case insensitive <a href="https://github.com/grafana/grafana/issues/7491">#7491</a></li>
+            <li><strong>Admin</strong> Support more then 1000 users in global users list <a href="https://github.com/grafana/grafana/issues/7469">#7469</a></li>
+            
+            <li><strong>Graph Panel</strong> Fixed issue with legend height in table mode<a href="https://github.com/grafana/grafana/pull/7221">#7221</a></li>
+        </ul>
+        
         Bugfixes in 4.1.1
         <ul>
             <li><strong>Graph Panel</strong> Fixed issue with legend height in table mode<a href="https://github.com/grafana/grafana/pull/7221">#7221</a></li>
