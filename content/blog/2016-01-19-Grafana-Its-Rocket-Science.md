@@ -2,8 +2,12 @@
 title: Grafana- It's Rocket Science
 author: raj
 date: 2016-01-19
+cover_image: /assets/img/blog/migrated/EARTH-1.jpg
+cover_opacity: 0.4
+cover_blur: 1px
 aliases:
   - blog/2016/01/19/Grafana-Its-Rocket-Science.html
+  - /grafana-its-rocket-science/
 categories:
   - "Grafana"
 ---
