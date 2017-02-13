@@ -1,7 +1,9 @@
 <article class="blog-list-item">
 	{{ $author := index $.Site.Data.authors .Params.author }}
 
-	<img class="blog-list-item__author-img" src="{{ $author.imgUrl }}" />
+	<div class="blog-list-item__author-img">
+		<img src="{{ $author.imgUrl }}" />
+	</div>
 
 	<div class="blog-list-item__body">
 		<h2 class="blog-list-item__heading">
@@ -9,7 +11,7 @@
 		</h2>
 
 		<div class="blog-lite-item--byline">
-			by <a href="/about/team">{{ $author.name }}</a>
+			by <a href="https://grafana.com/about/team">{{ $author.name }}</a>
 			{{ .Date.Format "2 Jan 2006" }}<br>
 
 			<p>

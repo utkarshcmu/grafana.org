@@ -11,6 +11,7 @@
     z-index: 1;
     box-shadow: 0 0 20px $black;
     margin-bottom: $spacer*3;
+    background: black;
 
     &:after {
       position: absolute;
@@ -71,10 +72,13 @@ q.quote {
 }
 
 .blog-list-item__author-img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 100px;
+  height: 100px;
   margin-right: $spacer*2;
+  flex-shrink: 0;
+  > img {
+    border-radius: 50%;
+  }
 }
 
 .blog-list-item__heading {
