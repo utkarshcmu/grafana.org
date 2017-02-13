@@ -8,8 +8,6 @@ description = "Grafana 4.0 Beta Release Highlights"
 categories = ["Release News", "Grafana"]
 +++
 
-## Grafana v4 Beta available
-
 Grafana v4.0 Beta is now [available for download](https://grafana.com/grafana/download). As usual
 this release contains a ton of minor new features, fixes and improved UX. But on top of the usual new goodies
 is a core new feature: Alerting! Read on below for a detailed description of what's new in Grafana v4!
@@ -92,9 +90,8 @@ We always try to bring some UX/UI refinements & polish in every release.
 
 ### TV-mode & Kiosk mode
 
-
-<div class="row">
-  <div class="medium-6 columns">
+<div class="row row--no-gutters">
+  <div class="col col--md-6">
     <p>
       Grafana is so often used on wall mounted TVs that we figured a clean TV mode would be
       really nice. In TV mode the top navbar, row & panel controls will all fade to transparent.
@@ -112,7 +109,7 @@ We always try to bring some UX/UI refinements & polish in every release.
       In kiosk mode the navbar is completely hidden/removed from view.
     </p>
   </div>
-  <div class="medium-6 columns">
+  <div class="col col--md-6">
    {{< lightboxhelper max-width="100%" img="/img/docs/v4/tvmode.png" caption="TV mode" >}}
    <video width="320" height="240" controls>
     <source src="/assets/videos/tvmode.mp4" type="video/mp4">
@@ -161,7 +158,7 @@ Some nice navigation shortcuts are:
 
 <div class="clearfix"></div>
 
-## Upgrade & Breaking changes
+### Upgrade & Breaking changes
 
 There are no breaking changes. Old dashboards and features should work the same. Grafana-server will automatically upgrade it's db
 schema on restart. It's advisable to do a backup of Grafana's database before updating.
@@ -172,20 +169,20 @@ You can update plugins using grafana-cli
 
     grafana-cli plugins update-all
 
-## Changelog
+### Changelog
 
 Checkout the [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG.md) file for a complete list
 of new features, changes, and bug fixes.
 
 
-## Download
+### Download
 
 Head to [v4 download page](https://grafana.com/grafana/download) for download links & instructions.
 
 Big thanks to all the Grafana users and devs out there who have helped with bug reports, feature
 requests and pull requests!
 
-## GrafanaCon
+### GrafanaCon
 
 I will be presenting on everything new in v4.0 at this year's [GrafanaCon](http://grafanacon.org).
 Early bird tickets are sold out but there are still tickets available!

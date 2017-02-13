@@ -54,7 +54,7 @@ This enables people to use the Cloudwatch data source without having access to t
 Once the `access key` and `secret key` have been saved the user will no longer be able to view them.
 <div class="clearfix"></div>
 
-## Upgrade & Breaking changes
+### Upgrade & Breaking changes
 
 Elasticsearch 1.x is no longer supported. Please upgrade to Elasticsearch 2.x or 5.x. Otherwise Grafan 4.1.0 contains no breaking changes.
 

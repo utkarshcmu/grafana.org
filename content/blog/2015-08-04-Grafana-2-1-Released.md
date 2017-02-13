@@ -63,21 +63,21 @@ will appear in the regular dashboard search along regular DB dashboards.
 
 - - -
 
-## New Authentication Options
+### New Authentication Options
 New authentication methods add numerous options to manage users, roles and organizations.
 
-### LDAP support
+#### LDAP support
 This highly requested feature now allows your Grafana users to login with their LDAP credentials.
 You can also specify mappings between LDAP group memberships and Grafana Organization user roles.
 
-### Basic Auth Support
+#### Basic Auth Support
 You can now authenticate against the Grafana API utilizing a simple username and password with basic HTTP authentication.
 
 > ***Note:*** This can be useful for provisioning and config management systems that need
 > to utilize the API without having to create an API key.
 
 
-### Auth Proxy Support
+#### Auth Proxy Support
 You can now authenticate utilizing a header (eg. X-Authenticated-User, or X-WEBAUTH-USER)
 
 > ***Note:*** this can be useful in situations with reverse proxies.
@@ -90,9 +90,9 @@ The Viewer role has been modified in Grafana 2.1 so that users assigned this rol
 
 - - -
 
-## Data source Improvements
+### Data source Improvements
 
-### InfluxDB 0.9 Support
+#### InfluxDB 0.9 Support
 Grafana 2.1 now comes with full support for InfluxDB 0.9. There is a new query editor designed from scratch
 for the new features InfluxDB 0.9 enables.
 
@@ -100,27 +100,27 @@ for the new features InfluxDB 0.9 enables.
 
 <br/>
 
-### OpenTSDB Improvements
+#### OpenTSDB Improvements
 Grafana OpenTSDB data source now supports template variable values queries. This means you can create
 template variables that fetches the values from OpenTSDB (for example metric names, tag names, or tag values).
 The query editor is also enhanced to limiting tags by metric.
 
 > ***Note:*** OpenTSDB config option tsd.core.meta.enable_realtime_ts must enabled for OpenTSDB lookup api)
 
-### New Data Source: KairosDB
+#### New Data Source: KairosDB
 The Cassandra backed time series database KairosDB is now supported in Grafana out of the box. Thank you to
 <a href="https://github.com/masaori335" target="_blank">masaori335</a> for his hard work in getting it to this point. Also thanks
 to [Remi Dettai](https://github.com/rdettai) for the initial implementation of the KairosDB data source plugin.
 
 - - -
 
-## Panel Improvements
+### Panel Improvements
 
 Grafana 2.1 gives you even more flexibility customizing how individual panels render.
 Overriding the colors of specific series using regular expressions, changing how series stack,
 and allowing string values will help you better understand your data at a glance.
 
-### Graph Panel
+#### Graph Panel
 Define series color using regex rule. This is useful when you have templated graphs with series names
 that change depending selected template variables. Using a regex style override rule you could
 for example make all series that contain the word **CPU** `red` and assigned to the second y axis.
@@ -135,38 +135,25 @@ the values shown in the hover tooltip.
 
 ![Negative-y Transform](/assets/img/blog/negative-y-form.png "Negative-y Transform")
 
-### Singlestat Panel
+#### Singlestat Panel
 Now support string values. Useful for time series database like InfluxDB that supports
 string values.
 
 ### Changelog
 For a detailed list and link to github issues for everything included in the 2.1 release please
-view the [CHANGELOG.md]("https://github.com/grafana/grafana/blob/master/CHANGELOG.md") file.
+view the [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG.md) file.
+
+<a href="https://grafana.com/get">Download Grafana 2.1 now</a>
+<br>
+<br>
+<a href="http://play.grafana.org/dashboard/db/new-features-in-v2-1">Demo dashboard for Grafana 2.1 features</a>
 
 - - -
-
-### <a href="https://grafana.com/get">Download Grafana 2.1 now</a>
-### <a href="http://play.grafana.org/dashboard/db/new-features-in-v2-1">Demo dashboard for Grafana 2.1 features</a>
-
-- - -
-<br/>
 
 ## Thanks to project sponsors
+
 * [Squarespace](http://www.squarespace.com)
 * [Dreamhost](http://www.dreamhost.com)
 * [Demonware](http://www.demonware.net)
 * [Mediamath](https://developer.mediamath.com/OpenSource)
 
-## Subscribe to project updates
-<section class="newsletter">
-  <form action="http://grafana.us8.list-manage.com/subscribe/post?u=2aeb5711db2aececc990be536&amp;id=5585d37ecc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-    <row class="collapse">
-      <div class="medium-10 columns">
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address">
-      </div>
-      <div class="medium-2 columns">
-        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button postfix">
-      </div>
-    </row>
-  </form>
-</section>

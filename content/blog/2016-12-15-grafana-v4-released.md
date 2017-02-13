@@ -91,9 +91,8 @@ We always try to bring some UX/UI refinements & polish in every release.
 
 ### TV-mode & Kiosk mode
 
-
-<div class="row">
-  <div class="medium-6 columns">
+<div class="row row--no-gutters">
+  <div class="col col--md-6">
     <p>
       Grafana is so often used on wall mounted TVs that we figured a clean TV mode would be
       really nice. In TV mode the top navbar, row & panel controls will all fade to transparent.
@@ -111,7 +110,7 @@ We always try to bring some UX/UI refinements & polish in every release.
       In kiosk mode the navbar is completely hidden/removed from view.
     </p>
   </div>
-  <div class="medium-6 columns">
+  <div class="col col--md-6">
    {{< lightboxhelper max-width="100%" img="/img/docs/v4/tvmode.png" caption="TV mode" >}}
    <video width="320" height="240" controls>
     <source src="/assets/videos/tvmode.mp4" type="video/mp4">

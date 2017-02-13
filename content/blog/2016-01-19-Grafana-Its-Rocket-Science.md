@@ -27,9 +27,10 @@ It’s always a thrill to find out when someone cool is finding value in your so
 
 <img src="/assets/img/v2/grafana-spotted.png" />
 
-
 <br/>
 **Watch [The Falcon has landed](https://youtu.be/ANv5UfZsvZQ)**
+<br/>
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/ANv5UfZsvZQ" frameborder="0" allowfullscreen></iframe>
 
 A bunch of us at raintank are huge fans of SpaceX, and follow the launches regularly. We’d love to learn more about what they're doing with Grafana (and have already contacted them).
@@ -40,8 +41,8 @@ Onwards and upwards, open source, Grafana, and SpaceX!
 
 <div style="font-size:75%"><em>Main photo courtesy of NASA</em></div>
 
-
 #### Thanks to project sponsors
+
 * [Raintank](http://raintank.io)
 * [Squarespace](http://www.squarespace.com)
 * [Dreamhost](http://www.dreamhost.com)

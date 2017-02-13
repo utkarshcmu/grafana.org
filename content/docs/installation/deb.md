@@ -74,6 +74,8 @@ The back-end web server has a number of configuration options. Go the
 [Configuration](/installation/configuration) page for details on all
 those options.
 
+> **OBS** Please not that this install instructions is just for testing the desig of the docs site
+
 ## Adding data sources
 
 - [Graphite](../datasources/graphite.md)

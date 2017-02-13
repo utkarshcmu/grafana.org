@@ -104,19 +104,6 @@ But it is likely that long term this standalone mode will be removed, but this i
 So stay tuned for a beta sometime early or mid March (if this goes as we hope).
 Subscribe to newsletter to get notified.
 
-<section class="newsletter">
-  <form action="http://grafana.us8.list-manage.com/subscribe/post?u=2aeb5711db2aececc990be536&amp;id=5585d37ecc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-    <row class="collapse">
-      <div class="medium-10 columns">
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address">
-      </div>
-      <div class="medium-2 columns">
-        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button postfix">
-      </div>
-    </row>
-  </form>
-</section>
-
 ## Thanks to project sponsors
 * [Squarespace](http://www.squarespace.com)
 * [Dreamhost](http://www.dreamhost.com)

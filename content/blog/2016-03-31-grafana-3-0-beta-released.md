@@ -183,7 +183,7 @@ addition, much of the code has been migrated to ES6 and Typescript.
 These changes dramatically improve the maintainability  of the code
 going forward.
 
-#### Where’s alerting?
+### Where’s alerting?
 
 We are aware that many of you are waiting for the alerting feature,
 and regrettably it didn’t make it into this beta.
@@ -217,7 +217,7 @@ you can still install manually from [Grafana.net](http://grafana.net)
 * KairosDB: This data source has also no longer shipped with Grafana,
 you can install it manually from [Grafana.net](http://grafana.net)
 
-### CHANGELOG
+### Changelog
 
 For a detailed list and link to github issues for everything included
 in the 3.0 release please view the

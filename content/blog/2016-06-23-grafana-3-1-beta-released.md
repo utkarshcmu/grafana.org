@@ -105,16 +105,4 @@ A big thanks to all the Grafana users who contribute by submitting PRs, bug repo
 <a class="button primary radius" href="http://play.grafana.org" target="_blank">Live Demo</a>.
 </div>
 
-#### Subscribe to project updates
-<section class="newsletter">
-  <form action="http://grafana.us8.list-manage.com/subscribe/post?u=2aeb5711db2aececc990be536&amp;id=5585d37ecc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-    <row class="collapse">
-      <div class="medium-10 columns">
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address">
-      </div>
-      <div class="medium-2 columns">
-        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button postfix">
-      </div>
-    </row>
-  </form>
-</section>
+
