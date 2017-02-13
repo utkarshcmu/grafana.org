@@ -9,7 +9,7 @@ categories:
   - "Grafana"
 ---
 
-New release today! v1.6.0 is now available for [download](/download).
+New release today! v1.6.0 is now available for [download](https://grafana.com/get).
 
 This is a pretty big release with a many of small improvements and new features.
 
@@ -46,7 +46,4 @@ You can now use the filtering feature (templated queries) with InfluxDB.
 The graphite panel is now renamed to simply ```graph```. Old dashboards will still work.
 
 There are many more changes and improvements, checkout the complete changelog on the
-[download](/download) page.
-
-
-
+[download](https://grafana.com/get) page.

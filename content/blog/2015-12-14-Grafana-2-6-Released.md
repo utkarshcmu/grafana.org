@@ -23,7 +23,7 @@ for more info on new features. There is also a [Demo dashboard](http://play.graf
 at the demo site where you can play with the new panel and InfluxDB editor.
 
 <div class="text-center">
-  <a class="button secondary radius" href="/download">Download Grafana 2.6 now</a>
+  <a class="button secondary radius" href="https://grafana.com/get">Download Grafana 2.6 now</a>
 </div>
 
 Upgrading from any previous 2.x version is safe, dashboards are backward compatible.
@@ -45,5 +45,3 @@ view the [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG
 * [Dreamhost](http://www.dreamhost.com)
 * [Demonware](http://www.demonware.net)
 * [Mediamath](https://developer.mediamath.com/OpenSource)
-
-

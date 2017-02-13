@@ -16,7 +16,7 @@ excited to announce the release of Grafana 2.1 today. We recommend that all Graf
 Grafana 2.1 brings improvements in three core areas: dashboarding, authentication, and data sources.
 As with every Grafana release, there is a whole slew of new features, enhancements, and bug fixes.
 
-<a href="http://grafana.org/download/" target="_blank">Download Grafana 2.1 now</a>
+<a href="https://grafana.com/grafana/download" target="_blank">Download Grafana 2.1 now</a>
 
 We're excited about this release, and want to share some of the highlights:
 
@@ -145,7 +145,7 @@ view the [CHANGELOG.md]("https://github.com/grafana/grafana/blob/master/CHANGELO
 
 - - -
 
-### <a href="http://grafana.org/download">Download Grafana 2.1 now</a>
+### <a href="https://grafana.com/get">Download Grafana 2.1 now</a>
 ### <a href="http://play.grafana.org/dashboard/db/new-features-in-v2-1">Demo dashboard for Grafana 2.1 features</a>
 
 - - -

@@ -15,7 +15,7 @@ by the excitement and response around this release. See the features below to ge
 look at what 3.0 has to offer, and check out what else we've been up to.
 
 <div class="text-center">
-<a class="button secondary radius" href="/download">Download Grafana 3.0</a>.
+<a class="button secondary radius" href="https://grafana.com/get">Download Grafana 3.0</a>.
 <a class="button primary radius" href="http://play.grafana.org" target="_blank">Live Demo</a>.
 </div>
 
@@ -116,7 +116,7 @@ Matt Toback will take a deep dive into the new plugin architecture in Grafana 3.
 A big thank you to everyone who helped test and report issues with the beta release.
 
 <div class="">
-<a class="button secondary radius" href="/download">Download Grafana 3.0</a>.
+<a class="button secondary radius" href="https://grafana.com/get">Download Grafana 3.0</a>.
 <a class="button primary radius" href="http://play.grafana.org" target="_blank">Live Demo</a>.
 </div>
 

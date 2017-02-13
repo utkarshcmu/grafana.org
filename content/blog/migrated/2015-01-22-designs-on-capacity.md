@@ -12,7 +12,7 @@ It started as a crazy idea, but as some crazy ideas do, it became less crazy ove
 
 My co-founder Anthony has been really concerned about design and UI since day zero of raintank. He firmly believes that our "frontend" will make or break us, and that it's often a differentiator that commercial products lord over open source alternatives.
 
-My other co-founder Torkel shares the sentiment; he's gone out of his way to make <a href="http://www.grafana.org">Grafana</a> as intuitive and beautiful as possible over the last year, precisely because he thinks it's so important. I think the results there speak for themselves.
+My other co-founder Torkel shares the sentiment; he's gone out of his way to make <a href="https://www.grafana.com">Grafana</a> as intuitive and beautiful as possible over the last year, precisely because he thinks it's so important. I think the results there speak for themselves.
 
 I'm in 100% agreement, and I've definitely been guilty of paying lip service to design, UI, and UX in the past.
 

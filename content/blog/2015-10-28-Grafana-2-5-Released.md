@@ -14,7 +14,7 @@ categories:
 <img class="no-shadow" src="/assets/img/blog/grafana_2_5_graphic.png" alt="New Time picker">
 
 <div class="text-center">
-  <a class="button primary radius" href="/download">Download Grafana 2.5 now</a>
+  <a class="button primary radius" href="https://grafana.com/get">Download Grafana 2.5 now</a>
 </div>
 
 This is an exciting release, and we want to share some of the highlights. The release includes many
@@ -119,7 +119,7 @@ priority will be a table panel and more ways to visualize metrics.
 
 - - -
 
-#### <a href="http://grafana.org/download">Download Grafana 2.5 now</a>
+#### <a href="https://grafana.com/get">Download Grafana 2.5 now</a>
 
 #### Thanks to project sponsors
 * [Raintank](http://raintank.io)
@@ -127,5 +127,3 @@ priority will be a table panel and more ways to visualize metrics.
 * [Dreamhost](http://www.dreamhost.com)
 * [Demonware](http://www.demonware.net)
 * [Mediamath](https://developer.mediamath.com/OpenSource)
-
-

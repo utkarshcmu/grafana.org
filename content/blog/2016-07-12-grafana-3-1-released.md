@@ -19,7 +19,7 @@ Grafana 3.1.0 stable is now available for download!
 - [Full changelog](https://github.com/grafana/grafana/blob/master/CHANGELOG.md)
 
 <div class="text-center">
-<a class="button secondary radius" href="/download">Download Grafana 3.1</a>.
+<a class="button secondary radius" href="https://grafana.com/get">Download Grafana 3.1</a>.
 <a class="button primary radius" href="https://grafana.net/dashboards" target="_blank">Dashboards on Grafana.net</a>.
 </div>
 
@@ -71,7 +71,7 @@ The dashboard has the following graphs:
 A big thanks to all the Grafana users who contribute by submitting PRs, bug reports & feedback!
 
 <div class="text-center">
-<a class="button secondary radius" href="/download">Download Grafana 3.1</a>.
+<a class="button secondary radius" href="https://grafana.com/get">Download Grafana 3.1</a>.
 <a class="button primary radius" href="https://grafana.net/dashboards" target="_blank">Dashboards on Grafana.net</a>.
 </div>
 
@@ -88,4 +88,3 @@ A big thanks to all the Grafana users who contribute by submitting PRs, bug repo
     </row>
   </form>
 </section>
-

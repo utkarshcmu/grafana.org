@@ -20,7 +20,7 @@ differently from the previous one and requires more feedback and testing
 before a stable release can be made.
 
 <div class="text-center">
-  <a class="button secondary radius" href="/download">Download Grafana 2.6 beta now</a>
+  <a class="button secondary radius" href="https://grafana.com/get">Download Grafana 2.6 beta now</a>
 </div>
 
 
@@ -108,12 +108,12 @@ in combination with the new Table panel to show raw log data stored in InfluxDB.
 For a detailed list and link to github issues for everything included in the 2.6 release please
 view the [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG.md) file.
 
-<a href="/download">Download Grafana 2.6 beta now</a> <br><br>
+<a href="https://grafana.com/get">Download Grafana 2.6 beta now</a> <br><br>
 <a href="http://play.grafana.org/dashboard/db/new-features-in-v2-6">Demo dashboard for Grafana 2.6 features</a>
 
 - - -
 
-#### <a href="http://grafana.org/download">Download Grafana 2.6 beta now</a>
+#### <a href="https://grafana.com/get">Download Grafana 2.6 beta now</a>
 
 #### Thanks to project sponsors
 * [Raintank](http://raintank.io)
@@ -121,5 +121,3 @@ view the [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG
 * [Dreamhost](http://www.dreamhost.com)
 * [Demonware](http://www.demonware.net)
 * [Mediamath](https://developer.mediamath.com/OpenSource)
-
-

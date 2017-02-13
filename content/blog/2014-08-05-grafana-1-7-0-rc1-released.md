@@ -9,7 +9,7 @@ categories:
   - "Grafana"
 ---
 
-New release today! v1.7.0-rc1 is now available for [download](/download).
+New release today! v1.7.0-rc1 is now available for [download](https://grafana.com/get).
 
 This is a big release with a many new features and improvements. There are also a large number
 of architectural changes (hence the release candidate status).
@@ -33,7 +33,7 @@ and a new [Troubleshooting](/docs/troubleshooting) guide for example.
 
 ### Fixes and small additions
 There are also a number of small improvements and fixes in this release. It also has a number of architectural improvements
-that will make future features and additions easier to implement and manage. Check the changelog on the [download page](/download)
+that will make future features and additions easier to implement and manage. Check the changelog on the [download page](https://grafana.com/get)
 for a complete list.
 
 ## Grafana & full time development
@@ -56,4 +56,3 @@ travel could be an issue, but I am flexible and available :)
 
 Cheers & keep on graphing!<br>
 Torkel
-

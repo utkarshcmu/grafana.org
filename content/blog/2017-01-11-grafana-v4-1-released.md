@@ -7,7 +7,7 @@ cover_image = "/assets/img/blog/v4/grafana_shared_tooltips.jpg"
 description = "Grafana 4.1 Release Highlights"
 +++
 
-Grafana v4.1 is now [available for download](/download/4_1_0/).
+Grafana v4.1 is now [available for download](https://grafana.com/grafana/download).
 The new version contains a lot of improvement and the majority of them come from pull requests.
 The fact that we can release 4.1.0 so quickly after 4.0 is all thanks to the Grafana community and all the contributors.
 Big thumbs up!
@@ -65,7 +65,7 @@ of new features, changes, and bug fixes.
 
 ### Download
 
-Head to [v4.1 download page](/download/4_1_0/) for download links & instructions.
+Head to [v4.1 download page](https://grafana.com/grafana/download) for download links & instructions.
 
 ### Thanks
 

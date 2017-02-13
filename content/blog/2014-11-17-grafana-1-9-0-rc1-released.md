@@ -9,7 +9,7 @@ categories:
   - "Grafana"
 ---
 
-New release today! v1.9.0-rc1 is now available for [download](/download).
+New release today! v1.9.0-rc1 is now available for [download](https://grafana.com/get).
 
 [play.grafana.org](http://play.grafana.org) is updated to run 1.9.0-rc1.
 There is also a [New features in v1.9](http://play.grafana.org/#/dashboard/db/new-features-in-v19)
@@ -96,4 +96,3 @@ Torkel
 
 * [Sponsored by Squarespace](http://www.squarespace.com)
 * [Sponsored by Dreamhost](http://www.dreamhost.com)
-

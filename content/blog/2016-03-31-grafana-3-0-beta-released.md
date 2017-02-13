@@ -16,7 +16,7 @@ update to Grafana ever, with over 1500 commits by over 30 contributors.
 Read on below to learn more about what’s new in 3.0 or:
 
 <div class="text-center">
-<a class="button secondary radius" href="/download">Download Grafana 3.0</a>.
+<a class="button secondary radius" href="https://grafana.com/get">Download Grafana 3.0</a>.
 <a class="button primary radius" href="http://play.grafana.org" target="_blank">Live Demo</a>.
 </div>
 

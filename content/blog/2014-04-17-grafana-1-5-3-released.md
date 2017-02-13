@@ -9,7 +9,7 @@ categories:
   - "Grafana"
 ---
 
-Just pushed a new release! v1.5.3 is now available for [download](/download). There is no big new feature, just a collection
+Just pushed a new release! v1.5.3 is now available for [download](https://grafana.com/get). There is no big new feature, just a collection
 of small improvements and bugfixes. Been too busy making this new site to have time for any big
 new features.
 

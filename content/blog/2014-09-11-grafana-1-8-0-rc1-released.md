@@ -9,7 +9,7 @@ categories:
   - "Grafana"
 ---
 
-New release today! v1.8.0-rc1 is now available for [download](/download).
+New release today! v1.8.0-rc1 is now available for [download](https://grafana.com/get).
 
 This is probably the biggest release since the first version was released. So many new features, enhancements and general UI improvements
 that this will likely be a very long blog post. [play.grafana.org](http://play.grafana.org) is updated to
@@ -153,7 +153,7 @@ will have to suffice.
 #### 8) Download
 
 Even though I have two project sponsors, it is not enough
-for me to work full time and long term on Grafana. So please [pay what you think it is worth](/donate), and head to the [download](/download) page
+for me to work full time and long term on Grafana. So please [pay what you think it is worth](/donate), and head to the [download](https://grafana.com/get) page
 for download links and a complete changelog.
 
 ### NYC Grafana + InfluxDB Meetup on Oct 8th
@@ -175,4 +175,3 @@ Torkel
 
 * [Sponsored by Squarespace](http://www.squarespace.com)
 * [Sponsored by Dreamhost](http://www.dreamhost.com)
-

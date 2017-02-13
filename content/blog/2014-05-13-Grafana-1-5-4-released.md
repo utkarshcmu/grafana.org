@@ -9,7 +9,7 @@ categories:
   - "Grafana"
 ---
 
-New release today! v1.5.4 is now available for [download](/download).
+New release today! v1.5.4 is now available for [download](https://grafana.com/get).
 
 Some small new features and enhancements. Check the download page for a complete changelog.
 
@@ -25,7 +25,3 @@ will limit Grafana time. I currently only have evenings and weekends to spend wo
 After June that will all change. From July and onwards I will be working on Grafana and Grafana related things full time.
 
 If you haven't noticed there is now a [live playground and demo site](http://play.grafana.org)
-
-
-
-

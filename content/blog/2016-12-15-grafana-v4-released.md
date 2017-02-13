@@ -8,7 +8,7 @@ description = "Grafana 4.0 Stable Release"
 categories = ["Release News", "Grafana"]
 +++
 
-Grafana v4.0.2 is stable is now [available for download](/download). After about 4 weeks of beta fixes and testing
+Grafana v4.0.2 is stable is now [available for download](https://grafana.com/get). After about 4 weeks of beta fixes and testing
 are proud to announce that Grafana v4.0 stable is now released and production ready. This release contains a ton of minor
 new features, fixes and improved UX. But on top of the usual new goodies is a core new feature: Alerting!
 Read on below for a detailed description of what's new in Grafana v4!
@@ -179,7 +179,7 @@ of new features, changes, and bug fixes.
 
 ### Download
 
-Head to [v4 download page](/download/4_0_0/) for download links & instructions.
+Head to [v4 download page](https://grafana.com/grafana/download) for download links & instructions.
 
 Big thanks to all the Grafana users and devs out there who have helped with bug reports, feature
 requests and pull requests!

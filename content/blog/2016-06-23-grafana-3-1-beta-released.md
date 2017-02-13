@@ -101,7 +101,7 @@ Here is an update showing you how you can set alert thresholds by visually dragg
 A big thanks to all the Grafana users who contribute by submitting PRs, bug reports & feedback!
 
 <div class="">
-<a class="button secondary radius" href="/download">Download Grafana 3.1</a>.
+<a class="button secondary radius" href="https://grafana.com/get">Download Grafana 3.1</a>.
 <a class="button primary radius" href="http://play.grafana.org" target="_blank">Live Demo</a>.
 </div>
 
@@ -118,4 +118,3 @@ A big thanks to all the Grafana users who contribute by submitting PRs, bug repo
     </row>
   </form>
 </section>
-

@@ -66,7 +66,7 @@ information.
 - [Installing on Windows](windows.md)
 - [Installing on Docker](docker.md)
 - [Installing using Provisioning (Chef, Puppet, Salt, Ansible, etc)](provisioning.md)
-- [Nightly Builds](http://grafana.org/download/builds.html)
+- [Nightly Builds](https://grafana.com/grafana/download)
 
 ## Configuration
 
@@ -81,4 +81,3 @@ those options.
 - [OpenTSDB](../datasources/opentsdb.md)
 
 - [v3.1](/v3.1)
-

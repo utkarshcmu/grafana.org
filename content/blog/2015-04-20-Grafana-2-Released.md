@@ -17,7 +17,7 @@ We provide `deb`, `rpm` and generic binary tar packages for download as well as 
 repositories. If your platform is not included, check the [Building from source](http://docs.grafana.org/v2.0/project/building_from_source/)
 guide.
 
-- [Download page](/download)
+- [Download page](https://grafana.com/get)
 - [Installing on Debian / Ubuntu](http://docs.grafana.org/installation/debian/)
 - [Installing on RPM-based Linux (CentOS, Fedora, OpenSuse, RedHat)](http://docs.grafana.org/installation/rpm/)
 - [Installing via Docker](http://docs.grafana.org/installation/docker/)
@@ -57,5 +57,3 @@ To accompany this release there are now 5 new screencast episodes.
     </row>
   </form>
 </section>
-
-

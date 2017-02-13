@@ -20,7 +20,7 @@ That is why we have really taken the time get the design of the alert rule model
 engine as solid and future proof as possible.
 
 We are busily working on making a beta release by the end of October and stable release by GrafanaCon!
-You can already try it out in the [nightly builds](http://grafana.org/builds/).
+You can already try it out in the [nightly builds](https://grafana.com/grafana/download).
 
 <div class="clearfix"></div>
 
@@ -151,4 +151,3 @@ that post v4 release.
 
 Until next time, keep on graphing!<br>
 Torkel Ödegaard
-
