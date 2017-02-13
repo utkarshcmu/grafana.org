@@ -1,5 +1,5 @@
 ---
-title: "InfluxDB: First impressions"
+title: "InfluxDB: first impressions"
 author: awoods
 date: 2015-01-07
 categories:
