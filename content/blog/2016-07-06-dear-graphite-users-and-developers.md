@@ -3,7 +3,8 @@ title: Dear Graphite Users and Developers
 author: raj
 date: 2016-07-06
 aliases:
-  - blog/2016/07/06/dear-graphite-users-and-developers.html
+  - /blog/2016/07/06/dear-graphite-users-and-developers.html
+  - /dear-graphite-users-and-developers/
 list_image: /assets/img/v2/graphite.png
 categories:
   - "Graphite"

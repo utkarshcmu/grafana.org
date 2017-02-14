@@ -1,7 +1,7 @@
 ---
 title: "Big Changes Coming with Grafana 3.0 and Grafana.net"
 author: raj
-date: 2016-04-16
+date: 2016-04-08
 categories:
   - "Grafana"
   - "Company News"
