@@ -74,6 +74,11 @@ upload_s3() {
   # old file name for rss feed
   cp dist/blog/index.xml dist/feed.xml
 
+  if [[ $env =~ staging ]]; then
+    echo "Staging publish detected, disallowing robots!"
+    sed -i -- 's/Allow/Disallow/g' dist/robots.txt
+  fi
+
   cache=max-age=3600
   if [ "$NOCACHE" ]; then
     cache=no-cache
