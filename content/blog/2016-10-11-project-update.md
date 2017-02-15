@@ -8,7 +8,7 @@ cover_opacity = "0.2"
 cover_blur = "4px"
 aliases = ["blog/2016/10/15/project-update--grafanacon/"]
 description = "Project update blog post covering Grafana v4 progress update, GrafanaCon, new screencasts, new plugins, new dashboards."
-categories = ["Grafana"]
+categories = ["Grafana", "GrafanaCon"]
 +++
 
 {{< imgbox max-width="40%" img="/assets/img/blog/project_update/alert_graph.png" caption="Alerting graph" >}}

@@ -5,6 +5,7 @@ date = "2017-01-11"
 keywords = ["Grafana", "Blog", "v4.1"]
 cover_image = "/assets/img/blog/v4/grafana_shared_tooltips.jpg"
 description = "Grafana 4.1 Release Highlights"
+categories = ["Grafana", "Release"]
 +++
 
 Grafana v4.1 is now [available for download](https://grafana.com/grafana/download).

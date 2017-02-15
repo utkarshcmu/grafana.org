@@ -5,7 +5,7 @@ date = "2016-12-12"
 keywords = ["Grafana", "Blog", "v4.0", "Stable", "Release", "Download"]
 cover_image = "/assets/img/blog/v4/grafana_alert.png"
 description = "Grafana 4.0 Stable Release"
-categories = ["Release News", "Grafana"]
+categories = ["Release", "Grafana"]
 +++
 
 Grafana v4.0.2 is stable is now [available for download](https://grafana.com/get). After about 4 weeks of beta fixes and testing

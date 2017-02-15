@@ -3,7 +3,7 @@ title: Monitorama PDX
 author: torkel
 date: 2014-05-01
 aliases:
-  - blog/2014/05/01/monitorama.html
+  - /blog/2014/05/01/monitorama.html
 categories:
   - "Grafana"
 ---

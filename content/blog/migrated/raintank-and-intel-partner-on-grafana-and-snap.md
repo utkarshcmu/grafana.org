@@ -5,7 +5,7 @@ date: 2016-04-11
 cover_image: /assets/img/blog/migrated/torkel_intel1.png
 cover_opacity: 0.4
 categories:
-  - "Company News"
+  - "Company"
   - "Grafana"
 aliases:
   - /raintank-and-intel-partner-on-grafana-and-snap/

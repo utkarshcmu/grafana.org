@@ -4,7 +4,7 @@ author = "torkel"
 keywords = ["release"]
 date = "2016-07-12"
 aliases = ["blog/2016/07/12/grafana-3-1-released.html"]
-categories = ["Release News", "Grafana"]
+categories = ["Release", "Grafana"]
 +++
 
 Grafana 3.1.0 stable is now available for download!

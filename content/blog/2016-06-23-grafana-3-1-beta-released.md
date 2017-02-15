@@ -5,7 +5,7 @@ date: 2016-06-23
 aliases:
   - blog/2016/06/23/grafana-3-1-beta-released.html
 categories:
-  - "Release News"
+  - "Release"
   - "Grafana"
 ---
 

@@ -5,7 +5,7 @@ date: 2014-06-16
 aliases:
   - blog/2014/06/16/Grafana-1-6-0-Released.html
 categories:
-  - "Release News"
+  - "Release"
   - "Grafana"
 ---
 

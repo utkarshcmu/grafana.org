@@ -5,7 +5,7 @@ date: 2015-08-04
 aliases:
   - blog/2015/08/04/Grafana-2-1-Released.html
 categories:
-  - "Release News"
+  - "Release"
   - "Grafana"
 ---
 

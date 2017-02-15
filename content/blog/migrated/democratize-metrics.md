@@ -6,7 +6,7 @@ cover_image: /assets/img/blog/migrated/democratize-metrics-blogpost.jpg
 cover_opacity: 0.3
 categories:
   - "DevOps"
-  - "Essay"
+  - "Company"
 aliases:
   - /democratize-metrics-sounds-interesting-but-what-does-it-mean/
 ---

@@ -5,7 +5,7 @@ date: 2015-03-30
 aliases:
   - blog/2015/03/30/Grafana-2-Beta1.html
 categories:
-  - "Release News"
+  - "Release"
   - "Grafana"
 ---
 

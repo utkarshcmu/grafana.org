@@ -5,7 +5,7 @@ keywords = ["release"]
 author = "torkel"
 date = "2016-03-31"
 aliases = ["blog/2016/03/31/grafana-3-0-beta-released.html"]
-categories = ["Release News", "Grafana"]
+categories = ["Release", "Grafana"]
 +++
 
 Today is the day! We are pleased to announce that Grafana 3.0 beta

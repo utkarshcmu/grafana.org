@@ -7,6 +7,7 @@ cover_image = "/assets/img/blog/grafanacon_carrier.jpg"
 cover_opacity = "0.3"
 cover_blur = "1px"
 description = "GrafanaCon 2016 Videos Available"
+categories = ["GrafanaCon", "Grafana"]
 +++
 
 Last November we held the second GrafanaCon. This time it was actually a real conference and not a glorified meetup (like GrafanaCon 2015).

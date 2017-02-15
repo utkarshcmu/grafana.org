@@ -6,7 +6,6 @@ cover_image: /assets/img/blog/migrated/oss_blog.svg
 cover_opacity: 0.5
 categories:
   - "Open Source"
-  - "Essay"
 aliases:
   - /one-year-of-open-source-what-ive-learned/
 ---

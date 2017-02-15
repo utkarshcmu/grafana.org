@@ -1,10 +1,10 @@
 ---
-title: "Big Changes Coming with Grafana 3.0 and Grafana.net"
+title: "Big Changes Coming with Grafana 3.0 and Grafana.com"
 author: raj
 date: 2016-04-08
 categories:
   - "Grafana"
-  - "Company News"
+  - "Company"
 aliases:
   - /big-changes-coming-with-grafana-3-0-and-grafana-net/
 ---

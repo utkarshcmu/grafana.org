@@ -4,6 +4,7 @@ author: brian_brazil
 date: 2016-01-05
 categories:
   - "Monitoring"
+  - "Prometheus"
 aliases:
   - /logs-and-metrics-and-graphs-oh-my/
 ---

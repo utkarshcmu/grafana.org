@@ -3,7 +3,7 @@ title: "Designs on capacity"
 author: raj
 date: 2015-01-07
 categories:
-  - "Company News"
+  - "Company"
 aliases:
   - /raintank-has-designs-on-capacity//
 ---

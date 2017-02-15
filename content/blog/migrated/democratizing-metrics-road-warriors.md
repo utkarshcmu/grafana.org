@@ -5,7 +5,7 @@ date: 2015-11-24
 cover_image: /assets/img/blog/migrated/event_blog_hero.jpg
 cover_opacity: 0.2
 categories:
-  - "Company News"
+  - "Company"
   - "Grafana"
 aliases:
   - /democratizing-metrics-road-warriors/

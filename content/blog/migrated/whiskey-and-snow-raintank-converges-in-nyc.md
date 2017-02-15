@@ -5,7 +5,7 @@ date: 2016-01-23
 cover_image: /assets/img/blog/migrated/20160122_183919.png
 cover_opacity: 0.4
 categories:
-  - "Company News"
+  - "Company"
 aliases:
   - /whiskey-and-snow-raintank-converges-in-nyc/
 ---
