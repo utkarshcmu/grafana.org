@@ -63,10 +63,15 @@ module.exports = function(grunt) {
       dist: {
         files: [{expand: true, cwd: 'dist/', src: ['css/*.css', '**/*.html'], dest: 'dist/'}],
         options: {
-          replacements: [{
-            pattern: /url\((\/assets)/ig,
-            replacement: 'url(<%= baseUrl %>$1'
-          }
+          replacements: [
+            {
+              pattern: /url\((\/assets)/ig,
+              replacement: 'url(<%= baseUrl %>$1'
+            },
+            {
+              pattern: /url\(\.\.\/\.\.(\/static)/ig,
+              replacement: 'url(<%= baseUrl %>$1'
+            },
           ]
         }
       }
