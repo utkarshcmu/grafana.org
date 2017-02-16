@@ -62,7 +62,19 @@
 						</li>
 						<li class="site-nav__item">
 							<span class="site-nav__btn">
-								<a class="btn btn--primary" href="{{ $navBaseUrl }}/get">Get Grafana</a>
+								<a class="site-nav__link" href="{{ $navBaseUrl }}/get">
+									<svg class="svg-gradient__get-grafana">
+										<style>
+											.svg-gradient-text {
+												fill: url(#svgGradientFill);
+											}
+										</style>
+										<defs>
+											<linearGradient id="svgGradientFill" x1="0%" y1="0%" x2="100%" y2="100%" data-reactid="38"><stop stop-color="#ffed00" offset="10%" data-reactid="39"></stop><stop stop-color="#ff8100" offset="80%" data-reactid="40"></stop></linearGradient>
+										</defs>
+										<text textAnchor="left" x="0%" y="85%" class="svg-gradient-text">Get Grafana</text>
+									</svg>
+								</a>
 							</span>
 						</li>
 					</ul>

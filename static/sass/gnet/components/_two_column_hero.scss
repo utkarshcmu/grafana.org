@@ -10,11 +10,6 @@
   @include at-least(small) {
     flex-wrap: nowrap;
   }
-
-  @include at-least(medium) {
-    margin-left: $spacer*3;
-    margin-right: $spacer*3;
-  }
 }
 
 .two-column-hero__text,
@@ -35,6 +30,19 @@
     vertical-align: middle;
     max-height: 400px;
   }
+}
+
+.two-column-hero__figure-with-caption {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.two-column-hero__figure-caption {
+  display: block;
+  font-size: $font-size-epsilon;
+
 }
 
 .two-column-hero__heading {

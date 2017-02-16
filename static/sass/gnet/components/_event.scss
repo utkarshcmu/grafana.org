@@ -7,7 +7,8 @@
   font-weight: 100;
   font-size: $font-size-delta;
   color: $off-white2;
-  margin-right: rem-calc(10);
+  display: block;
+  margin-bottom: rem-calc(10);
 }
 
 .event__location {
@@ -22,6 +23,7 @@
 }
 
 .event__copy {
+  min-height: rem-calc(128);
 	b {
 		color: $white;
 	}

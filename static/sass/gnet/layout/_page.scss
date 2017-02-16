@@ -50,6 +50,24 @@
     position: relative;
     max-height: 800px;
     overflow: hidden;
+    background: linear-gradient(0deg, transparent 75%, rgba(0,0,0,0.8));
+
+    @media (max-width: $bp-large) {
+      padding: rem-calc(100 0 30 0);
+    }
+
+    @media (max-width: $bp-medium) {
+      padding: rem-calc(75 0 30 0);
+    }
+
+    @media (max-width: $bp-small) {
+      padding: rem-calc(50 0 30 0);
+    }
+
+    @media (max-width: $bp-nav) {
+      top: 75px;
+    }
+
   }
 
   &--with-bg {
@@ -109,6 +127,12 @@
 
 .page-letterhead__hero {
   padding: rem-calc(60 0);
+
+  &--video {
+    @media (max-width: $bp-nav) {
+      margin-top: -75px;
+    }
+  }
 }
 
 .page-letterhead__vid {
@@ -146,6 +170,20 @@
   .btn {
     width: 100%;
   }
+
+  @media (max-width: $bp-large) {
+    margin: rem-calc(90) auto rem-calc(20) auto;
+  }
+
+  @media (max-width: $bp-medium) {
+    margin: rem-calc(40) auto rem-calc(20) auto;
+  }
+
+  @media (max-width: $bp-small) {
+    margin: rem-calc(50) auto rem-calc(10) auto;
+  }
+
+
 }
 
 // Page Submenu
@@ -176,10 +214,17 @@
   padding: rem-calc(10 3);
   font-size: $font-size-gamma;
 
+  &:last-child {
+    margin-right: 0;
+  }
+
   @include at-least(nav) {
     padding: rem-calc(15 5);
     margin-right: rem-calc(40);
     font-size: $font-size-beta;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
   &--active {

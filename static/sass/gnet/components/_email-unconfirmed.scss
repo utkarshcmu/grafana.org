@@ -1,0 +1,25 @@
+.email-unconfirmed {
+  display: inline-block;
+}
+
+.email-unconfirmed__status {
+  margin-bottom: $spacer;
+
+  b {
+    color: $primary-color;
+    margin-right: $spacer;
+  }
+  button {
+    margin-right: $spacer;
+  }
+}
+
+.email-unconfirmed__message {
+  &--success {
+    color: $success-color;
+  }
+
+  &--fail {
+    color: $alert-color;
+  }
+}
