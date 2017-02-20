@@ -29,6 +29,11 @@ $(window).on('load', () =>  {
     });
   });
 
+  $('.site-nav__toggle').on('click touchstart', function(evt) {
+    $('.site-nav__toggle').toggleClass('nav-open');
+    $('.site-nav-canvas').toggleClass('site-nav-canvas--open');
+  })
+
   $('.expand-menu').on('click touchstart', function(evt) {
     evt.preventDefault();
 
