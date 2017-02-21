@@ -4,11 +4,11 @@
 
 @font-face {
     font-family: 'grafana-icons';
-    src:    url('/fonts/grafana-icons.eot');
-    src:    url('/fonts/grafana-icons.eot') format('embedded-opentype'),
-            url('/fonts/grafana-icons.ttf') format('truetype'),
-            url('/fonts/grafana-icons.woff') format('woff'),
-            url('/fonts/grafana-icons.svg') format('svg');
+    src:    url('../../static/fonts/grafana-icons.eot');
+    src:    url('../../static/fonts/grafana-icons.eot') format('embedded-opentype'),
+            url('../../static/fonts/grafana-icons.ttf') format('truetype'),
+            url('../../static/fonts/grafana-icons.woff') format('woff'),
+            url('../../static/fonts/grafana-icons.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }

@@ -13,10 +13,8 @@
     -moz-transition: -moz-transform 0.15s ease 0s;
     -o-transition: -o-transform 0.15s ease 0s;
     transition: transform 0.15s ease 0s;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 
   &:hover {
@@ -24,10 +22,26 @@
       -webkit-transform: scale3d(1.05, 1.05, 1.05);
       transform: scale3d(1.05, 1.05, 1.05);
     }
+  }
 
-    .screenshot__zoom img {
-      opacity: 1;
+  &--round {
+    border: none;
+    padding-top: $spacer;
+    box-shadow: none;
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 1px solid black;
+      box-shadow: 0 0 20px #111;
     }
+  }
+
+  &--transparent {
+    border: none;
+    padding-top: $spacer;
+    box-shadow: none;
   }
 }
 

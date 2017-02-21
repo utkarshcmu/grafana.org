@@ -1,0 +1,137 @@
+// Page Letterhead
+// -------------------------------------------------------------------------
+
+.page-letterhead {
+  padding: rem-calc(150 0 30 0);
+  background-position: center 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+
+  &--video {
+    position: relative;
+    max-height: 800px;
+    overflow: hidden;
+    background: linear-gradient(0deg, transparent 75%, rgba(0,0,0,0.8));
+    top: $page-header-height-small;
+    padding: rem-calc(0 0 30 0);
+
+    @include at-least(large) {
+      padding: rem-calc(110 0 30 0);
+    }
+
+    @include at-least(nav) {
+      padding: rem-calc(110 0 20 0);
+      top: 0;
+    }
+  }
+
+  &--with-bg {
+    box-shadow: 0 0 20px $black;
+    background: black;
+    z-index: 1;
+
+    &:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1;
+      filter: blur(2px);
+      opacity: 0.7;
+      background-image: url(../../static/img/hero_bg_graphs.jpg);
+    }
+  }
+
+  &--dashboards {
+    &:after {
+      background-image: url(../../static/img/hero_bg_graphs.jpg);
+    }
+  }
+
+  &--plugins {
+    &:after {
+      background-image: url(../../static/img/hero_bg_graphs.jpg);
+    }
+  }
+}
+
+.page-letterhead__heading {
+  @extend .h2;
+  margin-bottom: rem-calc(0);
+  line-height: rem-calc(50);
+  text-shadow: 1px 1px 7px #000;
+  font-size: 1.65rem;
+
+  @include at-least(small) {
+    font-size: $font-size-h2;
+  }
+
+  @include at-least(medium) {
+    font-size: $font-size-h1;
+    line-height: rem-calc(60);
+  }
+
+  &--lead {
+    text-align: center;
+  }
+}
+
+.page-letterhead__hero {
+  padding: rem-calc(60 0);
+}
+
+.page-letterhead__vid {
+  width: 100%;
+  height: auto;
+  position:absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.page-letterhead__subheading {
+  color: $off-white2;
+  font-weight: normal;
+  font-size: $font-size-beta;
+  text-shadow: 2px 2px 4px #000;
+  margin: rem-calc(0 0 10 0);
+  padding-bottom: rem-calc(10);
+  border-bottom: 1px solid $primary-color;
+  -moz-border-image: -moz-$orange-gradient;
+  -webkit-border-image: -webkit-$orange-gradient;
+  border-image: $orange-gradient;
+  border-image-slice: 1;
+
+  @include at-least(small) {
+    font-size: $font-size-h6;
+  }
+
+  @include at-least(medium) {
+    font-size: $font-size-h5;
+  }
+}
+
+
+.page-letterhead__cta_wrapper {
+  width: rem-calc(200);
+  margin: rem-calc(50) auto rem-calc(10) auto;
+  .btn {
+    width: 100%;
+  }
+
+  @include at-least(large) {
+    margin: rem-calc(100) auto rem-calc(20) auto;
+  }
+
+  @include at-least(medium) {
+    margin: rem-calc(100) auto rem-calc(20) auto;
+  }
+}

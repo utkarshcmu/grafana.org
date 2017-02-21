@@ -1,0 +1,58 @@
+// Page Submenu
+// -------------------------------------------------------------------------
+
+.page-submenu {
+  background: $darker-gray;
+  box-shadow: 0px 0px 20px $black;
+  margin-bottom: $spacer*2;
+
+  & .cta {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .wrapper {
+    padding: 0 10px;
+  }
+}
+
+.page-submenu__list {
+  text-align: center;
+  position: relative;
+}
+
+.page-submenu__list-item {
+  color: $white;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+  margin-right: rem-calc(8);
+  padding: rem-calc(10 3);
+  font-size: rem-calc(12);
+
+  &:last-child {
+    margin-right: 0 !important;
+  }
+
+  @include at-least(small) {
+    padding: rem-calc(15 5);
+    margin-right: rem-calc(20);
+    font-size: $font-size-gamma;
+  }
+
+  @include at-least(nav) {
+    padding: rem-calc(15 5);
+    margin-right: rem-calc(40);
+    font-size: $font-size-beta;
+  }
+
+  &--active {
+    border-bottom: 1px solid $primary-color;
+    border-image: $orange-gradient;
+    border-image-slice: 1;
+  }
+
+  &:hover {
+    color: $primary-color;
+  }
+}

@@ -13,8 +13,12 @@
   box-shadow: inset 100px 100px 260px -70px black;
 
   &--home {
-    background: transparent;
+    background: $black;
     box-shadow: none;
+
+    @include at-least(nav) {
+      background: transparent;
+    }
   }
 
   &--plugins,
@@ -46,7 +50,6 @@
   margin: rem-calc(30 0 0 0 );
   position: relative;
   top: rem-calc(-7);
-  transition: all .25s ease-out;
 
   @include at-least(nav) {
     width: rem-calc(240);
