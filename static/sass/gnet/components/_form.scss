@@ -82,7 +82,7 @@
 .form__input--logo {
   width: rem-calc(130);
   height: rem-calc(100);
-  background-image: url("../../static/img/gf-net-add_image.svg");
+  background-image: url("/img/gf-net-add_image.svg");
   background-position: center center;
   border: 1px solid $gray;
   color: transparent;
@@ -100,7 +100,7 @@
 .form__input--screenshot {
   width: rem-calc(130);
   height: rem-calc(100);
-  background-image: url("../../static/img/gf-net-add_image.svg");
+  background-image: url("/img/gf-net-add_image.svg");
   background-position: center center;
   border: 1px solid $gray;
   color: transparent;
@@ -276,19 +276,19 @@
       display: block;
       content: "";
       background-position: 0 0;
-      background-image: url("../../static/img/check.svg");
+      background-image: url("/img/check.svg");
       background-repeat: no-repeat;
     }
   }
 }
 
 .email-form__input {
-  background: $gray url('../../static/img/icon_email.svg') rem-calc(10) 50% no-repeat;
+  background: $gray url('/img/icon_email.svg') rem-calc(10) 50% no-repeat;
   padding: 0.75rem 0.75rem 0.75rem 3rem;
 }
 
 .search-form__input--tight {
-  background: $gray url('../../static/img/icon_search.svg') rem-calc(8) 49% no-repeat;
+  background: $gray url('/img/icon_search.svg') rem-calc(8) 49% no-repeat;
   padding: rem-calc(8) rem-calc(8) rem-calc(8) 2rem;
   font-size: rem-calc(14);
 }
