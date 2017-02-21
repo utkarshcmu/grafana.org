@@ -1,0 +1,40 @@
+.sign-up-box {
+  background: url('../img/polygon_texture_blue.jpg') 0 0 repeat;
+  background-size: cover;
+  padding: $spacer;
+  box-shadow: $page-section-with-bg-pattern-shadow;
+  text-align: center;
+}
+
+.sign-up-box__btn {
+  margin-bottom: $spacer;
+}
+
+.sign-up-box__heading {
+  color: $white;
+}
+
+.sign-up-box__list {
+  text-align: left;
+  padding-left: 0;
+  margin-right: 0;
+  font-size: $font-size-delta;
+
+  > li {
+    list-style: none;
+    margin: 0 auto rem-calc(10) rem-calc(35);
+    position: relative;
+    min-height: rem-calc(30);
+    color: $white;
+
+    &::before {
+      font-family: 'grafana-icons';
+      content: "\e603"; // .icon-gf-check-alt
+      color: $success-color;
+      font-size: 160%;
+      margin-left: rem-calc(-40);
+      position: absolute;
+      top: -6px;
+    }
+  }
+}
