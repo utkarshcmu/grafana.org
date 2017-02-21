@@ -72,6 +72,14 @@ module.exports = function(grunt) {
               pattern: /url\(\.\.\/\.\.(\/static)/ig,
               replacement: 'url(<%= baseUrl %>$1'
             },
+            {
+              pattern: /url\(\'\.\.\/\.\.(\/static)/ig,
+              replacement: 'url(\'<%= baseUrl %>$1'
+            },
+            {
+              pattern: /url\(\"\.\.\/\.\.(\/static)/ig,
+              replacement: 'url(\"<%= baseUrl %>$1'
+            },
           ]
         }
       }
