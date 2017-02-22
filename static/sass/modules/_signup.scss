@@ -3,7 +3,25 @@
   background-size: cover;
   padding: $spacer;
   box-shadow: $page-section-with-bg-pattern-shadow;
-  text-align: center;
+}
+
+.sign-up-box__img {
+  position: relative;
+  display: none;
+  clear: both;
+  float: none;
+}
+
+.sign-up-box__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  @include at-least(medium) {
+    margin-left: rem-calc(64);
+    flex-direction: row;
+  }
+
 }
 
 .sign-up-box__btn {
@@ -12,6 +30,7 @@
 
 .sign-up-box__heading {
   color: $white;
+  font-style: italic;
 }
 
 .sign-up-box__list {
@@ -35,6 +54,43 @@
       margin-left: rem-calc(-40);
       position: absolute;
       top: -6px;
+    }
+  }
+}
+
+/* for article lists and archives */
+.blog-aside {
+      text-align: center;
+  .sign-up-box__heading {
+    font-size: $font-size-kilo;
+  }
+}
+
+/* for article page */
+.blog-article {
+  .wrapper {
+    max-width: rem-calc(1024);
+    margin: 0 auto;
+  }
+  .sign-up-box__heading {
+    font-size: $font-size-kilo;
+
+    @include at-least(medium) {
+      font-size: $font-size-mega;
+    }
+  }
+
+  .sign-up__img {
+    display: inline-block;
+    float: none;
+
+    @include at-least(small) {
+      display: block;
+      float: right;
+    }
+
+    & img {
+      width: 70%;
     }
   }
 }
