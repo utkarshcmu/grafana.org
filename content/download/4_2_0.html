@@ -1,0 +1,99 @@
++++
+title       = "Download v4.2.0-beta"
+description = "Grafana v4.2.0-beta download"
+body_class = "download-page"
+date = "2017-02-27"
+grafana_version = "4.2.0-beta1"
+grafana_build = "4.2.0-beta1"
+grafana_deb_sha = "035fc0c60df34e9d81c5938f4ed9d3f10b2bce9e"
+grafana_win_sha = "f69fc0e2fb485eef4873104013dc016a26685fc2"
+grafana_rpm_sha = "8a8b6f61b8f94f7c1725e9ae5ca347a8ba9ebc9c"
+grafana_linux_tar_sha = "e6555b29b1c996d1afde94f3a49c536bc198747a"
++++
+
+{{< releasetabs >}}
+
+<div class="tabs-content markdown">
+    <section role="tabpanel" aria-hidden="false" class="content active" id="panel1">
+        <h3>
+        	Grafana 4.2.0 Highlights
+		</h3>
+
+		<div class="download-highlights-header-details">
+			For full details check out <a href="http://docs.grafana.org/guides/whats-new-in-v4-1/">What's New In Grafana 4.2</a> article.
+		</div>
+
+        <ul>
+            <li><strong>Alerting</strong> Adds deduping of alert notifications <a href="https://github.com/grafana/grafana/pull/7632">#7632</a></li>
+            <li><strong>Alerting</strong> Better information about why an alert triggered <a href="https://github.com/grafana/grafana/issues/7035">#7035</a></li>
+            <li><strong>Orgs</strong> Sharing dashboards using Grafana share feature will now redirect to correct org. <a href="https://github.com/grafana/grafana/issues/6948">#6948</a></li>
+            <li><strong>Hipchat</strong> Adds support for sending alert notifications to hipchat <a href="https://github.com/grafana/grafana/issues/6451">#6451</a>, thx <a href="https://github.com/jregovic">@jregovic</a></li>
+            <li><strong>Telegram</strong> Added Telegram alert notifier <a href="https://github.com/grafana/grafana/pull/7098">#7098</a>, thx <a href="https://github.com/leonoff">@leonoff</a></li>
+            <li><strong>LINE</strong> Add LINE as alerting notification channel <a href="https://github.com/grafana/grafana/pull/7301">#7301</a>, thx <a href="https://github.com/huydx">@huydx</a></li>
+            <li><strong>Templating</strong> Make $__interval and $__interval_ms global built in variables that can be used in by any datasource (in panel queries), closes <a href="https://github.com/grafana/grafana/issues/7190">#7190</a> and closes <a href="https://github.com/grafana/grafana/issues/6582">#6582</a></li>
+        </ul>
+	</section>
+
+	<section role="tabpanel" aria-hidden="true" class="content" id="panel2">
+        Enhancements in 4.2.0-beta
+        <ul>
+            <li><strong>Telegram</strong> Added Telegram alert notifier <a href="https://github.com/grafana/grafana/pull/7098">#7098</a>, thx <a href="https://github.com/leonoff">@leonoff</a></li>
+            <li><strong>Templating</strong> Make $__interval and $__interval_ms global built in variables that can be used in by any datasource (in panel queries), closes <a href="https://github.com/grafana/grafana/issues/7190">#7190</a>, closes <a href="https://github.com/grafana/grafana/issues/6582">#6582</a></li>
+            <li><strong>S3 Image Store</strong> External s3 image store (used in alert notifications) now support AWS IAM Roles, closes <a href="https://github.com/grafana/grafana/issues/6985">#6985</a>, <a href="https://github.com/grafana/grafana/issues/7058">#7058</a> thx <a href="https://github.com/mtanda">@mtanda</a></li>
+            <li><strong>SingleStat</strong> Implements diff aggregation method for singlestat <a href="https://github.com/grafana/grafana/issues/7234">#7234</a>, thx <a href="https://github.com/oliverpool">@oliverpool</a></li>
+            <li><strong>Dataproxy</strong> Added setting to enable more verbose logging in dataproxy <a href="https://github.com/grafana/grafana/pull/7209">#7209</a>, thx <a href="https://github.com/Ricky-N">@Ricky-N</a></li>
+            <li><strong>Alerting</strong> Better information about why an alert triggered <a href="https://github.com/grafana/grafana/issues/7035">#7035</a></li>
+            <li><strong>LINE</strong> Add LINE as alerting notification channel <a href="https://github.com/grafana/grafana/pull/7301">#7301</a>, thx <a href="https://github.com/huydx">@huydx</a></li>
+            <li><strong>LINE</strong> Adds image to notification message <a href="https://github.com/grafana/grafana/pull/7417">#7417</a>, thx <a href="https://github.com/Erliz">@Erliz</a></li>
+            <li><strong>Hipchat</strong> Adds support for sending alert notifications to hipchat <a href="https://github.com/grafana/grafana/issues/6451">#6451</a>, thx <a href="https://github.com/jregovic">@jregovic</a></li>
+            <li><strong>Alerting</strong> Uploading images for alert notifications is now optional <a href="https://github.com/grafana/grafana/issues/7419">#7419</a></li>
+            <li><strong>Dashboard</strong> Adds shortcut for collapsing/expanding all rows <a href=(https://github.com/grafana/grafana/issues/552""[#552</a>, thx <a href="https://github.com/mtanda">@mtanda</a></li>
+            <li><strong>Alerting</strong> Adds de duping of alert notifications <a href="https://github.com/grafana/grafana/pull/7632">#7632</a></li>
+            <li><strong>Orgs</strong> Sharing dashboards using Grafana share feature will now redirect to correct org. <a href="https://github.com/grafana/grafana/issues/1613">#1613</a></li>
+            <li><strong>Pushover</strong> Add Pushover alert notifications <a href="https://github.com/grafana/grafana/pull/7526">#7526</a> thx <a href="https://github.com/devkid">@devkid</a></li>
+            <li><strong>Threema</strong> Add Threema Gateway alert notification integration <a href="https://github.com/grafana/grafana/pull/7482">#7482</a> thx <a href="https://github.com/dbrgn">@dbrgn</a></li>
+            <li><strong>Optimzation</strong> Never issue refresh event when Grafana tab is not visible <a href="https://github.com/grafana/grafana/issues/7218">#7218</a>, thx <a href="https://github.com/mtanda">@mtanda</a></li>
+            <li><strong>Browser History</strong> Browser back/forward now works time ranges / zoom, <a href="https://github.com/grafana/grafana/issues/7259">#7259</a></li>
+            <li><strong>Elasticsearch</strong> Support for Min Doc Count options in Terms aggregation <a href="https://github.com/grafana/grafana/pull/7324">#7324</a>, thx <a href="https://github.com/lpic10">@lpic10</a></li>
+            <li><strong>Elasticsearch</strong> Term aggregation limit can now be changed in template queries <a href="https://github.com/grafana/grafana/issues/7112">#7112</a>, thx <a href="https://github.com/FFalcon">@FFalcon</a></li>
+            <li><strong>Elasticsearch</strong> Ad-hoc filters now support all operators <a href="https://github.com/grafana/grafana/issues/7612">#7612</a>, thx <a href="https://github.com/tamayika">@tamayika</a></li>
+            <li><strong>Graph</strong> Add full series name as title for legends. <a href="https://github.com/grafana/grafana/pull/7493">#7493</a>, thx <a href="https://github.com/kolobaev">@kolobaev</a></li>
+            <li><strong>Table</strong> Add a message when queries returns no data. <a href="https://github.com/grafana/grafana/issues/6109">#6109</a>, thx <a href="https://github.com/xginn8">@xginn8</a></li>
+            <li><strong>Graph</strong> Set max width for series names in legend tables. <a href="https://github.com/grafana/grafana/issues/2385">#2385</a>, thx <a href="https://github.com/kolobaev">@kolobaev</a></li>
+            <li><strong>Database</strong> Allow max db connection pool configuration <a href="https://github.com/grafana/grafana/issues/7427">#7427</a>, thx <a href="https://github.com/huydx">@huydx</a></li>
+            <li><strong>Datasources</strong> Delete datsource by name <a href="https://github.com/grafana/grafana/issues/7476">#7476</a>, thx <a href="https://github.com/huydx">@huydx</a>
+            <li><strong>Dataproxy</strong> Only allow get that begins with api/ to access Prometheus <a href="https://github.com/grafana/grafana/pull/7459">#7459</a>, thx <a href="https://github.com/mtanda">@mtanda</a></li>
+            <li><strong>Snapshot</strong> Make timeout for snapshot creation configurable <a href="https://github.com/grafana/grafana/pull/7449">#7449</a> thx <a href="https://github.com/ryu1-sakai">@ryu1-sakai</a></li>
+            <li><strong>Panels</strong> Add more physics units <a href="https://github.com/grafana/grafana/pull/7554">#7554</a> thx <a href="https://github.com/ryantxu">@ryantxu</a></li>
+            <li><strong>Email</strong> Add sender's name on email <a href="https://github.com/grafana/grafana/issues/2131">#2131</a> thx <a href="https://github.com/jacobbednarz">@jacobbednarz</a></li>
+            <li><strong>HTTPS</strong> Set tls 1.2 as lowest tls version. <a href="https://github.com/grafana/grafana/pull/7347">#7347</a> thx <a href="https://github.com/roman-vynar">@roman-vynar</a></li>
+            <li><strong>Table</strong> Added suppressing of empty results to table plugin. <a href="https://github.com/grafana/grafana/pull/7602">#7602</a> thx <a href="https://github.com/LLIyRiK">@LLIyRiK</a></li>
+       </ul>
+
+        Bugfixes in 4.2.0-beta
+        <ul>
+            <li><strong>Alerting</strong> Fixes missing support for no_data and execution error when testing alerts <a href="https://github.com/grafana/grafana/issues/7149">#7149</a></li>
+            <li><strong>Dashboard</strong> Avoid duplicate data in dashboard json for panels with alerts <a href="https://github.com/grafana/grafana/pull/7256">#7256</a></li>
+            <li><strong>Alertlist</strong> Only show scrollbar when required <a href="https://github.com/grafana/grafana/issues/7269">#7269</a></li>
+            <li><strong>SMTP</strong> Set LocalName to hostname <a href="https://github.com/grafana/grafana/issues/7223">#7223</a></li>
+            <li><strong>Sidemenu</strong> Disable sign out in sidemenu for AuthProxyEnabled <a href="https://github.com/grafana/grafana/pull/7377">#7377</a>, thx <a href="https://github.com/solugebefola">@solugebefola</a></li>
+            <li><strong>Prometheus</strong> Add support for basic auth in Prometheus tsdb package <a href="https://github.com/grafana/grafana/issues/6799">#6799</a>, thx <a href="https://github.com/hagen1778">@hagen1778</a></li>
+            <li><strong>OAuth</strong> Redirect to original page when logging in with OAuth <a href="https://github.com/grafana/grafana/issues/7513">#7513</a></li>
+            <li><strong>Annotations</strong> Wrap text in annotations tooltip <a href="https://github.com/grafana/grafana/pull/7542">#7542</a>, thx <a href="https://github.com/xginn8">@xginn8</a></li>
+            <li><strong>Templating</strong> Fixes error when using numeric sort on empty strings <a href="https://github.com/grafana/grafana/issues/7382">#7382</a></li>
+            <li><strong>Templating</strong> Fixed issue detecting template variable dependency <a href="https://github.com/grafana/grafana/issues/7354">#7354</a></li>
+        </ul>
+	</section>
+
+	<section role="tabpanel" aria-hidden="true" class="content" id="panel3">
+		<div class="download-highlights-header-details">
+			<p>If your using https in grafana we now force you to use tls 1.2 and the most secure ciphers. 
+            We think its better to be secure by default rather then making it configurable.
+            If you want to run https with lower versions of tls we suggest you put a reserve proxy in front of grafana.</p>
+        
+            <p>If you have template variables name `$__interval` or `$__interval_ms` they will no longer work since these keywords 
+            are reserved as globally built in variables. We might as more globally build in variables in the future and if we do, we will prefix them with `$__`. So please avoid using that in your template variables.</p>
+		</div>
+	</section>
+</div>
+
