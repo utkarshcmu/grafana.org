@@ -8,9 +8,10 @@ description = "Grafana 4.2 Beta Release Highlights"
 +++
 
 ## Grafana v4.2 beta
+
 Grafana v4.2 Beta is now [available for download](/download/4_2_0/).
-Just like the last release this one contains lots bug fixes and minor improvements. 
-We are very happy to say that X of Y issues was closed by pull requests from the community. 
+Just like the last release this one contains lots bug fixes and minor improvements.
+We are very happy to say that X of Y issues was closed by pull requests from the community.
 Big thumbs up!
 
 ## Release Highlights
@@ -24,48 +25,51 @@ Big thumbs up!
 - **Orgs**: Change org when url contains a orgId query parameter [#6948](https://github.com/grafana/grafana/issues/6948)
 - [Full changelog](https://github.com/grafana/grafana/blob/master/CHANGELOG.md)
 
-### Alert notification channels 
+### New alert notification channels
 
-We now have **five** new alert notification integrated. All of them provided by the community. 
+This release adds **five** new alert notifications channels, all of them contributed by the community.
 
-* Hipchat 
-* Telegram 
-* LINE 
+* Hipchat
+* Telegram
+* LINE
 * Pushover
 * Threema
 
 ### Templating
 
 We added two new global built in variables in grafana. `$__interval` and `$__interval_ms` are now reserved template names in grafana and can be used by any datasource.
-We might as more globally build in variables in the future and if we do we will prefix them with `$__`. So please avoid using that in your template variables.
+We might add more global built in variables in the future and if we do we will prefix them with `$__`. So please avoid using that in your template variables.
 
 ### Dedupe alert notifications when running multiple servers
-In this release we will dedupe alert notificiations when you are running multiple servers. 
-This makes it possible to run alerting on multiple servers and only get one notification. 
 
-We currently solve this with sql transactions which puts some limitations for how many servers you can use to execute the same rules. 
+In this release we will dedupe alert notificiations when you are running multiple servers.
+This makes it possible to run alerting on multiple servers and only get one notification.
+
+We currently solve this with sql transactions which puts some limitations for how many servers you can use to execute the same rules.
 3-5 servers should not be a problem but as always, it depends on how many alerts you have and how frequently they execute.
 
-Next up for a better HA situation is to add support for workload balancing between Grafana servers. 
+Next up for a better HA situation is to add support for workload balancing between Grafana servers.
 
 ### Alerting more info
+
 You can now see the reason why an alert triggered in the alert history. Its also easier to detect when an alert is set to `alerting` due to the `no_data` option.
 
-### Improved support for multi org setup
-When loading dashboards we now set an query parameter called orgId. So we can detect from which org an user shared a dashboard. 
+### Improved support for multi-org setup
+
+When loading dashboards we now set an query parameter called orgId. So we can detect from which org an user shared a dashboard.
 This makes it possible for users to share dashboards between orgs without changing org first.
 
-We aim to introduce [dashboard groups](https://github.com/grafana/grafana/issues/1611) sometime in the future which will introduce access control and user groups within one org. 
+We aim to introduce [dashboard groups](https://github.com/grafana/grafana/issues/1611) sometime in the future which will introduce access control and user groups within one org.
 Making it possible to have users in multiple groups and have detailed access control.
 
 ## Upgrade & Breaking changes
 
-If your using https in grafana we now force you to use tls 1.2 and the most secure ciphers. 
+If your using https in grafana we now force you to use tls 1.2 and the most secure ciphers.
 We think its better to be secure by default rather then making it configurable.
 If you want to run https with lower versions of tls we suggest you put a reserve proxy in front of grafana.
 
-If you have template variables name `$__interval` or `$__interval_ms` they will no longer work since these keywords 
-are reserved as globally built in variables. We might as more globally build in variables in the future and if we do, we will prefix them with `$__`. So please avoid using that in your template variables.
+If you have template variables name `$__interval` or `$__interval_ms` they will no longer work since these keywords
+are reserved as global built in variables. We might add more global built in variables in the future and if we do, we will prefix them with `$__`. So please avoid using that in your template variables.
 
 ## Changelog
 
@@ -77,4 +81,5 @@ of new features, changes, and bug fixes.
 Head to [v4.2-beta download page](/download/4_2_0/) for download links & instructions.
 
 ## Thanks
+
 A big thanks to all the Grafana users who contribute by submitting PRs, bug reports & feedback!
