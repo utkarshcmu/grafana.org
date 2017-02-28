@@ -11,8 +11,8 @@ categories = ["Company", "Grafana"]
 +++
 
 Today is an exciting day for the Grafana project and for **raintank**, the company behind Grafana,
-as we are launching a new website [grafana.com](https//grafana.com) and announcing the rebranding of the
-company to **Grafana Labs**.  We are tired of saying *we are raintank, you know the company behind Grafana*.
+as we are launching a new website [grafana.com](https//grafana.com) and announcing the renaming of the
+company to **Grafana Labs**. We are tired of saying *we are raintank, you know the company behind Grafana*.
 
 To further simplify things we are combining our website's into one, meaning **grafana.org**, **grafana.net** and **raintank.io** are
 all being combined to one new site on [grafana.com](https://grafana.com). This new site will provide Grafana downloads,
