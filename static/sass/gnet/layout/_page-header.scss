@@ -21,12 +21,6 @@
     }
   }
 
-  &--plugins,
-  &--dashboards {
-    background: transparent;
-    box-shadow: none;
-  }
-
   @include at-least(nav) {
     height: $page-header-height-large;
   }
@@ -54,7 +48,7 @@
   @include at-least(nav) {
     width: rem-calc(240);
     height: rem-calc(50);
-    top: rem-calc(3);
+    top: rem-calc(-2);
   }
 
   > img {

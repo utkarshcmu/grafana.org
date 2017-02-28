@@ -60,18 +60,24 @@
 
 /* for article lists and archives */
 .blog-aside {
-      text-align: center;
+  .sign-up-box {
+    text-align: center;
+
+    .wrapper {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
   .sign-up-box__heading {
-    font-size: $font-size-kilo;
+    font-size: $font-size-beta;
   }
 }
 
 /* for article page */
-.blog-article {
-  .wrapper {
-    max-width: rem-calc(1024);
-    margin: 0 auto;
-  }
+.sign-up-box-large-container {
+  padding-top: $spacer*2;
+  margin-bottom: $spacer;
   .sign-up-box__heading {
     font-size: $font-size-kilo;
 

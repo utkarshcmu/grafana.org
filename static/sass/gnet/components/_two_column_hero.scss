@@ -23,12 +23,24 @@
   }
 }
 
+.two-column-hero__text {
+  order: 2;
+  @include at-least(small) {
+    order: 1;
+  }
+}
+
 .two-column-hero__figure {
-  margin: 0;
+  margin: 0 0 rem-calc(20) 0;
+  order: 1;
   > img {
     width: 100%;
     vertical-align: middle;
     max-height: 400px;
+  }
+  @include at-least(small) {
+    margin: 0;
+    order: 2;
   }
 }
 
@@ -66,4 +78,5 @@
 .two-column-hero__list {
   font-size: $font-size-gamma;
   margin-left: rem-calc(-24);
+  color: $white;
 }

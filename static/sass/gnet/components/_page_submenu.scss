@@ -4,7 +4,7 @@
 .page-submenu {
   background: $darker-gray;
   box-shadow: 0px 0px 20px $black;
-  margin-bottom: $spacer*2;
+  margin-bottom: $page-submenu-bottom-margin;
 
   & .cta {
     position: absolute;

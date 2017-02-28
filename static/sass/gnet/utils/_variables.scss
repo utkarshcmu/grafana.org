@@ -60,7 +60,7 @@ $bp-small: rem-calc(650);
 $bp-medium: rem-calc(992);
 $bp-large: rem-calc(1200);
 $bp-xlarge: rem-calc(1900);
-$bp-nav: rem-calc(840); // Breakpoint for .site-nav width (was 950 -- TW)
+$bp-nav: rem-calc(890); // Breakpoint for .site-nav width (was 950 -- TW)
 
 // Grid
 // --------------------------------------------------------------------------
@@ -141,7 +141,7 @@ $btn-dark-shadow: -1px -1px 0px 0px rgba(255,255,255,0.1), 1px 1px 0px 0px rgba(
 
 // Headings
 
-$headings-margin-bottom: ($spacer / 2);
+$headings-margin-bottom: $spacer;
 $headings-font-family:   inherit;
 $headings-font-weight:   400;
 $headings-font-style:    italic;
@@ -162,6 +162,11 @@ $font-size-h6: 1rem;
 $page-header-bg: $dark-gray-gradient;
 $page-header-height-small: rem-calc(75);
 $page-header-height-large: rem-calc(92);
+
+//
+// Page Submenu
+//
+$page-submenu-bottom-margin: $spacer*2;
 
 //
 // Common Page elements

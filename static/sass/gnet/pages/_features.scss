@@ -182,3 +182,25 @@
   }
 }
 
+// Experiment for big gifs
+
+.feature-gif__copy {
+  margin-top: 0;
+}
+
+.feature-gif__img {
+  > img {
+    width: 100%;
+  }
+}
+
+.feature-gif__item {
+  padding-left: rem-calc(16);
+  margin-bottom: rem-calc(30);
+}
+
+.feature-gif__item--active {
+  border-left: 3px solid #f46800;
+  border-image: linear-gradient(to right, #ff8100 0%, #993300 75%);
+  border-image-slice: 1;
+}

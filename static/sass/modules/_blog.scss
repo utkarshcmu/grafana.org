@@ -12,6 +12,7 @@
     box-shadow: 0 0 20px $black;
     margin-bottom: $spacer*3;
     background: black;
+    padding-top: 9rem;
 
     &:after {
       position: absolute;
@@ -129,4 +130,8 @@ q.quote {
   iframe {
     margin-right: $spacer;
   }
+}
+
+.blog-categories {
+  margin-bottom: $spacer*2;
 }

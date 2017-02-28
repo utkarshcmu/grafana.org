@@ -2,12 +2,12 @@
 // -------------------------------------------------------------------------
 
 .page-letterhead {
-  padding: rem-calc(150 0 30 0);
   background-position: center 35%;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   position: relative;
+  padding: rem-calc(10 0 30 0);
 
   &--video {
     position: relative;
@@ -28,6 +28,7 @@
   }
 
   &--with-bg {
+    padding: rem-calc(150 0 30 0);
     box-shadow: 0 0 20px $black;
     background: black;
     z-index: 1;
@@ -49,17 +50,6 @@
     }
   }
 
-  &--dashboards {
-    &:after {
-      background-image: url(../../static/img/hero_bg_graphs.jpg);
-    }
-  }
-
-  &--plugins {
-    &:after {
-      background-image: url(../../static/img/hero_bg_graphs.jpg);
-    }
-  }
 }
 
 .page-letterhead__heading {
@@ -100,7 +90,6 @@
 .page-letterhead__subheading {
   color: $off-white2;
   font-weight: normal;
-  font-size: $font-size-beta;
   text-shadow: 2px 2px 4px #000;
   margin: rem-calc(0 0 10 0);
   padding-bottom: rem-calc(10);
@@ -109,10 +98,7 @@
   -webkit-border-image: -webkit-$orange-gradient;
   border-image: $orange-gradient;
   border-image-slice: 1;
-
-  @include at-least(small) {
-    font-size: $font-size-h6;
-  }
+  font-size: $font-size-h6;
 
   @include at-least(medium) {
     font-size: $font-size-h5;

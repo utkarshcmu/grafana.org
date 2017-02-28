@@ -54,6 +54,7 @@
 .page-footer .site-nav {
   position: static;
   margin-top: 0;
+  padding-top: $spacer*2;
 
   .site-nav__item--heading h4 {
     color: $white;
