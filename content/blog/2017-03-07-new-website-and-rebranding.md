@@ -24,8 +24,8 @@ This has no real implications for Grafana as an OSS Project. It just means that 
 is trying to simplify it's branding. We are still dedicated to keeping Grafana 100% open source.
 We made the same mistake as many other open source companies, like MongoDB (previously named 10gen) and
 Puppet (previously named Reductive Labs), in thinking that having a different company name and website defines some
-measure of seperation from the OSS project and the company supporting it. We have, like many other companies in similar
-situations, realised that this seperation is just confusing.
+measure of seperation from the OSS project and the company supporting it. We have realised that this seperation is just
+confusing for everyone.
 
 ### Community Forum
 
