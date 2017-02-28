@@ -3,6 +3,48 @@
   background-size: cover;
   padding: $spacer;
   box-shadow: $page-section-with-bg-pattern-shadow;
+
+  &--aside {
+    text-align: center;
+    .wrapper {
+      margin: 0;
+      padding: 0;
+    }
+    .sign-up-box__heading {
+      font-size: $font-size-beta;
+    }
+  }
+
+  &--big {
+    margin-top: $spacer*3;
+    margin-bottom: $spacer*3;
+
+    .sign-up-box__heading {
+      font-size: $font-size-kilo;
+
+      @include at-least(medium) {
+        font-size: $font-size-mega;
+      }
+    }
+
+    .sign-up__img {
+      display: inline-block;
+      float: none;
+
+      @include at-least(small) {
+        display: block;
+        float: right;
+      }
+
+      & img {
+        width: 70%;
+      }
+    }
+
+    .sign-up-box__list {
+      font-size: $font-size-gamma;
+    }
+  }
 }
 
 .sign-up-box__img {
@@ -58,45 +100,3 @@
   }
 }
 
-/* for article lists and archives */
-.blog-aside {
-  .sign-up-box {
-    text-align: center;
-
-    .wrapper {
-      margin: 0;
-      padding: 0;
-    }
-  }
-
-  .sign-up-box__heading {
-    font-size: $font-size-beta;
-  }
-}
-
-/* for article page */
-.sign-up-box-large-container {
-  padding-top: $spacer*2;
-  margin-bottom: $spacer;
-  .sign-up-box__heading {
-    font-size: $font-size-kilo;
-
-    @include at-least(medium) {
-      font-size: $font-size-mega;
-    }
-  }
-
-  .sign-up__img {
-    display: inline-block;
-    float: none;
-
-    @include at-least(small) {
-      display: block;
-      float: right;
-    }
-
-    & img {
-      width: 70%;
-    }
-  }
-}
