@@ -1,8 +1,7 @@
 .sign-up-box {
-  background: url('../img/polygon_texture_blue.jpg') 0 0 repeat;
-  background-size: cover;
+  background: $card-background;
+  box-shadow: $card-shadow;
   padding: $spacer;
-  box-shadow: $page-section-with-bg-pattern-shadow;
 
   &--aside {
     text-align: center;
@@ -18,12 +17,13 @@
   &--big {
     margin-top: $spacer*3;
     margin-bottom: $spacer*3;
+    padding: $spacer $spacer*2;
 
     .sign-up-box__heading {
-      font-size: $font-size-kilo;
+      font-size: $font-size-beta;
 
       @include at-least(medium) {
-        font-size: $font-size-mega;
+        font-size: $font-size-kilo;
       }
     }
 
@@ -36,8 +36,8 @@
         float: right;
       }
 
-      & img {
-        width: 70%;
+      img {
+        max-width: 15rem;
       }
     }
 

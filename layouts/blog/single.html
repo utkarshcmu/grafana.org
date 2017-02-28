@@ -49,13 +49,13 @@
 
 <div class="wrapper">
 	<div class="row row--no-gutters">
-		<div class="col col--md-9">
+		<div class="col col--md-12">
 			{{ partial "disqus.html" . }}
+
+			{{ partial "sign-up.html" . }}
 		</div>
 	</div>
 </div>
-
-{{ partial "sign-up.html" . }}
 
 {{ if isset .Params "cover_image" }}
 <style>
