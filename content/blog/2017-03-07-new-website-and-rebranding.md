@@ -16,7 +16,7 @@ company to **Grafana Labs**. We are tired of saying *we are raintank, you know t
 
 To further simplify things we are combining our website's into one, meaning **grafana.org**, **grafana.net** and **raintank.io** are
 all being combined to one new site on [grafana.com](https://grafana.com). This new site will provide Grafana downloads,
-plugins & dashboard repositories, hosting services, forum & support services.
+plugins & dashboard repositories, hosting, forum & support services.
 
 ### What does this mean for Grafana
 
@@ -32,4 +32,19 @@ confusing for everyone.
 Along with the launch of our new site we also launch [forum.grafana.com](http://forum.grafana.com). This new
 forum will be Grafana's primary discussion channel for anything Grafana releated, meaning Grafana
 support questions, plugin topics, TSDB related topics and other topics you might want to share
-with the Grafana community.
+with the Grafana community. This means we will close down the existing mailing list.
+
+### What to expect in 2017
+
+We have grand plans for this year. Not only will we expand the core Grafana team and our hosted services team. The list
+of things we want to improve is too long to list here, but the first things we will focus on is the top rated issues:
+SQL Datasource support (Mysql & Postgress initially) and Dashboard folder & permissions. Parallel to core Grafana development
+we are also working on many premium plugins for commerical services like [Splunk](https://grafana.com/plugins/grafana-splunk-datasource),
+[DataDog](https://grafana.com/plugins/grafana-datadog-datasource) and [HP Vertica](https://grafana.com/plugins/raintank-vertica-datasource).
+
+<br>
+Can finally get back to working on Grafana!<br>
+Torkel Ödegaard<br>
+Creator Of Grafana & Grafana Labs Co-Founder
+
+
