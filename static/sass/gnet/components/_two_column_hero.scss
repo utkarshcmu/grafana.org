@@ -19,7 +19,7 @@
 
   @include at-least(small) {
     width: 50%;
-    padding: $spacer;
+    padding: $spacer $spacer $spacer 0;
   }
 }
 
@@ -62,8 +62,7 @@
 }
 
 .two-column-hero__subheading {
-  @extend .h4;
-  padding-top: $spacer;
+  @extend .h5;
 }
 
 .two-column-hero__paragraph {

@@ -19,8 +19,8 @@
 .testimonial-logos {
   background: url('../../static/img/polygon_texture_black.jpg') 0 0 repeat;
   background-size: cover;
-  padding: rem-calc(20 0 0 0);
-  margin-bottom: $spacer * 3;
+  padding: rem-calc(25 0 0 0);
+  margin-bottom: $spacer;
   box-shadow: $page-section-with-bg-pattern-shadow;
   text-align: center;
 
@@ -29,13 +29,6 @@
     vertical-align: middle;
     margin-bottom: rem-calc(10);
   }
-}
-
-.testimonial-logos__heading {
-  margin: 0 0 2rem 0;
-  font-size: $font-size-beta;
-  font-weight: normal;
-  font-style: italic;
 }
 
 .testimonial-logos__link {
@@ -67,11 +60,6 @@
   display: flex;
   justify-content: flex-start;
   margin-bottom: $spacer*7;
-
-  @include at-least(medium) {
-    margin-left: $spacer*3;
-    margin-right: $spacer*3;
-  }
 }
 
 .testimonial__logo {

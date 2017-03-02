@@ -151,7 +151,6 @@
 }
 
 .home-datasources {
-
   img {
     margin: rem-calc(20 10 0 10);
     vertical-align: middle;
@@ -172,4 +171,23 @@
 
 .footer-cta .page-section__headline {
   margin-bottom: rem-calc(30);
+}
+
+.company-pillar {
+  margin-bottom: $spacer;
+}
+
+.company-pillar__heading {
+  @extend .h3;
+  margin-bottom: 0.2rem;
+}
+
+.company-pillar__subheading {
+  @extend .h6;
+  text-transform: uppercase;
+  color: $text-color;
+}
+
+.company-pillar__paragraph {
+  margin-bottom: $spacer*2;
 }

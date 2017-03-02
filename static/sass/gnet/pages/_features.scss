@@ -42,7 +42,6 @@
 
 .features-grid__heading {
   font-size: $font-size-beta;
-  font-style: italic;
   margin: rem-calc(15 0);
   color: $off-white2;
 }
@@ -181,6 +180,25 @@
     margin-left: rem-calc(10);
   }
 }
+
+
+// WIP Feature-showcase (the big-ass ones)
+
+.feature-showcase {
+  margin-bottom: rem-calc(60);
+  // border-bottom: 1px solid $primary-color;
+  // -moz-border-image: -moz-$orange-gradient;
+  // -webkit-border-image: -webkit-$orange-gradient;
+  // border-image: $orange-gradient;
+  // border-image-slice: 1;
+}
+
+.feature-showcase__copy {
+  @include at-least(medium) {
+    padding-top: rem-calc(100);
+  }
+}
+
 
 // Experiment for big gifs
 

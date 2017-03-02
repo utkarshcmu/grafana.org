@@ -16,6 +16,8 @@
     background: linear-gradient(0deg, transparent 75%, rgba(0,0,0,0.8));
     top: $page-header-height-small;
     padding: rem-calc(0 0 30 0);
+    box-shadow: 0 0 20px $black;
+    margin-bottom: $spacer*5;
 
     @include at-least(large) {
       padding: rem-calc(110 0 30 0);
@@ -24,6 +26,7 @@
     @include at-least(nav) {
       padding: rem-calc(110 0 20 0);
       top: 0;
+      margin-bottom: $spacer*2;
     }
   }
 
