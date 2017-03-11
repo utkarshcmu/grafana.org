@@ -4,11 +4,13 @@
 
 .email-unconfirmed__status {
   margin-bottom: $spacer;
+  font-size: rem-calc(18);
+  line-height: rem-calc(30);
 
   b {
     color: $primary-color;
-    margin-right: $spacer;
   }
+
   button {
     margin-right: $spacer;
   }

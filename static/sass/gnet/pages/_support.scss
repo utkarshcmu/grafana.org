@@ -72,7 +72,7 @@ table.support-table {
     width: 150px;
     text-align: left;
     font-size: 85%;
-    padding: 10px;
+    padding: 15px;
   }
 
   td.dev {
@@ -115,10 +115,6 @@ table.support-table {
       color: #04a64d;
       margin-top: 8px;
     }
-  }
-
-  td.icon {
-    vertical-align: top;
   }
 
   td {
@@ -171,5 +167,48 @@ table.support-table {
   font-size: 90%;
   strong {
   color: $white;
+  }
+}
+
+.support-plan--check {
+  color: $success-color;
+  font-size: 140%;
+}
+
+.support-plan--x {
+  color: $alert-color;
+  font-size: 140%;
+}
+
+.support-plan-price--container {
+  margin: rem-calc(20 0);
+  min-height: rem-calc(96);
+}
+
+.support-plan-CTA {
+  margin-bottom: rem-calc(32);
+}
+
+.support-plan-price {
+  color: $white;
+  display: block;
+  margin: rem-calc(0 0 5 0);
+  font-size: $font-size-mega;
+  font-style: italic;
+  weight: 700;
+
+  small {
+    font-size: 50%;
+    font-weight: normal;
+
+    &.currency {
+      vertical-align: super;
+    }
+  }
+  &--note{
+    display: block;
+    color: $light-gray;
+    font-size: $font-size-delta;
+    margin-bottom: rem-calc(10);
   }
 }

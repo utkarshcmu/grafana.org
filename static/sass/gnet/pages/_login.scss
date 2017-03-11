@@ -1,9 +1,9 @@
 .login-form, .logged-in {
   text-align:center;
   margin-bottom: 5rem;
+  justify-content: center;
 
-  @include at-least(small) {
-    max-width: rem-calc(400);
+  .form-group {
     margin-left: auto;
     margin-right: auto;
   }

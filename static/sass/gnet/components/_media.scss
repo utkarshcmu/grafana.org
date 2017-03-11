@@ -25,6 +25,14 @@ img.two-column-hero__img-jetpacktocat {
   max-height: 350px;
 }
 
+// Support page
+// --------------------------------------------------------------------------
+
+img.two-column-hero__img-support {
+  width: auto;
+  max-height: 200px;
+}
+
 // For early access signup
 // --------------------------------------------------------------------------
 
@@ -107,7 +115,7 @@ img.two-column-hero__img-jetpacktocat {
   @include at-least(medium) {
     display: block;
     position: absolute;
-    left: 92px;
+    left: 66px;
   }
   display: none;
 }
@@ -116,8 +124,8 @@ img.two-column-hero__img-jetpacktocat {
   @include at-least(medium) {
     display: block;
     position: absolute;
-    top: 196px;
-    left: 126px;
+    top: 202px;
+    left: 100px;
   }
   display: none;
 }
@@ -126,7 +134,7 @@ img.two-column-hero__img-jetpacktocat {
   @include at-least(medium) {
     display: block;
     position: absolute;
-    top: 154px;
+    top: 180px;
   }
   display: none;
 }

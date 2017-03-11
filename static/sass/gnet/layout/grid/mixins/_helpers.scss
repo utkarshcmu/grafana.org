@@ -36,6 +36,7 @@
   }
   .col--#{$breakpoint}-flex {
     display: flex;
+    flex-basis: auto;
   }
 }
 

@@ -68,6 +68,7 @@
   font-style: italic;
   font-weight: 400;
 }
+
 .pillars-list__item {
   position: relative;
   margin-bottom: rem-calc(40);
@@ -150,17 +151,61 @@
   @include outline-styles($monza, #9e0437);
 }
 
-.home-datasources {
+.home-hero-card {
   img {
-    margin: rem-calc(20 10 0 10);
+    margin: rem-calc(0 30 30 0);
     vertical-align: middle;
   }
 
   small {
     margin: rem-calc(0 10);
   }
+  
+  .other-ds {
+    font-size: $font-size-alpha;
+    color: $off-white2;
+  }
 }
 
+
+.home-card {
+  position: relative;
+  flex-grow: 1;
+  padding-bottom: rem-calc(60);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  .home-card__cta {
+    position: absolute;
+    bottom: rem-calc(20);
+  }
+}
+
+.datasources-card {
+    margin-bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: linear-gradient(135deg, #2f2f2f 0%, #262626 100%);
+    box-shadow: -1px -1px 0px 0px rgba(255, 255, 255, 0.1), 1px 1px 0px 0px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-overflow: clip;
+
+    h4 {
+      font-size:90%;
+    }
+}
+
+.datasources-img {
+  max-width: rem-calc(1000);
+  margin: 0 auto;
+}
 // Footer CTA
 // -------------------------------------------------------------------------
 
@@ -174,7 +219,7 @@
 }
 
 .company-pillar {
-  margin-bottom: $spacer;
+  margin-bottom: $spacer*2;
 }
 
 .company-pillar__heading {
@@ -189,5 +234,5 @@
 }
 
 .company-pillar__paragraph {
-  margin-bottom: $spacer*2;
+  margin-bottom: $spacer;
 }

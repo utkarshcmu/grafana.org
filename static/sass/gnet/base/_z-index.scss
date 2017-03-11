@@ -26,7 +26,7 @@ $z-index-6: 600;
 
 // 400
 .page-header,
-.site-nav {
+.site-nav-canvas {
   z-index: $z-index-4;
 }
 
@@ -36,7 +36,8 @@ $z-index-6: 600;
   z-index: $z-index-5;
 }
 
-// 600 
+// 600
+.page-submenu--sticky,
 .page-subnav--sticky {
   z-index: $z-index-6;
 }

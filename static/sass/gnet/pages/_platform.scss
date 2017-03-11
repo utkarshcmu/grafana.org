@@ -1,6 +1,6 @@
 // ==========================================================================
 // THE PLATFORM (THIS IS THE HOSTING SECTION, BUT THERE IS AN EXISTING PAGE
-// CALLED HOSTING. ONCE WE DON'T NEED ANY OF THOSE STYLES, WE'RE OVERWRITE)
+// CALLED HOSTING. ONCE WE DON'T NEED ANY OF THOSE STYLES, WE'LL OVERWRITE)
 // ==========================================================================
 
 .debug {
@@ -28,3 +28,18 @@
     	font-style: italic;
     }
   }
+
+.question-box {
+}
+
+.question-box__icon {
+    float: left;
+
+    @include at-least (small) {
+        padding-top: rem-calc(10);
+    }
+}
+
+.question-box__copy {
+    margin-left: rem-calc(115);
+}

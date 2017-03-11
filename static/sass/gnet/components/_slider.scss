@@ -9,14 +9,15 @@
 
 .checks-slider--free {
   display: inline-block;
-  width: 9%;
-  background: linear-gradient(90deg, #ffb400 0%, #f7ba00 100%);
+  width: 14%;
+  background: linear-gradient(90deg, $gray 0%, $dark-gray 100%);
+  color: $light-gray;
   height: 5rem;
   margin-right: rem-calc(3);
   margin-bottom: rem-calc(16);
   padding-top: 2rem;
   border-radius: 4px 0 0 4px;
-  
+
   @include until(medium) {
     font-size: $font-size-epsilon;
   }
@@ -24,7 +25,7 @@
 
 .checks-slider--pro {
   display: inline-block;
-  width: 74%;
+  width: 69%;
   background: linear-gradient(90deg, #f7ba00 0%, #d55900 100%);
   height: 5rem;
   margin-right: rem-calc(3);
@@ -42,7 +43,7 @@
   background: linear-gradient(90deg, #d55900 0%, #c83300 100%);
   height: 5rem;
   margin-bottom: rem-calc(16);
-  padding-top: 2rem;  
+  padding-top: 2rem;
   border-radius: 0 4px 4px 0;
 
   @include until(medium) {
@@ -54,11 +55,6 @@
   color: $white;
   padding-bottom: rem-calc(24);
   margin-bottom: rem-calc(24);
-  border-bottom: 1px solid $primary-color;
-  -moz-border-image: -moz-$orange-gradient;
-  -webkit-border-image: -webkit-$orange-gradient;
-  border-image: $orange-gradient;
-  border-image-slice: 1;
 
   & .plan-name, .plan-price {
     margin: rem-calc(0);
@@ -73,6 +69,9 @@
       &.currency {
         vertical-align: super;
       }
+    }
+    &--enterprise, &--starter {
+      top: rem-calc(10);
     }
   }
 
@@ -90,7 +89,7 @@
   margin-bottom: rem-calc(20);
 }
 
-.rc-slider-track { 
+.rc-slider-track {
    background: linear-gradient(90deg, #ffb400 0%, #c83300 100%);
 }
 
@@ -157,4 +156,47 @@
 .rc-slider-tooltip-placement-top .rc-slider-tooltip-arrow {
 
   border-top-color: rgba(0,0,0,0.6);
+}
+
+// Animation
+
+.plan-name--container {
+  position: relative;
+  min-height: rem-calc(50);
+}
+
+.plan-price--container {
+  position: relative;
+  min-height: rem-calc(72);
+}
+
+.plan-price--sub-copy {
+  position: absolute;
+  top: rem-calc(34);
+}
+
+.planimation {
+  position: absolute;
+}
+
+.planimate-enter {
+  opacity: 0.01;
+}
+
+.planimate-enter.planimate-enter-active {
+  opacity: 1;
+  transition: all 200ms ease-in;
+}
+
+.planimate-appear {
+  opacity: 0.01;
+}
+
+.planimate-leave {
+  opacity: 1;
+}
+
+.planimate-leave.planimate-leave-active {
+  opacity: 0.01;
+  transition: all 200ms ease-out;
 }

@@ -1,6 +1,9 @@
 // ==========================================================================
 // EVENTS
 // ==========================================================================
+.event-list {
+  border-left: 1px solid $gray;
+}
 
 .event__type {
   text-transform: uppercase;
@@ -23,10 +26,14 @@
 }
 
 .event__copy {
-  min-height: rem-calc(128);
+  //min-height: rem-calc(128);
 	b {
 		color: $white;
 	}
+
+  &--tall {
+    min-height: rem-calc(176);
+  }
 }
 
 .event__margin-bottom {
@@ -38,5 +45,12 @@
 
   b {
     color: $white;
+  }
+}
+
+.event {
+  .event-img{
+    background-color: $darker-gray2;
+    border-radius: 50%;
   }
 }

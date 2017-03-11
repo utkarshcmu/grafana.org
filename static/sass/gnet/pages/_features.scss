@@ -186,11 +186,15 @@
 
 .feature-showcase {
   margin-bottom: rem-calc(60);
-  // border-bottom: 1px solid $primary-color;
-  // -moz-border-image: -moz-$orange-gradient;
-  // -webkit-border-image: -webkit-$orange-gradient;
-  // border-image: $orange-gradient;
-  // border-image-slice: 1;
+  border-bottom: 1px solid $primary-color;
+  -moz-border-image: -moz-$orange-gradient;
+  -webkit-border-image: -webkit-$orange-gradient;
+  border-image: $orange-gradient;
+  border-image-slice: 1;
+
+  &:last-child {
+    border-bottom: none;
+  }
 }
 
 .feature-showcase__copy {

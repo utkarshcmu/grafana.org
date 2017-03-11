@@ -127,6 +127,11 @@
   background-size: 15px;
 }
 
+.plugin-category__icon--in-sentence {
+  text-transform: none;
+  padding: rem-calc(0 0 0 20);
+}
+
 .plugin-category__icon.app {
   background-image: url('../../static/img/icon_apps.svg');
 }
@@ -470,6 +475,12 @@ div.plugin-readme table {
 
 .premium-overlay--relative {
   position: relative;
+  min-height: rem-calc(650);
+
+  @include at-least(medium) {
+    min-height: rem-calc(550);
+  }
+
 }
 
 .premium-overlay {
@@ -489,7 +500,7 @@ div.plugin-readme table {
 
 .premium-diamond {
   width: 45px;
-  margin: 3px 15px 0 0 ;
+  margin: -5px 15px 0 0 ;
 }
 
 .premium-copy {
@@ -498,10 +509,6 @@ div.plugin-readme table {
   p {
     margin-top: 0;
   }
-}
-
-.premium-copy--success {
-  color: $success-color;
 }
 
 .premium-fade {

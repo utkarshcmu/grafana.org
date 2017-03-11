@@ -28,7 +28,7 @@ body.ReactModal__Body--open {
   }
 
   .ReactModal__Content {
-    margin: 80px 40px;
+    margin: 40px 5px;
     outline: none;
 
     -webkit-transform: scale(0.9);
@@ -39,6 +39,10 @@ body.ReactModal__Body--open {
     border-image: $orange-gradient;
     border-image-slice: 1;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
+
+    @include at-least(small) {
+      margin: 80px 40px;
+    }
 
     @include at-least(medium) {
       width: 810px;

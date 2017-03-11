@@ -10,26 +10,14 @@
 
 .page__content {
   position: relative;
-  top: $page-header-height-small;
-  padding-bottom: $page-header-height-small + $spacer;
+  padding-top: $page-content-top-padding;
 
-  @include at-least(nav) {
-    top: $page-header-height-large;
-    padding-bottom: $page-header-height-large + $spacer*2;
-  }
-
-  &--behind-header {
-    top: 0;
-  }
-
-  &--with-breadcrumbs,
-  &--no-submenu {
-    box-shadow: inset 0 20px 20px -20px $black;
-    padding-top: $page-submenu-bottom-margin;
+  &--no-padding {
+    padding-top: 0;
   }
 
   &--with-breadcrumbs {
-    padding-top: 0;
+    padding-top: $spacer;
   }
 }
 
@@ -54,6 +42,10 @@
 // page section paragraph
 .page-section__paragraph {
   margin-bottom: rem-calc(30);
+}
+
+.page-section__paragraph--lead {
+  @extend .h5;
 }
 
 // Section
@@ -84,7 +76,7 @@
 
 .page-section__headline-img {
   display: block;
-  margin: 0 auto rem-calc(30);
+  margin: 0 auto rem-calc(20);
   &--huge {
     width: 50%;
     margin-top: rem-calc(70);
@@ -153,7 +145,6 @@
 
 .page-section__subhead {
   margin: rem-calc(0 0 50);
-  color: $medium-gray;
   font-size: rem-calc(18);
   font-weight: 400;
   line-height: rem-calc(30);
@@ -203,6 +194,10 @@
   &--short-rag {
     max-width: 850px;
   }
+}
+
+h3.page-section__title {
+   font-size: $font-size-h3;
 }
 
 h4.page-section__title {
