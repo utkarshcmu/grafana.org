@@ -1,17 +1,17 @@
 {{ partial "header.html" . }}
 
-<div class="page__content page__content--no-header">
-	<div class="page-submenu">
-		<div class="page-header-docs-c1"></div>
-		<div class="page-header-docs-c2">
-			<div class="docs-search-wrapper">
-				<input class="docs-search-input form__input" id="docs-search-input" value="" name="q" placeholder="Search the docs" type="search">
-			</div>
-		</div>
-		<div class="page-header-docs-c3">
+<div class="page-submenu">
+	<div class="page-header-docs-c1"></div>
+	<div class="page-header-docs-c2">
+		<div class="docs-search-wrapper">
+			<input class="docs-search-input form__input" id="docs-search-input" value="" name="q" placeholder="Search the docs" type="search">
 		</div>
 	</div>
+	<div class="page-header-docs-c3">
+	</div>
+</div>
 
+<div class="">
 	<div class="container-fluid docs-container">
 		<aside class="docs-aside-menu">
 			{{ partial "docs-menu.html" (dict "menu" .Site.Menus.docs "thispage" . "menuopen" "open") }}
@@ -29,22 +29,22 @@
 					<div class="docs-toc-aside__box">
 						<div class="docs-toc">
 							<ul>
-									<li>
-										<a href="https://github.com/grafana/grafana/edit/master/docs/sources/{{ .File.Dir }}{{ .File.LogicalName }}" target="_blank">
-											<i class="fa fa-fw fa-edit"></i> Edit this page
-										</a>
-									</li>
-									<li>
-										{{ $title := (print "Docs feedback: " .File.Dir .File.LogicalName) }}
-										<a href="https://github.com/grafana/grafana/issues/new?title={{ $title | safeURL }}" target="_blank">
-											<i class="fa fa-fw fa-check"></i> Request doc changes
-										</a>
-									</li>
-									<li>
-										<a href="https://grafana.com/services/support">
-											<i class="fa fa-fw fa-question"></i> Get Support
-										</a>
-									</li>
+								<li>
+									<a href="https://github.com/grafana/grafana/edit/master/docs/sources/{{ .File.Dir }}{{ .File.LogicalName }}" target="_blank">
+										<i class="fa fa-fw fa-edit"></i> Edit this page
+									</a>
+								</li>
+								<li>
+									{{ $title := (print "Docs feedback: " .File.Dir .File.LogicalName) }}
+									<a href="https://github.com/grafana/grafana/issues/new?title={{ $title | safeURL }}" target="_blank">
+										<i class="fa fa-fw fa-check"></i> Request doc changes
+									</a>
+								</li>
+								<li>
+									<a href="https://grafana.com/services/support">
+										<i class="fa fa-fw fa-question"></i> Get Support
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
