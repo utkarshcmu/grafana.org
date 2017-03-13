@@ -41,15 +41,15 @@ company behind it is trying to simplify its branding.
 We are still dedicated to keeping Grafana 100% open source. Accelerating the Grafana project is one of the
 main reasons we sell things like Support Subscriptions, and have launched commercial offerings like GrafanaCloud.
 
-In retrospect, we made the same mistake as many other open source companies. MongoDB (previously named 10gen), Puppet (previously named Reductive Labs), Docker (previously named dotcloud), Chef (previously named Opscode all serve as similar examples.
+In retrospect, we made the same mistake as many other open source companies. MongoDB (previously named 10gen), Puppet (previously named Reductive Labs), Docker (previously named dotcloud), Chef (previously named Opscode) all serve as similar examples.
 
 ### Community Site
 
 Along with the launch of our new site we are also launching [community.grafana.com](https://community.grafana.com).
-This new community / forum site will be Grafana's primary discussion channel for anything Grafana releated, meaning
+This new community / forum site will be Grafana's primary discussion channel for anything Grafana related, meaning
 Grafana support questions, plugin topics, FAQ, TSDB related topics and other things
 the Grafana community want to share with fellow Users. This means we will close down the
-existing mailing list. The community site is using the great open source project [discourse](http://www.discourse.org/).
+existing mailing list. The community site is using the great open source project [Discourse](http://www.discourse.org/).
 
 ### What to expect in 2017
 
