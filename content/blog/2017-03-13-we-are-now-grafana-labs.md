@@ -15,7 +15,7 @@ Today is a momentous day for the Grafana project and for **raintank**, the compa
 ### First the rebrand
 
 The growth and momentum of Grafana, and the popularity of the Grafana brand, has been unbelievable
-since we started raintank (indeed, accelerating the growth of Grafana is raintanks #1 mission).
+since we started raintank (indeed, accelerating the growth of Grafana is raintank's #1 mission).
 As we mentioned at [GrafanaCon](https://grafana.com/grafanacon), we're tired of saying
 *we are raintank, you know, the company behind Grafana?* So, raintank is now Grafana Labs.
 
@@ -56,9 +56,9 @@ existing mailing list. The community site is using the great open source project
 We have grand plans for this year. Grafana Labs is now just about profitable, and we're on the hunt for additional funding (ie. a Series-A round) to help accelerate our vision.
 
 Not only will we expand the core Grafana team, but we plan on making some highly-requested improvements to Grafana as well. The list of things we want to improve is long. First we want to focus on the top rated issues: SQL Datasource support (Mysql & Postgress initially) and Dashboard folder & permissions.
-We also have really awesome Heatmap panel in the works.
+We also have a really awesome Heatmap panel in the works.
 
-Parallel to core Grafana development we are also working on many premium plugins for commerical services like [Splunk](https://grafana.com/plugins/grafana-splunk-datasource),
+Parallel to core Grafana development we are also working on many premium plugins for commercial services like [Splunk](https://grafana.com/plugins/grafana-splunk-datasource),
 [DataDog](https://grafana.com/plugins/grafana-datadog-datasource) and [HP Vertica](https://grafana.com/plugins/raintank-vertica-datasource). These Premium Plugins are available with all support subscriptions.
 
 <br>
