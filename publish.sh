@@ -13,7 +13,7 @@ if [ "$env" == "staging" ]; then
 fi;
 
 if [ "$env" == "prod" ]; then
-  aws_s3_bucket=blog.grafana.com
+  AWS_S3_BUCKET=blog.grafana.com
 fi;
 
 if [ "$env" == "prod-docs" ]; then
