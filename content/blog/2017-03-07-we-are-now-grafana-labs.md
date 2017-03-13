@@ -1,7 +1,7 @@
 +++
 title = "We are now Grafana Labs"
 author = "torkel"
-date = "2017-03-07"
+date = "2017-03-13"
 keywords = ["Grafana", "Blog", "GranfaCon"]
 cover_image = "/assets/img/blog/migrated/polygon_blog_bg.jpg"
 cover_opacity = "0.4"
