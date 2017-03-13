@@ -10,7 +10,7 @@ description = "Blog post announcing new website launch and rebranding of Raintan
 categories = ["Company", "Grafana"]
 +++
 
-Today is a momentus day for the Grafana project and for **raintank**, the company behind Grafana. We're rebranding as Grafana Labs, and announcing something we've been working on for the better part of a year: GrafanaCloud.
+Today is a momentous day for the Grafana project and for **raintank**, the company behind Grafana. We're rebranding as Grafana Labs, and announcing something we've been working on for the better part of a year: GrafanaCloud.
 
 ### First the rebrand
 
