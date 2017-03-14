@@ -76,11 +76,13 @@
 		</script>
 	</head>
 
-	{{ if and .IsPage  (eq .Type "docs") }}
-		<body class="section-docs">
-	{{ else }}
-		<body class="section-blog">
-	{{ end }}
+	{{if IsPage}}
+		{{if .Type "docs"}}
+			<body class="section-docs">
+		{{ else }}
+			<body class="section-blog">
+		{{ end }}
+  {{ end }}
 
 	{{ partial "navbar.html" . }}
 
