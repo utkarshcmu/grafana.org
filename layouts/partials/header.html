@@ -43,7 +43,7 @@
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
 
-		<meta name="Copyright" content="Raintank Inc." />
+		<meta name="Copyright" content="Grafana Labs" />
 
 		{{ if .IsPage }}
 			{{ if eq .Type "docs" }}
@@ -76,8 +76,8 @@
 		</script>
 	</head>
 
-	{{if IsPage}}
-		{{if .Type "docs"}}
+	{{if .IsPage}}
+		{{if eq .Type "docs"}}
 			<body class="section-docs">
 		{{ else }}
 			<body class="section-blog">
