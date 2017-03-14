@@ -23,6 +23,7 @@ $docs-subheader-bg-color: transparent;
 }
 
 .docs-container {
+  display: flex;
   position: relative;
 }
 
@@ -39,6 +40,7 @@ $docs-subheader-bg-color: transparent;
 
 .docs-content {
   min-height: 50rem;
+  flex-grow: 1;
 
   h1, h2, h3, h4, h5 {
     &:hover {
@@ -198,20 +200,12 @@ $docs-subheader-bg-color: transparent;
 @include at-least(small) {
   .docs-aside-menu {
     display: block;
+    width: $docs-aside-menu-width;
+    flex-shrink: 0;
   }
 }
 
 @include at-least(medium) {
-  .docs-aside-menu {
-    width: $docs-aside-menu-width;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  .docs-content {
-    margin-left: $docs-aside-menu-width;
-  }
 
   .page-header-docs-c1 {
     display: block;
