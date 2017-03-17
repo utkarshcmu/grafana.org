@@ -78,7 +78,7 @@ of new features, changes, and bug fixes.
 
 ## Download
 
-Head to [v4.2-beta download page](/download/4_2_0/) for download links & instructions.
+Head to [v4.2-beta download page](https://grafana.com/download/4.2.0-beta1) for download links & instructions.
 
 ## Thanks
 
