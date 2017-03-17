@@ -51,7 +51,7 @@
 					{{ $pageLink := substr .RelPermalink 5 }}
 					<link rel="canonical" href="http://docs.grafana.org{{ $pageLink }}" />
 				{{ else }}
-					{{ $pageLink := substr .RelPermalink 2 }}
+					{{ $pageLink := substr .RelPermalink 1 }}
 					<link rel="canonical" href="http://docs.grafana.org{{ $pageLink }}" />
 				{{ end }}
 			{{ end }}
