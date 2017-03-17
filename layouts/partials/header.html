@@ -50,8 +50,6 @@
 				{{ if hasPrefix .RelPermalink "/v" }}
 					{{ $pageLink := substr .RelPermalink 5 }}
 					<link rel="canonical" href="http://docs.grafana.org{{ $pageLink }}" />
-				{{ else }}
-					<link rel="canonical" href="{{ .URL }}" />
 				{{ end }}
 			{{ end }}
 		{{ end }}
