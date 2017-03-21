@@ -25,7 +25,7 @@ New **graph legend** options: *Align as table* and *Right side*.
 Align as table will list series in vertical column, legend values will also align. Right side will place
 the legend to the right side of the graph.
 
-![](docs/graph_legend_right_table.png)
+![](/img/docs/graph_legend_right_table.png)
 
 ### Documentation
 The documentation has also seen an overhaul with many improvements and additions. A new [Getting started](/docs/features/intro) guide

@@ -3,7 +3,7 @@ title: Grafana 1.8.0-rc1 Released!
 author: torkel
 date: 2014-09-11
 aliases:
-  - blog/2014/09/11/grafana-1-8-0-rc1-released.html
+  - /assets/img/blog/2014/09/11/grafana-1-8-0-rc1-released.html
 categories:
   - "Release"
   - "Grafana"
@@ -23,11 +23,11 @@ dashboard that highlights some of the new features.
 You can override any display setting for a specific series using the series name or a regex pattern. Mix bars with lines, or disable
 stacking for the right y-axis or any combination you can think of!
 
-![](blog/mixed_styles.png)
+![](/assets/img/blog/mixed_styles.png)
 
 You find these options under display styles.
 
-![](blog/series_override_options.png)
+![](/assets/img/blog/series_override_options.png)
 
 #### 2) Improved templating system
 
@@ -37,13 +37,13 @@ dashboards. The new templating system uses a ``$variable`` syntax, but the old `
 
 ***New templating editor***
 
-![](blog/template_variable_list.png)
+![](/assets/img/blog/template_variable_list.png)
 
 The new templating system now has full support for InfluxDB. You can extract parts of a metric name using a regex.
 You also have full control over how the "All" option should be formated so that it works for different
 data sources.
 
-![](blog/template_editor_influxdb.png)
+![](/assets/img/blog/template_editor_influxdb.png)
 
 InfluxDB users should use ``regex wildcard`` or ``regex values`` for the ``All`` option format.
 Graphite users should use ``glob`` or ``wildcard``.
@@ -52,9 +52,9 @@ Graphite users should use ``glob`` or ``wildcard``.
 You can now use template variables for function parameters. There is a special template variable type called ``interval`` that includes
 and auto value, where the interval is calculated based on the time range.
 
-![](blog/graphite_func_variables.png)
+![](/assets/img/blog/graphite_func_variables.png)
 
-![](docs/template_variable_interval.png)
+![](/img/docs/template_variable_interval.png)
 
 **Template variable selection**<br>
 When selecting template variables you now get a text box and and auto complete dropdown. Useful when you have many posible values for
@@ -66,12 +66,12 @@ a variable.
 All editors are now shown in an edit pane under the menu. This feels much more natural and faster.
 All editors have also been polished and generally look a little better.
 
-![](blog/new_editor_look.png)
+![](/assets/img/blog/new_editor_look.png)
 
 **Improved search & tags**<br>
 The search results view has been given a makeover, now with colored tags.
 
-![](blog/new_search_look.png)
+![](/assets/img/blog/new_search_look.png)
 
 You can navigate the search results with your up/down keys. The first
 result is always highlighted. Hit enter to open the dashboard. You can add tags in the dashboard
@@ -84,11 +84,11 @@ Many graphite functions can take other series as arguments. This was something t
 query editor could not handle. But the new improved query editor allows you to use
 other queries as function arguments. To refer to another query you use a letter, like ``#A``.
 
-![](blog/graphite_complex_query1.png)
+![](/assets/img/blog/graphite_complex_query1.png)
 
 Or a shorter version of the same thing:
 
-![](blog/graphite_complex_query2.png)
+![](/assets/img/blog/graphite_complex_query2.png)
 
 This is very powerful as it allows you to reuse queries in complex expressions. For example
 plot a total and a percentage. If a query is only to be used in another query and not drawn
@@ -101,7 +101,7 @@ for potentially long series names. There is now an option to add ``fill(null)`` 
 are very important to understand and use because they solve some important scenarios that has troubled many
 InfluxDB users.
 
-![](blog/influxdb_new_query_editor.png)
+![](/assets/img/blog/influxdb_new_query_editor.png)
 
 A setting that is very important in combination with ``fill(0)`` is the new group by time option below your
 queries. This option allows you to set a fixed group by time for all queries, but more importantly it allows

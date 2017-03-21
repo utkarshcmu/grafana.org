@@ -16,14 +16,14 @@ new features.
 Some notable new features in this release is a new error inspector. Now when you get the `"Oops! Graphite HTTP Request Error"` banner
 you will also get a **view details** link that will open the inspector.
 
-![](blog/error_inspector_view_details.png)
+![](/assets/img/blog/error_inspector_view_details.png)
 
 The inspector has two tabs, one with request details and one with the full error response.
 
-![](blog/error_inspector.png)
+![](/assets/img/blog/error_inspector.png)
 
 
-![](blog/error_inspector2.png)
+![](/assets/img/blog/error_inspector2.png)
 
 The Response tab shows the full HTTP response from graphite in an iframe. To get descriptive errors like above
 DEBUG=True must be configured graphite-web's local_settings.py.

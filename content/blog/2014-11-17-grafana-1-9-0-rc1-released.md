@@ -3,7 +3,7 @@ title: Grafana 1.9.0-rc1 Released!
 author: torkel
 date: 2014-11-17
 aliases:
-  - /blog/2014/11/17/grafana-1-9-0-rc1-released.html
+  - //assets/img/blog/2014/11/17/grafana-1-9-0-rc1-released.html
 categories:
   - "Release"
   - "Grafana"
@@ -24,7 +24,7 @@ there could be some bugs.
 
 This release marks the introduction of a new panel!
 
-![](docs/singlestat_panel_1.png)
+![](/img/docs/singlestat_panel_1.png)
 
 A multitude of options makes this panel pretty flexible.
 
@@ -40,20 +40,20 @@ new panel menu. Click on the ``share`` button to open the new share dialog. In t
 you get a URL to that panel with the current time range and any template variables
 embedded in the URL.
 
-![](blog/panel_menu.png)
+![](/assets/img/blog/panel_menu.png)
 
 #### 3) Fill below to
 An new series specific style has been added in this release that is very
 useful when visualizing max/min as shadow behind an average.
 
-![](docs/fillbelow_to.png)
+![](/img/docs/fillbelow_to.png)
 
 This display style is specified by adding a series override rule for the series
 above (ex. max). The value of the option is the series name to fill to (ex min).
 
 Example:
 
-![](blog/fillbelow_to_option.png)
+![](/assets/img/blog/fillbelow_to_option.png)
 
 #### 4) Other graph features & enhancements
 
@@ -63,14 +63,14 @@ Example:
 * Sort legend series (only works in table mode)
 * Multi graph crosshair line (shows a vertical red line where you hover on all graphs)
 
-![](animated_gifs/legend_features.gif)
+![](/assets/img/animated_gifs/legend_features.gif)
 
 #### 5) Panel links
 In the General tab you can now add links to other dashboards or absolute links
 to other web apps. These links can then be accessed from the panel menu. Links
 to other dashboards will preserve the current time range.
 
-![](docs/drilldown_links.png)
+![](/img/docs/drilldown_links.png)
 
 You access these links from the panel menu dropdown. The whole singlestat panel
 will act as link if a drilldown / detail link is added to the panel.
