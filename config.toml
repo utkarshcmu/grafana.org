@@ -7,11 +7,10 @@ verbose = true
 enableRobotsTXT = true
 disableSitemap = false
 disableRSS = false
-preservetaxonomynames = true
+preserveTaxonomyNames = true
 metaDataFormat = "yaml"
 
 [taxonomies]
-tag = "tags"
 category = "categories"
 
 [permalinks]
