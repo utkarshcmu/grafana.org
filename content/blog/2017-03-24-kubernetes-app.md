@@ -113,7 +113,7 @@ We are building Grafana Cloud on the Kubernetes platform. The Grafana Kubernetes
 
 ## Links
 
-- [Install the Kubernetes App](https://grafana.net/plugins/raintank-kubernetes-app)
+- [Install the Kubernetes App](https://grafana.com/plugins/raintank-kubernetes-app)
 - [Contribute to the Kubernetes App on GitHub](https://github.com/raintank/kubernetes-app)
 - [Kubernetes](https://kubernetes.io/)
 - [Docker image with snap collectors on DockerHub](https://hub.docker.com/r/raintank/snap_k8s/) or [on GitHub](https://github.com/raintank/snap_k8s)
