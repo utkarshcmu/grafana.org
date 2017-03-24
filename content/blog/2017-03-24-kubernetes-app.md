@@ -6,7 +6,7 @@ aliases:
   - blog/2017/03/24/kubernetes-app.html
 ---
 
-Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications. It was originally designed by Google who then donated it to the [Cloud Native Computing Foundation](https://www.cncf.io/) - a non-profit organization. Piggybacking on the Docker adoption wave, Kubernetes has become hugely popular in the last few months and is now one of the top projects on GitHub.
+Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications. It was originally designed by Google who then donated it to the non-profit organization [Cloud Native Computing Foundation](https://www.cncf.io/). Piggybacking on the Docker adoption wave, Kubernetes has become hugely popular in the last few months and is now one of the top projects on GitHub.
 
 At Grafana Labs, we are in the process of switching to Kubernetes for our Hosted Grafana and Hosted Metrics services. This raised the question **how do we monitor Kubernetes**?
 
@@ -16,19 +16,19 @@ When we set up our first test cluster, we noticed that it was not obvious what n
 
 ## Why Kubernetes is difficult to monitor
 
-Kubernetes is very different from a traditional static environment. It is a moving target with containers frequently being spun up and torn down. In Kubernetes, a runnable unit of work is called a pod and a pod runs one or more containers (usually not more than 3). Kubernetes will automatically restart failing pods and it is standard practice to delete a pod and then roll out a new version. Within a short period, even a small cluster will have created and destroyed hundreds of pods and Docker containers.
+Kubernetes is very different from a traditional static environment. It is a moving target with containers frequently being spun up and torn down. In Kubernetes, a runnable unit of work is called a pod and a pod runs one or more containers (usually not more than 3). Kubernetes will automatically restart failing pods, and it is standard practice to delete a pod and then roll out a new version. Within a short period, even a small cluster will have created and destroyed hundreds of pods and Docker containers.
 
-When saving metrics to a time series database, Kubernetes can create a large number of series. Destroyed pod data is mixed with live pod data and clutters up dashboards with stale useless data. When a problem occurs, it can be difficult to sift through a long list of pods to find the culprit. A cron job that regularly deletes stale series can ease this problem but any large cluster will still generate enough data that there is a risk of missing signals about outages or potential problems. Kubernetes manages this complexity with labels. If you are a Graphite shop like us then there is no easy way to leverage the Kubernetes labeling system from within Grafana.
+When saving metrics to a time series database, Kubernetes can create a large number of series. Destroyed pod data is mixed with live pod data and clutters up dashboards with stale useless data. When a problem occurs, it can be difficult to sift through a long list of pods to find the culprit. A cron job that regularly deletes stale series can ease this problem but any large cluster will still generate enough data that there is a risk of missing signals about outages or potential problems. Kubernetes manages this complexity with labels. If you are a Graphite shop like us, then there is no easy way to leverage the Kubernetes labeling system from within Grafana.
 
 ## Introducing the Kubernetes App
 
 At Grafana Labs, our internal stack for monitoring is:
 
 1. Snap for collecting data 
-2. our Graphite-compatible Hosted Metrics service, [Grafana Cloud](https://grafana.com/cloud) as our time series database
+2. our Graphite-compatible Hosted Metrics service, [GrafanaCloud](https://grafana.com/cloud) as our time series database
 3. Grafana for the frontend
 
-We really wanted to monitor Kubernetes with this stack and had to build some new components to achieve that. The result is the [new Kubernetes App for Grafana](https://grafana.net/plugins/raintank-kubernetes-app).
+We really wanted to monitor Kubernetes with this stack and had to build some new components to achieve that. The result is the [new Kubernetes App for Grafana](https://grafana.com/plugins/raintank-kubernetes-app).
 
 The Kubernetes App includes Snap collectors for Docker and Kubernetes as well as standard metrics and four curated Graphite dashboards  - everything you need to be able to monitor a Kubernetes cluster. It also has an App section with an UI similar to the Kubernetes dashboard if you need to see all the components in your cluster.
 
@@ -48,26 +48,32 @@ Read more about Snap and the collectors included in the app [here](https://githu
 
 ## Four Dashboards Included
 
-The Kubernetes App comes with 4 default dashboards, Cluster, Nodes, Pods/Containers and Deployments.
+The Kubernetes App comes with 4 default dashboards:
 
+1. [Cluster](#cluster)
+2. [Nodes](#nodes)
+3. [Pods/Containers](#pods_containers)
+4. [Deployments](#deployments)
+
+<a name="cluster"></a>
 ### Cluster Dashboard
 
 This dashboard shows metrics at the cluster level. It can answer questions about capacity and usage over the whole cluster. It can also be used to give an indication that something is wrong through the high level pod and container statistics. We built a collector to fetch this data as it is important to be able to fetch data directly from Kubernetes to alert on conditions like a Node being offline or not having enough disk space to create a new pod.
 
 ![](/assets/img/blog/k8s_app_cluster_dashboard.png)
-
+<a name="nodes"></a>
 ### Nodes Dashboard
 
 CPU, memory, disk usage and network statistics are shown here per node. A specially built panel fetches data from the Kubernetes API to show the conditions for a node. An example of a condition is the OutOfDisk condition and it means that there is not enough disk space to create a new pod on the kubelet.
 
 ![](/assets/img/blog/k8s_app_node_dashboard.png)
-
+<a name="pods_containers"></a>
 ### Pods/Containers
 
 This is where it gets difficult to monitor so we built a special panel that connects to the Kubernetes API and uses Kubernetes labels to filter pod data.
 
 ![](/assets/img/blog/k8s_app_pod_dashboard_ops.png)
-
+<a name="deployments"></a>
 ### Deployments
 
 Every deployment creates a new generation but it only increments the generation when all replicas are deployed so this dashboard can be used to identify deployments that have stalled due to errors.
@@ -97,7 +103,7 @@ A simple alert that checks if this is greater than zero is highly recommended, e
 
 ## Snap Collectors
 
-The [seven Snap collectors](https://github.com/raintank/kubernetes-app/blob/master/README.md#technical-details) that are included in the app can potentially collect a huge amount of data allowing you to investigate alerts at a lower level or to examine trends for capacity planning. The collectors in the app are currently configured to collect the data needed for the above dashboards. In future versions of the app, we will exploit the [Snap's dynamic loading of metrics](https://blog.raintank.io/using-grafana-with-intels-snap-for-ad-hoc-metric-exploration/) and this will make all the metrics available to be either live streamed or saved to Graphite as needed.
+The [seven Snap collectors](https://github.com/raintank/kubernetes-app/blob/master/README.md#technical-details) that are included in the app can potentially collect a huge amount of data allowing you to investigate alerts at a lower level or to examine trends for capacity planning. The collectors in the app are currently configured to collect the data needed for the above dashboards. In future versions of the app, we will exploit the [Snap's dynamic loading of metrics](https://grafana.com/blog/2016/03/31/using-grafana-with-intels-snap-for-ad-hoc-metric-exploration/) and this will make all the metrics available to be either live streamed or saved to Graphite as needed.
 
 ## Community
 
