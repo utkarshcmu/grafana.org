@@ -96,7 +96,6 @@ upload_s3() {
     --exclude "bower/*" \
     --exclude "videos" \
     --exclude "sass/*" \
-    --exclude "img/docs*" \
     --profile $BUCKET  \
     --cache-control $cache \
     --acl public-read $encoding

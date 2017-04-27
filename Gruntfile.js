@@ -215,10 +215,10 @@ module.exports = function(grunt) {
         break;
       case 'staging-docs':
         buildDrafts = true;
-        baseUrl = 'http://staging-docs.grafana.org';
+        baseUrl = 'http://staging-docs.grafana.org' + docsVersion;
         break;
       case 'prod-docs':
-        baseUrl = 'http://docs.grafana.org';
+        baseUrl = 'http://docs.grafana.org' + docsVersion;
         break;
     }
 
