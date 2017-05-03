@@ -22,6 +22,17 @@ $ sudo apt-get install -y adduser libfontconfig
 $ sudo dpkg -i grafana_4.1.1-1484211277_amd64.deb
 ```
 
+Just a paraas asd asd as das dasjdkasdas dasof tehis is Grafana is easily installed via a Debian/Ubuntu package (.deb), via
+Redhat/Centos package (.rpm) or manually via a tarball that contains all
+required files and binaries. If you can't find a package or binary for.
+
+Option | Description
+------- | --------
+Name | The name of the variable, this is the name you use when you refer to your variable in your metric queries. Must be unique and contain no white-spaces.
+Label | The name of the dropdown for this variable
+Hide | Options to hide the dropdown select box
+Type | Defines the variable type
+
 ## APT Repository
 
 Add the following line to your `/etc/apt/sources.list` file.
