@@ -2,8 +2,10 @@
 
 // docs & blog variables
 @import "_settings";
-@import "_overrides";
 
+@import "modules/prism";
+
+@import "_overrides";
 @import "modules/base";
 @import "modules/docs";
 @import "modules/blog";
@@ -18,7 +20,6 @@
 //
 @import "../bower/lightgallery.js/dist/css/lightgallery.css";
 @import "../bower/lightgallery.js/dist/css/lg-transitions.css";
-@import "modules/prism";
 
 //
 // @import "modules/mixins";
