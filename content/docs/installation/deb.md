@@ -16,7 +16,7 @@ Stable for Debian-based Linux | [4.1.1 (x86-64 deb)](https://grafanarel.s3.amazo
 
 ## Install Stable
 
-```
+```bash
 $ wget https://grafanarel.s3.amazonaws.com/builds/grafana_4.1.1-1484211277_amd64.deb
 $ sudo apt-get install -y adduser libfontconfig
 $ sudo dpkg -i grafana_4.1.1-1484211277_amd64.deb
