@@ -1,5 +1,5 @@
 +++
-title = "GitHub Analytics With Elasticsearch And Grafana"
+title = "Analyze your GitHub Project With Elasticsearch And Grafana"
 author = "torkel"
 date = "2017-05-10"
 draft = true
@@ -26,6 +26,10 @@ interesting analytics. For example:
 
 ## Why Elasticsearch?
 
+Grafana is most often used with time series databases like Graphite, but for this sort of use case,
+it's about much more than measurements. Part of the power of Grafana is bringing together data from
+many different places, and leveraging the strengths of its diverse set of data sources.
+Elasticsearch isn't technically a time series database, but it's been one our fastest growing datasources because it really shines for use cases like this. Plus, Grafana support for Elasticsearch is getting better and better.
 Elasticsearch is not only a document search DB. Its real power is in the kinds of aggregations you can do. This is why
 Elasticsearch has become such a great tool for log analytics or data analytics in general. It's not ideal for
 the high volume & high-resolution time series workloads that most time series databases can handle, but for
