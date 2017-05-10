@@ -2,7 +2,6 @@
 title = "Analyze your GitHub Project With Elasticsearch And Grafana"
 author = "torkel"
 date = "2017-05-10"
-draft = true
 keywords = ["Grafana", "GitHub", "Elasticsearch"]
 cover_image = "/assets/img/blog/github_analytics/cover.png"
 description = "Track & Analyze GitHub Project Data like Issues and Commments Using Grafana"
