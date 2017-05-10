@@ -10,9 +10,9 @@ description = "Export GitHub Repository data to Elasticsearch and visualize issu
 
 ## The Dream
 
-I have, for a long time, wished there was a way to easily export GitHub issues & comments to
-Elasticsearch. The standard GitHub graphs for commits & traffic are great but I have
-really been missing graphs and analytics on issues & comments.
+I have, for a long time, wished there was a way to easily export GitHub issues and comments to
+Elasticsearch. The standard GitHub graphs for commits and traffic are great but I have
+really been missing graphs and analytics on issues and comments.
 
 If we had issues & comments in Elasticsearch, with a well-defined index mapping, we could do some
 interesting analytics. For example:
@@ -21,22 +21,22 @@ interesting analytics. For example:
 - Look at project history in terms of comments (can be a measure of community engagement)
 - See how different labels trend over time.
 - Look at distributions (histograms) on the number of issues or comments created per user. Are there a few very active users that represent 70% or 90% of all issues & comments?
-- How long does PRs stay open?
+- How long do PRs stay open?
 - How long do issues stay unresponded?
 
 ## Why Elasticsearch?
 
 Elasticsearch is not only a document search DB. Its real power is in the kinds of aggregations you can do. This is why
 Elasticsearch has become such a great tool for log analytics or data analytics in general. It's not ideal for
-the high volume & high-resolution time series workloads that most time series databases can handle but for
-data with high cardinality (like documents with usernames, issue numbers) it can really shine. It also allows
-you do ad hoc filtering in a way that time series would not allow as it would require a unique time series
-for every possible filter condition & value.
+the high volume & high-resolution time series workloads that most time series databases can handle, but for
+data with high cardinality (like documents with usernames, issue numbers, etc) it can really shine. It also allows
+you do ad hoc filtering in a way that time series would not allow, as it would require a unique time series
+for every possible filter condition and value.
 
-## The GitHub API crawler
+## The GitHub API Crawler
 
 So a few weekends ago I had some left over programming energy and spent a few hours hacking together
-this [node.js app](https://github.com/torkelo/github-to-es) that uses the GitHub API to crawl all issues & comments which it
+this [node.js app](https://github.com/torkelo/github-to-es) that uses the GitHub API to crawl all issues and comments which it
 then saves as separate documents in Elasticsearch.
 
 It stores them in Elasticsearch with this index mapping:
@@ -75,10 +75,10 @@ in the index mapping.
 
 ### The Dashboards
 
-With the data finally collected I built two dashboards, one focused on [issues](http://play.grafana.org/dashboard/db/github-repo-trends-issues) and another one
+With the data finally collected, I built two dashboards; one focused on [issues](http://play.grafana.org/dashboard/db/github-repo-trends-issues) and another one
 focused on [comments](http://play.grafana.org/dashboard/db/github-repo-trends-comments). Both dashboards are templated and allow you to specify which repository
-to look at and the granularity (group by time) of the data. You can also add any ad-hoc filter, like
-only look at issues created by a specific user or only look at issues with no comments.
+to look at and the granularity (group by time) of the data. You can also add any ad-hoc filter– for example,
+only look at issues created by a specific user, or only look at issues with no comments.
 
 ![](/assets/img/blog/github_analytics/issue_trends.png)
 
@@ -90,14 +90,14 @@ The [second dashboard](http://play.grafana.org/dashboard/db/github-repo-trends-c
 
 ![](/assets/img/blog/github_analytics/comment_trends.png)
 
-## Useful how?
+## Useful How?
 
-So I am not exactly sure how useful this data & dashboards are yet. It was mostly a fun hobby project to see some trends & stats
-for issue & comment volume. But this could also be useful data that can help you track things like issue label stats. Stats that could
-be used improve categorizing issues and visualizing changes in labeling trends. For example, the graphs could answer questions like:
+I am not exactly sure how useful this data & dashboards are yet. It was mostly a fun hobby project to see some trends and stats
+for issue and comment volume. But this could also be useful data that can help you track things like issue label stats. Stats that could
+be used to improve categorizing issues and visualizing changes in labeling trends. For example, the graphs could answer questions like:
 *How did a concerted effort to improve docs change the trend of issues labeled question*?
 
-## Try it and help me improve it
+## Try it and Help me Improve it
 
 Check out the GitHub repo [torkelo/github-to-es](https://github.com/torkelo/github-to-es) it has a basic README with instructions
 for how to get started.
@@ -108,11 +108,11 @@ and for the *Timestamp* field you specify `created_at`. Then you can import the 
 - [grafana.com/dashboards/2244 Issue Analytics](https://grafana.com/dashboards/2244)
 - [grafana.com/dashboards/2250 Comments Analytics](https://grafana.com/dashboards/2250)
 
-There are probably many more interesting query's you can do and also the collector could be improved to fetch and store more fields.
+There are probably many more interesting queries you can build and the collector could also be improved to fetch and store more fields.
 
-There are some limitations for how many issues & comments that can be imported in the initial full import due to the paging limit
-in the GitHub API. GitHub API returns a maximum of a 100 issues or comments per "page" and has a page limit of a maximum of 400 pages. This
-means that the full import can only handle 40 000 issues and 40 000 comments.
+There are some limitations for how many issues and comments that can be imported in the initial full import due to the paging limit
+in the GitHub API. GitHub API returns a maximum of 100 issues or comments per "page" and has a page limit of a maximum of 400 pages. This
+means that the full import can only handle 40,000 issues and 40,000 comments.
 
 
 Until next time, keep on graphing!<br>
