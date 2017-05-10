@@ -115,12 +115,22 @@ and for the *Timestamp* field you specify `created_at`. Then you can import the 
 - [grafana.com/dashboards/2244 Issue Analytics](https://grafana.com/dashboards/2244)
 - [grafana.com/dashboards/2250 Comments Analytics](https://grafana.com/dashboards/2250)
 
-There are probably many more interesting queries you can build and the collector could also be improved to fetch and store more fields.
-
 There are some limitations for how many issues and comments that can be imported in the initial full import due to the paging limit
 in the GitHub API. GitHub API returns a maximum of 100 issues or comments per "page" and has a page limit of a maximum of 400 pages. This
 means that the full import can only handle 40,000 issues and 40,000 comments.
 
+### More data & more cool graphs
+
+There are probably many more interesting queries you can build and the collector could also be improved to fetch and store more fields.
+
+For example:
+
+- Collect stars & fork stats (needs to be recorded as snapshot docs as there is no API to get historical data for this)
+- Calculate time between issue created and first comment during issue fetching to have that as a field on the issue docs
+- PR details, currently issue API does not include merge status (only a flag if its a PR)
+- Commit docs
+
+There are probably a lot more cool things you can collect & query.
 
 Until next time, keep on graphing!<br>
 Torkel Ödegaard<br>
