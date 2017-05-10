@@ -22,25 +22,28 @@ interesting analytics. For example:
 - See how different labels trend over time.
 - Look at distributions (histograms) on the number of issues or comments created per user. Are there a few very active users that represent 70% or 90% of all issues & comments?
 - How long do PRs stay open?
-- How long do issues stay unresponded?
+- How long until issues get their first response?
 
 ## Why Elasticsearch?
 
 Grafana is most often used with time series databases like Graphite, but for this sort of use case,
 it's about much more than measurements. Part of the power of Grafana is bringing together data from
 many different places, and leveraging the strengths of its diverse set of data sources.
-Elasticsearch isn't technically a time series database, but it's been one our fastest growing datasources because it really shines for use cases like this. Plus, Grafana support for Elasticsearch is getting better and better.
-Elasticsearch is not only a document search DB. Its real power is in the kinds of aggregations you can do. This is why
-Elasticsearch has become such a great tool for log analytics or data analytics in general. It's not ideal for
-the high volume & high-resolution time series workloads that most time series databases can handle, but for
+
+Elasticsearch isn't technically a time series database, but it's been one of our fastest growing data source
+because it really shines for use cases like this. Plus, Grafana's support for Elasticsearch is getting
+better and better.
+
+Elasticsearch is not only a document search DB. Its real power is in the kinds of aggregations you can do. It's not ideal
+for the high volume & high-resolution time series workloads that most time series databases can handle, but for
 data with high cardinality (like documents with usernames, issue numbers, etc) it can really shine. It also allows
-you do ad hoc filtering in a way that time series would not allow, as it would require a unique time series
+you to do ad-hoc filtering in a way that time series would not allow, as it would require a unique time series
 for every possible filter condition and value.
 
 ## The GitHub API Crawler
 
 So a few weekends ago I had some left over programming energy and spent a few hours hacking together
-this [node.js app](https://github.com/torkelo/github-to-es) that uses the GitHub API to crawl all issues and comments which it
+this [node.js app](https://github.com/grafana/github-to-es) that uses the GitHub API to crawl all issues and comments which it
 then saves as separate documents in Elasticsearch.
 
 It stores them in Elasticsearch with this index mapping:
@@ -81,13 +84,13 @@ in the index mapping.
 
 With the data finally collected, I built two dashboards; one focused on [issues](http://play.grafana.org/dashboard/db/github-repo-trends-issues) and another one
 focused on [comments](http://play.grafana.org/dashboard/db/github-repo-trends-comments). Both dashboards are templated and allow you to specify which repository
-to look at and the granularity (group by time) of the data. You can also add any ad-hoc filter– for example,
+to look at and the granularity (group by time) of the data. You can also add any ad-hoc filter. For example,
 only look at issues created by a specific user, or only look at issues with no comments.
 
 ![](/assets/img/blog/github_analytics/issue_trends.png)
 
 Check out [the dasboard](http://play.grafana.org/dashboard/db/github-repo-trends-issues) on our play site. I configured the
-[github-to-es](https://github.com/torkelo/github-to-es) collector to fetch issues and comments for the main Kubernetes repo, the
+[github-to-es](https://github.com/grafana/github-to-es) collector to fetch issues and comments for the main Kubernetes repo, the
 main Grafana repo and the Microsoft VS Code editor repository.
 
 The [second dashboard](http://play.grafana.org/dashboard/db/github-repo-trends-comments) shows comment analytics:
@@ -101,9 +104,9 @@ for issue and comment volume. But this could also be useful data that can help y
 be used to improve categorizing issues and visualizing changes in labeling trends. For example, the graphs could answer questions like:
 *How did a concerted effort to improve docs change the trend of issues labeled question*?
 
-## Try it and Help me Improve it
+## Try it and help me improve it
 
-Check out the GitHub repo [torkelo/github-to-es](https://github.com/torkelo/github-to-es) it has a basic README with instructions
+Check out the GitHub repo [grafana/github-to-es](https://github.com/grafana/github-to-es) it has a basic README with instructions
 for how to get started.
 
 Once you have the import working you need to add an Elasticsearch data source in Grafana. For index name you specify `github`
