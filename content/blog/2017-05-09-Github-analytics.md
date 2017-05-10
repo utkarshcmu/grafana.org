@@ -93,8 +93,8 @@ The [second dashboard](http://play.grafana.org/dashboard/db/github-repo-trends-c
 ## Useful how?
 
 So I am not exactly sure how useful this data & dashboards are yet. It was mostly a fun hobby project to see some trends & stats
-for issue & comment volume. But this could also be useful data that can help with track stuff like issue label stats that could
-be used improve categorizing issues spot changes in labeling trends. For example, the graphs could answer questions like:
+for issue & comment volume. But this could also be useful data that can help you track things like issue label stats. Stats that could
+be used improve categorizing issues and visualizing changes in labeling trends. For example, the graphs could answer questions like:
 *How did a concerted effort to improve docs change the trend of issues labeled question*?
 
 ## Try it and help me improve it
