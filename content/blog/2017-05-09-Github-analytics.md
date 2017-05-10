@@ -5,7 +5,7 @@ date = "2017-05-10"
 draft = true
 keywords = ["Grafana", "GitHub", "Elasticsearch"]
 cover_image = "/assets/img/blog/github_analytics/cover.png"
-description = "Export GitHub Repository data to Elasticsearch and visualize analytics in Grafana"
+description = "Export GitHub Repository data to Elasticsearch and visualize issue and comment analytics in Grafana"
 +++
 
 ## The Dream
@@ -30,7 +30,7 @@ Elasticsearch is not only a document search DB. Its real power is in the kinds o
 Elasticsearch has become such a great tool for log analytics or data analytics in general. It's not ideal for
 the high volume & high-resolution time series workloads that most time series databases can handle but for
 data with high cardinality (like documents with usernames, issue numbers) it can really shine. It also allows
-you do ad hoc filtering in a way that time series would not allow as it would require to a unique time series
+you do ad hoc filtering in a way that time series would not allow as it would require a unique time series
 for every possible filter condition & value.
 
 ## The GitHub API crawler
