@@ -102,10 +102,16 @@ be used improve categorizing issues spot changes in labeling trends. For example
 Check out the GitHub repo [torkelo/github-to-es](https://github.com/torkelo/github-to-es) it has a basic README with instructions
 for how to get started.
 
+Once you have the import working you need to add an Elasticsearch data source in Grafana. For index name you specify `github`
+and for the *Timestamp* field you specify `created_at`. Then you can import the the two dashboards i published on Grafana.com:
+
+- [grafana.com/dashboards/2244 Issue Analytics](https://grafana.com/dashboards/2244)
+- [grafana.com/dashboards/2250 Comments Analytics](https://grafana.com/dashboards/2250)
+
 There are probably many more interesting query's you can do and also the collector could be improved to fetch and store more fields.
 
-There are some limitations for how many issues & comments can be imported in the initial complete import due to the paging limit
-in the GitHub API. GitHub API returns max 100 issues or comments per "page" and has a page limit of a maximum of 400 pages. This
+There are some limitations for how many issues & comments that can be imported in the initial full import due to the paging limit
+in the GitHub API. GitHub API returns a maximum of a 100 issues or comments per "page" and has a page limit of a maximum of 400 pages. This
 means that the full import can only handle 40 000 issues and 40 000 comments.
 
 
