@@ -5,7 +5,7 @@ date = "2017-05-10"
 draft = true
 keywords = ["Grafana", "GitHub", "Elasticsearch"]
 cover_image = "/assets/img/blog/github_analytics/cover.png"
-description = "Export GitHub Repository data to Elasticsearch and visualize issue and comment analytics in Grafana"
+description = "Track & Analyze GitHub Project Data like Issues and Commments Using Grafana"
 +++
 
 ## The Dream
