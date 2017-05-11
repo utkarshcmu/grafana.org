@@ -40,7 +40,7 @@ Every column in a Heatmap is a histogram snapshot. Instead of visualizing higher
 
 4.3 includes a new core data source for MySQL. The query result can be returned in the Time Series format and the Table Data format allowing it be used with the Graph Panel, Table Panel and SingleStat Panel.
 
-This is a alpha release of the MySQL Data Source so please try it out and let us know what you think on [twitter](http://twitter.com/grafana) or on our [community forum](https://community.grafana.com/). Is this a feature that you would use? How can we make it better?
+This is a alpha release of the MySQL Data Source so please try it out and let us know what you think on [twitter](https://twitter.com/intent/tweet?text=.%40grafana&source=4_3_beta_blog&related=blog) or on our [community forum](https://community.grafana.com/). Is this a feature that you would use? How can we make it better?
 
 **The query editor can show the generated and interpolated SQL that is sent to the MySQL server.**
 
