@@ -24,9 +24,9 @@ The Graph Panel now supports Histograms.
 
 ![](/img/docs/v43/heatmap_histogram.png)
 
-## Histogram Aggregation Support for ElasticSearch
+## Histogram Aggregation Support for Elasticsearch
 
-ElasticSearch is the only supported data source that can return pre-bucketed data (data that is already grouped into ranges). With other data sources there is a risk of returning inaccurate data in a histogram due to using already aggregated data rather than raw data. This release adds support for ElasticSearch pre-bucketed data that can be visualized with the new Heatmap Panel.
+Elasticsearch is the only supported data source that can return pre-bucketed data (data that is already grouped into ranges). With other data sources there is a risk of returning inaccurate data in a histogram due to using already aggregated data rather than raw data. This release adds support for Elasticsearch pre-bucketed data that can be visualized with the new Heatmap Panel.
 
 ## Heatmap Panel
 
