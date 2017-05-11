@@ -3,7 +3,7 @@ title = "Grafana 4.3 Beta Release"
 author = "daniellee"
 date = "2017-05-12"
 keywords = ["Grafana", "Blog", "v4.3", "Beta"]
-cover_image = "/assets/img/blog/v4/grafana_shared_tooltips.jpg"
+cover_image = "/assets/img/blog/v4/heatmap.JPG"
 description = "Grafana 4.3 Beta Release Highlights"
 draft = true
 +++
@@ -12,7 +12,7 @@ draft = true
 
 Grafana v4.3 Beta is now [available for download](https://grafana.com/grafana/download/4.3.0-beta1).
 
-This release contains some exciting new highlights - the Heatmap Panel and the beta MySQL Data Source. The release also includes lots of small fixes and improvements, most of them contributed by our fantastic community!
+This release contains some exciting new highlights - the Heatmap Panel and the beta MySQL Data Source just to name a few. Grafana 4.3 beta also includes lots of small fixes and improvements, most of them contributed by our fantastic community!
 
 ![](/img/docs/v43/heatmap_panel.png)
 
