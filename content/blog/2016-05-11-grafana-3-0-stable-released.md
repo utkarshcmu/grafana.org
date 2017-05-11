@@ -3,7 +3,7 @@ title: Grafana 3.0 Stable Released
 author: torkel
 date: 2016-05-11
 aliases:
-  - blog/2016/05/11/grafana-3-0-stable-released.html
+  - /2016/05/11/grafana-3-0-stable-released.html
 categories:
   - "Release"
   - "Grafana"

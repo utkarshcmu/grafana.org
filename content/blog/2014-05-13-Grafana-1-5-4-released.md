@@ -3,7 +3,7 @@ title: Grafana 1.5.4 released.
 author: torkel
 date: 2014-05-13
 aliases:
-  - /blog/2014/05/13/Grafana-1-5-4-released.html
+  - /2014/05/13/Grafana-1-5-4-released.html
 categories:
   - "Release"
   - "Grafana"

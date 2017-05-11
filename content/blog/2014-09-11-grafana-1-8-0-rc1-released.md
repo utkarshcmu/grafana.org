@@ -3,7 +3,7 @@ title: Grafana 1.8.0-rc1 Released!
 author: torkel
 date: 2014-09-11
 aliases:
-  - /assets/img/blog/2014/09/11/grafana-1-8-0-rc1-released.html
+  - /2014/09/11/grafana-1-8-0-rc1-released.html
 categories:
   - "Release"
   - "Grafana"

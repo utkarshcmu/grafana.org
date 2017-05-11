@@ -4,7 +4,7 @@ description = "Grafana 3.0 is now available for download. This blog post describ
 keywords = ["release"]
 author = "torkel"
 date = "2016-03-31"
-aliases = ["blog/2016/03/31/grafana-3-0-beta-released.html"]
+aliases = ["/2016/03/31/grafana-3-0-beta-released.html"]
 categories = ["Release", "Grafana"]
 +++
 

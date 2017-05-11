@@ -3,7 +3,7 @@ title: Grafana 2.0 Alpha & Preview
 author: torkel
 date: 2015-02-10
 aliases:
-  - /blog/2015/02/10/Grafana-2-Alpha-and-preview.html
+  - /2015/02/10/Grafana-2-Alpha-and-preview.html
 categories:
   - "Release"
   - "Grafana"

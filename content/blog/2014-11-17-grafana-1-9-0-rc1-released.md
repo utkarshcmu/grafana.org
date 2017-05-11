@@ -3,7 +3,7 @@ title: Grafana 1.9.0-rc1 Released!
 author: torkel
 date: 2014-11-17
 aliases:
-  - //assets/img/blog/2014/11/17/grafana-1-9-0-rc1-released.html
+  - /2014/11/17/grafana-1-9-0-rc1-released.html
 categories:
   - "Release"
   - "Grafana"

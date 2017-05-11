@@ -3,7 +3,7 @@ title: Grafana 3.1 Beta Released
 author: torkel
 date: 2016-06-23
 aliases:
-  - blog/2016/06/23/grafana-3-1-beta-released.html
+  - /2016/06/23/grafana-3-1-beta-released.html
 categories:
   - "Release"
   - "Grafana"

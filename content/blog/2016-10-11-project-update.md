@@ -6,7 +6,7 @@ keywords = ["Grafana", "Blog", "GrafanaCon", "Update"]
 cover_image = "/assets/img/blog/project_update/grafanacon_blog.png"
 cover_opacity = "0.2"
 cover_blur = "4px"
-aliases = ["blog/2016/10/15/project-update--grafanacon/"]
+aliases = ["/2016/10/15/project-update--grafanacon/"]
 description = "Project update blog post covering Grafana v4 progress update, GrafanaCon, new screencasts, new plugins, new dashboards."
 categories = ["Grafana", "GrafanaCon"]
 +++
