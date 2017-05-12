@@ -8,11 +8,11 @@ description = "Grafana 4.3 Beta Release Highlights"
 draft = true
 +++
 
-## Grafana v4.3 beta
+## Grafana v4.3 Beta
 
 Grafana v4.3 Beta is now [available for download](https://grafana.com/grafana/download/4.3.0-beta1).
 
-This release contains some exciting new highlights - the Heatmap Panel and the beta MySQL Data Source just to name a few. Grafana 4.3 beta also includes lots of small fixes and improvements, most of them contributed by our fantastic community!
+This release contains some exciting new highlights - the [Heatmap Panel](http://docs.grafana.org/features/panels/heatmap/) and the alpha [MySQL Data Source](http://docs.grafana.org/features/datasources/mysql/) just to name a few. Grafana 4.3 beta also includes lots of small fixes and improvements, most of them contributed by our fantastic community!
 
 ![](/img/docs/v43/heatmap_panel.png)
 
@@ -26,21 +26,21 @@ The Graph Panel now supports Histograms.
 
 ## Histogram Aggregation Support for Elasticsearch
 
-Elasticsearch is the only supported data source that can return pre-bucketed data (data that is already grouped into ranges). With other data sources there is a risk of returning inaccurate data in a histogram due to using already aggregated data rather than raw data. This release adds support for Elasticsearch pre-bucketed data that can be visualized with the new Heatmap Panel.
+Elasticsearch is the only supported data source that can return pre-bucketed data (data that is already grouped into ranges). With other data sources there is a risk of returning inaccurate data in a histogram due to using already aggregated data rather than raw data. This release adds support for Elasticsearch pre-bucketed data that can be visualized with the new [Heatmap Panel](http://docs.grafana.org/features/panels/heatmap/).
 
 ## Heatmap Panel
 
-The Histogram support in the Graph Panel does not show changes over time - it aggregates all the data together for the chosen time range. To visualize a histogram over time, we have built a new Heatmap Panel.
+The Histogram support in the Graph Panel does not show changes over time - it aggregates all the data together for the chosen time range. To visualize a histogram over time, we have built a new [Heatmap Panel](http://docs.grafana.org/features/panels/heatmap/).
 
 Every column in a Heatmap is a histogram snapshot. Instead of visualizing higher values with higher bars, a heatmap visualizes higher values with color. The histogram shown above is equivalent to one column in the heatmap shown below.
 
 ![](/img/docs/v43/heatmap_histogram_over_time.png)
 
-## MySQL Data Source - Beta Release
+## MySQL Data Source - Alpha Release
 
-4.3 includes a new core data source for MySQL. The query result can be returned in the Time Series format and the Table Data format allowing it be used with the Graph Panel, Table Panel and SingleStat Panel.
+4.3 includes a [new core data source for MySQL](http://docs.grafana.org/features/datasources/mysql/). The query result can be returned in the Time Series format or the Table Data format allowing it be used with the Graph Panel, Table Panel and SingleStat Panel.
 
-This is a alpha release of the MySQL Data Source so please try it out and let us know what you think on [twitter](https://twitter.com/intent/tweet?text=.%40grafana&source=4_3_beta_blog&related=blog) or on our [community forum](https://community.grafana.com/). Is this a feature that you would use? How can we make it better?
+This is an alpha release of the [MySQL Data Source](http://docs.grafana.org/features/datasources/mysql/). It is still in an early phase of development and we will be making lots of improvements. So please try it out and let us know what you think on [twitter](https://twitter.com/intent/tweet?text=.%40grafana&source=4_3_beta_blog&related=blog) or on our [community forum](https://community.grafana.com/c/releases). Is this a feature that you would use? How can we make it better?
 
 **The query editor can show the generated and interpolated SQL that is sent to the MySQL server.**
 
@@ -64,7 +64,7 @@ The Prometheus data source now supports the Table Data format by automatically a
 
 ![](/img/docs/v43/prom_table_cols_as_labels.png)
 
-## Other Highlights From the Changelog
+## Other Highlights From The Changelog
 
 Changes:
 
