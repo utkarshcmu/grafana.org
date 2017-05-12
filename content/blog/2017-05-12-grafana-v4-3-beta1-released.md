@@ -3,20 +3,26 @@ title = "Grafana 4.3 Beta Release"
 author = "daniellee"
 date = "2017-05-12"
 keywords = ["Grafana", "Blog", "v4.3", "Beta"]
-cover_image = "/assets/img/blog/v4/heatmap.JPG"
+cover_image = "/assets/img/blog/v4/heatmap.jpg"
+cover_opacity = "0.6"
+cover_blur = "1px"
 description = "Grafana 4.3 Beta Release Highlights"
 draft = true
 +++
 
-## Grafana v4.3 Beta
-
 Grafana v4.3 Beta is now [available for download](https://grafana.com/grafana/download/4.3.0-beta1).
 
-This release contains some exciting new highlights - the [Heatmap Panel](http://docs.grafana.org/features/panels/heatmap/) and the alpha [MySQL Data Source](http://docs.grafana.org/features/datasources/mysql/) just to name a few. Grafana 4.3 beta also includes lots of small fixes and improvements, most of them contributed by our fantastic community!
+## Release Highlights
 
-Try out [the Heatmap Panel and MySQL Data Source Demo](http://play.grafana.org/dashboard/db/new-features-in-v4-3?orgId=1) on the Grafana Play site.
+ - New [Heatmap Panel](http://docs.grafana.org/features/panels/heatmap/)
+ - Graph Panel Histogram Mode
+ - Elasticsearch Histogram Aggregation
+ - Prometheus Table data format
+ - New [MySQL Data Source](http://docs.grafana.org/features/datasources/mysql/) (alpha version to get some early feedback)
+ - 60+ small fixes and improvements, most of them contributed by our fantastic community!
 
-![](/img/docs/v43/heatmap_panel.png)
+Check out the [New Features in v4.3 Dashboard](http://play.grafana.org/dashboard/db/new-features-in-v4-3?orgId=1) on the Grafana Play site for
+a showcase of these new features.
 
 ## Histogram Support
 
@@ -38,11 +44,16 @@ Every column in a Heatmap is a histogram snapshot. Instead of visualizing higher
 
 ![](/img/docs/v43/heatmap_histogram_over_time.png)
 
-## MySQL Data Source - Alpha Release
+The Heatmap panel also works with Elasticsearch Histogram Aggregations for more accurate server side bucketing.
 
-4.3 includes a [new core data source for MySQL](http://docs.grafana.org/features/datasources/mysql/). The query result can be returned in the Time Series format or the Table Data format allowing it be used with the Graph Panel, Table Panel and SingleStat Panel.
+![](/assets/img/blog/v4/elastic_heatmap.jpg)
 
-This is an alpha release of the [MySQL Data Source](http://docs.grafana.org/features/datasources/mysql/). It is still in an early phase of development and we will be making lots of improvements. So please try it out and let us know what you think on [twitter](https://twitter.com/intent/tweet?text=.%40grafana&source=4_3_beta_blog&related=blog) or on our [community forum](https://community.grafana.com/c/releases). Is this a feature that you would use? How can we make it better?
+## MySQL Data Source (alpha)
+
+This release includes a [new core data source for MySQL](http://docs.grafana.org/features/datasources/mysql/). You can write any possible MySQL query and format it as either Time Series or Table Data allowing it be used with the Graph Panel, Table Panel and SingleStat Panel.
+
+We are still working on the MySQL data source. As it's missing some important features, like templating and macros and future changes could be breaking, we are
+labeling the state of the data source as Alpha. Instead of holding up the release of v4.3 we are including it in its current shape to get some early feedback.  So please try it out and let us know what you think on [twitter](https://twitter.com/intent/tweet?text=.%40grafana&source=4_3_beta_blog&related=blog) or on our [community forum](https://community.grafana.com/c/releases). Is this a feature that you would use? How can we make it better?
 
 **The query editor can show the generated and interpolated SQL that is sent to the MySQL server.**
 
