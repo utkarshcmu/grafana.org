@@ -7,7 +7,6 @@ cover_image = "/assets/img/blog/v4/heatmap.jpg"
 cover_opacity = "0.6"
 cover_blur = "1px"
 description = "Grafana 4.3 Beta Release Highlights"
-draft = true
 +++
 
 Grafana v4.3 Beta is now [available for download](https://grafana.com/grafana/download/4.3.0-beta1).
