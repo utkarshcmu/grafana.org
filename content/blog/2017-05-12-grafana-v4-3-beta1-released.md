@@ -14,6 +14,8 @@ Grafana v4.3 Beta is now [available for download](https://grafana.com/grafana/do
 
 This release contains some exciting new highlights - the [Heatmap Panel](http://docs.grafana.org/features/panels/heatmap/) and the alpha [MySQL Data Source](http://docs.grafana.org/features/datasources/mysql/) just to name a few. Grafana 4.3 beta also includes lots of small fixes and improvements, most of them contributed by our fantastic community!
 
+Try out [the Heatmap Panel and MySQL Data Source Demo](http://play.grafana.org/dashboard/db/new-features-in-v4-3?orgId=1) on the Grafana Play site.
+
 ![](/img/docs/v43/heatmap_panel.png)
 
 ## Histogram Support
