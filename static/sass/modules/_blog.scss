@@ -87,6 +87,7 @@ q.quote {
   flex-shrink: 0;
   > img {
     border-radius: 50%;
+    filter: grayscale(100%);
   }
 }
 
@@ -142,4 +143,21 @@ q.quote {
 
 .blog-categories {
   margin-bottom: $spacer*2;
+}
+
+.blog-plugin {
+  display: inline-block;
+
+  img {
+    border-radius: 50%; 
+    margin-right: 10px;
+    width: 100px;
+  }
+
+  p {
+      position: relative;
+      left: 120px;
+      bottom: 75px;
+      margin-right: 120px;
+  }
 }
