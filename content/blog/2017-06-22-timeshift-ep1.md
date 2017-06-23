@@ -26,32 +26,32 @@ TimeShift is a new blog series we've created to provide a weekly curated list of
 <br />
 We see a lot of articles covering the devops side of monitoring, but it's interesting to see how people are using Grafana for different use cases.
 
-- [**Monitoring Cryptocurrency Data**](https://steemit.com/monitoring/@masterofnoneds/monitoring-cryptocurrency-data-with-grafana-dashboard): Masterofnoneds is building a dashboard for the data of the Top 25 cryptocurrencies from Coinmarketcap.com according to their market capital. We hope to see it in our [dashboard list](https://grafana.com/dashboards) soon.
+- [**Monitoring Cryptocurrency Data**](https://steemit.com/monitoring/@masterofnoneds/monitoring-cryptocurrency-data-with-grafana-dashboard): Masterofnoneds is building a dashboard for the data of the Top 25 cryptocurrencies from Coinmarketcap.com according to their market capital. We hope to see it in our [dashboard list](https://grafana.com/dashboards?utm_source=blog&utm_campaign=timeshift) soon.
 
 - [**Monitoring the Weather With InfluxDB and Grafana (and a Bunch of Arduinos)**](https://dzone.com/articles/monitoring-the-weather-with-influxdb-and-grafana-a): In the age of IoT, why not make an internet-connected weather station without the cost of buying one off the shelf?
 
 <br />
 #### Plugins and Dashboards
-We are excited that there have been over 100,000 plugin installations since we launched the new plugable architecture in Grafana v3. You can discover and install plugins in your own on-premises or Hosted Grafana instance from our [website](https://grafana.com/plugins). Below are some recent additions and updates.
+We are excited that there have been over 100,000 plugin installations since we launched the new plugable architecture in Grafana v3. You can discover and install plugins in your own on-premises or Hosted Grafana instance from our [website](https://grafana.com/plugins?utm_source=blog&utm_campaign=timeshift). Below are some recent additions and updates.
 
 <div class="blog-plugin">
 	<img src="/assets/img/blog/carpet_plot.svg" />
 	<p>
-		<a href="https://grafana.com/plugins/petrslavotinek-carpetplot-panel">Carpet plot</a> A varient of the heatmap graph panel with additional display options.
+		<a href="https://grafana.com/plugins/petrslavotinek-carpetplot-panel?utm_source=blog&utm_campaign=timeshift">Carpet plot</a> A varient of the heatmap graph panel with additional display options.
 	</p>
 </div>
 
 <div class="blog-plugin">
 	<img src="/assets/img/blog/dalmatinerDB.png" />
 	<p>
-		<a href="https://grafana.com/plugins/dalmatinerdb-datasource">DalmatinerDB</a> No-fluff, purpose-built metric database.
+		<a href="https://grafana.com/plugins/dalmatinerdb-datasource?utm_source=blog&utm_campaign=timeshift">DalmatinerDB</a> No-fluff, purpose-built metric database.
 	</p>
 </div>
 
 <div class="blog-plugin">
 	<img src="/assets/img/blog/gnocchi.png" />
 	<p>
-		<a href="https://grafana.com/plugins/gnocchixyz-gnocchi-datasource">Gnocchi</a> This plugin was renamed. Users should uninstall the old version and install this new version.
+		<a href="https://grafana.com/plugins/gnocchixyz-gnocchi-datasource?utm_source=blog&utm_campaign=timeshift">Gnocchi</a> This plugin was renamed. Users should uninstall the old version and install this new version.
 	</p>
 </div>
 
@@ -66,6 +66,6 @@ Thank you for all of your PRs!
 <br />
 <br />
 #### What do you think?
-Anything in particular you'd like to see in this series of posts? Too long? Too short? Boring as shit? Let us know. Comment on this article below, or post something at our [community forum](http://community.grafana.com). With your help, we can make this a worthwhile resource.
+Anything in particular you'd like to see in this series of posts? Too long? Too short? Boring as shit? Let us know. Comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift). With your help, we can make this a worthwhile resource.
 
-Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup).
+Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift).
