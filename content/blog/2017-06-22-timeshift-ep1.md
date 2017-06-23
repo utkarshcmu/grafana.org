@@ -8,7 +8,6 @@ cover_opacity = "0.6"
 cover_blur = "1px"
 description = "A roundup of articles and links form Grafana and the community from the past week"
 categories = ["timeShift", "Grafana Buzz"]
-draft = true
 +++
 
 ## Introducing timeShift
