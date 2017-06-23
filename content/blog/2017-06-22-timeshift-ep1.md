@@ -1,5 +1,5 @@
 +++
-title = "timeShift(GrafanaBuzz,'1w')"
+title = "timeShift(GrafanaBuzz, 1w) Issue 1"
 author = "trent"
 date = "2017-06-23"
 keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
@@ -10,7 +10,6 @@ description = "Weekly roundup around Grafana and the community from the past wee
 categories = ["timeShift", "Grafana Buzz"]
 draft = true
 +++
-
 
 ## Introducing timeShift
 
@@ -23,12 +22,12 @@ TimeShift is a new blog series we've created to provide a weekly curated list of
 
 - [**Monitoring Docker Swarm with cAdvisor, InfluxDB and Grafana**](https://botleg.com/stories/monitoring-docker-swarm-with-cadvisor-influxdb-and-grafana/): Set up a scalable monitoring solution for Docker Swarm, that automatically monitors all hosts and containers running in the swarm.
 
-- [**Automated monitoring with Grafana and Prometheus**](https://serradev.wordpress.com/2017/06/12/automated-monitoring-with-grafana-and-prometheus/): Fabio has create a Docker image to help him keep Grafana dashboards in sync across environments.
+- [**Automated monitoring with Grafana and Prometheus**](https://serradev.wordpress.com/2017/06/12/automated-monitoring-with-grafana-and-prometheus/): Fabio has created a Docker image to help him keep Grafana dashboards in sync across environments.
 
 <br />
 We see a lot of articles covering the devops side of monitoring, but it's interesting to see how people are using Grafana for different use cases.
 
-- [**Monitoring Cryptocurrency Data**](https://steemit.com/monitoring/@masterofnoneds/monitoring-cryptocurrency-data-with-grafana-dashboard): Masterofnoneds is building a dashboard for the data of the Top 25 cryptocurrencies from Coinmarketcap.com according to their market capital. We hope to see it in our [dasbhoard list](https://grafana.com/dashboards) soon.
+- [**Monitoring Cryptocurrency Data**](https://steemit.com/monitoring/@masterofnoneds/monitoring-cryptocurrency-data-with-grafana-dashboard): Masterofnoneds is building a dashboard for the data of the Top 25 cryptocurrencies from Coinmarketcap.com according to their market capital. We hope to see it in our [dashboard list](https://grafana.com/dashboards) soon.
 
 - [**Monitoring the Weather With InfluxDB and Grafana (and a Bunch of Arduinos)**](https://dzone.com/articles/monitoring-the-weather-with-influxdb-and-grafana-a): In the age of IoT, why not make an internet-connected weather station without the cost of buying one off the shelf?
 
@@ -46,7 +45,7 @@ We are excited that there have been over 100,000 plugin installations since we l
 <div class="blog-plugin">
 	<img src="/assets/img/blog/dalmatinerDB.png" />
 	<p>
-		<a href="https://grafana.com/plugins/dalmatinerdb-datasource">DalmatinerDB</a> No fluff purpose built metric database.
+		<a href="https://grafana.com/plugins/dalmatinerdb-datasource">DalmatinerDB</a> No-fluff, purpose-built metric database.
 	</p>
 </div>
 
@@ -57,6 +56,15 @@ We are excited that there have been over 100,000 plugin installations since we l
 	</p>
 </div>
 
+<br />
+#### This week's MVC (Most Valuable Contributor)
+Each week we'll recognize a Grafana contributor and thank them for all of their PRs, bug reports and feedback. A majority of fixes and improvements come from our fantastic community!
+
+<img class="mvc" src="https://avatars1.githubusercontent.com/u/184833" />
+##### [thuck](https://github.com/thuck) (Denis Doria)
+Thank you for all of your PRs!
+
+<br />
 <br />
 #### What do you think?
 Anything in particular you'd like to see in this series of posts? Too long? Too short? Boring as shit? Let us know. Comment on this article below, or post something at our [community forum](http://community.grafana.com). With your help, we can make this a worthwhile resource.
