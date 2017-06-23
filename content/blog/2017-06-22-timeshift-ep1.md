@@ -3,10 +3,10 @@ title = "timeShift(GrafanaBuzz, 1w) Issue 1"
 author = "trent"
 date = "2017-06-23"
 keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
-cover_image = "/assets/img/blog/v4/heatmap.jpg"
+cover_image = "/assets/img/blog/timeshift/timeshift_1.jpg"
 cover_opacity = "0.6"
 cover_blur = "1px"
-description = "Weekly roundup around Grafana and the community from the past week"
+description = "A roundup of articles and links form Grafana and the community from the past week"
 categories = ["timeShift", "Grafana Buzz"]
 draft = true
 +++
