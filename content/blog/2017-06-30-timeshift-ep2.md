@@ -16,7 +16,7 @@ A big thank you to everyone for the likes, retweets, comments and questions from
 <br />
 
 #### From the Blogosphere
-- [**Monitoring a MariaDB server using Prometheus and Grafana**](https://medium.com/bitnami-perspectives/monitoring-a-mariadb-server-using-prometheus-and-grafana-5ee3d1c5360e): In this post Sameer outlines the process of adding a Prometheus endpoint to an existing chart, MariaDB chart in this case, and use Grafana to monitor the performance.
+- [**Monitoring a MariaDB server using Prometheus and Grafana**](https://medium.com/bitnami-perspectives/monitoring-a-mariadb-server-using-prometheus-and-grafana-5ee3d1c5360e): In this post Sameer outlines the process of adding a Prometheus endpoint to an existing chart (MariaDB in this case) and use Grafana to monitor the performance.
 
 - [**Monitoring Docker with Telegraf, InfluxDB and Grafana**](https://aperogeek.fr/monitoring-docker-with-telegraf-influxdb-and-grafana/): A quick runthrough of using Telegraf to collect your container metrics, store them in InfluxDB, and display the graphs in Grafana.
 
