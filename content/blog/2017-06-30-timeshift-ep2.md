@@ -38,7 +38,7 @@ We are excited that there have been over 100,000 plugin installations since we l
 <div class="blog-plugin">
 	<img style="border-radius: 0;" src="https://grafana.com/api/plugins/grafana-simple-json-datasource/versions/1.3.3/logos/large" />
 	<p>
-		<a href="https://grafana.com/plugins/grafana-simple-json-datasource?utm_source=blog&utm_campaign=timeshift_2" target="_blank">SimpleJson</a> Simple JSON Datasource is a generic backend datasource that has been the foundation of a number of community created data source plugins. The newest version adds basic auth.
+		<a href="https://grafana.com/plugins/grafana-simple-json-datasource?utm_source=blog&utm_campaign=timeshift_2" target="_blank">SimpleJson</a> SimpleJson is a generic backend datasource that has been the foundation of a number of community created data source plugins. The newest version adds basic auth.
 	</p>
 </div>
 
