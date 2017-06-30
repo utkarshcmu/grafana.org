@@ -8,7 +8,6 @@ cover_opacity = "0.6"
 cover_blur = "1px"
 description = "A roundup of articles and links form Grafana and the community from the past week"
 categories = ["timeShift", "Grafana Buzz"]
-draft = true
 +++
 
 A big thank you to everyone for the likes, retweets, comments and questions from last week's timeShift debut. We were delighted to learn that people found this new resource useful, and are excited to continue to publish weekly issues. If you know of a recent article about Grafana, or are writing one yourself, please [get in touch](mailto:hello@grafana.com), we'd be happy to feature it here.
