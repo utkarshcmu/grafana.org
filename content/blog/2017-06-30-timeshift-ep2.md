@@ -27,8 +27,6 @@ A big thank you to everyone for the likes, retweets, comments and questions from
 
 - [**SolidFire stats collection w/Grafana and Graphite**](http://www.jedimt.com/2017/06/solidfire-stats-collection-wgrafana-graphite/): Aaron has been working on putting together a completely container based Grafana+Graphite dashboard for SolidFire and has an early beta to show off.
 
-- [**Grafana Integrated as a Statseeker Technology Partner**](https://statseeker.com/blog/2017/06/28/grafana-integrated-statseeker-technology-partner/): Statseeker was looking to improve the experience of their network monitoring solution. They turned to Grafana for visualization and alerting.
-
 
 <br />
 #### Plugins and Dashboards
@@ -88,6 +86,6 @@ Each week we'll recognize a Grafana contributor and thank them for all of their 
 <br />
 <br />
 #### What do you think?
-Anything in particular you'd like to see in this series of posts? Too long? Too short? Boring as shit? Let us know. Comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_2). With your help, we can make this a worthwhile resource.
+Anything in particular you'd like to see in this series of posts? Too long? Too short? Boring? Let us know. Comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_2). With your help, we can make this a worthwhile resource.
 
 Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_2).
