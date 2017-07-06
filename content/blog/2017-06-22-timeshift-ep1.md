@@ -35,24 +35,42 @@ We see a lot of articles covering the devops side of monitoring, but it's intere
 We are excited that there have been over 100,000 plugin installations since we launched the new plugable architecture in Grafana v3. You can discover and install plugins in your own on-premises or Hosted Grafana instance from our [website](https://grafana.com/plugins?utm_source=blog&utm_campaign=timeshift). Below are some recent additions and updates.
 
 <div class="blog-plugin">
-	<img src="/assets/img/blog/carpet_plot.svg" />
-	<p>
-		<a href="https://grafana.com/plugins/petrslavotinek-carpetplot-panel?utm_source=blog&utm_campaign=timeshift">Carpet plot</a> A varient of the heatmap graph panel with additional display options.
-	</p>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img src="/assets/img/blog/carpet_plot.svg" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<a href="https://grafana.com/plugins/petrslavotinek-carpetplot-panel?utm_source=blog&utm_campaign=timeshift">Carpet plot</a> A varient of the heatmap graph panel with additional display options.
+			</p>
+		</div>
+	</div>
 </div>
 
 <div class="blog-plugin">
-	<img src="/assets/img/blog/dalmatinerDB.png" />
-	<p>
-		<a href="https://grafana.com/plugins/dalmatinerdb-datasource?utm_source=blog&utm_campaign=timeshift">DalmatinerDB</a> No-fluff, purpose-built metric database.
-	</p>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img src="/assets/img/blog/dalmatinerDB.png" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<a href="https://grafana.com/plugins/dalmatinerdb-datasource?utm_source=blog&utm_campaign=timeshift">DalmatinerDB</a> No-fluff, purpose-built metric database.
+			</p>
+		</div>
+	</div>
 </div>
 
 <div class="blog-plugin">
-	<img src="/assets/img/blog/gnocchi.png" />
-	<p>
-		<a href="https://grafana.com/plugins/gnocchixyz-gnocchi-datasource?utm_source=blog&utm_campaign=timeshift">Gnocchi</a> This plugin was renamed. Users should uninstall the old version and install this new version.
-	</p>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img src="/assets/img/blog/gnocchi.png" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<a href="https://grafana.com/plugins/gnocchixyz-gnocchi-datasource?utm_source=blog&utm_campaign=timeshift">Gnocchi</a> This plugin was renamed. Users should uninstall the old version and install this new version.
+			</p>
+		</div>
+	</div>
 </div>
 
 <br />

@@ -12,6 +12,11 @@
   padding: 0;
 }
 
+/* Medium Gutters */
+.row--md-gutters > .col {
+  padding: ($grid-padding * 0.5);
+}
+
 /* Large (2x) Gutters */
 .row--lg-gutters > .col {
   padding: $grid-padding;

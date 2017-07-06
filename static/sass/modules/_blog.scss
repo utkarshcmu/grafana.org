@@ -146,20 +146,21 @@ q.quote {
 }
 
 .blog-plugin {
-  display: inline-block;
-
   img {
     border-radius: 50%; 
-    margin-right: 10px;
     width: 100px;
+    max-width: 100px;
   }
+}
 
-  p {
-      position: relative;
-      left: 120px;
-      bottom: 75px;
-      margin-right: 120px;
-  }
+.blog-plugin-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-plugin-grid__item {
+
 }
 
 .mvc {

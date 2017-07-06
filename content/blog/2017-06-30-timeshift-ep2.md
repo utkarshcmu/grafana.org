@@ -33,46 +33,82 @@ A big thank you to everyone for the likes, retweets, comments and questions from
 We are excited that there have been over 100,000 plugin installations since we launched the new plugable architecture in Grafana v3. You can discover and install plugins in your own on-premises or Hosted Grafana instance from our [website](https://grafana.com/plugins?utm_source=blog&utm_campaign=timeshift_2). Below are some recent additions and updates.
 
 <div class="blog-plugin">
-	<img style="border-radius: 0;" src="https://grafana.com/api/plugins/grafana-simple-json-datasource/versions/1.3.3/logos/large" />
-	<p>
-		<a href="https://grafana.com/plugins/grafana-simple-json-datasource?utm_source=blog&utm_campaign=timeshift_2" target="_blank">SimpleJson</a> SimpleJson is a generic backend datasource that has been the foundation of a number of Grafana data source plugins. It's also a mechanism by which any application can expose metrics over http directly to Grafana. The newest version adds basic auth.
-	</p>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 0;" src="https://grafana.com/api/plugins/grafana-simple-json-datasource/versions/1.3.3/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<a href="https://grafana.com/plugins/grafana-simple-json-datasource?utm_source=blog&utm_campaign=timeshift_2" target="_blank">SimpleJson</a> SimpleJson is a generic backend datasource that has been the foundation of a number of Grafana data source plugins. It's also a mechanism by which any application can expose metrics over http directly to Grafana. The newest version adds basic auth.
+			</p>
+		</div>
+	</div>
 </div>
 
 <div class="blog-plugin">
-	<img style="border-radius:0;" src="https://grafana.com/api/plugins/radensolutions-netxms-datasource/versions/1.1.0/logos/large" />
-	<p>
-		<a href="https://grafana.com/plugins/radensolutions-netxms-datasource?utm_source=blog&utm_campaign=timeshift_2" target="_blank">NetXMS</a> Grafana datasource for NetXMS open source monitoring system.
-	</p>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius:0;" src="https://grafana.com/api/plugins/radensolutions-netxms-datasource/versions/1.1.0/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<a href="https://grafana.com/plugins/radensolutions-netxms-datasource?utm_source=blog&utm_campaign=timeshift_2" target="_blank">NetXMS</a> Grafana datasource for NetXMS open source monitoring system.
+			</p>
+		</div>
+	</div>
 </div>
 
 <div class="blog-plugin">
-	<img style="border-radius:0;" src="/assets/img/blog/timeshift/icon_google_cal.png" />
-	<p>
-		<a href="https://grafana.com/plugins/mtanda-google-calendar-datasource?utm_source=blog&utm_campaign=timeshift_2" target="_blank">GoogleCalendar</a> This plugin shows the event description as an annotation on your graphs.
-	</p>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius:0;" src="/assets/img/blog/timeshift/icon_google_cal.png" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<a href="https://grafana.com/plugins/mtanda-google-calendar-datasource?utm_source=blog&utm_campaign=timeshift_2" target="_blank">GoogleCalendar</a> This plugin shows the event description as an annotation on your graphs.
+			</p>
+		</div>
+	</div>
 </div>
 
 
 <div class="blog-plugin">
-	<img src="https://grafana.com/api/plugins/natel-discrete-panel/versions/0.0.5/logos/large" />
-	<p>
-		<a href="https://grafana.com/plugins/natel-discrete-panel?utm_source=blog&utm_campaign=timeshift_2" target="_blank">Discrete Panel</a> Show discrete values in a horizontal graph. This panel now supports results from the table format.
-	</p>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img src="https://grafana.com/api/plugins/natel-discrete-panel/versions/0.0.5/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<a href="https://grafana.com/plugins/natel-discrete-panel?utm_source=blog&utm_campaign=timeshift_2" target="_blank">Discrete Panel</a> Show discrete values in a horizontal graph. This panel now supports results from the table format.
+			</p>
+		</div>
+	</div>
 </div>
 
 <div class="blog-plugin">
-	<img src="https://grafana.com/api/plugins/btplc-alarm-box-panel/versions/0.1.1/logos/large" />
-	<p>
-		<a href="https://grafana.com/plugins/btplc-alarm-box-panel?utm_source=blog&utm_campaign=timeshift_2" target="_blank">Alarm Box</a> This panel shows the total count of values across all series. This update adds a new option to customize how the display and color values are calculated.
-	</p>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img src="https://grafana.com/api/plugins/btplc-alarm-box-panel/versions/0.1.1/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<a href="https://grafana.com/plugins/btplc-alarm-box-panel?utm_source=blog&utm_campaign=timeshift_2" target="_blank">Alarm Box</a> This panel shows the total count of values across all series. This update adds a new option to customize how the display and color values are calculated.
+			</p>
+		</div>
+	</div>
 </div>
 
 <div class="blog-plugin">
-	<img src="https://grafana.com/api/plugins/btplc-alarm-box-panel/versions/0.1.1/logos/large" />
-	<p>
-		<a href="https://grafana.com/plugins/btplc-status-dot-panel?utm_source=blog&utm_campaign=timeshift_2" target="_blank">Status Dot</a> This panel shows a colored dot for each series; useful to monitor  latest values at a glance.
-	</p>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img src="https://grafana.com/api/plugins/btplc-alarm-box-panel/versions/0.1.1/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<a href="https://grafana.com/plugins/btplc-status-dot-panel?utm_source=blog&utm_campaign=timeshift_2" target="_blank">Status Dot</a> This panel shows a colored dot for each series; useful to monitor  latest values at a glance.
+			</p>
+		</div>
+	</div>
 </div>
 
 <br />
