@@ -11,7 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 draft = true
 +++
 
-Many in the US were on holiday for Independence Day earlier this week, but that didn't slow us down. This issue has plenty of great articles to highlight. If you know of a recent article about Grafana, or are writing one yourself, please [get in touch](mailto:hello@grafana.com), we'd be happy to feature it here.
+Many in the US were on holiday for Independence Day earlier this week, but that didn't slow us down. This issue of timeShift has plenty of great articles to highlight. If you know of a recent article about Grafana, or are writing one yourself, please [get in touch](mailto:hello@grafana.com), we'd be happy to feature it here.
 <br />
 <br />
 <hr />
@@ -98,7 +98,7 @@ In addition to the plugins available for download, there are hundreds of [pre-ma
 			<p>
 				<a href="https://grafana.com/dashboards/405?utm_source=blog&utm_campaign=timeshift_3" target="_blank">Node Exporter Server Metrics</a> A simple dashboard configured to be able to view multiple servers side by side.
 				<br/>
-				<strong>Data Source:</strong> Preometheus | <strong>Collector:</strong> Nodeexporter
+				<strong>Data Source:</strong> Prometheus | <strong>Collector:</strong> Nodeexporter
 			</p>
 		</div>
 	</div>
