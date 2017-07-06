@@ -107,7 +107,7 @@ In addition to the plugins available for download, there are hundreds of [pre-ma
 
 <br />
 #### This week's MVC (Most Valuable Contributor)
-Each week we'll recognize a Grafana contributor and thank them for all of their PRs, bug reports and feedback. A majority of fixes and improvements come from our fantastic community!
+Each week we'll recognize a Grafana contributor and thank them for all of their PRs, bug reports and feedback. Many of the fixes and improvements come from our fantastic community!
 
 <img class="mvc" src="https://avatars0.githubusercontent.com/u/705951?v=3&s=460" />
 ##### [ryantxu](https://github.com/ryantxu) (Ryan McKinley)
