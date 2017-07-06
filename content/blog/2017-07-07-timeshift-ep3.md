@@ -57,7 +57,7 @@ We are excited that there have been over 100,000 plugin installations since we l
 	</div>
 </div>
 
-In addition to the plugins available for download, there are hundreds of [pre-made dashboards](https://grafana.com/dashboards?utm_source=blog&utm_campaign=timeshift_3) ready for you to import into Grafana to get up and running quickly. Check out some of the popular dashboards
+In addition to the plugins available for download, there are hundreds of [pre-made dashboards](https://grafana.com/dashboards?utm_source=blog&utm_campaign=timeshift_3) ready for you to import into Grafana to get up and running quickly. Check out some of the popular dashboards.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
