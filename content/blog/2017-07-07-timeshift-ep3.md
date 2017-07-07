@@ -8,7 +8,6 @@ cover_opacity = "0.6"
 cover_blur = "1px"
 description = "A roundup of articles and links form Grafana and the community from the past week"
 categories = ["timeShift", "Grafana Buzz"]
-draft = true
 +++
 
 Many in the US were on holiday for Independence Day earlier this week, but that didn't slow us down. This issue of timeShift has plenty of great articles to highlight. If you know of a recent article about Grafana, or are writing one yourself, please [get in touch](mailto:hello@grafana.com), we'd be happy to feature it here.
