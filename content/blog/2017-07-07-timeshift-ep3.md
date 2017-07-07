@@ -3,7 +3,7 @@ title = "timeShift(GrafanaBuzz, 1w) Issue 3"
 author = "trent"
 date = "2017-07-07"
 keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
-cover_image = "/assets/img/blog/timeshift/collage_timeshift_2.jpg"
+cover_image = "/assets/img/blog/timeshift/timeshift_3.jpg"
 cover_opacity = "0.6"
 cover_blur = "1px"
 description = "A roundup of articles and links form Grafana and the community from the past week"
@@ -23,6 +23,8 @@ Grafana v4.4 is now <a href="https://grafana.com/grafana/download?utm_source=blo
 
 <br />
 #### From the Blogosphere
+- [**Choosing a synthetic monitoring solution that will not fail you when you need it – based on a true story.**](http://engineering.taboola.com/choosing-a-synthetic-monitoring-solution-that-will-not-fail-you-when-you-need-it-based-on-a-true-story/): After some major glitches, Taboola Engineering needed to take a second look at their synthetic monitoring. This is the journey they took to migrate off the big brands, and move to worldPing – a plugin for Grafana.
+
 - [**Visualizing Smog Sensor Data with the help of Vert.x, Prometheus, and Grafana**](https://developers.redhat.com/blog/2017/07/06/visualizing-smog-sensor-data-with-the-help-of-vert-x-prometheus-and-grafana/): An end-to-end example of an IoT device sending data in a certain format, translating the data into a format Prometheus expects, and visualizing the data in Grafana.
 
 - [**How to Use Grafana to Monitor JMeter Non-GUI Results**](https://www.blazemeter.com/blog/how-to-use-grafana-to-monitor-jmeter-non-gui-results): Iurii takes us through a useful way to monitor the results of your load tests using Apache JMeter in non-GUI mode which is quicker and requires less machine resources.
