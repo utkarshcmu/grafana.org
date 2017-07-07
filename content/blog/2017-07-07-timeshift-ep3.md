@@ -10,7 +10,7 @@ description = "A roundup of articles and links form Grafana and the community fr
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-Many in the US were on holiday for Independence Day earlier this week, but that didn't slow us down. This issue of timeShift has plenty of great articles to highlight. If you know of a recent article about Grafana, or are writing one yourself, please [get in touch](mailto:hello@grafana.com), we'd be happy to feature it here.
+Many in the US were on holiday for Independence Day earlier this week, but that didn't slow us down: team Stockholm even shipped a new Grafana release. This issue of timeShift has plenty of great articles to highlight. If you know of a recent article about Grafana, or are writing one yourself, please [get in touch](mailto:hello@grafana.com), we'd be happy to feature it here.
 <br />
 <br />
 <hr />
@@ -22,7 +22,7 @@ Grafana v4.4 is now <a href="https://grafana.com/grafana/download?utm_source=blo
 
 <br />
 #### From the Blogosphere
-- [**Choosing a synthetic monitoring solution that will not fail you when you need it – based on a true story.**](http://engineering.taboola.com/choosing-a-synthetic-monitoring-solution-that-will-not-fail-you-when-you-need-it-based-on-a-true-story/): After some major glitches, Taboola Engineering needed to take a second look at their synthetic monitoring. This is the journey they took to migrate off the big brands, and move to worldPing – a plugin for Grafana.
+- [**Choosing a synthetic monitoring solution that will not fail you when you need it – based on a true story.**](http://engineering.taboola.com/choosing-a-synthetic-monitoring-solution-that-will-not-fail-you-when-you-need-it-based-on-a-true-story/): Ariel Pisetzky at Taboola, a valued customer, wrote a great blog about synthetic monitoring. After some major glitches, and overly complicated legacy software, Taboola settled on [worldPing](https://grafana.com/plugins/raintank-worldping-app?utm_source=blog&utm_campaign=timeshift_3) - a GrafanaCloud app that helps you understand your global performance and availability. It's easy to install worldPing into any Grafana, just [sign up for a free account](https://grafana.com/worldping/signup?utm_source=blog&utm_campaign=timeshift_3) first.
 
 - [**Visualizing Smog Sensor Data with the help of Vert.x, Prometheus, and Grafana**](https://developers.redhat.com/blog/2017/07/06/visualizing-smog-sensor-data-with-the-help-of-vert-x-prometheus-and-grafana/): An end-to-end example of an IoT device sending data in a certain format, translating the data into a format Prometheus expects, and visualizing the data in Grafana.
 
