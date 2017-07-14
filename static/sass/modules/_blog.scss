@@ -151,6 +151,11 @@ q.quote {
     width: 100px;
     max-width: 100px;
   }
+  .mvc {
+    border-radius: 50%; 
+    width: 130px;
+    max-width: 130px;
+  }
 }
 
 .blog-plugin-grid {
@@ -161,10 +166,4 @@ q.quote {
 
 .blog-plugin-grid__item {
 
-}
-
-.mvc {
-    border-radius: 50%; 
-    width: 140px;
-    display: block;
 }
