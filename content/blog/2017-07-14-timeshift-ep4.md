@@ -97,10 +97,10 @@ We love when people talk about Grafana at meetups and conferences.
 			<p> 
 				<a href="https://www.meetup.com/NYC-Metrics-and-Monitoring/events/241181601/"><strong>Wednesday, July 19 2017 - 6:30pm | Grand Central Tech</strong></a> 
 				<br />
-				335 Madison Avenue, New York, NY (edit map)
+				335 Madison Avenue, New York, NY
 			</p>
 			<p>
-				The team from Timescale will be talking about TimescaleDB and its use as a somewhat heretical backend for Prometheus, and how to beautifully visualize this data in Grafana. 
+				The team from Timescale will be talking about TimescaleDB, its use as a somewhat heretical backend for Prometheus, and how to beautifully visualize this data in Grafana. 
 			</p>
 				<a class="btn btn-small btn-small" href="https://www.meetup.com/NYC-Metrics-and-Monitoring/events/241181601/">RSVP to this Free Event</a>
 		</div>
