@@ -78,6 +78,9 @@ Each week we'll recognize a Grafana contributor and thank them for all of their 
 <br />
 #### Tweet of the Week
 We love it when people show off their Grafana dashboards on Twitter. Make everyone jealous - tweet out a screenshot of your awesome dashboard. #monitoringLove
+<p>This week's tweet comes from <a href="http://twitter.com/Nick_Craver">@Nick_Craver</a> from Stack Overflow.
+<br />
+Nice looking dashboard Nick! Stay tuned for a case study with Stack Overflow on how they're using Grafana.</p>
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Good morning from the Stack Overflow Denver data center. We&#39;ll be exercising this DR data center by taking full load for the next 2 weeks. <a href="https://t.co/Y6ugDqlLCM">pic.twitter.com/Y6ugDqlLCM</a></p>&mdash; Nick Craver (@Nick_Craver) <a href="https://twitter.com/Nick_Craver/status/884406642212827136">July 10, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <hr />
