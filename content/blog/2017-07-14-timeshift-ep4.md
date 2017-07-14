@@ -11,7 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 draft = true
 +++
 
-The summer seems to be flying by! This week's timeShift has a lot of great articles to share, including a great Grafana presentation from one of our software engineers, Kubernetes monitoring, dashboard exports and backups via grafcli, scaling Graphite on AWS and a lot more. If you've come across a recent article about Grafana, or are writing one yourself, please [get in touch](mailto:hello@grafana.com), we'd be happy to feature it here.
+The summer seems to be flying by! This week's timeShift has a lot of great articles to share, including a Grafana presentation from one of our software engineers, Kubernetes monitoring, dashboard exports and backups via grafcli, scaling Graphite on AWS and a lot more. If you've come across a recent article about Grafana, or are writing one yourself, please [get in touch](mailto:hello@grafana.com), we'd be happy to feature it here.
 <br />
 <hr />
 <br />
