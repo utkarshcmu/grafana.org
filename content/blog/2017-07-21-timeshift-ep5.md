@@ -117,7 +117,7 @@ We love when people talk about Grafana at meetups and conferences.
 				<strong>Iot &amp; HOME AUTOMATION #3 openHAB, InfluxDB, Grafana:</strong>
 				If you are interested in topics of the internet of things and home automation, this might be a good occasion to meet people similar to you. If you are into it, we will also show you how we can all work together on our common projects. 
 			</p>
-				<a class="btn btn-small btn-small" href="https://www.meetup.com/Warsaw-DIY-Home-automation-Internet-of-things/events/241699037/?eventId=241699037">RSVP to this Free Event</a>
+				<a class="btn btn-small btn-small" href="https://www.meetup.com/Warsaw-DIY-Home-automation-Internet-of-things/events/241699037/?eventId=241699037">RSVP</a>
 		</div>
 	</div>
 </div>
