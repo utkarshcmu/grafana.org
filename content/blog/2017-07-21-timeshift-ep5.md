@@ -3,14 +3,14 @@ title = "timeShift(GrafanaBuzz, 1w) Issue 5"
 author = "trent"
 date = "2017-07-21"
 keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
-cover_image = "/assets/img/blog/timeshift/timeshift_4.jpg"
+cover_image = "/assets/img/blog/timeshift/timeshift_5.jpg"
 cover_opacity = "0.6"
 cover_blur = "1px"
 description = "A roundup of articles and links form Grafana and the community from the past week"
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-We cover a lot of ground in this week's timeShift. From diving into building your own plugin, configuration options in the alerting feature, to monitoring your local weather, there's something for everyone. Are you writing an article about Grafana, or have you come across an article you found interesting? Please [get in touch](mailto:hello@grafana.com), we'll add it to our roundup.
+We cover a lot of ground in this week's timeShift. From diving into building your own plugin, finding the right dashboard, configuration options in the alerting feature, to monitoring your local weather, there's something for everyone. Are you writing an article about Grafana, or have you come across an article you found interesting? Please [get in touch](mailto:hello@grafana.com), we'll add it to our roundup.
 <br />
 <hr />
 <br />
