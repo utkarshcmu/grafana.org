@@ -30,7 +30,7 @@ We cover a lot of ground in this week's timeShift. From diving into building you
 <hr />
 <br />
 #### Plugins and Dashboards
-Plugins are a great way to extend the power of Grafana, and we’re seeing some awesome plugin development from the community. There are now over 75 plugins published in our catalog, with new ones added each week. It's easy to install plugins with one-click on GrafanaCloud, or with a simple cli command on your on-premises Grafana.
+It can seem like work slows during July and August, but we're still seeing a lot of activity in the community. This week we have a new graph panel to show of that gives you some unique looking dashboards, and an update to the Zabbix data source, which adds some really great features. You can install both of the plugins now on your on-prem Grafana via our cli, or with one-click on GrafanaCloud.
 
 
 <div class="blog-plugin">
