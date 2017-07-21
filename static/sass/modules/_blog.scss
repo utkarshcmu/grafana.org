@@ -167,3 +167,25 @@ q.quote {
 .blog-plugin-grid__item {
 
 }
+
+.new-plugin-tag {
+  border: 1px solid lighten($primary-color, 20%);
+  background: $primary-color;
+  color: $white;
+  border-radius: 2px;
+  padding: 0 6px;
+  font-size: $font-size-delta;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+
+.updated-plugin-tag {
+  border: 1px solid lighten($gray, 20%);
+  background: $gray;
+  color: $white;
+  border-radius: 2px;
+  padding: 0 6px;
+  font-size: $font-size-delta;
+  margin-bottom: 6px;
+  display: inline-block;
+}
