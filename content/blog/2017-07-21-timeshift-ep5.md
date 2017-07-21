@@ -71,7 +71,7 @@ It can seem like work slows during July and August, but we're still seeing a lot
 <br />
 
 <h4>This week's MVC (Most Valuable Contributor)</h4>
-Each week we'll recognize a Grafana contributor and thank them for all of their PRs, bug reports and feedback. Many of the fixes and improvements come from our fantastic community!
+Open source software can't thrive without the contributions from the community. Each week we'll recognize a Grafana contributor and thank them for all of their PRs, bug reports and feedback.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
@@ -81,7 +81,7 @@ Each week we'll recognize a Grafana contributor and thank them for all of their 
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<strong><a href="https://github.com/mk-dhia">mk-dhia</a> (Dhia)</strong><br/>
-				Thank you so much for improving the Elasticsearch data source!
+				Thank you so much for your improvements to the Elasticsearch data source!
 			</p>
 		</div>
 	</div>
@@ -90,9 +90,9 @@ Each week we'll recognize a Grafana contributor and thank them for all of their 
 <hr />
 <br />
 #### Tweet of the Week
-Tweet out a screenshot of your awesome dashboards and we'll show it off! #monitoringLove
+We scour Twitter each week to find an interesting/beautiful dashboard and show it off! #monitoringLove
 <p>This week's tweet comes from <a href="https://twitter.com/geek_dave">@geek_dave</a></p>
-<p>Great looking dashboard Dave! And thank you for adding new features and keeping it updated. It's creators like you who make the dashboard repository so awesome! #monitoringLove
+<p>Great looking dashboard Dave! And thank you for adding new features and keeping it updated. It's creators like you who make the dashboard repository so awesome!
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Just released v2 of the <a href="https://twitter.com/k6_io">@k6_io</a> <a href="https://twitter.com/hashtag/loadtesting?src=hash">#loadtesting</a> dashboard for <a href="https://twitter.com/grafana">@grafana</a> - Download and view release notes at: <a href="https://t.co/z0GMMuceWW">https://t.co/z0GMMuceWW</a> <a href="https://t.co/bRnE0grDzw">pic.twitter.com/bRnE0grDzw</a></p>&mdash; Dave Cadwallader (@geek_dave) <a href="https://twitter.com/geek_dave/status/887427524132708352">July 18, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
