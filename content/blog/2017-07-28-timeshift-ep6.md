@@ -157,7 +157,7 @@ While we normally select a different contributor each week, we wanted to re-reco
 			<p>
 				<strong><a href="https://github.com/mtanda">mtanda</a> (Mitsuhiro Tanda)</strong><br/>
 				During the last two weeks, mtanda had five merged pull requests and <a href="https://github.com/grafana/grafana/pulls/mtanda" target="_blank">9 open pull requests</a>. 
-				He is almost single-handedly maintaining the Cloudwatch data source as well as contributing lots of improvements to other parts of Grafana. Thank you once again!
+				We have him to thank for many of the new improvements to the Cloudwatch data source as well as many contributions to other parts of Grafana. Thank you once again!
 			</p>
 		</div>
 	</div>
