@@ -1,7 +1,7 @@
 +++
 title = "timeShift(GrafanaBuzz, 1w) Issue 6"
 author = "trent"
-date = "2017-07-21"
+date = "2017-07-28"
 keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
 cover_image = "/assets/img/blog/timeshift/timeshift_5.jpg"
 cover_opacity = "0.6"
@@ -30,26 +30,69 @@ We cover a lot of ground in this week's timeShift. From diving into building you
 <hr />
 <br />
 #### Plugins and Dashboards
-It can seem like work slows during July and August, but we're still seeing a lot of activity in the community. This week we have a new graph panel to show off that gives you some unique looking dashboards, and an update to the Zabbix data source, which adds some really great features. You can install both of the plugins now on your on-prem Grafana via our cli, or with one-click on GrafanaCloud.
+This week we have udpates to three of our very popular data source pluigns and a brand new panel to show off. Annunciator is similar to the Singlestat panel, but adds some new bells and whistles. All of these plugins are a breeze to update and install via the grafana-cli for an on-prem Grafana instance, or a 1-click install on <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_6" target="_blank">Hosted Grafana</a>.
 
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
 		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img src="https://grafana.com/api/plugins/digrich-bubblechart-panel/versions/1.0.0/logos/large" />
+			<img src="https://grafana.com/api/plugins/michaeldmoore-annunciator-panel/versions/1.0.0/logos/large" />
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
-				<a href="https://grafana.com/plugins/digrich-bubblechart-panel?utm_source=blog&utm_campaign=timeshift_5" target="_blank"><strong>Bubble Chart Panel</strong></a> This super-cool looking panel groups your tag values into clusters of circles. The size of the circle represents the aggregated value of the time series data. There are also multiple color schemes to make those bubbles <strong class="color:#fff;">POP</strong> (pun intended)! Currently it works against OpenTSDB and Bosun, so give it a try!
+				<a href="https://grafana.com/plugins/michaeldmoore-annunciator-panel?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Annunciator Panel</strong></a> - Like Singlestat, the Annunciator Panel allows you to show the one main summary stat of a SINGLE series. It reduces the series into a single number (by looking at the max, min, average, or sum of values in the series). Annunciator also displays upper and lower alarm thresholds, colored to according to the value of the stat relative to the threshold. This panel is designed to support simple timeseries data sets - unlike SingleStat, Annunciator does not support table-based data sets.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/digrich-bubblechart-panel?utm_source=blog&utm_campaign=timeshift_5" target="_blank"><strong>Install Now</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/michaeldmoore-annunciator-panel?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Install Now 1.0.0</strong></a>
 			</p>
 		</div>
 	</div>
 </div>
 
+<div class="blog-plugin">
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img src="https://grafana.com/api/plugins/hawkular-datasource/versions/1.0.10/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<a href="https://grafana.com/plugins/hawkular-datasource?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Hawkular</strong></a> -  
+				Huge updates to the Hawkular data source plugin - a new tag query language and stats queries that can return aggregated data like percentiles. Read all about it in the <a href="http://www.hawkular.org/blog/2017/07/grafana-new-query-interface.html" target="_blank"> release blog post</a>.
+			</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/hawkular-datasource?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Install 1.0.10 Now</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="blog-plugin">
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 0;" src="https://grafana.com/api/plugins/grafana-simple-json-datasource/versions/1.3.4/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<a href="https://grafana.com/plugins/grafana-simple-json-datasource?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>SimpleJson</strong></a> -  
+				A couple of updates and fixes this week.
+			</p>
+			<ul>
+				<li>
+					Adds support for With Credentials (sends grafana cookies with request) when using Direct mode.
+				</li>
+				<li>
+					Fix for the typeahead component for the metrics dropdown (/search endpoint).
+				</li>
+			</ul>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/grafana-simple-json-datasource?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Install 1.3.4 Now</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
@@ -59,29 +102,46 @@ It can seem like work slows during July and August, but we're still seeing a lot
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<a href="https://grafana.com/plugins/alexanderzobnin-zabbix-app?utm_source=blog&utm_campaign=timeshift_5" target="_blank"><strong>Zabbix</strong></a> Alex has been hard at work, making improvements on the Zabbix App for Grafana. This update adds annotations, template variables, alerting and more. Thanks Alex! If you'd like to try out the app, head over to <a href="http://play.grafana-zabbix.org/dashboard/db/zabbix-db-mysql?orgId=2" target="_blank">http://play.grafana-zabbix.org/dashboard/db/zabbix-db-mysql?orgId=2</a>
+				<a href="https://grafana.com/plugins/alexanderzobnin-zabbix-app?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Zabbix</strong></a> -  
+				The updates just keep coming to this popular plugin. Recent updates include:
 			</p>
+			<ul>
+				<li>
+					<a href="http://docs.grafana-zabbix.org/reference/direct-db-connection/">Direct database connection support.</a>
+				</li>
+				<li>
+					Since version 4.3 Grafana can use MySQL as a native data source. The Grafana-Zabbix plugin can now use this data source for querying data directly from a Zabbix database.
+                </li>
+                <li>
+                	New moving average function
+                </li>
+                <li>
+                	New consolidateBy function, which allows specifying the aggregation function for time series data.
+				</li>
+			</ul>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/alexanderzobnin-zabbix-app?utm_source=blog&utm_campaign=timeshift_5" target="_blank"><strong>Install 3.5.1 Now</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/alexanderzobnin-zabbix-app?utm_source=blog&utm_campaign=timeshift_5" target="_blank"><strong>Install 3.6.1 Now</strong></a>
 			</p>
 		</div>
 	</div>
 </div>
+
 <hr />
 <br />
 
 <h4>This week's MVC (Most Valuable Contributor)</h4>
-Open source software can't thrive without the contributions from the community. Each week we'll recognize a Grafana contributor and thank them for all of their PRs, bug reports and feedback.
+While we normally select a different contributor each week, we wanted to re-recognize the awesome work of a previous recipient.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
 		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img class="mvc" src="https://avatars2.githubusercontent.com/u/26446500?v=4&s=460" />
+			<img class="mvc" src="https://avatars1.githubusercontent.com/u/224552?v=4&s=460" />
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
-				<strong><a href="https://github.com/mk-dhia">mk-dhia</a> (Dhia)</strong><br/>
-				Thank you so much for your improvements to the Elasticsearch data source!
+				<strong><a href="https://github.com/mtanda">mtanda</a> (Mitsuhiro Tanda)</strong><br/>
+				During the last two weeks, mtanda had five merged pull requests and <a href="https://github.com/grafana/grafana/pulls/mtanda" target="_blank">9 open pull requests</a>. 
+				He is almost single-handedly maintaining the Cloudwatch data source as well as contributing lots of improvements to other parts of Grafana. Thank you once again!
 			</p>
 		</div>
 	</div>
@@ -91,40 +151,20 @@ Open source software can't thrive without the contributions from the community. 
 <br />
 #### Tweet of the Week
 We scour Twitter each week to find an interesting/beautiful dashboard and show it off! #monitoringLove
-<p>This week's tweet comes from <a href="https://twitter.com/geek_dave">@geek_dave</a></p>
-<p>Great looking dashboard Dave! And thank you for adding new features and keeping it updated. It's creators like you who make the dashboard repository so awesome!
+<p>Thanks for showing off your Battlefield dashboard <a href="https://twitter.com/matthewv">@matthewv</a> - Love it when people find new and unique ways to use Grafana.</p>
+<p>Also, nice stats - my Kills/Deaths ratio is exactly opposite! :p</p>
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Just released v2 of the <a href="https://twitter.com/k6_io">@k6_io</a> <a href="https://twitter.com/hashtag/loadtesting?src=hash">#loadtesting</a> dashboard for <a href="https://twitter.com/grafana">@grafana</a> - Download and view release notes at: <a href="https://t.co/z0GMMuceWW">https://t.co/z0GMMuceWW</a> <a href="https://t.co/bRnE0grDzw">pic.twitter.com/bRnE0grDzw</a></p>&mdash; Dave Cadwallader (@geek_dave) <a href="https://twitter.com/geek_dave/status/887427524132708352">July 18, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Nerding out tonight. Wrote a script to get my <a href="https://twitter.com/Battlefield">@Battlefield</a> stats into <a href="https://twitter.com/InfluxDB">@InfluxDB</a> so I could graph in <a href="https://twitter.com/grafana">@grafana</a>. <a href="https://twitter.com/hashtag/wip?src=hash">#wip</a> <a href="https://twitter.com/hashtag/bf1?src=hash">#bf1</a> <a href="https://twitter.com/hashtag/statsonstats?src=hash">#statsonstats</a> <a href="https://t.co/f193Z3eDvT">pic.twitter.com/f193Z3eDvT</a></p>&mdash; matthewv (@matthewv) <a href="https://twitter.com/matthewv/status/890718512855080960">July 27, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <hr />
 <br />
-#### Upcoming Events
-We love when people talk about Grafana at meetups and conferences.
-
-<div class="blog-plugin">
-	<div class="row row--md-gutters blog-plugin-grid">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img class="mvc" src="/assets/img/blog/timeshift/meetup.jpg" />
-		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
-			<p> 
-				<a href="https://www.meetup.com/Warsaw-DIY-Home-automation-Internet-of-things/events/241699037/?eventId=241699037"><strong>Monday, July 24, 2017 - 7:30pm | Google Campus Warsaw
-</strong></a> 
-				<br />
-				Ząbkowska 27/31, Warsaw, Poland
-			</p>
-			<p>
-				<strong>Iot &amp; HOME AUTOMATION #3 openHAB, InfluxDB, Grafana:</strong>
-				If you are interested in topics of the internet of things and home automation, this might be a good occasion to meet people similar to you. If you are into it, we will also show you how we can all work together on our common projects. 
-			</p>
-				<a class="btn btn-small btn-small" href="https://www.meetup.com/Warsaw-DIY-Home-automation-Internet-of-things/events/241699037/?eventId=241699037">RSVP</a>
-		</div>
-	</div>
-</div>
 
 <hr />
 <br />
 #### Tell us how we're Doing.
-We'd love your feedback on what kind of content you like, length, format, etc - so please keep the comments coming! You can submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_5). Help us make this better.
+We want you to get the most our of these weekly roundups ,so please don't be shy about providing feedback. Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_5). Help us make this better.
 
 Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_5).
+
+
+

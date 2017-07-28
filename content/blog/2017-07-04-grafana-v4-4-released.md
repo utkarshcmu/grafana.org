@@ -6,6 +6,7 @@ keywords = ["Grafana", "Blog", "v4.4"]
 cover_opacity = "0.6"
 cover_blur = "1px"
 description = "Grafana 4.4 Release Highlights"
+categories = ["Grafana", "Release"]
 +++
 
 Grafana v4.4 is now [available for download](https://grafana.com/grafana/download).

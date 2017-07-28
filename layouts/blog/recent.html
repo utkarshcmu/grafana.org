@@ -15,20 +15,29 @@
 <div class="wrapper">
 	<div class="row row--no-gutters">
 		<div class="col col--md-9">
-			{{ range first 10 .Site.Pages }}
+			<h4>Latest Article</h4>
+			{{ range first 1 .Site.Pages }}
 				{{ .Render "li"}}
 			{{ end }}
 			<hr>
+
+
+			<br />
+			<br />
+
+			<h4>Other Recent Articles</h4>
+			{{ range first 8 (after 1 .Site.Pages) }}
+				{{ .Render "li"}}
+			{{ end }}
+			<hr>
+			<br />
 			<div class="row row--no-gutters">
-				<div class="col col--sm-3"></div>
-				<div class="col col--sm-9">
+				<div class="col col--sm-12">
 					<a class="btn btn--outline" href="/blog/">Blog Archive</a>
 				</div>
 			</div>
-			<br>
-			<br>
-			<br>
-			<br>
+			<br />
+			<br />
 		</div>
 
 		<div class="col col--md-3">
