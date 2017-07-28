@@ -24,12 +24,12 @@ Welcome to another edition of timeShift!  This week, in addition to the great ar
 - [**Graphite Graphios Grafana**](http://vikshinde.blogspot.co.uk/2017/07/graphite-graphios-grafana.html): In this in-depth article, Vikram walks you through every step you'll need to send the metrics of
 different host from Nagios to Graphite using Graphios.
 
-- [**In Search of the Perfect Dashboard: InfluxDB, Telegraf and Grafana**](https://www.jorgedelacruz.es/2016/06/29/en-busca-del-dashboard-perfecto-influxdb-telegraf-y-grafana-parte/): Jorge has writtena **TEN PART SERIES** on monitoring using InfluxDB and Grafana. This impressive year-long journey chronicles his quest to build the perfect dashboard for his infrastructure.
+- [**In Search of the Perfect Dashboard: InfluxDB, Telegraf and Grafana**](https://www.jorgedelacruz.es/2016/06/29/en-busca-del-dashboard-perfecto-influxdb-telegraf-y-grafana-parte/): Jorge has written a **TEN PART SERIES** on monitoring using InfluxDB and Grafana. This impressive year-long journey chronicles his quest to build the perfect dashboard for his infrastructure.
 
 <hr />
 <br />
 #### Plugins and Dashboards
-This week we have udpates to three of our very popular data source pluigns and a brand new panel to show off. Annunciator is similar to the Singlestat panel, but adds some new bells and whistles. All of these plugins are a breeze to update and install via the grafana-cli for an on-prem Grafana instance, or a 1-click install on <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_6" target="_blank">Hosted Grafana</a>.
+This week we have udpates to three popular data source plugins and a brand new panel and app to show off. Annunciator is similar to the Singlestat panel, but adds some new bells and whistles, and GLPi is an open source asset management and ticketing system. All of these plugins are a breeze to update and install via the grafana-cli for an on-prem Grafana instance, or a 1-click install on <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_6" target="_blank">Hosted Grafana</a>.
 
 
 <div class="blog-plugin">
@@ -40,7 +40,7 @@ This week we have udpates to three of our very popular data source pluigns and a
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
-				<a href="https://grafana.com/plugins/michaeldmoore-annunciator-panel?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Annunciator Panel</strong></a> - Like Singlestat, the Annunciator Panel allows you to show the one main summary stat of a SINGLE series. It reduces the series into a single number (by looking at the max, min, average, or sum of values in the series). Annunciator also displays upper and lower alarm thresholds, colored to according to the value of the stat relative to the threshold. This panel is designed to support simple timeseries data sets - unlike SingleStat, Annunciator does not support table-based data sets.
+				<a href="https://grafana.com/plugins/michaeldmoore-annunciator-panel?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Annunciator Panel</strong></a> - Like Singlestat, the Annunciator Panel allows you to show the one main summary stat of a SINGLE series. It reduces the series into a single number (by looking at the max, min, average, or sum of values in the series). Annunciator also displays upper and lower alarm thresholds, colored to according to the value of the stat relative to the threshold. This panel is designed to support simple timeseries data sets - unlike Singlestat, Annunciator does not support table-based data sets.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/michaeldmoore-annunciator-panel?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Install Now</strong></a>
@@ -156,7 +156,7 @@ While we normally select a different contributor each week, we wanted to re-reco
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<strong><a href="https://github.com/mtanda">mtanda</a> (Mitsuhiro Tanda)</strong><br/>
-				During the last two weeks, mtanda had five merged pull requests and <a href="https://github.com/grafana/grafana/pulls/mtanda" target="_blank">9 open pull requests</a>. 
+				During the last two weeks, mtanda had five merged pull requests and <a href="https://github.com/grafana/grafana/pulls/mtanda" target="_blank">nine open pull requests</a>. 
 				We have him to thank for many of the new improvements to the Cloudwatch data source as well as many contributions to other parts of Grafana. Thank you once again!
 			</p>
 		</div>
@@ -178,7 +178,7 @@ We scour Twitter each week to find an interesting/beautiful dashboard and show i
 <hr />
 <br />
 #### Tell us how we're Doing.
-We want you to get the most our of these weekly roundups ,so please don't be shy about providing feedback. Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_6). Help us make this better.
+We want you to get the most our of these weekly roundups, so please don't be shy about providing feedback. Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_6). Help us make this better.
 
 Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_6).
 
