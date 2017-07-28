@@ -10,22 +10,21 @@ description = "A roundup of articles and links form Grafana and the community fr
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-We cover a lot of ground in this week's timeShift. From diving into building your own plugin, finding the right dashboard, configuration options in the alerting feature, to monitoring your local weather, there's something for everyone. Are you writing an article about Grafana, or have you come across an article you found interesting? Please [get in touch](mailto:hello@grafana.com), we'll add it to our roundup.
+Welcome to another edition of timeShift!  This week, in addition to the great articles we've found scouring the Internet, we have two new plugins to announce and updates to three data source plugins to add to our list of [**80 plugins**](https://grafana.com/plugins?utm_source=blog&utm_campaign=timeshift_6). Without any further ado, let's dive in!
 <br />
 <hr />
 <br />
 #### From the Blogosphere
-- [**Going open-source in monitoring, part III: 10 most useful Grafana dashboards to monitor Kubernetes and services**](https://medium.com/@SergeyNuzhdin/going-open-source-in-monitoring-part-iii-10-most-useful-grafana-dashboards-to-monitor-kubernetes-7d22ac4645db): We have hundreds of pre-made [dashboards](https://grafana.com/dashboards?utm_source=blog&utm_campaign=timeshift_5) ready for you to install into your on-prem or hosted Grafana, but not every one will fit your specific monitoring needs. In part three of the series, Sergey discusses is experiences with finding useful dashboards and shows off ten of the best dashboards you can install for monitoring Kubernetes clusters and the services deployed on them.
+- [**Hawkular Data Source: A New Query Interface for Grafana**](http://www.hawkular.org/blog/2017/07/grafana-new-query-interface.html): Our friends over at Hawkular have been busy making big updates to their [Hawkular Data Source Plugin](https://grafana.com/plugins/hawkular-datasource?utm_source=blog&utm_campaign=timeshift_6). One of the biggest changes is an updated query interface! Well worth a read to see just how much effort they've put into this plugin.
 
-- [**Using AWS Lambda and API gateway for server-less Grafana adapters**](https://www.linkedin.com/pulse/using-aws-lambda-api-gateway-server-less-grafana-adapters-jonas-birm%C3%A9): Sometimes you'll want to visualize metrics from a data source that may not yet be supported in Grafana natively. With the plugin functionality introduced in Grafana 3.0, anyone can create their own data sources. Using the [SimpleJson](https://grafana.com/plugins/grafana-simple-json-datasource?utm_source=blog&utm_campaign=timeshift_5) data source, Jonas describes how he used AWS Lambda and AWS API gateway to write data source adapters for Grafana.
+- [**Getting metrics from your Express app without effort with Docker and Grafana**](https://medium.com/@chamerling/getting-metrics-from-your-express-app-without-effort-with-docker-and-grafana-ac8f6c42cbfb): Christophe wrote a handy guide to getting metrics out of an Express app. He breaks down all the pieces you'll need and provides a very simple example. While he mentions that this simplistic approach probably shouldn't be used in production, it does serve as an easy to follow guide to set up monitoring on your app.
 
-- [**How to Use Grafana to Monitor JMeter Non-GUI Results - Part 2**](https://www.blazemeter.com/blog/how-to-use-grafana-to-monitor-jmeter-non-gui-results-part-2): A few issues ago we listed an article for using Grafana to monitor JMeter Non-GUI results, which required a number of non-trivial steps to complete. This article shows of an easier way to accomplish this that doesn't require any additional configuration of InfluxDB.
+- [**Installation of Collectd, Graphite and Grafana - Part 1**](https://mnt-tech.fr/blog/installation-collectd-graphite-grafana-partie-1/): This is the first in an upcoming series of articles about setting up a Graphite stack. This article dives into setting up Collectd and the various configuration options. Parts two and three will focus on Graphite and Grafana.
 
-- [**Programming your Personal Weather Chart**](http://robstechlog.com/2017/06/30/personal-weather-chart-module/): It's always great to see Grafana used outside of the typical dev-ops usecase. This article runs you through the steps to create your own weather chart and show off your local weather stats in Grafana. **BONUS:** Rob shows off a [magic mirror](http://robstechlog.com/2017/06/25/building-a-big-magicmirror-with-metal-frame-the-summary/) he created, which can display this data.
+- [**Graphite Graphios Grafana**](http://vikshinde.blogspot.co.uk/2017/07/graphite-graphios-grafana.html): In this in-depth article, Vikram walks you through every step you'll need to send the metrics of
+different host from Nagios to Graphite using Graphios.
 
-- [**vSphere Performance data – Part 6 – The Dashboard(s)**](http://www.rudimartinsen.com/2017/07/21/vsphere-performance-data-part-6-the-dashboards/): This 6-part series goes into a ton of detail and walks you through the various methods of retrieving vSphere performance data, storing the data in a TSDB, and creating dashboards for the metrics. Part 6 deals specifically with Grafana, but I highly recommend reading all of the articles, as it chronicles the journey of metrics exploration, storage, and visualization from someone who had no prior experience with time series data.
-
-- [**Alerting in Grafana**](https://blog.netapsys.fr/lalerting-dans-grafana/): Alerting in Grafana is a fairly new feature and one that we're continuing to iterate on. We're soon adding additional data source support, new notification channels, clustering, silencing rules, and more. This article steps you through all the configuration options to get you to your first alert.
+- [**In Search of the Perfect Dashboard: InfluxDB, Telegraf and Grafana**](https://www.jorgedelacruz.es/2016/06/29/en-busca-del-dashboard-perfecto-influxdb-telegraf-y-grafana-parte/): Jorge has writtena **TEN PART SERIES** on monitoring using InfluxDB and Grafana. This impressive year-long journey chronicles his quest to build the perfect dashboard for his infrastructure.
 
 <hr />
 <br />
@@ -44,7 +43,24 @@ This week we have udpates to three of our very popular data source pluigns and a
 				<a href="https://grafana.com/plugins/michaeldmoore-annunciator-panel?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Annunciator Panel</strong></a> - Like Singlestat, the Annunciator Panel allows you to show the one main summary stat of a SINGLE series. It reduces the series into a single number (by looking at the max, min, average, or sum of values in the series). Annunciator also displays upper and lower alarm thresholds, colored to according to the value of the stat relative to the threshold. This panel is designed to support simple timeseries data sets - unlike SingleStat, Annunciator does not support table-based data sets.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/michaeldmoore-annunciator-panel?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Install Now 1.0.0</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/michaeldmoore-annunciator-panel?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Install Now</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="blog-plugin">
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img src="https://grafana.com/api/plugins/ddurieux-glpi-app/versions/1.0.0/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
+				<a href="https://grafana.com/plugins/ddurieux-glpi-app?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>GLPi</strong></a> - GLPi is a French open source asset management, issue tracking system and service desk solution. This new app allows you to track ticket, users, devices, and more, directly in Grafana.
+			</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/ddurieux-glpi-app?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Install Now</strong></a>
 			</p>
 		</div>
 	</div>
@@ -120,7 +136,7 @@ This week we have udpates to three of our very popular data source pluigns and a
 				</li>
 			</ul>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/alexanderzobnin-zabbix-app?utm_source=blog&utm_campaign=timeshift_5" target="_blank"><strong>Install 3.6.1 Now</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/alexanderzobnin-zabbix-app?utm_source=blog&utm_campaign=timeshift_6" target="_blank"><strong>Install 3.6.1 Now</strong></a>
 			</p>
 		</div>
 	</div>
@@ -162,9 +178,9 @@ We scour Twitter each week to find an interesting/beautiful dashboard and show i
 <hr />
 <br />
 #### Tell us how we're Doing.
-We want you to get the most our of these weekly roundups ,so please don't be shy about providing feedback. Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_5). Help us make this better.
+We want you to get the most our of these weekly roundups ,so please don't be shy about providing feedback. Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_6). Help us make this better.
 
-Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_5).
+Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_6).
 
 
 
