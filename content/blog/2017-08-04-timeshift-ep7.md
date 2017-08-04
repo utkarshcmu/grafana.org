@@ -41,17 +41,17 @@ Grafana v4.4.2 is now <a href="https://grafana.com/grafana/download?utm_source=b
 <hr />
 <br />
 #### From the Blogosphere
-- [**Monitoring CouchDB with Prometheus, Grafana and Docker**](https://medium.com/@redgeoff/monitoring-couchdb-with-prometheus-grafana-and-docker-4693bc8408f0): Geoff walks us through all of the steps to get Prometheus, AlertManager and Grafana installed in Docker to monitor and alert on a CouchDB cluster. These six steps will have you up and running in no time.
+- [**Monitoring CouchDB with Prometheus, Grafana and Docker**](https://medium.com/@redgeoff/monitoring-couchdb-with-prometheus-grafana-and-docker-4693bc8408f0): Geoff walks us through all of the steps to get Prometheus, Alertmanager and Grafana installed in Docker to monitor and alert on a CouchDB cluster. These six steps will have you up and running in no time.
 
-- [**Try InfluxDB and Grafana by docker**](https://blog.laputa.io/try-influxdb-and-grafana-by-docker-6b4d50c6a446): Continuing with our Docker theme, Xiao breaks down all of the pieces, explores the configuration options, and explains the Docker commands to setup a simple monitoring stack by using collectd, InfluxDB and Grafana.
+- [**Try InfluxDB and Grafana by Docker**](https://blog.laputa.io/try-influxdb-and-grafana-by-docker-6b4d50c6a446): Continuing with our Docker theme, Xiao breaks down all of the pieces, explores the configuration options, and explains the Docker commands to setup a simple monitoring stack by using collectd, InfluxDB and Grafana.
 
-- [**Installation of Collectd, Graphite and Grafana - Part 2**](https://mnt-tech.fr/blog/installation-collectd-graphite-grafana-partie-1/): Last week we covered the [first article](https://mnt-tech.fr/blog/installation-collectd-graphite-grafana-partie-1/) in a series focused on setting up a complete Graphite stack. This week we tackle installing Graphite, its components, and Grafana on the server.
+- [**Installation of Collectd, Graphite and Grafana - Part 2**](https://mnt-tech.fr/blog/installation-collectd-graphite-grafana-partie-2/): Last week we covered the [first article](https://mnt-tech.fr/blog/installation-collectd-graphite-grafana-partie-1/) in a series focused on setting up a complete Graphite stack. This week we tackle installing Graphite, its components, and Grafana on the server.
 
 - [**Grafana and Home Automation**](https://carmagnole.ovh/grafana-et-la-domotique.htm): More and more pieces of our homes are becoming "smart", so why not monitor them? This article walks you through collecting data from home automation software [Jeedom](https://www.jeedom.com/site/fr/), sending metrics to InfluxDB, and visualizing and alerting in Grafana - so you can know how your smart-toaster is performing.
 
 - [**Making an awesome dashboard for your crypto currencies in 3 steps**](https://blog.haschek.at/2017/making-an-awesome-dashboard-for-your-crypto.html): Christian lays out three steps that will help you keep an eye on your Bitcoin and Ethereum investments. His PHP script fetches things like current price, current balances, earnings, and sends the data to InfluxDB via UDP. He's also created a dashboard that's ready to import so you can get back to mining.
 
-- [**FHEM #6 - Grafana and InfluxDB**](https://www.frombeyond.de/2017/fhem-6-grafana-und-influxdb/): We're seeing more and more articles about using Grafana to monitor home automation. This is the sixth article in a series getting data from [FHEM](https://fhem.de/) into Grafana using InfdluxDB. It goes on to talk about hooking Grafana up to MariaDB, taking advantage of Grafana's alpha native MySQL support.
+- [**FHEM #6 - Grafana and InfluxDB**](https://www.frombeyond.de/2017/fhem-6-grafana-und-influxdb/): We're seeing more and more articles about using Grafana to monitor home automation. This is the sixth article in a series getting data from [FHEM](https://fhem.de/) into Grafana using InfdluxDB. It also touches on connecting Grafana to MariaDB, taking advantage of Grafana's alpha native MySQL support.
 
 - [**Installation Overview of Node Exporter, Prometheus and Grafana**](https://fritshoogland.wordpress.com/2017/07/31/installation-overview-of-node_exporter-prometheus-and-grafana/): Looking to get started with Prometheus? Frits walks us through installing Node Exporter, Prometheus, and Grafana and importing our first dashboard.
 
@@ -72,7 +72,7 @@ Last week's timeShift was packed full of plugin updates, as well as a couple of 
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
-				<a href="https://grafana.com/plugins/jasonlashua-prtg-datasource?utm_source=blog&utm_campaign=timeshift_7" target="_blank"><strong>PRTG Data Source</strong></a> - This data source visualizes data from the Paessler PRTG monitoring system. The easy to use query editor included with this plugin gives access to an array of PRTG metadata properties including Status, Message, Active, Tags, Priority, and more. Annotation support  - show sensor status messages on graphs.
+				<a href="https://grafana.com/plugins/jasonlashua-prtg-datasource?utm_source=blog&utm_campaign=timeshift_7" target="_blank"><strong>PRTG Data Source</strong></a> - This data source visualizes data from the Paessler PRTG monitoring system. The easy to use query editor included with this plugin gives access to an array of PRTG metadata properties including Status, Message, Active, Tags, Priority, and more. Annotation support to show sensor status messages on graphs.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/jasonlashua-prtg-datasource?utm_source=blog&utm_campaign=timeshift_7" target="_blank"><strong>Install Now</strong></a>
@@ -85,7 +85,7 @@ Last week's timeShift was packed full of plugin updates, as well as a couple of 
 <br />
 
 <h4>This week's MVC (Most Valuable Contributor)</h4>
-This week we highlight a Grafana contributor who is going to make everyone waiting for Elasticsearch alerting jump for joy!
+This week we highlight a contributor who is going to make everyone waiting for Elasticsearch alerting in Grafana jump for joy!
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
