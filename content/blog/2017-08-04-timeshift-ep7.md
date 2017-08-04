@@ -10,7 +10,7 @@ description = "A roundup of articles and links form Grafana and the community fr
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-Hard to believe it's already August! This week there were a ton of articles to highlight. It's really exciting to see how many data afficionados there are out there coming up with new ways to connect Grafana to their data, wherever it may live. In this issue we cover cryptocurrency visualization, home automation setups and breakdown the installation in a number of environements. Enjoy!
+Hard to believe it's already August! This week there were a ton of articles to highlight. It's really exciting to see how many data aficionados there are out there coming up with new ways to connect Grafana to their data, wherever it may live. In this issue we cover crypto currency visualization, home automation setups and breakdown the installation in a number of environments. Enjoy!
 <br />
 <!-- <hr />
 <div>
@@ -57,7 +57,7 @@ Grafana v4.4.2 is now <a href="https://grafana.com/grafana/download?utm_source=b
 
 - [**Collect Metrics from Liberty Apps and Display in Grafana**](https://developer.ibm.com/wasdev/docs/collect-metrics-from-liberty-apps-and-display-in-grafana/): This in-depth article covers adding custom metrics to your Liberty application and how to monitor these metrics using collectd, Graphite and Grafana.
 
-- [**Gatling, Graphite, Grafana: Your Application Under High Surveillance!**](https://blog.netapsys.fr/gatling-graphite-grafana-votre-application-sous-haute-surveillance/): David explores [Gatling](http://gatling.io/), for load testing which can write the data to Graphite and over to Grafana for visualzation and alerting.
+- [**Gatling, Graphite, Grafana: Your Application Under High Surveillance!**](https://blog.netapsys.fr/gatling-graphite-grafana-votre-application-sous-haute-surveillance/): David explores [Gatling](http://gatling.io/), for load testing which can write the data to Graphite and over to Grafana for visualization and alerting.
 
 <hr />
 <br />
