@@ -12,23 +12,26 @@ categories = ["timeShift", "Grafana Buzz"]
 
 Welcome to another edition of timeShift!  This week, in addition to the great articles we've found scouring the Internet, we have two new plugins to announce and updates to three data source plugins to add to our list of [**80 plugins**](https://grafana.com/plugins?utm_source=blog&utm_campaign=timeshift_6). Without any further ado, let's dive in!
 <br />
-<!-- <hr />
-<div class="blog-plugin">
-	<h4>GrafanaCon EU Announced!</h4>
+<hr />
+<div>
 	<div class="row row--md-gutters blog-plugin-grid">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 0;" src="/assets/img/blog/timeshift/grafanacon_eu_announcement.png" />
+		<div class="col col--sm-4 blog-plugin-grid__item">
+			<img style="border-radius: 0; width: 240px;" src="/assets/img/blog/timeshift/grafanacon_eu_announcement.png" />
 		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
+		<div class="col col--sm-8 blog-plugin-grid__item">
+			<h4>GrafanaCon EU Announced!</h4>
 			<p>
-				GrafanaCon is a two-day event with talks centered around Grafana and the surrounding ecosystem. We are excited to announce the next GrafanaCon will be traveling to <strong>Amsterdam, Netherlands, March 1-2, 2018!</strong> We will be adding details shortly, but the <a href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_7">Call for Papers</a> is officially open.
+				GrafanaCon is a two-day event with talks centered around Grafana and the surrounding ecosystem. 
+				<br />
+				<br />
+				We are excited to announce the next GrafanaCon will be traveling to <strong>Amsterdam, Netherlands, March 1-2, 2018!</strong> We will be adding details shortly, but the <a href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_7">Call for Papers</a> is officially open.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_7" target="_blank"><strong>I'd Like to Speak at GrafanaCon</strong></a>
 			</p>
 		</div>
 	</div>
-</div> -->
+</div>
 <hr />
 #### Grafana 4.4.2 Released
 Grafana v4.4.2 is now <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_7" target="_blank" class="btn btn-inline btn--primary">Available for download</a>
