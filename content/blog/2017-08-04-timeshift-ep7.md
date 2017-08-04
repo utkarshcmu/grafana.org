@@ -12,7 +12,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 Welcome to another edition of timeShift!  This week, in addition to the great articles we've found scouring the Internet, we have two new plugins to announce and updates to three data source plugins to add to our list of [**80 plugins**](https://grafana.com/plugins?utm_source=blog&utm_campaign=timeshift_6). Without any further ado, let's dive in!
 <br />
-<hr />
+<!-- <hr />
 <div>
 	<div class="row row--md-gutters blog-plugin-grid">
 		<div class="col col--sm-4 blog-plugin-grid__item">
@@ -31,7 +31,7 @@ Welcome to another edition of timeShift!  This week, in addition to the great ar
 			</p>
 		</div>
 	</div>
-</div>
+</div> -->
 <hr />
 #### Grafana 4.4.2 Released
 Grafana v4.4.2 is now <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_7" target="_blank" class="btn btn-inline btn--primary">Available for download</a>
