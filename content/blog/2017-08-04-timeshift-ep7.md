@@ -10,7 +10,7 @@ description = "A roundup of articles and links form Grafana and the community fr
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-Welcome to another edition of timeShift!  This week, in addition to the great articles we've found scouring the Internet, we have two new plugins to announce and updates to three data source plugins to add to our list of [**80 plugins**](https://grafana.com/plugins?utm_source=blog&utm_campaign=timeshift_6). Without any further ado, let's dive in!
+Hard to believe it's already August! This week there were a ton of articles to highlight. It's really exciting to see how many data afficionados there are out there coming up with new ways to connect Grafana to their data, wherever it may live. In this issue we cover cryptocurrency visualization, home automation setups and breakdown the installation in a number of environements. Enjoy!
 <br />
 <!-- <hr />
 <div>
