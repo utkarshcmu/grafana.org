@@ -10,7 +10,7 @@ description = "A roundup of articles and links form Grafana and the community fr
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-Many people decide to take time off in August to enjoy the nice weather before Fall, but I've been surprised at the number of Grafana related articles that I've come across this week. This issue of timeShift, contains articles covering weather tracking, home automation and a couple of updates to native Plugins from core the Grafana team.
+Many people decide to take time off in August to enjoy the nice weather before Fall, but I've been surprised at the number of Grafana related articles that I've come across this week. This issue of timeShift, contains articles covering weather tracking, home automation and a couple of updates to native Plugins from the core Grafana team.
 <br />
 <!-- <hr />
 <div>
@@ -41,7 +41,7 @@ Grafana v4.4.3 is <a href="https://grafana.com/grafana/download?utm_source=blog&
 <br />
 #### From the Blogosphere
 
-- [**Trending & Analyzing SmartThings Devices (Part 4 of 4)**](http://blog.mike-greene.com/trending-analyzing-smartthings-devices-part-1/): Home Automation is an exciting field. The development of new technology and protocols, and the consumerization of those capabilities have been happening at a rapid pace. However, some of these home automation platforms don't leverage the data for analytics and trending. Michael had a busy weekend writing all four parts in a fascinating series about the sensors he's using,  how he's collecting the data and storing it in InfluxDB, and building a dashboard in Grafana to maximize the value of his home automation data.  
+- [**Trending & Analyzing SmartThings Devices (Part 1 of 4)**](http://blog.mike-greene.com/trending-analyzing-smartthings-devices-part-1/): Home Automation is an exciting field. The development of new technology and protocols, and the consumerization of those capabilities have been happening at a rapid pace. However, some of these home automation platforms don't leverage the data for analytics and trending. Michael had a busy weekend writing all four parts in a fascinating series about the sensors he's using,  how he's collecting the data and storing it in InfluxDB, and building a dashboard in Grafana to maximize the value of his home automation data.  
 
 - [**Adding Live Weather to Your Grafana Home Dashboard**](http://blog.mike-greene.com/adding-weather-to-your-grafana-home-dashboard/): One of the key features in Grafana is how it allows you to unify your data from multiple data sources. In this post, Michael builds upon the dashboard he created in his previous series, which tracks his SmartThings devices, to include local weather data from the DarkSky API.
 
