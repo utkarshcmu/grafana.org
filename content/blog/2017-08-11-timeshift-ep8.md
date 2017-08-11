@@ -56,7 +56,7 @@ Grafana v4.4.3 is <a href="https://grafana.com/grafana/download?utm_source=blog&
 <hr />
 <br />
 #### Grafana Plugins
-With Summer vacations in full swing, additions and updates of Grafana Plugins from the community slowed a bit this week. We have a number of Plugins almost ready to announce, but require changes from the authors before they can be published. Instead, we would like to highlight a few of the new core Plugins that have had some exciting recent updates: <strong>the MySQL Data Source and the Elasticsearch Data Source</strong>.
+With Summer vacations in full swing, additions and updates of Grafana Plugins from the community slowed a bit this week. We have a number of Plugins almost ready to announce, but require changes from the authors before they can be published. Instead, we would like to highlight a few of the new core Plugins that have had some exciting recent updates: <strong>the MySQL Data Source</strong> and the <strong>Elasticsearch Data Source</strong>.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
@@ -97,7 +97,7 @@ With Summer vacations in full swing, additions and updates of Grafana Plugins fr
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
 		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img src="https://grafana.com/api/plugins/elasticsearch/versions/3.0.0/logos/large" />
+			<img style="border-radius: 0;" src="https://grafana.com/api/plugins/elasticsearch/versions/3.0.0/logos/large" />
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
