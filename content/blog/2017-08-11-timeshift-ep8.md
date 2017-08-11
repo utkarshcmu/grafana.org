@@ -24,65 +24,39 @@ Many people decide to take time off in August to enjoy the nice weather before F
 				GrafanaCon is a two-day event with talks centered around Grafana and the surrounding ecosystem. 
 				<br />
 				<br />
-				We are excited to announce the next GrafanaCon will be traveling to <strong>Amsterdam, Netherlands, March 1-2, 2018!</strong> We will be adding details shortly, but the <a href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_7">Call for Papers</a> is officially open.
+				We are excited to announce the next GrafanaCon will be traveling to <strong>Amsterdam, Netherlands, March 1-2, 2018!</strong> We will be adding details shortly, but the <a href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_8">Call for Papers</a> is officially open.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_7" target="_blank"><strong>I'd Like to Speak at GrafanaCon</strong></a>
+				<a class="btn btn-outline btn-small" href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_8" target="_blank"><strong>I'd Like to Speak at GrafanaCon</strong></a>
 			</p>
 		</div>
 	</div>
 </div> -->
 <hr />
 #### Latest Release
-Grafana v4.4.2 is now <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_7" target="_blank" class="btn btn-inline btn--primary">Available for download</a>
-<br/>To see the full [changelog](https://community.grafana.com/t/release-notes-for-grafana-v4-4-x/1650/2?utm_source=blog&utm_campaign=timeshift_8), head over to our community site.
+Grafana v4.4.3 is <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_8" target="_blank" class="btn btn-inline btn--primary">Available for download</a>
+<br/>To see the full [changelog](https://community.grafana.com/t/release-notes-for-grafana-v4-4-x/1650/4?utm_source=blog&utm_campaign=timeshift_8), head over to our community site.
 
 <hr />
 <br />
 #### From the Blogosphere
-http://www.apascualco.com/influxdb-grafana-linkados-docker/
 
-https://www.bjoerns-techblog.de/2017/08/grafana-und-influxdb/
+- [**Trending & Analyzing SmartThings Devices (Part 4 of 4)**](http://blog.mike-greene.com/trending-analyzing-smartthings-devices-part-1/): Home Automation is an exciting field. The development of new technology and protocols, and the consumerization of those capabilities have been happening at a rapid pace. However, some of these home automation platforms don't leverage the data for analytics and trending. Michael had a busy weekend writing all four parts in a fascinating series about the sensors he's using,  how he's collecting the data and storing it in InfluxDB, and building a dashboard in Grafana to maximize the value of his home automation data.  
 
-http://air.imag.fr/index.php/Developing_IoT_Mashups_with_Docker,_MQTT,_Node-RED,_InfluxDB,_Grafana
+- [**Adding Live Weather to Your Grafana Home Dashboard**](http://blog.mike-greene.com/adding-weather-to-your-grafana-home-dashboard/): One of the key features in Grafana is how it allows you to unify your data from multiple data sources. In this post, Michael builds upon the dashboard he created in his previous series, which tracks his SmartThings devices, to include local weather data from the DarkSky API.
 
-http://dev.classmethod.jp/cloud/aws/visualizing-cloudwatch-with-grafana/
+- [**In Search of the Perfect Dashboard: InfluxDB, Telegraf and Grafana - Part IX (Monitoring Zimbra Collaboration)**](https://www.jorgedelacruz.es/2017/08/09/en-busca-del-dashboard-perfecto-influxdb-telegraf-y-grafana-parte-ix-monitorizando-zimbra-collaboration/): Jorge continues his quest to build the perfect dashboard in part nine of the ten part series. This installment covers monitoring a Zimbra Collaboration environment.
 
-https://brunch.co.kr/@sunghyunlim/27
+- [**How To Monitor A Træfik Reverse Proxy With Prometheus**](https://www.brianchristner.io/how-to-monitor-traefik-reverse-proxy-with-prometheus/): Træfik is a reverse proxy and load balancer that dynamically listens to your Orchestrator, (i.e.: Docker) and knows each time a container is added, removed, killed or upgraded, and can generate its configuration automatically. Since Traefik exports metrics in a Prometheus friendly format, you can present this data alongside your other metrics in Grafana! Brian shows you how.
 
-http://www.elarraydejota.com/exportando-metricas-de-glances-a-influxdb-y-visualizando-con-grafana/
+- [**Monitoring Raspberry Pies with Grafana**](https://brunch.co.kr/@sunghyunlim/27): Who doesn't love pi? This post walks you through installing Telegraph on a Raspberry Pi and setting up InfluxDB and Grafana to monitor those devices.
 
-http://blog.mike-greene.com/adding-weather-to-your-grafana-home-dashboard/?platform=hootsuite
-
-http://blog.mike-greene.com/trending-analyzing-smartthings-devices-part-4/
-
-https://www.jorgedelacruz.es/2017/08/09/en-busca-del-dashboard-perfecto-influxdb-telegraf-y-grafana-parte-ix-monitorizando-zimbra-collaboration/
-
-https://www.brianchristner.io/how-to-monitor-traefik-reverse-proxy-with-prometheus/
-
-
-- [**Monitoring CouchDB with Prometheus, Grafana and Docker**](https://medium.com/@redgeoff/monitoring-couchdb-with-prometheus-grafana-and-docker-4693bc8408f0): Geoff walks us through all of the steps to get Prometheus, Alertmanager and Grafana installed in Docker to monitor and alert on a CouchDB cluster. These six steps will have you up and running in no time.
-
-- [**Try InfluxDB and Grafana by Docker**](https://blog.laputa.io/try-influxdb-and-grafana-by-docker-6b4d50c6a446): Continuing with our Docker theme, Xiao breaks down all of the pieces, explores the configuration options, and explains the Docker commands to setup a simple monitoring stack by using collectd, InfluxDB and Grafana.
-
-- [**Installation of Collectd, Graphite and Grafana - Part 2**](https://mnt-tech.fr/blog/installation-collectd-graphite-grafana-partie-2/): Last week we covered the [first article](https://mnt-tech.fr/blog/installation-collectd-graphite-grafana-partie-1/) in a series focused on setting up a complete Graphite stack. This week we tackle installing Graphite, its components, and Grafana on the server.
-
-- [**Grafana and Home Automation**](https://carmagnole.ovh/grafana-et-la-domotique.htm): More and more pieces of our homes are becoming "smart", so why not monitor them? This article walks you through collecting data from home automation software [Jeedom](https://www.jeedom.com/site/fr/), sending metrics to InfluxDB, and visualizing and alerting in Grafana - so you can know how your smart-toaster is performing.
-
-- [**Making an Awesome Dashboard for your Crypto Currencies in 3 Steps**](https://blog.haschek.at/2017/making-an-awesome-dashboard-for-your-crypto.html): Christian lays out three steps that will help you keep an eye on your Bitcoin and Ethereum investments. His PHP script fetches things like current price, current balances, earnings, and sends the data to InfluxDB via UDP. He's also created a dashboard that's ready to import so you can get back to mining.
-
-- [**FHEM #6 - Grafana and InfluxDB**](https://www.frombeyond.de/2017/fhem-6-grafana-und-influxdb/): We're seeing more and more articles about using Grafana to monitor home automation. This is the sixth article in a series getting data from [FHEM](https://fhem.de/) into Grafana using InfdluxDB. It also touches on connecting Grafana to MariaDB, taking advantage of Grafana's alpha native MySQL support.
-
-- [**Installation Overview of Node Exporter, Prometheus and Grafana**](https://fritshoogland.wordpress.com/2017/07/31/installation-overview-of-node_exporter-prometheus-and-grafana/): Looking to get started with Prometheus? Frits walks us through installing Node Exporter, Prometheus, and Grafana and importing our first dashboard.
-
-- [**Collect Metrics from Liberty Apps and Display in Grafana**](https://developer.ibm.com/wasdev/docs/collect-metrics-from-liberty-apps-and-display-in-grafana/): This in-depth article covers adding custom metrics to your Liberty application and how to monitor these metrics using collectd, Graphite and Grafana.
-
-- [**Gatling, Graphite, Grafana: Your Application Under High Surveillance!**](https://blog.netapsys.fr/gatling-graphite-grafana-votre-application-sous-haute-surveillance/): David explores [Gatling](http://gatling.io/), for load testing which can write the data to Graphite and over to Grafana for visualization and alerting.
+- [**Grafana and InfluxDB**](https://www.bjoerns-techblog.de/2017/08/grafana-und-influxdb/): So you've got Grafana and InfluxDB installed, now what? Bjorn walks us through creating our first dashboard, and the different tabs in the interface to make our data legible and beautiful.
 
 <hr />
 <br />
 #### Grafana Plugins
-With Summer vacations in full swing, additions and updates of Grafana Plugins from the community slowed a bit this week. We have a number of Plugins that are almost ready to announce, but require changes from the authors before they can be published. Instead, we would like to highlight one of the new core Plugins that had some exciting recent updates: <strong>MySQL Data Source</strong>
+With Summer vacations in full swing, additions and updates of Grafana Plugins from the community slowed a bit this week. We have a number of Plugins almost ready to announce, but require changes from the authors before they can be published. Instead, we would like to highlight a few of the new core Plugins that have had some exciting recent updates: <strong>the MySQL Data Source and the Elasticsearch Data Source</strong>.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
@@ -95,7 +69,7 @@ With Summer vacations in full swing, additions and updates of Grafana Plugins fr
 				<strong>MySQL Data Source</strong> - This week we added support for creating Template Variables with MySQL. It is available in <a href="https://grafana.com/grafana/download/5.0.0-8626pre1?utm_source=blog&utm_campaign=timeshift_8">nightly builds</a> and will be included in the next major release.
 			</p>
 			<p>
-				When you create a Template Variable it appears as a dropdown at the top of the dashboard and you can then use the variable in queries like this (where `hostname` is the template variable):
+				When you create a Template Variable it appears as a dropdown at the top of the dashboard and you can then use the variable in queries (where <code>hostname</code> is the template variable):
 			</p>
 			<pre>
 				sql
@@ -128,7 +102,7 @@ With Summer vacations in full swing, additions and updates of Grafana Plugins fr
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>Elasticsearch Data Source</strong> - There was also a new Elasticsearch feature added to Master/Nightly builds this week:
+				<strong>Elasticsearch Data Source</strong> - There was also a new Elasticsearch feature added to Master/Nightly builds this week. Check out the video below to see Ad-Hoc filters in action:
 				<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Elasticsearch feature added to Master/Nightly build: Ad-Hoc filters can now be added directly from the table panel <a href="https://t.co/NzHvnHp3Df">https://t.co/NzHvnHp3Df</a> <a href="https://t.co/QAIoBRgZQG">pic.twitter.com/QAIoBRgZQG</a></p>&mdash; Grafana (@grafana) <a href="https://twitter.com/grafana/status/895000347630084096">August 8, 2017</a></blockquote>
 				<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</p>
@@ -179,7 +153,7 @@ We scour Twitter each week to find an interesting/beautiful dashboard and show i
 #### What do you think?
 That wraps up another issue. Hope you're finding these roundups valuable. Let us know how we're doing! Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_8). Help us make this better!
 
-Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_7).
+Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_8).
 
 
 
