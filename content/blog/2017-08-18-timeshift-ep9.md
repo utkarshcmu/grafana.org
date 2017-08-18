@@ -36,6 +36,8 @@ in fact this is our most popular tweet ever!
 
 - [**Creating Grafana Annotations with InfluxDB**](https://maxchadwick.xyz/blog/grafana-influxdb-annotations): Nice short article by Max Chadwick showing how to quickly add InfluxDB as a source for Grafana annotations.
 
+- [**LizardFS in Grafana**](https://blog.kruyt.org/lizardfs-in-grafana/): This blog post shows you how to collect metrics from LizardFS with Telegraf, store it in InfluxDB and view it in Grafana using a provided dashboard. Neat.
+
 <hr />
 <br />
 
