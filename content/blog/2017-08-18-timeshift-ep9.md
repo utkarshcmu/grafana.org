@@ -10,7 +10,7 @@ description = "A roundup of articles and links form Grafana and the community fr
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-Matt from Grafana NYC spend the week in Stockholm this week, working with Torkel on Grafana 5.0. Despite warnings otherwise, the weather has been sunny for most of the week, making a nice backdrop for non-stop discussions on new features. Very, very excited to start getting this into master. 
+Matt from Grafana NYC spend the week in Stockholm working with Torkel on Grafana 5.0. Despite warnings otherwise, the weather has been mostly sunny, making a nice backdrop for non-stop discussions on new features. Very, very excited to soon show what we've been working on. 
 <br />
 <hr />
 #### Latest Release
