@@ -50,7 +50,7 @@ This week's MVC highlights what is great about Open Source software.
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<strong><a href="https://github.com/reyjrar" target="_blank">ericslaw</a> (Brad Lhotsky)</strong><br/>
-				ericslaw submitted his first PR to a public project this past week. Speaking from personal experiencing, submitting even the smallest PR can feel daunting, and and we were lucky that he chose Grafana. Even the smallest contributions, like Eric fixing a bogus link within our templating docs has big impact.
+				ericslaw submitted his first PR to a public project this past week. Speaking from personal experience, submitting a PR can feel daunting and and we were lucky that he chose Grafana. Even the smallest contributions, like Eric fixing a bogus link within our templating has big impact.
 			</p>
 		</div>
 	</div>
