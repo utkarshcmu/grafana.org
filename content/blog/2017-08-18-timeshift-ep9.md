@@ -32,7 +32,7 @@ in fact this is our most popular tweet ever!
 <br />
 
 #### From the Blogosphere
-- [**Wikimedia Metrics**](https://grafana.wikimedia.org): A tweet this week reminded us of the public metrics Wikimedia exposes using Grafana. Exploring the performance stats in real time for the 5th mot popular site on the internet is pretty fun.
+- [**Wikimedia Metrics**](https://grafana.wikimedia.org): A tweet this week reminded us of the public metrics Wikimedia exposes using Grafana. Exploring the performance stats in real time for the 5th most popular site on the internet is pretty fun.
 
 - [**Creating Grafana Annotations with InfluxDB**](https://maxchadwick.xyz/blog/grafana-influxdb-annotations): Nice short article by Max Chadwick showing how to quickly add InfluxDB as a source for Grafana annotations.
 
