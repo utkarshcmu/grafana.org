@@ -1,16 +1,16 @@
 +++
 title = "timeShift(GrafanaBuzz, 1w) Issue 9"
-author = "trent"
-date = "2017-08-11"
+author = "matttoback"
+date = "2017-08-18"
 keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
 cover_image = "/assets/img/blog/timeshift/timeshift_9.jpg"
-cover_opacity = "0.6"
+cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A roundup of articles and links form Grafana and the community from the past week"
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-Matt from Grafana NYC spend the week in Stockholm working with Torkel on Grafana 5.0. Despite warnings otherwise, the weather has been mostly sunny, making a nice backdrop for non-stop discussions on new features. Very, very excited to soon show what we've been working on. 
+Matt from Grafana NYC spent the week visiting Stockholm to focus on v5.0 with Torkel. Despite warnings otherwise, the weather has been beautiful, making a nice backdrop for many UX discussions. Very, very excited to soon show what we've been working on.
 <br />
 <hr />
 #### Latest Release
@@ -21,8 +21,10 @@ Grafana v4.4.3 is <a href="https://grafana.com/grafana/download?utm_source=blog&
 <br />
 
 #### Grafana <3 Prometheus
-Our very own Carl Bergquist spoke at PromCon 2017 yesterday in Munich, highlighting new enhancements and features for power users.
-<p>We used the opportunity to debut our new Prometheus query editor with a load of new functionality; seems the community approves!
+Our very own Carl Bergquist spoke at PromCon 2017 yesterday in Munich, highlighting recent Grafana features and enhancements.
+
+<p>We also used the opportunity to debut our coming Prometheus query editor with a load of new functionality; seems the community approves,
+in fact this is our most popular tweet ever!
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We just revealed the coming <a href="https://twitter.com/PrometheusIO">@PrometheusIO</a> query editor with syntax highlight, function docs &amp; auto complete at <a href="https://twitter.com/hashtag/PromCon2017?src=hash">#PromCon2017</a>, check it out! <a href="https://t.co/7ZD30ltCBi">pic.twitter.com/7ZD30ltCBi</a></p>&mdash; Grafana (@grafana) <a href="https://twitter.com/grafana/status/898143069886980096">August 17, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -30,9 +32,9 @@ Our very own Carl Bergquist spoke at PromCon 2017 yesterday in Munich, highlight
 <br />
 
 #### From the Blogosphere
-- [**Wikimedia Metrics**](https://grafana.wikimedia.org): A tweet this week reminded us of the public metrics Wikimedia exposes using Grafana. Exploring the performance stats in real time for the 5th mot popular site on the internet is pretty fun. 
+- [**Wikimedia Metrics**](https://grafana.wikimedia.org): A tweet this week reminded us of the public metrics Wikimedia exposes using Grafana. Exploring the performance stats in real time for the 5th mot popular site on the internet is pretty fun.
 
-- [**Creating Grafana Annotations with InfluxDB**](https://maxchadwick.xyz/blog/grafana-influxdb-annotations): Nice short article by Max Chadwick showing how to quickly add InfluxDB as a source for Grafana annotations. 
+- [**Creating Grafana Annotations with InfluxDB**](https://maxchadwick.xyz/blog/grafana-influxdb-annotations): Nice short article by Max Chadwick showing how to quickly add InfluxDB as a source for Grafana annotations.
 
 <hr />
 <br />
@@ -48,7 +50,7 @@ This week's MVC highlights what is great about Open Source software.
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<strong><a href="https://github.com/reyjrar" target="_blank">ericslaw</a> (Brad Lhotsky)</strong><br/>
-				ericslaw submitted his first PR to a public project this past week. Speaking from personal experiencing, submitting even the smallest PR can feel daunting, and and we were lucky that he chose Grafana. Even the smallest contributions, like Eric fixing a bogus link within our templating docs has big impact. 
+				ericslaw submitted his first PR to a public project this past week. Speaking from personal experiencing, submitting even the smallest PR can feel daunting, and and we were lucky that he chose Grafana. Even the smallest contributions, like Eric fixing a bogus link within our templating docs has big impact.
 			</p>
 		</div>
 	</div>
