@@ -1,7 +1,7 @@
 +++
 title = "timeShift(GrafanaBuzz, 1w) Issue 10"
 author = "trent"
-date = "2017-08-18"
+date = "2017-08-25"
 keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
 cover_image = "/assets/img/blog/timeshift/timeshift_10.jpg"
 cover_opacity = "0.4"
