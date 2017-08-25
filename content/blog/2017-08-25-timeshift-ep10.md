@@ -6,7 +6,7 @@ keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
 cover_image = "/assets/img/blog/timeshift/timeshift_10.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
-description = "A roundup of articles and links form Grafana and the community from the past week"
+description = "A weekly roundup of articles and links from Grafana and the community"
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
