@@ -31,7 +31,7 @@ Last week we mentioned that our colleague Carl Bergquist spoke at PromCon 2017 i
 
 [**Visualize with RRDtool x Grafana**](http://qiita.com/atfujiwara/items/8326560944bdb11ac6c8): Atfujiwara wanted to update his MRTG graphs from RRDtool. This post talks about the components needed and how he connected RRDtool to Grafana.
 
-[**Huawei OceanStor metrics in Grafana**](https://blog.kruyt.org/oceanstor_grafana/): Dennis is using Grafana to display metrics for his storage devices. In this post he walks you through the setup and provides a comprehensive dashbord for all the metrics.
+[**Huawei OceanStor metrics in Grafana**](https://blog.kruyt.org/oceanstor_grafana/): Dennis is using Grafana to display metrics for his storage devices. In this post he walks you through the setup and provides a comprehensive dashboard for all the metrics.
 
 [**Grafana on a Raspberry Pi2**](https://tech.scargill.net/grafana-and-influxdb/): Pete discusses how he uses Grafana with his garden sensors, and walks you through how to get it up and running on a Pi2.
 
@@ -147,7 +147,7 @@ This week was pretty active on the plugin front. Today we're announcing two bran
 <br />
 
 <h4>This week's MVC (Most Valuable Contributor)</h4>
-Each week we highlight a contributer to Grafana or the surrounding ecosystem as a thank you for their participation in making open source software great.
+Each week we highlight a contributor to Grafana or the surrounding ecosystem as a thank you for their participation in making open source software great.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
