@@ -21,7 +21,7 @@ September is here and summer is officially drawing to a close, but the Grafana t
 		<div class="col col--sm-8 blog-plugin-grid__item">
 			<h4>GrafanaCon EU CFP is Open</h4>
 			<p>
-				Have a big idea to share? Have a shorter talk or a demo you'd like to show off? <br />We're looking for 40min detailed talks, 20 minute general talks and 10 minute lightning talks. We have a perfect slot for any type of talk.
+				Have a big idea to share? Have a shorter talk or a demo you'd like to show off? <br />We're looking for 40min detailed talks, 20 minute general talks and 10 minute lightning talks. We have a perfect slot for any type of content.
 				<br />
 				<br />
 			</p>
@@ -32,7 +32,13 @@ September is here and summer is officially drawing to a close, but the Grafana t
 	</div>
 </div>
 
-<hr />
+<br />
+<div style=" padding: 20px; background: url(/assets/img/blog/timeshift/polygon_texture_black.jpg); background-size: cover; border-radius: 4px;">
+	<h4>Grafana Labs is Hiring!</h4>
+	<p>Do you believe in open source software? Build the future with us, and ship code.</p>
+	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_11">open positions</a></p>
+</div>
+
 <br />
 
 #### From the Blogosphere
@@ -141,9 +147,6 @@ We scour Twitter each week to find an interesting/beautiful dashboard and show i
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The advanced <a href="https://twitter.com/hashtag/KSQL?src=hash">#KSQL</a> Demo <a href="https://t.co/4ifWJzXhu2">https://t.co/4ifWJzXhu2</a> links <a href="https://twitter.com/hashtag/Kafka?src=hash">#Kafka</a>, <a href="https://twitter.com/hashtag/Elasticsearch?src=hash">#Elasticsearch</a>, <a href="https://twitter.com/hashtag/Grafana?src=hash">#Grafana</a> - good <a href="https://twitter.com/confluentinc">@confluentinc</a> is not content with HelloWorld 👀 <a href="https://t.co/RN4kDkxUuR">pic.twitter.com/RN4kDkxUuR</a></p>&mdash; Alex Hafner (@alexhafner) <a href="https://twitter.com/alexhafner/status/902887343614558208">August 30, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<hr />
-<br />
 
 
 <hr />
