@@ -21,7 +21,7 @@ September is here and summer is officially drawing to a close, but the Grafana t
 		<div class="col col--sm-8 blog-plugin-grid__item">
 			<h4>GrafanaCon EU CFP is Open</h4>
 			<p>
-				Have a big idea to share? Have a shorter talk or a demo you'd like to show off? <br />We're looking for 40min detailed talks, 20 minute general talks and 10 minute lightning talks. We have a perfect slot for any type of content.
+				Have a big idea to share? Have a shorter talk or a demo you'd like to show off? <br />We're looking for 40-minute detailed talks, 20-minute general talks and 10-minute lightning talks. We have a perfect slot for any type of content.
 				<br />
 				<br />
 			</p>
@@ -48,7 +48,7 @@ September is here and summer is officially drawing to a close, but the Grafana t
 
 [**Visualizing CloudWatch with Grafana**](http://dev.classmethod.jp/cloud/aws/visualizing-cloudwatch-with-grafana/): Yuzo put together an article outlining his first experience adding a CloudWatch data source in Grafana, importing his first dashboard, then comparing the graphs between Grafana and CloudWatch.
 
-[**Monitoring Linux performance with Grafana**](https://opensource.com/article/17/8/linux-grafana): Jim wanted to monitor his CentOS home router to get network traffic and disk usage stats, but wanted to try soemthing different than his previous cacti monitoring. This walkthrough shows how he set things up to collect, store and visualize the data.
+[**Monitoring Linux performance with Grafana**](https://opensource.com/article/17/8/linux-grafana): Jim wanted to monitor his CentOS home router to get network traffic and disk usage stats, but wanted to try something different than his previous cacti monitoring. This walkthrough shows how he set things up to collect, store and visualize the data.
 
 [**Visualizing Jenkins Pipeline Results in Grafana**](https://piotrminkowski.wordpress.com/2017/08/29/visualizing-jenkins-pipeline-results-in-grafana/): Piotr provides a walkthrough of his setup and configuration to view Jenkins build results for his continuous delivery environment in Grafana.
 
@@ -86,7 +86,7 @@ This week we've added a plugin for the new time series database Sidewinder, and 
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>Carpet Plot Panel</strong> - This plugin received an <a href="https://grafana.com/plugins/petrslavotinek-carpetplot-panel?utm_source=blog&utm_campaign=timeshift_11" target="_blank">update</a> which includes the following features and fixes:
+				<strong>Carpet Plot Panel</strong> - This plugin received an <a href="https://grafana.com/plugins/petrslavotinek-carpetplot-panel?utm_source=blog&utm_campaign=timeshift_11" target="_blank">update</a>, which includes the following features and fixes:
 				<ul>
 					<li>New aggregate functions: Min, Max, First, Last</li>
 					<li>Possibility to invert color scheme</li>
