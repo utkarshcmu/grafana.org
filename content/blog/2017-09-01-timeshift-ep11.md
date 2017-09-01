@@ -63,7 +63,7 @@ This week we've added a plugin for the new time series database Sidewinder, and 
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
-				<strong>Sidewinder Data Source</strong> - This is a data source plugin for the new <a href="https://grafana.com/plugins/sidewinder-datasource?utm_source=blog&utm_campaign=timeshift_11" target="_blank">Sidewinder</a> database. Sidewinder is an open source fast time series database designed for real-time analytics. It can be used for a variety of usage cases that need storage of metrics data like APM and IoT.
+				<strong>Sidewinder Data Source</strong> - This is a data source plugin for the new <a href="https://grafana.com/plugins/sidewinder-datasource?utm_source=blog&utm_campaign=timeshift_11" target="_blank">Sidewinder</a> database. Sidewinder is an open source, fast time series database designed for real-time analytics. It can be used for a variety of use cases that need storage of metrics data like APM and IoT.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/sidewinder-datasource?utm_source=blog&utm_campaign=timeshift_11" target="_blank"><strong>Install Now</strong></a>
