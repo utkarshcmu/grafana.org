@@ -36,11 +36,13 @@ September is here and summer is officially drawing to a close, but the Grafana t
 <br />
 
 #### From the Blogosphere
-[**Zabbix, Grafana and Python, a Match Made in Heaven**](https://www.linkedin.com/pulse/zabbix-grafana-python-match-made-heaven-david-ribeiro-lopes): David's article, published earlier this year, hits on some great points about open source software, and how you don't have to spend much (or any) money to get valuable monitoring for your infrastructure. It also mentions our friend and colleague Alex Zobnin's <a href="https://github.com/alexanderzobnin/grafana-zabbix?utm_source=blog&utm_campaign=timeshift_11">Zabbix Plugin</a> for Grafana.
+[**Zabbix, Grafana and Python, a Match Made in Heaven**](https://www.linkedin.com/pulse/zabbix-grafana-python-match-made-heaven-david-ribeiro-lopes): David's article, published earlier this year, hits on some great points about open source software and how you don't have to spend much (or any) money to get valuable monitoring for your infrastructure.
 
-[**Visualizing CloudWatch with Grafana**](http://dev.classmethod.jp/cloud/aws/visualizing-cloudwatch-with-grafana/): Yuzo put together an article outlining his first experience adding a CloudWatch datasource in Grafana, importing his first dashboard, then comparing the graphs between Grafana and CloudWatch.
+[**The Business of Democratizing Metrics**](https://www.packet.net/customers/grafana/): Our friends over at <a href="https://www.packet.net/" target="_blank">Packet</a> stopped by the office recently to sit down and chat with the Grafana Labs co-founders. They discussed how Grafana started, how monitoring has evolved, and democratizing metrics.
 
-[**Monitoring Linux performance with Grafana**](https://opensource.com/article/17/8/linux-grafana): Jim wanted monitor his CentOS home router, to get network traffic and disk usage stats, but wanted to try soemthing different than his previous cacti monitoring. This walkthrough shows how he set things up to collect, store and visualize the data.
+[**Visualizing CloudWatch with Grafana**](http://dev.classmethod.jp/cloud/aws/visualizing-cloudwatch-with-grafana/): Yuzo put together an article outlining his first experience adding a CloudWatch data source in Grafana, importing his first dashboard, then comparing the graphs between Grafana and CloudWatch.
+
+[**Monitoring Linux performance with Grafana**](https://opensource.com/article/17/8/linux-grafana): Jim wanted to monitor his CentOS home router to get network traffic and disk usage stats, but wanted to try soemthing different than his previous cacti monitoring. This walkthrough shows how he set things up to collect, store and visualize the data.
 
 [**Visualizing Jenkins Pipeline Results in Grafana**](https://piotrminkowski.wordpress.com/2017/08/29/visualizing-jenkins-pipeline-results-in-grafana/): Piotr provides a walkthrough of his setup and configuration to view Jenkins build results for his continuous delivery environment in Grafana.
 
