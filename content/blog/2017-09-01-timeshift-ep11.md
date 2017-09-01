@@ -36,7 +36,7 @@ September is here and summer is officially drawing to a close, but the Grafana t
 <div style=" padding: 20px; background: url(/assets/img/blog/timeshift/polygon_texture_black.jpg); background-size: cover; border-radius: 4px;">
 	<h4>Grafana Labs is Hiring!</h4>
 	<p>Do you believe in open source software? Build the future with us, and ship code.</p>
-	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_11">open positions</a></p>
+	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_11" target="_blank">open positions</a></p>
 </div>
 
 <br />
