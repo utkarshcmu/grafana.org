@@ -3,14 +3,13 @@ title = "timeShift(GrafanaBuzz, 1w) Issue 12"
 author = "trent"
 date = "2017-09-08"
 keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
-cover_image = "/assets/img/blog/timeshift/timeshift_11.jpg"
 cover_opacity = "0.9"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-September is here and summer is officially drawing to a close, but the Grafana team has stayed busy. We're prepping for an upcoming Grafana 4.5 release, had some new and updated plugins, and would like to thank two contributors for fixing a non-obvious bug. Also - The <a href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_11" target="_blank">CFP for GrafanaCon EU</a> is open, and we'd like you to speak!
+Welcome to another timeShift. This week, we highlight Prometheus and the videos from PromCon 2017 and have a bunch of plugin updates to show off. Also, don't forget to <a href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_12" target="_blank">submit your topic</a> to speak at GrafanaCon EU, and check out the <a href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_12" target="_blank">positions</a> we're looking to fill at Grafana Labs! 
 <br />
 <hr />
 #### Latest Release
@@ -37,6 +36,8 @@ To see the full [changelog](https://community.grafana.com/t/release-notes-for-gr
 
 [**The Web Performance Team at the Wikimedia Foundation!**](https://www.peterhedenskog.com/blog/2017/05/join-the-web-performance-team-at-wikimedia/): We're fascinated by the number of <a href="https://grafana.wikimedia.org/?orgId=1" target="_blank">dashboards</a> Wikimedia shares publicly. They were recently searching for someone to join their web performance team, and provided a ton of insight into what they collect and why it's important. A really interetsting read.
 
+[**Reducing API Overhead by 70% with Prometheus and Grafana**](https://blog.algorithmia.com/reducing-api-overhead-with-prometheus-and-grafana/): In this article, Patrick outlines how Algorithmia updated their monitoring stack to add flexibility and power and save time building dashboards and alerting.
+
 [**PromCon 2017: Grafana and Prometheus - Carl Bergquist**](https://www.youtube.com/watch?v=PDpP1uX_orE): A few issues ago we linked Grafana Labs developer, Carl Bergquist's PromCon 2017 <a href="https://docs.google.com/presentation/d/1NTYA6J7qZNhJlFEzaBOB-jVzVAGS8C5etJflAjXvVec/edit#slide=id.p" target="_blank">slide deck</a>. Now that all the videos are online, you can watch <a href="https://www.youtube.com/watch?v=PDpP1uX_orE" target="_blank">his presentation</a>, and check out the rest of the videos <a href="https://www.youtube.com/watch?v=4Pr-z8-r1eo&list=PLoz-W_CUquUlnvoEBbqChb7A0ZEZsWSXt" target="_blank">here</a>.
 
 [**Building a LoRaWAN Enabled Bat Detector**](https://www.rs-online.com/designspark/building-a-lorawan-enabled-bat-detector): We've seen Batman <a href="https://twitter.com/vpetersson/status/898472680042754048/photo/1?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Flocalhost%3A3002%2F2017%2F08%2F18%2Ftimeshiftgrafanabuzz-1w-issue-9%2F" target="_blank">pop up</a> a <a href="https://twitter.com/cubeeek/status/900035936553250816/photo/1?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Flocalhost%3A3002%2F2017%2F08%2F25%2Ftimeshiftgrafanabuzz-1w-issue-10%2F" target="_blank">a few times</a> in graphs recently, but this article is about tracking a different kind of bat – using a custom-built solar powered bat detector and Grafana.
@@ -46,43 +47,129 @@ To see the full [changelog](https://community.grafana.com/t/release-notes-for-gr
 <br />
 
 #### Grafana Plugins
-Plugins extend your Grafana, allowing you to connect to new data sources, add additional graph panels and install applications directly into Grafana. We currently offer 85 plugins to our growing list.  If you're using Grafana on-prem, the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Grafana-cli</a> will take care of installation. For <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Hosted Grafana</a>, simply use the one-click install.
-
-
+We're always excited to announce updates to our exiting plugins, and this week we have a bunch! Updating plugins is easy. If you have an on-prem Grafana, the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Grafana-cli</a> will take care of the upgrade. For <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Hosted Grafana</a>, use the one-click upgrade button.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
 		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 0;" src="https://grafana.com/api/plugins/sidewinder-datasource/versions/0.0.1/logos/large" />
+			<img style="border-radius: 0;" src="https://grafana.com/api/plugins/vonage-status-panel/versions/1.0.5/logos/large" />
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
-				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
-				<strong>Sidewinder Data Source</strong> - This is a data source plugin for the new <a href="https://grafana.com/plugins/sidewinder-datasource?utm_source=blog&utm_campaign=timeshift_11" target="_blank">Sidewinder</a> database. Sidewinder is an open source, fast time series database designed for real-time analytics. It can be used for a variety of use cases that need storage of metrics data like APM and IoT.
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong><a href="https://grafana.com/plugins/vonage-status-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Status Panel</a></strong> - The Status Panel got a lot of updates in the latest version. Here are just some of the updates:
+				<ul>
+				<li>Added an option to use the default grafana background rather than the green OK state colour.</li>
+				<li>Regex filtering bug fix</li>
+				<li>Units of Measure, Decimals and Date formatting</li>
+				<li>Ability to select preferred ok/warn/crit/disable colours and an option to apply colouring to either Background, Text or not at all.</li>
+				</ul>
+				<br />
+				When upgrading there might be some changes in the data the plugin uses and saves, so some of the configurations you made might be removed by accident. To prevent this loss of configuration you should save the panel JSON of all panels you have (by exporting the panel or dashboards) and keep them somewhere safe until you made sure everything is working after the upgrade.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/sidewinder-datasource?utm_source=blog&utm_campaign=timeshift_11" target="_blank"><strong>Install Now</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/vonage-status-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank"><strong>Install Now</strong></a>
 			</p>
 		</div>
 	</div>
 </div>
 
+<div class="blog-plugin">
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/petrslavotinek-carpetplot-panel/versions/0.0.4/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong><a href="https://grafana.com/plugins/petrslavotinek-carpetplot-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Carpet Plot Panel</a></strong> - This plugin received a small update - adds support for the Grafana feature "Override relative time".</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/petrslavotinek-carpetplot-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank"><strong>Install Now</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="blog-plugin">
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/btplc-trend-box-panel/versions/0.1.1/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong><a href="https://grafana.com/plugins/btplc-trend-box-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Trend Box Panel</a></strong> - BT plc has updated all their plugins. For the Trend Box panel, the latest version adds support for a drilldown link for the entire panel.</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/btplc-trend-box-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank"><strong>Install Now</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="blog-plugin">
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/btplc-status-dot-panel/versions/0.1.1/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong><a href="https://grafana.com/plugins/btplc-status-dot-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Status Dot Panel</a></strong> - Similar to the other BT plc panels, the Alarm Box Panel now supports adding a drilldown link for the entire panel.</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/btplc-status-dot-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank"><strong>Install Now</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="blog-plugin">
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/btplc-alarm-box-panel/versions/0.2.1/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong><a href="https://grafana.com/plugins/btplc-alarm-box-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Alarm Box Panel</a></strong> - For the Status Dot Panel, the drilldown link support is per dot and allows you to specify the link for each dot using variables derived from the name of its series.</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/btplc-alarm-box-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank"><strong>Install Now</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="blog-plugin">
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/btplc-peak-report-panel/versions/0.1.1/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong><a href="https://grafana.com/plugins/btplc-peak-report-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Peak Report Panel</a></strong> - The Peak Report Panel is also a BT plc plugin and it has also got an update. In the new version, the options tab has some style improvements.</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/btplc-peak-report-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank"><strong>Install Now</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
 
 <hr />
 <br />
 
 <h4>This week's MVC (Most Valuable Contributor)</h4>
-This week we want to thank two contributors who worked together to fix a [non-obvious bug](https://github.com/grafana/grafana/issues/8604) in the new MySQL data source (a bug with sorting values in the legend). 
+Each week we like to thank a member of the community who has recently contributed to the Grafana project.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
 		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img class="mvc" src="https://avatars1.githubusercontent.com/u/363662?v=4&s=460" />
+			<img class="mvc" src="https://avatars1.githubusercontent.com/u/224552?v=4&s=460" />
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
-				<strong><a href="https://github.com/ericslaw" target="_blank">ericslaw</a></strong><br/>
-				ericslaw submitted his first PR to a public project this past week. Speaking from personal experience, submitting a PR can feel daunting and and we were lucky that he chose Grafana. Even the smallest contributions, like Eric fixing a bogus link within our templating has big impact.
+				<strong><a href="https://github.com/mtanda" target="_blank">Mitsuhiro Tanda</a></strong><br/>
+				This week we have to thank mtanda once again. During the last week, we have merged 4 Pull Requests from mtanda - <a href="https://github.com/grafana/grafana/pull/9167" target="_blank">#9167</a>, <a href="https://github.com/grafana/grafana/pull/9182" target="_blank">#9182</a>, <a href="https://github.com/grafana/grafana/pull/9201" target="_blank">#9201</a> and <a href="https://github.com/grafana/grafana/pull/9202" target="_blank">#9202</a>. Amazing work!
+
 			</p>
 		</div>
 	</div>
@@ -116,11 +203,11 @@ This week we want to thank two contributors who worked together to fix a [non-ob
 
 #### Tweet of the Week
 We scour Twitter each week to find an interesting/beautiful dashboard and show it off! <a href="https://twitter.com/hashtag/monitoringlove?src=hash" target="_blank">#monitoringLove</a>
-<p>Nice! Combining different panel types on a dashboard can add more context to your data - Looks like a very functional dashboard.</p>
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The advanced <a href="https://twitter.com/hashtag/KSQL?src=hash">#KSQL</a> Demo <a href="https://t.co/4ifWJzXhu2">https://t.co/4ifWJzXhu2</a> links <a href="https://twitter.com/hashtag/Kafka?src=hash">#Kafka</a>, <a href="https://twitter.com/hashtag/Elasticsearch?src=hash">#Elasticsearch</a>, <a href="https://twitter.com/hashtag/Grafana?src=hash">#Grafana</a> - good <a href="https://twitter.com/confluentinc">@confluentinc</a> is not content with HelloWorld 👀 <a href="https://t.co/RN4kDkxUuR">pic.twitter.com/RN4kDkxUuR</a></p>&mdash; Alex Hafner (@alexhafner) <a href="https://twitter.com/alexhafner/status/902887343614558208">August 30, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hey look, with Grafana and a few outdoor hue sensors I can see that it is hot as hell at my house.   <a href="https://twitter.com/hashtag/captainobvious?src=hash">#captainobvious</a> <a href="https://t.co/k670Toocll">pic.twitter.com/k670Toocll</a></p>&mdash; Blaine Christian (@joltcola) <a href="https://twitter.com/joltcola/status/903750632649003008">September 1, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<p>Here's hoping Fall comes early for you!</p>
+<br />
+<hr />
 <br />
 <div style=" padding: 20px; background: url(/assets/img/blog/timeshift/polygon_texture_black.jpg); background-size: cover; border-radius: 4px;">
 	<h4>Grafana Labs is Hiring!</h4>
@@ -131,9 +218,9 @@ We scour Twitter each week to find an interesting/beautiful dashboard and show i
 <hr />
 <br />
 #### What do you think?
-Let us know how we're doing! Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_11). Help us make these roundups better and better!
+We're always interested in how we can improve our weekly roundups. Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_12). Help us make these roundups better and better!
 
-Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_11).
+Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_12).
 
 
 
