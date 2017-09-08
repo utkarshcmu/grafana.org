@@ -13,7 +13,7 @@ Welcome to another timeShift. This week, we highlight Prometheus and the videos 
 <br />
 <hr />
 #### Latest Release
-**Grafana v4.5 is** <strong><a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_12" target="_blank">available for download</a>.</strong>
+**Grafana v4.5.0-beta1 is** <strong><a href="https://grafana.com/grafana/download/4.5.0-beta1?utm_source=blog&utm_campaign=timeshift_12" target="_blank">available for download</a>.</strong>
 We have some exciting new features to share with you in this release, including:
 
 - New Prometheus Query Editor with syntax highlighting, autocomplete, and integrated function docs directly in the editor.
@@ -25,7 +25,7 @@ We have some exciting new features to share with you in this release, including:
 
 To see the full [changelog](https://community.grafana.com/t/release-notes-for-grafana-v4-5-0/2573/?utm_source=blog&utm_campaign=timeshift_8), head over to our community site.
 
-<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_12" target="_blank" class="btn btn--primary">Download Grafana 4.5 Now</a>
+<a href="https://grafana.com/grafana/download/4.5.0-beta1?utm_source=blog&utm_campaign=timeshift_12" target="_blank" class="btn btn--primary">Download Grafana 4.5 Beta Now</a>
 
 <hr />
 <br />
