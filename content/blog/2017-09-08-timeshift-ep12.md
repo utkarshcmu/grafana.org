@@ -14,7 +14,7 @@ Welcome to another timeShift. This week, we highlight Prometheus and the videos 
 <hr />
 #### Latest Release
 **Grafana v4.5** is <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_12" target="_blank">available for download</a>.
-We have some exciting new featuers to share with you in this release, including:
+We have some exciting new features to share with you in this release, including:
 
 - New Prometheus Query Editor with syntax highlighting, autocomplete, and integrated function docs directly in the editor.
 - Add Ad-hoc Filters directly from the Table Panel (Elasticsearch only)
@@ -34,7 +34,7 @@ To see the full [changelog](https://community.grafana.com/t/release-notes-for-gr
 #### From the Blogosphere
 [**Monitoring Using Prometheus**](https://rahulwa.com/post/monitoring-using-prometheus/): Rahul walks us through all of the necessary pieces to stand up a Prometheus monitoring stack and provides links to a few <a href="https://grafana.com/dashboards/22?utm_source=blog&utm_campaign=timeshift_12" target="_blank">pre-made</a> Grafana <a href="https://grafana.com/dashboards/405?utm_source=blog&utm_campaign=timeshift_12" target="_blank">dashboards</a> so you can start visualizing those metrics quickly and easily.
 
-[**The Web Performance Team at the Wikimedia Foundation!**](https://www.peterhedenskog.com/blog/2017/05/join-the-web-performance-team-at-wikimedia/): We're fascinated by the number of <a href="https://grafana.wikimedia.org/?orgId=1" target="_blank">dashboards</a> Wikimedia shares publicly. They were recently searching for someone to join their web performance team, and provided a ton of insight into what they collect and why it's important. A really interetsting read.
+[**The Web Performance Team at the Wikimedia Foundation!**](https://www.peterhedenskog.com/blog/2017/05/join-the-web-performance-team-at-wikimedia/): The number of <a href="https://grafana.wikimedia.org/?orgId=1" target="_blank">dashboards</a> Wikimedia shares publicly is awesome. They were recently searching for someone to join their web performance team, and provided a ton of insight into what they collect and why it's important. A really interesting read.
 
 [**Reducing API Overhead by 70% with Prometheus and Grafana**](https://blog.algorithmia.com/reducing-api-overhead-with-prometheus-and-grafana/): In this article, Patrick outlines how Algorithmia updated their monitoring stack to add flexibility and power and save time building dashboards and alerting.
 
@@ -59,10 +59,10 @@ We're always excited to announce updates to our exiting plugins, and this week w
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
 				<strong><a href="https://grafana.com/plugins/vonage-status-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Status Panel</a></strong> - The Status Panel got a lot of updates in the latest version. Here are just some of the updates:
 				<ul>
-				<li>Added an option to use the default grafana background rather than the green OK state colour.</li>
+				<li>Added an option to use the default Grafana background rather than the green OK state color.</li>
 				<li>Regex filtering bug fix</li>
 				<li>Units of Measure, Decimals and Date formatting</li>
-				<li>Ability to select preferred ok/warn/crit/disable colours and an option to apply colouring to either Background, Text or not at all.</li>
+				<li>Ability to select preferred ok/warn/crit/disable colours and an option to apply coloring to either Background, Text or not at all.</li>
 				</ul>
 				<br />
 				When upgrading there might be some changes in the data the plugin uses and saves, so some of the configurations you made might be removed by accident. To prevent this loss of configuration you should save the panel JSON of all panels you have (by exporting the panel or dashboards) and keep them somewhere safe until you made sure everything is working after the upgrade.
@@ -206,7 +206,6 @@ We scour Twitter each week to find an interesting/beautiful dashboard and show i
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hey look, with Grafana and a few outdoor hue sensors I can see that it is hot as hell at my house.   <a href="https://twitter.com/hashtag/captainobvious?src=hash">#captainobvious</a> <a href="https://t.co/k670Toocll">pic.twitter.com/k670Toocll</a></p>&mdash; Blaine Christian (@joltcola) <a href="https://twitter.com/joltcola/status/903750632649003008">September 1, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>Here's hoping Fall comes early for you!</p>
-<br />
 <hr />
 <br />
 <div style=" padding: 20px; background: url(/assets/img/blog/timeshift/polygon_texture_black.jpg); background-size: cover; border-radius: 4px;">
