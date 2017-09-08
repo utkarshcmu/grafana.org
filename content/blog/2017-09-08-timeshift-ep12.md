@@ -13,7 +13,7 @@ Welcome to another timeShift. This week, we highlight Prometheus and the videos 
 <br />
 <hr />
 #### Latest Release
-**Grafana v4.5** is <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_12" target="_blank">available for download</a>.
+**Grafana v4.5 is** <strong><a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_12" target="_blank">available for download</a>.</strong>
 We have some exciting new features to share with you in this release, including:
 
 - New Prometheus Query Editor with syntax highlighting, autocomplete, and integrated function docs directly in the editor.
@@ -21,7 +21,7 @@ We have some exciting new features to share with you in this release, including:
 - Table cells can now be links to generate a URL to another dashboard or system.
 - View raw metric requests and responses from within the Grafana UI through our new Integrated Query Inspector.
 - New MySQL query editor with syntax highlighting and support for more data types!
-- Graphite v1.0 functions to the Graphite query editor
+- Graphite v1.0 functions added to the Graphite query editor
 
 To see the full [changelog](https://community.grafana.com/t/release-notes-for-grafana-v4-5-0/2573/?utm_source=blog&utm_campaign=timeshift_8), head over to our community site.
 
@@ -47,7 +47,7 @@ To see the full [changelog](https://community.grafana.com/t/release-notes-for-gr
 <br />
 
 #### Grafana Plugins
-We're always excited to announce updates to our exiting plugins, and this week we have a bunch! Updating plugins is easy. If you have an on-prem Grafana, the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Grafana-cli</a> will take care of the upgrade. For <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Hosted Grafana</a>, use the one-click upgrade button.
+We're always excited to announce updates to our existing plugins, and this week we have a bunch! Updating plugins is easy. If you have an on-prem Grafana, the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Grafana-cli</a> will take care of the upgrade. For <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Hosted Grafana</a>, use the one-click upgrade button.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
@@ -57,15 +57,15 @@ We're always excited to announce updates to our exiting plugins, and this week w
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/vonage-status-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Status Panel</a></strong> - The Status Panel got a lot of updates in the latest version. Here are just some of the updates:
+				<strong><a href="https://grafana.com/plugins/vonage-status-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Status Panel</a></strong> - The Status Panel got a lot of updates in the latest version. Here are just some of them:
 				<ul>
 				<li>Added an option to use the default Grafana background rather than the green OK state color.</li>
 				<li>Regex filtering bug fix</li>
 				<li>Units of Measure, Decimals and Date formatting</li>
-				<li>Ability to select preferred ok/warn/crit/disable colours and an option to apply coloring to either Background, Text or not at all.</li>
+				<li>Ability to select preferred ok/warn/crit/disable colors and an option to apply coloring to either Background, Text or not at all.</li>
 				</ul>
 				<br />
-				When upgrading there might be some changes in the data the plugin uses and saves, so some of the configurations you made might be removed by accident. To prevent this loss of configuration you should save the panel JSON of all panels you have (by exporting the panel or dashboards) and keep them somewhere safe until you made sure everything is working after the upgrade.
+				When upgrading there might be some changes in the data the plugin uses and saves, so some of the configurations you make might be removed by accident. To prevent this loss of configuration you should save the panel JSON of all panels you have (by exporting the panel or dashboards) and keep them somewhere safe until you made sure everything is working after the upgrade.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/vonage-status-panel?utm_source=blog&utm_campaign=timeshift_12" target="_blank"><strong>Install Now</strong></a>
@@ -210,7 +210,7 @@ We scour Twitter each week to find an interesting/beautiful dashboard and show i
 <br />
 <div style=" padding: 20px; background: url(/assets/img/blog/timeshift/polygon_texture_black.jpg); background-size: cover; border-radius: 4px;">
 	<h4>Grafana Labs is Hiring!</h4>
-	<p>We are passionate about open source software and thrive on tackling complex challenges to build the future. We ship code from every corner of the globe and love working with the community. If any of this sounds like you you're in luck – <br /><strong>WE'RE HIRING!</strong></p>
+	<p>We are passionate about open source software and thrive on tackling complex challenges to build the future. We ship code from every corner of the globe and love working with the community. If any of this sounds like you you're in luck – <strong>WE'RE HIRING!</strong></p>
 	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_12" target="_blank">Open Positions</a></p>
 </div>
 
