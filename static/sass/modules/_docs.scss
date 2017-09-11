@@ -195,6 +195,13 @@ $docs-subheader-bg-color: transparent;
   width: 50%;
   float: right;
   margin-left: 1rem;
+
+  &--center {
+    float: none;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @include at-least(small) {

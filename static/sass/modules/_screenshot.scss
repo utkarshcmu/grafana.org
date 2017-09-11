@@ -20,6 +20,10 @@
     .screenshot__still {
       display: none;
     }
+
+    .screenshot__play {
+      display: none;
+    }
   }
 
   &--round {
@@ -60,8 +64,11 @@
     -o-transition: opacity 0.3s ease 0s;
     transition: opacity 0.3s ease 0s;
   }
+}
 
+.screenshot__play {
   .fa-play {
+    opacity: 0.35;
     font-size: $font-size-kilo;
     color: $white;
     position: absolute;
@@ -70,3 +77,4 @@
     transform: translate(-50%, -50%);
   }
 }
+
