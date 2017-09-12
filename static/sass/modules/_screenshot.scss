@@ -8,6 +8,14 @@
   box-shadow: 0px 0px 20px #111;
   margin-bottom: $spacer;
 
+  img {
+    display: block;
+  }
+
+  .screenshot__animated-gif {
+    display: none;
+  }
+
   &:hover {
     .screenshot__zoom > img {
       opacity: 1;
@@ -46,11 +54,6 @@
     box-shadow: none;
   }
 }
-
-.screenshot__animated-gif {
-  display: none;
-}
-
 
 .screenshot__zoom {
   > img {
