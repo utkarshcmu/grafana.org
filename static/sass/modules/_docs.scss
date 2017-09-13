@@ -215,6 +215,12 @@ $docs-subheader-bg-color: transparent;
       width: 80%;
       margin: 0 auto;
     }
+
+    &--block {
+      display: block;
+      float: none;
+      width: 80%;
+    }
   }
 }
 

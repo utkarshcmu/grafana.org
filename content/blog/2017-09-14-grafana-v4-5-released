@@ -1,0 +1,23 @@
++++
+title = "Grafana 4.5 Release"
+author = "torkel"
+date = "2017-09-13"
+keywords = ["Grafana", "Blog", "v4.4"]
+cover_opacity = "0.6"
+cover_blur = "1px"
+description = "Grafana 4.5 Release Highlights"
+categories = ["Grafana", "Release"]
+draft = true
++++
+
+Grafana v4.5 is now [available for download](https://grafana.com/grafana/download).
+
+## Release Highlights
+
+## Download
+
+Head to the [v4.5 download page](https://grafana.com/grafana/download) for download links & instructions.
+
+## Thanks
+
+A big thanks to all the Grafana users who contribute by submitting PRs, bug reports, helping out on our [community site](https://community.grafana.com/) and providing feedback!
