@@ -192,15 +192,29 @@ $docs-subheader-bg-color: transparent;
 
 
 .docs-image {
-  width: 50%;
-  float: right;
-  margin-left: 1rem;
+  display: block;
 
-  &--center {
-    float: none;
-    display: block;
-    width: 80%;
-    margin: 0 auto;
+  &--no-shadow {
+    .screenshot {
+      box-shadow: none;
+      border: none;
+    }
+  }
+}
+
+@include at-least(medium) {
+  .docs-image {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    margin-left: 1rem;
+
+    &--center {
+      float: none;
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+    }
   }
 }
 
