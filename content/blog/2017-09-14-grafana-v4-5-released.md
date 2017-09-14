@@ -7,7 +7,6 @@ cover_opacity = "0.6"
 cover_blur = "1px"
 description = "Grafana 4.5 Release Highlights"
 categories = ["Grafana", "Release"]
-draft = true
 +++
 
 Grafana v4.5 is now [available for download](https://grafana.com/grafana/download). This release has some really significant improvements to Prometheus, Elasticsearch, MySQL and to the Table panel.
