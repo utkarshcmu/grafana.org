@@ -203,24 +203,10 @@ $docs-subheader-bg-color: transparent;
 }
 
 @include at-least(medium) {
-  .docs-image {
-    display: inline-block;
+  .docs-image--right {
     width: 50%;
     float: right;
     margin-left: 1rem;
-
-    &--center {
-      float: none;
-      display: block;
-      width: 80%;
-      margin: 0 auto;
-    }
-
-    &--block {
-      display: block;
-      float: none;
-      width: auto;
-    }
   }
 }
 

@@ -29,7 +29,7 @@ The table panel has many ways to manipulate your data for optimal presentation.
 
 ## Data to Table
 
-{{< docs-imagebox img="/img/docs/v45/table_data_options.png" max-width="500px">}}
+{{< docs-imagebox img="/img/docs/v45/table_data_options.png" max-width="500px" class="docs-image--right" >}}
 
 The data section contains the **To Table Transform (1)**. This is the primary option for how your data/metric
 query should be transformed into a table format.  The **Columns (2)** option allows you to select what columns
