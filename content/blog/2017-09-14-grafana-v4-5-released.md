@@ -20,16 +20,21 @@ The new query editor has full syntax highlighting. As well as auto complete for 
 
 ### Elasticsearch: Add ad-hoc filters from the table panel
 
-![](/img/docs/v45/elastic_ad_hoc_filters.png)
+{{< docs-imagebox img="/img/docs/v45/elastic_ad_hoc_filters.png" >}}
 
 ### Table cell links!
-Create column styles that turn cells into links that use the value in the cell  (or other other row values) to generate a url to another dashboard or system:
-![](/img/docs/v45/table_links.jpg)
+
+Create column styles that turn cells into links that use the value in the cell  (or other other row values) to generate a url to another dashboard or system. Useful for
+using the table panel as way to drilldown into dashboard with more detail or to ticket system for example.
+
+{{< docs-imagebox img="/img/docs/v45/table_links.jpg" >}}
 
 ### Query Inspector
+
 Query Inspector is a new feature that shows query requests and responses. This can be helpful if a graph is not shown or shows something very different than what you expected.
 More information [here](https://community.grafana.com/t/using-grafanas-query-inspector-to-troubleshoot-issues/2630).
-![](/img/docs/v45/query_inspector.png)
+
+{{< docs-imagebox img="/img/docs/v45/query_inspector.png" >}}
 
 ## Changelog
 
@@ -66,6 +71,7 @@ Datas source selection & options & help are now above your metric queries.
 
 * **Modals**: Maintain scroll position after opening/leaving modal [#8800](https://github.com/grafana/grafana/issues/8800)
 * **Templating**: You cannot select data source variables as data source for other template variables [#7510](https://github.com/grafana/grafana/issues/7510)
+* **Security**: Security fix for api vulnerability (in multiple org setups).
 
 ## Download
 
