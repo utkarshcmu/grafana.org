@@ -192,7 +192,7 @@ $docs-subheader-bg-color: transparent;
 
 
 .docs-image {
-  display: block;
+  display: inline-block;
 
   &--no-shadow {
     .screenshot {
@@ -219,7 +219,7 @@ $docs-subheader-bg-color: transparent;
     &--block {
       display: block;
       float: none;
-      width: 80%;
+      width: auto;
     }
   }
 }
