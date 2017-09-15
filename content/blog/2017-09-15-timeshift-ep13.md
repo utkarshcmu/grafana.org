@@ -38,7 +38,7 @@ It's been a busy week here at Grafana Labs - <strong>Grafana 4.5 is now availabl
 
 [**Performance monitoring with ELK / Grafana**](https://blog.netapsys.fr/performance-monitoring-de-base-avec-elk-grafana/): This article walks you through setting up the ELK stack to monitor webpage load time, but switches out Kibana for Grafana so you can visualize data from other sources right next to this performance data.
 
-[**ESXi Lab Series**](https://www.youtube.com/watch?v=sua5WryY9a8): Aaron created a video mini-series about implementing both offensive and defensive security in an ESXi Lab environment. Parts <a href="https://www.youtube.com/watch?v=sua5WryY9a8" target="_blank">four</a> and <a href="https://www.youtube.com/watch?v=0dqeWnHF-pQ&t=3s" target="_blank">five</a> focus on monitoring with Grafana.
+[**ESXi Lab Series**](https://www.youtube.com/watch?v=sua5WryY9a8): Aaron created a video mini-series about implementing both offensive and defensive security in an ESXi Lab environment. Parts <a href="https://www.youtube.com/watch?v=sua5WryY9a8" target="_blank">four</a> and <a href="https://www.youtube.com/watch?v=0dqeWnHF-pQ" target="_blank">five</a> focus on monitoring with Grafana, but you'll probably want to start with <a href="https://www.youtube.com/watch?v=xaZKhKHGNP8" target="_blank">one</a>.
 
 [**Raspberry Pi Monitoring with Grafana**](https://developer-blog.net/raspberry-pi-monitoring-mit-grafana-2/): We've been excited to see more and more articles about Grafana from Raspberry Pi users. This article helps you install and configure Grafana, and also touches on what monitoring is and why it's important.
 
@@ -49,7 +49,24 @@ It's been a busy week here at Grafana Labs - <strong>Grafana 4.5 is now availabl
 <br />
 
 #### Grafana Plugins
-This week we were busy putting the finishing touches on the new release, but we do have an update to the Gnocchi Data Source to announce. Install or update plugins on an on-prem instance using the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Grafana-cli</a>, or upgrade in one click on <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Hosted Grafana</a>.
+This week we were busy putting the finishing touches on the new release, but we do have an update to the Gnocchi Data Source to announce, and a new annotation plugin that works with any data source. Install or update plugins on an on-prem instance using the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Grafana-cli</a>, or upgrade in one click on <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Hosted Grafana</a>.
+
+<div class="blog-plugin">
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 0;" src="https://grafana.com/api/plugins/fzakaria-simple-annotations-datasource/versions/1.0.0/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
+				<strong><a href="https://grafana.com/plugins/fzakaria-simple-annotations-datasource?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Simple Annotations</a></strong> - Frustrated with using a data source that doesn't support annotations? This is a simple annotation plugin for Grafana that works with any data source!
+			</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/fzakaria-simple-annotations-datasource?utm_source=blog&utm_campaign=timeshift_13" target="_blank"><strong>Install Now</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
@@ -102,7 +119,7 @@ This week we were busy putting the finishing touches on the new release, but we 
 		</div>
 		<div class="col col--sm-6 col--sm-offset-1">
 			<h4>We Need Your Help</h4>
-			We're conducting an experiment and need your help. Do you have a graph that you love because the data is beautiful or because the graph provides interesting information? Please get in touch. <a href="http://twitter.com/grafana">Tweet</a> or send us an <a href="mailto:hello@grafana.com">email</a> with a screenshot, and we'll tell you about the experiment.<br /><br />
+			We're conducting an experiment and need your help. Do you have a graph that you love because the data is beautiful or because the graph provides interesting information? Please get in touch. <a href="https://twitter.com/intent/tweet?text=Hey%20%40grafana, I want to know what your experiment is all about.&?utm_source=blog&utm_campaign=timeshift_13">Tweet</a> or send us an <a href="mailto:hello@grafana.com">email</a> with a screenshot, and we'll tell you about the experiment.<br /><br />
 			<a class="btn btn-outline" href="mailto:hello@grafana.com">Be Part of the Experiment</a>
 		</div>
 	</div>
