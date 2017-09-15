@@ -43,7 +43,19 @@
   }
 }
 
-
+.btn--grafanacon {
+    border-color: #e3257d;
+    background-color: #f46800;
+    background: linear-gradient(#e3257d,#bd1864);
+    color: #fefefe;
+    &:hover {
+      border-color: #e3257d;
+      background-color: #e3257d;
+      background: #e3257d;
+      cursor: pointer;
+      color: #fefefe;
+    }
+}
 
 // Secondary
 // ------------------------------------
