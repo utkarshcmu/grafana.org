@@ -49,7 +49,7 @@ It's been a busy week here at Grafana Labs - <strong>Grafana 4.5 is now availabl
 <br />
 
 #### Grafana Plugins
-This week we were busy putting the finishing touches on the new release, but we do have an update to the Gnocchi Data Source to announce, and a new annotation plugin that works with any data source. Install or update plugins on an on-prem instance using the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Grafana-cli</a>, or upgrade in one click on <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Hosted Grafana</a>.
+This week we were busy putting the finishing touches on the new release, but we do have an update to the Gnocchi data source plugin to announce, and a new annotation plugin that works with any data source. Install or update plugins on an on-prem instance using the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Grafana-cli</a>, or upgrade in one click on <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Hosted Grafana</a>.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
