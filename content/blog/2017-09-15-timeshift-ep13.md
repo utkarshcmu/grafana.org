@@ -21,10 +21,10 @@ It's been a busy week here at Grafana Labs - <strong>Grafana 4.5 is now availabl
 		<img src="/assets/img/blog/timeshift/grafana_release_icon.png" width="170" />
 	</div>
 	<div class="col col--sm-9">
-		<strong>Grafana v4.5 is <a href="https://grafana.com/grafana/download/4.5.0-beta1?utm_source=blog&utm_campaign=timeshift_13" target="_blank">available for download</a>.</strong> The new Grafana 4.5 release includes major improvements to the query editors for Prometheus, Elasticsearch and MySQL.
+		<strong>Grafana v4.5 is <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_13" target="_blank">available for download</a>.</strong> The new Grafana 4.5 release includes major improvements to the query editors for Prometheus, Elasticsearch and MySQL.
 		To see the full <a href="https://grafana.com/blog/2017/09/13/grafana-4.5-released/?utm_source=blog&utm_campaign=timeshift_13" target="_blank">changelog</a>, head over to our community site.
 		<br /><br />
-		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_13" target="_blank" class="btn btn--primary">Download Grafana 4.5 Beta Now</a>
+		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_13" target="_blank" class="btn btn--primary">Download Grafana 4.5 Now</a>
 	</div>
 </div>
 
@@ -59,7 +59,7 @@ This week we were busy putting the finishing touches on the new release, but we 
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/gnocchixyz-gnocchi-datasource?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Gnocchi Data Source</a></strong> - The latest release adds the reaggregation feature. <a href="https://grafana.com/plugins/gnocchixyz-gnocchi-datasource?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Gnocchi</a> can pre-compute the aggregation of timeseries (ex: aggregate the mean every 10 minute for 1 year). Then allows you to (re)aggregate timeseries, since stored timeseries have already been aggregated.
+				<strong><a href="https://grafana.com/plugins/gnocchixyz-gnocchi-datasource?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Gnocchi Data Source</a></strong> - The latest release adds the reaggregation feature. <a href="https://grafana.com/plugins/gnocchixyz-gnocchi-datasource?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Gnocchi</a> can pre-compute the aggregation of timeseries (ex: aggregate the mean every 10 minute for 1 year). Then allows you to (re)aggregate timeseries, since stored timeseries have already been aggregated. A big shout out to <a href="https://github.com/sileht" target="_blank">sileht</a> for adding new features to the Gnocchi plugin.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/gnocchixyz-gnocchi-datasource?utm_source=blog&utm_campaign=timeshift_13" target="_blank"><strong>Update Now</strong></a>
