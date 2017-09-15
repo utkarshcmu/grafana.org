@@ -22,7 +22,7 @@ It's been a busy week here at Grafana Labs - <strong>Grafana 4.5 is now availabl
 	</div>
 	<div class="col col--sm-9">
 		<strong>Grafana v4.5 is <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_13" target="_blank">available for download</a>.</strong> The new Grafana 4.5 release includes major improvements to the query editors for Prometheus, Elasticsearch and MySQL.
-		To see the full <a href="https://grafana.com/blog/2017/09/13/grafana-4.5-released/?utm_source=blog&utm_campaign=timeshift_13" target="_blank">changelog</a>, head over to our community site.
+		View the <a href="https://grafana.com/blog/2017/09/13/grafana-4.5-released/?utm_source=blog&utm_campaign=timeshift_13" target="_blank">changelog</a>.
 		<br /><br />
 		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_13" target="_blank" class="btn btn--primary">Download Grafana 4.5 Now</a>
 	</div>
@@ -33,7 +33,7 @@ It's been a busy week here at Grafana Labs - <strong>Grafana 4.5 is now availabl
 <br />
 
 #### From the Blogosphere
-[**Percona Live Europe Featured Talks: Visualize Your Data with Grafana Featuring Daniel Lee**](https://www.percona.com/blog/2017/09/13/percona-live-europe-featured-talks-visualize-data-grafana-daniel-lee/): The folks from Percona sat down with Grafana Labs Software Developer Daniel Lee to discuss his upcoming talk at <a href="https://www.percona.com/live/e17/sessions/visualize-your-data-with-grafana" target="_blank">PerconaLive Europe 2017, Dublin</a> and how data can drive better decision making for your business. Get your tickets now, and use code: <strong>SeeMeSpeakPLE17</strong> for 10% off!<br  />
+[**Percona Live Europe Featured Talks: Visualize Your Data with Grafana Featuring Daniel Lee**](https://www.percona.com/blog/2017/09/13/percona-live-europe-featured-talks-visualize-data-grafana-daniel-lee/): The folks from Percona sat down with Grafana Labs Software Developer Daniel Lee to discuss his upcoming talk at <a href="https://www.percona.com/live/e17/sessions/visualize-your-data-with-grafana" target="_blank">PerconaLive Europe 2017, Dublin</a>, and how data can drive better decision making for your business. Get your tickets now, and use code: <strong>SeeMeSpeakPLE17</strong> for 10% off!<br  />
 <a class="btn btn--outline" href="https://www.percona.com/live/e17/registration-information" target="_blank">Register Now</a><br /><br />
 
 [**Performance monitoring with ELK / Grafana**](https://blog.netapsys.fr/performance-monitoring-de-base-avec-elk-grafana/): This article walks you through setting up the ELK stack to monitor webpage load time, but switches out Kibana for Grafana so you can visualize data from other sources right next to this performance data.
