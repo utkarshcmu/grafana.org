@@ -24,7 +24,7 @@ And with that - we hope you enjoy this issue of TimeShift!
 		<img src="/assets/img/blog/timeshift/grafana_release_icon.png" width="170" />
 	</div>
 	<div class="col col--sm-9">
-		<strong><a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_14" target="_blank">Grafana v4.5.2</a>.</strong> is now available. Various fixes to Graphite, HTTP API, and templating. 
+		<strong><a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_14" target="_blank">Grafana v4.5.2</a></strong> is now available. Various fixes to Graphite, HTTP API, and templating. 
 		<br />
 		To see details on what's been fixed in the newest version, please see the <a href="https://community.grafana.com/t/release-notes-for-grafana-v4-5-1/2573?utm_source=blog&utm_campaign=timeshift_14" target="_blank">release notes</a>.
 		<br /><br />
