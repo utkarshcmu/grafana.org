@@ -10,7 +10,7 @@ description = "A weekly roundup of articles and links from Grafana and the surro
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-Summer is officially in the rear-view mirror, but we at Grafana Labs are excited. Next week, nearly all of the team will gather in Stockholm, Sweden where we'll be discussing Grafana 5.0, GrafanaCon EU and set some future goals. If you're attending <a href="https://www.percona.com/live/e17/registration-information" target="_blank">Percona Live Europe 2017</a> in Dublin, be sure and catch Grafana developer, Daniel Lee on Tuesday, September 26. He'll be showing off the new MySQL data source and give a sneak peek of Grafana 5.0. 
+Summer is officially in the rear-view mirror, but we at Grafana Labs are excited. Next week, the team will gather in Stockholm, Sweden where we'll be discussing Grafana 5.0, GrafanaCon EU and setting other goals. If you're attending <a href="https://www.percona.com/live/e17/registration-information" target="_blank">Percona Live Europe 2017</a> in Dublin, be sure and catch Grafana developer, Daniel Lee on Tuesday, September 26. He'll be showing off the new MySQL data source and a sneak peek of Grafana 5.0. 
 <br />
 <br />
 And with that - we hope you enjoy this issue of TimeShift!
@@ -24,7 +24,7 @@ And with that - we hope you enjoy this issue of TimeShift!
 		<img src="/assets/img/blog/timeshift/grafana_release_icon.png" width="170" />
 	</div>
 	<div class="col col--sm-9">
-		<strong><a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_14" target="_blank">Grafana v4.5.2</a></strong> is now available. Various fixes to Graphite, HTTP API, and templating. 
+		<strong><a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_14" target="_blank">Grafana 4.5.2</a></strong> is now available! Various fixes to the Graphite data source, HTTP API, and templating. 
 		<br />
 		To see details on what's been fixed in the newest version, please see the <a href="https://community.grafana.com/t/release-notes-for-grafana-v4-5-1/2573?utm_source=blog&utm_campaign=timeshift_14" target="_blank">release notes</a>.
 		<br /><br />
@@ -45,9 +45,9 @@ And with that - we hope you enjoy this issue of TimeShift!
 
 [**Node.js Performance Monitoring with Prometheus**](https://blog.risingstack.com/node-js-performance-monitoring-with-prometheus/): This is a good primer for monitoring in general. It discusses what monitoring is, important signals to know, instrumentation, and things to consider when selecting a monitoring tool.
 
-[**DIY Dashboard with Grafana and MariaDB**](https://yipee.io/2017/09/diy-dashboard-with-grafana-and-mariadb/): Mark was interested in testing out the new beta MySQL support in Grafana, so he wrote a short article on how he is using MariaDB in Grafana.
+[**DIY Dashboard with Grafana and MariaDB**](https://yipee.io/2017/09/diy-dashboard-with-grafana-and-mariadb/): Mark was interested in testing out the new beta MySQL support in Grafana, so he wrote a short article on how he is using Grafana with MariaDB.
 
-[**Collecting Temperature Data with Raspberry Pi Computers**](https://learnaddict.com/2017/09/19/collecting-temperature-data-with-raspberry-pi-computers/): Many of us use monitoring for tracking mission-critical systems, but setting up a monitoring environment can be a fun way to improve your programming skills as well.
+[**Collecting Temperature Data with Raspberry Pi Computers**](https://learnaddict.com/2017/09/19/collecting-temperature-data-with-raspberry-pi-computers/): Many of us use monitoring for tracking mission-critical systems, but setting up environment monitoring can be a fun way to improve your programming skills as well.
 
 <hr />
 <br />
@@ -61,7 +61,7 @@ And with that - we hope you enjoy this issue of TimeShift!
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<h4>GrafanaCon EU CFP is Open</h4>
 			<p>
-				Have a big idea to share? A shorter talk or a demo you'd like to show off? We're looking for technical and non-technical talks of all sizes. The requests have been rolling in, but we are happy to save a speaking slot for you! 
+				Have a big idea to share? A shorter talk or a demo you'd like to show off? We're looking for technical and non-technical talks of all sizes. The proposals are rolling in, but we are happy to save a speaking slot for you! 
 			</p>
 			<p>
 				<a class="btn btn--grafanacon" href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_14" target="_blank"><strong>I'd Like to Speak at GrafanaCon</strong></a>
