@@ -24,7 +24,7 @@ And with that - we hope you enjoy this issue of TimeShift!
 		<img src="/assets/img/blog/timeshift/grafana_release_icon.png" width="170" />
 	</div>
 	<div class="col col--sm-9">
-		<strong><a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_14" target="_blank">Grafana 4.5.2</a></strong> is now available! Various fixes to the Graphite data source, HTTP API, and templating. 
+		<strong><a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_14" target="_blank">Grafana 4.5.2</a> is now available!</strong> Various fixes to the Graphite data source, HTTP API, and templating. 
 		<br />
 		To see details on what's been fixed in the newest version, please see the <a href="https://community.grafana.com/t/release-notes-for-grafana-v4-5-1/2573?utm_source=blog&utm_campaign=timeshift_14" target="_blank">release notes</a>.
 		<br /><br />
@@ -212,7 +212,7 @@ Each week we highlight a contributor to Grafana or the surrounding ecosystem as 
 		</div>
 		<div class="col col--sm-6 col--sm-offset-1">
 			<h4>We Need Your Help</h4>
-			Last week we announced an experiment we were conducting, and need your help! Do you have a graph that you love because the data is beautiful or because the graph provides interesting information? Please get in touch. <a href="https://twitter.com/intent/tweet?text=Hey%20%40grafana, I want to know what your experiment is all about.&?utm_source=blog&utm_campaign=timeshift_13">Tweet</a> or send us an <a href="mailto:hello@grafana.com">email</a> with a screenshot, and we'll tell you about this fun experiment.<br /><br />
+			Last week we announced an experiment we were conducting, and need your help! Do you have a graph that you love because the data is beautiful or because the graph provides interesting information? Please get in touch. <a href="https://twitter.com/intent/tweet?text=Hey%20%40grafana, I want to know what your experiment is all about.">Tweet</a> or send us an <a href="mailto:hello@grafana.com">email</a> with a screenshot, and we'll tell you about this fun experiment.<br /><br />
 			<a class="btn btn-outline" href="mailto:hello@grafana.com">I Want to Help</a>
 		</div>
 	</div>
@@ -223,15 +223,15 @@ Each week we highlight a contributor to Grafana or the surrounding ecosystem as 
 <div style=" padding: 20px; background: url(/assets/img/blog/timeshift/polygon_texture_black.jpg); background-size: cover; border-radius: 4px;">
 	<h4>Grafana Labs is Hiring!</h4>
 	<p>We are passionate about open source software and thrive on tackling complex challenges to build the future. We ship code from every corner of the globe and love working with the community. If this sounds exciting, you're in luck – <strong>WE'RE HIRING!</strong></p>
-	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_13" target="_blank">Open Positions</a></p>
+	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_14" target="_blank">Open Positions</a></p>
 </div>
 
 <hr />
 <br />
 #### What do you think?
-What would you like to see here? Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_13). Help us make these weekly roundups better!
+What would you like to see here? Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_14). Help us make these weekly roundups better!
 
-Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_13).
+Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_14).
 
 
 
