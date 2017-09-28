@@ -43,7 +43,7 @@ categories = ["timeShift", "Grafana Buzz"]
 #### From the Blogosphere
 [**How to Monitor Kubernetes Cluster with Prometheus and Grafana**](https://linoxide.com/linux-how-to/monitor-kubernetes-cluster-prometheus-grafana/): Kubernetes is the popular container orchestration platform designed by Google and donated to the Cloud Native Computing Foundation. After you create a Kubernetes cluster, you'll want to monitor its performance. Mihajlo walks us through [creating a cluster](https://linoxide.com/containers/creating-kubernetes-cluster-kops/), upgrading that cluster, and installing Prometheus and Grafana.
 
-[**Visualize Your Data with Grafana - Percona Live Europe 2017**](https://docs.google.com/presentation/d/1M8phmvC402p67MUr9uiTsMOTDMPmn9UiCVr4F4Z1_kE/edit#slide=id.p): Erlier in the week, Daniel Lee - Software Developer at Grafana Labs, spoke at Percona Live Europe 2017 in Dublin. His presentation slides are now available, which cover what monitoring is, an intro to Grafana and various visualization options, monitoring MySQL with Grafana, and a sneak peek of features coming in Grafana 5.0.
+[**Visualize Your Data with Grafana - Percona Live Europe 2017**](https://docs.google.com/presentation/d/1M8phmvC402p67MUr9uiTsMOTDMPmn9UiCVr4F4Z1_kE/edit#slide=id.p): Earlier this week, Daniel Lee - Software Developer at Grafana Labs, spoke at Percona Live Europe 2017 in Dublin. His presentation slides are now available, which cover what monitoring is, an intro to Grafana and various visualization options, monitoring MySQL with Grafana, and a sneak peek of features coming in Grafana 5.
 
 [**Announcing ntopng and Grafana Integration**](http://www.ntop.org/ntopng/announcing-ntopng-and-grafana-integration/): Simone Mainardi from ntop recently created a Grafana Plugin for ntopng and wrote an article teaching you how to set up the new plugin and the metrics it supports.
 
@@ -97,7 +97,7 @@ This week adds a new plugin from our friends at ntop, which brings the number of
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
-				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGINS</strong></div><br/>
 				<strong><a href="https://grafana.com/plugins/btplc-trend-box-panel?utm_source=blog&utm_campaign=timeshift_15" target="_blank">BT Plugins</a></strong> - BT added minor updates to <a href="https://grafana.com/plugins/btplc-trend-box-panel?utm_source=blog&utm_campaign=timeshift_15" target="_blank">Trend Box</a>, <a href="https://grafana.com/plugins/btplc-alarm-box-panel?utm_source=blog&utm_campaign=timeshift_15" target="_blank">Alarm Box</a> and <a href="https://grafana.com/plugins/btplc-status-dot-panel?utm_source=blog&utm_campaign=timeshift_15" target="_blank">Status Dot</a> panels.
 			</p>
 		</div>
