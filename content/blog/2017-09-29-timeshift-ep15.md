@@ -12,7 +12,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 <div class="row row--no-internal-gutters">
 	<div class="col col--sm-6">
-		<p>This week the Grafana Labs team converged on Stockholm. In addition to taking advantage of the beautiful weather, which was perfect for team outings, we were also hard at work setting objectives for the next Grafana release, finalizing details for GrafanaCon EU, and enjoying some good old-fashioned face time in an otherwise post-geographical company. This issue of TimeShift covers a few recent and upcoming talks, monitoring Kubernetes and plugin updates.</p>
+		<p>This week the Grafana Labs team converged on Stockholm. In addition to taking advantage of the beautiful weather, which was perfect for team outings, we were also hard at work setting objectives for the next Grafana release, finalizing details for GrafanaCon EU, and enjoying some good old-fashioned face time in an otherwise post-geographic company. This issue of TimeShift covers a few recent and upcoming talks, monitoring Kubernetes and plugin updates.</p>
 	</div>
 	<div class="col col--sm-6">
 		<img src="/assets/img/blog/timeshift/grafana_group_shot.jpg" align="right" />
