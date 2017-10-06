@@ -179,7 +179,7 @@ Each week we highlight some of the important contributions from our amazing open
 <hr />
 <br />
 #### What do you think?
-How are we doing? Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_16). Help us make these weekly roundups better!
+That's a wrap! How are we doing? Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_16). Help us make these weekly roundups better!
 
 Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_16).
 
