@@ -122,32 +122,19 @@ Plugin authors add new features and bugfixes all the time, so it's important to 
 <br />
 
 <h4>This week's MVC (Most Valuable Contributor)</h4>
-Each week we highlight some of the important contributions from our amazing open source community. This week, we'd like to recognize two contributors who did a lot of work to improve Prometheus support.
+Each week we highlight some of the important contributions from our amazing open source community. This week, we'd like to recognize a contributor who did a lot of work to improve Prometheus support.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
-		<div class="col col--sm-6 blog-plugin-grid__item">
+		<div class="col col--sm-12 blog-plugin-grid__item">
 			<div class="row row--md-gutters blog-plugin-grid">
-				<div class="col col--sm-5 blog-plugin-grid__item">
-					<img class="mvc" src="https://avatars1.githubusercontent.com/u/224552?v=4&s=460" />
-				</div>
-				<div class="col col--sm-7 blog-plugin-grid__item">
-					<p>
-						<strong><a href="https://github.com/mtanda" target="_blank">mtanda</a></strong><br/>
-						Mitsuhiro has once again contributed another <a href="https://github.com/grafana/grafana/pull/9208">great feature</a> - Intellisense for label name/value lookups in the Prometheus query editor. This required some tricky coding to get Ace Editor to do this. Great work!
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col col--sm-6 blog-plugin-grid__item">
-			<div class="row row--md-gutters blog-plugin-grid">
-				<div class="col col--sm-5 blog-plugin-grid__item">
+				<div class="col col--sm-3 blog-plugin-grid__item">
 					<img class="mvc" src="https://avatars0.githubusercontent.com/u/29573495?v=4&s=460" />
 				</div>
-				<div class="col col--sm-7 blog-plugin-grid__item">
+				<div class="col col--sm-9 blog-plugin-grid__item">
 					<p>
 						<strong><a href="https://github.com/alin-amana" target="_blank">pdoan017</a></strong><br/>
-						We also want to say thanks to Alin Sinpaleanfor <a href="https://github.com/grafana/grafana/pull/9226">his Prometheus PR</a> - that aligns the step and interval parameters. Alin got a lot of feedback from the Prometheus community and spent a lot of time and energy explaining, debating and iterating before the PR was ready. Thank you!
+						Thanks to Alin Sinpaleanfor <a href="https://github.com/grafana/grafana/pull/9226">his Prometheus PR</a> - that aligns the step and interval parameters. Alin got a lot of feedback from the Prometheus community and spent a lot of time and energy explaining, debating and iterating before the PR was ready.<br />Thank you!
 					</p>
 				</div>
 			</div>
