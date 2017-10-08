@@ -16,7 +16,7 @@ For one thing, it re-ignited my interest in functional programming, for another 
 
 I hadn't been doing a good job reading/studying other code out of fear that inferior patterns/style would rub off on me.  But I soon realized that was an irrational, perhaps slightly absurd excuse. So I made the decision to change. Contrary to my presumption I found that by reading code that looks bad you can challenge and re-evaluate your mindset and get out with a more nuanced understanding and awareness of the pros and cons of various approaches.
 
-I also realized if code is proving too hard to get into or is of too low quality, you can switch to another code base with negligible effort and end up spending almost all of your time reading code that is worthwhile and has plenty of learnings to offer.  There is a lot of high quality Go code, easy to find through sites like Github or [Golang weekly](http://golangweekly.com/), just follow your interests and pick a project to start reading.
+I also realized if code is proving too hard to get into or is of too low quality, you can switch to another code base with negligible effort and end up spending almost all of your time reading code that is worthwhile and has plenty of learnings to offer.  There is a lot of high quality Go code, easy to find through sites like GitHub or [Golang weekly](http://golangweekly.com/), just follow your interests and pick a project to start reading.
 
 <q class="quote">Contrary to my presumption I found that by reading code that looks bad you can challenge and re-evaluate your mindset</q>
 

@@ -131,7 +131,7 @@ We love when people talk about Grafana at meetups and conferences.
 				<strong>Kubernetes focused event! demo from Apprenda and how Kubernetes is used @ GitHub:</strong>
 				Steve Wade, is a Principal Kubernetes Consultant from London and will be providing some fundamental information about the Kubernetes ecosystem as well as overview of its core components. He'll also talk about some monitoring and alerting best practices learned from working with Kubernetes customers and demo how Prometheus, Grafana and Slack can be used to monitor, visualize and alert on both the Kubernetes platform as well as application workloads.
 				<br /><br />
-				Aaron Brown, a Site Reliability Engineer at Github, will dive into the ways in which Kubernetes is used within Github to make software development and deployment more efficient.
+				Aaron Brown, a Site Reliability Engineer at GitHub, will dive into the ways in which Kubernetes is used within GitHub to make software development and deployment more efficient.
 			</p>
 				<a class="btn btn-small btn-small" href="https://www.meetup.com/Google-Developer-Group-of-the-Capital-Region/events/242208699/">RSVP</a>
 		</div>

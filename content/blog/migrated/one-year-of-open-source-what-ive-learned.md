@@ -87,6 +87,6 @@ You can do the same. Pick a project you enjoy (perhaps Grafana?) and start helpi
 
 If you'd like to contribute to Grafana, we'd love to have you. Here are some ways to get started
 
-* Submit bugs/ideas/PRs/issues on our Github: https://github.com/grafana/grafana/issues
+* Submit bugs/ideas/PRs/issues on our GitHub: https://github.com/grafana/grafana/issues
 * Chat with us on our public slack channel - sign up at http://slack.raintank.io
 * Create a plugin for Grafana: https://grafana.net/resources/getting-started-with-plugins

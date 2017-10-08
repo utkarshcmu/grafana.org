@@ -18,7 +18,7 @@ We created a prototype [Grafana Snap datasource plugin](https://grafana.net/plug
 
 The plugin is a cool prototype, but our vision is for Grafana to be able to “command and control” an entire fleet of Snap servers. We quickly realized that there’s a missing piece to achieving that goal, so I started working on a new component of our stack.
 
-Like everything at raintank, it’s been developed in the open, so the [code is available on Github](https://github.com/raintank/raintank-apps). 218 commits, 38 days, and one newly born baby boy later, I’m excited to share some details on how things are shaping up!
+Like everything at raintank, it’s been developed in the open, so the [code is available on GitHub](https://github.com/raintank/raintank-apps). 218 commits, 38 days, and one newly born baby boy later, I’m excited to share some details on how things are shaping up!
 
 ### What are we trying to do?<p>
 

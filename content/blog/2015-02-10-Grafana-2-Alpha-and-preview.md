@@ -24,7 +24,7 @@ infrastructure monitoring platform.
 
 ## Code & Docker image
 The Grafana 2.0 backend and frontend changes are now public in the [develop](https://github.com/grafana/grafana/tree/develop)
-branch in the main grafana repository on Github. The readme on that branch contains instructions for how to build and run the
+branch in the main grafana repository on GitHub. The readme on that branch contains instructions for how to build and run the
 new backend. You can also try it using docker with a single line like this:
 
 ```
@@ -67,7 +67,7 @@ To simplify smaller Grafana setups you can configure Grafana to be in a single a
 signups are automatically assigned to a specific account. And you can also enable anonymous access if you
 do not care about authentication or user managment at all.
 
-Currently users can signup and login with a specified email/password or via Github or Google OAuth integration.
+Currently users can signup and login with a specified email/password or via GitHub or Google OAuth integration.
 LDAP integration is in on the roadmap but not implemented yet.
 
 ## UI Changes
