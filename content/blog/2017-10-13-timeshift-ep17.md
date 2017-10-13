@@ -12,7 +12,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 <div class="row row--no-gutters">
 	<div class="col col--sm-12">
-		<p>It's been a busy week here at Grafana Labs. While we've been working on <a href="https://ti.to/grafanacon/grafanacon-eu/with/e1i8kk09ih8" target="_blank">GrafanaCon EU</a> preparations here at the NYC office, the Stockholm office has been dilligently working to release Grafana 4.6 Beta-1. We're really excited about this latest release and look forward to your feedback on the new features.</p>
+		<p>It's been a busy week here at Grafana Labs. While we've been working on <a href="https://ti.to/grafanacon/grafanacon-eu/with/e1i8kk09ih8" target="_blank">GrafanaCon EU</a> preparations here at the NYC office, the Stockholm office has been diligently working to release Grafana 4.6 Beta-1. We're really excited about this latest release and look forward to your feedback on the new features.</p>
 	</div>
 </div>
 
@@ -41,9 +41,9 @@ categories = ["timeShift", "Grafana Buzz"]
 #### From the Blogosphere
 [**Using Kafka and Grafana to Monitor Meteorological Conditions**](http://blog.scottlogic.com/2017/10/13/MetOfficeKafka.html): Oliver was looking for a way to track historical mountain conditions around the UK, but only had available data for the last 24 hours. It seemed like a perfect job for Kafka. This post discusses how to get going with Kafka very easily, store the data in Graphite and visualize the data in Grafana.
 
-[**Web Interfaces for your Syslog Server – An Overview**](https://www.balabit.com/blog/web-interfaces-for-your-syslog-server-an-overview/): System administrators often prefer to use the command line, but complex queries can be completed much faster with logs indexed in a database and a web interface. This article provides a run-down of various GUI-based tools avaiable for your syslog server.
+[**Web Interfaces for your Syslog Server – An Overview**](https://www.balabit.com/blog/web-interfaces-for-your-syslog-server-an-overview/): System administrators often prefer to use the command line, but complex queries can be completed much faster with logs indexed in a database and a web interface. This article provides a run-down of various GUI-based tools available for your syslog server.
 
-[**JEE Performance with JMeter, Prometheus and Grafana. Complete Project from Scratch**](http://highcohesionloosecoupling.com/index.php/2017/10/08/jee-performance-jmeter-prometheus-grafana-complete-project-scratch/): This comprehensive article walks you through the steps of monitoring JEE application performance from scratch. We start with making implementation decisions, then how to collect data, visualization and dashboarding configuration, and conclude with alerting. Buckle up, it's a long article, with a ton of information.
+[**JEE Performance with JMeter, Prometheus and Grafana. Complete Project from Scratch**](http://highcohesionloosecoupling.com/index.php/2017/10/08/jee-performance-jmeter-prometheus-grafana-complete-project-scratch/): This comprehensive article walks you through the steps of monitoring JEE application performance from scratch. We start with making implementation decisions, then how to collect data, visualization and dashboarding configuration, and conclude with alerting. Buckle up; it's a long article, with a ton of information.
 
 <hr />
 <br />
@@ -55,7 +55,7 @@ categories = ["timeShift", "Grafana Buzz"]
 			Early bird tickets are going fast, so take advantage of the discounted price before they're gone! We will be announcing the first block of speakers in the coming week.
 		</p>
 		<p>
-			There's still time to submit a talk. We'll accept submissions through the end of October. We're accepting technical and non-tecnical talks of all sizes. <a href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_17" target="_blank">Submit a CFP</a>.
+			There's still time to submit a talk. We'll accept submissions through the end of October. We're accepting technical and non-technical talks of all sizes. <a href="http://grafana.com/grafanacon-cfp?utm_source=blog&utm_campaign=timeshift_17" target="_blank">Submit a CFP</a>.
 		</p>
 		<br />
 		<p>
@@ -71,7 +71,7 @@ categories = ["timeShift", "Grafana Buzz"]
 <hr />
 
 #### Grafana Plugins
-This week we add the Prometheus Alert Manager Data Source to our growing list of plugins, lots of updates to the GLPI Data source, and have a critical bugfix for the WorldMap Panel. To update plugins from on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_16" target="_blank">Grafana-cli tool</a>, or with 1 click if you are using <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_16" target="_blank">Hosted Grafana</a>. 
+This week we add the Prometheus Alertmanager Data Source to our growing list of plugins, lots of updates to the GLPI Data source, and have a urgent bugfix for the WorldMap Panel. To update plugins from on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_16" target="_blank">Grafana-cli tool</a>, or with 1 click if you are using <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_16" target="_blank">Hosted Grafana</a>. 
 
 
 <div class="blog-plugin">
@@ -82,7 +82,7 @@ This week we add the Prometheus Alert Manager Data Source to our growing list of
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/camptocamp-prometheus-alertmanager-datasource?utm_source=blog&utm_campaign=timeshift_17" target="_blank">Prometheus Alert Manager Data Source</a></strong> - This new data source lets you show data from the Prometheus alertmanager in Grafana. The Alertmanager handles alerts sent by client applications such as the Prometheus server. With this data source, you can show data in Table form or as a SingleStat.
+				<strong><a href="https://grafana.com/plugins/camptocamp-prometheus-alertmanager-datasource?utm_source=blog&utm_campaign=timeshift_17" target="_blank">Prometheus Alertmanager Data Source</a></strong> - This new data source lets you show data from the Prometheus Alertmanager in Grafana. The Alertmanager handles alerts sent by client applications such as the Prometheus server. With this data source, you can show data in Table form or as a SingleStat.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/camptocamp-prometheus-alertmanager-datasource?utm_source=blog&utm_campaign=timeshift_17" target="_blank"><strong>Install Now</strong></a>
@@ -99,7 +99,7 @@ This week we add the Prometheus Alert Manager Data Source to our growing list of
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/grafana-worldmap-panel?utm_source=blog&utm_campaign=timeshift_17" target="_blank">Worldmap Panel</a></strong> - A new version with an urgent bugfix for Elasticsearch users:
+				<strong><a href="https://grafana.com/plugins/grafana-worldmap-panel?utm_source=blog&utm_campaign=timeshift_17" target="_blank">WorldMap Panel</a></strong> - A new version with an urgent bugfix for Elasticsearch users:
 				<ul>
 					<li>A fix for Geohash maps after a breaking change in Grafana 4.5.0.</li>
 					<li>Last Geohash as center for the map - it centers the map on the last geohash position received. Useful for real time tracking (with auto refresh on in Grafana).</li>
@@ -122,11 +122,11 @@ This week we add the Prometheus Alert Manager Data Source to our growing list of
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
 				<strong><a href="https://grafana.com/plugins/ddurieux-glpi-app?utm_source=blog&utm_campaign=timeshift_17" target="_blank">GLPI App</a></strong> - Lots of fixes in the new version:
 				<ul>
-					<li>compatibility with GLPI 9.2</li>
-					<li>autofill the Timerange field based on the query</li>
-					<li>when adding new query, add by default a ticket query instead of undefined</li>
-					<li>correct values in hover tooltip</li>
-					<li>can have element count by hour of the day with the panel histogram</li>
+					<li>Compatibility with GLPI 9.2</li>
+					<li>Autofill the Timerange field based on the query</li>
+					<li>When adding new query, add by default a ticket query instead of undefined</li>
+					<li>Correct values in hover tooltip</li>
+					<li>Can have element count by hour of the day with the panel histogram</li>
 				</ul>
 			</p>
 			<p>
