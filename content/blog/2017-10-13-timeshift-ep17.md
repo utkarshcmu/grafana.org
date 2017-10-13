@@ -12,7 +12,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 <div class="row row--no-gutters">
 	<div class="col col--sm-12">
-		<p>It's been a busy week here at Grafana Labs. While we've been working on <a href="https://ti.to/grafanacon/grafanacon-eu/with/e1i8kk09ih8" target="_blank">GrafanaCon EU</a> preparations here at the NYC office, the Stockholm office has been diligently working to release Grafana 4.6 Beta-1. We're really excited about this latest release and look forward to your feedback on the new features.</p>
+		<p>It's been a busy week here at Grafana Labs. While we've been working on <a href="https://ti.to/grafanacon/grafanacon-eu/with/e1i8kk09ih8" target="_blank">GrafanaCon EU</a> preparations here at the NYC office, the Stockholm office has been diligently working to release Grafana 4.6-beta-1. We're really excited about this latest release and look forward to your feedback on the new features.</p>
 	</div>
 </div>
 
@@ -25,7 +25,7 @@ categories = ["timeShift", "Grafana Buzz"]
 		<img src="/assets/img/blog/timeshift/grafana_release_icon.png" width="170" />
 	</div>
 	<div class="col col--sm-9">
-		<strong><a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_14" target="_blank">Grafana 4.6 Beta-1</a> is now available!</strong> Grafana v4.6 brings many enhancements to Annotations, Cloudwatch and Prometheus. It also adds support for Postgres as a metric and table data source!
+		<strong><a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_14" target="_blank">Grafana 4.6-beta-1</a> is now available!</strong> Grafana v4.6 brings many enhancements to Annotations, Cloudwatch and Prometheus. It also adds support for Postgres as a metric and table data source!
 		<br /><br />
 		To see more details on what's in the newest version, please see the <a href="https://community.grafana.com/t/release-notes-v4-6-x/3179?utm_source=blog&utm_campaign=timeshift_17" target="_blank">release notes</a>.
 		<br /><br />
