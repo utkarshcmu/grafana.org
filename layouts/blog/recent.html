@@ -23,7 +23,7 @@
 			<br />
 			<br />
 
-			<h4>Latest Release</h4>
+			<h4>Latest Stable Release</h4>
 			{{ range first 1 (where .Site.Taxonomies.categories.Release.Pages "Section" "blog")}}
 				{{ .Render "li"}}
 			{{ end }}
