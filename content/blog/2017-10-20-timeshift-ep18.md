@@ -50,7 +50,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 [**ntopng Grafana Integration: The Beauty of Data Visualization**](http://www.ntop.org/ntopng/ntopng-grafana-integration-the-beauty-of-data-visualizazion/): Our friends at ntop created a tutorial so that you can graph ntop monitoring data in Grafana. He goes through the metrics exposed, configuring the ntopng Data Source plugin, and building your first dashboard. They've also created a nice video tutorial of the process.
 
-[**Installing Graphite and Grafana to Display the Graphs of Centreon**](http://www.bujarra.com/instalando-graphite-grafana-visualizar-las-graficas-centreon/): This article, provides a step-by-step guide to getting your Centreon data into Graphite and visualize the data in Grafana.
+[**Installing Graphite and Grafana to Display the Graphs of Centreon**](http://www.bujarra.com/instalando-graphite-grafana-visualizar-las-graficas-centreon/): This article, provides a step-by-step guide to getting your Centreon data into Graphite and visualizing the data in Grafana.
 
 [**Bit v. Byte Episode 3 - Metrics for the Win**](https://www.bitvbyte.com/): Bit v. Byte is a new weekly Podcast about the web industry, tools and techniques upcoming and in use today. This episode dives into metrics, and discusses Grafana, Prometheus and NGINX Amplify.
 
