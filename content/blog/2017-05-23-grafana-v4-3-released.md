@@ -21,8 +21,7 @@ Grafana v4.3 is now [available for download](https://grafana.com/grafana/downloa
  - Dashed lines in the Graph Panel
  - 60+ small fixes and improvements, most of them contributed by our fantastic community!
 
-Check out the [New Features in v4.3 Dashboard](http://play.grafana.org/dashboard/db/new-features-in-v4-3?orgId=1) on the Grafana Play site for
-a showcase of these new features.
+Check out the [New Features in v4.3 Dashboard](http://play.grafana.org/dashboard/db/new-features-in-v4-3?orgId=1) on the Grafana Play site for a showcase of these new features.
 
 ## Histogram Support
 
