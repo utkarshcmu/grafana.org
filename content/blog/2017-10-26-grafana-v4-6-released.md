@@ -83,6 +83,22 @@ Here are just a few highlights from the [Changelog](https://github.com/grafana/g
 
 Head to the [v4.6 download page](https://grafana.com/grafana/download) for download links & instructions.
 
+<br />
+<hr />
+## GrafanaCon EU Early Bird is Ending
+
+[Early bird discounts](https://ti.to/grafanacon/grafanacon-eu/with/e1i8kk09ih8) will be ending soon, but you still have a few days to lock in the lower price. We will be closing early bird on October 31, so don't wait until the last minute to take advantage of the discounted tickets!
+
+Also, there's still time to submit your talk through October 31. We're looking for technical and non-technical talks of all sizes. [Submit a CFP now](http://grafana.com/grafanacon-cfp).
+
+[![GrafanaCon EU](/assets/img/blog/grafanacon_4_6_release.png)](https://ti.to/grafanacon/grafanacon-eu/with/e1i8kk09ih8)
+
+<p>
+	<a class="btn btn--grafanacon" href="https://ti.to/grafanacon/grafanacon-eu/with/e1i8kk09ih8" target="_blank"><strong>Get Your Early Bird Ticket Now</strong></a>
+</p>
+<br />
+<hr />
+
 ## Thanks
 
 A big thanks to all the Grafana users who contribute by submitting PRs, bug reports, helping out on our [community site](https://community.grafana.com/) and providing feedback!
