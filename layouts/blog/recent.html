@@ -4,7 +4,7 @@
 	<div class="wrapper">
 		<h1 class="page-letterhead__heading">Blog</h1>
 		<h2 class="page-letterhead__subheading">
-			News, announcements, articles, metrics & monitoring love...
+			News, announcements, articles, metrics &amp; monitoring love...
 			<a class="blog-rss-link" href="/blog/index.xml" type="application/rss+xml" target="_blank">
 				RSS <i class="fa fa-rss"></i>
 			</a>
@@ -23,13 +23,13 @@
 			<br />
 			<br />
 
-			<!-- <h4>Latest Stable Release</h4>
+			<h4>Latest Stable Release</h4>
 			{{ range first 1 (where .Site.Taxonomies.categories.Release.Pages "Section" "blog")}}
 				{{ .Render "li"}}
 			{{ end }}
 			<hr>
 			<br />
-			<br /> -->
+			<br />
 
 			<h4>Other Recent Articles</h4>
 			{{ range first 8 (after 1 .Site.Pages) }}
