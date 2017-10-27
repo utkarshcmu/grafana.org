@@ -45,7 +45,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 
 #### From the Blogosphere
-[**Lyft’s Envoy dashboards**](https://medium.com/@mattklein123/lyfts-envoy-dashboards-5c91738816b1): Lyft developed Envoy, to relieve operational and reliability headaches. Envoy is a “service mesh” substrate that provides common utilities such as service discovery, load balancing, rate limiting, circuit breaking, stats, logging, tracing, etc. to application architectures. They've recently shared their Envoy dashboards, and walk you through their setup.
+[**Lyft’s Envoy dashboards**](https://medium.com/@mattklein123/lyfts-envoy-dashboards-5c91738816b1): Lyft developed Envoy to relieve operational and reliability headaches. Envoy is a “service mesh” substrate that provides common utilities such as service discovery, load balancing, rate limiting, circuit breaking, stats, logging, tracing, etc. to application architectures. They've recently shared their Envoy dashboards, and walk you through their setup.
 
 [**Monitoring Data in a SQL Table with Prometheus and Grafana**](https://jcooney.net/post/2017/10/23/prometheus-grafana-sql.html) Joseph recently built a proof-of-concept to add monitoring and alerting on the results of a Microsoft SQL Server query. Since he knew he'd eventually want to monitor many other things, from many other sources, he chose Prometheus and Grafana as his starting point. In this article, he walks us through his steps of exposing SQL queries to Prometheus, collecting metrics, alerting, and visualizing the results in Grafana.
 
