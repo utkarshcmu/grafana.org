@@ -12,7 +12,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 <div class="row row--no-gutters">
 	<div class="col col--sm-12">
-		<p>This week, we were busy prepping for our latest stable release, Grafana 4.6. This is a sizeable release that adds some key new functionality, but there's no time to pat ourselves on the back - now it's time to focus on Grafana 5.0! Find out more about what's in 4.6 in our <a href="https://grafana.com/blog/2017/10/26/grafana-4.6-released/?utm_source=blog&utm_campaign=timeshift_19" target="_blank">release blog post</a>, and let us know what you think of the new features and enhancements.</p>
+		<p>This week, we were busy prepping for our latest stable release, Grafana 4.6! This is a sizeable release that adds some key new functionality, but there's no time to pat ourselves on the back - now it's time to focus on Grafana 5.0! In the meantime, find out more about what's in 4.6 in our <a href="https://grafana.com/blog/2017/10/26/grafana-4.6-released/?utm_source=blog&utm_campaign=timeshift_19" target="_blank">release blog post</a>, and let us know what you think of the new features and enhancements.</p>
 	</div>
 </div>
 
