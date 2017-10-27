@@ -49,7 +49,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 [**Monitoring Data in a SQL Table with Prometheus and Grafana**](https://jcooney.net/post/2017/10/23/prometheus-grafana-sql.html) Joseph recently built a proof-of-concept to add monitoring and alerting on the results of a Microsoft SQL Server query. Since he knew he'd eventually want to monitor many other things, from many other sources, he chose Prometheus and Grafana as his starting point. In this article, he walks us through his steps of exposing SQL queries to Prometheus, collecting metrics, alerting, and visualizing the results in Grafana.
 
-[**Crypto Exchange Trading Data**](https://cointradeanalysis.com/dashboard/db/wex-tokens?refresh=15m&orgId=2) Discovering interesting public Grafana dashboards has been happening [more](https://grafana.wikimedia.org/?orgId=1) and [more](http://monitor.gitlab.net/?orgId=1) lately. This week, I came across a dashboard visualizing trading data on the crypto exchanges. If you have an interetsing public dashboard you'd like shared, <a href="https://twitter.com/intent/tweet?text=Hey%20%40grafana, Check out this dashboard!">Let us know</a>.
+[**Crypto Exchange Trading Data**](https://cointradeanalysis.com/dashboard/db/wex-tokens?refresh=15m&orgId=2) Discovering interesting public Grafana dashboards has been happening [more](https://grafana.wikimedia.org/?orgId=1) and [more](http://monitor.gitlab.net/?orgId=1) lately. This week, I came across a dashboard visualizing trading data on the crypto exchanges. If you have a public dashboard you'd like shared, <a href="https://twitter.com/intent/tweet?text=Hey%20%40grafana, Check out this dashboard!">Let us know</a>.
 
 
 <hr />
@@ -62,7 +62,7 @@ categories = ["timeShift", "Grafana Buzz"]
 	<div class="col col--sm-9 blog-plugin-grid__item">
 		<h4>GrafanaCon EU Early Bird is Ending</h4>
 		<p>
-			Early bird discounts will be ending October 31, this is your last chance to take advantage of the discounted tickets!
+			Early bird discounts will be ending October 31; this is your last chance to take advantage of the discounted tickets!
 		</p>
 		<p>
 			<a class="btn btn--grafanacon" href="https://ti.to/grafanacon/grafanacon-eu/with/e1i8kk09ih8" target="_blank"><strong>Get Your Early Bird Ticket Now</strong></a>
@@ -74,7 +74,7 @@ categories = ["timeShift", "Grafana Buzz"]
 <hr />
 
 #### Grafana Plugins
-Each week we review updated plugins to ensure code quality and compatibility before publishing them on grafana.com. This process can take time, and we appreciate all of the communitcation from plugin authors. This week we have two plugins that received some major TLC. These are two very popular plugins, so we encourage you to update. We've made updating easy; for on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_19" target="_blank">Grafana-cli tool</a>, or update with 1 click if you are using <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_19" target="_blank">Hosted Grafana</a>.
+Each week we review updated plugins to ensure code quality and compatibility before publishing them on grafana.com. This process can take time, and we appreciate all of the communication from plugin authors. This week we have two plugins that received some major TLC. These are two very popular plugins, so we encourage you to update. We've made updating easy; for on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_19" target="_blank">Grafana-cli tool</a>, or update with 1 click if you are using <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_19" target="_blank">Hosted Grafana</a>.
 
 <br />
 <div class="blog-plugin">
@@ -89,7 +89,7 @@ Each week we review updated plugins to ensure code quality and compatibility bef
 			<p>
 			<ul>
 				<li>PostgreSQL support for Direct DB Connection.</li>
-				<li>Triggers query mode which allows to count active alerts by group, host and application, <a href="https://github.com/alexanderzobnin/grafana-zabbix/issues/141" target="_blank">#141</a>.</li>
+				<li>Triggers query mode, which allows counting active alerts by group, host and application, <a href="https://github.com/alexanderzobnin/grafana-zabbix/issues/141" target="_blank">#141</a>.</li>
 				<li>sortSeries() function that sorts multiple timeseries by name, <a href="https://github.com/alexanderzobnin/grafana-zabbix/issues/447" target="_blank">#447</a>, thanks to <a href="https://github.com/mdorenkamp" target="_blank">@mdorenkamp</a>.</li>
 				<li>percentil() function, thanks to <a href="https://github.com/pedrohrf" target="_blank">@pedrohrf</a>.</li>
 				<li>Zabbix System Status example dashboard.</li>
@@ -107,7 +107,7 @@ Each week we review updated plugins to ensure code quality and compatibility bef
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/grafana-worldmap-panel?utm_source=blog&utm_campaign=timeshift_19" target="_blank">Wroldmap Panel Plugin</a></strong> - The Worldmap panel also got a new update. Zooming with the mouse wheel has been turned off as it was too easy to accidentally zoom in when scrolling the page. You can zoom in with the mouse by either double-clicking or using shift+drag to zoom in on an area.
+				<strong><a href="https://grafana.com/plugins/grafana-worldmap-panel?utm_source=blog&utm_campaign=timeshift_19" target="_blank">Wroldmap Panel Plugin</a></strong> - The Worldmap panel also got a new update. Zooming with the mouse wheel has been turned off, as it was too easy to accidentally zoom in when scrolling the page. You can zoom in with the mouse by either double-clicking or using shift+drag to zoom in on an area.
 			</p>
 			<ul>
 				<li>Support for new data source integration, the Dynamic JSON endpoint <a href="https://github.com/grafana/worldmap-panel/issues/103" target="_blank">#103</a>, thanks <a href="https://github.com/LostInBrittany" target="_blank">@LostInBrittany</a></li>
@@ -137,7 +137,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 				11.1.17 | New York, NY - <a href="https://www.eventbrite.com/e/cloud-native-in-the-datacenter-why-how-and-who-tickets-38444092315" target="_blank">Cloud Native in the Datacenter: Why, How &amp; Who</strong>
 			</h4>
 			<p>
-				<strong>Raj Dutt - Panel Discussion</strong> | Join the ​Cloud ​Native ​Computing ​Foundation and Packet ​for ​​an ​​interactive ​​discussion ​about the success stories, failures, rationales and in-the-trenches challenges when running cloud native in private or non "public cloud" datacenters. This means bare metal, colocation, private clouds, special hardware or networking setups, compliance and security focused deployments. We'll talk about successes, current initiatives within the community to enable these types of deployments and work left to be done to make cloud native platforms truly portable.
+				<strong>Raj Dutt - Panel Discussion</strong> | Join the ​Cloud ​Native ​Computing ​Foundation and Packet ​for ​​an ​​interactive ​​discussion ​about the success stories, failures, rationales and in-the-trenches challenges when running cloud native in private or non "public cloud" datacenters. This means bare metal, colocation, private clouds, special hardware or networking setups, compliance and security-focused deployments. We'll talk about successes, current initiatives within the community to enable these types of deployments and work left to be done to make cloud native platforms truly portable.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://www.eventbrite.com/e/cloud-native-in-the-datacenter-why-how-and-who-tickets-38444092315" target="_blank"><strong>RSVP FREE</strong></a>
@@ -193,7 +193,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Cool <a href="https://twitter.com/hashtag/Dashboards?src=hash&amp;ref_src=twsrc%5Etfw">#Dashboards</a> with <a href="https://twitter.com/hashtag/Grafana?src=hash&amp;ref_src=twsrc%5Etfw">#Grafana</a> <a href="https://twitter.com/hashtag/Icinga2?src=hash&amp;ref_src=twsrc%5Etfw">#Icinga2</a> <a href="https://twitter.com/hashtag/Graphite?src=hash&amp;ref_src=twsrc%5Etfw">#Graphite</a> <a href="https://twitter.com/hashtag/NOC?src=hash&amp;ref_src=twsrc%5Etfw">#NOC</a> <a href="https://twitter.com/hashtag/Monitoring?src=hash&amp;ref_src=twsrc%5Etfw">#Monitoring</a> <a href="https://twitter.com/hashtag/Security?src=hash&amp;ref_src=twsrc%5Etfw">#Security</a> <a href="https://t.co/cGXQS5EDXW">https://t.co/cGXQS5EDXW</a> <a href="https://t.co/QqoFcA0E2S">pic.twitter.com/QqoFcA0E2S</a></p>&mdash; Quality NOC S.L. (@QualityNoc) <a href="https://twitter.com/QualityNoc/status/922568024229519360?ref_src=twsrc%5Etfw">October 23, 2017</a></blockquote>
 			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-			<p>Nice - but dashboards are meant to be shared! You should upload that to our list of <a href="https://grafana.com/dashboards?search=Icinga" target="_blank">Icinga2 dashbaords</a>.</p>
+			<p>Nice - but dashboards are meant for sharing! You should upload that to our list of <a href="https://grafana.com/dashboards?search=Icinga" target="_blank">Icinga2 dashboards</a>.</p>
 		</div>
 	</div>
 </div>
