@@ -85,7 +85,7 @@ Each week we review updated plugins to ensure code quality and compatibility bef
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/alexanderzobnin-zabbix-app?utm_source=blog&utm_campaign=timeshift_19" target="_blank">Zabbix App Plugin</a></strong> - The Zabbix App Plugin just got a big update! Here are just a few of the changes
+				<strong><a href="https://grafana.com/plugins/alexanderzobnin-zabbix-app?utm_source=blog&utm_campaign=timeshift_19" target="_blank">Zabbix App Plugin</a></strong> - The Zabbix App Plugin just got a big update! Here are just a few of the changes:
 			<p>
 			<ul>
 				<li>PostgreSQL support for Direct DB Connection.</li>
@@ -124,7 +124,7 @@ Each week we review updated plugins to ensure code quality and compatibility bef
 <hr />
 
 <h4>Upcoming Events:</h4>
-In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We have some awesome talks lined up this November Hope to see you at one of these events!
+In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We have some awesome talks lined up this November. Hope to see you at one of these events!
 
 <br />
 <div class="blog-plugin">
