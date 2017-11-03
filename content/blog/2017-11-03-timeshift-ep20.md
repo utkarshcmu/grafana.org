@@ -48,7 +48,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 
 #### From the Blogosphere
-[**FOSDEM 2018 Monitoring &amp; Cloud Devroom CFP**](https://docs.google.com/document/d/1X2ntRpmY58r4iwAxfjk0yhxfVYcK9Xu56qhwR4uD6Og): The CFP is <strong>now open</strong> for the Monitoring &amp; Cloud Devroom at FOSDEM 2018. This was a popular devroom last year, so be sure to submit your talk before the November 26 deadline!
+[**FOSDEM 2018 Monitoring &amp; Cloud Devroom CFP**](https://docs.google.com/document/d/1X2ntRpmY58r4iwAxfjk0yhxfVYcK9Xu56qhwR4uD6Og): The CFP is <strong>now open</strong> for the Monitoring &amp; Cloud Devroom at FOSDEM 2018, held in Brussels, Belgium, Feb 3-4, 2018. FOSDEM is the premier open source conference in europe, and covers a broad range of topics. The Monitoring and Cloud devroom was a popular devroom last year, so be sure to submit your talk before the November 26 deadline!
 <br />
 <br />
 [**PRTG plus Grafana FTW!**](https://blog.paessler.com/prtg-plus-grafana-ftw): <a href="https://github.com/neuralfraud" target="_blank">@neuralfraud</a> has written a plugin for PRTG that allows you to view PRTG data directly in Grafana. This article goes over the features of the plugin, beautiful dashboards and visualization options, and how to get started.
