@@ -54,7 +54,7 @@ categories = ["timeShift", "Grafana Buzz"]
 [**PRTG plus Grafana FTW!**](https://blog.paessler.com/prtg-plus-grafana-ftw): <a href="https://github.com/neuralfraud" target="_blank">@neuralfraud</a> has written a plugin for PRTG that allows you to view PRTG data directly in Grafana. This article goes over the features of the plugin, beautiful dashboards and visualization options, and how to get started.
 <br />
 <br />
-[**Using Grafana &amp; Inlfuxdb to view XIV Host Performance Metrics**](https://allanmcaleavyblog.wordpress.com/2017/11/03/using-grafana-inlfuxdb-to-view-xiv-host-performance-metrics/): Allan wanted to get an unified view of what his hosts were doing, however, the XIV GUI only allowed 12 hosts to be displayed at a given time, which was extremely limiting. This is the first in a series of articles on how to gather and parse host data and visualize it in Grafana.
+[**Using Grafana &amp; InlfuxDB to view XIV Host Performance Metrics**](https://allanmcaleavyblog.wordpress.com/2017/11/03/using-grafana-inlfuxdb-to-view-xiv-host-performance-metrics/): Allan wanted to get an unified view of what his hosts were doing, however, the XIV GUI only allowed 12 hosts to be displayed at a given time, which was extremely limiting. This is the first in a series of articles on how to gather and parse host data and visualize it in Grafana.
 <br />
 <br />
 [**Service telemetry with Grafana and InfluxDB - Part I: Introduction**](https://ruimarques.io/blog/service-telemetry-with-grafana-and-influxdb-part-i-introduction/): This is the first in a new series of posts which will walk you through the process of building a production-ready solution for monitoring real-time metrics for any application or service, complete with useful and beautiful dashboards.
@@ -119,7 +119,7 @@ Each week we highlight some of the important contributions from our amazing open
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<strong><a href="https://github.com/akshaychhajed" target="_blank">@akshaychhajed</a></strong><br/>
-				We got an amazing PR this week. Grafana has lots of docker-compose files for internal testing that were created using a very old version of docker-compose. <a href="https://github.com/akshaychhajed" target="_blank">@akshaychhajed</a> sent a <a href="https://github.com/grafana/grafana/pull/9741" target="_blank">PR</a> converting them all to the latest version of docker-compose. A huge thanks from the Grafana team!
+				We got an amazing PR this week. Grafana has lots of docker-compose files for internal testing that were created using a very old version of docker-compose. <a href="https://github.com/akshaychhajed" target="_blank">@akshaychhajed</a> sent a <a href="https://github.com/grafana/grafana/pull/9741" target="_blank">PR</a> converting them all to the latest version of docker-compose. Huge thanks from the Grafana team!
 			</p>
 		</div>
 	</div>
