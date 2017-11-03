@@ -48,8 +48,16 @@ categories = ["timeShift", "Grafana Buzz"]
 
 
 #### From the Blogosphere
-[**Lyft’s Envoy dashboards**](https://medium.com/@mattklein123/lyfts-envoy-dashboards-5c91738816b1): Lyft developed Envoy to relieve operational and reliability headaches. Envoy is a “service mesh” substrate that provides common utilities such as service discovery, load balancing, rate limiting, circuit breaking, stats, logging, tracing, etc. to application architectures. They've recently shared their Envoy dashboards, and walk you through their setup.
-
+[**FOSDEM 2018 Monitoring &amp; Cloud Devroom CFP**](https://docs.google.com/document/d/1X2ntRpmY58r4iwAxfjk0yhxfVYcK9Xu56qhwR4uD6Og): The CFP is <strong>now open</strong> for the Monitoring &amp; Cloud Devroom at FOSDEM 2018. This was a popular devroom last year, so be sure to submit your talk before the November 26 deadline!
+<br />
+<br />
+[**PRTG plus Grafana FTW!**](https://blog.paessler.com/prtg-plus-grafana-ftw): <a href="https://github.com/neuralfraud" target="_blank">@neuralfraud</a> has written a plugin for PRTG that allows you to view PRTG data directly in Grafana. This article goes over the features of the plugin, beautiful dashboards and visualization options, and how to get started.
+<br />
+<br />
+[**Using Grafana &amp; Inlfuxdb to view XIV Host Performance Metrics**](https://allanmcaleavyblog.wordpress.com/2017/11/03/using-grafana-inlfuxdb-to-view-xiv-host-performance-metrics/): Allan wanted to get an unified view of what his hosts were doing, however, the XIV GUI only allowed 12 hosts to be displayed at a given time, which was extremely limiting. This is the first in a series of articles on how to gather and parse host data and visualize it in Grafana.
+<br />
+<br />
+[**Service telemetry with Grafana and InfluxDB - Part I: Introduction**](https://ruimarques.io/blog/service-telemetry-with-grafana-and-influxdb-part-i-introduction/): This is the first in a new series of posts which will walk you through the process of building a production-ready solution for monitoring real-time metrics for any application or service, complete with useful and beautiful dashboards.
 <hr />
 <br />
 
