@@ -54,6 +54,9 @@ categories = ["timeShift", "Grafana Buzz"]
 [**PRTG plus Grafana FTW!**](https://blog.paessler.com/prtg-plus-grafana-ftw): <a href="https://github.com/neuralfraud" target="_blank">@neuralfraud</a> has written a plugin for PRTG that allows you to view PRTG data directly in Grafana. This article goes over the features of the plugin, beautiful dashboards and visualization options, and how to get started.
 <br />
 <br />
+[**Grafana-based GUI for mgstat, a system monitoring tool for InterSystems Caché, Ensemble or HealthShare**](https://community.intersystems.com/post/grafana-based-gui-mgstat-system-monitoring-tool-intersystems-cach%C3%A9-ensemble-or-healthshare): This is a continuation of the previous article [Making Prometheus Monitoring for InterSystems Caché](https://community.intersystems.com/post/making-prometheus-monitoring-intersystems-cach%C3%A9) where we examine how to visualize the results from the mgstat tool. This article is broken down into which stats are collected and how these stats are collected.
+<br />
+<br />
 [**Using Grafana &amp; InfluxDB to view XIV Host Performance Metrics**](https://allanmcaleavyblog.wordpress.com/2017/11/03/using-grafana-inlfuxdb-to-view-xiv-host-performance-metrics/): Allan wanted to get an unified view of what his hosts were doing, however, the XIV GUI only allowed 12 hosts to be displayed at a given time– which was extremely limiting. This is the first in a series of articles on how to gather and parse host data and visualize it in Grafana.
 <br />
 <br />
