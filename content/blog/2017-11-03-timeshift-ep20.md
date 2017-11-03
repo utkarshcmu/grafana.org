@@ -12,7 +12,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 <div class="row row--no-gutters">
 	<div class="col col--sm-12">
-		<p>This week, in addition to rolling out a <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_20" target="_blank">Grafana 4.6.1</a> release, we've been busy prepping for upcoming events. In Europe, we'll be speaking at and sponsoring the sold-out <a href="http://www.oredev.org" target="_blank">Øredev Conference</a> in Malmö, Sweden, Nov 7-11, and on the west coast, we'll be speaking at and sponsoring <a href="https://influxdays.com/" target="_blank">Influx Days</a>, Nov 14 in San Francisco, CA. We hope to get a chance to say hi to you at one of these events.</p>
+		<p>This week, in addition to rolling out a <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_20" target="_blank">Grafana 4.6.1</a> release, we've been busy prepping for upcoming events. In Europe, we'll be speaking at and sponsoring the sold-out <a href="http://www.oredev.org" target="_blank">Øredev Conference</a> in Malmö, Sweden, Nov 7-11, and on the west coast, we'll be speaking at and sponsoring <a href="https://influxdays.com/" target="_blank">InfluxDays</a>, Nov 14 in San Francisco, CA. We hope to get a chance to say hi to you at one of these events.</p>
 		
 		<p>We also closed the CFP window this week for talks at <a href="http://grafanacon.org" target="_blank">GrafanaCon EU</a>. We received a tremendous number of great submissions, and will spend the next few weeks making our selections. As speakers are confirmed, we'll add them to the website, so be sure to keep an eye out. We're thrilled that the community is so excited to share their knowledge of Grafana and open source monitoring.</p>
 	</div>
@@ -54,7 +54,7 @@ categories = ["timeShift", "Grafana Buzz"]
 [**PRTG plus Grafana FTW!**](https://blog.paessler.com/prtg-plus-grafana-ftw): <a href="https://github.com/neuralfraud" target="_blank">@neuralfraud</a> has written a plugin for PRTG that allows you to view PRTG data directly in Grafana. This article goes over the features of the plugin, beautiful dashboards and visualization options, and how to get started.
 <br />
 <br />
-[**Using Grafana &amp; InlfuxDB to view XIV Host Performance Metrics**](https://allanmcaleavyblog.wordpress.com/2017/11/03/using-grafana-inlfuxdb-to-view-xiv-host-performance-metrics/): Allan wanted to get an unified view of what his hosts were doing, however, the XIV GUI only allowed 12 hosts to be displayed at a given time, which was extremely limiting. This is the first in a series of articles on how to gather and parse host data and visualize it in Grafana.
+[**Using Grafana &amp; InfluxDB to view XIV Host Performance Metrics**](https://allanmcaleavyblog.wordpress.com/2017/11/03/using-grafana-inlfuxdb-to-view-xiv-host-performance-metrics/): Allan wanted to get an unified view of what his hosts were doing, however, the XIV GUI only allowed 12 hosts to be displayed at a given time– which was extremely limiting. This is the first in a series of articles on how to gather and parse host data and visualize it in Grafana.
 <br />
 <br />
 [**Service telemetry with Grafana and InfluxDB - Part I: Introduction**](https://ruimarques.io/blog/service-telemetry-with-grafana-and-influxdb-part-i-introduction/): This is the first in a new series of posts which will walk you through the process of building a production-ready solution for monitoring real-time metrics for any application or service, complete with useful and beautiful dashboards.
@@ -138,7 +138,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		</div>
 		<div class="col col--sm-9 blog-plugin-grid__item">
 			<h4>
-				11.7.17 - 11.10.17 | Malmö, Sweden - <a href="http://www.oredev.org/2017/tickets" target="_blank">Øredev</strong>
+				11.7.17 - 11.10.17 | Malmö, Sweden - <a href="http://www.oredev.org/" target="_blank">Øredev</strong>
 			</h4>
 			<p>
 				<strong>Carl Bergquist - Monitoring for Everyone</strong> | Once your product starts to provide value you might want to make sure that the system is behaving and performing as you expect. That's when you start looking for something to verify that everything is working as expected. Aka monitoring. But what is monitoring? What kind of monitoring tools are there? How have they evolved lately?
