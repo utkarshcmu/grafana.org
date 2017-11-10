@@ -156,6 +156,11 @@ q.quote {
     width: 130px;
     max-width: 130px;
   }
+  .med {
+    border-radius: 50%; 
+    width: 150px;
+    max-width: 150px;
+  }
   .large {
     border-radius: 50%; 
     width: 200px;
@@ -163,13 +168,32 @@ q.quote {
   }
 }
 
-.blog-plugin-grid {
+.speaker {
+  text-align: center;
+  .speaker-photo {
+    border-radius: 50%; 
+    width: 200px;
+  }
+  .speaker-logo {
+    width: 300px;
+  }
+}
+
+.speaker-name {
+  font-size: 140%
+}
+
+.speaker-detail {
+text-transform: uppercase;
+}
+
+.blog-plugin-grid, .speaker-grid {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.blog-plugin-grid__item {
+.blog-plugin-grid__item, .speaker-grid__item {
 
 }
 
