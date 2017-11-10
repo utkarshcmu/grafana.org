@@ -12,7 +12,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 <div class="row row--no-gutters">
 	<div class="col col--sm-12">
-		<p>This week the Stockholm team was in Malmö, Sweden for <a href="http://www.oredev.org/" target="_blank">Øredev</a> – one of the biggest developer conferences in Scandinavia, while the rest of Grafana Labs had to live vicariously through <a href="https://twitter.com/torkelo/status/928957727514251265" target="_blank">Twitter</a> <a href="https://twitter.com/torkelo/status/927931358755852288" target="_blank">posts</a>. We also announced a collaboration with Microsoft's Azure team to create an official <a href="https://grafana.com/plugins/grafana-azure-monitor-datasource?utm_source=blog&utm_campaign=timeshift_21">Azure data source</a> plugin for Grafana. Awesome week!</p>
+		<p>This week the Stockholm team was in Malmö, Sweden for <a href="http://www.oredev.org/" target="_blank">Øredev</a> – one of the biggest developer conferences in Scandinavia, while the rest of Grafana Labs had to live vicariously through <a href="https://twitter.com/torkelo/status/928957727514251265" target="_blank">Twitter</a> <a href="https://twitter.com/torkelo/status/927931358755852288" target="_blank">posts</a>. We also announced a collaboration with Microsoft's Azure team to create an official <a href="https://grafana.com/plugins/grafana-azure-monitor-datasource?utm_source=blog&utm_campaign=timeshift_21">Azure data source</a> plugin for Grafana. We've also announced the next block of speakers at GrafanaCon. Awesome week!</p>
 	</div>
 </div>
 <div class="row row--large-gutters">
