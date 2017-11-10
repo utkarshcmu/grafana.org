@@ -56,7 +56,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 [**Monitor Azure Services and Applications Using Grafana**](https://azure.microsoft.com/en-us/blog/monitor-azure-services-and-applications-using-grafana/): Continuing the theme of Microsoft Azure, the Azure team published an article about the collaboration and resulting plugin. Ashwin discusses what prompted the project and shares some links to dive in deeper into how to get up and running.
 
-[**Monitoring for Everyone**](https://vimeo.com/241968477): It only took 1 day for the organizers of Oredev Conference to start publishing videos of the talks. Bravo! Carl Bergquist's talk is a great overview of the whys, whats, and hows of monitoring.
+[**Monitoring for Everyone**](https://vimeo.com/241968477): It only took 1 day for the organizers of Oredev Conference to start publishing videos of the talks. Bravo! Carl Bergquist's talk is a great overview of the whys, what's, and how's of monitoring.
 
 [**Eight years of Go**](https://blog.golang.org/8years): This article is in honor of Go celebrating 8 years, and discusses the growth and popularity of the language. We are thrilled to be in such good company in the "Go's impact in open source" section. Congrats, and we wish you many more years of success!
 
