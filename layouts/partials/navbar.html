@@ -38,8 +38,21 @@
 						<li class="site-nav__item site-nav__item--home">
 							<a class="site-nav__link" href="{{ $navBaseUrl }}">Home</a>
 						</li>
-						<li class="site-nav__item site-nav__item--text">
-							<a class="site-nav__link" href="{{ $navBaseUrl }}/grafana">Grafana</a>
+						<li class="site-nav__item site-nav__item--text site-nav__item--dropdown">
+							<div class="site-nav-dropdown__toggle">
+								<a class="site-nav__link" href="{{ $navBaseUrl }}/grafana">Grafana</a>
+							</div>
+							<ul class="site-nav-dropdown__menu ui-list">
+								<li class="site-nav__item site-nav__item--text">
+									<a class="site-nav__link" href="{{ $navBaseUrl }}/grafana">Features</a>
+								</li>
+								<li class="site-nav__item site-nav__item--text">
+									<a class="site-nav__link" href="{{ $navBaseUrl }}/grafana/testimonials">Testimonials</a>
+								</li>
+								<li class="site-nav__item site-nav__item--text">
+									<a class="site-nav__link" href="{{ $navBaseUrl }}/grafana/contribute">Contribute</a>
+								</li>
+							</ul>
 						</li>
 						<li class="site-nav__item site-nav__item--text site-nav__item--dropdown">
 							<div class="site-nav-dropdown__toggle">
@@ -47,13 +60,16 @@
 							</div>
 							<ul class="site-nav-dropdown__menu ui-list">
 								<li class="site-nav__item site-nav__item--text">
-									<a class="site-nav__link" href="{{ $navBaseUrl }}/cloud/platform">The Platform</a>
+									<a class="site-nav__link" href="{{ $navBaseUrl }}/cloud">Overview</a>
+								</li>
+								<li class="site-nav__item site-nav__item--text">
+									<a class="site-nav__link" href="{{ $navBaseUrl }}/cloud/grafana">Hosted Grafana</a>
 								</li>
 								<li class="site-nav__item site-nav__item--text">
 									<a class="site-nav__link" href="{{ $navBaseUrl }}/cloud/metrics">Hosted Metrics</a>
 								</li>
 								<li class="site-nav__item site-nav__item--text">
-									<a class="site-nav__link" href="{{ $navBaseUrl }}/cloud/grafana">Hosted Grafana</a>
+									<a class="site-nav__link" href="{{ $navBaseUrl }}/cloud/worldping">worldPing</a>
 								</li>
 							</ul>
 						</li>
@@ -63,7 +79,7 @@
 							</div>
 							<ul class="site-nav-dropdown__menu ui-list">
 								<li class="site-nav__item site-nav__item--text">
-									<a class="site-nav__link" href="{{ $navBaseUrl }}/services/support">Support</a>
+									<a class="site-nav__link" href="{{ $navBaseUrl }}/services/support">Support Subscriptions</a>
 								</li>
 								<li class="site-nav__item site-nav__item--text">
 									<a class="site-nav__link" href="{{ $navBaseUrl }}/services/training">Training</a>
