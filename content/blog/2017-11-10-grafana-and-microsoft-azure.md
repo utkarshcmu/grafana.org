@@ -12,7 +12,7 @@ categories = ["Grafana", "Plugins"]
 
 ## Grafana Launches Microsoft Azure Data Source
 
-Microsoft is a whole new company. Way back in college, I remember that they were vehemently anti-Linux, with Steve Ballmer even going even going so far as to call open source a “cancer”. More recently, I’ve been watching with a sense of astonishment and admiration at some of their moves and announcements.  I’ve been particularly impressed with the rise of Azure, and how they’ve come to embrace open source and open standards.
+Microsoft is a whole new company. Way back in college, I remember that they were vehemently anti-Linux, with Steve Ballmer even going so far as to call open source a “cancer”. More recently, I’ve been watching with a sense of astonishment and admiration at some of their moves and announcements.  I’ve been particularly impressed with the rise of Azure, and how they’ve come to embrace open source and open standards.
 
 We got a chance to talk to the Azure metrics team a few months ago, and they shared some of their strategy and vision for metrics and observability. They're all about interoperability and making the data easy to consume; whatever is best for the customer.
 
