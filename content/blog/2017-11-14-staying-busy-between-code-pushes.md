@@ -16,11 +16,12 @@ Maintaining a regular cadence of pushing out releases, adding new features, impl
 
 #### Recent Events
 **[Øredev Conference | Malmö, Sweden](https://vimeo.com/241968477):**  Øredev is one of the biggest developer conferences in Scandinavia, and Grafana Labs jumped at the chance to be a part of it. In early November, Grafana Labs Principal Developer, Carl Bergquist, gave a great talk on "Monitoring for Everyone", which discussed the concepts of monitoring and why everyone should care, different ways to monitor your systems, extending your monitoring to containers and microservices, and finally what to monitor and alert on. Watch the video of his talk below.
+
 <iframe src="https://player.vimeo.com/video/241968477?color=ffffff" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <br />
 <br />
 
-**[InfluxDays | San Francisco, CA](http://indluxdays.com):** Dan Cech, our Director of Platform Services, spoke at InfluxDays in San Francisco on Nov 14, and Grafana Labs sponsored the event. InfluxDB is a popular data source for Grafana, so we wanted to connect to the InfluxDB community and show them how to get the most out of their data. Dan discussed building dashboards, choosing the best panels for your data, setting up alerting in Grafana and a few sneak peeks of the upcoming Grafana 5.0. The video of his talk is forthcoming, but Dan has made his [presentation](https://docs.google.com/presentation/d/1EjMdTXEz9LLymizJOI0xmHLPzZpwqqnX05zEzWGxrOo/edit?usp=sharing) available.
+**[InfluxDays | San Francisco, CA](http://influxdays.com):** Dan Cech, our Director of Platform Services, spoke at InfluxDays in San Francisco on Nov 14, and Grafana Labs sponsored the event. InfluxDB is a popular data source for Grafana, so we wanted to connect to the InfluxDB community and show them how to get the most out of their data. Dan discussed building dashboards, choosing the best panels for your data, setting up alerting in Grafana and a few sneak peeks of the upcoming Grafana 5.0. The video of his talk is forthcoming, but Dan has made his [presentation](https://docs.google.com/presentation/d/1EjMdTXEz9LLymizJOI0xmHLPzZpwqqnX05zEzWGxrOo/edit?usp=sharing) available.
 <div class="row row--no-gutters">
 		<div class="col col--sm-6">
 			<img src="/assets/img/blog/dcech_influxdays1.jpg" />
@@ -37,7 +38,7 @@ Maintaining a regular cadence of pushing out releases, adding new features, impl
 <iframe width="800" height="450" src="https://www.youtube.com/embed/PDpP1uX_orE" frameborder="0" gesture="media" allowfullscreen></iframe>
 <br />
 <br />
-**[CNCF Meetup | New York, NY](https://www.percona.com/live/e17/):** Grafana Co-founder and CEO, Raj Dutt, particpated in a panel discussion with the folks of Packet and the Cloud Native Computing Foundation. The discussion focused on the success stories, failures, rationales and in-the-trenches challenges when running cloud native in private or non “public cloud” datacenters (bare metal, colocation, private clouds, special hardware or networking setups, compliance and security-focused deployments). 
+**[CNCF Meetup | New York, NY](https://www.eventbrite.com/e/cloud-native-in-the-datacenter-why-how-and-who-tickets-38444092315#):** Grafana Co-founder and CEO, Raj Dutt, particpated in a panel discussion with the folks of Packet and the Cloud Native Computing Foundation. The discussion focused on the success stories, failures, rationales and in-the-trenches challenges when running cloud native in private or non “public cloud” datacenters (bare metal, colocation, private clouds, special hardware or networking setups, compliance and security-focused deployments). 
 <br />
 
 **[Percona Live | Dublin](https://www.percona.com/live/e17/):** Daniel Lee traveled to Dublin, Ireland this fall to present at the database conference Percona Live. There he showed the new native MySQL support, along with a number of upcoming features in Grafana 5.0. His [presentation](https://docs.google.com/presentation/d/1M8phmvC402p67MUr9uiTsMOTDMPmn9UiCVr4F4Z1_kE/edit?usp=sharing) is available to download.
