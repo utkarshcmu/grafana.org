@@ -15,7 +15,7 @@ categories = ["Grafana", "Events"]
 Maintaining a regular cadence of pushing out releases, adding new features, implementing bug fixes and staying on top of support requests is important for any software to thrive; but especially important for open source software due to its rapid pace. It's easy to lose yourself in code and forget that events are happening all the time – in every corner of the world, where we can learn, share knowledge, and meet like-minded individuals to build better software, together. There are so many amazing events we'd like to participate in, but there simply isn't enough time (or budget) to fit them all in. Here's what we've been up to recently; between code pushes.
 
 #### Recent Events
-**[Øredev Conference | Malmö, Sweden](https://vimeo.com/241968477):**  Øredev is one of the biggest developer conferences in Scandinavia, and Grafana Labs jumped at the chance to be a part of it. In early November Carl gave a great talk on "Monitoring for Everyone", which discussed the concepts of monitoring and why everyone should care, different ways to monitor your systems, extending your monitoring to containers and microservices, and finally what to monitor and alert on. Watch the video of his talk below.
+**[Øredev Conference | Malmö, Sweden](https://vimeo.com/241968477):**  Øredev is one of the biggest developer conferences in Scandinavia, and Grafana Labs jumped at the chance to be a part of it. In early November, Grafana Labs Principal Developer, Carl Bergquist, gave a great talk on "Monitoring for Everyone", which discussed the concepts of monitoring and why everyone should care, different ways to monitor your systems, extending your monitoring to containers and microservices, and finally what to monitor and alert on. Watch the video of his talk below.
 <iframe src="https://player.vimeo.com/video/241968477?color=ffffff" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <br />
 <br />
@@ -32,7 +32,7 @@ Maintaining a regular cadence of pushing out releases, adding new features, impl
 <br />
 <br />
 
-**[PromCon | Munich, Germany](http://promcon.io):** Grafana Labs' Principal Developer, Carl Bergquist, dove into Grafana and Prometheus at PromCon in August. Many attendees at PromCon were familiar with Grafana since it's the default dashboard tool for Prometheus, but Carl had a trove of tricks and optimizations to share. He also went over some major changes and what we're currently working on.
+**[PromCon | Munich, Germany](http://promcon.io):** PromCon is **the** Prometheus-focused event of the year. In August, Carl Bergquist, had the opportunity to speak at PromCon and take a deep dive into Grafana and Prometheus. Many attendees at PromCon were already familiar with Grafana, since it's the default dashboard tool for Prometheus, but Carl had a trove of tricks and optimizations to share. He also went over some major changes and what we're currently working on.
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/PDpP1uX_orE" frameborder="0" gesture="media" allowfullscreen></iframe>
 <br />
