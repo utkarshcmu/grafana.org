@@ -1,7 +1,7 @@
 +++
 title = "Staying Busy Between Code Pushes"
 author = "jacqui"
-date = "2017-11-14"
+date = "2017-11-16"
 keywords = ["Grafana", "Blog", "Conferences", "Meetups", "Videos"]
 cover_image = "/assets/img/blog/azure_blog_hero.png"
 cover_opacity = "0.5"
