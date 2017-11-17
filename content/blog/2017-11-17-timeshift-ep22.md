@@ -84,7 +84,7 @@ Plugin authors are often adding new features and fixing bugs, which will make yo
 
 <br />
 <div class="blog-plugin">
-	<div class="row row--md-gutters blog-plugin-grid">
+	<div class="row row--md-gutters">
 		<div class="col col--sm-2 blog-plugin-grid__item">
 			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/hawkular-datasource/versions/1.1.1/logos/large" />
 		</div>
@@ -108,7 +108,7 @@ Plugin authors are often adding new features and fixing bugs, which will make yo
 	</div>
 </div>
 <div class="blog-plugin">
-	<div class="row row--md-gutters blog-plugin-grid">
+	<div class="row row--md-gutters">
 		<div class="col col--sm-2 blog-plugin-grid__item">
 			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/jdbranham-diagram-panel/versions/1.4.3/logos/large" />
 		</div>
@@ -130,7 +130,7 @@ Plugin authors are often adding new features and fixing bugs, which will make yo
 	</div>
 </div>
 <div class="blog-plugin">
-	<div class="row row--md-gutters blog-plugin-grid">
+	<div class="row row--md-gutters">
 		<div class="col col--sm-2 blog-plugin-grid__item">
 			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/natel-influx-admin-panel/versions/0.0.4/logos/large" />
 		</div>
