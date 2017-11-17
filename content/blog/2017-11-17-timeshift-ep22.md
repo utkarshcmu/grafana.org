@@ -31,7 +31,7 @@ This week we have a lot of articles, videos and presentations to share, as well 
 			<li><strong>Color picker:</strong> Bug after using textbox input field to change/paste color string <a href="https://github.com/grafana/grafana/issues/9769" target="_blank">#9769</a></li>
 			<li><strong>Cloudwatch:</strong> build using golang 1.9.2 <a href="https://github.com/grafana/grafana/issues/9667" target="_blank">#9667</a>, thanks <a href="http://github.com/mtanda" target="_blank">@mtanda</a></li>
 			<li><strong>Heatmap:</strong> Fixed tooltip for "time series buckets" mode <a href="https://github.com/grafana/grafana/issues/9332" target="_blank">#9332</a></li>
-			<li><strong>InfluxDB:</strong> Fixed query editor issue when using <code>></code> or <code><</code> operators in WHERE clause <a href="https://github.com/grafana/grafana/issues/9871" target="_blank">#9871</a></li>
+			<li><strong>InfluxDB:</strong> Fixed query editor issue when using <code>&gt;</code> or <code>&lt;</code> operators in WHERE clause <a href="https://github.com/grafana/grafana/issues/9871" target="_blank">#9871</a></li>
 		</ul>
 		<br />
 		<a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_22" target="_blank" class="btn btn--primary">Download Grafana 4.6.2 Now</a>
