@@ -10,10 +10,9 @@ description = "A weekly roundup of articles and links from Grafana and the surro
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-#### Welome to TimeShift
-This week, Grafana Labs team members in the U.S. took time off for the Thanksgiving holiday, to spend time with family and friends. While I'm thankful for many things, I would like to call out two special groups - **1. My Grafana Labs family:** you teach me something new every day, provide interesting challenges, and make me feel valued. You make it a pleasure to come to work. And **2. The Grafana community:** I'm constantly impressed and amazed by the participation and passion from our community. I think I can speak for the entire company when I say, "Thank you!"
+#### Welcome to TimeShift
+This week, Grafana Labs team members in the U.S. took time off for the Thanksgiving holiday, to spend time with family and friends. While I'm thankful for many things, I would like to call out two special groups - **1. My Grafana Labs family:** you teach me something new every day, provide interesting challenges, and make our "post-geographic" company extremely collaborative. You make it a pleasure to come to work. And **2. The Grafana community:** I'm constantly impressed and amazed by the participation and passion from our community. I think I speak for the entire company when I say, "Thank you!"
 
-Due to the U.S. holiday, this issue of timeShift will be short. We plan to resume our regularly scheduled programming next week.
 <hr />
 #### Latest Release
 
@@ -43,7 +42,19 @@ Due to the U.S. holiday, this issue of timeShift will be short. We plan to resum
 
 
 #### From the Blogosphere
-[**Cloud Tech 10 - 13th November 2017 - Grafana, Linux FUSE Adapter, Azure Stack and more!**](https://www.youtube.com/watch?time_continue=90&v=6kyf5-k0Pc8): Mark Whitby is a Cloud Solution Architect at Microsoft UK. Each week he prodcues a video reviewing new developments with Microsoft Azure. This week Mark covers the new [Azure Monitoring Plugin](https://grafana.com/plugins/grafana-azure-monitor-datasource?utm_source=blog&utm_campaign=timeshift_22) we recently announced. He also shows you how to get up and running with Grafana quickly using the [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/grafana-labs.grafana_oss).
+[**Monitoring traceroute through Prometheus and Grafana**](https://m-button.blogspot.fr/2017/11/monitoring-traceroute-through.html): There's nothing like a client-impacting outage to really make you take stock of your monitoring stack. While they had some tools in place, they really wanted to monitor the route our packets were following. This article discusses setting up Prometheus to monitor traceroute and visualize the data in Grafana.
+
+[**Taking KSQL for a Spin Using Real-time Device Data**](https://www.confluent.io/blog/taking-ksql-spin-using-real-time-device-data/): This article describes how to use a steering wheel/pedal set gaming device as a data source, and collect real-time driving data, displayed in a Grafana dashboard. There's also a video included demonstrating the in-game data collection.
+
+[**Monitoring Kubernetes with Prometheus and Grafana**](http://blog.sluijsveld.com/23/11/2017/PrometheusMonitoring/): Chris walks us through how to gain insights in cluster and pod performance on your Kubernetes workloads in Azure using Prometheus and Grafana.
+
+[**Scaling out Grafana with Kubernetes and AWS**](https://medium.com/@fcgravalos/scaling-out-grafana-with-kubernetes-and-aws-62745257df10): Fernando discusses inexpensive horizontal scaling of Grafana and how to deploy multiple replicas using Kubernetes and AWS.
+
+[**Graphite Metrics Stack with Jason Dixon and Dan Cech – Episode 136**](https://www.podcastinit.com/graphite-metrics-with-jason-dixon-and-dan-cech-episode-136/): In this Podcast, Grafana Labs Director, Platform Services Dan Cech sat down with fellow Graphite maintainer Jason Dixon to discuss Graphite's architecture, challenges as the project has evolved, Graphite's staying power over the years, and what we can expect in future versions.
+
+[**Scripted Grafana Dashboards**](https://www.youtube.com/watch?v=ztRP1CJjcWs): This video covers scripted dashboards, which dynamically generates dashboards using Javascript. Scripted dashboards can be more flexible and convenient if you have a lot of metric names that change; instead of always designing your dashboard through the UI, generate them with code.
+
+[**GitLab Performance Monitoring with Grafana**](https://hackernoon.com/gitlab-performance-monitoring-with-grafana-a2394848d071): Mohamed provides a comprehensive look at Gitlab Performance Monitoring, which has been available since Gitlab v8.4. He's also included a dashboard to get you up and visualizing quickly.
 
 <br />
 <hr />
@@ -126,16 +137,16 @@ We try to stay active in the community to learn and share with others who are in
 <div style=" padding: 20px; background: url(/assets/img/blog/timeshift/polygon_texture_black.jpg); background-size: cover; border-radius: 4px;">
 	<h4>Grafana Labs is Hiring!</h4>
 	<p>We are passionate about open source software and thrive on tackling complex challenges to build the future. We ship code from every corner of the globe and love working with the community. If this sounds exciting, you're in luck – <strong>WE'RE HIRING!</strong></p>
-	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_22" target="_blank">Open Positions</a></p>
+	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_23" target="_blank">Open Positions</a></p>
 </div>
 
 
 <hr />
 <br />
 #### How are we doing?
-I enjoy writing these weekly roudups, but am curious how I can improve them. Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_22). Help us make these weekly roundups better!
+I enjoy writing these weekly roundups, but am curious how I can improve them. Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_23). Help us make these weekly roundups better!
 
-Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_22).
+Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_23).
 
 
 

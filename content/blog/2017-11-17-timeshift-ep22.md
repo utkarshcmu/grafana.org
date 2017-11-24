@@ -10,7 +10,7 @@ description = "A weekly roundup of articles and links from Grafana and the surro
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-#### Welome to TimeShift
+#### Welcome to TimeShift
 We hope you liked our [recent article](https://grafana.com/blog/2017/11/16/staying-busy-between-code-pushes/?utm_source=blog&utm_campaign=timeshift_22) with videos and slides from the events we've participated in recently. With Thanksgiving right around the corner, we're getting a breather from work-related travel, but only a short one. We have some events in the coming weeks, and of course are busy filling in the details for [GrafanaCon EU](http://grafanacon.org). 
 
 This week we have a lot of articles, videos and presentations to share, as well as some important plugin updates. Enjoy!
@@ -222,7 +222,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 <hr />
 <br />
 #### How are we doing?
-I enjoy writing these weekly roudups, but am curious how I can improve them. Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_22). Help us make these weekly roundups better!
+I enjoy writing these weekly roundups, but am curious how I can improve them. Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_22). Help us make these weekly roundups better!
 
 Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_22).
 
