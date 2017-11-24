@@ -50,7 +50,7 @@ This week, Grafana Labs team members in the U.S. took time off for the Thanksgiv
 
 [**Scaling out Grafana with Kubernetes and AWS**](https://medium.com/@fcgravalos/scaling-out-grafana-with-kubernetes-and-aws-62745257df10): Fernando discusses inexpensive horizontal scaling of Grafana and how to deploy multiple replicas using Kubernetes and AWS.
 
-[**Graphite Metrics Stack with Jason Dixon and Dan Cech – Episode 136**](https://www.podcastinit.com/graphite-metrics-with-jason-dixon-and-dan-cech-episode-136/): In this Podcast, Grafana Labs Director, Platform Services Dan Cech sat down with fellow Graphite maintainer Jason Dixon to discuss Graphite's architecture, challenges as the project has evolved, Graphite's staying power over the years, and what we can expect in future versions.
+[**Graphite Metrics Stack with Jason Dixon and Dan Cech – Episode 136**](https://www.podcastinit.com/graphite-metrics-with-jason-dixon-and-dan-cech-episode-136/): In this Podcast, Grafana Labs Director, Platform Services Dan Cech, sat down with fellow Graphite maintainer Jason Dixon to discuss Graphite's architecture, challenges as the project has evolved, Graphite's staying power over the years, and what we can expect in future versions.
 
 [**Scripted Grafana Dashboards**](https://www.youtube.com/watch?v=ztRP1CJjcWs): This video covers scripted dashboards, which dynamically generates dashboards using Javascript. Scripted dashboards can be more flexible and convenient if you have a lot of metric names that change; instead of always designing your dashboard through the UI, generate them with code.
 
