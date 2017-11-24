@@ -42,7 +42,7 @@ This week, Grafana Labs team members in the U.S. took time off for the Thanksgiv
 
 
 #### From the Blogosphere
-[**Monitoring traceroute through Prometheus and Grafana**](https://m-button.blogspot.fr/2017/11/monitoring-traceroute-through.html): There's nothing like a client-impacting outage to really make you take stock of your monitoring stack. While they had some tools in place, they really wanted to monitor the route our packets were following. This article discusses setting up Prometheus to monitor traceroute and visualize the data in Grafana.
+[**Monitoring traceroute through Prometheus and Grafana**](https://m-button.blogspot.fr/2017/11/monitoring-traceroute-through.html): There's nothing like a client-impacting outage to really make you take stock of your monitoring stack. While the author had some tools in place, he really wanted to monitor the route our packets were following. This article discusses setting up Prometheus to monitor traceroute and visualize the data in Grafana.
 
 [**Taking KSQL for a Spin Using Real-time Device Data**](https://www.confluent.io/blog/taking-ksql-spin-using-real-time-device-data/): This article describes how to use a steering wheel/pedal set gaming device as a data source, and collect real-time driving data, displayed in a Grafana dashboard. There's also a video included demonstrating the in-game data collection.
 
