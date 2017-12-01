@@ -25,7 +25,7 @@ It's hard to believe it's already December. Here at Grafana Labs we've been spen
 			<strong><a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_24" target="_blank">Grafana 4.6.2</a></strong> is now available and includes some bug fixes:
 		</p>
 		<ul>
-			<li><strong>Prometheus:</strong> Fixes bug with new Prometheus alerts in Grafana. Make sure to download this version if your using Prometheus for alerting. More details in the issue. <a href="https://github.com/grafana/grafana/issues/9777" target="_blank">#9777</a></li>
+			<li><strong>Prometheus:</strong> Fixes bug with new Prometheus alerts in Grafana. Make sure to download this version if you're using Prometheus for alerting. More details in the issue. <a href="https://github.com/grafana/grafana/issues/9777" target="_blank">#9777</a></li>
 			<li><strong>Color picker:</strong> Bug after using textbox input field to change/paste color string <a href="https://github.com/grafana/grafana/issues/9769" target="_blank">#9769</a></li>
 			<li><strong>Cloudwatch:</strong> build using golang 1.9.2 <a href="https://github.com/grafana/grafana/issues/9667" target="_blank">#9667</a>, thanks <a href="http://github.com/mtanda" target="_blank">@mtanda</a></li>
 			<li><strong>Heatmap:</strong> Fixed tooltip for "time series buckets" mode <a href="https://github.com/grafana/grafana/issues/9332" target="_blank">#9332</a></li>
@@ -90,7 +90,7 @@ We have a number of plugin updates to highlight this week. Authors improve plugi
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/vertamedia-clickhouse-datasource?utm_source=blog&utm_campaign=timeshift_24" target="_blank">Clickhouse Data Source</a></strong> - There is a really big update for this plugin. It now has support for Ace Editor and that has a reformatting function for the query editor that automatically formats your sql. If you are using Clickhouse then you should also have a look at CHProxy - see the <a href="https://github.com/Vertamedia/chproxy" target="_blank">plugin readme</a> for more details.
+				<strong><a href="https://grafana.com/plugins/vertamedia-clickhouse-datasource?utm_source=blog&utm_campaign=timeshift_24" target="_blank">Clickhouse Data Source</a></strong> - The Clickhouse Data Source received a substantial update this week. It now has support for Ace Editor, which has a reformatting function for the query editor that automatically formats your sql. If you're using Clickhouse then you should also have a look at CHProxy - see the <a href="https://github.com/Vertamedia/chproxy" target="_blank">plugin readme</a> for more details.
 			<p>
 				<br />
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/vertamedia-clickhouse-datasource?utm_source=blog&utm_campaign=timeshift_24" target="_blank"><strong>Update</strong></a>
