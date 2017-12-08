@@ -11,9 +11,9 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 #### Welcome to TimeShift
-This week, a few of us from Grafana Labs, along with 4,000 of our closest friends, headed down to chilly Austin, TX for KubeCon + CloudNativeCon North America 2017. We got to see a number of great talks and were thrilled to see Grafana make appearances in some of the presentations. We were also a sponsor of the conference and handed out a ton of swag (we also overnighted some of our custom Grafana scarves, which came in handy for the snow on Thursday). 
+This week, a few of us from Grafana Labs, along with 4,000 of our closest friends, headed down to chilly Austin, TX for KubeCon + CloudNativeCon North America 2017. We got to see a number of great talks and were thrilled to see Grafana make appearances in some of the presentations. We were also a sponsor of the conference and handed out a ton of swag (we overnighted some of our custom Grafana scarves, which came in handy for Thursday's snow). 
 
-This week also announced that Grafana Labs has joined the Cloud Native Computing Foundation as a Silver member to share our expertise in time series data visualization with the CNCF community.
+We also announced Grafana Labs has joined the Cloud Native Computing Foundation as a Silver member! We're excited to share our expertise in time series data visualization and open source software with the CNCF community.
 
 ![](/assets/img/blog/timeshift/kubecon.png" width="170")
 
@@ -46,11 +46,11 @@ This week also announced that Grafana Labs has joined the Cloud Native Computing
 
 
 #### From the Blogosphere
-[**Grafana Labs Joins the CNCF**](https://grafana.com/about/press/cncf-announcement?utm_source=blog&utm_campaign=timeshift_25): This has been a big week for Grafana Labs - We have officially joined the Cloud Native Computing Foundation, in an effort to share our expertise on open source monitoring and time series data visualization with the CNCF community. You can also see who else joined this week in the CNCF's [press release](https://www.prnewswire.com/news-releases/cloud-native-computing-foundation-kicks-off-kubecon--cloudnativecon-with-31-new-members-300567693.html)
+[**Grafana Labs Joins the CNCF**](https://grafana.com/about/press/cncf-announcement?utm_source=blog&utm_campaign=timeshift_25): Grafana Labs has officially joined the Cloud Native Computing Foundation (CNCF). We look forward to working with the CNCF community to democratize metrics and help unify traditionally disparate information. 
 
-[**Automating Web Performance Regression Alerts**](https://calendar.perfplanet.com/2017/automating-web-performance-regression-alerts/): Peter and his team needed a faster and easier way to find web performance regressions at the Wikimedia Foundation. They were really excited when Grafana 4's alerting featured were added. This post covers their journey on setting up alerts for both RUM and synthetic testing and shares the alerts they have set up.
+[**Automating Web Performance Regression Alerts**](https://calendar.perfplanet.com/2017/automating-web-performance-regression-alerts/): Peter and his team needed a faster and easier way to find web performance regressions at the Wikimedia Foundation. Grafana 4's alerting features were exactly what they needed. This post covers their journey on setting up alerts for both RUM and synthetic testing and shares the alerts they've set up on their dashboards.
 
-[**How To Install Grafana on Ubuntu 17.10**](http://www.techsupportpk.com/2017/12/how-to-install-grafana-on-ubuntu-1710.html): As you probably guessed from the title, this artcile walks you through installing and configuring Grafana in the latest version of Ubuntu (or earlier releases). It also covers installing plugins using the [Grafana CLI](http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_25) tool. 
+[**How To Install Grafana on Ubuntu 17.10**](http://www.techsupportpk.com/2017/12/how-to-install-grafana-on-ubuntu-1710.html): As you probably guessed from the title, this article walks you through installing and configuring Grafana in the latest version of Ubuntu (or earlier releases). It also covers installing plugins using the [Grafana CLI](http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_25) tool. 
 
 [**Prometheus: Starting the Server with Alertmanager, cAdvisor and Grafana**](https://rtfm.co.ua/prometheus-zapusk-servera-s-alertmanager-cadvisor-i-grafana/): Learn how to monitor Docker from scratch using cAdvisor, Prometheus and Grafana in this detailed, step-by-step walkthough.
 
@@ -183,7 +183,7 @@ Lots of plugin updates and a brand new plugin to announce! To install or update 
 <hr />
 
 <h4>Upcoming Events:</h4>
-In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We also like to make sure we mention other Grafana-related events. If you're putting on such an event, let us know and we'll list it here.
+In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We also like to make sure we mention other Grafana-related events happening all over the world. If you're putting on just such an event, let us know and we'll list it here.
 
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
