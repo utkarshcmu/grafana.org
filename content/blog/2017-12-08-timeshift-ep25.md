@@ -52,9 +52,9 @@ We also announced Grafana Labs has joined the Cloud Native Computing Foundation 
 
 [**How To Install Grafana on Ubuntu 17.10**](http://www.techsupportpk.com/2017/12/how-to-install-grafana-on-ubuntu-1710.html): As you probably guessed from the title, this article walks you through installing and configuring Grafana in the latest version of Ubuntu (or earlier releases). It also covers installing plugins using the [Grafana CLI](http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_25) tool. 
 
-[**Prometheus: Starting the Server with Alertmanager, cAdvisor and Grafana**](https://rtfm.co.ua/prometheus-zapusk-servera-s-alertmanager-cadvisor-i-grafana/): Learn how to monitor Docker from scratch using cAdvisor, Prometheus and Grafana in this detailed, step-by-step walkthough.
+[**Prometheus: Starting the Server with Alertmanager, cAdvisor and Grafana**](https://rtfm.co.ua/prometheus-zapusk-servera-s-alertmanager-cadvisor-i-grafana/): Learn how to monitor Docker from scratch using cAdvisor, Prometheus and Grafana in this detailed, step-by-step walkthrough.
 
-[**Monitoring Java EE Servers with Prometheus and Payara**](https://www.youtube.com/watch?v=Pww-8WxsXJA):  In this screencast, Adam uses [firehose](https://github.com/adamBien/firehose), a Java EE 7+ metrics gateway for Prometheus, to convert the JSON output into Prometheus statistics and visualizes the data in Grafana.
+[**Monitoring Java EE Servers with Prometheus and Payara**](https://www.youtube.com/watch?v=Pww-8WxsXJA):  In this screencast, Adam uses [firehose](https://github.com/adamBien/firehose); a Java EE 7+ metrics gateway for Prometheus, to convert the JSON output into Prometheus statistics and visualizes the data in Grafana.
 
 [**Monitoring Spark Streaming with InfluxDB and Grafana**](https://www.linkedin.com/pulse/monitoring-spark-streaming-influxdb-grafana-christian-g%C3%BCgi/): This article focuses on how to monitor Apache Spark Streaming applications with InfluxDB and Grafana at scale.
 
@@ -110,7 +110,7 @@ Lots of plugin updates and a brand new plugin to announce! To install or update 
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/sni-pnp-datasource?utm_source=blog&utm_campaign=timeshift_25" target="_blank">PNP Datasource</a></strong> - This data source plugin (that uses PNP4Nagios to access RRD files) received a small, but important update that fixes template query parsing.
+				<strong><a href="https://grafana.com/plugins/sni-pnp-datasource?utm_source=blog&utm_campaign=timeshift_25" target="_blank">PNP Data Source</a></strong> - This data source plugin (that uses PNP4Nagios to access RRD files) received a small, but important update that fixes template query parsing.
 			<p>
 				<br />
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/sni-pnp-datasource?utm_source=blog&utm_campaign=timeshift_25" target="_blank"><strong>Update</strong></a>
