@@ -82,7 +82,7 @@ We also announced Grafana Labs has joined the Cloud Native Computing Foundation 
 <hr />
 
 #### Grafana Plugins
-Lots of plugin updates and a brand new plugin to announce! To install or update any plugin in an on-prem Grafana instance, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_25" target="_blank">Grafana-cli tool</a>, or install and update with 1 click on <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_25" target="_blank">Hosted Grafana</a>.
+Lots of plugin updates and the new OpenNMS Helm App plugin to announce! To install or update any plugin in an on-prem Grafana instance, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_25" target="_blank">Grafana-cli tool</a>, or install and update with 1 click on <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_25" target="_blank">Hosted Grafana</a>.
 
 <br />
 <div class="blog-plugin">
