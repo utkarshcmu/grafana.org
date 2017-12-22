@@ -180,11 +180,18 @@ q.quote {
 }
 
 .speaker-name {
-  font-size: 140%
+  font-size: 130%
 }
 
 .speaker-detail {
 text-transform: uppercase;
+font-size: 90%;
+}
+
+.speaker-talk {
+font-size: 90%;
+margin-bottom: 20px;
+line-height: 1.3;
 }
 
 .blog-plugin-grid, .speaker-grid {
