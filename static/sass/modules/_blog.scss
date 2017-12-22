@@ -194,6 +194,12 @@ margin-bottom: 20px;
 line-height: 1.3;
 }
 
+.sponsors {
+  .sponsor-header {
+    text-transform: uppercase;
+    font-size: 120%;
+  }
+}
 .blog-plugin-grid, .speaker-grid {
   display: flex;
   align-items: center;

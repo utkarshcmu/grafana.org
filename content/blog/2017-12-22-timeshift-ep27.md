@@ -97,7 +97,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Stig Sorensen</div>
 			<div class="speaker-detail">HEAD OF TELEMETRY</div>
 			<div class="speaker-detail">BLOOMBERG</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/bloomberg_logo.png" />
+			<a href="https://www.bloomberg.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/bloomberg_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/sean_hanson.jpg" />
@@ -105,7 +105,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Sean Hanson</div>
 			<div class="speaker-detail">SOFTWARE DEVELOPER</div>
 			<div class="speaker-detail">BLOOMBERG</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/bloomberg_logo.png" />
+			<a href="https://www.bloomberg.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/bloomberg_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/utkarsh_bhatnagar.jpg" />
@@ -113,7 +113,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Utkarsh Bhatnagar</div>
 			<div class="speaker-detail">SR. SOFTWARE ENGINEER</div>
 			<div class="speaker-detail">TINDER</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/tinder_logo.png" />
+			<a href="https://tinder.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/tinder_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/borja_garrido.png" />
@@ -121,7 +121,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Borja Garrido</div>
 			<div class="speaker-detail">PROJECT ASSOCIATE</div>
 			<div class="speaker-detail">CERN</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/cern_logo.png" />
+			<a href="https://home.cern/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/cern_logo.png" /></a>
 		</div>
 	</div>
 	<br />
@@ -132,7 +132,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Abhishek Gahlot</div>
 			<div class="speaker-detail">SOFTWARE ENGINEER</div>
 			<div class="speaker-detail">Automattic</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/automattic_logo.png" />
+			<a href="https://automattic.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/automattic_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/anna_maclachlan.png" />
@@ -140,7 +140,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Anna MacLachlan</div>
 			<div class="speaker-detail">CONTENT MARKETING MANAGER</div>
 			<div class="speaker-detail">Fastly</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/fastly_logo.png" />
+			<a href="https://www.fastly.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/fastly_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/gerlando_piro.jpg" />
@@ -148,7 +148,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Gerlando Piro</div>
 			<div class="speaker-detail">FRONT END DEVELOPER</div>
 			<div class="speaker-detail">Fastly</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/fastly_logo.png" />
+			<a href="https://www.fastly.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/fastly_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/ryan_mckinley.jpg" />
@@ -156,7 +156,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Ryan McKinley</div>
 			<div class="speaker-detail">DEVELOPER</div>
 			<div class="speaker-detail">NATEL ENERGY</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/natel_energy_logo.png" />
+			<a href="https://www.natelenergy.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/natel_energy_logo.png" /></a>
 		</div>
 	</div>
 	<br />
@@ -167,7 +167,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Torkel Odegaard</div>
 			<div class="speaker-detail">CREATOR | PROJECT LEAD</div>
 			<div class="speaker-detail">GRAFANA</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/grafana_logo.png" />
+			<a href="http://grafana.com" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/grafana_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/brian_brazil.jpg" />
@@ -175,7 +175,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Brian Brazil</div>
 			<div class="speaker-detail">FOUNDER</div>
 			<div class="speaker-detail">ROBUST PERCEPTION</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/prometheus_logo.png" />
+			<a href="http://prometheus.io" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/prometheus_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/peter_zaitsev.jpg" />
@@ -183,7 +183,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Peter Zaitsev</div>
 			<div class="speaker-detail">CO-FOUNDER | CEO</div>
 			<div class="speaker-detail">PERCONA</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/percona_logo.png" />
+			<a href="http://percona.com" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/percona_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/raj_dutt.jpg" />
@@ -191,7 +191,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Raj Dutt</div>
 			<div class="speaker-detail">CO-FOUNDER | CEO</div>
 			<div class="speaker-detail">GRAFANA LABS</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/grafana_logo.png" />
+			<a href="http://grafana.com" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/grafana_logo.png" /></a>
 		</div>
 	</div>
 	<br />
@@ -202,7 +202,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Dan Cech</div>
 			<div class="speaker-detail">DIR, PLATFORM SERVICES</div>
 			<div class="speaker-detail">GRAFANA LABS</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/grafana_logo.png" />
+			<a href="http://grafana.com" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/grafana_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/paul_dix.jpg" />
@@ -210,7 +210,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Paul Dix</div>
 			<div class="speaker-detail">CO-FOUNTER | CTO</div>
 			<div class="speaker-detail">INFLUXDATA</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/influx_data_logo.png" />
+			<a href="http://influxdata.com" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/influx_data_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/julien_pivotto.jpg" />
@@ -218,7 +218,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Julien Pivotto</div>
 			<div class="speaker-detail">OPEN SOURCE CONSULTANT</div>
 			<div class="speaker-detail">INUITS</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/inuits_logo.png" />
+			<a href="http://inuits.eu/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/inuits_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/deepak_vasthimal.jpg" />
@@ -226,7 +226,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Deepak Vasthimal</div>
 			<div class="speaker-detail">MTS-2 SOFTWARE ENGINEER</div>
 			<div class="speaker-detail">EBAY</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/ebay_logo.png" />
+			<a href="http://ebay.com" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/ebay_logo.png" /></a>
 		</div>
 	</div>
 	<br />
@@ -237,7 +237,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Susanne Greiner</div>
 			<div class="speaker-detail">DATA SCIENTIST</div>
 			<div class="speaker-detail">WÜRTH PHOENIX S.R.L.</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/wurth_phoenix_logo.png" />
+			<a href="http://www.wuerth-phoenix.com/en/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/wurth_phoenix_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/alex_krzos.jpg" />
@@ -245,7 +245,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Alex Krzos</div>
 			<div class="speaker-detail">SENIOR SOFTWARE ENGINEER</div>
 			<div class="speaker-detail">RED HAT INC.</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/red_hat_logo.png" />
+			<a href="https://www.redhat.com/en" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/red_hat_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/blerim_sheqa.jpg" />
@@ -253,7 +253,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Blerim Sheqa</div>
 			<div class="speaker-detail">SENIOR DEVELOPER</div>
 			<div class="speaker-detail">NETWAYS</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/netways_logo.png" />
+			<a href="http://www.netways.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/netways_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/arie_jan_kraai.jpg" />
@@ -261,7 +261,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Arie Jan Kraai</div>
 			<div class="speaker-detail">STORAGE ENGINEER</div>
 			<div class="speaker-detail">SHELL TECHNICAL LANDSCAPE SERVICE</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/shell_logo.png" />
+			<a href="https://www.shell.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/shell_logo.png" /></a>
 		</div>
 	</div>
 	<br />
@@ -272,7 +272,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Tom Wilkie</div>
 			<div class="speaker-detail">FOUNDER</div>
 			<div class="speaker-detail">KAUSAL</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/kausal_logo.png" />
+			<a href="https://kausal.co/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/kausal_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/andrejs_kalnacs.jpg" />
@@ -280,7 +280,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Andrejs Kalnacs</div>
 			<div class="speaker-detail">LEAD SOFTWARE DEVELOPER IN TEST</div>
 			<div class="speaker-detail">EVOLUTION GAMING</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/evolution_gaming_logo.png" />
+			<a href="https://www.evolutiongaming.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/evolution_gaming_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/erwin_de_keijzer.jpg" />
@@ -288,7 +288,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Erwin de Keijzer</div>
 			<div class="speaker-detail">LINUX ENGINEER</div>
 			<div class="speaker-detail">SNOW BV</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/snow_bv_logo.png" />
+			<a href="https://www.snow.nl/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/snow_bv_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/max_von_roden.jpg" />
@@ -296,7 +296,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Max von Roden</div>
 			<div class="speaker-detail">DATA SCIENTIST</div>
 			<div class="speaker-detail">ENERGY WEATHER</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/energy_weather_logo.png" />
+			<a href="http://www.energyweather.com/en/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/energy_weather_logo.png" /></a>
 		</div>
 	</div>
 	<br />
@@ -307,7 +307,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Steffen Knott</div>
 			<div class="speaker-detail">HEAD OF IT</div>
 			<div class="speaker-detail">ENERGY WEATHER</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/energy_weather_logo.png" />
+			<a href="http://www.energyweather.com/en/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/energy_weather_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/jordan_j_hamel.jpg" />
@@ -315,7 +315,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Jordan J. Hamel</div>
 			<div class="speaker-detail">HEAD OF MONITORING PLATFORMS</div>
 			<div class="speaker-detail">AMGEN</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/amgen_logo.png" />
+			<a href="http://www.amgen.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/amgen_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/jonathan_lange.jpg" />
@@ -323,7 +323,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Jonathan Lange</div>
 			<div class="speaker-detail">VP OF ENGINEERING</div>
 			<div class="speaker-detail">WEAVEWORKS</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/weaveworks_logo.png" />
+			<a href="https://www.weave.works/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/weaveworks_logo.png" /></a>
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/arnold_bechtoldt.jpg" />
@@ -331,10 +331,40 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 			<div class="speaker-name">Arnold Bechtoldt</div>
 			<div class="speaker-detail">SENIOR SYSTEMS ENGINEER</div>
 			<div class="speaker-detail">INOVEX</div>
-			<img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/inovex_logo.png" />
+			<a href="https://www.inovex.de/de/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/inovex_logo.png" /></a>
 		</div>
 	</div>
 </div>
+<br />
+<hr />
+<div class="sponsors">
+	<div class="row row--md-gutters text-center">
+		<div class="col col--sm-12 text-center">
+			<div class="sponsor-header">Thank you to our sponsors</div>
+		</div>
+	</div>
+	<div class="row row--md-gutters text-center">
+		<div class="col col--sm-3">
+			<a href="https://www.cncf.io/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/cncf_logo.png" /></a>
+		</div>
+		<div class="col col--sm-3">
+			<a href="http://influxdata.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/influx_data_logo.png" /></a>
+		</div>
+		<div class="col col--sm-3">
+			<a href="http://percona.com" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/percona_logo.png" /></a>
+		</div>
+		<div class="col col--sm-3">
+			<a href="http://weave.works" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/weaveworks_logo.png" /></a>
+		</div>
+	</div>
+	<div class="row row--md-gutters">
+		<div class="col col--sm-12 text-center">
+			<a href="http://ns1.com" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/ns1_logo.png" /></a>
+		</div>
+	</div>
+</div>
+<hr />
+<br />
 <div class="row row--md-gutters blog-plugin-grid">
 	<div class="col col--sm-9 blog-plugin-grid__item">
 		<h4>GrafanaCon Tickets are Available!</h4>
