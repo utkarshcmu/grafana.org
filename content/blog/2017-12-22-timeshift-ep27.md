@@ -45,15 +45,15 @@ categories = ["timeShift", "Grafana Buzz"]
 
 
 #### From the Blogosphere
-[**Monitoring Apache Spark with Prometheus on Kubernetes**](https://banzaicloud.com/blog/spark-monitoring/): This is the third post on the Spark on Kubernetes series. [Part 1](https://banzaicloud.com/blog/spark-k8s/) is an intro to Spark on K8s and [Part 2](https://banzaicloud.com/blog/scaling-spark-k8s/) covers scaling Spark on K8s. In this post, Balint discusses why he chose Prometheus changes that were necessary in the Spark code base, and an overview of the architecture.
+[**Monitoring Apache Spark with Prometheus on Kubernetes**](https://banzaicloud.com/blog/spark-monitoring/): This is the third post on the Spark on Kubernetes series. [Part 1](https://banzaicloud.com/blog/spark-k8s/) is an intro to Spark on K8s and [Part 2](https://banzaicloud.com/blog/scaling-spark-k8s/) covers scaling Spark on K8s. In this post, Balint discusses why he chose Prometheus, changes that were necessary in the Spark code base, and an overview of the architecture.
 
-[**PCF Platform Monitoring with Prometheus and Grafana**](https://www.youtube.com/watch?v=_WQ9DSanFdw): Wealth management company Nothern Trust, was having problems gaining insight into the performance of their platform. This video presentation walks you through enterprise monitoring use case, options they considered, why they chose Prometheus and Grafana, and the metrics they find valuable.
+[**PCF Platform Monitoring with Prometheus and Grafana**](https://www.youtube.com/watch?v=_WQ9DSanFdw): Wealth management company Nothern Trust was having problems gaining insight into the performance of their platform. This video presentation walks you through an enterprise monitoring use case, options they considered, why they chose Prometheus and Grafana, and the metrics they find interesting and valuable.
 
 [**Locust Monitoring with Grafana in Just 15 Minutes**](https://www.blazemeter.com/blog/locust-monitoring-with-grafana-in-just-fifteen-minutes): Open source load testing tool, Locust, has a GUI monitoring interface, but it's not customizable unless you want to dive into the code base, nor does it have metrics storage capabilities. With 15 minutes, Graphite, Grafana, and a little bit of Python, you'll be well on your way to monitoring your Locust performance scripts.
 
-[**Pre-configure Grafana with Docker-Compose**](http://www.jeckel.fr/2017/12/pre-configurer-grafana-avec-docker-compose/): By default, Grafana stores its configuration in a SQLite database. This tutorial walks you through the steps of using a different database (in this case PostgreSQL), save the configuration, and have it included automatically in your project.
+[**Pre-configure Grafana with Docker-Compose**](http://www.jeckel.fr/2017/12/pre-configurer-grafana-avec-docker-compose/): By default, Grafana stores its configuration in a SQLite database. This tutorial walks you through the steps of using a different database (in this case PostgreSQL), saving the configuration, and having it included automatically in your project.
 
-[**Wintermod - The First 48 Hours (An Apology)**](https://truckersmp.com/blog/70): TruckersMP regularly creates mods for popular truck driving simulator Euro Truck Simulator 2. In this post-mortem, we get a play by play of what happened when TruckersMP released the latest wintermod and things didn't go as planned. Grafana was front and center as they monitored the CDN performance and traffic while thousands of truckers converged on their servers to download the new mod. Kat shares what he learned and offers some important takeaways in high-stress situations, when dealing with performance problems in production.
+[**Wintermod - The First 48 Hours (An Apology)**](https://truckersmp.com/blog/70): TruckersMP regularly creates mods for popular truck driving simulator Euro Truck Simulator 2. In this post-mortem, we get a play by play of what happened when TruckersMP released the latest wintermod and things didn't go as planned. Grafana was front and center as they monitored the CDN performance and traffic, while thousands of truckers converged on their servers to download the new mod. Kat shares what he learned and offers some important takeaways in high-stress situations, when dealing with performance problems in production.
 <br />
 
 <hr />
@@ -171,7 +171,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/brian_brazil.jpg" />
-			<div class="speaker-talk">"Prometheus for Monitoring Metric"</div>
+			<div class="speaker-talk">"Prometheus for Monitoring Metrics"</div>
 			<div class="speaker-name">Brian Brazil</div>
 			<div class="speaker-detail">FOUNDER</div>
 			<div class="speaker-detail">ROBUST PERCEPTION</div>
@@ -214,7 +214,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/julien_pivotto.jpg" />
-			<div class="speaker-talk">"Writing Grafana dashboards with Jsonnet"</div>
+			<div class="speaker-talk">"Writing Grafana Dashboards with Jsonnet"</div>
 			<div class="speaker-name">Julien Pivotto</div>
 			<div class="speaker-detail">OPEN SOURCE CONSULTANT</div>
 			<div class="speaker-detail">INUITS</div>
@@ -249,7 +249,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/blerim_sheqa.jpg" />
-			<div class="speaker-talk">"Graphs tell Stories"</div>
+			<div class="speaker-talk">"Graphs Tell Stories"</div>
 			<div class="speaker-name">Blerim Sheqa</div>
 			<div class="speaker-detail">SENIOR DEVELOPER</div>
 			<div class="speaker-detail">NETWAYS</div>
@@ -257,7 +257,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/arie_jan_kraai.jpg" />
-			<div class="speaker-talk">"Storage monitoring at Shell Upstream"</div>
+			<div class="speaker-talk">"Storage Monitoring at Shell Upstream"</div>
 			<div class="speaker-name">Arie Jan Kraai</div>
 			<div class="speaker-detail">STORAGE ENGINEER</div>
 			<div class="speaker-detail">SHELL TECHNICAL LANDSCAPE SERVICE</div>
@@ -276,7 +276,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 		</div>
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/andrejs_kalnacs.jpg" />
-			<div class="speaker-talk">"Grafana usage in the Quality Assurance Process"</div>
+			<div class="speaker-talk">"Grafana Usage in the Quality Assurance Process"</div>
 			<div class="speaker-name">Andrejs Kalnacs</div>
 			<div class="speaker-detail">LEAD SOFTWARE DEVELOPER IN TEST</div>
 			<div class="speaker-detail">EVOLUTION GAMING</div>
