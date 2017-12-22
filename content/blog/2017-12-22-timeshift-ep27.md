@@ -87,7 +87,7 @@ One of the most popular Grafana plugins, the Zabbix App Plugin, received an upda
 <hr />
 
 #### GrafanaCon EU
-We've filled out the speakers list and are excited that GrafanaCon EU is just a few short months away! Keep an eye on [grafanacon.org](http://grafanacon.org) to see the upcoming schedule, and a few more tricks we have up our sleeves.
+We've filled out the speakers list and are excited that GrafanaCon EU is just a few short months away! Keep an eye on [grafanacon.org](http://grafanacon.org) for the upcoming schedule, and a few more tricks we have up our sleeves.
 
 <div class="speaker">
 	<div class="row row--md-gutters">
@@ -411,7 +411,7 @@ We've filled out the speakers list and are excited that GrafanaCon EU is just a 
 <hr />
 <br />
 #### How are we doing?
-Well, that wraps up another week! How we're doing? Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_27). Help us make these weekly roundups better!
+That's a wrap! Let us know what you think about timeShift. Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_27). See you next year!
 
 Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_27).
 
