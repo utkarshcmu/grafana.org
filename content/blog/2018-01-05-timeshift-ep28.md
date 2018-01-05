@@ -339,7 +339,33 @@ categories = ["timeShift", "Grafana Buzz"]
 		</div>
 	</div>
 </div>
-
+<br />
+<div class="sponsors">
+	<div class="row row--md-gutters text-center">
+		<div class="col col--sm-12 text-center">
+			<div class="sponsor-header">Thank you to our sponsors</div>
+		</div>
+	</div>
+	<div class="row row--md-gutters text-center">
+		<div class="col col--sm-3">
+			<a href="https://www.cncf.io/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/cncf_logo.png" /></a>
+		</div>
+		<div class="col col--sm-3">
+			<a href="http://influxdata.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/influx_data_logo.png" /></a>
+		</div>
+		<div class="col col--sm-3">
+			<a href="http://percona.com" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/percona_logo.png" /></a>
+		</div>
+		<div class="col col--sm-3">
+			<a href="http://weave.works" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/weaveworks_logo.png" /></a>
+		</div>
+	</div>
+	<div class="row row--md-gutters">
+		<div class="col col--sm-12 text-center">
+			<a href="http://ns1.com" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/ns1_logo.png" /></a>
+		</div>
+	</div>
+</div>
 <hr />
 
 <div>
