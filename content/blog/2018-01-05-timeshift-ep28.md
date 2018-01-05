@@ -12,7 +12,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 <div class="row row--no-gutters">
 	<div class="col col--sm-12">
-		<p>Happy new year! Grafana Labs is back in the swing of things, after taking some time off to celebrate 2017, and spending time with family and friends. We're diligently working on the new <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_28" target="_blank">Grafana v5.0 release</a> (v5.0 beta to be released at the end of January), which includes a ton of new features, new layout engine, and polished UI. We'd love to hear your feedback!</p>
+		<p>Happy new year! Grafana Labs is getting back in the swing of things after taking some time off to celebrate 2017, and spending time with family and friends. We're diligently working on the new <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_28" target="_blank">Grafana v5.0 release</a> (planning v5.0 beta release by end of January), which includes a ton of new features, a new layout engine, and a polished UI. We'd love to hear your feedback!</p>
 	</div>
 </div>
 
@@ -24,7 +24,7 @@ categories = ["timeShift", "Grafana Buzz"]
 	</div>
 	<div class="col col--sm-9">
 		<p>
-			Last week we released <strong><a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_28" target="_blank">Grafana 4.6.3</a></strong>, which included some bugfixes:
+			<strong><a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_28" target="_blank">Grafana 4.6.3</a></strong> is now available. Latest bugfixes include:
 		</p>
 		<ul>
 			<li><strong>Gzip:</strong> Fixes bug Gravatar images when gzip was enabled <a href="https://github.com/grafana/grafana/issues/5952" target="_blank">#5952</a></li>
@@ -43,9 +43,9 @@ categories = ["timeShift", "Grafana Buzz"]
 
 
 #### From the Blogosphere
-[**Why Observability Matters - Now and in the Future**](https://www.youtube.com/watch?v=yAvJfjt6sqU): Our own Carl Bergquist teamed up with Neil Gehani, Director of Product at Weaveworks to discuss best practices on how to get started with monitoring both your application and infrastructure. This video focuses on modern containerized applications instrumented to use Prometheus to generate metrics and Grafana to visualize them.
+[**Why Observability Matters - Now and in the Future**](https://www.youtube.com/watch?v=yAvJfjt6sqU): Our own Carl Bergquist teamed up with Neil Gehani, Director of Product at Weaveworks to discuss best practices on how to get started with monitoring your application and infrastructure. This video focuses on modern containerized applications instrumented to use Prometheus to generate metrics and Grafana to visualize them.
 
-[**How to Install and Secure Grafana on Ubuntu 16.04**](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-grafana-on-ubuntu-16-04): In this tutorial, you will learn how to install Grafana and secure it with a SSL certificate and an Nginx reverse proxy, then you'll modify Grafana's default settings for even tighter security.
+[**How to Install and Secure Grafana on Ubuntu 16.04**](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-grafana-on-ubuntu-16-04): In this tutorial, you'll learn how to install and secure Grafana with a SSL certificate and a Nginx reverse proxy, then you'll modify Grafana's default settings for even tighter security.
 
 [**Monitoring Informix with Grafana**](https://informixdba.wordpress.com/2018/01/03/monitoring-informix-with-grafana/): Ben walks us through how to use Grafana to visualize data from IBM Informix and offers a practical demonstration using Docker containers. He also talks about his philosophy of sharing dashboards across teams, important metrics to collect, and how he would like to improve his monitoring stack.
 
@@ -60,7 +60,7 @@ categories = ["timeShift", "Grafana Buzz"]
 		<p>
 			Lock in your seat for GrafanaCon EU while there are still tickets avaialable! Join us March 1-2, 2018 in Amsterdam for 2 days of talks centered around Grafana and the surrounding monitoring ecosystem including Graphite, Prometheus, InfluxData, Elasticsearch, Kubernetes, and more. 
 		</p>
-		<p>You can see the full speaker list on the <a href="http://grafanacon.org" target="-_blank">conference website</a>, but we have some exciting talks lined up from <strong>Google, CERN, Bloomberg, eBay, Red Hat, Tinder, Fastly, Automattic, Prometheus, InfluxData, Percona and more!</strong>
+		<p>We have some exciting talks lined up from <strong>Google, CERN, Bloomberg, eBay, Red Hat, Tinder, Fastly, Automattic, Prometheus, InfluxData, Percona and more!</strong> You can see the full list of speakers below, but be sure to get your ticket now.
 		</p>
 		<br />
 		<p>
@@ -74,14 +74,14 @@ categories = ["timeShift", "Grafana Buzz"]
 <br />
 <br />
 <br />
-<h4>We're extremely excited about GrafanaCon EU's speaker lineup.<br />Below is a list of talks you won't want to miss.</h4>
+<h4>GrafanaCon EU will feature talks from:</h4>
 <div class="speaker">
 	<div class="row row--md-gutters">
 		<div class="col col--sm-3">
 			<img class="speaker-photo"  src="/assets/img/blog/timeshift/grafanacon/headshots/misha_brukman.png" />
 			<div class="speaker-talk">"Google Bigtable"</div>
 			<div class="speaker-name">Misha Brukman</div>
-			<div class="speaker-detail">PROJECT MANAGER</div>
+			<div class="speaker-detail">PROJECT MANAGER,<br />GOOGLE CLOUD</div>
 			<div class="speaker-detail">GOOGLE</div>
 			<a href="https://google.com/" target="_blank"><img class="speaker-logo" src="/assets/img/blog/timeshift/grafanacon/logos/google_logo.png" /></a>
 		</div>
@@ -350,7 +350,7 @@ categories = ["timeShift", "Grafana Buzz"]
 			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Yesterday I discovered <a href="https://twitter.com/hashtag/Grafana?src=hash&amp;ref_src=twsrc%5Etfw">#Grafana</a> :D <a href="https://t.co/0ll6QcBbTT">pic.twitter.com/0ll6QcBbTT</a></p>&mdash; James L. (@Thaolia) <a href="https://twitter.com/Thaolia/status/944577560456949760?ref_src=twsrc%5Etfw">December 23, 2017</a></blockquote>
 			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-			<p>Awesome! Let us know if you have any questions - we're happy to help out. We also have a bunch of <a href="https://www.youtube.com/watch?v=mgcJPREl3CU&list=PLDGkOdUX1Ujo3wHw9-z5Vo12YLqXRjzg2" target="_blank">screen casts</a> to help you get going.</p>
+			<p>Awesome! Let us know if you have any questions - we're happy to help out. We also have a bunch of <a href="https://www.youtube.com/watch?v=mgcJPREl3CU&list=PLDGkOdUX1Ujo3wHw9-z5Vo12YLqXRjzg2" target="_blank">screencasts</a> to help you get going.</p>
 		</div>
 	</div>
 </div>
