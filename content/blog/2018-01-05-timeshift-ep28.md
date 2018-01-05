@@ -64,7 +64,7 @@ categories = ["timeShift", "Grafana Buzz"]
 		</p>
 		<br />
 		<p>
-			<a class="btn btn--grafanacon" href="https://ti.to/grafanacon/grafanacon-eu/with/mzbin4ciuxq" target="_blank"><strong>Get Your Ticket Now</strong></a>
+			<a class="btn btn--large btn--grafanacon" href="https://ti.to/grafanacon/grafanacon-eu/with/mzbin4ciuxq" target="_blank"><strong>Get Your Ticket Now</strong></a>
 		</p>
 	</div>
 	<div class="col col--sm-3 col--sm-offset-1 blog-plugin-grid__item">
