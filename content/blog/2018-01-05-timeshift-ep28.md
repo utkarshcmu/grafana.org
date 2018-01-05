@@ -368,6 +368,40 @@ categories = ["timeShift", "Grafana Buzz"]
 </div>
 <hr />
 
+<h4>Upcoming Events:</h4>
+In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We also like to make sure we mention other Grafana-related events happening all over the world. If you're putting on just such an event, let us know and we'll list it here.
+
+<div class="blog-plugin">
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--md-3">
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/fosdem_18.png" />
+		</div>
+		<div class="col col--md-8 col--sm-offset-1">
+			<strong><a href="https://fosdem.org/2018/schedule/track/monitoring_and_cloud/" target="_blank">FOSDEM | Brussels, Belgium - Feb 3-4, 2018</a>:</strong> FOSDEM is a free developer conference where thousands of developers of free and open source software gather to share ideas and technology. <strong>There is no need to register; all are welcome.</strong>
+		</div>
+	</div>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--md-3">
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/jfokus.jpg" />
+		</div>
+		<div class="col col--md-8 col--sm-offset-1">
+			<strong><a href="https://fosdem.org/2018/schedule/track/monitoring_and_cloud/" target="_blank">Jfokus | Stockholm, Sweden - Feb 5-7, 2018</a>:</strong> Carl Bergquist - Quickie: Monitoring? Not OPS Problem Why should we monitor our system? Why can't we just rely on the operations team anymore? They use to be able to do that. What's currently changing? Presentation content: - Why do we monitor our system - How did it use to work? - Whats changing - Why do we need to shift focus - Everyone should be on call. - Resilience is the goal (Best way of having someone care about quality is to make them responsible).
+			<br />
+			<a href="http://www.jfokus.se/jfokus/register.jsp" target="_blank" class="btn btn--outline">Register Now</a>
+		</div>
+	</div>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--md-3">
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/jfokus.jpg" />
+		</div>
+		<div class="col col--md-8 col--sm-offset-1">
+			<strong><a href="https://fosdem.org/2018/schedule/track/monitoring_and_cloud/" target="_blank">Jfokus | Stockholm, Sweden - Feb 5-7, 2018</a>:</strong> Leonard Gram - Presentation: DevOps Deconstructed What's a Site Reliability Engineer and how's that role different from the DevOps engineer my boss wants to hire? I really don't want to be on call, should I? Is Docker the right place for my code or am I better of just going straight to Serverless? And why should I care about any of it? I'll try to answer some of these questions while looking at what DevOps really is about and how commodisation of servers through "the cloud" ties into it all. This session will be an opinionated piece from a developer who's been on-call for the past 6 years and would like to convince you to do the same, at least once.
+			<br />
+			<a href="http://www.jfokus.se/jfokus/register.jsp" target="_blank" class="btn btn--outline">Register Now</a>
+	</div>
+</div>
+<hr />
+
 <div>
 	<div class="row row--no-gutters">
 		<div class="col col--sm-12">
