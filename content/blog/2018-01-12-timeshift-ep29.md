@@ -144,7 +144,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 <div class="blog-plugin">
 	<div class="row row--md-gutters blog-plugin-grid">
 		<div class="col col--md-3">
-			<img style="border-radius: 50%;" class="large" src="/assets/img/blog//timeshift/meetup.jpg" />
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/meetup.jpg" />
 		</div>
 		<div class="col col--md-8 col--sm-offset-1">
 			<p><strong><a href="https://www.meetup.com/Women-Who-Go-Berlin/events/246480452/" target="_blank">Women Who Go Berlin: Go Workshop - Monitoring and Troubleshooting using Prometheus and Grafana | Berlin, Germany - Jan 31, 2018</a>:</strong> In this workshop we will learn about one of the most important topics in making apps production ready: Monitoring. We will learn how to use tools you've probably heard a lot about - Prometheus and Grafana, and using what we learn we will troubleshoot a particularly buggy Go app.
@@ -172,7 +172,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 	</div>
 	<div class="row row--md-gutters blog-plugin-grid">
 		<div class="col col--md-3">
-			<img style="border-radius: 50%;" class="large" src="/assets/img/blog//timeshift/jfokus.jpg" />
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/jfokus.jpg" />
 		</div>
 		<div class="col col--md-8 col--sm-offset-1">
 			<p><strong><a href="http://www.jfokus.se/jfokus/register.jsp" target="_blank">Jfokus | Stockholm, Sweden - Feb 5-7, 2018</a>:</strong> <strong><br />Leonard Gram - Presentation: DevOps Deconstructed</strong><br />What's a Site Reliability Engineer and how's that role different from the DevOps engineer my boss wants to hire? I really don't want to be on call, should I? Is Docker the right place for my code or am I better of just going straight to Serverless? And why should I care about any of it? I'll try to answer some of these questions while looking at what DevOps really is about and how commodisation of servers through "the cloud" ties into it all. This session will be an opinionated piece from a developer who's been on-call for the past 6 years and would like to convince you to do the same, at least once.
