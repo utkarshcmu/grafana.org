@@ -172,12 +172,22 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 	</div>
 	<div class="row row--md-gutters blog-plugin-grid">
 		<div class="col col--md-3">
-			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/jfokus.jpg" />
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog//timeshift/jfokus.jpg" />
 		</div>
 		<div class="col col--md-8 col--sm-offset-1">
 			<p><strong><a href="http://www.jfokus.se/jfokus/register.jsp" target="_blank">Jfokus | Stockholm, Sweden - Feb 5-7, 2018</a>:</strong> <strong><br />Leonard Gram - Presentation: DevOps Deconstructed</strong><br />What's a Site Reliability Engineer and how's that role different from the DevOps engineer my boss wants to hire? I really don't want to be on call, should I? Is Docker the right place for my code or am I better of just going straight to Serverless? And why should I care about any of it? I'll try to answer some of these questions while looking at what DevOps really is about and how commodisation of servers through "the cloud" ties into it all. This session will be an opinionated piece from a developer who's been on-call for the past 6 years and would like to convince you to do the same, at least once.
 			</p>
 			<a href="http://www.jfokus.se/jfokus/register.jsp" target="_blank" class="btn btn--outline">Register Now</a>
+		</div>
+	</div>
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--md-3">
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/meetup.jpg" />
+		</div>
+		<div class="col col--md-8 col--sm-offset-1">
+			<p><strong><a href="https://www.meetup.com/Stockholm-metrics-and-monitoring/events/246716166/" target="_blank">Stockholm Metrics and Monitoring | Stockholm, Sweden - Feb 7, 2018</a>:</strong> <strong><br />Observability 3 ways - Logging, Metrics and Distributed Tracing</strong><br />Let’s talk about often confused telemetry tools: Logging, Metrics and Distributed Tracing. We’ll show how you capture latency using each of the tools and how they work differently. Through examples and discussion, we’ll note edge cases where certain tools have advantages over others. By the end of this talk, we’ll better understand how each of Logging, Metrics and Distributed Tracing aids us in different ways to understand our applications.
+			</p>
+			<a href="https://www.meetup.com/Stockholm-metrics-and-monitoring/events/246716166/" target="_blank" class="btn btn--outline">Register Now</a>
 		</div>
 	</div>
 	<div class="row row--md-gutters blog-plugin-grid">
