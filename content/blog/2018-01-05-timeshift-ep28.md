@@ -10,12 +10,8 @@ description = "A weekly roundup of articles and links from Grafana and the surro
 categories = ["timeShift", "Grafana Buzz"]
 +++
 
-<div class="row row--no-gutters">
-	<div class="col col--sm-12">
-		<p>Happy new year! Grafana Labs is getting back in the swing of things after taking some time off to celebrate 2017, and spending time with family and friends. We're diligently working on the new <a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_28" target="_blank">Grafana v5.0 release</a> (planning v5.0 beta release by end of January), which includes a ton of new features, a new layout engine, and a polished UI. We'd love to hear your feedback!</p>
-	</div>
-</div>
 
+Happy new year! Grafana Labs is getting back in the swing of things after taking some time off to celebrate 2017, and spending time with family and friends. We're diligently working on the new [Grafana v5.0 release](https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_28) (planning v5.0 beta release by end of January), which includes a ton of new features, a new layout engine, and a polished UI. We'd love to hear your feedback!
 <hr />
 #### Latest Stable Release
 <div class="row row--no-gutters blog-plugin-grid">
@@ -398,6 +394,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 			<strong><a href="http://www.jfokus.se/jfokus/register.jsp" target="_blank">Jfokus | Stockholm, Sweden - Feb 5-7, 2018</a>:</strong> <strong><br />Leonard Gram - Presentation: DevOps Deconstructed</strong><br />What's a Site Reliability Engineer and how's that role different from the DevOps engineer my boss wants to hire? I really don't want to be on call, should I? Is Docker the right place for my code or am I better of just going straight to Serverless? And why should I care about any of it? I'll try to answer some of these questions while looking at what DevOps really is about and how commodisation of servers through "the cloud" ties into it all. This session will be an opinionated piece from a developer who's been on-call for the past 6 years and would like to convince you to do the same, at least once.
 			<br />
 			<a href="http://www.jfokus.se/jfokus/register.jsp" target="_blank" class="btn btn--outline">Register Now</a>
+		</div>
 	</div>
 </div>
 <hr />
