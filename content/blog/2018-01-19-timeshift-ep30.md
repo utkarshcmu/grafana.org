@@ -11,9 +11,9 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-We're only 6 weeks away from the next GrafanaCon, and here at Grafana Labs, we're buzzing with excitement. We have some great talks lined up you won't want to miss. 
+We're only 6 weeks away from the next GrafanaCon and here at Grafana Labs we're buzzing with excitement. We have some great talks lined up that you won't want to miss. 
 
-This week's TimeShift covers Grafana's annotation functionality, monitoring with Prometheus, integrating Grafana with NetFlow and get a peek inside Stream's monitoring stack. Enjoy!
+This week's TimeShift covers Grafana's annotation functionality, monitoring with Prometheus, integrating Grafana with NetFlow and a peek inside Stream's monitoring stack. Enjoy!
 
 <hr />
 #### Latest Stable Release
@@ -72,7 +72,7 @@ This week's TimeShift covers Grafana's annotation functionality, monitoring with
 <hr />
 
 #### Grafana Plugins
-We have a couple of plugin updates to share this week that add some new features and improvements. Updating you plugins is easy. For on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Grafana-cli tool</a>, or update with 1 click on your <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Hosted Grafana</a>.
+We have a couple of plugin updates to share this week that add some new features and improvements. Updating your plugins is easy. For on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Grafana-cli tool</a>, or update with 1 click on your <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Hosted Grafana</a>.
 <br />
 <div class="blog-plugin">
 	<div class="row row--md-gutters">
@@ -82,7 +82,7 @@ We have a couple of plugin updates to share this week that add some new features
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/abhisant-druid-datasource?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Druid Data Source</a></strong> - This is the first update to this plugin in almost a year, and is packed with new features. Notable enhancement include: 
+				<strong><a href="https://grafana.com/plugins/abhisant-druid-datasource?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Druid Data Source</a></strong> - This new update is packed with new features. Notable enhancement include: 
 				<ul>
 					<li>Post Aggregation feature</li>
 					<li>Support for thetaSketch</li>
