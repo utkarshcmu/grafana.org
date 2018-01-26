@@ -11,7 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-
+This is an event-heavy issue of TimeShift. We've been busy prepping for the Grafana v5 Beta release and finalizing details for our upcoming GrafanaCon. Below you'll find a presenation on Prometheus monitoring, tracking a problematic ADSL connection and how to use Elasticsearch as a data source in Grafana. Enjoy!
 
 <hr />
 #### Latest Stable Release
