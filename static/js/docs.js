@@ -1,3 +1,4 @@
+import $ from  '../bower/jquery/dist/jquery.js';
 
 export function bootDocs() {
 
@@ -10,4 +11,23 @@ export function bootDocs() {
     }
   }
 
+  $('.docs-version-select__link').click(function() {
+    $('.docs-version-select').toggleClass('docs-version-select--open');
+  });
+
+  $.getJSON("/js/versions.json", function(result) {
+    var menu = $("#version-dropdown");
+    let textElem = $("#docs-version-select__link-text");
+
+    result.forEach(function(item) {
+      if (window.location.pathname.indexOf(item.path) === 0 && !item.current) {
+        textElem.text('Grafana ' + item.version);
+      } else if (item.current) {
+        if (!textElem.text()) {
+          textElem.text('Grafana ' + item.version + ' (current)');
+        }
+      }
+      menu.append($("<li><a class='dropdown-menu__link' href='" + item.path + "'>Grafana " + item.version + "</a></li>"))
+    });
+  });
 }

@@ -1,13 +1,17 @@
 {{ partial "header.html" . }}
 
 <div class="page-submenu">
-	<div class="page-header-docs-c1"></div>
-	<div class="page-header-docs-c2">
-		<div class="docs-search-wrapper">
-			<input class="docs-search-input form__input" id="docs-search-input" value="" name="q" placeholder="Search the docs" type="search">
-		</div>
+	<div class="docs-search">
+		<i class="docs-search__icon fa fa-search"></i>
+		<input class="docs-search__input form__input" id="docs-search-input" value="" name="q" placeholder="Search the docs" type="search">
 	</div>
-	<div class="page-header-docs-c3">
+	<div class="docs-version-select">
+		<span class="docs-version-select__link">
+			<span id="docs-version-select__link-text"></span>
+			<i class="fa fa-caret-down"></i>
+		</span>
+		<ul class="dropdown-menu" id="version-dropdown">
+		</ul>
 	</div>
 </div>
 
@@ -21,11 +25,9 @@
 		<div class="docs-content">
 			<div class="docs-content-inner" id="doc-article-text">
 				{{ .Content }}
-				<div>
-				</div>
+			</div>
 
-				<aside class="docs-toc-aside">
-
+			<aside class="docs-toc-aside">
 					<div class="docs-toc-aside__box">
 						<div class="docs-toc">
 							<ul>
