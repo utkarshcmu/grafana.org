@@ -18,16 +18,28 @@ export function bootDocs() {
   $.getJSON("/js/versions.json", function(result) {
     var menu = $("#version-dropdown");
     let textElem = $("#docs-version-select__link-text");
+    let matchedVersion;
+    let current;
 
     result.forEach(function(item) {
       if (window.location.pathname.indexOf(item.path) === 0 && !item.current) {
-        textElem.text('Grafana ' + item.version);
-      } else if (item.current) {
-        if (!textElem.text()) {
-          textElem.text('Grafana ' + item.version + ' (current)');
-        }
+        matchedVersion = item;
       }
+
+      if (item.current) {
+        current = item;
+      }
+
       menu.append($("<li><a class='dropdown-menu__link' href='" + item.path + "'>Grafana " + item.version + "</a></li>"))
     });
+
+    // if no match we must be on current
+    matchedVersion = matchedVersion || current;
+    textElem.text('Grafana ' + matchedVersion.version + (matchedVersion.current ? ' (current)' : ''));
+
+    if (matchedVersion.archived) {
+      $('body').prepend('<div class="docs-archive-banner">This is archived documentation for <strong>Grafana ' + matchedVersion.version + '</strong>. Go to <a href="/">latest docs</a> for latest version.</div>');
+    }
+
   });
 }

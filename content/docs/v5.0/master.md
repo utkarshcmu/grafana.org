@@ -1,5 +1,5 @@
 +++
-title = "Master page"
+title = "v5 page"
 description = "Master page"
 keywords = []
 [menu.docs]
