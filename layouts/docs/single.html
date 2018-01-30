@@ -28,45 +28,53 @@
 			</div>
 
 			<aside class="docs-toc-aside">
-					<div class="docs-toc-aside__box">
-						<div class="docs-toc">
-							<ul>
-								<li>
-									<a href="https://github.com/grafana/grafana/edit/master/docs/sources/{{ .File.Dir }}{{ .File.LogicalName }}" target="_blank">
-										<i class="fa fa-fw fa-edit"></i> Edit this page
-									</a>
-								</li>
-								<li>
-									{{ $title := (print "Docs feedback: " .File.Dir .File.LogicalName) }}
-									<a href="https://github.com/grafana/grafana/issues/new?title={{ $title | safeURL }}" target="_blank">
-										<i class="fa fa-fw fa-check"></i> Request doc changes
-									</a>
-								</li>
-								<li>
-									<a href="https://grafana.com/services/support">
-										<i class="fa fa-fw fa-question"></i> Get Support
-									</a>
-								</li>
-								<li>
-									<a href="https://community.grafana.com">
-										<i class="fa fa-fw fa-comments-o"></i> Community
-									</a>
-								</li>
-							</ul>
-						</div>
+				<div class="docs-toc-aside__box">
+					<div class="docs-toc">
+						<ul>
+							<li>
+								<a href="https://github.com/grafana/grafana/edit/master/docs/sources/{{ .File.Dir }}{{ .File.LogicalName }}" target="_blank">
+									<i class="fa fa-fw fa-edit"></i> Edit this page
+								</a>
+							</li>
+							<li>
+								{{ $title := (print "Docs feedback: " .File.Dir .File.LogicalName) }}
+								<a href="https://github.com/grafana/grafana/issues/new?title={{ $title | safeURL }}" target="_blank">
+									<i class="fa fa-fw fa-check"></i> Request doc changes
+								</a>
+							</li>
+							<li>
+								<a href="https://grafana.com/services/support">
+									<i class="fa fa-fw fa-question"></i> Get Support
+								</a>
+							</li>
+							<li>
+								<a href="https://community.grafana.com">
+									<i class="fa fa-fw fa-comments-o"></i> Community
+								</a>
+							</li>
+						</ul>
 					</div>
+				</div>
 
-					<div class="docs-toc-aside__box">
-						<div class="docs-toc-heading">On this page</div>
-						<div class="docs-toc">
-							{{ .TableOfContents }}
-						</div>
+				<div class="docs-toc-aside__box">
+					<div class="docs-toc-heading">On this page</div>
+					<div class="docs-toc">
+						{{ .TableOfContents }}
 					</div>
+				</div>
 
-				</aside>
+			</aside>
 
-				<div class="clearfix"></div>
-			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+</div>
+
+<div class="wrapper">
+	<div class="row row--no-gutters">
+		<div class="col col--md-12 grafanacon-header">
+			<a href="http://grafanacon.org" target="_blank"><img src="/assets/img/blog/grafanacon_header.png" /></a>
 		</div>
 	</div>
 </div>
