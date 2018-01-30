@@ -1,7 +1,7 @@
 +++
-title = "timeShift(GrafanaBuzz, 1w) Issue 29"
+title = "timeShift(GrafanaBuzz, 1w) Issue 30"
 author = "trent"
-date = "2018-01-12"
+date = "2018-01-19"
 keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
@@ -11,6 +11,9 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
+We're only 6 weeks away from the next GrafanaCon and here at Grafana Labs we're buzzing with excitement. We have some great talks lined up that you won't want to miss. 
+
+This week's TimeShift covers Grafana's annotation functionality, monitoring with Prometheus, integrating Grafana with NetFlow and a peek inside Stream's monitoring stack. Enjoy!
 
 <hr />
 #### Latest Stable Release
@@ -20,7 +23,7 @@ categories = ["timeShift", "Grafana Buzz"]
 	</div>
 	<div class="col col--sm-9">
 		<p>
-			<strong><a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_29" target="_blank">Grafana 4.6.3</a></strong> is now available. Latest bugfixes include:
+			<strong><a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Grafana 4.6.3</a></strong> is now available. Latest bugfixes include:
 		</p>
 		<ul>
 			<li><strong>Gzip:</strong> Fixes bug Gravatar images when gzip was enabled <a href="https://github.com/grafana/grafana/issues/5952" target="_blank">#5952</a></li>
@@ -29,7 +32,7 @@ categories = ["timeShift", "Grafana Buzz"]
 			<li><strong>Cloudwatch:</strong> CloudWatch no longer display metrics’ default alias <a href="https://github.com/grafana/grafana/issues/10151" target="_blank">#101514</a>, thx <a href="https://github.com/mtanda" target="_blank">@mtanda</a></li>
 		</ul>
 		<br />
-		<a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_29" target="_blank" class="btn btn--primary">Download Grafana 4.6.3 Now</a>
+		<a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_30" target="_blank" class="btn btn--primary">Download Grafana 4.6.3 Now</a>
 	</div>
 </div>
 
@@ -39,34 +42,55 @@ categories = ["timeShift", "Grafana Buzz"]
 
 
 #### From the Blogosphere
-[**Graphite 1.1: Teaching an Old Dog New Tricks**](https://grafana.com/blog/2018/01/11/graphite-1.1-teaching-an-old-dog-new-tricks/?utm_source=blog&utm_campaign=graphite): Grafana Labs' own Dan Cech is a contributor to the Graphite project, and has been instrumental in the addition of some of the newest features. This article discusses five of the biggest additions, how they work, and what you can expect for the future of the project.
+[**Walkthrough: Watch your Ansible deployments in Grafana!**](https://blog.octo.com/en/walkthrough-watch-your-ansible-deployments-in-grafana/): Your graphs start spiking and your platform begins behaving abnormally. Did the config change in a deployment, causing the problem? This article covers Grafana's new annotation functionality, and specifically, how to create deployment annotations via Ansible playbooks.  
 
-[**Instrument an Application Using Prometheus and Grafana**](https://chrismarchbanks.com/post/instrument-app-prometheus-grafana/): Chris walks us through how easy it is to get useful metrics from an application to understand bottlenecks and performace. In this article, he shares an application he built that indexes your Gmail account into Elasticsearch, and sends the metrics to Prometheus. Then, he shows you how to set up Grafana to get meaningful graphs and dashboards.
+[**Application Monitoring in OpenShift with Prometheus and Grafana**](https://labs.consol.de/development/2018/01/19/openshift_application_monitoring.html): There are many article describing how to monitor OpenShift with Prometheus running in the same cluster, but what if you don't have admin permissions to the cluster you need to monitor?
 
-[**Visualising Serverless Metrics With Grafana Dashboards**](http://jamesthom.as/blog/2018/01/05/visualising-metrics-with-grafana-dashboards/): Part 3 in this [series](http://jamesthom.as/blog/2017/12/15/serverless-applications-metrics-and-monitoring/) of blog posts on "Monitoring Serverless Applications Metrics" starts with an overview of Grafana and the UI, covers queries and templating, then dives into creating some great looking dashboards. The series plans to conclude with a post about setting up alerting.
+[**Spring Boot Metrics Monitoring Using Prometheus & Grafana**](https://aboullaite.me/spring-boot-monitoring-prometheus-grafana/): As the title suggests, this post walks you through how to configure Prometheus and Grafana to monitor you Spring Boot application metrics.
 
-[**Huawei FAT WLAN Access Points in Grafana**](https://blog.kruyt.org/huawei-fat-wlan-access-points-in-grafana/): Huawei's FAT firmware for their WLAN Access points lacks central management overview. To get a sense of the performance of your AP's, why not quickly create a templated dashboard in Grafana? This article quickly steps your through the process, and includes a sample dashboard.
+[**How to Integrate Grafana with NetFlow**](https://www.plixer.com/blog/configuration/netflow-to-grafana/): Learn how to monitor NetFlow from [Scrutinizer](https://www.plixer.com/products/scrutinizer/free-edition/) using Grafana's SimpleJSON data source.
+
+[**Stream & Go: News Feeds for Over 300 Million End Users**](https://stackshare.io/stream/stream-and-go-news-feeds-for-over-300-million-end-users): [Stream](https://getstream.io/?ref=stackshare) lets you build scalable newsfeeds and activity streams via their API, which is used by more than 300 million end users. In this article, they discuss their monitoring stack and why they chose particular components and technologies.
+
+<hr />
+
+<div class="row row--md-gutters blog-plugin-grid">
+	<div class="col col--sm-9 blog-plugin-grid__item">
+		<h4>GrafanaCon EU Tickets are Going Fast!</h4>
+		<p>
+			We're six weeks from kicking off <strong>GrafanaCon EU</strong>! Join us for talks from Google, Bloomberg, Tinder, eBay and more! You won't want to miss two great days of open source monitoring talks and fun in Amsterdam. Get your tickets before they sell out!
+		</p>
+		<p>
+			<a class="btn btn--grafanacon" href="https://ti.to/grafanacon/grafanacon-eu/with/mzbin4ciuxq" target="_blank"><strong>Get Your Ticket Now</strong></a>
+		</p>
+	</div>
+	<div class="col col--sm-3 blog-plugin-grid__item">
+		<img style="border-radius: 0;" src="/assets/img/blog/timeshift/grafanacon_eu_announcement.png" />
+	</div>
+</div>
+
 <hr />
 
 #### Grafana Plugins
-Lots of updated plugins this week. Plugin authors add new features and fix bugs often, to make your plugin perform better - so it's important to keep your plugins up to date. We've made updating easy; for on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_29" target="_blank">Grafana-cli tool</a>, or update with 1 click if you're using <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_29" target="_blank">Hosted Grafana</a>.
+We have a couple of plugin updates to share this week that add some new features and improvements. Updating your plugins is easy. For on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Grafana-cli tool</a>, or update with 1 click on your <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Hosted Grafana</a>.
 <br />
 <div class="blog-plugin">
 	<div class="row row--md-gutters">
 		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/vertamedia-clickhouse-datasource/versions/1.2.6/logos/large" />
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/abhisant-druid-datasource/versions/0.0.5/logos/large" />
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/vertamedia-clickhouse-datasource?utm_source=blog&utm_campaign=timeshift_29" target="_blank">Clickhouse Data Source</a></strong> - The Clickhouse Data Source plugin has been updated a few times with small fixes during the last few weeks. 
+				<strong><a href="https://grafana.com/plugins/abhisant-druid-datasource?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Druid Data Source</a></strong> - This new update is packed with new features. Notable enhancement include: 
 				<ul>
-					<li>Fix for quantile functions</li>
-					<li>Allow rounding with <code>round</code> option for both time filters: <code>$from</code> and <code>$to</code></li>
+					<li>Post Aggregation feature</li>
+					<li>Support for thetaSketch</li>
+					<li>Improvements to the Query editor</li>
  				</ul>
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/vertamedia-clickhouse-datasource?utm_source=blog&utm_campaign=timeshift_29" target="_blank"><strong>Update</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/abhisant-druid-datasource?utm_source=blog&utm_campaign=timeshift_30" target="_blank"><strong>Update Now</strong></a>
 			</p>
 		</div>
 	</div>
@@ -74,63 +98,14 @@ Lots of updated plugins this week. Plugin authors add new features and fix bugs 
 <div class="blog-plugin">
 	<div class="row row--md-gutters">
 		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/alexanderzobnin-zabbix-app/versions/3.8.1/logos/large" />
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/digiapulssi-breadcrumb-panel/versions/1.1.1/logos/large" />
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/alexanderzobnin-zabbix-app?utm_source=blog&utm_campaign=timeshift_29" target="_blank">Zabbix App</a></strong> - The Zabbix App had a release with a redesign of the Triggers panel as well as support for <a href="https://github.com/alexanderzobnin/grafana-zabbix/issues/431" target="_blank">Multiple data sources for the triggers panel</a>
-			</p>
+				<strong><a href="https://grafana.com/plugins/digiapulssi-breadcrumb-panel?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Breadcrumb Panel</a></strong> - The Breadcrumb Panel is a small panel you can include in your dashboard that tracks other dashboards you have visited - making it easy to navigate back to a previously visited dashboard. The latest release adds support for dashboards loaded from a file.</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/alexanderzobnin-zabbix-app?utm_source=blog&utm_campaign=timeshift_29" target="_blank"><strong>Update</strong></a>
-			</p>
-		</div>
-	</div>
-</div>
-<div class="blog-plugin">
-	<div class="row row--md-gutters">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/gridprotectionalliance-openhistorian-datasource/versions/1.0.2/logos/large" />
-		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
-			<p>
-				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/gridprotectionalliance-openhistorian-datasource?utm_source=blog&utm_campaign=timeshift_29" target="_blank">OpenHistorian Data Source</a></strong> - this data source plugin received some new query builder screens and improved documentation.
-			</p>
-			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/gridprotectionalliance-openhistorian-datasource?utm_source=blog&utm_campaign=timeshift_29" target="_blank"><strong>Update</strong></a>
-			</p>
-		</div>
-	</div>
-</div>
-<div class="blog-plugin">
-	<div class="row row--md-gutters">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/btplc-status-dot-panel/versions/0.2.3/logos/large" />
-		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
-			<p>
-				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/btplc-status-dot-panel?utm_source=blog&utm_campaign=timeshift_29" target="_blank">BT Status Dot Panel</a></strong> - This panel received a small bug fix.
-			</p>
-			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/btplc-status-dot-panel?utm_source=blog&utm_campaign=timeshift_29" target="_blank"><strong>Update</strong></a>
-			</p>
-		</div>
-	</div>
-</div>
-<div class="blog-plugin">
-	<div class="row row--md-gutters">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/petrslavotinek-carpetplot-panel/versions/0.1.1/logos/large" />
-		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
-			<p>
-				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/petrslavotinek-carpetplot-panel?utm_source=blog&utm_campaign=timeshift_29" target="_blank">Carpet Plot Panel</a></strong> - A recent update for this panel fixes a D3 import bug.
-			</p>
-			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/petrslavotinek-carpetplot-panel?utm_source=blog&utm_campaign=timeshift_29" target="_blank"><strong>Update</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/digiapulssi-breadcrumb-panel?utm_source=blog&utm_campaign=timeshift_30" target="_blank"><strong>Update Now</strong></a>
 			</p>
 		</div>
 	</div>
@@ -141,6 +116,17 @@ Lots of updated plugins this week. Plugin authors add new features and fix bugs 
 In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We also like to make sure we mention other Grafana-related events happening all over the world. If you're putting on just such an event, let us know and we'll list it here.
 
 <div class="blog-plugin">
+	<div class="row row--md-gutters blog-plugin-grid">
+		<div class="col col--md-3">
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/snowcamp18_logo.png" />
+		</div>
+		<div class="col col--md-8 col--sm-offset-1">
+			<p><strong><a href="http://snowcamp.io/en/tickets/" target="_blank">SnowCamp 2018: Yves Brissaud - Application metrics with Prometheus and Grafana | Grenoble, France - Jan 24, 2018</a>:</strong>
+We'll take a look at how Prometheus, Grafana and a bit of code make it possible to obtain temporal data to visualize the state of our applications as well as to help with development and debugging.
+			</p>
+			<a href="http://snowcamp.io/en/tickets/" target="_blank" class="btn btn--outline">Register Now</a>
+		</div>
+	</div>
 	<div class="row row--md-gutters blog-plugin-grid">
 		<div class="col col--md-3">
 			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/meetup.jpg" />
@@ -199,19 +185,6 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 			<a href="https://www.nethinks.com/blog/it-ueberwachung/opennms-webinar-am-21-februar-einfuehrung-in-grafana/" target="_blank" class="btn btn--outline">Register Now</a>
 		</div>
 	</div>
-	<div class="row row--md-gutters blog-plugin-grid">
-		<div class="col col--md-3">
-			<img style="border-radius: 0;" class="large" src="/assets/img/blog/timeshift/grafanacon_eu_announcement.png" />
-		</div>
-		<div class="col col--md-8 col--sm-offset-1">
-			<p><strong><a href="http://grafanacon.org" target="_blank">GrafanaCon EU | Amsterdam, Netherlands - March 1-2, 2018</a>:</strong><br />Lock in your seat for GrafanaCon EU while there are still tickets avaialable! Join us March 1-2, 2018 in Amsterdam for 2 days of talks centered around Grafana and the surrounding monitoring ecosystem including Graphite, Prometheus, InfluxData, Elasticsearch, Kubernetes, and more. 
-			</p>
-			<p>
-			We have some exciting talks lined up from <strong>Google, CERN, Bloomberg, eBay, Red Hat, Tinder, Automattic, Prometheus, InfluxData, Percona and more!</strong> Be sure to get your ticket before they're sold out.
-			</p>
-			<a href="http://grafanacon.org" target="_blank" class="btn btn--outline">Learn More</a>
-		</div>
-	</div>
 </div>
 <hr />
 
@@ -220,11 +193,11 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		<div class="col col--sm-12">
 			<h4>Tweet of the Week</h4>
 			We scour Twitter each week to find an interesting/beautiful dashboard and show it off! <a href="https://twitter.com/hashtag/monitoringlove?src=hash" target="_blank">#monitoringLove</a>
-			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">So I hacked the Maschine MK3 to control <a href="https://twitter.com/grafana?ref_src=twsrc%5Etfw">@grafana</a> \o/ <a href="https://t.co/kgZP9koQ3w">https://t.co/kgZP9koQ3w</a></p>&mdash; Felicia 竜の歯 (✿◠‿◠) (@Drachenkatze) <a href="https://twitter.com/Drachenkatze/status/946869591074099201?ref_src=twsrc%5Etfw">December 29, 2017</a></blockquote>
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Discovered by chance that <a href="https://twitter.com/grafana?ref_src=twsrc%5Etfw">@grafana</a> supports <a href="https://twitter.com/hashtag/emoji?src=hash&amp;ref_src=twsrc%5Etfw">#emoji</a> .. let&#39;s make monitoring fun again:<br><br>😊 over green   -&gt; All good<br>🤕 over orange -&gt; Something smells fishy ...<br>😱 over red       -&gt; You better run b*tch!!! <a href="https://t.co/IrKk37mmUV">pic.twitter.com/IrKk37mmUV</a></p>&mdash; Victor Martin Garcia (@victormartin) <a href="https://twitter.com/victormartin/status/952891351456153602?ref_src=twsrc%5Etfw">January 15, 2018</a></blockquote>
 			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-			<p>Nice hack! I know I like to keep one eye on server requests when I'm dropping beats. ;)</p>
+			<p>As we say with <a href="https://grafana.com/blog/2015/12/04/friends-dont-let-friends-abuse-pie-charts/" target="_blank">pie charts</a>, use emojis wisely ;)</p>
 		</div>
 	</div>
 </div>
@@ -234,16 +207,16 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 <div style=" padding: 20px; background: url(/assets/img/blog/timeshift/polygon_texture_black.jpg); background-size: cover; border-radius: 4px;">
 	<h4>Grafana Labs is Hiring!</h4>
 	<p>We are passionate about open source software and thrive on tackling complex challenges to build the future. We ship code from every corner of the globe and love working with the community. If this sounds exciting, you're in luck – <strong>WE'RE HIRING!</strong></p>
-	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_29" target="_blank">Open Positions</a></p>
+	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_30" target="_blank">Open Positions</a></p>
 </div>
 
 
 <hr />
 <br />
 #### How are we doing?
-Thanks for reading another issue of timeShift. Let us know what you think! Submit a comment on this article below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_29).
+That wraps up our 30th issue of TimeShift. What do you think? Are there other types of content you'd like to see here? Submit a comment on this issue below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_30).
 
-Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_29).
+Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_30).
 
 
 
