@@ -11,6 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
+<img style="border-radius: 6px;" class="large" src="/assets/img/blog/timeshift/20000.jpg" />
 This week Grafana crossed [20,000 stars on Github](http://github.com/grafana/grafana)! Big thanks to the Grafana community! 
 
 We're feverishly working on the upcoming Grafana 5.0 release scheduled to go out next week, and we'd like your feedback. 
