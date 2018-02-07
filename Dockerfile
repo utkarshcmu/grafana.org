@@ -7,16 +7,17 @@ RUN apt-get update \
 
 
 # We can go back to using the official version when hugo 0.16 is released with our PR merged.
-#ENV HUGO_VERSION 0.16
-#RUN curl -sSL https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux_amd64.tar.gz \
-#	| tar -v -C /usr/local/bin -xz --strip-components 1 \
-#	&& mv /usr/local/bin/hugo_${HUGO_VERSION}_linux_amd64 /usr/local/bin/hugo
+ENV HUGO_VERSION 0.30.2
+RUN curl -sSL https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz \
+	| tar -v -C /usr/local/bin -xz \
+  && chmod 755 /usr/local/bin/hugo \
+  && /usr/local/bin/hugo version
 
 # Using a pre-build of hugo 0.16
-ENV HUGO_VERSION 0.16-pre5
-RUN curl -sSL -o /usr/local/bin/hugo https://github.com/docker/hugo/releases/download/${HUGO_VERSION}/hugo \
- && chmod 755 /usr/local/bin/hugo \
- && /usr/local/bin/hugo version
+# ENV HUGO_VERSION 0.16-pre5
+# RUN curl -sSL -o /usr/local/bin/hugo https://github.com/docker/hugo/releases/download/${HUGO_VERSION}/hugo \
+#  && chmod 755 /usr/local/bin/hugo \
+#  && /usr/local/bin/hugo version
 
 RUN curl -sSL -o /usr/local/bin/markdownlint https://github.com/docker/markdownlint/releases/download/2016-08-12/markdownlint \
  && chmod 755 /usr/local/bin/markdownlint
