@@ -32,19 +32,19 @@ categories = ["timeShift", "Grafana Buzz"]
 
 <hr />
 
-#### Latest Stable Release
+#### Latest Beta Release
 <div class="row row--no-gutters blog-plugin-grid">
 	<div class="col col--sm-3">
 		<img src="/assets/img/blog/timeshift/grafana_release_icon.png" width="170" />
 	</div>
 	<div class="col col--sm-9">
 		<p>
-			<strong><a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_33" target="_blank">Grafana 4.6.3</a></strong> is available.
+			<strong><a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_33" target="_blank">Grafana 5.0 beta</a></strong> is available.
 		</p> 
 		<p>
-			Check out the full <a href="https://community.grafana.com/t/release-notes-v4-6-x/3179" target="_blank">release notes</a> to see the features and fixes.
+			Check out the full <a href="https://community.grafana.com/t/release-notes-v5-0-x/5250" target="_blank">release notes</a> to see the features and fixes.
 		</p>
-		<a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_33" target="_blank" class="btn btn--primary">Download Grafana 4.6.3 Now</a>
+		<a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_33" target="_blank" class="btn btn--primary">Download Grafana v5 Beta Now</a>
 	</div>
 </div>
 
