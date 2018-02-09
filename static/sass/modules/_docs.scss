@@ -309,7 +309,7 @@ $docs-subheader-bg-color: transparent;
   }
 }
 
-.nav-box {
+.nav-cards {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -317,13 +317,15 @@ $docs-subheader-bg-color: transparent;
   margin-bottom: 30px;
 }
 
-.nav-item {
+.nav-cards__item {
   display: flex;
   flex-direction: column;
   padding: $spacer;
   margin-bottom: 10px;
   justify-content: center;
   align-items: center;
+  background: $card-background;
+  box-shadow: $card-shadow;
 
   h5, p {
     width: 100%;
@@ -341,131 +343,101 @@ $docs-subheader-bg-color: transparent;
   img {
     height: 50px;
   }
-}
 
-.nav-item-card {
-  background: $card-background;
-  box-shadow: $card-shadow;
-}
+  &:hover {
+    h4  {
+      color: $link-color-hover;
+    }
 
-.nav-item-card:hover {
-  h4  {
-    color: $link-color-hover;
+    h5, p {
+      color: $off-white2;
+    }
   }
 
-  h5, p {
-    color: $off-white2;
+  &--install {
+    width: 100%;
+  }
+
+  &--guide {
+    width: 100%;
+  }
+
+  &--ds {
+    width: 100%;
   }
 }
 
-.nav-item-icon:before {
-  font-family: FontAwesome;
-   -webkit-text-fill-color: transparent;
-   background: linear-gradient(to right, rgba(255, 213, 0, 0.7) 0%, rgba(255, 68, 0, 0.7) 99%, rgba(255, 68, 0, 0.7) 100%);
-   -webkit-background-clip: text;
-   text-decoration: none;
-   font-size: 48px;
-   line-height: 1;
+.nav-cards__icon {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, rgba(255, 213, 0, 0.7) 0%, rgba(255, 68, 0, 0.7) 99%, rgba(255, 68, 0, 0.7) 100%);
+  -webkit-background-clip: text;
+  text-decoration: none;
+  font-size: 48px;
+  line-height: 1;
+
+  &.fa {
+    font-size: 48px;
+  }
 }
 
-.nav-item-icon--linux:before {
-  content: "\F17C";
-}
-
-.nav-item-icon--mac:before {
-  content: "\F179";
-}
-
-.nav-item-icon--windows:before {
-  content: "\F17A";
-}
-
-.nav-item-icon--cloud:before {
-  content: "\F0C2";
-}
-
-.nav-item-icon--nightly:before {
-  content: "\F186";
-}
-
-.nav-item-install {
-  width: 100%;
-}
-
-.nav-item-guide {
-  width: 100%;
-}
-
-.nav-item-ds {
-  width: 100%;
-}
 
 @include at-least(small) {
-  .nav-item {
-    padding: $spacer*2;
+  .nav-cards__item {
     margin-bottom: 30px;
+    padding: $spacer*2;
+    width: 49%;
 
     img {
       height: 50px;
       margin-bottom: $spacer;
     }
+
+    &--install {
+    }
+
+    &--guide {
+      width: 100%;
+    }
+
+    &--ds {
+      width: 49%;
+    }
   }
 
-  .nav-item-install {
-    width: 49%;
-  }
-
-  .nav-item-guide {
-    width: 100%;
-  }
-
-  .nav-item-ds {
-    width: 49%;
-  }
-
-  .nav-item-icon {
+  .nav-cards__icon {
     padding-bottom: $spacer;
   }
 }
 
 @include at-least(medium) {
-  .nav-item-install {
-    width: 32%;
-  }
+  .nav-cards__item {
+    &--install {
+      width: 32%;
+    }
 
-  .nav-item-guide {
-    width: 49%;
-  }
+    &--guide {
+      width: 49%;
+    }
 
-  .nav-item-ds {
-    width: 24%;
+    &--ds {
+      width: 24%;
+    }
   }
 }
 
 @include at-least(large) {
-  .nav-item-install {
-    width: 32%;
-  }
+  .nav-cards__item {
+    &--install {
+      width: 32%;
+    }
 
-  .nav-item-guide {
-    width: 32%;
-  }
+    &--guide {
+      width: 32%;
+    }
 
-  .nav-item-ds {
-    width: 24%;
+    &--ds {
+      width: 24%;
+    }
   }
 }
 
-@include at-least(xlarge) {
-  .nav-item-install {
-    width: 32%;
-  }
-
-  .nav-item-guide {
-    width: 32%;
-  }
-
-  .nav-item-ds {
-    width: 24%;
-  }
-}
