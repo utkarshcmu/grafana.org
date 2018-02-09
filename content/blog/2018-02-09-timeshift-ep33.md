@@ -42,7 +42,7 @@ categories = ["timeShift", "Grafana Buzz"]
 			<strong><a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_33" target="_blank">Grafana 4.6.3</a></strong> is available.
 		</p> 
 		<p>
-			Check out the full <a href="https://community.grafana.com/t/release-notes-v4-6-x/3179" target="_blank">release notes</a> too see the features and fixes.
+			Check out the full <a href="https://community.grafana.com/t/release-notes-v4-6-x/3179" target="_blank">release notes</a> to see the features and fixes.
 		</p>
 		<a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_33" target="_blank" class="btn btn--primary">Download Grafana 4.6.3 Now</a>
 	</div>
