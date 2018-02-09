@@ -63,7 +63,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 [**Network Infrastructure Weathermap**](http://www.blog.labouardy.com/network-infrastructure-weathermap/): This article provides a walkthrough on creating a "Network Infrastructure Weather Map" to get a high level overview of your network backbone using only open source tools.
 
-[**Integrating Elasticsearch and Logstash with NetApp Harvest and Grafana : Part 4**](https://storagedevops.blogspot.com/2018/02/integrating-elasticsearch-and-logstash.html): This is part 4 in the series where James walks through how to set up the Elasticsearch data source in Grafana. He walks through instruction for both v4x and the new v5 beta.
+[**Integrating Elasticsearch and Logstash with NetApp Harvest and Grafana : Part 4**](https://storagedevops.blogspot.com/2018/02/integrating-elasticsearch-and-logstash.html): This is part 4 in the series where James walks us through how to set up the Elasticsearch data source in Grafana. His instuctions include steps for both v4.X and the new v5 beta.
 
 [**Automatic Graphing of Google Document Data**](https://github.com/lovelaced/graphing_fun): Sometimes our data isn't in the most friendly format, or perhaps in some non devops usecases, we've just written it down somewhere. This article takes a stab at getting data from Google Sheets and visualizing it in Grafana.
 
