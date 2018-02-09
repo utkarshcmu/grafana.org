@@ -13,7 +13,7 @@ categories = ["timeShift", "Grafana Buzz"]
 ### Welcome to TimeShift
 <div class="row row--no-gutters blog-plugin-grid">
 	<div class="col col--sm-6">
-		The big news this week of course, was the release of Grafana 5.0 beta. This is the largest Grafana release since the project's launch and we're extremely excited to receive feedback from the community. Some of the bigger features include teams, dashboard folders and permissions, but we tried to look at even little things like cleaning up icons, taking a look at the default graph color palette, and reworking the light theme. <br />If you use the light theme, please give 5.0 beta a try and let us know what you think over at our <a href="http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_31" target="_blank">community site</a>. Check out the video to see some of v5's new features.
+		The big news this week of course, was the release of Grafana 5.0 beta. This is the largest Grafana release since the project's launch and we're extremely excited to receive feedback from the community. Some of the bigger features include teams, dashboard folders, and permissions, but we tried to look at even little things like cleaning up icons, taking a look at the default graph color palette, and reworking the light theme. <br />If you use the light theme, please give 5.0 beta a try and let us know what you think over at our <a href="http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_31" target="_blank">community site</a>. Check out the video to see some of v5's new features.
 	</div>
 	<div class="col col--sm-6">
 		<iframe width="450" height="270" src="https://www.youtube.com/embed/Izr0IBgoTZQ?rel=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
@@ -22,7 +22,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 <div class="row row--no-gutters blog-plugin-grid">
 	<div class="col col--sm-6">
-		Aside from the huge beta release, we spent the week participating in a number of recent conferences and meetups talking about Grafana, monitoring, and observability. This week's TimeShift covers some of those events and rounds up some interesting Grafana-related articles from around the net. With the impending release, we haven't had time to review plugins, so expect a big Plugin update soon. Enjoy! 
+		Aside from the huge beta release, we spent the week participating in a number of recent conferences and meetups talking about Grafana, monitoring, and observability. This week's TimeShift covers some of those events and some interesting Grafana-related articles from around the net. With the impending release, we haven't had time to review plugins, so expect a big plugin update soon. Enjoy! 
 	</div>
 	<div class="col col--sm-6">
 		<img src="/assets/img/blog/timeshift/fosdem_devroom.jpg" />
