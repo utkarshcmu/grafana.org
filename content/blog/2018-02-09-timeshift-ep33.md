@@ -53,7 +53,7 @@ categories = ["timeShift", "Grafana Buzz"]
 <hr />
 
 #### From the Blogosphere
-[**FOSDEM Dashboards**](https://dashboard.fosdem.org/dashboard/db/swag?orgId=1&from=1517639447075&to=1517684364182): The organizers at FOSDEM used Grafana to track a number of metrics for the conference. They've made the dashboard public so have fun exploring the data. One of the very clever ways they used Grafana was to track tshirt inventory. Definitely gives us some ideas for GrafanaCon. ;)
+[**FOSDEM Dashboards**](https://dashboard.fosdem.org/dashboard/db/swag?orgId=1&from=1517639447075&to=1517684364182): The organizers at FOSDEM used Grafana to track a number of metrics for the conference. They've made the dashboard public so have fun exploring the data. One of the very clever ways they used Grafana was to track t-shirt inventory. Definitely gives us some ideas for GrafanaCon. ;)
 
 [**Swetugg**](https://docs.google.com/presentation/d/1p36PK9tGgyZAXkzZK-Vc_kRxfGcWxtF5MEjCrc1AwC8/edit#slide=id.p): Swetugg is a .NET conference held in Stockholm. This year, our own Daniel Lee took the stage to talk about monitoring and why it's important, an intro to Grafana, the Azure Monitor Data Source Plugin, and how to build a custom integration in .NET Core for Grafana. Check out his slides and reach out if you have any questions.
 
@@ -63,7 +63,7 @@ categories = ["timeShift", "Grafana Buzz"]
 
 [**Network Infrastructure Weathermap**](http://www.blog.labouardy.com/network-infrastructure-weathermap/): This article provides a walkthrough on creating a "Network Infrastructure Weather Map" to get a high level overview of your network backbone using only open source tools.
 
-[**Integrating Elasticsearch and Logstash with NetApp Harvest and Grafana : Part 4**](https://storagedevops.blogspot.com/2018/02/integrating-elasticsearch-and-logstash.html): This is part 4 in the series where James walks us through how to set up the Elasticsearch data source in Grafana. His instuctions include steps for both v4.X and the new v5 beta.
+[**Integrating Elasticsearch and Logstash with NetApp Harvest and Grafana : Part 4**](https://storagedevops.blogspot.com/2018/02/integrating-elasticsearch-and-logstash.html): This is part 4 in the series where James walks us through how to set up the Elasticsearch data source in Grafana. His instructions include steps for both v4.X and the new v5 beta.
 
 [**Automatic Graphing of Google Document Data**](https://github.com/lovelaced/graphing_fun): Sometimes our data isn't in the most friendly format, or perhaps in some non devops usecases, we've just written it down somewhere. This article takes a stab at getting data from Google Sheets and visualizing it in Grafana.
 
@@ -76,7 +76,7 @@ categories = ["timeShift", "Grafana Buzz"]
 	<div class="col col--sm-9 blog-plugin-grid__item grafanacon">
 		<h4><a href="https://ti.to/grafanacon/grafanacon-eu/with/mzbin4ciuxq" target="_blank">GrafanaCon and the Launch of Grafana v5.0</a></h4>
 		<p>
-			Tickets are going fast, but there are still a handful left. Join us in Amsterdam for the launch of Grafana v5.0 and two days of talks about Grafana and the open source monitoring ecosystem. We have talks lined up from <strong>Google, Bloomberg, CERN, Tinder, eBay</strong> and more! Each ticket get you:
+			Tickets are going fast, but there are still a handful left. Join us in Amsterdam for the launch of Grafana v5.0 and two days of talks about Grafana and the open source monitoring ecosystem. We have talks lined up from <strong>Google, Bloomberg, CERN, Tinder, eBay</strong> and more! Each ticket gets you:
 		</p>
 			<ul>
 				<li>30+ speakers on <strong>Graphite, Prometheus, InfluxDB, Kubernetes, IoT</strong> and more</li>
