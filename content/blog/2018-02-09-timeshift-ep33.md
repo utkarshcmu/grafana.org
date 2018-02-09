@@ -39,12 +39,12 @@ categories = ["timeShift", "Grafana Buzz"]
 	</div>
 	<div class="col col--sm-9">
 		<p>
-			<strong><a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_32" target="_blank">Grafana 4.6.3</a></strong> is available.
+			<strong><a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_33" target="_blank">Grafana 4.6.3</a></strong> is available.
 		</p> 
 		<p>
 			Check out the full <a href="https://community.grafana.com/t/release-notes-v4-6-x/3179" target="_blank">release notes</a> too see the features and fixes.
 		</p>
-		<a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_32" target="_blank" class="btn btn--primary">Download Grafana 4.6.3 Now</a>
+		<a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=timeshift_33" target="_blank" class="btn btn--primary">Download Grafana 4.6.3 Now</a>
 	</div>
 </div>
 
