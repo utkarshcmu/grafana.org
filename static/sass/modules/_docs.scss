@@ -309,3 +309,163 @@ $docs-subheader-bg-color: transparent;
   }
 }
 
+.nav-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  padding: $spacer;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+
+  h5, p {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: $lighter-gray;
+  }
+
+  h4 {
+    width: 100%;
+    text-align: center;
+    color: #f46800;
+  }
+
+  img {
+    height: 50px;
+  }
+}
+
+.nav-item-card {
+  background: $card-background;
+  box-shadow: $card-shadow;
+}
+
+.nav-item-card:hover {
+  h4  {
+    color: $link-color-hover;
+  }
+
+  h5, p {
+    color: $off-white2;
+  }
+}
+
+.nav-item-icon:before {
+  font-family: FontAwesome;
+   -webkit-text-fill-color: transparent;
+   background: linear-gradient(to right, rgba(255, 213, 0, 0.7) 0%, rgba(255, 68, 0, 0.7) 99%, rgba(255, 68, 0, 0.7) 100%);
+   -webkit-background-clip: text;
+   text-decoration: none;
+   font-size: 48px;
+   line-height: 1;
+}
+
+.nav-item-icon--linux:before {
+  content: "\F17C";
+}
+
+.nav-item-icon--mac:before {
+  content: "\F179";
+}
+
+.nav-item-icon--windows:before {
+  content: "\F17A";
+}
+
+.nav-item-icon--cloud:before {
+  content: "\F0C2";
+}
+
+.nav-item-icon--nightly:before {
+  content: "\F186";
+}
+
+.nav-item-install {
+  width: 100%;
+}
+
+.nav-item-guide {
+  width: 100%;
+}
+
+.nav-item-ds {
+  width: 100%;
+}
+
+@include at-least(small) {
+  .nav-item {
+    padding: $spacer*2;
+    margin-bottom: 30px;
+
+    img {
+      height: 50px;
+      margin-bottom: $spacer;
+    }
+  }
+
+  .nav-item-install {
+    width: 49%;
+  }
+
+  .nav-item-guide {
+    width: 100%;
+  }
+
+  .nav-item-ds {
+    width: 49%;
+  }
+
+  .nav-item-icon {
+    padding-bottom: $spacer;
+  }
+}
+
+@include at-least(medium) {
+  .nav-item-install {
+    width: 32%;
+  }
+
+  .nav-item-guide {
+    width: 49%;
+  }
+
+  .nav-item-ds {
+    width: 24%;
+  }
+}
+
+@include at-least(large) {
+  .nav-item-install {
+    width: 32%;
+  }
+
+  .nav-item-guide {
+    width: 32%;
+  }
+
+  .nav-item-ds {
+    width: 24%;
+  }
+}
+
+@include at-least(xlarge) {
+  .nav-item-install {
+    width: 32%;
+  }
+
+  .nav-item-guide {
+    width: 32%;
+  }
+
+  .nav-item-ds {
+    width: 24%;
+  }
+}
