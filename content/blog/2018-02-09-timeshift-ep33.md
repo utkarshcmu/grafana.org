@@ -13,14 +13,25 @@ categories = ["timeShift", "Grafana Buzz"]
 ### Welcome to TimeShift
 <div class="row row--no-gutters blog-plugin-grid">
 	<div class="col col--sm-6">
-		The big news this week of course, was the release of Grafana 5.0 beta. This is the largest Grafana release since the project launch and we're extremely excited to receive feedback from the community. Some of the bigger features include teams, dashboard folders and permissions, but we tried to look at even little things like cleaning up icons, taking a look at the default graph color palette, and reworking the light theme. <br />If you use the light theme, please give 5.0 beta a try and let us know what you think over at our <a href="http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_31" target="_blank">community site</a>. Check out the video to see some of the new features.
+		The big news this week of course, was the release of Grafana 5.0 beta. This is the largest Grafana release since the project's launch and we're extremely excited to receive feedback from the community. Some of the bigger features include teams, dashboard folders and permissions, but we tried to look at even little things like cleaning up icons, taking a look at the default graph color palette, and reworking the light theme. <br />If you use the light theme, please give 5.0 beta a try and let us know what you think over at our <a href="http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_31" target="_blank">community site</a>. Check out the video to see some of v5's new features.
 	</div>
 	<div class="col col--sm-6">
 		<iframe width="450" height="270" src="https://www.youtube.com/embed/Izr0IBgoTZQ?rel=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 	</div>
 </div>
 
+<div class="row row--no-gutters blog-plugin-grid">
+	<div class="col col--sm-6">
+		Aside from the huge beta release, we spent the week participating in a number of recent conferences and meetups talking about Grafana, monitoring, and observability. This week's TimeShift covers some of those events and rounds up some interesting Grafana-related articles from around the net. With the impending release, we haven't had time to review plugins, so expect a big Plugin update soon. Enjoy! 
+	</div>
+	<div class="col col--sm-6">
+		<img src="/assets/img/blog/timeshift/fosdem_devroom.jpg" />
+		<p style="font-size: 75%;">Torkel speaking in the Monitoring and Cloud dev room at FOSDEM</p>
+	</div>
+</div>
+
 <hr />
+
 #### Latest Stable Release
 <div class="row row--no-gutters blog-plugin-grid">
 	<div class="col col--sm-3">
@@ -42,7 +53,19 @@ categories = ["timeShift", "Grafana Buzz"]
 <hr />
 
 #### From the Blogosphere
-[**Title**](https://www.weave.works/blog/grafana-dashboards-as-code/): Description
+[**FOSDEM Dashboards**](https://dashboard.fosdem.org/dashboard/db/swag?orgId=1&from=1517639447075&to=1517684364182): The organizers at FOSDEM used Grafana to track a number of metrics for the conference. They've made the dashboard public so have fun exploring the data. One of the very clever ways they used Grafana was to track tshirt inventory. Definitely gives us some ideas for GrafanaCon. ;)
+
+[**Swetugg**](https://docs.google.com/presentation/d/1p36PK9tGgyZAXkzZK-Vc_kRxfGcWxtF5MEjCrc1AwC8/edit#slide=id.p): Swetugg is a .NET conference held in Stockholm. This year, our own Daniel Lee took the stage to talk about monitoring and why it's important, an intro to Grafana, the Azure Monitor Data Source Plugin, and how to build a custom integration in .NET Core for Grafana. Check out his slides and reach out if you have any questions.
+
+[**Simple ChatOps with Kafka, Grafana, Prometheus, and Slack**](https://hackernoon.com/simple-chatops-with-kafka-grafana-prometheus-and-slack-764ece59e707): This tutorial describes an approach for building a simple ChatOps bot, which uses Slack and Grafana to query system status. The idea is to be able to check the status of your system with a conversational interface if you’re away from your desk, but you still have basic connectivity e.g. on your phone.
+
+[**Aerogear Metrics Demo**](https://www.youtube.com/watch?v=xWFWUcuZPaQ): Dara from the Aerogear team at Red Hat Mobile put together a video discussing the Aerogear Metrics Service and its two parts: Prometheus and Grafana, then demos the functionality.
+
+[**Network Infrastructure Weathermap**](http://www.blog.labouardy.com/network-infrastructure-weathermap/): This article provides a walkthrough on creating a "Network Infrastructure Weather Map" to get a high level overview of your network backbone using only open source tools.
+
+[**Integrating Elasticsearch and Logstash with NetApp Harvest and Grafana : Part 4**](https://storagedevops.blogspot.com/2018/02/integrating-elasticsearch-and-logstash.html): This is part 4 in the series where James walks through how to set up the Elasticsearch data source in Grafana. He walks through instruction for both v4x and the new v5 beta.
+
+[**Automatic Graphing of Google Document Data**](https://github.com/lovelaced/graphing_fun): Sometimes our data isn't in the most friendly format, or perhaps in some non devops usecases, we've just written it down somewhere. This article takes a stab at getting data from Google Sheets and visualizing it in Grafana.
 
 <hr />
 
@@ -66,13 +89,12 @@ categories = ["timeShift", "Grafana Buzz"]
 			<a class="btn btn--grafanacon" href="https://ti.to/grafanacon/grafanacon-eu/with/mzbin4ciuxq" target="_blank"><strong>Get Your Ticket Now</strong></a>
 		</p>
 	</div>
-	<br />
-	<br />
-	We'd also like to thank our great sponsors, who are the reason this conference is happening.
-	<div class="sponsors">
+</div>
+<br />
+<div class="sponsors">
 		<div class="row row--md-gutters text-center">
 			<div class="col col--sm-12 text-center">
-				<div class="sponsor-header">Thank you to our sponsors</div>
+				<div class="sponsor-header">Thank you to our sponsors for making this conference possible!</div>
 			</div>
 		</div>
 		<div class="row row--md-gutters text-center">
@@ -118,7 +140,6 @@ categories = ["timeShift", "Grafana Buzz"]
 			</div>
 		</div>
 	</div>
-</div>
 
 <hr />
 
@@ -168,9 +189,10 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		<div class="col col--sm-12">
 			<h4>Tweet of the Week</h4>
 			We scour Twitter each week to find an interesting/beautiful dashboard and show it off! <a href="https://twitter.com/hashtag/monitoringlove?src=hash" target="_blank">#monitoringLove</a>
-			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">That was then, this is now... Have discovered the combination of collectd, influxdb and Grafana and am now moving my monitoring of various RPi systems over from MRTG to Grafana. Looks slick, easy to tweak and now monitoring the garage/workshop temperature 24/7! <a href="https://t.co/HKs2x1UmIm">pic.twitter.com/HKs2x1UmIm</a></p>&mdash; Andy G7UHN (@G7UHN) <a href="https://twitter.com/G7UHN/status/959162291072700416?ref_src=twsrc%5Etfw">February 1, 2018</a></blockquote>
-			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			<p>Night and day! Welcome to the Grafana community. Watch out - building dashboards can become addictive!</p>
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Ant Farm <a href="https://twitter.com/hashtag/devops?src=hash&amp;ref_src=twsrc%5Etfw">#devops</a> <a href="https://twitter.com/hashtag/timeseriesdata?src=hash&amp;ref_src=twsrc%5Etfw">#timeseriesdata</a> <a href="https://twitter.com/hashtag/grafana?src=hash&amp;ref_src=twsrc%5Etfw">#grafana</a> <a href="https://t.co/Q3MW8BWm01">pic.twitter.com/Q3MW8BWm01</a></p>&mdash; Time Series Art (@TimeSeriesArt) <a href="https://twitter.com/TimeSeriesArt/status/962031290043195392?ref_src=twsrc%5Etfw">February 9, 2018</a></blockquote>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+			<p><a href="https://twitter.com/TimeSeriesArt" target="-blank">@TimeSeriesArt</a> has been taking Grafana graphs and adding some new elements to tell a story. Fun twitter feed to check out. Keep it up!</p>
 		</div>
 	</div>
 </div>
@@ -180,14 +202,14 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 <div style=" padding: 20px; background: url(/assets/img/blog/timeshift/polygon_texture_black.jpg); background-size: cover; border-radius: 4px;">
 	<h4>Grafana Labs is Hiring!</h4>
 	<p>We are passionate about open source software and thrive on tackling complex challenges to build the future. We ship code from every corner of the globe and love working with the community. If this sounds exciting, you're in luck – <strong>WE'RE HIRING!</strong></p>
-	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_31" target="_blank">Open Positions</a></p>
+	<p>Check out our <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_33" target="_blank">Open Positions</a></p>
 </div>
 
 
 <hr />
 <br />
 #### How are we doing?
-That wraps up our 30th issue of TimeShift. What do you think? Are there other types of content you'd like to see here? Submit a comment on this issue below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_33).
+Hope you enjoyed this issue of TimeShift. What do you think? Are there other types of content you'd like to see here? Submit a comment on this issue below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_33).
 
 Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_33).
 
