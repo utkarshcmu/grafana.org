@@ -11,7 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-The big news this week is that we've sold out of General Admission tickets for GrafanaCon EU! We would like to thank the Grafana community for all your support and enthusiasm around GrafanaCon and are looking forward to delivering a highly valuable, interseting and most of all, fun conference. There are a small amount of <a href="https://ti.to/grafanacon/grafanacon-eu" target="_blank">Angel Tickets</a> available - don't miss your last chance to join us in Amsterdam!
+The big news this week is that we've sold out of General Admission tickets for GrafanaCon EU! We would like to thank the Grafana community for all your support and enthusiasm around GrafanaCon and are looking forward to delivering a highly valuable, interesting and most of all, fun conference. There are a small amount of <a href="https://ti.to/grafanacon/grafanacon-eu" target="_blank">Angel Tickets</a> available - don't miss your last chance to join us in Amsterdam!
 
 <hr />
 
