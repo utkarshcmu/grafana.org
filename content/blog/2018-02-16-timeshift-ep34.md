@@ -50,7 +50,7 @@ The big news this week is that we've sold out of General Admission tickets for G
 <hr />
 
 #### From the Blogosphere
-[**Walmart goes to the cloud to close gap with Amazon**](https://www.reuters.com/article/us-walmart-cloud/walmart-goes-to-the-cloud-to-close-gap-with-amazon-idUSKCN1FY0K7): We're always thrilled to learn about Grafana spottings in the wild. Reuters recently wrote a story about Walmart's cloud initiatives and filmed a segment inside their Sunnyvale, California NOC, where Grafana dashboards take center stage.
+[**Walmart goes to the cloud to close gap with Amazon**](https://www.reuters.com/article/us-walmart-cloud/walmart-goes-to-the-cloud-to-close-gap-with-amazon-idUSKCN1FY0K7): We're always thrilled to learn about Grafana sightings in the wild. Reuters recently wrote a story about Walmart's cloud initiatives and filmed a segment inside their Sunnyvale, California NOC, where Grafana dashboards take center stage.
 
 [**Monitoring Spring boot applications with Prometheus and Grafana**](https://g00glen00b.be/monitoring-spring-prometheus-grafana/): This is an intro post about getting up and running to monitor your Spring Boot applications, for people just getting familiar with the monitoring landscape. It walks through installation, configuration and getting to your first dashboard.
 
