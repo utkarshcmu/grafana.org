@@ -13,7 +13,7 @@ categories = ["timeShift", "Grafana Buzz"]
 ### Welcome to TimeShift
 This week's timeShift will be abridged, as we're busy putting the final touches on GrafanaCon EU. As I write this, we have **3 Angel tickets** remaining, surpassing a registered 350 attendees. 100% of proceeds from these angel tickets will go to the EFF ([Electronic Frontier Foundation](https://www.eff.org/)), a nonprofit who defends the rights of our digital privacy and free speech; a cause we're very passionate about. You can snag these last tickets [here](https://ti.to/grafanacon/grafanacon-eu). We're all extremely humbled by the excitement around the conference and are looking forward to 2 great days of talks focused on Grafana and the open source monitoring community! Hope to see you in Amsterdam! 
 
-**Note:** Due to GrafanaCon, traveling, and taking a much-needed couple days off, this will be the last timeShift for two weeks - see you again March 16!
+**Note:** Due to GrafanaCon, traveling, and taking a much needed couple days off, this will be the last timeShift for two weeks - see you again March 16!
 
 <hr />
 
@@ -24,11 +24,11 @@ This week's timeShift will be abridged, as we're busy putting the final touches 
 	</div>
 	<div class="col col--sm-9">
 		<p>
-			<strong><a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_35" target="_blank">Grafana 5.0 beta 4</a></strong> is now available. Beta 4 incldues some UX and UI fixes as we prepare to release v5 stable next week. Fixes for beta 4 includes:
+			<strong><a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_35" target="_blank">Grafana 5.0 beta 4</a></strong> is now available. Beta 4 includes some UX and UI fixes as we prepare to release v5 stable next week. Fixes for beta 4 include:
 			<ul>
-				<li>Dashboard Fixed dashboard overwrite permission issue <a href="https://github.com/grafana/grafana/issues/10814">#1081410</a></li>
-				<li>Keyboard shortcuts Fixed Esc key when in panel edit/view mode <a href="https://github.com/grafana/grafana/issues/10945">#10945</a></li>
-				<li>Save dashboard Fixed issue with time range & variable reset after saving <a href="https://github.com/grafana/grafana/issues/10946">#109462</a></li>
+				<li><strong>Dashboard Fixed:</strong> dashboard overwrite permission issue <a href="https://github.com/grafana/grafana/issues/10814">#1081410</a></li>
+				<li><strong>Keyboard shortcuts:</strong> Fixed Esc key when in panel edit/view mode <a href="https://github.com/grafana/grafana/issues/10945">#10945</a></li>
+				<li><strong>Save dashboard:</strong> Fixed issue with time range & variable reset after saving <a href="https://github.com/grafana/grafana/issues/10946">#109462</a></li>
 			</ul>
 		</p> 
 		<p>
@@ -46,8 +46,13 @@ This week's timeShift will be abridged, as we're busy putting the final touches 
 <hr />
 
 #### From the Blogosphere
-[**Walmart goes to the cloud to close gap with Amazon**](https://www.reuters.com/article/us-walmart-cloud/walmart-goes-to-the-cloud-to-close-gap-with-amazon-idUSKCN1FY0K7): We're always thrilled to learn about Grafana sightings in the wild. Reuters recently wrote a story about Walmart's cloud initiatives and filmed a segment inside their Sunnyvale, California NOC, where Grafana dashboards take center stage.
+[**Load Testing With Jmeter On Kubernetes**](https://blog.kubernauts.io/load-testing-as-a-service-with-jmeter-on-kubernetes-fc5288bb0c8b): An overview of how to implement load testing with Apache Jmeter running on a Kubernetes cluster. You can also check out a [video](https://youtu.be/9ERLXHczqU8) if you're more visual. 
 
+[**AWS Lambda, GoLang and Grafana to perform sentiment analysis for your company / business**](https://made2591.github.io/posts/aws-lambda): How to monitor your apps in AWS Lambda using Grafana and some background information on Elasticsearch, GoLang and why using Lambda might be an advantage.
+
+[**How to Create a Grafana Metrics Dashboard via Influx and PowerShell**](http://wragg.io/windows-based-grafana-analytics-platform-via-influxdb-and-powershell/): One of the major advantages of Grafana is the ability to visualize data from disparate sources on the same dashboard. Mark outlines how he discovered Grafana and why he wrote an integration with PowerShell to visualize his data.
+
+[**Monitoring OpenBSD using CollectD, InfluxDB and Grafana**](https://www.tumfatig.net/20180220/monitoring-openbsd-using-collectd-influxdb-grafana/): If you're using OpenBSD as your OS, you may be interested in how it's performing. This article walks you through how to get set up import some useful dashboards for monitoring.
 <hr />
 
 <div class="row row--md-gutters blog-plugin-grid">
@@ -55,9 +60,9 @@ This week's timeShift will be abridged, as we're busy putting the final touches 
 		<img style="border-radius: 0;" src="/assets/img/blog/timeshift/grafanacon_eu_announcement.png" />
 	</div>
 	<div class="col col--sm-9 blog-plugin-grid__item grafanacon">
-		<h4><a href="https://ti.to/grafanacon/grafanacon-eu/with/mzbin4ciuxq" target="_blank">GrafanaCon EU General Admission Tickets are Sold Out!</a></h4>
+		<h4><a href="https://ti.to/grafanacon/grafanacon-eu" target="_blank">3 Tickets left for GrafanaCon EU!</a></h4>
 		<p>
-			<strong>BUT</strong> - We've reserved a small handful of Angel tickets that are still available. 100% of the proceeds from these tickets will be donated to the <a href="http://eff.org" target="_blank">Electronic Frontier Foundation</a>,<br /> a nonprofit who focuses on defending civil liberties in a digital world.
+			100% of the proceeds from these tickets will be donated to the <a href="http://eff.org" target="_blank">Electronic Frontier Foundation</a>, a nonprofit who focuses on defending civil liberties in a digital world. Don't miss the opportunity to give to a good cause and join us for 2 days of talks about data visualization and fun in Amsterdam!
 		</p>
 		<p>
 			<strong>Each ticket gets you:</strong>
@@ -66,7 +71,7 @@ This week's timeShift will be abridged, as we're busy putting the final touches 
 				<li>30+ speakers on <strong>Graphite, Prometheus, InfluxDB, Kubernetes, IoT</strong> and more</li>
 				<li>Breakfast, lunch and snacks both days</li>
 				<li>After conference party with dinner and drinks</li>
-				<li>Admission to the Grafana 5 launch party following the after conference party</li>
+				<li>Admission to the after conference party AND the official Grafana 5 launch party</li>
 				<li>Friends for life!</li>
 			</ul>
 		<p>
@@ -133,10 +138,11 @@ This week's timeShift will be abridged, as we're busy putting the final touches 
 		<div class="col col--sm-12">
 			<h4>Tweet of the Week</h4>
 			We scour Twitter each week to find an interesting/beautiful dashboard and show it off! <a href="https://twitter.com/hashtag/monitoringlove?src=hash" target="_blank">#monitoringLove</a>
-			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A little sensor project to maybe get some STEM thinking going on here with the kids... OK and I get to play with graphs and stuff! DHT22, BMP180 and DS18B20 sensors around the place. Add RPi, collectd, influxdb and grafana... and I even wrote a python plugin for collectd! <a href="https://t.co/RuNiwdPC4e">pic.twitter.com/RuNiwdPC4e</a></p>&mdash; Andy G7UHN (@G7UHN) <a href="https://twitter.com/G7UHN/status/964160010459762690?ref_src=twsrc%5Etfw">February 15, 2018</a></blockquote>
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">BOSCH ConnectedWorld Berlin - <a href="https://twitter.com/hashtag/Mittelstand?src=hash&amp;ref_src=twsrc%5Etfw">#Mittelstand</a> <a href="https://twitter.com/hashtag/BCW18?src=hash&amp;ref_src=twsrc%5Etfw">#BCW18</a> <a href="https://twitter.com/hashtag/BCX18?src=hash&amp;ref_src=twsrc%5Etfw">#BCX18</a> - showcase solution -&gt; Sensor -&gt; InfluxDB -&gt; Grafana - a cheap IoT solution for the German Mittelstand - hacked and implemented in 2 hours 😎👌😉👍❤️ <a href="https://t.co/6ZV1jNL77y">pic.twitter.com/6ZV1jNL77y</a></p>&mdash; Achim Kern (@KeHo_Software) <a href="https://twitter.com/KeHo_Software/status/966620462334775298?ref_src=twsrc%5Etfw">February 22, 2018</a></blockquote>
 			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-			<p>So great to see kids tinkering with this stuff early! What a cool activity to do together.</p>
+
+			<p>Excited that Grafana can be part of your event. Hopefully we can come and speak about data visualization next time!</p>
 		</div>
 	</div>
 </div>
@@ -152,7 +158,7 @@ This week's timeShift will be abridged, as we're busy putting the final touches 
 
 <hr />
 <br />
-#### How are We Doing?
+#### How are we doing?
 Well, that wraps up another issue. What do you think? Are there other types of content you'd like to see here? Submit a comment on this issue below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_35).
 
 Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_35).
