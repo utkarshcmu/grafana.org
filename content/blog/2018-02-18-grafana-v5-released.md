@@ -160,4 +160,15 @@ much easier to manage, collaborate and navigate between dashboards.
 New uid-based routes in the dashboard API have been introduced to retrieve and delete dashboards.
 The corresponding slug-based routes have been deprecated and will be removed in a future release.
 
+## Changelog
 
+Checkout the [CHANGELOG.md](https://github.com/grafana/grafana/blob/master/CHANGELOG.md) file for a complete list
+of new features, changes, and bug fixes.
+
+## Download
+
+Head to [download page](https://grafana.com/grafana/download) for download links & instructions.
+
+## Thanks
+
+A big thanks to all the Grafana users who contribute by submitting PRs, bug reports & feedback!
