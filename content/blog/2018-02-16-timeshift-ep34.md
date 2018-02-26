@@ -34,7 +34,7 @@ The big news this week is that we've sold out of General Admission tickets for G
 				<li><a href="http://docs.grafana.org/guides/whats-new-in-v5/#dashboard-model-persistent-url-s-and-api-changes">Persistent dashboard url’s</a> makes it possible to rename dashboards without breaking links.</li>
 				<li><a href="http://docs.grafana.org/guides/whats-new-in-v5/#graphite-tags-integrated-function-docs">Graphite Tags &amp; Integrated Function Docs</a>.</li>
 			</ul>
-		</p> 
+		</p>
 		<p>
 			Check out the full <a href="https://community.grafana.com/t/release-notes-v5-0-x/5250" target="_blank">release notes</a> to see the features and fixes and a video of v5 in action below.
 			<br />
@@ -147,7 +147,7 @@ We have a few plugin updates this week. Plugin authors add new features and fix 
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong><a href="https://grafana.com/plugins/vertamedia-clickhouse-datasource?utm_source=blog&utm_campaign=timeshift_34" target="_blank">Clickhouse Data Source</a></strong> - The Clickhouse Data Source received several updates and fixes including: 
+				<strong><a href="https://grafana.com/plugins/vertamedia-clickhouse-datasource?utm_source=blog&utm_campaign=timeshift_34" target="_blank">Clickhouse Data Source</a></strong> - The Clickhouse Data Source received several updates and fixes including:
 				<ul>
 					<li>Fix: support array indexing in AST</li>
 					<li>New Feature: columns autocompletion in ace-editor</li>

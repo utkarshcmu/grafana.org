@@ -226,6 +226,7 @@ module.exports = function(grunt) {
     grunt.config('baseUrl', baseUrl);
 
     args.push("--buildDrafts=" + buildDrafts);
+    args.push("--buildFuture=" + buildDrafts);
     args.push("--baseUrl=" + baseUrl);
 
     hugo = require("child_process").spawn("hugo", args, {stdio: "inherit"});
