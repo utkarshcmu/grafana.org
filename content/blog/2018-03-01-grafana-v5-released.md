@@ -8,7 +8,6 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Grafana 5.0 Stable Release"
 categories = ["Release", "Grafana"]
-draft = true
 +++
 
 # v5.0 Stable Released
