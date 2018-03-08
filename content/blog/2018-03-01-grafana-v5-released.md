@@ -8,10 +8,9 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Grafana 5.0 Stable Release"
 categories = ["Release", "Grafana"]
-draft = true
 +++
 
-# v5.0 Stable relased
+# v5.0 Stable Released
 
 We have been working on Grafana v5 for most of 2017 and it's finally ready! This release is important
 in a different way than previous releases as main focus has been on improving the core Grafana features and attributes.
@@ -33,7 +32,6 @@ This is the most substantial update that Grafana has ever seen.
 - [Group users into teams]({{< relref "#teams" >}}) and use them in the new permission system.
 - [Datasource provisioning]({{< relref "#data-sources" >}}) makes it possible to setup datasources via config files.
 - [Dashboard provisioning]({{< relref "#dashboards" >}}) makes it possible to setup dashboards via config files.
-- [Persistent dashboard url's]({{< relref "#dashboard-model-persistent-url-s-and-api-changes" >}}) makes it possible to rename dashboards without breaking links.
 - [Graphite Tags & Integrated Function Docs]({{< relref "#graphite-tags-integrated-function-docs" >}}).
 
 ### Video showing new features
@@ -118,7 +116,7 @@ and alerts as well.
 ### Data sources
 
 Data sources can now be setup using config files. These data sources are by default not editable from the Grafana GUI.
-It's also possible to update and delete data sources from the config file. More info in the [data source provisioning docs](/administration/provisioning/#datasources).
+It's also possible to update and delete data sources from the config file. More info in the [data source provisioning docs](http://docs.grafana.org/administration/provisioning/#datasources).
 
 ### Dashboards
 
@@ -126,39 +124,18 @@ We also deprecated the `[dashboard.json]` in favor of our new dashboard provisio
 in sync with dashboards in Grafana's database. The dashboard provisioner has multiple advantages over the old
 `[dashboard.json]` feature. Instead of storing the dashboard in memory we now insert the dashboard into the database,
 which makes it possible to star them, use one as the home dashboard, set permissions and other features in Grafana that
-expects the dashboards to exist in the database. More info in the [dashboard provisioning docs](/administration/provisioning/#dashboards)
-
+expects the dashboards to exist in the database. More info in the [dashboard provisioning docs](http://docs.grafana.org/administration/provisioning/#dashboards)
 
 ## Graphite Tags & Integrated Function Docs
 
 {{< docs-imagebox img="/img/docs/v50/graphite_tags.png" max-width="1000px" class="docs-image--right" >}}
 
-The Graphite query editor has been updated to support the latest Graphite version (v1.2) that adds
+The Graphite query editor has been updated to support the latest Graphite version (v1.1) that adds
 many new functions and support for querying by tags. You can now also view function documentation right in the query editor!
 
 Read more on [Graphite Tag Support](http://graphite.readthedocs.io/en/latest/tags.html?highlight=tags).
 
 <div class="clearfix"></div>
-
-## Dashboard model, persistent url's and API changes
-
-We are introducing a new unique identifier (`uid`) in the dashboard JSON model. It's automatically
-generated if not provided when creating a dashboard and will have a length of 9-12 characters.
-
-The unique identifier allows having persistent URL's for accessing dashboards, sharing them
-between instances and when using [dashboard provisioning](#dashboards). This means that dashboard can
-be renamed without breaking any links. We're changing the url format for dashboards
-from `/dashboard/db/:slug` to `/d/:uid/:slug`. We'll keep supporting the old slug-based url's for dashboards
-and redirects to the new one for backward compatibility. Please note that the old slug-based url's
-have been deprecated and will be removed in a future release.
-
-Sharing dashboards between instances becomes much easier since the `uid` is unique (unique enough).
-This might seem like a small change, but we are incredibly excited about it since it will make it
-much easier to manage, collaborate and navigate between dashboards.
-
-### API changes
-New uid-based routes in the dashboard API have been introduced to retrieve and delete dashboards.
-The corresponding slug-based routes have been deprecated and will be removed in a future release.
 
 ## Changelog
 
