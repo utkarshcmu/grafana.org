@@ -24,7 +24,7 @@ This week's timeShift will be abridged, as we're busy putting the final touches 
 	</div>
 	<div class="col col--sm-9">
 		<p>
-			<strong><a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_35" target="_blank">Grafana 5.0 beta 4</a></strong> is now available. Beta 4 includes some UX and UI fixes as we prepare to release v5 stable next week. Fixes for beta 4 include:
+			<strong><a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_35" target="_blank">Grafana 5.0 beta 1</a></strong> is now available. v5 Beta 1 includes some UX and UI fixes as we prepare to release v5 stable next week. Fixes include:
 			<ul>
 				<li><strong>Dashboard Fixed:</strong> dashboard overwrite permission issue <a href="https://github.com/grafana/grafana/issues/10814">#1081410</a></li>
 				<li><strong>Keyboard shortcuts:</strong> Fixed Esc key when in panel edit/view mode <a href="https://github.com/grafana/grafana/issues/10945">#10945</a></li>
@@ -37,7 +37,7 @@ This week's timeShift will be abridged, as we're busy putting the final touches 
 			<br />
 			<iframe width="450" height="270" src="https://www.youtube.com/embed/Izr0IBgoTZQ?rel=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 		</p>
-		<a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_35" target="_blank" class="btn btn--primary">Download Grafana v5 Beta 4 Now</a>
+		<a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_35" target="_blank" class="btn btn--primary">Download Grafana v5 Beta 1 Now</a>
 	</div>
 </div>
 
