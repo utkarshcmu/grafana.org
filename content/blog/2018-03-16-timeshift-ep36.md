@@ -11,7 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-It's great to be back after a few busy weeks off, and we have lots of updates and articles to share. During GrafanaCon EU 2018 in Amsterdam, we officially launched [Grafana 5.0 stable](https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_36)! Despite the "Beast from the East" storm that blew through Europe and stranded two of our speakers, the conference was sold out and we're extremely proud of the event. We're taking suggestions for locations for our next GrafanaCon (think: someplace **warm** :).  
+It's great to be back after a few busy weeks off, and we have lots of updates and articles to share. During GrafanaCon EU 2018 in Amsterdam, we officially launched [Grafana 5.0 stable](https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_36)! Despite the "Beast from the East" storm that blew through Europe and stranded two of our speakers, the conference was sold out and we're extremely proud of the event. We're taking suggestions for locations for our next GrafanaCon (think: someplace **warm**).  
 
 We'd like to thank all of our speakers, sponsors and attendees for making GrafanaCon such a success. We've been overwhelmed by the positive feedback we've received and are extremely proud to be part of such an active and passionate open source community. You'll be able to check out videos of each talk and download the presentation slides on [grafana.com](http://grafana.com/grafanacon) shortly, but the [live stream](http://youtube.com/grafana) is available until they're ready. 
 
@@ -71,7 +71,7 @@ While we were busy getting Grafana 5.0 out the door, we didn't have a lot of tim
 				<strong>Instana Data Source</strong> - Instana is an APM for monitoring microservices. It uses the Dynamic Focus queries to show metrics in Grafana.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/instana-datasource?utm_source=blog&utm_campaign=timeshift_36" target="_blank"><strong>Update</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/instana-datasource?utm_source=blog&utm_campaign=timeshift_36" target="_blank"><strong>Install</strong></a>
 			</p>
 		</div>
 	</div>
@@ -87,7 +87,7 @@ While we were busy getting Grafana 5.0 out the door, we didn't have a lot of tim
 				<strong>Moogsoft AIOps App</strong> - The Moogsoft AIOps app enables rich reporting and dashboard features you can access from within AIOps.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/moogsoft-aiops-app?utm_source=blog&utm_campaign=timeshift_36" target="_blank"><strong>Update</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/moogsoft-aiops-app?utm_source=blog&utm_campaign=timeshift_36" target="_blank"><strong>Install</strong></a>
 			</p>
 		</div>
 	</div>
@@ -103,7 +103,7 @@ While we were busy getting Grafana 5.0 out the door, we didn't have a lot of tim
 				<strong>USGS Water Services Data Source</strong> - This new data source from Natel Energy is a great example of how you can use Grafana to visualize all kinds of open data. This data source makes it easy to browse live sensor data from the USGS Water Services. Looking forward to lots more of these types of plugins!
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/natel-usgs-datasource?utm_source=blog&utm_campaign=timeshift_36" target="_blank"><strong>Update</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/natel-usgs-datasource?utm_source=blog&utm_campaign=timeshift_36" target="_blank"><strong>Install</strong></a>
 			</p>
 		</div>
 	</div>
@@ -119,7 +119,7 @@ While we were busy getting Grafana 5.0 out the door, we didn't have a lot of tim
 				<strong>Sumo Logic Data Source</strong> - With the new data source for Sumo Logic, you can view metrics and table data from the Search Job API.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/mtanda-sumologic-datasource?utm_source=blog&utm_campaign=timeshift_36" target="_blank"><strong>Update</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/mtanda-sumologic-datasource?utm_source=blog&utm_campaign=timeshift_36" target="_blank"><strong>Install</strong></a>
 			</p>
 		</div>
 	</div>
