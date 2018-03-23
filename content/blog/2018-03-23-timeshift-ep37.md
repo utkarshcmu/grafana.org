@@ -11,7 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-I'm happy to announce that we have all of the talks from GrafanaCon EU available on our [youtube channel](https://www.youtube.com/playlist?list=PLDGkOdUX1UjpXR6BexaDoOIc0ksE2MzFI)! I will also be embedding these videos on the [GrafanaCon page](https://grafana.com/grafanacon) on our website, and will be adding links to all of the speaker's slides for you to download as well. I'm also sorting through a few hundred photos from the event and will be setting up a gallery so you can see how fun GrafanaCon is. Hope you enjoy this week's list of articles and updates!
+I'm happy to announce that we have all of the talks from GrafanaCon EU available on our [youtube channel](https://www.youtube.com/playlist?list=PLDGkOdUX1UjpXR6BexaDoOIc0ksE2MzFI)! I will also be embedding these videos on the [GrafanaCon page](https://grafana.com/grafanacon) on our website, and will be adding links to all of the speaker's slides for you to download as well. I'm also sorting through a few hundred photos from the event and will be setting up a gallery so you can see how much fun everyone has at GrafanaCon. Hope you enjoy this week's list of articles and updates!
 <br />
 <hr />
 
@@ -48,7 +48,7 @@ I'm happy to announce that we have all of the talks from GrafanaCon EU available
 <hr />
 
 #### Grafana Plugins
-With the launch of Grafana 5, many plugin authors will want to make use of the new features, and update the look and feel of their plugins. I envision lots of new and updated plugins in the coming weeks, and we've made them easy to install and update – for on-prem Grafana, use the handy <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_37" target="_blank">Grafana-cli tool</a>, or update with 1-click if you're using <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_37" target="_blank">Hosted Grafana</a>.
+With the launch of Grafana 5, many plugin authors will want to make use of the new features, and update the look and feel of their plugins. I envision lots of new and updated plugins in the coming weeks, and we've made them easy to install and update – for on-prem Grafana, use the handy <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_37" target="_blank">grafana-cli tool</a>, or update with 1-click if you're using <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_37" target="_blank">Hosted Grafana</a>.
 <br />
 <div class="blog-plugin">
 	<div class="row row--md-gutters">
