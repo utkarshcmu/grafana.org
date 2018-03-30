@@ -60,11 +60,11 @@ We have an abridged version of timeShift this week due to the long holiday weeke
 		<img style="border-radius: 0;" src="/assets/img/blog/timeshift/grafanacon_eu_announcement.png" />
 	</div>
 	<div class="col col--sm-9 blog-plugin-grid__item grafanacon">
-		<h4><a href="https://grafana.com/grafanacon" target="_blank">GrafanaCon Videos and Presentation Available</a></h4>
+		<h4><a href="https://grafana.com/grafanacon?utm_source=blog&utm_campaign=timeshift_38" target="_blank">GrafanaCon Videos and Presentation Available</a></h4>
 		<p>
 			If you hadn't heard, we have all the videos up, and links to the presentation slides on the Grafana website. We'd like to thank all of our speakers and sponsors for helping us put on such a wonderful event, and are already scouting locations for GranfaCon US 2018 closer to the end of the year. Keep an eye out on <a href="https://twitter.com/grafana" target="_blank">twitter</a> for an announcement soon!
 		</p>
-			<a class="btn btn--grafanacon" href="http://grafana.com/grafanacon" target="_blank"><strong>Check out the videos</strong></a>
+			<a class="btn btn--grafanacon" href="http://grafana.com/grafanacon?utm_source=blog&utm_campaign=timeshift_38" target="_blank"><strong>Check out the videos</strong></a>
 		</p>
 	</div>
 </div>
