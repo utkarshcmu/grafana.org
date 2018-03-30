@@ -11,7 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-We have an abridge version of timeShift this week due to the long holiday weekend. Earlier this week we released **Grafana v5.0.4** which includes fixes for alerting, snapshots, starting Grafana on K8s and more. See the section below for specific bug fixes. Enjoy this issue and we'll see you next week!
+We have an abridged version of timeShift this week due to the long holiday weekend. Earlier this week we released **Grafana v5.0.4** which includes fixes for alerting, snapshots, starting Grafana on K8s and more. See the section below for specific bug fixes. Enjoy this issue and we'll see you next week!
 <br />
 <hr />
 
@@ -28,7 +28,7 @@ We have an abridge version of timeShift this week due to the long holiday weeken
 				<li><strong>Dashboard:</strong> Fixed bug where collapsed panels could not be directly linked to/renderer <a href="https://github.com/grafana/grafana/issues/11114" target="_blank">#11114</a> & <a href="https://github.com/grafana/grafana/issues/11086" target="_blank">#11086</a> & <a href="https://github.com/grafana/grafana/issues/11296" target="_blank">#11296</a></li>
 				<li><strong>Dashboard:</strong> Provisioning dashboard with alert rules should create alerts <a href="https://github.com/grafana/grafana/issues/11247" target="_blank">#11247</a></li>
 				<li><strong>Snapshots:</strong> For snapshots, the Graph panel renders the legend incorrectly on right hand side <a href="https://github.com/grafana/grafana/issues/11318" target="_blank">#11318</a></li>
-				<li><strong>Alerting:</strong> Link back to Grafana returns wrong URL if root_path contains sub-path components <a href="https://github.com/grafana/grafana/issues/11403" target="_blank">#11403</a></li>
+				<li><strong>Alerting:</strong> Link back to Grafana is wrong if root_path contains sub-path components <a href="https://github.com/grafana/grafana/issues/11403" target="_blank">#11403</a></li>
 				<li><strong>Alerting:</strong> Incorrect default value for upload images setting for alert notifiers <a href="https://github.com/grafana/grafana/pull/11413" target="_blank">#11413</a></li>
 			</ul>
 		</p>
@@ -81,7 +81,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/percona_live_18.png" />
 		</div>
 		<div class="col col--md-8 col--sm-offset-1">
-			<p><strong><a href="https://www.percona.com/live/18/sessions/metrictank-building-a-new-time-series-engine-for-grafanacloud" target="_blank">Percona Live 2018 | Santa Clara, CA - March 23-25, 2018</a>:</strong><br />
+			<p><strong><a href="https://www.percona.com/live/18/sessions/metrictank-building-a-new-time-series-engine-for-grafanacloud" target="_blank">Percona Live 2018 | Santa Clara, CA - April 23-25, 2018</a>:</strong><br />
 			<strong>Raj Dutt - metrictank: Building a New Time Series Engine for GrafanaCloud</strong><br />
 			Time series databases are sprouting up like mushrooms. At Grafana Labs, we built a new engine specifically for GrafanaCloud. Why would we do that? Learn about the design considerations, lessons learned, and tradeoffs we made in designing this engine that is compatible with both Graphite and Prometheus.
 			</p>
