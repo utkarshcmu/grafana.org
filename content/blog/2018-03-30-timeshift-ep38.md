@@ -11,7 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-We have an abridged version of timeShift this week due to the long holiday weekend. Earlier this week we released **Grafana v5.0.4** which includes fixes for alerting, snapshots, starting Grafana on K8s and more. See the section below for specific bug fixes. Enjoy this issue and we'll see you next week!
+We have an abridged version of timeShift this week due to the long holiday weekend. Earlier this week we released **Grafana v5.0.4** which included fixes for alerting, snapshots, starting Grafana on K8s and more. See the section below for specific bug fixes. Enjoy this issue and we'll see you next week!
 <br />
 <hr />
 
