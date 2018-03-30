@@ -158,7 +158,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 <hr />
 <br />
 #### How are we doing?
-Thanks for reacing another issue of timeShift. Please let us know what you think! Are there other types of content you'd like to see here? Submit a comment on this issue below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_38).
+Thanks for reading another issue of timeShift. Please let us know what you think! Are there other types of content you'd like to see here? Submit a comment on this issue below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_38).
 
 Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_38).
 
