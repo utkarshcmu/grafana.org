@@ -172,7 +172,7 @@ This week we have a handful of plugin updates to share. If you're not familiar w
 				<li>Added example dashboard for Node.js application running in IBM Cloud Private.</li>
 				<li>Simplified installation for Grafana 5. Plugin works correctly without modifications in Grafana 5 backend (thanks to Grafana 5 new feature <a href="https://github.com/grafana/grafana/issues/5457" target="_blank">#5457</a>).</li>
 				<li>More readable dropdown lists in panel query editor.</li>
-				<li>Added datasource configuration option to deallocate dataset on ITM/APM server after every metric query.</li>
+				<li>Added datasource configuration option to deallocate dataset on ITM/APM server after every metric query</li>
 			</ul>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/ibm-apm-datasource?utm_source=blog&utm_campaign=timeshift_39" target="_blank"><strong>Update</strong></a>
