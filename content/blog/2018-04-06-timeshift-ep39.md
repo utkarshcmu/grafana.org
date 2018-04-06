@@ -157,6 +157,29 @@ This week we have a handful of plugin updates to share. If you're not familiar w
 		</div>
 	</div>
 </div>
+<div class="blog-plugin">
+	<div class="row row--md-gutters">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/ibm-apm-datasource/versions/0.8.0/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong>IBM APM</strong> - Latest updates include:
+			</p>
+			<ul>
+				<li>Added support for string metrics</li>
+				<li>Added example dashboard for Node.js application running in IBM Cloud Private.</li>
+				<li>Simplified installation for Grafana 5. Plugin works correctly without modifications in Grafana 5 backend (thanks to Grafana 5 new feature <a href="https://github.com/grafana/grafana/issues/5457" target="_blank">#5457</a>).</li>
+				<li>More readable dropdown lists in panel query editor.</li>
+				<li>Added datasource configuration option to deallocate dataset on ITM/APM server after every metric query.</li>
+			</ul>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/ibm-apm-datasource?utm_source=blog&utm_campaign=timeshift_39" target="_blank"><strong>Update</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
 
 #### Upcoming Events
 In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We also like to make sure we mention other Grafana-related events happening all over the world. If you're putting on just such an event, let us know and we'll list it here.
