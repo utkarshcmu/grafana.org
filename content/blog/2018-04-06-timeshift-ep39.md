@@ -11,7 +11,9 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-Welcome to another edition of timeShift. This week we have some plugin updates to share, as well as a dose of recent articles related to Grafana and the extended open source monitoring ecosystem. Be sure to check out all the talks from GrafanaCon, and [follow us](http://twitter.com/grafana) on Twitter let us know which talk is your favorite.
+Welcome to another edition of timeShift. This week we have some plugin updates to share, as well as a dose of recent articles related to Grafana and the extended open source monitoring ecosystem. Be sure to check out all the talks from GrafanaCon. 
+
+[Follow us](http://twitter.com/grafana) on Twitter and let us know which talk is your favorite.
 <br />
 <hr />
 
@@ -25,7 +27,7 @@ Welcome to another edition of timeShift. This week we have some plugin updates t
 			<strong><a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_39" target="_blank">Grafana 5.0.4</a></strong> is available for download. Bug fixes in the latest release include:
 			<ul>
 				<li><strong>Docker:</strong> Can’t start Grafana on Kubernetes 1.7.14, 1.8.9, or 1.9.4 <a href="https://github.com/grafana/grafana-docker/issues/140" target="_blank">#140</a> in <a href="https://github.com/grafana/grafana-docker/issues/140" target="_blank">grafana-docker repo</a> thx <a href="https://github.com/suquant" target="_blank">@suquant</a></li>
-				<li><strong>Dashboard:</strong> Fixed bug where collapsed panels could not be directly linked to/renderer <a href="https://github.com/grafana/grafana/issues/11114" target="_blank">#11114</a> & <a href="https://github.com/grafana/grafana/issues/11086" target="_blank">#11086</a> & <a href="https://github.com/grafana/grafana/issues/11296" target="_blank">#11296</a></li>
+				<li><strong>Dashboard:</strong> Fixed bug where collapsed panels could not be directly linked to/rendered <a href="https://github.com/grafana/grafana/issues/11114" target="_blank">#11114</a> & <a href="https://github.com/grafana/grafana/issues/11086" target="_blank">#11086</a> & <a href="https://github.com/grafana/grafana/issues/11296" target="_blank">#11296</a></li>
 				<li><strong>Dashboard:</strong> Provisioning dashboard with alert rules should create alerts <a href="https://github.com/grafana/grafana/issues/11247" target="_blank">#11247</a></li>
 				<li><strong>Snapshots:</strong> For snapshots, the Graph panel renders the legend incorrectly on right hand side <a href="https://github.com/grafana/grafana/issues/11318" target="_blank">#11318</a></li>
 				<li><strong>Alerting:</strong> Link back to Grafana is wrong if root_path contains sub-path components <a href="https://github.com/grafana/grafana/issues/11403" target="_blank">#11403</a></li>
@@ -44,17 +46,17 @@ Welcome to another edition of timeShift. This week we have some plugin updates t
 <hr />
 
 #### From the Blogosphere
-[**Using the Worldmap Panel with Prometheus**](https://www.robustperception.io/using-the-worldmap-panel-with-prometheus/): The Worldmap panel is probably one of my favorite Grafana panels, and as you probably guessed, displays metrics on a map. We use it in [WorldPing](https://grafana.com/cloud/worldping?utm_source=blog&utm_campaign=timeshift_39) to show OK/Error events for your endpoints. Brian Brazil from Robust Perception wrote a mini-article on how to use the Worldmap panel with Prometheus.
+[**Using the Worldmap Panel with Prometheus**](https://www.robustperception.io/using-the-worldmap-panel-with-prometheus/): The Worldmap panel is one of our favorite Grafana panels, and as you probably guessed, displays metrics on a map. We use it in [WorldPing](https://grafana.com/cloud/worldping?utm_source=blog&utm_campaign=timeshift_39) to show OK/Error events for your endpoints. Brian Brazil from Robust Perception wrote a mini-article on how to use the Worldmap panel with Prometheus.
 
 [**Multi-Level Dashboarding with Grafana – Use Case: NetEye ITOA | Alyvix**](http://www.neteye-blog.com/2018/03/multi-level-dashboarding-with-grafana-use-case-neteye-itoa-alyvix/): This article focuses on having context when visualizing metrics, and why asking the right questions about your data is important. Depending on the level of detail and type of graph you use, your data can either lead you to answers or leave you more confused. 
 
 [**Würth Phoenix @ GrafanaConEu 2018**](http://www.neteye-blog.com/2018/04/wuerth-phoenix-grafanaconeu-2018/): Susanne Greiner, who wrote the above article also gave a talk at our most recent GrafanaCon and posted a write up to provide more context on how Würth Phoenix uses Grafana.
 
-[**vSphere Performance data – Monitoring VMware vSAN performance**](https://www.rudimartinsen.com/2018/04/06/vsphere-performance-data-monitoring-vmware-vsan-performance/): In the latest article on the series about monitoring [vSphere Performance](https://www.rudimartinsen.com/vsphere-performance/) Rudi discusses how to add vSAN metrics to your dashboards.
+[**vSphere Performance data – Monitoring VMware vSAN performance**](https://www.rudimartinsen.com/2018/04/06/vsphere-performance-data-monitoring-vmware-vsan-performance/): In the latest article from the series about monitoring [vSphere Performance](https://www.rudimartinsen.com/vsphere-performance/) Rudi discusses how to add vSAN metrics to your dashboards.
 
-[**Using Jenkins pipeline to add Grafana Annotations for release monitoring**](https://www.plivo.com/blog/plivo-devops-best-practice/): Plivo uses Jenkins to deploy code several times a day across numerous micro-services. They monitor this system closely to ensure their services are performing optimally. This article covers how they add dynamic annotations via Jenkins pipeline and Grafana.
+[**Using Jenkins pipeline to add Grafana Annotations for release monitoring**](https://www.plivo.com/blog/plivo-devops-best-practice/): Plivo uses Jenkins to deploy code several times a day across numerous micro-services. They monitor this system closely to ensure their services are performing optimally. This article covers how they add dynamic annotations to Grafana via Jenkins pipeline.
 
-[**Creating a full monitoring solution for ARM Kubernetes Cluster**](https://itnext.io/creating-a-full-monitoring-solution-for-arm-kubernetes-cluster-53b3671186cb): This second article covers implementing a dynamic monitoring stack after deploying a Kubernetes cluster into three Rock64 single board computers. Also, check out [part one](https://itnext.io/building-an-arm-kubernetes-cluster-ef31032636f9) to see how he built the cluster.
+[**Creating a full monitoring solution for ARM Kubernetes Cluster**](https://itnext.io/creating-a-full-monitoring-solution-for-arm-kubernetes-cluster-53b3671186cb): This second article covers implementing a dynamic monitoring stack after deploying a Kubernetes cluster into three Rock64 single board computers. Also, check out [part one](https://itnext.io/building-an-arm-kubernetes-cluster-ef31032636f9) to see how Carlos built the cluster.
 
 <br />
 <hr />
@@ -201,7 +203,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 			<a href="http://monitorama.com/" target="_blank" class="btn btn--outline">Register Now</a>
 		</div>
 	</div>
-	<br/>
+	<br/>`
 	<div class="row row--md-gutters blog-plugin-grid">
 		<div class="col col--md-3">
 			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/influxdays.png" />
