@@ -197,7 +197,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		</div>
 		<div class="col col--md-8 col--sm-offset-1">
 			<p>
-				<strong><a href="http://monitorama.com/" target="_blank">Monitorama 2018 PDX | Portland, OR -June 4-6, 2018</a>:</strong> <br />
+				<strong><a href="http://monitorama.com/" target="_blank">Monitorama 2018 PDX | Portland, OR - June 4-6, 2018</a>:</strong> <br />
 				Join us again to hear talks from industry experts and community leaders discuss the newest approaches in monitoring and observability. Find out which tools and techniques are in use at some of the largest web architectures in the world.
 			</p>
 			<a href="http://monitorama.com/" target="_blank" class="btn btn--outline">Register Now</a>
@@ -210,7 +210,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		</div>
 		<div class="col col--md-8 col--sm-offset-1">
 			<p>
-				<strong><a href="https://influxdays.com/" target="_blank">InfluxDays London 2018 | London, United Kingdom - May 2-4, 2018</a>:</strong> <br />
+				<strong><a href="https://influxdays.com/" target="_blank">InfluxDays London 2018 | London, United Kingdom - June 14, 2018</a>:</strong> <br />
 				Join us as we sponsor two days of technical talks around Telegraf, InfluxDB, Chronograf, Kapacitor, Grafana and adjacent technologies.
 			</p>
 			<a href="https://influxdays.com/" target="_blank" class="btn btn--outline">Register Now</a>
