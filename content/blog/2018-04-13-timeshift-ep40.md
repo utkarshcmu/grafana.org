@@ -123,6 +123,13 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 				<strong>Tom Wilkie – Prometheus Monitoring Mixins: Using Jsonnet to Package Together Dashboards, Alerts and Exporters</strong><br />In this talk we present a technique for using Jsonnet (a configuration language from Google) for packaging and deploying “Monitoring Mixins” - extensible and customizable combinations of dashboards, alert definitions and exporters. This technique allows developers of open source projects to publish best-practice monitoring configurations alongside their code, and for users to consume it, customize it and stay up to date. We will present example Mixins for Kubernetes and other services such as Consul and Cassandra.
 			</p>
 			<p>
+				<strong>Goutham Veeramanchaneni - The Engine behind Prometheus</strong><br /> This talk will introduce TSDB, its high-level usage and guarantees, and will show people how, with a little Go knowledge, they can introduce a solid time-series database into their stack.
+			</p>
+			<p>
+				<strong>Goutham Veeramanchaneni - TSDB: The Past, Present and the Future</strong><br /> TSDB is the storage engine that powers Prometheus 2.0 and brought most of the drastic improvements in speed and utilization across the board. But it is also a golang library that Prometheus imports and is a solid time-series database that anyone can use.<br />
+				It is undergoing active development and this talk will take you through the journey, benchmarks, new features, ghastly bugs and moonshot ideas. This will also help the audience understand the library and hopefully get them to use and contribute to it.
+			</p>
+			<p>
 				We're also sponsoring KubeCon + CloudNativeCon as a Startup Sponsor. Swing by our booth to learn how to monitor Kubernetes with GrafanaCloud.
 			</p>
 			<a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/" target="_blank" class="btn btn--outline">Register Now</a>
