@@ -44,11 +44,11 @@ Spring has finally sprung in New York! Hope the weather is equally as beautiful 
 <hr />
 
 #### From the Blogosphere
-[**Vault Exporter**](https://github.com/grapeshot/vault_exporter#dashboards-and-alerts): Tom Wilkie published a Prometheus exporter for Hashicorp Vault this week. Here, he explains which metrics are exported, provides example Grafana dashboards and alerts, and a short installation guide.
+[**Vault Exporter**](https://github.com/grapeshot/vault_exporter#dashboards-and-alerts): Tom Wilkie published a Prometheus exporter for Hashicorp Vault this week. Here, he explains which metrics are exported, provides example Grafana dashboards and alerts, and includes a short installation guide.
 
 [**Learn How to Monitor AWS CloudWatch with Grafana**](https://blog.eduonix.com/software-development/learn-monitor-aws-cloudwatch-grafana/): Grafana has native AWS CloudWatch support to monitor your AWS resources. This article walks you through how to setup and configure the components and quickly visualize your data on either [on-prem Grafana](http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_40), or a free [hosted Grafana](https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_40) instance.
 
-[**Video + Presentation Slides: Start Your Engines: White Box Monitoring for Your Load Tests**](https://www.ahus1.de/post/prometheus-and-grafana-talks): Alexander recently spoke at microXchg Berlin 2018 on how to setup up the load testing tools JMeter and Gatling to push their metrics to Prometheus. He also makes the case to expose metrics as part of core application development instead of treating them as a small add-on before go-live.
+[**Video + Presentation Slides: Start Your Engines: White Box Monitoring for Your Load Tests**](https://www.ahus1.de/post/prometheus-and-grafana-talks): Alexander recently spoke at microXchg Berlin 2018 on how to set up the load testing tools JMeter and Gatling to push their metrics to Prometheus. He also makes the case for exposing metrics as part of core application development instead of treating them as a small add-on before go-live.
 
 [**Video: Prometheus Integration with Grafana**](https://www.youtube.com/watch?v=agk4MJ4Ctbs&feature=youtu.be&a=): Abhishek recorded a video tutorial on how to add the Prometheus datasource to Grafana and visualize the data. Video tutorials on installing Grafana and Prometheus can be found [here](https://www.youtube.com/watch?v=yq3GEs_nV0s) and [here](https://www.youtube.com/watch?v=EDCnqnBkecw).
 
