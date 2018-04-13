@@ -11,9 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-Welcome to another edition of timeShift. This week we have some plugin updates to share, as well as a dose of recent articles related to Grafana and the extended open source monitoring ecosystem. Be sure to check out all the talks from GrafanaCon. 
-
-[Follow us](http://twitter.com/grafana) on Twitter and let us know which talk is your favorite.
+Spring has finally sprung in New York! Hope the weather is equally as beautiful in your part of the world. This week we have a few videos on Prometheus and Grafana to share, as well as articles on integrating Grafana with a new load testing tool, monitoring your AWS resources, and announcing a new Hashicorp Vault exporter for Prometheus. Also, we have a number of upcoming events we'll be speaking at and sponsoring, so we hope we get to see you and say hi.
 <br />
 <hr />
 
@@ -46,140 +44,57 @@ Welcome to another edition of timeShift. This week we have some plugin updates t
 <hr />
 
 #### From the Blogosphere
-[**Using the Worldmap Panel with Prometheus**](https://www.robustperception.io/using-the-worldmap-panel-with-prometheus/): The Worldmap panel is one of our favorite Grafana panels, and as you probably guessed, displays metrics on a map. We use it in [WorldPing](https://grafana.com/cloud/worldping?utm_source=blog&utm_campaign=timeshift_40) to show OK/Error events for your endpoints. Brian Brazil from Robust Perception wrote a mini-article on how to use the Worldmap panel with Prometheus.
+[**Vault Exporter**](https://github.com/grapeshot/vault_exporter#dashboards-and-alerts): Tom Wilkie published a Prometheus exporter for Hashicorp Vault this week. Here, he explains which metrics are exported, provides example Grafana dashboards and alerts, and a short installation guide.
 
-[**Multi-Level Dashboarding with Grafana – Use Case: NetEye ITOA | Alyvix**](http://www.neteye-blog.com/2018/03/multi-level-dashboarding-with-grafana-use-case-neteye-itoa-alyvix/): This article focuses on having context when visualizing metrics, and why asking the right questions about your data is important. Depending on the level of detail and type of graph you use, your data can either lead you to answers or leave you more confused. 
+[**Learn How to Monitor AWS CloudWatch with Grafana**](https://blog.eduonix.com/software-development/learn-monitor-aws-cloudwatch-grafana/): Grafana has native AWS CloudWatch support to monitor your AWS resources. This article walks you through how to setup and configure the components and quickly visualize your data on either [on-prem Grafana](http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_40), or a free [hosted Grafana](https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_40) instance.
 
-[**Würth Phoenix @ GrafanaConEu 2018**](http://www.neteye-blog.com/2018/04/wuerth-phoenix-grafanaconeu-2018/): Susanne Greiner, who wrote the above article also gave a talk at our most recent GrafanaCon and posted a write up to provide more context on how Würth Phoenix uses Grafana.
+[**Video + Presentation Slides: Start Your Engines: White Box Monitoring for Your Load Tests**](https://www.ahus1.de/post/prometheus-and-grafana-talks): Alexander recently spoke at microXchg Berlin 2018 on how to setup up the load testing tools JMeter and Gatling to push their metrics to Prometheus. He also makes the case to expose metrics as part of core application development instead of treating them as a small add-on before go-live.
 
-[**vSphere Performance data – Monitoring VMware vSAN performance**](https://www.rudimartinsen.com/2018/04/06/vsphere-performance-data-monitoring-vmware-vsan-performance/): In the latest article from the series about monitoring [vSphere Performance](https://www.rudimartinsen.com/vsphere-performance/) Rudi discusses how to add vSAN metrics to your dashboards.
+[**Video: Prometheus Integration with Grafana**](https://www.youtube.com/watch?v=agk4MJ4Ctbs&feature=youtu.be&a=): Abhishek recorded a video tutorial on how to add the Prometheus datasource to Grafana and visualize the data. Video tutorials on installing Grafana and Prometheus can be found [here](https://www.youtube.com/watch?v=yq3GEs_nV0s) and [here](https://www.youtube.com/watch?v=EDCnqnBkecw).
 
-[**Using Jenkins pipeline to add Grafana Annotations for release monitoring**](https://www.plivo.com/blog/plivo-devops-best-practice/): Plivo uses Jenkins to deploy code several times a day across numerous micro-services. They monitor this system closely to ensure their services are performing optimally. This article covers how they add dynamic annotations to Grafana via Jenkins pipeline.
-
-[**Creating a full monitoring solution for ARM Kubernetes Cluster**](https://itnext.io/creating-a-full-monitoring-solution-for-arm-kubernetes-cluster-53b3671186cb): This second article covers implementing a dynamic monitoring stack after deploying a Kubernetes cluster into three Rock64 single board computers. Also, check out [part one](https://itnext.io/building-an-arm-kubernetes-cluster-ef31032636f9) to see how Carlos built the cluster.
-
-<br />
-<hr />
-
-<div class="row row--md-gutters blog-plugin-grid">
-	<div class="col col--sm-9 blog-plugin-grid__item grafanacon">
-		<h4><a href="https://grafana.com/grafanacon?utm_source=blog&utm_campaign=timeshift_40" target="_blank">GrafanaCon Videos and Presentations</a></h4>
-		<p>
-			Videos and presentations from GrafanaCon EU are available. Big thanks to all of our speakers and sponsors for helping us put on such a wonderful event.
-		</p>
-			<a class="btn btn--grafanacon" href="http://grafana.com/grafanacon?utm_source=blog&utm_campaign=timeshift_40" target="_blank"><strong>Check out the Talks</strong></a>
-		</p>
-	</div>
-	<div class="col col--sm-3 blog-plugin-grid__item">
-		<img style="border-radius: 0;" src="/assets/img/blog/timeshift/grafanacon_eu_announcement.png" />
-	</div>
-</div>
+[**k6 loves Grafana**](http://blog.loadimpact.com/k6-loves-grafana): If you're using [k6](https://loadimpact.com/k6) for your load testing, you'll be glad to know that it plays well with Grafana. This article walks you through how you can easily use Grafana to visualize k6 test results, and provides some tips for a better k6 data visualization experience.
 
 <br />
 <hr />
 
 #### Grafana Plugins
-This week we have a handful of plugin updates to share. If you're not familiar with how to install or update plugins, it's easy! For on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_40" target="_blank">grafana-cli tool</a>, or for <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_40" target="_blank">Hosted Grafana</a> update with one-click.
+Each week we highlight new and updated plugins that are available at grafana.com. It's important to keep your plugins up to date, since authors are constantly submitting bug fixes and new features. It's easy to update Grafana plugins – for on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_40" target="_blank">grafana-cli tool</a>, or for <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_40" target="_blank">Hosted Grafana</a> update with one-click.
 <br />
 <div class="blog-plugin">
 	<div class="row row--md-gutters">
 		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/vonage-status-panel/versions/1.0.8/logos/large" />
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/grafana-piechart-panel/versions/1.3.0/logos/large" />
 		</div>
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>Vonage Status Panel</strong> - Style updates for Grafana 5.0. 
+				<strong>Piechart Panel</strong> - This latest release addresses issues related to rendering and legends. 
 			</p>
-			<ul>
-				<li>Added option to auto scroll the alerts in case the text overflows the panel view</li>
-				<li>Fixed header padding when title is absent</li>
-			</ul>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/vonage-status-panel?utm_source=blog&utm_campaign=timeshift_40" target="_blank"><strong>Update</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/grafana-piechart-panel?utm_source=blog&utm_campaign=timeshift_40" target="_blank"><strong>Update</strong></a>
 			</p>
 		</div>
 	</div>
 </div>
-<div class="blog-plugin">
-	<div class="row row--md-gutters">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/prometheus/versions/5.0.0/logos/large" />
-		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
-			<p>
-				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>Prometheus Alertmanager Data Source</strong> - This data source now has improved templating support and allows for the manual definition of severity levels. 
-			</p>
-			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/camptocamp-prometheus-alertmanager-datasource?utm_source=blog&utm_campaign=timeshift_40" target="_blank"><strong>Update</strong></a>
-			</p>
-		</div>
+<br />
+<hr />
+
+<div class="row row--md-gutters blog-plugin-grid">
+	<div class="col col--sm-4 blog-plugin-grid__item">
+		<img style="border-radius: 0;" src="/assets/img/blog/timeshift/grafanacon_eu_announcement.png" width="200" />
+	</div>
+	<div class="col col--sm-8 blog-plugin-grid__item grafanacon">
+		<h4><a href="https://grafana.com/grafanacon?utm_source=blog&utm_campaign=timeshift_40" target="_blank">GrafanaCon Videos and Presentations</a></h4>
+		<p>
+			If you haven't gotten a chance to watch the talks from our most recent GrafanaCon, please check them out. All of the talks and presentation slides are available on our website website. 
+		</p>
+			<a class="btn btn--grafanacon" href="http://grafana.com/grafanacon?utm_source=blog&utm_campaign=timeshift_40" target="_blank"><strong>Check out the Talks</strong></a>
+		</p>
 	</div>
 </div>
-<div class="blog-plugin">
-	<div class="row row--md-gutters">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/opennms-helm-app/versions/1.1.0/logos/large" />
-		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
-			<p>
-				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>OpenNMS Helm App</strong> - OpenNMS Helm replaces the original OpenNMS data source. This is the second release and received a number of small updates. View the <a href="https://github.com/OpenNMS/opennms-helm#v110" target="_blank">changelog</a> to read about specific updates.
-			</p>
-			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/opennms-helm-app?utm_source=blog&utm_campaign=timeshift_40" target="_blank"><strong>Update</strong></a>
-			</p>
-		</div>
-	</div>
-</div>
-<div class="blog-plugin">
-	<div class="row row--md-gutters">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/ryantxu-ajax-panel/versions/0.0.4/logos/large" />
-		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
-			<p>
-				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>Ajax Panel</strong> - This useful panel received a huge update. It now supports embedding webcams into a Grafana dashboard along with tons of other changes. Included is an Examples tab that shows off some of the features of the Ajax Panel. Here are just some of the changes:
-			</p>
-			<ul>
-				<li>Support template variables in parameters</li>
-				<li>Use data sources for complex authentication</li>
-				<li>Support loading images</li>
-				<li>Support header configuration</li>
-				<li>Support showing time info</li>
-				<li>Include various sample configurations</li>
-			</ul>
-			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/ryantxu-ajax-panel?utm_source=blog&utm_campaign=timeshift_40" target="_blank"><strong>Update</strong></a>
-			</p>
-		</div>
-	</div>
-</div>
-<div class="blog-plugin">
-	<div class="row row--md-gutters">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/ibm-apm-datasource/versions/0.8.0/logos/large" />
-		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
-			<p>
-				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>IBM APM</strong> - Latest updates include:
-			</p>
-			<ul>
-				<li>Added support for string metrics</li>
-				<li>Added example dashboard for Node.js application running in IBM Cloud Private.</li>
-				<li>Simplified installation for Grafana 5. Plugin works correctly without modifications in Grafana 5 backend (thanks to Grafana 5 new feature <a href="https://github.com/grafana/grafana/issues/5457" target="_blank">#5457</a>).</li>
-				<li>More readable dropdown lists in panel query editor.</li>
-				<li>Added datasource configuration option to deallocate dataset on ITM/APM server after every metric query</li>
-			</ul>
-			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/ibm-apm-datasource?utm_source=blog&utm_campaign=timeshift_40" target="_blank"><strong>Update</strong></a>
-			</p>
-		</div>
-	</div>
-</div>
+
+<br />
+<hr />
 
 #### Upcoming Events
 In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We also like to make sure we mention other Grafana-related events happening all over the world. If you're putting on just such an event, let us know and we'll list it here.
@@ -242,6 +157,21 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 </div>
 <hr />
 
+<div>
+	<div class="row row--no-gutters">
+		<div class="col col--sm-12">
+			<h4>Tweet of the Week</h4>
+			We scour Twitter each week to find an interesting/beautiful dashboard or monitoring related tweet and show it off! <a href="https://twitter.com/hashtag/monitoringlove?src=hash" target="_blank">#monitoringLove</a>
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Titanic <a href="https://twitter.com/hashtag/timeseries?src=hash&amp;ref_src=twsrc%5Etfw">#timeseries</a> <a href="https://twitter.com/hashtag/art?src=hash&amp;ref_src=twsrc%5Etfw">#art</a> <a href="https://twitter.com/hashtag/grafana?src=hash&amp;ref_src=twsrc%5Etfw">#grafana</a> <a href="https://twitter.com/hashtag/prometheus?src=hash&amp;ref_src=twsrc%5Etfw">#prometheus</a><br><br>Thanks <a href="https://twitter.com/davkals?ref_src=twsrc%5Etfw">@davkals</a> for the screenshot! <a href="https://t.co/9WFU1qrlwp">pic.twitter.com/9WFU1qrlwp</a></p>&mdash; Time Series Art (@TimeSeriesArt) <a href="https://twitter.com/TimeSeriesArt/status/984511674529996800?ref_src=twsrc%5Etfw">April 12, 2018</a></blockquote>
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+			<p>ICEBERG, RIGHT AHEAD!</p>
+		</div>
+	</div>
+</div>
+
+<hr />
+
 <div style=" padding: 20px; background: url(/assets/img/blog/timeshift/polygon_texture_black.jpg); background-size: cover; border-radius: 4px;">
 	<h4>Grafana Labs is Hiring!</h4>
 	<p>We are passionate about open source software and thrive on tackling complex challenges to build the future. We ship code from every corner of the globe and love working with the community. If this sounds exciting, you're in luck – <strong>WE'RE HIRING!</strong></p>
@@ -251,7 +181,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 
 <hr />
 <br />
-#### That's a Wrap!
+#### See You Next Week!
 Thanks for reading another issue of timeShift. What would you like to see here? Submit a comment on this issue below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_40).
 
 Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_40).
