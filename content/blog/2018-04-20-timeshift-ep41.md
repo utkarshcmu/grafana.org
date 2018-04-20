@@ -27,7 +27,7 @@ The Grafana Labs team will also hit the road for a few weeks starting with [Perc
 			<strong><a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_41" target="_blank">Grafana 5.1.0-beta1</a></strong> is available for download. Major enhancements include:
 			<ul>
 				<li><strong>MSSQL</strong>: New Microsoft SQL Server data source <a href="https://github.com/grafana/grafana/pull/10093">#10093</a>, <a href="https://github.com/grafana/grafana/pull/11298">#11298</a>, thx <a href="https://github.com/linuxchips">@linuxchips</a></li>
-				<li><strong>Prometheus</strong>: The heatmap panel now support Prometheus histograms <a href="https://github.com/grafana/grafana/issues/10009">#10009</a></li>
+				<li><strong>Prometheus</strong>: The heatmap panel now supports Prometheus histograms <a href="https://github.com/grafana/grafana/issues/10009">#10009</a></li>
 				<li><strong>Postgres/MySQL</strong>: Ability to insert 0s or nulls for missing intervals <a href="https://github.com/grafana/grafana/issues/9487">#9487</a>, thanks <a href="https://github.com/svenklemm">@svenklemm</a></li>
 				<li><strong>Postgres/MySQL/MSSQL</strong>: Fix precision for the time column in table mode <a href="https://github.com/grafana/grafana/issues/11306">#11306</a></li>
 				<li><strong>Graph</strong>: Align left and right Y-axes to one level <a href="https://github.com/grafana/grafana/issues/1271">#1271</a> &amp;  <a href="https://github.com/grafana/grafana/issues/2740">#2740</a> thx <a href="https://github.com/ilgizar">@ilgizar</a></li>
@@ -48,7 +48,7 @@ The Grafana Labs team will also hit the road for a few weeks starting with [Perc
 			</ul>
 		</p>
 		<p>
-			Check out the full <a href="https://community.grafana.com/t/release-notes-v-5-1-x/6958" target="_blank">release notes</a> to see the features and fixes in the beta release.
+			Check out the full <a href="https://community.grafana.com/t/release-notes-v-5-1-x/6958" target="_blank">release notes</a> to see the features and fixes in the beta release. We also have <a href="http://docs.grafana.org/v5.1/" target="_blank">updated documentation</a> for the new version.
 		</p>
 		<a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_41" target="_blank" class="btn btn--primary">Download Grafana 5.1.0-beta1 Now</a>
 	</div>
