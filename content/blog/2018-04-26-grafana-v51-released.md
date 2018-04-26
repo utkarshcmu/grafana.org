@@ -11,7 +11,7 @@ categories = ["Release", "Grafana"]
 
 # v5.1 Stable Release
 
-The recent 5.0 major release contained a lot of new features, so the Grafana 5.1 release is focused on smoothing out some rough edges and iterating over some of the new features.
+The recent 5.0 major release contained a lot of new features so the Grafana 5.1 release is focused on smoothing out the rough edges and iterating over some of the new features.
 
 <a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=v51" target="_blank" class="btn btn--primary">Download Grafana 5.1 Now</a>
 
