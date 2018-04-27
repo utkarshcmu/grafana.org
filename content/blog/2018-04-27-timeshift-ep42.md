@@ -11,7 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-Grafana v5.1 Stable is available! Two of the biggest new features include a native data source for MSSQL Server and heatmap support for Prometheus! Download the latest release and checkout other new features and fixes below.
+Grafana v5.1 Stable is available! Two of the biggest new features include a native data source for MSSQL Server and heatmap support for Prometheus. Download the latest release and checkout other new features and fixes below.
 
 Heading to [KubeCon + CloudNativeCon Europe 2018](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/) in Copenhagen, Denmark, May 2-4? Come by our booth and say hi! Also don't miss Tom Wilkie's talk on [Prometheus Monitoring Mixins: Using Jsonnet to Package Together Dashboards, Alerts and Exporters](https://kccnceu18.sched.com/event/Dqvp/prometheus-monitoring-mixins-using-jsonnet-to-package-together-dashboards-alerts-and-exporters-tom-wilkie-kausal-intermediate-skill-level), and Goutham Veeramanchaneni's talks: [TSDB: The Engine behind Prometheus](https://kccnceu18.sched.com/event/Dqwc/lightning-talk-tsdb-the-engine-behind-prometheus-goutham-veeramachaneni-iit-hyderabad-beginner-skill-level) and [TSDB: The Past, Present and the Future
  ](https://kccnceu18.sched.com/event/ENwd/tsdb-the-past-present-and-the-future-goutham-veeramachaneni-iit-hyderabad-advanced-skill-level)
@@ -29,13 +29,13 @@ Heading to [KubeCon + CloudNativeCon Europe 2018](https://events.linuxfoundation
 				<li><a href="https://grafana.com/blog/2018/04/26/grafana-v5.1-released/#improved-scrolling-experience" target="_blank">Improved scrolling experience</a></li>
 				<li><a href="https://grafana.com/blog/2018/04/26/grafana-v5.1-released/#improved-docker-image" target="_blank">Improved docker image</a> with a breaking change!</li>
 				<li><a href="https://grafana.com/blog/2018/04/26/grafana-v5.1-released/#heatmap-support-for-prometheus" target="_blank">Heatmap support for Prometheus</a></li>
-				<li><a href="https://grafana.com/blog/2018/04/26/grafana-v5.1-released/#microsoft-sql-server" target="_blank">Microsoft SQL Server</a> as metric &amp; table datasource!</li>
+				<li><a href="https://grafana.com/blog/2018/04/26/grafana-v5.1-released/#microsoft-sql-server" target="_blank">Microsoft SQL Server</a> as metric &amp; table data source!</li>
 				<li><a href="https://grafana.com/blog/2018/04/26/grafana-v5.1-released/#adding-new-panels-to-dashboards" target="_blank">Copy and paste for panels</a> and other improvements when adding panels to dashboards</li>
 				<li><a href="https://grafana.com/blog/2018/04/26/grafana-v5.1-released/#align-zero-line-for-right-and-left-y-axes" target="_blank">Align Zero-Line for Right and Left Y-axes</a> in the Graph Panel</li>
 			</ul>
 		</p>
 		<p>
-			Check out the <a href="https://grafana.com/blog/2018/04/26/grafana-v5.1-released/?utm_source=blog&utm_campaign=timeshift_42" target="_blank">release blog post</a> to learn more about what's new.
+			Check out the <a href="https://grafana.com/blog/2018/04/26/grafana-v5.1-released/?utm_source=blog&utm_campaign=timeshift_42" target="_blank">release blog post</a> for an in-depth look at what's new.
 		</p>
 		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_42" target="_blank" class="btn btn--primary">Download Grafana 5.1 Stable Now</a>
 	</div>
@@ -52,7 +52,7 @@ Heading to [KubeCon + CloudNativeCon Europe 2018](https://events.linuxfoundation
 
 [**Brain Monitoring with Kafka, OpenTSDB, and Grafana**](https://www.svds.com/brain-monitoring-kafka-opentsdb-grafana/): This interesting article from July, 2016 resurfaced recently and discusses how a group of data scientists used Grafana to visualize brain wave EEG data.
 
-[**Kubernetes, Local to Production with Django: 6— Add Prometheus & Grafana Monitoring With Helm**](https://medium.com/@markgituma/kubernetes-local-to-production-with-django-6-add-prometheus-grafana-monitoring-with-helm-926fafbe1d): The sixth tutorial in the series discusses how to integrate Prometheus and Grafana for k8s resource and application monitoring. Be sure and check out the [rest of the series](https://medium.com/@markgituma/kubernetes-local-to-production-with-django-1-introduction-d73adc9ce4b4).
+[**Kubernetes, Local to Production with Django: 6— Add Prometheus & Grafana Monitoring With Helm**](https://medium.com/@markgituma/kubernetes-local-to-production-with-django-6-add-prometheus-grafana-monitoring-with-helm-926fafbe1d): The sixth tutorial in the series covers how to integrate Prometheus and Grafana for k8s resource and application monitoring. Be sure and check out the [rest of the series](https://medium.com/@markgituma/kubernetes-local-to-production-with-django-1-introduction-d73adc9ce4b4).
 
 [**Istio 101 with Minikube**](https://medium.com/google-cloud/istio-101-with-minikube-9a748ec59546): Learn how to install Istio and add-ons like Prometheus and Grafana on Minikube. Minikube gives you a local k8s cluster, which is perfect for doing things like conducting live demos when conference Wifi is sketchy.
 
