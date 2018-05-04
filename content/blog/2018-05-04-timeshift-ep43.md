@@ -82,7 +82,7 @@ We have a couple of plugin updates to share this week with new features and bugf
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>Sidewinder Data Source</strong> - This data source plugin now supports filtering by tag in the query editor UI 
+				<strong>Sidewinder Data Source</strong> - This data source plugin now supports filtering by tag in the query editor UI.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/sidewinder-datasource?utm_source=blog&utm_campaign=timeshift_43" target="_blank"><strong>Update</strong></a>
