@@ -11,7 +11,6 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-This week, Grafana Labs was happy to speak at and sponsor KubeCon + CloudNativeCon EU in Copenhagen, Denmark. We got to chat with a ton of Grafana users, attended amazing talks, and generally had a blast! From Grafana Labs, Goutham Veeramanchaneni gave two talks focusing on TSDB - the engine behind Prometheus, and Tom Wilkie discussed a technique for using Jsonnet for packaging and deploying “Monitoring Mixins” - extensible and customizable combinations of dashboards, alert definitions and exporters. We'll be sure to link to the videos and presentations when they're available on the KubeCon website. Already looking forward to KubeCon + CloudNativeCon China in November!
 <br />
 <hr />
 
