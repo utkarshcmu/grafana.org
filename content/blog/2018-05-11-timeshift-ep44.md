@@ -11,9 +11,9 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-[Grafana v5.1.2](https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_44) was released this week and includes an important bug fix for MySQL, plus an update for GDPR compliance. See below for more details and the full release notes.
+[Grafana v5.1.2](https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_44) is available and includes an important bug fix for MySQL, plus an update for GDPR compliance. See below for more details and the full release notes.
 
-Also, KubeCon + CloudNativeCon Europe 2018 videos are now available including talks from members of the Grafana Labs team. Links to these talks can also be found below. 
+Also, KubeCon + CloudNativeCon Europe 2018 videos are now available including talks from members of the Grafana Labs team! Check out these talks below. 
 
 If you would like your article highlighted in our weekly roundup, feel free to send me an email at [hello@grafana.com](mailto:hello@grafana.com).
 <br />
@@ -41,21 +41,21 @@ If you would like your article highlighted in our weekly roundup, feel free to s
 <hr />
 
 #### From the Blogosphere
-[**[Video] Prometheus Monitoring Mixins: Using Jsonnet to Package Together Dashboards, Alerts and Exporters**](https://www.youtube.com/watch?v=b7-DtFfsL6E): Last week we shared a [design document](https://docs.google.com/document/d/1A9xvzwqnFVSOZ5fD3blKODXfsat5fg6ZhnKu9LK3lB4/edit#heading=h.gt9r2h2gklj3) Tom Wilkie and Frederic Branczyk have been working on to address the difficulties making pre-configured monitoring configurations. Here, you can check out the video from Tom's KubeCon talk which goes into a lot of great detail and demos.
+[**[Video] Prometheus Monitoring Mixins: Using Jsonnet to Package Together Dashboards, Alerts and Exporters**](https://www.youtube.com/watch?v=b7-DtFfsL6E): Last week we shared a [design document](https://docs.google.com/document/d/1A9xvzwqnFVSOZ5fD3blKODXfsat5fg6ZhnKu9LK3lB4/edit#heading=h.gt9r2h2gklj3) Tom Wilkie and Frederic Branczyk have been working on to address the difficulties making pre-configured monitoring configurations. In this video, you can watch Tom's recent KubeCon talk which goes into more detail, complete with live demos.
 
-[**[Video] Lightning Talk - TSDB: The Engine behind Prometheus**](https://www.youtube.com/watch?v=_529xDFDzI0): Prometheus maintainer and newest addition to the Grafana Labs team, Goutham Veeramachaneni discusses TSDB - the engine powering Prometheus, in his lightning talk at KubeCon + CloudNativeCon Europe 2018. You can also [download the slides](https://schd.ws/hosted_files/kccnceu18/6c/TSDB_%20The%20engine%20behind%20Prometheus%202.0.pdf).
+[**[Video] Lightning Talk - TSDB: The Engine behind Prometheus**](https://www.youtube.com/watch?v=_529xDFDzI0): Prometheus maintainer and newest addition to the Grafana Labs team, Goutham Veeramachaneni discusses TSDB - the engine powering Prometheus, in his lightning talk from KubeCon + CloudNativeCon Europe 2018. You can also [download the slides](https://schd.ws/hosted_files/kccnceu18/6c/TSDB_%20The%20engine%20behind%20Prometheus%202.0.pdf).
 
 [**[Video] TSDB: The Past, Present and the Future**](https://www.youtube.com/watch?v=0UvKEHFNu4Q): As a follow up to his lightning talk on TSDB, Goutham goes into more detail on TSDB, and as he says, "take you through the journey, benchmarks, new features, ghastly bugs and moonshot ideas".
 
-[**How to build a generic Icinga2 service graph in Grafana using InfluxDB**](https://www.claudiokuenzler.com/blog/776/how-to-icinga2-dynamic-generic-service-graph-grafana-influxdb#.WvXpp9MvzUI): Learn how to create dynamic and reusable dashboards for a multiple hosts with differing types of checks. It covers queries and template variables to build a generic and felxible dashboard.
+[**How to build a generic Icinga2 service graph in Grafana using InfluxDB**](https://www.claudiokuenzler.com/blog/776/how-to-icinga2-dynamic-generic-service-graph-grafana-influxdb#.WvXpp9MvzUI): Learn how to create dynamic and reusable dashboards for a multiple hosts with differing checks. It covers queries and template variables to build a generic and felxible dashboard.
 
-[**Monitor Linux System with Grafana and Telegraf**](https://computingforgeeks.com/monitor-linux-system-with-grafana-and-telegraf/): A quick tutorial on how to install and configure a monitoring stack for CentOS7.
+[**Monitor Linux System with Grafana and Telegraf**](https://computingforgeeks.com/monitor-linux-system-with-grafana-and-telegraf/): A quick tutorial on how to install and configure a monitoring stack on CentOS7.
 
 <br />
 <hr />
 
 #### We're Hiring!
-We've recently announced two new positions for our Stockholm office! Are you passionate about open source software? Do you thrive on tackling complex challenges to build the future? Check out all of our open positions and apply!
+We've recently announced **two new positions** at our Stockholm office! Are you passionate about open source software? Do you thrive on tackling complex challenges to build the future? Check out all of our open positions and apply today!
 <br /><br />
 <a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_44" target="_blank">View our Open Positions</a>
 
@@ -85,7 +85,6 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		</div>
 	</div>
 	<br/>
-	<div class="blog-plugin">
 	<div class="row row--md-gutters">
 		<div class="col col--md-3">
 			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/webinar.png" />
@@ -155,8 +154,10 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		</div>
 	</div>
 </div>
+
 <hr />
 <br />
+
 #### Thanks for Reading
 What would you like to see here? Submit a comment on this issue below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_44).
 
