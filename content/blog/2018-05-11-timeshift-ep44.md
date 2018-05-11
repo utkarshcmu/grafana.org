@@ -72,7 +72,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		</div>
 		<div class="col col--md-8 col--sm-offset-1">
 			<p>
-			<strong><a href="https://zoom.us/webinar/register/WN_wK9pZ1VJQ2eVCGO5j4sC3g" target="_blank">Innovate Everywhere: Choosing the Right Tools when Building your SRE Toolchain | Webinar - May 16, 2018, 1pm EDT</a></strong> <br />
+			<strong style="color:#f46800;">Innovate Everywhere: Choosing the Right Tools when Building your SRE Toolchain | Webinar - May 16 and May 30, 2018 – 1pm EDT</strong> <br />
 	          <strong>Leonard Gram</strong> - Explore a few of the vital tools your SRE team can set up to drive a culture of innovation and uptime.
 	        </p>
             <p><strong>Attendees can expect to learn:</strong></p>
@@ -81,22 +81,9 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
               <li>How to create simple and lightweight representations of your systems for everyone in the organization</li>
               <li>How VictorOps, Grafana and InfluxData work together to create a system of engagement</li>
             </ul>
-			<a href="https://zoom.us/webinar/register/WN_wK9pZ1VJQ2eVCGO5j4sC3g" target="_blank" class="btn btn--outline">Register Now</a>
-		</div>
-	</div>
-	<br/>
-	<div class="row row--md-gutters">
-		<div class="col col--md-3">
-			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/webinar.png" />
-		</div>
-		<div class="col col--md-8 col--sm-offset-1">
-			<p>
-			<strong><a href="https://webinars.devops.com/innovate-everywhere-choosing-the-right-tools-when-building-your-sre-toolchain" target="_blank">Innovate Everywhere: Choosing the Right Tools when Building your SRE Toolchain | Webinar - May 30, 2018, 1pm EDT</a></strong> <br />
-	          <strong>Leonard Gram</strong> - Explore a few of the vital tools your SRE team can set up to drive a culture of innovation and uptime.
-	        </p>
-            <p>Many companies are working to define their expectations for the SRE role and the SRE toolchain, which, like the role itself, continues to evolve. The tools SREs use at any given time will depend on where an organization is in their SRE journey. Less mature organizations will tend to use more specialized operations tools while more mature organizations will see more convergence between SRE and software engineering toolchains. So, while it’s certain that there’s no “one-size-fits-all” set of tools, teams will experiment with and adapt with the right tools as they seek new, efficient ways to bring greater reliability to everything they do.</p>
-            <br />
-			<a href="https://webinars.devops.com/innovate-everywhere-choosing-the-right-tools-when-building-your-sre-toolchain" target="_blank" class="btn btn--outline">Register Now</a>
+            <p>We will be conducting two webinars on this subject, so please feel free to sign up for whichever session works for your schedule.</p>
+			<a href="https://zoom.us/webinar/register/WN_wK9pZ1VJQ2eVCGO5j4sC3g" target="_blank" class="btn btn--outline">Register for the May 16 Session</a><br /><br/>
+			<a href="https://webinars.devops.com/innovate-everywhere-choosing-the-right-tools-when-building-your-sre-toolchain" target="_blank" class="btn btn--outline">Register for the May 30 Session</a>
 		</div>
 	</div>
 	<br/>
