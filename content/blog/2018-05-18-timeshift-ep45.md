@@ -45,7 +45,7 @@ In addition to our weekly roundup of Grafana-related articles and upcoming event
 
 <div style=" padding: 20px; background: url(/assets/img/blog/timeshift/polygon_texture_black.jpg); background-size: cover; border-radius: 4px;">
 	<h4>We're Hiring!</h4>
-	<p>We've recently announced <strong>two new positions</strong> at our Stockholm office! Are you passionate about open source software? Do you thrive on tackling complex challenges to build the future? Check out all of our open positions and apply today!
+	<p>We're looking for engineers for <strong>four open positions</strong> in New York/Stockholm and remote! Are you passionate about open source software? Do you thrive on tackling complex challenges to build the future? Want to work with awesome people? Be the next to join our team.
 	</p>
 	<a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_45" target="_blank">View our Open Positions</a>
 </div>
