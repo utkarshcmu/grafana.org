@@ -34,7 +34,7 @@ In addition to our weekly roundup of Grafana-related articles and upcoming event
 #### From the Blogosphere
 [**[Video] Monitoring with Azure and Grafana**](https://youtu.be/GjDzwEcpC4o): Daniel Lee, from the core Grafana team, recently spoke at Swetugg, the .NET developers conference held in Stockholm, Sweden. In this presentaion, Daniel discusses whitebox monitoring, provides a live demo of the Azure Monitor plugin, and shows you how to build your own custom Grafana integrations.
 
-[**MapR for Predictive Maintenance**](https://github.com/mapr-demos/predictive-maintenance): This project demostrates how to build Predictive Maintenance applications on MapR to monitor the real-time status of factory IoT devices.  The tutorial section details the steps to install and configure the tools as well as a sample dataset get yopu started.
+[**MapR for Predictive Maintenance**](https://github.com/mapr-demos/predictive-maintenance): This project demostrates how to build Predictive Maintenance applications on MapR to monitor the real-time status of factory IoT devices.  The tutorial section details the steps to install and configure the tools as well as a sample dataset get you started.
 
 
 [**How to monitor Docker containers using cAdvisor**](https://www.neteye-blog.com/2018/04/how-to-monitor-docker-containers-using-cadvisor-part-1/) – **[Part 1](https://www.neteye-blog.com/2018/04/how-to-monitor-docker-containers-using-cadvisor-part-1/) | [Part 2](https://www.neteye-blog.com/2018/05/how-to-monitor-docker-containers-using-cadvisor-part-2/):** Two articles to teach you how to install and configure cAdvisor to collect performance data from a host machine and the containers running on it, and visualize the metrics using Grafana.
