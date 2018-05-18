@@ -82,7 +82,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		</div>
 		<div class="col col--md-8 col--sm-offset-1">
 			<p>
-				<strong><a href="https://www.meetup.com/MonitorSF/events/250915610/" target="_blank">San Francisco Metrics and Monitoring | July 17, 2018</a>:</strong>
+				<strong><a href="https://www.meetup.com/MonitorSF/events/250915610/" target="_blank">San Francisco Metrics and Monitoring | May 30, 2018</a>:</strong>
 				<br />
 				<strong>Monitoring and distributed tracing at Slack and Pinterest</strong><br/><br /><strong>Naoman Abbas, Pinterest</strong> At Pinterest, we deployed Pintrace, a Zipkin-based distributed tracing system. Pintrace records end-to-end performance data across the execution path of requests, from mobile applications to backend services. Pintrace has evolved over time as its users find new data and as new subsystems integrate with our tracing systems.
 				<br /><br />
