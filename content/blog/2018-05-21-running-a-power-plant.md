@@ -13,6 +13,8 @@ draft = true
 
 # GrafanaCon Recap: Running a Power Plant with Grafana
 
+![Ryan McKinley](/assets/img/blog/ryan_mckinley.jpg)
+
 A water and energy innovation company founded in 2005, Natel Energy builds hydropower turbines and designs resilient and distributed hydropower systems. In his talk at GrafanaCon EU, Natel Developer Ryan McKinley gave us a fascinating look at how the company is using Grafana to help run these next-generation power plants.
 
 “It’s a different model for turbine than you’re used to seeing,” McKinley said. “Typically you’ve got a wheel that spins. [Our turbine aims] to capture more flow out of lower head fights, with the result of being able to have equivalent amounts of power production with less environmental consequences.”

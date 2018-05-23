@@ -13,6 +13,9 @@ draft = true
 
 # GrafanaCon Recap: The State of TSDB
 
+![GrafanaCon TSDB Panel](/assets/img/blog/tsdb_panel.jpg)
+
+
 At GrafanaCon EU, we gathered representatives of the Graphite, Prometheus, InfluxDB, and Timescale projects in the hopes of starting a spirited conversation about the current state of Time Series Databases. They didn’t disappoint.
 Here are a few highlights from the TSDB panel featuring Paul Dix from InfluxDB, Erik Nordstrom from Timescale, Dan Cech from Graphite, and Tom Wilkie from Prometheus, and moderated by Grafana Labs CEO Raj Dutt.
 
