@@ -10,7 +10,7 @@ description = "Monitoring for Everyone"
 categories = ["Video", "Grafana", "Conference", "Talks", "Prometheus", "Øredev"]
 +++
 
-# Øredev 2017 - Carl Bergquist - Monitoring for everyone
+# Øredev - Carl Bergquist - Monitoring for everyone
 
 **What is monitoring?**
 
