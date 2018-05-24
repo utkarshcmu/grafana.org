@@ -8,7 +8,6 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Monitoring for Everyone"
 categories = ["Video", "Grafana", "Conference", "Talks", "Prometheus", "Øredev"]
-draft = true
 +++
 
 # Øredev 2017 - Carl Bergquist - Monitoring for everyone
