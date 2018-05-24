@@ -32,17 +32,17 @@ categories = ["timeShift", "Grafana Buzz"]
 <hr />
 
 #### From the Blogosphere
-[**[Video] Monitoring for Everyone**](https://grafana.com/blog/2018/05/23/monitoring-for-everyone/?utm_source=blog&utm_campaign=timeshift_46): Recently, Carl Bergquist from the core Grafana team spoke at Oredev, a large developer conference in Malmo, Sweden.
+[**[Video] Monitoring for Everyone**](https://grafana.com/blog/2018/05/23/monitoring-for-everyone/?utm_source=blog&utm_campaign=timeshift_46): Recently, Carl Bergquist from the core Grafana team spoke at Oredev, a large developer conference in Malmö, Sweden. This is a great talk that covers monitoring and observability fundamentals and answers the questions: What is monitoring? What types of data can I collect? Why should I care?
 
-[**Monitoring MySQL and MongoDB with Prometheus and Grafana – PMM**](https://computingforgeeks.com/monitoring-mysql-and-mongodb-with-prometheus-and-grafana-pmm/):
+[**Monitoring MySQL and MongoDB with Prometheus and Grafana – PMM**](https://computingforgeeks.com/monitoring-mysql-and-mongodb-with-prometheus-and-grafana-pmm/): The latest in Josphat's monitoring guides series covers installing Percona Monitoring and Management (PMM) on Linux to collect and visualize MySQL and MongoDB data. Other topics in the series include [Monitor Linux System with Grafana and Telegraf](https://computingforgeeks.com/monitor-linux-system-with-grafana-and-telegraf/) and [Monitoring Ceph Cluster with Prometheus and Grafana](https://computingforgeeks.com/monitoring-ceph-cluster-with-prometheus-and-grafana/).
 
-[**GPS Tracker visualized with Grafana**](https://www.thethingsnetwork.org/labs/story/gps-tracker):
+[**GPS Tracker visualized with Grafana**](https://www.thethingsnetwork.org/labs/story/gps-tracker): Björn wanted to try and build his own LoRaWAN GPS tracker and visualize his location in Grafana. This article walks you through the parts you'll need, steps to construct the device, format and store the data, and finally, visualize your GPS location on a map in Grafana.
 
-[**Body measurements with Grafana on the Raspberry Pi**](https://www.spech.de/2018/05/koerpermasse-mit-grafana-auf-dem-raspberry-pi/):
+[**Body measurements with Grafana on the Raspberry Pi**](https://www.spech.de/2018/05/koerpermasse-mit-grafana-auf-dem-raspberry-pi/): Sabastian has a FitPi (Fitness Raspberry Pi) which tracks his workouts, weight, BMI, etc. He decided to upgrade his previous dashbords and integrate the FitPi monitoring stack with Grafana.
 
-[**Monitoring the ForgeRock Identity Platform 6.0 using Prometheus and Grafana**](https://xennial-bytes.blogspot.co.uk/2018/05/all-products-within-forgerock-identity.html):
+[**Monitoring the ForgeRock Identity Platform 6.0 using Prometheus and Grafana**](https://xennial-bytes.blogspot.co.uk/2018/05/all-products-within-forgerock-identity.html): Customer identity management company Foregerock released the latest version of the ForgeRock Identity Platform (6.0) which includes native support for Prometheus and Grafana. This post provides a detailed explanation of the new Overview dashboard.
 
-[**Grafana – An Open Source Software for Analytics and Monitoring**](https://www.tecmint.com/install-grafana-analytics-in-centos-ubuntu-debian/):
+[**Grafana – An Open Source Software for Analytics and Monitoring**](https://www.tecmint.com/install-grafana-analytics-in-centos-ubuntu-debian/): Aaron wrote an 8 step article on how to install Grafana on Linux. He walks you through starting up Grafana and installing your first datasource.
 
 <br />
 
