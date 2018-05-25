@@ -13,7 +13,7 @@ categories = ["timeShift", "Grafana Buzz"]
 ### Welcome to TimeShift
 The day has finally arrived; GDPR is officially in effect! These new policies are meant to provide more transparency about the data companies collect on users, and how that data is used. I for one am just excited that the onslaught of &quot;We've updated our privacy policy&quot; emails arriving in my pummeled inbox is nearing its end. 
 
-Grafana Labs is no exception. We encourage your to check out our [privacy policy](http://grafana.com/terms), and if you have any questions, feel free to contact us at [privacy@grafana.com](mailto:privacy@grafana.com).
+Grafana Labs is no exception. We encourage you to check out our [privacy policy](http://grafana.com/terms), and if you have any questions, feel free to contact us at [privacy@grafana.com](mailto:privacy@grafana.com).
 <br />
 <hr />
 
