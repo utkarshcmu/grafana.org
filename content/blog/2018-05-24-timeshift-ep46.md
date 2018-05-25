@@ -11,7 +11,9 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
+The day has finally arrived; GDPR is officially in effect! These new policies are meant to provide more transparency about the data companies collect on users, and how that data is used. I for one am just excited that the onslaught of &quot;We've updated our privacy policy&quot; emails arriving in my pummeled inbox is nearing its end. 
 
+Grafana Labs is no exception. We encourage your to check out our [privacy policy](http://grafana.com/terms), and if you have any questions, feel free to contact us at [privacy@grafana.com](mailto:privacy@grafana.com).
 <br />
 <hr />
 
@@ -36,13 +38,13 @@ categories = ["timeShift", "Grafana Buzz"]
 
 [**Monitoring MySQL and MongoDB with Prometheus and Grafana – PMM**](https://computingforgeeks.com/monitoring-mysql-and-mongodb-with-prometheus-and-grafana-pmm/): The latest in Josphat's monitoring guides series covers installing Percona Monitoring and Management (PMM) on Linux to collect and visualize MySQL and MongoDB data. Other topics in the series include [Monitor Linux System with Grafana and Telegraf](https://computingforgeeks.com/monitor-linux-system-with-grafana-and-telegraf/) and [Monitoring Ceph Cluster with Prometheus and Grafana](https://computingforgeeks.com/monitoring-ceph-cluster-with-prometheus-and-grafana/).
 
-[**GPS Tracker visualized with Grafana**](https://www.thethingsnetwork.org/labs/story/gps-tracker): Björn wanted to try and build his own LoRaWAN GPS tracker and visualize his location in Grafana. This article walks you through the parts you'll need, steps to construct the device, format and store the data, and finally, visualize your GPS location on a map in Grafana.
+[**GPS Tracker visualized with Grafana**](https://www.thethingsnetwork.org/labs/story/gps-tracker): Björn wanted to try and build his own LoRaWAN GPS tracker and visualize his location in Grafana. This article walks you through the parts you'll need, steps to construct the device, how to format and store the data, and finally, how to visualize your GPS location on a map in Grafana.
 
-[**Body measurements with Grafana on the Raspberry Pi**](https://www.spech.de/2018/05/koerpermasse-mit-grafana-auf-dem-raspberry-pi/): Sabastian has a FitPi (Fitness Raspberry Pi) which tracks his workouts, weight, BMI, etc. He decided to upgrade his previous dashbords and integrate the FitPi monitoring stack with Grafana.
+[**Body measurements with Grafana on the Raspberry Pi**](https://www.spech.de/2018/05/koerpermasse-mit-grafana-auf-dem-raspberry-pi/): Sabastian has a FitPi (Fitness Raspberry Pi) which tracks his workouts, weight, BMI, etc. He decided to upgrade his previous dashbords and integrate the FitPi monitoring stack with Grafana. This article takes you through his journey.
 
 [**Monitoring the ForgeRock Identity Platform 6.0 using Prometheus and Grafana**](https://xennial-bytes.blogspot.co.uk/2018/05/all-products-within-forgerock-identity.html): Customer identity management company Foregerock released the latest version of the ForgeRock Identity Platform (6.0) which includes native support for Prometheus and Grafana. This post provides a detailed explanation of the new Overview dashboard.
 
-[**Grafana – An Open Source Software for Analytics and Monitoring**](https://www.tecmint.com/install-grafana-analytics-in-centos-ubuntu-debian/): Aaron wrote an 8 step article on how to install Grafana on Linux. He walks you through starting up Grafana and installing your first datasource.
+[**Grafana – An Open Source Software for Analytics and Monitoring**](https://www.tecmint.com/install-grafana-analytics-in-centos-ubuntu-debian/): Aaron wrote an 8 step article on how to install Grafana on Linux. He takes you from installation to configuring your first data source.
 
 <br />
 
@@ -54,6 +56,122 @@ categories = ["timeShift", "Grafana Buzz"]
 </div>
 
 <br />
+
+#### Grafana Plugins
+Each week we highlight new and updated plugins that are available at grafana.com. It's important to keep your plugins up to date, since authors are constantly submitting bug fixes and new features. It's easy to update Grafana plugins – for on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_46" target="_blank">grafana-cli tool</a>, or for <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_46" target="_blank">Hosted Grafana</a> update with one-click.
+<br />
+<div class="blog-plugin">
+	<div class="row row--md-gutters">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/blackmirror1-singlestat-math-panel/versions/1.0.0/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
+				<strong>SingleStat Math Panel</strong> - This new panel is a fork of the Singlestat panel that allows you to use the math.js library to manipulate the result from your query. An example would be to divide the result of two queries to get the percentage of disk space used. 
+			</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/blackmirror1-singlestat-math-panel?utm_source=blog&utm_campaign=timeshift_46" target="_blank"><strong>Install</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="blog-plugin">
+	<div class="row row--md-gutters">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/camptocamp-prometheus-alertmanager-datasource/versions/0.0.5/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong>Prometheus Alertmanager Data source</strong> - The <a href="https://github.com/camptocamp/grafana-prometheus-alertmanager-datasource/pull/28" target="_blank">main update</a> to this data source allows you to select which labels should be shown as columns in the table panel.
+			</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/camptocamp-prometheus-alertmanager-datasource?utm_source=blog&utm_campaign=timeshift_46" target="_blank"><strong>Update</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="blog-plugin">
+	<div class="row row--md-gutters">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/ryantxu-ajax-panel/versions/0.0.5/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong>AJAX Panel</strong> - This panel received numerous updates in version 0.0.5 including:
+					<ul>
+						<li>Support angular templates using AJAX response</li>
+						<li>Options to display as: HTML, Text, JSON, or preformatted text</li>
+						<li>Fixed display issue with 5.1</li>
+						<li>Support direct link rendered image</li>
+						<li>Show possible variables in editor</li>
+					</ul>
+			</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/ryantxu-ajax-panel?utm_source=blog&utm_campaign=timeshift_46" target="_blank"><strong>Update</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="blog-plugin">
+	<div class="row row--md-gutters">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/natel-discrete-panel/versions/0.0.8-pre/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong>Discrete Panel</strong> - This panel displays discrete values in a horizontal graph. Lots of new fixes and features in this version:
+					<ul>
+						<li>Support Snapshots</li>
+						<li>Fix for Direct link rendered images</li>
+						<li>Fix for display issue with 5.1</li>
+						<li>Merge distinct values in legend unless showing the name</li>
+						<li>Basic Annotation Support</li>
+					</ul>
+			</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/natel-discrete-panel?utm_source=blog&utm_campaign=timeshift_46" target="_blank"><strong>Update</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="blog-plugin">
+	<div class="row row--md-gutters">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/natel-influx-admin-panel/versions/0.0.5/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong>Influx Admin Panel</strong> - In the latest release of the Influx Admin Panel, it is now possible to switch database (datasource defined as a variable) and also adds support for the <code>$timeFilter</code> variable.
+			</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/natel-influx-admin-panel?utm_source=blog&utm_campaign=timeshift_46" target="_blank"><strong>Update</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="blog-plugin">
+	<div class="row row--md-gutters">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/instana-datasource/versions/1.0.3/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong>Instana Datasource</strong> - This update includes fixes for the table panel and for MSSQL Performance Counters metrics.
+			</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/instana-datasource?utm_source=blog&utm_campaign=timeshift_46" target="_blank"><strong>Update</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+<br />
+<hr />
 
 #### Upcoming Events
 In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We also like to make sure we mention other Grafana-related events happening all over the world. If you're putting on just such an event, let us know and we'll list it here.
