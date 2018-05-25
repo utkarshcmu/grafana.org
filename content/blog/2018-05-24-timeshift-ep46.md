@@ -40,9 +40,9 @@ Grafana Labs is no exception. We encourage your to check out our [privacy policy
 
 [**GPS Tracker visualized with Grafana**](https://www.thethingsnetwork.org/labs/story/gps-tracker): Björn wanted to try and build his own LoRaWAN GPS tracker and visualize his location in Grafana. This article walks you through the parts you'll need, steps to construct the device, how to format and store the data, and finally, how to visualize your GPS location on a map in Grafana.
 
-[**Body measurements with Grafana on the Raspberry Pi**](https://www.spech.de/2018/05/koerpermasse-mit-grafana-auf-dem-raspberry-pi/): Sabastian has a FitPi (Fitness Raspberry Pi) which tracks his workouts, weight, BMI, etc. He decided to upgrade his previous dashbords and integrate the FitPi monitoring stack with Grafana. This article takes you through his journey.
+[**Body measurements with Grafana on the Raspberry Pi**](https://www.spech.de/2018/05/koerpermasse-mit-grafana-auf-dem-raspberry-pi/): Sabastian has a FitPi (Fitness Raspberry Pi) which tracks his workouts, weight, BMI, etc. He decided to upgrade his previous dashboards and integrate the FitPi monitoring stack with Grafana. This article takes you through his journey.
 
-[**Monitoring the ForgeRock Identity Platform 6.0 using Prometheus and Grafana**](https://xennial-bytes.blogspot.co.uk/2018/05/all-products-within-forgerock-identity.html): Customer identity management company Foregerock released the latest version of the ForgeRock Identity Platform (6.0) which includes native support for Prometheus and Grafana. This post provides a detailed explanation of the new Overview dashboard.
+[**Monitoring the ForgeRock Identity Platform 6.0 using Prometheus and Grafana**](https://xennial-bytes.blogspot.co.uk/2018/05/all-products-within-forgerock-identity.html): Customer identity management company Foregerock released the latest version of the ForgeRock Identity Platform (6.0), which includes native support for Prometheus and Grafana. This post provides a detailed explanation of the new Overview dashboard.
 
 [**Grafana – An Open Source Software for Analytics and Monitoring**](https://www.tecmint.com/install-grafana-analytics-in-centos-ubuntu-debian/): Aaron wrote an 8 step article on how to install Grafana on Linux. He takes you from installation to configuring your first data source.
 
@@ -146,7 +146,7 @@ Each week we highlight new and updated plugins that are available at grafana.com
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>Influx Admin Panel</strong> - In the latest release of the Influx Admin Panel, it is now possible to switch database (datasource defined as a variable) and also adds support for the <code>$timeFilter</code> variable.
+				<strong>Influx Admin Panel</strong> - In the latest release of the Influx Admin Panel, it is now possible to switch database (data source defined as a variable) and also adds support for the <code>$timeFilter</code> variable.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/natel-influx-admin-panel?utm_source=blog&utm_campaign=timeshift_46" target="_blank"><strong>Update</strong></a>
@@ -162,7 +162,7 @@ Each week we highlight new and updated plugins that are available at grafana.com
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>Instana Datasource</strong> - This update includes fixes for the table panel and for MSSQL Performance Counters metrics.
+				<strong>Instana Data source</strong> - This update includes fixes for the table panel and for MSSQL Performance Counters metrics.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/instana-datasource?utm_source=blog&utm_campaign=timeshift_46" target="_blank"><strong>Update</strong></a>
