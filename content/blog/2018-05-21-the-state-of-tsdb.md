@@ -7,7 +7,7 @@ cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Conference Panel - The State of TSDB"
-categories = ["Video", "Grafana", "Talks"]
+categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
 draft = true
 +++
 
