@@ -8,7 +8,6 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Monitoring with Azure and Grafana"
 categories = ["Video", "Grafana", "Talks"]
-draft = true
 +++
 
 # Monitoring with Azure and Grafana
