@@ -15,11 +15,12 @@ draft = true
 
 **What is whitebox monitoring?**
 
-**What are some of the common monitoring tools and technologies?**
+**Why do we monitor our systems?**
 
 **What is the Azure Monitor plugin and how can I use it to monitor my Azure resources?**
 
-Recently, I spoke at Swetugg 2018, a .NET conference held in Stockholm, Sweden to answer these questions and discuss monitoring. In this video you'll learn some basic monitoring concepts, a few of the tools we use to monitor our systems, and get an inside look at the new Azure Monitor plugin for Grafana. The Azure Monitor plugin allows you to combine Azure resource metrics from Azure Monitor and live application data from Applications Insights in one graph! 
+
+Recently, I spoke at Swetugg 2018, a .NET conference held in Stockholm, Sweden to answer these questions and discuss monitoring. In this video you'll learn some basic monitoring principles, some of the tools we use to monitor our systems, and get an inside look at the new Azure Monitor plugin for Grafana. The Azure Monitor plugin allows you to combine Azure resource metrics from Azure Monitor and live application data from Applications Insights in one graph! 
 
 #### We'll cover: 
 * A live demo the Azure Monitor plugin and a few example dashboards 
@@ -28,7 +29,7 @@ Recently, I spoke at Swetugg 2018, a .NET conference held in Stockholm, Sweden t
 
 After the demo, we get more technical and look at how to develop our own custom integrations with Grafana. Using the Simple JSON Data Source plugin for Grafana as a starting point, we build a simple backend integration using ASP.NET Core MVC. 
 
-I hope you enjoy this talk. If you have any questions or feedback, feel free to contact me at the official Grafana [community site](http://community.grafana.com).
+I hope you enjoy this talk. If you have any questions or feedback, feel free to contact me at the Grafana [community site](http://community.grafana.com).
 
 
 <div class="video-wrapper">

@@ -1,7 +1,7 @@
 +++
 title = "Running a Power Plant with Grafana"
-author = "daniellee"
-date = "2018-05-21"
+author = "jdam"
+date = "2018-05-31"
 keywords = ["Grafana", "Blog", "Azure", "Azure Monitor", "Plugins", "Conference", "Video"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
