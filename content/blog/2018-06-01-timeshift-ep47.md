@@ -11,7 +11,7 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-We cover a lof of ground this week with posts on general monitoring principles, home automation, how CERN uses open source projects in their particle acceleration work, and more. Have an article you'd like highlighted here? [Get in touch](mailto:hello@grafana.com).
+We cover a lot of ground this week with posts on general monitoring principles, home automation, how CERN uses open source projects in their particle acceleration work, and more. Have an article you'd like highlighted here? [Get in touch](mailto:hello@grafana.com).
 
 We're excited to be a sponsor of [Monitorama PDX](http://monitorama.com) June 4-6. If you're going, please be sure and say hello!
 <br />
@@ -34,7 +34,7 @@ We're excited to be a sponsor of [Monitorama PDX](http://monitorama.com) June 4-
 <hr />
 
 #### From the Blogosphere
-[**[Video] Monitoring with Azure and Grafana**](https://grafana.com/blog/2018/05/31/monitoring-with-azure-and-grafana/?utm_source=blog&utm_campaign=timeshift_47): Grafana Labs principal engineer Daniel Lee gave a presentation recently to answer the questions: Why do we monitor our systems? What is whitebox monitoring? What is the Azure Monitor plugin and how can I use it to monitor my Azure resources? After covering some of the basic priciples of monitoring, he dives into the new Azure Monitor plugin and shows you how to create your own Grafana plugins.
+[**[Video] Monitoring with Azure and Grafana**](https://grafana.com/blog/2018/05/31/monitoring-with-azure-and-grafana/?utm_source=blog&utm_campaign=timeshift_47): Grafana Labs principal engineer Daniel Lee gave a presentation recently to answer the questions: Why do we monitor our systems? What is whitebox monitoring? What is the Azure Monitor plugin and how can I use it to monitor my Azure resources? After covering some of the basic principles of monitoring, he dives into the new Azure Monitor plugin and shows you how to create your own Grafana plugins.
 
 [**How CERN Is Using Linux and Open Source**](https://www.linux.com/blog/2018/5/how-cern-using-linux-open-source): The European Organization for Nuclear Research is a champion for open source software. Instead of inventing and maintaining their own solutions, they leverage the previous work of open source projects that are solving similar challenges and contribute back to the project to strengthen the community. CERN is a big user of Grafana and spoke at our most recent conference. Check out the presentation on [Monitoring at CERN](https://www.youtube.com/watch?v=ksjDBjApl6Q).
 
@@ -44,7 +44,7 @@ We're excited to be a sponsor of [Monitorama PDX](http://monitorama.com) June 4-
 
 [**Building Automation with Open Source Components**](https://www.hackster.io/stefaanv/building-automation-with-open-source-components-327b68): We've seen an increase in articles from people using Grafana to track data from their smart homes (we even had a [talk](https://www.youtube.com/watch?v=wtna51BLYMc) at GrafanaCon EU on the subject). Stefaan chronicles his journey to perfect his home automation system using open source software in an attempt to save money and the planet.
 
-[**LoRa-Tooth: Small Wireless Sensors**](http://www.instructables.com/id/LoRa-Tooth-Small-Wireless-Sensors/): Another article on home automation and data visualization in Grafana. In this detailed post, you'll learn about different kinds of sensors (open/close sensors for doors and windows, temperature/humidity sensors, beacon location sensor, simple buttons, etc), and see demos of them in action with the dashboards updating in real-time. Really interesting stuff. The dogfood level sensor would have come in handy for me last week, when we found out we double-fed the dog (he didn't seem to mind).
+[**LoRa-Tooth: Small Wireless Sensors**](http://www.instructables.com/id/LoRa-Tooth-Small-Wireless-Sensors/): Another article on home automation and data visualization in Grafana. In this detailed post, you'll learn about different kinds of sensors (open/close sensors for doors and windows, temperature/humidity sensors, beacon location sensor, simple buttons, etc), and see demos of them in action with the dashboards updating in real-time. Interesting stuff. The dog food level sensor would have come in handy for me last week, when we found out we double-fed the dog (he didn't seem to mind).
 
 [**Cloudprober: open source black-box monitoring software**](https://opensource.googleblog.com/2018/03/cloudprober-open-source-black-box.html): A post about getting up and running with Google's open source project Cloudprober which monitors the availability and performance of various components of your system. Cloudprober builds and exports standard metrics, and provides a way to easily integrate them with your existing monitoring stack.
 
