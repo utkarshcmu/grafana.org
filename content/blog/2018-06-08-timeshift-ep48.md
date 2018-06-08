@@ -26,7 +26,7 @@ Also this week we released Grafana v5.2.0-beta1 and... <strong>Elasticsearch ale
 		<p>In addition to Elasticsearch alerting, we have a number of other enhancements including:
 		</p>
 		<ul>
-			<li>Cross platform build support</li> 
+			<li>Downloads now available for ARM, Mac platforms</li>
 			<li>Improved Docker image</li> 
 			<li>Prometheus improvements</li>
 			<li>Discord alert notifications</li>
