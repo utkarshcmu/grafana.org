@@ -142,7 +142,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 			We scour Twitter each week to find an interesting/beautiful dashboard or monitoring related tweet and show it off! <a href="https://twitter.com/hashtag/monitoringlove?src=hash" target="_blank">#monitoringLove</a>
 			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Moved some of our <a href="https://twitter.com/grafana?ref_src=twsrc%5Etfw">@grafana</a> panels from Graph to Heatmap, much more informative 📊🧐 <a href="https://twitter.com/hashtag/dataviz?src=hash&amp;ref_src=twsrc%5Etfw">#dataviz</a> <a href="https://t.co/OJeeAPZ637">pic.twitter.com/OJeeAPZ637</a></p>&mdash; Michael Arndt (@MeneDev) <a href="https://twitter.com/MeneDev/status/1007309953504366594?ref_src=twsrc%5Etfw">June 14, 2018</a></blockquote>
 			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			<p>Glad you're liking the Heatmap Panel - fascinating to see how the same information displayed differently can really contextualize your data.</p>
+			<p>Glad you're liking the <a href="https://grafana.com/plugins/heatmap" target="_blank">Heatmap Panel</a> - fascinating to see how the same information displayed differently can really contextualize your data.</p>
 		</div>
 	</div>
 </div>
