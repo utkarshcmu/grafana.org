@@ -13,9 +13,10 @@ draft = true
 
 # Evolution of Telemtry at Bloomberg
 
-With 5,000 engineers, 325,000 customers running its software, 2 data centers fully owned and operated, 200 node sites around the world, and a diverse architecture developed over almost four decades, Bloomberg has that many reasons to be committed to monitoring. 
+![Sean Hanson and Stig Sorensen](/assets/img/blog/sean_and_stig.jpg)
 
-And as Stig Sorensen and Sean Hanson described during their GrafanaCon EU talk, the company has taken a long, winding—and ongoing—journey to achieve the robust telemetry they have now.
+With 5,000 engineers, 325,000 customers running its software, 2 data centers fully owned and operated, 200 node sites around the world, and a diverse architecture developed over almost four decades, Bloomberg has that many reasons to be committed to monitoring. And as Stig Sorensen and Sean Hanson described during their GrafanaCon EU talk, the company has taken a long, winding—and ongoing—journey to achieve the robust telemetry they have now.
+
 For a long time, developers were responsible for monitoring the products they built and deployed, and for many, it was just an afterthought, “mostly built as minimum viable products,” said Hanson. This created problems company-wide, he added: “There was no global view of where any data lived. Multiple systems were collecting data, and a lot of it was overlapping and collected slightly differently. If you wanted to join any of this data together, you had to write a lot of glue code that was one-off and you threw it away.”
 
 The massive duplication of efforts across the company resulted in “a bunch of differently-shaped wheels, and some were square instead of round.” But perhaps the biggest issue, Hanson pointed out, was that “a lot of these technologies leaned on the things they were trying to monitor.”
@@ -31,6 +32,8 @@ To accommodate the growth that was projected, the team tried to put the existing
 
 Taking user feedback, the team tried to develop a solution that made sense for the use cases. Feature requests included basic functions to allow derived metric calculations, configurable retention, and metadata queries. “We started going down the path of writing our own time series of database, which is exactly what the world needed,” Hanson joked.
 
+<q class="quote">Running a monitoring system at scale is pretty much an arms race with your users. As soon as you give them a feature, they love it, they forget they never had it, and they want more.<span style="float:right; font-weight:bold; margin-top:10px; margin-right:10px; padding-bottom:20px;"> –Sean Hanson, Bloomberg</span><br /></q>
+
 Luckily, Sorensen had been talking to the Grafana team, and told Hanson about MetricTank. “It checked off almost everything on our list,” said Hanson. “And for high cardinality data that was like the killer in our last system, it was two orders of magnitude faster. So that was pretty big for us. That opened up a lot of queries we weren’t able to do before, especially things that involved firm-wide queries, being able to do analysis on, say, all of the parent clusters, comparing them this week to last week’s CPU usage, things like that. We had to write Python scripts for our last thing that kind of went bit by bit and took hours to run, and now we could do it in a single query.”
 Other features that were initially missing, but that Bloomberg needed, like tags, were soon added. “We ran it at scale at Bloomberg, published all our data into it,” said Hanson. “There were a few spots where it used quite a bit of resources, and most of it was low hanging fruit. We were able to just remove some pointers or strings or whatever and contribute it back, and now it’s running pretty smoothly.”
 Of course, the journey continues. “Running a monitoring system at scale is pretty much an arms race with your users,” said Hanson. “As soon as you give them a feature, they love it, they forget they never had it, and they want more.”
@@ -42,7 +45,8 @@ Looking back at the evolution of telemetry at Bloomberg, Hanson had this advice 
 * “Always abstract your integration points.”
 * “Make it easy for people to use. We didn’t have to force any of the migrations over. We just made a better system than they had, and people were able to opt into it.”
 
-
+#### Watch the full presentation in the video below:
 <div class="video-wrapper">
 	<iframe src="https://www.youtube.com/embed/v6AoyEovSa4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
+#### Download the [presentation slides](https://grafana.com/files/grafanacon_eu_2018/Bloomberg_GrafanaCon_EU_2018.pdf).

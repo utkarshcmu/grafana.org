@@ -73,6 +73,16 @@ q.quote {
     margin-right: 0.25em;
     vertical-align: -0.4em;
   }
+
+  &:after{
+    color: $text-color;
+    content: close-quote;
+    font-size: 5em;
+    font-family: serif;
+    line-height: 0;
+    margin-right: 0.25em;
+    vertical-align: -50px;
+  }
 }
 
 .blog-list-item {

@@ -1,7 +1,7 @@
 +++
 title = "Running a Power Plant with Grafana"
 author = "jdam"
-date = "2018-06-18"
+date = "2018-06-20"
 keywords = ["Grafana", "Blog", "Azure", "Azure Monitor", "Plugins", "Conference", "Video"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
@@ -42,7 +42,7 @@ One of the most popular Grafana graphs within Natel is one that tracks licenses 
 
 Off-the-shelf there wasn’t a  solution that could serve all of the new system’s needs, but McKinley was able to “tick off all the boxes” through Grafana’s powerful plugin infrastructure. And so Natel is contributing back to the open source community. “We have used Grafana all over the company,” McKinley said. “My goal has always been: Grafana has built some great tools for us. Our business is not building a graph, so let’s get it out there [to the community].” 
 
-See all of [Natel’s Grafana plugins](https://grafana.com/orgs/natel).
+See all of [Natel Energy’s Grafana plugins](https://grafana.com/orgs/natel).
 
 
 #### Watch the full presentation in the video below:
