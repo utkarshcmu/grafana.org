@@ -18,7 +18,7 @@ A water and energy innovation company founded in 2005, Natel Energy builds hydro
 
 “It’s a different model for turbine than you’re used to seeing,” McKinley said. “Typically you’ve got a wheel that spins. [Our turbine aims] to capture more flow out of lower head sites, with the result of being able to have equivalent amounts of power production with less environmental consequences.”
 
-In a series of slides, McKinley shared what the UI for one Oregon plant’s industrial controls looked like when he started at the company. “I don’t know if you guys have seen industrial control UIs, they start to look like this,” he said, pointing to page after page of charts. “OK, we need some buttons, let’s add some buttons to it. Oh here’s some more... Oh man. This thing’s kind of a disaster.”
+McKinley shared what the UI for one Oregon plant’s industrial controls looked like when he started at the company. “I don’t know if you guys have seen industrial control UIs, they start to look like this,” he said, pointing to page after page of charts. “OK, we need some buttons, let’s add some buttons to it. Oh here’s some more... Oh man. This thing’s kind of a disaster.”
 
 ![Natel's Previous Dashboard](/assets/img/blog/natel_dashboard.jpg)
 <br />
