@@ -2,7 +2,7 @@
 title = "Running a Power Plant with Grafana"
 author = "jdam"
 date = "2018-06-20"
-keywords = ["Grafana", "GrafanaCon", Blog", "Pwer Plant", "Natel Energy", "Plugins", "Conference", "Video"]
+keywords = ["Grafana", "GrafanaCon", "Blog", "Power Plant", "Natel Energy", "Plugins", "Conference", "Video"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
