@@ -14,7 +14,7 @@ categories = ["timeShift", "Grafana Buzz"]
 **TimeShift is turning 1 year old!** I really hope you've enjoyed reading these weekly roundups as much as I've enjoyed writing them. This week we have news on the new Grafana v5.2.0-beta3 release, a bunch of plugin updates to share, and your regular dose of recent blog posts. 
 
 Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailto:hello@grafana.com).
-<!--more-->
+
 <br />
 <hr />
 
@@ -58,7 +58,7 @@ Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailt
 <hr />
 
 #### From the Blogosphere
-[**Grafana and Flux**](https://www.youtube.com/watch?v=oZYXQPNR8Bc): David Kaltschmidt recently spoke at InfluxDays London to talk about the new Flux(formerly IFQL) support in Grafana. In this video from his talk, David gives a quick overview of the language features as well as the moving parts for a working deployment. He also demos the new Flux data source plugin in Grafana and releases it to the public live on stage, without a net! [Give the new plugin a try](https://github.com/grafana/influxdb-flux-datasource) and let us know what you think.
+[**Grafana and Flux**](https://www.youtube.com/watch?v=oZYXQPNR8Bc): David Kaltschmidt recently spoke at InfluxDays London to talk about the new Flux (formerly IFQL) support in Grafana. In this video from his talk, David gives a quick overview of the language features as well as the moving parts for a working deployment. He also demos the new Flux data source plugin in Grafana and releases it to the public live on stage, without a net! [Give the new plugin a try](https://grafana.com/plugins/grafana-influxdb-flux-datasource?utm_source=blog&utm_campaign=timeshift_50) and let us know what you think.
 
 [**X-Axis (time) threshold support in graph panel**](https://github.com/grafana/grafana/pull/12371): Core Grafana developer Marcus Efraimsson submitted a pull request that allows you to color code time ranges. With these ranges highlighted by color, you can scan the data to easily identify patterns. It still needs some work, but we encourage you to give it a try and provide feedback.
 
