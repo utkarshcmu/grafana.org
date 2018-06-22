@@ -62,7 +62,7 @@ Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailt
 
 [**X-Axis (time) threshold support in graph panel**](https://github.com/grafana/grafana/pull/12371): Core Grafana developer Marcus Efraimsson submitted a pull request that allows you to color code time ranges. With these ranges highlighted by color, you can scan the data to easily identify patterns. It still needs some work, but we encourage you to give it a try and provide feedback.
 
-[**VividCortex & Grafana: Better Together**](https://www.vividcortex.com/blog/vividcortex-grafana-better-together): You can now visualize VividCortex data in Grafana. One of the most loved features of Grafana is regardless of where your data lives, you can visualize it easily on the same dashboard or even in the same graph. Grafana supports over [40 data sources](https://grafana.com/plugins?type=datasource&utm_source=blog&utm_campaign=timeshift_50) and the list growing! 
+[**VividCortex & Grafana: Better Together**](https://www.vividcortex.com/blog/vividcortex-grafana-better-together): You can now visualize VividCortex data in Grafana. One of the most loved features of Grafana is regardless of where your data lives, you can visualize it easily on the same dashboard or even in the same graph. Grafana supports over [40 data sources](https://grafana.com/plugins?type=datasource&utm_source=blog&utm_campaign=timeshift_50) and the list is growing! 
 
 [**Prometheus and Grafana**](https://medium.com/@salohyprivat/prometheus-and-grafana-d59f3b1ded8b): If you're new to Grafana and Prometheus, or monitoring in general, this little article will help you configure and install the components in a Docker container and have you up and running in no time. 
 
