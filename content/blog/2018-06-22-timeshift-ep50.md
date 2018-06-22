@@ -14,7 +14,7 @@ categories = ["timeShift", "Grafana Buzz"]
 **TimeShift is turning 1 year old!** I really hope you've enjoyed reading these weekly roundups as much as I've enjoyed writing them. This week we have news on the new Grafana v5.2.0-beta3 release, a bunch of plugin updates to share, and your regular dose of recent blog posts. 
 
 Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailto:hello@grafana.com).
-
+<!--more-->
 <br />
 <hr />
 
