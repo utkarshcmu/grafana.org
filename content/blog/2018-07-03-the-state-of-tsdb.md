@@ -1,7 +1,7 @@
 +++
 title = "GrafanaCon Recap: The State of TSDB"
 author = "jdam"
-date = "2018-05-31"
+date = "2018-07-03"
 keywords = ["Grafana", "Blog", "Azure", "Azure Monitor", "Plugins", "Conference", "Video"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
@@ -14,10 +14,10 @@ draft = true
 # GrafanaCon Recap: The State of TSDB
 
 ![GrafanaCon TSDB Panel](/assets/img/blog/tsdb_panel.jpg)
+<small>From left to right: Erik Nordstrom – Timescale, Dan Cech – Graphite, Paul Dix – InfluxDB, Tom Wiklie – Prometheus</small>
 
-
-At GrafanaCon EU, we gathered representatives of the Graphite, Prometheus, InfluxDB, and Timescale projects in the hopes of starting a spirited conversation about the current state of Time Series Databases. They didn’t disappoint.
-Here are a few highlights from the TSDB panel featuring Paul Dix from InfluxDB, Erik Nordstrom from Timescale, Dan Cech from Graphite, and Tom Wilkie from Prometheus, and moderated by Grafana Labs CEO Raj Dutt.
+At GrafanaCon EU, we gathered representatives of the Graphite, Prometheus, InfluxDB, and Timescale projects in the hopes of starting a spirited conversation about the current state of Time Series Databases. They didn’t disappoint!
+Here are a few highlights from the TSDB panel featuring Erik Nordstrom from Timescale, Dan Cech from Graphite, Paul Dix from InfluxDB, and Tom Wilkie from Prometheus, and moderated by Grafana Labs CEO Raj Dutt.
 
 #### Functional vs. SQL query languages: Discuss.
 
@@ -36,7 +36,8 @@ Here are a few highlights from the TSDB panel featuring Paul Dix from InfluxDB, 
 **Wilkie:** “I think there is a reason that Prometheus is popular and the Prometheus query language is popular, especially in the monitoring and observability space. Because it represents a really nice set of tradeoffs between conciseness and expressiveness.” 
 
 **Cech:** “I think a lot of what’s going on with Graphite and with Influx as well is [about] giving people a choice… I don’t think you can say there’s going to be the one query language to rule them all. And that’s what we’ve all been getting at on this panel: that the different languages have different strengths, different weaknesses, and you have to pick the best for the job.”
-Has not having commercial backing been a liability or a strength for Prometheus?
+
+#### Has not having commercial backing been a liability or a strength for Prometheus?
 
 **Wilkie:** “At SoundCloud, Prometheus wasn’t core business to them and they kind of let it go. That was brilliant. It really did allow for this ecosystem of companies to develop around Prometheus... The requirement to be commercially successful if you’re VC-funded is huge. With the Prometheus project, we actively discourage discussion about that kind of thing. We want to make sure we’re limiting, artificially almost, the scope of the Prometheus project, like preventing feature creep, to give room for other solutions.”
 
@@ -52,7 +53,8 @@ Has not having commercial backing been a liability or a strength for Prometheus?
 
 **Cech:** “Putting my Grafana contributor hat back on, there’s a lot that we’re doing on the Grafana side to support websocket connections from the browser back up to the server, and there’s definitely a pathway there, to being able to turn that around, and say, let Grafana tell the Time Series Database that I want to subscribe to this particular query, please keep me up to date. And have it pushed up back down the other way. I think there’s a lot of really interesting stuff to be done to make things smarter.”
 
-**Dutt:** “Despite the fact we’re working on different projects, one of the things we believe a lot at Grafana Labs is there’s always room for more interoperability and collaboration. I think I see unanimous nods.”
+#### Key Takeaway
+Diffrent TSDBs have different query languages that come with their own strengths and weaknesses. You don't have to stick with just one - choose the best tool for the job. Despite the fact we may be working on different projects, one of the things we believe a lot at Grafana Labs is there’s always room for more interoperability and collaboration.
 
 
 #### Watch the full panel discussion in the video below:

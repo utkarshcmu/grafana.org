@@ -1,7 +1,7 @@
 +++
 title = "Evolution of Telemtry at Bloomberg"
 author = "jdam"
-date = "2018-06-26"
+date = "2018-06-28"
 keywords = ["Grafana", "Blog", "Azure", "Azure Monitor", "Plugins", "Conference", "Video"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
