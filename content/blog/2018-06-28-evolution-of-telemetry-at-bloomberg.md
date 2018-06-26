@@ -1,5 +1,5 @@
 +++
-title = "Evolution of Telemtry at Bloomberg"
+title = "Evolution of Telemetry at Bloomberg"
 author = "jdam"
 date = "2018-06-28"
 keywords = ["Grafana", "Blog", "Azure", "Azure Monitor", "Plugins", "Conference", "Video"]
@@ -10,8 +10,6 @@ description = "Stig Sorensen and Sean Hanson describe the windingâ€”and ongoingâ
 categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
 draft = true
 +++
-
-# Evolution of Telemtry at Bloomberg
 
 ![Sean Hanson and Stig Sorensen](/assets/img/blog/sean_and_stig.jpg)
 <small>From left to right: Sean Hanson and Stig Sorensen</small>

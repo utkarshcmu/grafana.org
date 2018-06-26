@@ -11,8 +11,6 @@ categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
 draft = true
 +++
 
-# GrafanaCon Recap: The State of TSDB
-
 ![GrafanaCon TSDB Panel](/assets/img/blog/tsdb_panel.jpg)
 <small>From left to right: Erik Nordstrom – Timescale, Dan Cech – Graphite, Paul Dix – InfluxDB, Tom Wiklie – Prometheus</small>
 
