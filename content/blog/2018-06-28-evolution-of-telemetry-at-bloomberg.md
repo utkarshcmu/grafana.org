@@ -14,6 +14,7 @@ draft = true
 # Evolution of Telemtry at Bloomberg
 
 ![Sean Hanson and Stig Sorensen](/assets/img/blog/sean_and_stig.jpg)
+<small>From left to right: Sean Hanson and Stig Sorensen</small>
 
 #### Monitoring in the wild west
 With 5,000 engineers, 325,000 customers running its software, 2 data centers fully owned and operated, 200 node sites around the world, and a diverse architecture developed over almost four decades, Bloomberg has that many reasons to be committed to monitoring. And as Stig Sorensen, Bloomberg's Head of Telemetry and Software Developer Sean Hanson described during their GrafanaCon EU talk, the company has taken a long, winding and ongoing journey to achieve the robust telemetry they have now.
