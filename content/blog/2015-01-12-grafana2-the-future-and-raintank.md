@@ -98,7 +98,7 @@ The features that the backend will enable in Grafana 2.0 will initially be:
 - Can also use mysql or postgres as database
 - Multi-tenant user accounts and authorization (can be disabled)
  - User & password
- - Github OAuth
+ - GitHub OAuth
  - Google OAuth
  - LDAP integration
 - Server side rendering of panels to PNG images

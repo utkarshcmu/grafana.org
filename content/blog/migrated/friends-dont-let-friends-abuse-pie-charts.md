@@ -11,7 +11,7 @@ aliases:
   - /friends-dont-let-friends-abuse-pie-charts/
 ---
 
-Pie charts have been a popular feature request for Grafana, both on our Github as well as at conferences and customer meetings.  We'll hear things like "We love Grafana, but we need pie charts for the business guys to use it", usually accompanied by an eye roll or sigh.
+Pie charts have been a popular feature request for Grafana, both on our GitHub as well as at conferences and customer meetings.  We'll hear things like "We love Grafana, but we need pie charts for the business guys to use it", usually accompanied by an eye roll or sigh.
 
 We agree. Pie charts are terrible, but they have such a bad rap because people **constantly** use them incorrectly. We find ourselves having long conversations exploring the vice and virtue of the lowly pie chart, and here's our perspective.
 
@@ -60,7 +60,7 @@ Immediately, you are able to see the difference between Quarter 3 of 2014 and Qu
 ###### Pies aren't meant to grow
 Grafana is alive! Your query may only have a couple series when you create the dashboard, but you don't always have control over how it may grow. If that query ends up with more series over time, you've created a visualization  that cannot scale with your data.
 
-Pie charts obstruct data when there are more than 2-3 clearly defined segments. Anything more and it becomes nearly impossible to quickly discern the differences in values. Using that same Github issue, let's look at the density of comments by user:
+Pie charts obstruct data when there are more than 2-3 clearly defined segments. Anything more and it becomes nearly impossible to quickly discern the differences in values. Using that same GitHub issue, let's look at the density of comments by user:
 
 ![img](/assets/img/blog/migrated/CrazyPie.png)
 
@@ -89,7 +89,7 @@ So when pie charts are eventually added to Grafana, it will be important to help
 
 Or maybe for that one metric, on that one day, the best visualization really **is** a pie chart. And if anyone gives you a hard time about it, you can feel confident telling 'em why.
 
-*When will pie charts come to Grafana? Keep an eye on the [Github Issue](https://github.com/grafana/grafana/issues/568).*
+*When will pie charts come to Grafana? Keep an eye on the [GitHub Issue](https://github.com/grafana/grafana/issues/568).*
 
 <span style="font-size: 85%;">For further reading:</span>
 
