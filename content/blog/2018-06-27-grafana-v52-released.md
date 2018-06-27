@@ -13,7 +13,7 @@ categories = ["Release", "Grafana"]
 
 The recent 5.1 release focused on smoothing out the rough edges from the 5.0 release. The major highlights of the Grafana 5.2 release are these two much-requested, long-awaited features:
 
-- **Support for alerting on Elasticsearch queries**
+- **Elasticsearch alerting**
 - **Native Grafana builds for ARM**
 
 <a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=v52" target="_blank" class="btn btn--primary">Download Grafana 5.2 Now</a>
