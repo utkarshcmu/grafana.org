@@ -1,7 +1,7 @@
-Grafana.org website
+# Grafana.org website
 
 
-To build
+## To build
 
 - npm install
 - npm install -g bower  (if you do not have bower installed)
@@ -19,6 +19,26 @@ curl -sSL https://github.com/gohugoio/hugo/releases/download/v0.30.2/hugo_0.30.2
 - grunt connect: starts dev web server on port 3002 (must always be running to be able to run blog locally)
 - grunt watch: will do partial rebuild when modifying sass/html/md files
 
-To build the Docker image for docs:
+## To build the Docker image for docs:
 
 make docs-build
+
+## To publish
+
+```bash
+sudo pip install awscli
+```
+
+You'll need a awsconfig as well. Ask and you should find.
+
+### To staging
+
+```bash
+./publish.sh
+```
+
+### To production
+
+```bash
+./publish.sh prod
+```
