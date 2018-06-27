@@ -48,8 +48,11 @@ the most requested features by our community and now it's finally here. Please t
 ## Native builds for ARM
 
 Grafana v5.2 brings an improved build pipeline with cross-platform support. This enables native builds of Grafana for ARMv7 (x32) and ARM64 (x64).
-We've been longing for native ARM build support for ages. With the help from our amazing community this is now finally available.
 Please try it out and let us know what you think.
+
+We've been longing for native ARM build support for ages. With the help from our amazing community this is now finally available. We would like
+to especially thank [fg2it](https://github.com/fg2it) for maintaining the unofficial Grafana ARM builds for the last 2 years and for all his
+work on the cross-platform support.
 
 Another great addition with the improved build pipeline is that binaries for MacOS/Darwin (x64) and Windows (x64) are now automatically built and
 published for both stable and nightly builds.
@@ -57,7 +60,7 @@ published for both stable and nightly builds.
 ## Improved Docker image
 
 The Grafana docker image adds support for Docker secrets which enables you to supply Grafana with configuration through files. More
-information in the [Installing using Docker documentation](/installation/docker/#reading-secrets-from-files-support-for-docker-secrets).
+information in the [Installing using Docker documentation](http://docs.grafana.org/installation/docker/#reading-secrets-from-files-support-for-docker-secrets).
 
 ## Security
 
