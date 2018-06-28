@@ -6,9 +6,8 @@ keywords = ["Grafana", "Blog", "Azure", "Azure Monitor", "Plugins", "Conference"
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
-description = "Stig Sorensen and Sean Hanson describe the winding—and ongoing—journey to achieve the robust telemetry they have now"
+description = "Stig Sorensen and Sean Hanson describe Bloomberg's winding, and ongoing journey to achieve the robust telemetry they have now"
 categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
-draft = true
 +++
 
 ![Sean Hanson and Stig Sorensen](/assets/img/blog/sean_and_stig.jpg)
