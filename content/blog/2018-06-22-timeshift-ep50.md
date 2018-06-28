@@ -49,7 +49,7 @@ Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailt
 		</ul>
 		<p>Please try the new beta release out and let us know what you think. <a href="https://community.grafana.com/t/release-notes-v5-2-x/7894?utm_source=blog&utm_campaign=timeshift_50" target="_blank">Check out everything that's new in Grafana v5.2</a>. 
 		</p>
-		<a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_50" target="_blank" class="btn btn--primary">Download Grafana 5.2.0-beta3 Now</a>
+		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_50" target="_blank" class="btn btn--primary">Download Grafana 5.2.0-beta3 Now</a>
 	</div>
 </div>
 
