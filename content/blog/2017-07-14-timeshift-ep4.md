@@ -17,7 +17,7 @@ The summer seems to be flying by! This week's timeShift has a lot of great artic
 #### From the Blogosphere
 - [**Democratizing Metrics with Grafana**](https://speakerdeck.com/alexanderzobnin/democratize-metrics-with-grafana): Grafana Labs software developer Alexander Zobnin, recently gave a great talk at the Big Monitoring Meetup in St. Petersburg, Russia. This was a comprehensive talk covering the Grafana Labs culture and the history of the open source project, and took a deep dive into templating, scripted dashboards, how plugins work, the alerting engine and what's coming in vNext. Highly recommend you check out his slides.
 
-- [**Kubernetes, Prometheus and Grafana**](https://labs.commercetools.com/kubernetes-prometheus-and-grafana-974372008caf): In this blog post + video, Thaddeus Elms explores autoscaling in Kubernetes and monitoring the environment when placed under heavy load.
+- [**Kubernetes, Prometheus and Grafana**](https://www.youtube.com/watch?v=2h9mNMpgY58): In this blog post + video, Thaddeus Elms explores autoscaling in Kubernetes and monitoring the environment when placed under heavy load.
 
 - [**Export/backup all Grafana dashboards at once**](https://blog.dictvm.org/export-all-grafana-graphs/): Daniel shows off [grafcli](https://github.com/m110/grafcli) - a Grafana command line tool written in Python that can export all of your dashboards at once.
 
