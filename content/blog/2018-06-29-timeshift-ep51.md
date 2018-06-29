@@ -11,9 +11,9 @@ categories = ["timeShift", "Grafana Buzz"]
 +++
 
 ### Welcome to TimeShift
-With summer holidays approaching and upcoming vacations on the calendar, TimeShift is going to take next week off, so we look forward to returning the week after next. 
+With summer holidays approaching and upcoming vacations on the calendar, TimeShift is going to take next week off. We look forward to returning the week after next. 
 
-We're proud to announce Grafana v5.2.1 stable is now available! Learn more and download the new stable release below, install the latest plugin updates, and check out this week's collection of articles from around the web. Enjoy!
+This week we're proud to announce Grafana v5.2.1 stable is now available! Learn more and download the new stable release below, install the latest plugin updates, and check out this week's collection of articles from around the web. Enjoy!
 
 Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailto:hello@grafana.com).
 
@@ -49,7 +49,7 @@ Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailt
 <hr />
 
 #### From the Blogosphere
-[**Evolution of Telemetry at Bloomberg**](https://grafana.com/blog/2018/06/28/evolution-of-telemetry-at-bloomberg): This recap from GrafanaCon EU takes us through the twists and turns a company at the scale of Bloomberg has taken to achieve the robust monitoring system they have now. [Watch the entire presentation](https://youtu.be/v6AoyEovSa4) and [download the slides](https://grafana.com/files/grafanacon_eu_2018/Bloomberg_GrafanaCon_EU_2018.pdf).
+[**Evolution of Telemetry at Bloomberg**](https://grafana.com/blog/2018/06/28/evolution-of-telemetry-at-bloomberg): This recap from GrafanaCon EU takes us through the twists and turns a company at the scale of Bloomberg has taken to achieve the robust monitoring system they have now. You can also [watch the entire presentation](https://youtu.be/v6AoyEovSa4) and [download the slides](https://grafana.com/files/grafanacon_eu_2018/Bloomberg_GrafanaCon_EU_2018.pdf).
 
 [**Be a Grafana/Graphite Power User**](https://www.hidefsoftware.co.uk/2018/06/28/be-a-grafana-power-user/): Knowing the basics of a tool doesn't prevent you from experiencing [frustrating issues and gotchas](https://grafana.com/blog/2016/03/03/25-graphite-grafana-and-statsd-gotchas/) from time to time. Robert put together a list of recommendations that should get you well on your way to becoming a Graphite and Grafana power user.
 
@@ -59,7 +59,7 @@ Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailt
 
 [**Monitoring HiveMQ with Prometheus and Grafana**](https://www.hivemq.com/blog/monitoring-hivemq-prometheus): Learn how to install and configure Prometheus and Grafana for monitoring HiveMQ metrics.
 
-[**Spring Boot Actuator metrics monitoring with Prometheus and Grafana**](https://www.callicoder.com/spring-boot-actuator-metrics-monitoring-dashboard-prometheus-grafana/): In [part 1](https://www.callicoder.com/spring-boot-actuator/) Rajeev covered what a spring-boot-actuator module does and how to configure it in a Spring Boot application. This article will teach you how to add monitoring to your Spring Boot application.
+[**Spring Boot Actuator Metrics Monitoring with Prometheus and Grafana**](https://www.callicoder.com/spring-boot-actuator-metrics-monitoring-dashboard-prometheus-grafana/): In [part 1](https://www.callicoder.com/spring-boot-actuator/) Rajeev covered what a spring-boot-actuator module does and how to configure it in a Spring Boot application. This article will teach you how to add monitoring to your Spring Boot application.
 
 
 [**Check Output Metric Extraction with InfluxDB & Grafana**](http://blog.sensu.io/check-output-metric-extraction-with-influxdb-grafana): At Grafana Labs we believe strongly in interoperability to provide a tool to monitor your data no matter where it lives – a value also shared by our friends at Sensu. This article discusses how to connect different tools together and visualize the data in Grafana to create a custom monitoring solution. 
@@ -95,7 +95,7 @@ We have two new visualization panels to share as well as updates to the Worldmap
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
-				<strong>Traffic Lights Panel</strong> - This new multistat visualizes thresholds for multiple metrics using traffic lights. With one query, you can see the status of multiple servers for example.
+				<strong>Traffic Lights Panel</strong> - This new multistat visualizes thresholds for multiple metrics using traffic lights. With one query, you can see the status of multiple servers, for example.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/snuids-trafficlights-panel?utm_source=blog&utm_campaign=timeshift_51" target="_blank"><strong>Install</strong></a>
