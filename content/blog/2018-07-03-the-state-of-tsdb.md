@@ -16,7 +16,7 @@ excerpt = "At GrafanaCon EU, we gathered representatives of the Graphite, Promet
 <small>From left to right: Erik Nordstrom – Timescale, Dan Cech – Graphite, Paul Dix – InfluxDB, Tom Wiklie – Prometheus</small>
 
 At GrafanaCon EU, we gathered representatives of the Graphite, Prometheus, InfluxDB, and Timescale projects in the hopes of starting a spirited conversation about the current state of Time Series Databases. They didn’t disappoint!
-Here are a few highlights from the TSDB panel featuring Erik Nordstrom from Timescale, Dan Cech from Graphite, Paul Dix from InfluxDB, and Tom Wilkie from Prometheus, and moderated by Grafana Labs CEO Raj Dutt.
+Here are a few highlights from the TSDB panel featuring Erik Nordstrom from Timescale, Dan Cech from Graphite, Paul Dix from InfluxDB, and Tom Wilkie from Prometheus, and moderated by Grafana Labs co-founder and CEO Raj Dutt.
 
 #### Functional vs. SQL query languages: Discuss.
 
