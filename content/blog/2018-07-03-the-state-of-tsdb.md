@@ -8,7 +8,6 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Conference Panel - The State of TSDB"
 categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
-draft = true
 +++
 
 ![GrafanaCon TSDB Panel](/assets/img/blog/tsdb_panel.jpg)
