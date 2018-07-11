@@ -1,7 +1,7 @@
-baseurl = "http://localhost:3002/"
+baseUrl = "https://grafana.com/"
 languageCode = "en-us"
 title = "Grafana Labs Blog"
-canonifyurls = true
+canonifyURLs = true
 relativeURLs = false
 verbose = true
 enableRobotsTXT = true

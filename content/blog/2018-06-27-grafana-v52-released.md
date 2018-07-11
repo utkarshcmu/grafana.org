@@ -7,6 +7,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Grafana 5.2 Stable Release"
 categories = ["Release", "Grafana"]
+excerpt = "The recent 5.1 release focused on smoothing out the rough edges from the 5.0 release. The major highlights of the Grafana 5.2 release are two much-requested, long-awaited features."
 +++
 
 # v5.2 Stable Release

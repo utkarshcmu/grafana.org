@@ -8,10 +8,11 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
+excerpt = "I really hope you've enjoyed reading these weekly roundups as much as I've enjoyed writing them. This week we have news on the new Grafana v5.2.0-beta3 release, a bunch of plugin updates to share, and your regular dose of recent blog posts."
 +++
 
 ### Welcome to TimeShift
-**TimeShift is turning 1 year old!** I really hope you've enjoyed reading these weekly roundups as much as I've enjoyed writing them. This week we have news on the new Grafana v5.2.0-beta3 release, a bunch of plugin updates to share, and your regular dose of recent blog posts. 
+**TimeShift is turning 1 year old!** I really hope you've enjoyed reading these weekly roundups as much as I've enjoyed writing them. This week we have news on the new Grafana v5.2.0-beta3 release, a bunch of plugin updates to share, and your regular dose of recent blog posts.
 
 Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailto:hello@grafana.com).
 
@@ -47,7 +48,7 @@ Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailt
 			<li><strong>Graph</strong>: Fix legend decimals precision calculation <a href="https://github.com/grafana/grafana/issues/11792">#11792</a></li>
 			<li><strong>Dashboard</strong>: Make sure to process panels in collapsed rows when exporting dashboard <a href="https://github.com/grafana/grafana/issues/12256">#12256</a></li>
 		</ul>
-		<p>Please try the new beta release out and let us know what you think. <a href="https://community.grafana.com/t/release-notes-v5-2-x/7894?utm_source=blog&utm_campaign=timeshift_50" target="_blank">Check out everything that's new in Grafana v5.2</a>. 
+		<p>Please try the new beta release out and let us know what you think. <a href="https://community.grafana.com/t/release-notes-v5-2-x/7894?utm_source=blog&utm_campaign=timeshift_50" target="_blank">Check out everything that's new in Grafana v5.2</a>.
 		</p>
 		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_50" target="_blank" class="btn btn--primary">Download Grafana 5.2.0-beta3 Now</a>
 	</div>
@@ -62,9 +63,9 @@ Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailt
 
 [**X-Axis (time) threshold support in graph panel**](https://github.com/grafana/grafana/pull/12371): Core Grafana developer Marcus Efraimsson submitted a pull request that allows you to color code time ranges. With these ranges highlighted by color, you can scan the data to easily identify patterns. It still needs some work, but we encourage you to give it a try and provide feedback.
 
-[**VividCortex & Grafana: Better Together**](https://www.vividcortex.com/blog/vividcortex-grafana-better-together): You can now visualize VividCortex data in Grafana. One of the most loved features of Grafana is regardless of where your data lives, you can visualize it easily on the same dashboard or even in the same graph. Grafana supports over [40 data sources](https://grafana.com/plugins?type=datasource&utm_source=blog&utm_campaign=timeshift_50) and the list is growing! 
+[**VividCortex & Grafana: Better Together**](https://www.vividcortex.com/blog/vividcortex-grafana-better-together): You can now visualize VividCortex data in Grafana. One of the most loved features of Grafana is regardless of where your data lives, you can visualize it easily on the same dashboard or even in the same graph. Grafana supports over [40 data sources](https://grafana.com/plugins?type=datasource&utm_source=blog&utm_campaign=timeshift_50) and the list is growing!
 
-[**Prometheus and Grafana**](https://medium.com/@salohyprivat/prometheus-and-grafana-d59f3b1ded8b): If you're new to Grafana and Prometheus, or monitoring in general, this little article will help you configure and install the components in a Docker container and have you up and running in no time. 
+[**Prometheus and Grafana**](https://medium.com/@salohyprivat/prometheus-and-grafana-d59f3b1ded8b): If you're new to Grafana and Prometheus, or monitoring in general, this little article will help you configure and install the components in a Docker container and have you up and running in no time.
 
 [**Real-time Sailing Yacht Performance - Kafka (Part 2)**](https://www.rittmanmead.com/blog/2018/06/real-time-sailing-yacht-performance-getting-started-part-2/): In this continuing series, Paul is collecting data from his yacht's instrumentation in order to get a true sense of its performance when racing. Part 2 provides a high-level view of the architecture, how to set up Kafka, and includes a preview of the yacht metrics dashboard. Read [part 1](https://www.rittmanmead.com/blog/2018/01/real-time-yacht-performance/) & [Stepping back a bit (Part 1.1)](https://www.rittmanmead.com/blog/2018/06/real-time-sailing-yacht-performance-stepping-back-a-bit-part-1-1/).
 

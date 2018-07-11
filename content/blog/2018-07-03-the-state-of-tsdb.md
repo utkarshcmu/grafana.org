@@ -9,6 +9,7 @@ cover_blur = "1px"
 description = "Conference Panel - The State of TSDB"
 categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
 draft = true
+excerpt = "At GrafanaCon EU, we gathered representatives of the Graphite, Prometheus, InfluxDB, and Timescale projects in the hopes of starting a spirited conversation about the current state of Time Series Databases. They didn’t disappoint!"
 +++
 
 ![GrafanaCon TSDB Panel](/assets/img/blog/tsdb_panel.jpg)
@@ -31,7 +32,7 @@ Here are a few highlights from the TSDB panel featuring Erik Nordstrom from Time
 
 **Dix:** “The thing about Prometheus is by design there’s no commercial company behind it, so of course everybody is in land grab right now.”
 
-**Wilkie:** “I think there is a reason that Prometheus is popular and the Prometheus query language is popular, especially in the monitoring and observability space. Because it represents a really nice set of tradeoffs between conciseness and expressiveness.” 
+**Wilkie:** “I think there is a reason that Prometheus is popular and the Prometheus query language is popular, especially in the monitoring and observability space. Because it represents a really nice set of tradeoffs between conciseness and expressiveness.”
 
 **Cech:** “I think a lot of what’s going on with Graphite and with Influx as well is [about] giving people a choice… I don’t think you can say there’s going to be the one query language to rule them all. And that’s what we’ve all been getting at on this panel: that the different languages have different strengths, different weaknesses, and you have to pick the best for the job.”
 
@@ -45,7 +46,7 @@ Here are a few highlights from the TSDB panel featuring Erik Nordstrom from Time
 
 #### Could continuous update queries work across all the different TSDBs?
 
-**Wilkie:** “This is something we should support or massively reduce the bandwidth and the query load on the backend. But really I think it’s for us to work with the Grafana guys which hopefully should happen now, should be a bit easier, to make this happen. We’re talking about things like aligning this step with multiples of the step so that we can always just issue a partial query.” 
+**Wilkie:** “This is something we should support or massively reduce the bandwidth and the query load on the backend. But really I think it’s for us to work with the Grafana guys which hopefully should happen now, should be a bit easier, to make this happen. We’re talking about things like aligning this step with multiples of the step so that we can always just issue a partial query.”
 
 **Dix:** “We have an open feature, called Intelligent Rollups at the time when I created the issue. Doing that kind of continuous query thing, those updates, it’s a trivial feature to implement, but it’s non-trivial to make it work at scale, to make it not destroy your database, as anyone who’s tried to deal with Graphite can tell you.”
 

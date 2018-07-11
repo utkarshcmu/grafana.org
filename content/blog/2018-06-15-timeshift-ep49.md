@@ -8,6 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
+excerpt = "This week's roundup highlights videos from Monitorama, making your own Grafana Plugins, NetApp's fully open source monitoring stack and more."
 +++
 
 ### Welcome to TimeShift
@@ -26,12 +27,12 @@ This week's roundup highlights videos from Monitorama, making your own Grafana P
 		</p>
 		<ul>
 			<li>Downloads now available for ARM, Mac platforms</li>
-			<li>Improved Docker image</li> 
+			<li>Improved Docker image</li>
 			<li>Prometheus improvements</li>
 			<li>Discord alert notifications</li>
 			<li>Dashboard and panel improvements</li>
 		</ul>
-		<p>Please try it out and let us know what you think. <a href="http://docs.grafana.org/guides/whats-new-in-v5-2/?utm_source=blog&utm_campaign=timeshift_49" target="_blank">See what else is new in Grafana v5.2.0-beta1</a>. 
+		<p>Please try it out and let us know what you think. <a href="http://docs.grafana.org/guides/whats-new-in-v5-2/?utm_source=blog&utm_campaign=timeshift_49" target="_blank">See what else is new in Grafana v5.2.0-beta1</a>.
 		</p>
 		<a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_49" target="_blank" class="btn btn--primary">Download Grafana 5.2.0-beta1 Now</a>
 	</div>

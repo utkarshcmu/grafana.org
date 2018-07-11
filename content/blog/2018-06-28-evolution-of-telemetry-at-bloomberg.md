@@ -8,6 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Stig Sorensen and Sean Hanson describe Bloomberg's winding, and ongoing journey to achieve the robust telemetry they have now"
 categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
+excerpt = "With 5,000 engineers, 325,000 customers running its software, 2 data centers fully owned and operated, 200 node sites around the world, and a diverse architecture developed over almost four decades, Bloomberg has that many reasons to be committed to monitoring."
 +++
 
 ![Sean Hanson and Stig Sorensen](/assets/img/blog/sean_and_stig.jpg)
@@ -21,7 +22,7 @@ For a long time, developers were responsible for monitoring the products they bu
 The massive duplication of efforts across the company resulted in “a bunch of differently-shaped wheels, and some were square instead of round.” But perhaps the biggest issue, Hanson pointed out, was that “a lot of these technologies leaned on the things they were trying to monitor.”
 
 #### Embracing open source software
-Hanson’s team set out to deliver monitoring and alarming as a service for all of the company’s infrastructure and application, with on-site self-service for engineers. For all the different application owners and infrastructure teams, Bloomberg needed an easy-to-use, flexible system that has low latency and high throughput, and allows graphing and dashboarding. 
+Hanson’s team set out to deliver monitoring and alarming as a service for all of the company’s infrastructure and application, with on-site self-service for engineers. For all the different application owners and infrastructure teams, Bloomberg needed an easy-to-use, flexible system that has low latency and high throughput, and allows graphing and dashboarding.
 
 “We had to completely set ourselves apart from all of the traditional, in-house Bloomberg technology,” said Hanson. “There’s some really good open source software out there, and with a bit of duplication of effort for what we already had at Bloomberg, we were able to do that. We also learned from our past mistakes. Baking a lot of logic into our clients meant it was really hard to change after the fact. We basically made sure that any stuff we put in the client was as low-level as we could make it, and got the data out as fast as possible.”
 

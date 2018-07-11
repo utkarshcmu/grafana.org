@@ -15,7 +15,11 @@
 			{{ .Date.Format "2 Jan 2006" }}<br>
 
 			<p>
-				{{ .Summary }}
+				{{ if .Params.excerpt }}
+			    {{ .Params.excerpt }}
+				{{else}}
+			    {{ .Summary }}
+				{{ end }}
 			</p>
 
 			<a class="btn btn-outline" href="{{ .Permalink }}">Read Full Post</a>

@@ -8,10 +8,11 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
+excerpt = "With summer holidays approaching and upcoming vacations on the calendar, TimeShift is going to take next week off. We look forward to returning the week after next."
 +++
 
 ### Welcome to TimeShift
-With summer holidays approaching and upcoming vacations on the calendar, TimeShift is going to take next week off. We look forward to returning the week after next. 
+With summer holidays approaching and upcoming vacations on the calendar, TimeShift is going to take next week off. We look forward to returning the week after next.
 
 This week we're proud to announce Grafana v5.2.1 stable is now available! Learn more and download the new stable release below, install the latest plugin updates, and check out this week's collection of articles from around the web. Enjoy!
 
@@ -38,7 +39,7 @@ Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailt
 			<li><a href="http://docs.grafana.org/guides/whats-new-in-v5-2/#dashboards-panels">Dashboards &amp; Panels</a> with save &amp; import enhancements</li>
 		</ul>
 		<p>
-			<a href="https://community.grafana.com/t/release-notes-v5-2-x/7894?utm_source=blog&utm_campaign=timeshift_51" target="_blank">See everything new in Grafana v5.2.1</a>. 
+			<a href="https://community.grafana.com/t/release-notes-v5-2-x/7894?utm_source=blog&utm_campaign=timeshift_51" target="_blank">See everything new in Grafana v5.2.1</a>.
 		</p>
 		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_51" target="_blank" class="btn btn--primary">Download Grafana 5.2.1 Now</a>
 	</div>
@@ -62,7 +63,7 @@ Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailt
 [**Spring Boot Actuator Metrics Monitoring with Prometheus and Grafana**](https://www.callicoder.com/spring-boot-actuator-metrics-monitoring-dashboard-prometheus-grafana/): In [part 1](https://www.callicoder.com/spring-boot-actuator/) Rajeev covered what a spring-boot-actuator module does and how to configure it in a Spring Boot application. This article will teach you how to add monitoring to your Spring Boot application.
 
 
-[**Check Output Metric Extraction with InfluxDB & Grafana**](http://blog.sensu.io/check-output-metric-extraction-with-influxdb-grafana): At Grafana Labs we believe strongly in interoperability to provide a tool to monitor your data no matter where it lives – a value also shared by our friends at Sensu. This article discusses how to connect different tools together and visualize the data in Grafana to create a custom monitoring solution. 
+[**Check Output Metric Extraction with InfluxDB & Grafana**](http://blog.sensu.io/check-output-metric-extraction-with-influxdb-grafana): At Grafana Labs we believe strongly in interoperability to provide a tool to monitor your data no matter where it lives – a value also shared by our friends at Sensu. This article discusses how to connect different tools together and visualize the data in Grafana to create a custom monitoring solution.
 
 <br />
 <hr />
