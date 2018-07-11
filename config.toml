@@ -1,12 +1,13 @@
 baseurl = "http://localhost:3002/"
 languageCode = "en-us"
 title = "Grafana Labs Blog"
-canonifyurls = true
+canonifyURLs = true
 relativeURLs = false
 verbose = true
 enableRobotsTXT = true
 disableSitemap = false
 disableRSS = false
+rssLimit = 20
 preserveTaxonomyNames = true
 metaDataFormat = "yaml"
 
@@ -15,5 +16,3 @@ category = "categories"
 
 [permalinks]
   blog = ":year/:month/:day/:title/"
-
-
