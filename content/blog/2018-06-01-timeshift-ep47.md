@@ -8,6 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
+excerpt = "We cover a lot of ground this week with posts on general monitoring principles, home automation, how CERN uses open source projects in their particle acceleration work, and more."
 +++
 
 ### Welcome to TimeShift
@@ -23,7 +24,7 @@ We're excited to be a sponsor of [Monitorama PDX](http://monitorama.com) June 4-
 		<img src="/assets/img/blog/timeshift/grafana_release_icon.png" width="170" />
 	</div>
 	<div class="col col--sm-9">
-		<p>This latest point release fixes a scrolling issue that was reported in Firefox. In Graph panels, the legend text shifted with each move of the scrollbar (<a href="https://github.com/grafana/grafana/issues/11830" target="_blank">#11830</a>). <a href="http://docs.grafana.org/guides/whats-new-in-v5-1/?utm_source=blog&utm_campaign=timeshift_47" target="_blank">See what else is new in Grafana v5.1</a>. 
+		<p>This latest point release fixes a scrolling issue that was reported in Firefox. In Graph panels, the legend text shifted with each move of the scrollbar (<a href="https://github.com/grafana/grafana/issues/11830" target="_blank">#11830</a>). <a href="http://docs.grafana.org/guides/whats-new-in-v5-1/?utm_source=blog&utm_campaign=timeshift_47" target="_blank">See what else is new in Grafana v5.1</a>.
 		</p>
 		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_47" target="_blank" class="btn btn--primary">Download Grafana 5.1.3 Now</a>
 	</div>

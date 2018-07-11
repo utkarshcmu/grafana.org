@@ -8,6 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
+excerpt = "We were in Portland this week attending Monitorama - one of our favorite annual conferences. We got the chance to catch up with old friends, make some new ones, and be part of an amazing community of passionate data and monitoring aficionados."
 +++
 
 ### Welcome to TimeShift
@@ -27,12 +28,12 @@ Also this week we released Grafana v5.2.0-beta1 and... <strong>Elasticsearch ale
 		</p>
 		<ul>
 			<li>Downloads now available for ARM, Mac platforms</li>
-			<li>Improved Docker image</li> 
+			<li>Improved Docker image</li>
 			<li>Prometheus improvements</li>
 			<li>Discord alert notifications</li>
 			<li>Dashboard and panel improvements</li>
 		</ul>
-		<p>We're really excited to ship this new beta version and encourage you to try it out and let us know what you think. <a href="http://docs.grafana.org/guides/whats-new-in-v5-2/?utm_source=blog&utm_campaign=timeshift_48" target="_blank">See what else is new in Grafana v5.2.0-beta1</a>. 
+		<p>We're really excited to ship this new beta version and encourage you to try it out and let us know what you think. <a href="http://docs.grafana.org/guides/whats-new-in-v5-2/?utm_source=blog&utm_campaign=timeshift_48" target="_blank">See what else is new in Grafana v5.2.0-beta1</a>.
 		</p>
 		<a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_48" target="_blank" class="btn btn--primary">Download Grafana 5.2.0-beta1 Now</a>
 	</div>
