@@ -8,7 +8,6 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "Conference Panel - The State of TSDB"
 categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
-draft = true
 excerpt = "At GrafanaCon EU, we gathered representatives of the Graphite, Prometheus, InfluxDB, and Timescale projects in the hopes of starting a spirited conversation about the current state of Time Series Databases. They didn’t disappoint!"
 +++
 
