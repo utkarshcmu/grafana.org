@@ -12,7 +12,7 @@ excerpt = "With summer holidays approaching and upcoming vacations on the calend
 +++
 
 ### Welcome to TimeShift
-It's good to be back from our short holiday break. This week we have articles on the world's fastest internet (with a shoutout to Prometheus and Grafana), visualizing real-time and historic weather data, making teams more autonomous, and Grafana + Prometheus + Postgres + TimescaleDB. Hope you have a happy and safe Friday the 13th - see you next week!
+It's good to be back from our short holiday break. This week we have articles on the world's fastest internet (with a shout out to Prometheus and Grafana), visualizing real-time and historic weather data, making teams more autonomous, and Grafana + Prometheus + Postgres + TimescaleDB. Hope you have a happy and safe Friday the 13th - see you next week!
 
 Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailto:hello@grafana.com).
 
