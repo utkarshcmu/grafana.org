@@ -8,12 +8,12 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "2 brand new plugins, plus a case study showing how PingCAP troubleshoots more than a thousand metrics from their TiDB clusters. Also, Tweet of the Week returns with a graph celebrating France's World Cup victory."
+excerpt = "2 brand-new plugins, plus a case study showing how PingCAP troubleshoots more than a thousand metrics from their TiDB clusters. Also, Tweet of the Week returns with a graph celebrating France's World Cup victory."
 +++
 
 ### Welcome to TimeShift
 
-This week we're showing off 2 brand new plugins, plus a case study showing how PingCAP troubleshoots more than a thousand metrics from their TiDB clusters. Also, Tweet of the Week returns with a graph celebrating France's World Cup victory. Enjoy!
+This week we're showing off 2 more brand-new plugins, plus a case study showing how PingCAP troubleshoots more than a thousand metrics from their TiDB clusters. Also, Tweet of the Week returns with a graph celebrating France's World Cup victory. Enjoy!
 
 Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailto:hello@grafana.com).
 
