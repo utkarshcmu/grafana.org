@@ -8,7 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "With summer holidays approaching and upcoming vacations on the calendar, TimeShift is going to take next week off. We look forward to returning the week after next."
+excerpt = "Articles on the world's fastest internet (with a shout out to Prometheus and Grafana), visualizing real-time and historic weather data, making teams more autonomous, and Grafana + Prometheus + Postgres + TimescaleDB."
 +++
 
 ### Welcome to TimeShift
