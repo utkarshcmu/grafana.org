@@ -51,14 +51,13 @@ Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailt
 #### From the Blogosphere
 [**How Grafana Helps PingCAP Troubleshoot TiDB Deployments**](https://grafana.com/grafana/ping-cap-case-study?utm_source=blog&utm_campaign=timeshift_53): A case study on how PingCAP diagnoses and troubleshoots issues from a thousand metrics on their open source TiDB clusters using Grafana.
 
-[**Azure Log into Grafana using Stream Analytics jobs**](https://www.linkedin.com/pulse/azure-log-grafana-using-stream-analytics-jobs-matthieu-rossi/): Learn how to export data using Azure Stream Analytics Job in Azure SQL and visualize the data in Grafana.
+[**Azure Log into Grafana using Stream Analytics jobs**](https://www.linkedin.com/pulse/azure-log-grafana-using-stream-analytics-jobs-matthieu-rossi/): Learn how to export data using Azure Stream Analytics jobs in Azure SQL and visualize the data in Grafana.
 
 [**How to Monitor ArangoDB using collectd, Prometheus and Grafana**](https://www.arangodb.com/tutorials/monitoring-collectd-prometheus-grafana/): The folks from ArangoDB have put together a tutorial on how to install, configure and visualize metrics for ArangoDB.
 
-[**Visualizing Data using Grafana**](https://selfhostedhome.com/visualizing-data-using-grafana/): We've seen an explosion of interest in using Grafana to visualize data for home automation. This tutorial shows you how to install and run Grafana on a Raspberry Pi with InfluxDB, and Home Assistant.
-
 [**Room temperature monitoring with Philips Hue, Node-RED and Grafana**](https://www.linkedin.com/pulse/room-temperature-monitoring-philips-hue-node-red-j%C3%BCrgen-breitenbaumer/): This how-to guide explains how to use a Philips Hue Smart Home lighting system to measure the temperature in a room and visualize the data in a Grafana Dashboard.
 
+[**Visualizing Data using Grafana**](https://selfhostedhome.com/visualizing-data-using-grafana/): We've seen an explosion of interest in using Grafana to visualize data for home automation. This tutorial shows you how to install and run Grafana on a Raspberry Pi with InfluxDB, and Home Assistant.
 
 <br />
 <hr />
@@ -77,7 +76,7 @@ This week we have an update to the Clickhouse data source and 2 new plugins to s
 				<strong>Akumuli Data source</strong> - The <a href="https://akumuli.org/" target="_blank">Akumuli timeseries database</a> now has a published Grafana datasource plugin. It contains a full-featured query editor and supports templating.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/akumuli-datasource?utm_source=blog&utm_campaign=timeshift_53" target="_blank"><strong>Update</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/akumuli-datasource?utm_source=blog&utm_campaign=timeshift_53" target="_blank"><strong>Install</strong></a>
 			</p>
 		</div>
 	</div>
@@ -91,7 +90,7 @@ This week we have an update to the Clickhouse data source and 2 new plugins to s
 				<strong>TrafficLight Panel</strong> - A new status panel with traffic lights has been published. The TrafficLight Panel allows you to add a traffic light per query and place it on an image background.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/smartmakers-trafficlight-panel?utm_source=blog&utm_campaign=timeshift_53" target="_blank"><strong>Update</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/smartmakers-trafficlight-panel?utm_source=blog&utm_campaign=timeshift_53" target="_blank"><strong>Install</strong></a>
 			</p>
 		</div>
 	</div>
@@ -105,7 +104,7 @@ This week we have an update to the Clickhouse data source and 2 new plugins to s
 				<strong>Clickhouse Data source</strong> - Added a performance improvement that optimizes memory use for range time series. See this <a href="https://github.com/Vertamedia/clickhouse-grafana/pull/61" target="_blank">PR</a> for more details.
 			</p>
 			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/vertamedia-clickhouse-datasource?utm_source=blog&utm_campaign=timeshift_53" target="_blank"><strong>Update</strong></a>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/vertamedia-clickhouse-datasource?utm_source=blog&utm_campaign=timeshift_53" target="_blank"><strong>Install</strong></a>
 			</p>
 		</div>
 	</div>
