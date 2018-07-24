@@ -1,5 +1,5 @@
 +++
-title = "The Design of Flux, the New Influx Functional Query Language"
+title = "How the New Influx Query Engine Was Designed—And How to Use It With Grafana"
 author = "jdam"
 date = "2018-07-25"
 keywords = ["Grafana", "Blog", "Flux", "InfluxDB", "Plugins", "Conference", "GrafanaCon"]
@@ -9,25 +9,30 @@ cover_blur = "1px"
 description = "Flux, the long-awaited new functional query processing engine for InfluxDB, has finally landed, and you can try it out now with Grafana's new Flux Plugin!"
 categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
 excerpt = "Flux, the long-awaited new functional query processing engine for InfluxDB, has finally landed, and you can try it out now with Grafana's new Flux Plugin!"
-draft = "true"
+draft = true
 +++
 
 ![Paul Dix](/assets/img/blog/paul_david.jpg)
 <small>Left to right: Paul Dix - InfluxData, David Kaltschmidt - Grafana Labs</small>
 
-#### Flux: How the New Influx Query Engine Was Designed—And How to Use It With Grafana
-Flux, the long-awaited new functional query processing engine for InfluxDB, has finally landed. If you’re curious to learn more about the hows and whys of its design, check out this GrafanaCon EU session with InfluxData Cofounder and CTO Paul Dix. (Our recap is below.)
+*Flux, the long-awaited new functional query processing engine for InfluxDB, has finally landed. If you’re curious to learn more about the hows and whys of its design, check out this GrafanaCon EU session with InfluxData Cofounder and CTO Paul Dix. Also we'd like to share a recent presentation from David Kaltschmidt, Director, UX for Grafana Labs on the new Flux support in Grafana!*
 
-Given the excitement about Flux, we just released a plugin that adds Flux support to Grafana. “Flux is powerful stuff, and you can use it with Grafana today,” says David Kaltschmidt, Director of UX for Grafana Labs, who recently did a live demo of the plugin. Simply go to the plugin section of grafana.com to install it. The one requirement is that “you need a super recent version of Grafana, because we expanded the data source plugin model,” he says. “The plugin has syntax highlighting, tag completion, raw table preview, and inline function documentation, which I think is really helpful especially if you’re starting a new language.”
+#### Flux + Grafana = ❤
 
-#### See the new Flux support in Grafana in the video below:
+Given the excitement about Flux, we just released a plugin that adds Flux support to Grafana. “Flux is powerful stuff, and you can use it with Grafana today,” says David Kaltschmidt, Director of UX for Grafana Labs, who recently did a live demo of the plugin. Simply [download the new plugin](https://grafana.com/plugins/grafana-influxdb-flux-datasource?utm_source=blog&utm_campaign=miniblog) from grafana.com to install it. The one requirement is that “you need a super recent version of Grafana (v5.1+), because we expanded the data source plugin model,” he says. “The plugin has syntax highlighting, tag completion, raw table preview, and inline function documentation, which I think is really helpful especially if you’re starting a new language.”
+
+#### Video: Flux Support in Grafana:
 <div class="video-wrapper">
-	<iframe src="https://www.youtube.com/watch?v=oZYXQPNR8Bc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/oZYXQPNR8Bc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
-
-#### [Download](https://grafana.com/plugins/grafana-influxdb-flux-datasource) the new plugin now
+<br />
+<a href="https://grafana.com/plugins/grafana-influxdb-flux-datasource?utm_source=blog&utm_campaign=miniblog" target="_blank" class="btn btn--large btn--primary">Download the Flux Grafana Plugin Now</a>
+<Br />
+<br />
 
 Now that you’re all set up, here’s more about the design of Flux: First off, Dix explained the evolution of his thinking about how best to work with time series data. The first version of Flux (then known as IFQL) was based on the same tech that he’d used for errplane, a SaaS server monitoring product, which included Rest API. “The thing that I learned with the Rest API was people understood SQL as a query language for working with their data,” said Dix. “When I kickstarted InfluxDB [in November 2013], the innovation that we introduced was basically a language that looks kind of like SQL.”
+
+#### To SQL or Not to SQL
 
 A year later, Dix began giving talks with different user groups, and he polled the audience: “Does it make more sense to organize your metrics as a hierarchy, like Graphite does, or does it make more sense to organize it as tags?” Tags won out, and that was the new API introduced in the next version. But on the second question, whether SQL or a functional language was superior for working with this kind of data, the rooms were evenly split. “While I thought functional was the way to do it, I didn’t want to make the change because Influx was gaining in popularity and a lot of people told me the reason we love the project is because of the SQL query language. So basically I was too afraid to switch.”
 
@@ -37,22 +42,26 @@ The same could be said with TICKscript, the language of InfluxDB’s monitoring 
 
 At the beginning of 2017, Dix decided a rethink was in order: “If I had to do everything brand new, if I had to start Influx today, what would I do?”
 
-The answer turned out to be pretty simple: “Kapacitor is just background processing, but the truth is, it is the query engine,” he said. “If you’re doing a batch job, that looks exactly like a query a user would submit to a database. InfluxDB is batch interactive. It’s users querying the database. So basically when I thought about 2.0 and what I wanted to accomplish with it, I wanted to unify the API and unify the language so there’s just one thing you have to learn: one language to unite them all.”
+#### One Language to Unite them All
+
+The answer turned out to be pretty simple: “Kapacitor is just background processing, but the truth is, it is the query engine,” he said. “If you’re doing a batch job, that looks exactly like a query a user would submit to a database. InfluxDB is batch interactive. It’s users querying the database. So basically when I thought about 2.0 and what I wanted to accomplish with it, I wanted to unify the API and the language so there’s just one thing you have to learn: one language to unite them all.”
 
 Dix’s solution should also help increase feature velocity, enabled by the fact that the storage will be decoupled from the compute. “We can deploy these features frequently, and the risk of shipping a code update in the query language is not nearly as high because you know your data is safe,” he said. “One feature requests we have frequently now is that people want it to be multi-tenant. The nice thing about having these query processors be stateless systems is you can containerize them and you can put them in a lockbox and say this person can’t mess with this person.”
 
-The decision to rebrand IFQL as Flux came in large part “because it’s selling it short to call it a query language,” said Dix. “I think of it more as a language for working with data.”
+#### ~~IFQL~~ Flux
+
+Flux was originally called IFQL (Influx Functional Query Language). The decision to rebrand IFQL as Flux came in large part “because it’s selling it short to call it a query language,” said Dix. “I think of it more as a language for working with data.”
 
 As for the design philosophy, Dix said it’s this: “You want a user interface for the masses. I know the hardcore people want to write their queries, but my theory is most people don’t want to write queries. They want a point-and-click UI, and they want to see their data.”
 
-Dix listed some other guiding principles for Flux:
+##### Other Guiding Principles for Flux:
 
 * It’s optimized for readability.
 * It’s flexible.
 * It’s easy for people to contribute to it.
 * Code sharing and reuse will be enabled.
 
-Dix followed up with a demo, which highlighted these features:
+##### Video Demo Features:
 
 * More complex windowing behavior enabled than before.
 * Anonymous functions, and pipe forward operators to make clear that data is being piped in from one function to another.
@@ -72,6 +81,6 @@ Now that the language has been formalized, it is shipping with the enterprise ve
 
 #### Watch the full presentation in the video below:
 <div class="video-wrapper">
-	<iframe src="https://www.youtube.com/watch?v=asHISf26zTg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/asHISf26zTg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 #### Download the [presentation slides](https://grafana.com/files/grafanacon_eu_2018/Paul_Dix_GrafanaCon_EU_2018.pdf).
