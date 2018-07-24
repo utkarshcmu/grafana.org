@@ -39,6 +39,8 @@ Given the excitement about Flux, we just released a plugin that adds Flux suppor
 <Br />
 <br />
 
+### WTF(lux)
+
 Dix explained the evolution of his thinking about how best to work with time series data. The first version of Flux (then known as IFQL - Influx Functional Query Language) was based on the same tech that he’d used for errplane, a SaaS server monitoring product, which included Rest API. “The thing that I learned with the Rest API was people understood SQL as a query language for working with their data,” said Dix. “When I kickstarted InfluxDB [in November 2013], the innovation that we introduced was basically a language that looks kind of like SQL.”
 
 #### To SQL or Not to SQL
