@@ -27,7 +27,7 @@ excerpt = "Flux, the long-awaited new functional query processing engine for Inf
 
 #### Flux + Grafana = ❤
 
-Given the excitement about Flux, we just released a plugin that adds Flux support to Grafana. “Flux is powerful stuff, and you can use it with Grafana today,” says David Kaltschmidt, Director of UX for Grafana Labs, who recently did a live demo of the plugin. Simply [download the new plugin](https://grafana.com/plugins/grafana-influxdb-flux-datasource?utm_source=blog&utm_campaign=miniblog) from grafana.com to install it. The one requirement is that “you need a super recent version of Grafana (v5.1+), because we expanded the data source plugin model,” he says. “The plugin has syntax highlighting, tag completion, raw table preview, and inline function documentation, which I think is really helpful especially if you’re starting a new language.”
+Given the excitement about Flux, we just released a plugin that adds Flux support to Grafana. “Flux is powerful stuff, and you can use it with Grafana today,” says David Kaltschmidt, Director of UX for Grafana Labs, who recently did a live demo of the plugin. Simply [download the new plugin](https://grafana.com/plugins/grafana-influxdb-flux-datasource?utm_source=blog&utm_campaign=grafanacon-recap) from grafana.com to install it. The one requirement is that “you need a super recent version of Grafana (v5.1+), because we expanded the data source plugin model,” he says. “The plugin has syntax highlighting, tag completion, raw table preview, and inline function documentation, which I think is really helpful especially if you’re starting a new language.”
 
 #### Video: Flux Support in Grafana:
 <div class="video-wrapper">
@@ -38,7 +38,7 @@ Given the excitement about Flux, we just released a plugin that adds Flux suppor
 <Br />
 <br />
 
-### WTF(lux)
+#### WTF(lux)
 
 Dix explained the evolution of his thinking about how best to work with time series data. The first version of Flux (then known as IFQL - Influx Functional Query Language) was based on the same tech that he’d used for errplane, a SaaS server monitoring product, which included Rest API. “The thing that I learned with the Rest API was people understood SQL as a query language for working with their data,” said Dix. “When I kickstarted InfluxDB [in November 2013], the innovation that we introduced was basically a language that looks kind of like SQL.”
 
@@ -88,4 +88,4 @@ As Dix put it, “Ideally, I want people to build the language around their use 
 
 Now that the language has been formalized, it is shipping with the enterprise version of InfluxDB, and there will be commercial support  coming soon. “This is a lot of work for the API 2.0 effort,” said Dix. “Flux is the first bit of that.”
 
-###### Listen to Paul's update to [#Fluxlang](https://www.youtube.com/watch?v=f5gVpHHKfUM) from InfluxDays London.
+##### Check out Paul's update to [#Fluxlang](https://www.youtube.com/watch?v=f5gVpHHKfUM) from InfluxDays London.
