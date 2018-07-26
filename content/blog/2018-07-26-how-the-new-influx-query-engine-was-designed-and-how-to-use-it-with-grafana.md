@@ -34,7 +34,7 @@ Given the excitement about Flux, we just released a plugin that adds Flux suppor
 	<iframe src="https://www.youtube.com/embed/oZYXQPNR8Bc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 <br />
-<a href="https://grafana.com/plugins/grafana-influxdb-flux-datasource?utm_source=blog&utm_campaign=miniblog" target="_blank" class="btn btn--large btn--primary">Download the Flux Grafana Plugin Now</a>
+<a href="https://grafana.com/plugins/grafana-influxdb-flux-datasource?utm_source=blog&utm_campaign=grafanacon-recap" target="_blank" class="btn btn--large btn--primary">Download the Flux Grafana Plugin Now</a>
 <Br />
 <br />
 
