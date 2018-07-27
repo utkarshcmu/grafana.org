@@ -25,7 +25,7 @@ Have an article you'd like included in an upcoming TimeShift? [Contact Us](mailt
 		<img src="/assets/img/blog/timeshift/grafana_release_icon.png" width="170" />
 	</div>
 	<div class="col col--sm-9">
-		<h4>New Features</h4>
+		<h4>Bug Fixes</h4>
 		<ul>
 			<li><strong>Prometheus</strong>: Fix graph panel bar width issue in aligned prometheus queries <a href="https://github.com/grafana/grafana/issues/12379">#12379</a></li>
 			<li><strong>Dashboard</strong>: Dashboard links not updated when changing variables <a href="https://github.com/grafana/grafana/issues/12506">#12506</a></li>
