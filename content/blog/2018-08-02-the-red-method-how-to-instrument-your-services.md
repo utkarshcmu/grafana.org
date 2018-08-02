@@ -6,9 +6,9 @@ keywords = ["Grafana", "Blog", "RED", "Kubernetes", "k8s", "Conference", "Grafan
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
-description = "Flux, the long-awaited new functional query processing engine for InfluxDB, has finally landed, and you can try it out now with Grafana's new Flux Plugin!"
+description = "VP, Product at Grafana Labs, Tom Wilkie, discusses the RED Method - his microservices-oriented monitoring philosophy."
 categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
-excerpt = "Flux, the long-awaited new functional query processing engine for InfluxDB, has finally landed, and you can try it out now with Grafana's new Flux Plugin!"
+excerpt = "VP, Product at Grafana Labs, Tom Wilkie, discusses the RED Method - his microservices-oriented monitoring philosophy."
 +++
 
 ![Paul Dix](/assets/img/blog/tom_wilkie.jpg)
