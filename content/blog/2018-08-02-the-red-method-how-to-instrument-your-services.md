@@ -11,7 +11,7 @@ categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
 excerpt = "VP, Product at Grafana Labs, Tom Wilkie, discusses the RED Method - his microservices-oriented monitoring philosophy."
 +++
 
-![Paul Dix](/assets/img/blog/tom_wilkie.jpg)
+![Tom Wilkie](/assets/img/blog/tom_wilkie.jpg)
 <small>Tom Wilkie - Grafana Labs</small>
 
 At [GrafanaCon EU](https://www.grafanacon.org/2018/) in March, we had the pleasure of introducing one of Grafana Labs’ newest team members, Tom Wilkie, who joined as VP, Product with the [acquisition of Kausal](https://kausal.co/blog/grafana-labs-to-acquire-kausal/).
