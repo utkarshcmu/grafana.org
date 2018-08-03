@@ -48,7 +48,7 @@ Hope you enjoy this week's roundup of articles and plugin updates. If you see an
 #### From the Blogosphere
 [**The RED Method: How to Instrument Your Services**](https://grafana.com/blog/2018/08/02/the-red-method-how-to-instrument-your-services/?utm_source=blog&utm_campaign=timeshift_55): Grafana Labs' very own Tom Wilkie gave a fantastic talk at GrafanaCon EU on his microservices-oriented monitoring philosophy called the Red Method, and how to use it in combination with other methods to gain insight on the happiness of both your users and machines.
 
-[**Plaid.com’s Monitoring System for 9600+ Integrations**](https://www.infoq.com/news/2018/08/plaid-monitoring-scaling): Plaid.com is a fintech copmany that integrates with over 9,600 financial institutions. This article discusses how Plaid.com used AWS Kinesis, Prometheus, Alertmanager and Grafana to solve the challenges of scalability and latency to monitor their vast number of integrations.
+[**Plaid.com’s Monitoring System for 9600+ Integrations**](https://www.infoq.com/news/2018/08/plaid-monitoring-scaling): [Plaid.com](http://plaid.com) is a fintech company that integrates with over 9,600 financial institutions. This article discusses how Plaid.com used AWS Kinesis, Prometheus, Alertmanager and Grafana to solve the challenges of scalability and latency to monitor their vast number of integrations.
 
 [**How to Monitor an Ubuntu Server with Grafana & Prometheus**](https://oastic.com/how-to-monitor-an-ubuntu-server-with-grafana-prometheus/): This installation guide will have you up and running and monitoring your Linux servers in no time.
 
