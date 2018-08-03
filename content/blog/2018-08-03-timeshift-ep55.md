@@ -8,7 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "Details on the new Grafana v5.2.2 release, notes on our new Flux data source plugin, and playing with weather APIs"
+excerpt = "GrafanaCon LA CFP announced, Monitoring using the Red Method, and a dashboard showing the heatwave that's slamming Europe."
 +++
 
 ### Welcome to TimeShift
