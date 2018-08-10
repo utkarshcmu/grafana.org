@@ -180,7 +180,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		</div>
 		<div class="col col--md-8 col--sm-offset-1">
 			<p>
-				<strong><a href="https://register.gotowebinar.com/register/2744827815391229442?source=GrafanaLabs" target="_blank">How to Use Open Source Projects for Performance Monitoring | Webinar - August 15, 2018</a>:</strong>
+				<strong><a href="https://register.gotowebinar.com/register/2744827815391229442?source=GrafanaLabs" target="_blank">How to Use Open Source Projects for Performance Monitoring | Webinar - August 15, 2018 1pm EDT</a>:</strong>
 				<br />
 				Check out how you can use 5 of the most popular open source projects, InfluxDB, Telegraf, Chronograf, Kapacitor and Grafana, for performance monitoring of your Infrastructure, Application, & Cloud faster, easier, and to scale. In this webinar, Leonard Gram from Grafana, and Margo Schaedel from InfluxData, will provide you with step by step instruction from download & configure, to collecting metrics and building dashboards and alerts.
 			</p>
