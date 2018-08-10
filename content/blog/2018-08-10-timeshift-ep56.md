@@ -12,10 +12,11 @@ excerpt = "GrafanaCon LA CFP announced, Monitoring using the RED Method, and a d
 +++
 
 ### Welcome to TimeShift
-[PromCon](http://promcon.io) was held this week in Munich, Germany, and Grafana Labs was excited to both sponsor and speak at this great conference. If you didn't have a chance to attend, you can watch a [recorded livestream](https://promcon.io/2018-munich/stream/) of the event and download slides in the blog roundup below. We'd also like to congratulate the Prometheus project for moving from the incubation stage to [Graduation](https://www.cncf.io/announcement/2018/08/09/prometheus-graduates/) as an official CNCF project!
-
+[PromCon](http://promcon.io) was held this week in Munich, Germany, and Grafana Labs was excited to both sponsor and speak at this great conference. If you didn't have a chance to attend, you can watch a [recorded livestream](https://promcon.io/2018-munich/stream/) of the event and download slides in the blog roundup below. 
 ![Tom Wilkie and David Kaltschmidt](/assets/img/blog/timeshift/tom_david_promcon.jpg)
 <small>Left to right: Tom Wilkie and David Kaltschmidt prepping for their talks</small>
+
+We'd also like to congratulate the Prometheus project for moving from the incubation stage to [graduation](https://www.cncf.io/announcement/2018/08/09/prometheus-graduates/) as an official CNCF project!
 
 Hope you enjoy this week's roundup of articles and plugin updates. If you see an article you think might be a good fit for an upcoming issue of TimeShift, please [contact us](mailto:hello@grafana.com).
 
@@ -49,15 +50,15 @@ Hope you enjoy this week's roundup of articles and plugin updates. If you see an
 <hr />
 
 #### From the Blogosphere
-[**David Kaltschmidt: Exploring your Prometheus Data in Grafana**](https://www.slideshare.net/grafana/explore-your-prometheus-data-in-grafana-promcon-2018): David has been working tirelessly on the new explore UI for Grafana. We'll link to the video once it's available, but for now he's made his slides available so you can learn about it, and try the new UI out for yourself.
+[**David Kaltschmidt: Exploring your Prometheus Data in Grafana**](https://www.slideshare.net/grafana/explore-your-prometheus-data-in-grafana-promcon-2018): David has been working tirelessly on the new explore UI for Grafana. We'll link to the video once it's available, but for now he's made his slides available so you can learn about it, and find out how to enable the feature in the latest version to give it a try.
 
 [**Tom Wilkie: Prometheus Monitoring Mixins - Using Jsonnet to Package Together Dashboards, Alerts, and Exporters**](https://www.slideshare.net/grafana/promcon2018-prometheus-monitoring-mixins-using-jsonnet-to-package-together-dashboards-alerts-and-exporters): Tom discusses a technique for using Jsonnet for packaging and deploying "Monitoring Mixins" - extensible and customizable combinations of dashboards, alert definitions and exporters. This technique allows you to publish best-practice monitoring configurations alongside your code, and for users to consume it, customize it and stay up to date. Also, check out the [video](https://youtu.be/VvJx0WTiGcA?t=7570) of his presentation.
 
-[**Using TimescaleDB + Prometheus to monitor and troubleshoot CockroachDB**](https://medium.com/learning-with-diagrams/using-timescaledb-prometheus-to-monitor-and-troubleshoot-cockroachdb-1b1de10061): Diana, who recently joined the Timescale team outlines how to combine four open source technologies to create a powerful monitoring stack, and provides a high-level tutorial on getting everything set up.
+[**Using TimescaleDB + Prometheus to Monitor and Troubleshoot CockroachDB**](https://medium.com/learning-with-diagrams/using-timescaledb-prometheus-to-monitor-and-troubleshoot-cockroachdb-1b1de10061): Diana, who recently joined the Timescale team outlines how to combine four open source technologies to create a powerful monitoring stack, and provides a high-level tutorial on getting everything set up.
 
-[**Inside Fortnite’s Massive Data Analytics Pipeline**](https://www.datanami.com/2018/07/31/inside-fortnites-massive-data-analytics-pipeline/): Fortnite is a truly massive MMPG with over 125 million users spanning the globe. But pulling together all the servers, databases, and data pipelines to manage 92 million events per minute was no small feat. This article gives you a rundown of their systems, how they keep them running, and what they'd like to optimize in the future.
+[**Inside Fortnite’s Massive Data Analytics Pipeline**](https://www.datanami.com/2018/07/31/inside-fortnites-massive-data-analytics-pipeline/): Fortnite is a truly massive MMPG with over 125 million users spanning the globe. But pulling together all the servers, databases, and data pipelines to manage 92 million events per minute is no small feat. This article gives you a rundown of their systems, how they keep them running, and what they'd like to optimize in the future.
 
-[**Managing your costs on Kubernetes**](https://karlstoney.com/2018/07/07/managing-your-costs-on-kubernetes/): Cost is often a factor when discussing migrating to a public cloud solution. When the sky's the limit when it comes to resources, your monthly bill could be at risk of poking through the stratosphere. The article shows you how to use Prometheus, Grafana, and Kubernetes to create a dashboard that can help you get a better visualization of the cost of your applications.
+[**Managing your Costs on Kubernetes**](https://karlstoney.com/2018/07/07/managing-your-costs-on-kubernetes/): Cost is often a factor when discussing migrating to a public cloud solution. When the sky's the limit when it comes to resources, your monthly bill could be at risk of poking through the stratosphere. The article shows you how to use Prometheus, Grafana, and Kubernetes to create a dashboard that can help you get a better visualization of the cost of your applications.
 
 [**M3: Uber’s Open Source, Large-scale Metrics Platform for Prometheus**](https://eng.uber.com/m3/):  Rob Skillington, staff software engineer on the Observability team in the Uber New York City provides a deep dive into M3, the metrics platform they've been working on for the past few years. In fact, at our very first GrafanaCon in 2015, Matt Mihic gave a [talk](https://www.youtube.com/watch?v=89H48IwFeV4) about M3.
 
@@ -91,7 +92,7 @@ Two new panels to show off this week along with an update to the Clickhouse data
 		<div class="col col--sm-10 blog-plugin-grid__item">
 			<p>
 				<div class="new-plugin-tag"><strong>NEW PLUGIN</strong></div><br/>
-				<strong>Windrose Panel</strong> - This new panel was developed in a joint effort as part of a research project in Taiwan. A wind rose is a graphic tool used by meteorologists to give a view of how wind speed and direction are distributed at a location.
+				<strong>WindRose Panel</strong> - This new panel was developed in a joint effort as part of a research project in Taiwan. A wind rose is a graphic tool used by meteorologists to give a view of how wind speed and direction are distributed at a location.
 			</p>
 			<p>
 				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/fatcloud-windrose-panel?utm_source=blog&utm_campaign=timeshift_56" target="_blank"><strong>Install</strong></a>
