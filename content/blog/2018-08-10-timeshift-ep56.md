@@ -8,7 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "GrafanaCon LA CFP announced, Monitoring using the RED Method, and a dashboard showing the heatwave that's slamming Europe."
+excerpt = "PromCon presentations, monitoring CockroachDB, inside Fortnite's massive data analytics pipeline, Uber's M3 metrics platform and more!"
 +++
 
 ### Welcome to TimeShift
