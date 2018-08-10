@@ -15,7 +15,7 @@ excerpt = "GrafanaCon LA CFP announced, Monitoring using the RED Method, and a d
 [PromCon](http://promcon.io) was held this week in Munich, Germany, and Grafana Labs was excited to both sponsor and speak at this great conference. If you didn't have a chance to attend, you can watch a [recorded livestream](https://promcon.io/2018-munich/stream/) of the event and download slides in the blog roundup below. We'd also like to congratulate the Prometheus project for moving from the incubation stage to [Graduation](https://www.cncf.io/announcement/2018/08/09/prometheus-graduates/) as an official CNCF project!
 
 ![Tom Wilkie and David Kaltschmidt](/assets/img/blog/timeshift/tom_david_promcon.jpg)
-<small>Left to right: Tom Wilkie and David Kaltschmidt prepping for their talks - Grafana Labs</small>
+<small>Left to right: Tom Wilkie and David Kaltschmidt prepping for their talks</small>
 
 Hope you enjoy this week's roundup of articles and plugin updates. If you see an article you think might be a good fit for an upcoming issue of TimeShift, please [contact us](mailto:hello@grafana.com).
 
