@@ -8,7 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "A video demo of the new Explore UI in Grafana, monitoring VMWare's VKE with Prometheus, maintaining your a blog on a budget and more."
+excerpt = "A video demo of the new Explore UI in Grafana, monitoring VMWare's VKE with Prometheus, maintaining a blog on a budget and more."
 +++
 
 ### Welcome to TimeShift
