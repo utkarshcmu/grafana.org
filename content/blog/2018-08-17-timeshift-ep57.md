@@ -14,8 +14,7 @@ excerpt = "A video demo of the new Explore UI in Grafana, monitoring VMWare's VK
 ### Welcome to TimeShift
 August is flying by, but hopefully there'll still be time to enjoy a few more summer evenings. This week we're sharing the video demoing the new Explore UI in Grafana from last week's PromCon, monitoring VMWare's VKE with Prometheus, hosting a blog on a budget and more. 
 
-If you see an article you think might be a good fit for an upcoming issue, or have suggestions for new content here,<br />
-please [contact us](mailto:hello@grafana.com).
+Come across an article you think might be a good fit for an upcoming issue? Suggestions for new content? [Contact us](mailto:hello@grafana.com).
 <br />
 <hr />
 
@@ -62,13 +61,13 @@ please [contact us](mailto:hello@grafana.com).
 #### From the Blogosphere
 [**Video: David Kaltschmidt: Exploring your Prometheus Data in Grafana**](https://youtu.be/YDkCgQ802aY?t=1798): Last week we shared David's [slides](https://www.slideshare.net/grafana/explore-your-prometheus-data-in-grafana-promcon-2018) from PromCon 2018, but it's so much better to actually see it action.
 
-[**Installing Prometheus and Grafana on VMware Kubernetes Engine**](https://cloud.vmware.com/community/2018/08/14/installing-prometheus-grafana-vmware-kubernetes-engine/): This post details the process of deploying Prometheus as a monitoring framework for Kubernetes, along with Grafana as the visualization layer. Bahubali covers why monitoring K8s is different, building a preparing your cluster, and installing both Prometheus and Grafana.
+[**Installing Prometheus and Grafana on VMware Kubernetes Engine**](https://cloud.vmware.com/community/2018/08/14/installing-prometheus-grafana-vmware-kubernetes-engine/): This post details the process of deploying Prometheus as a monitoring framework for Kubernetes, along with Grafana as the visualization layer. Bahubali covers why monitoring K8s is different, building and preparing your cluster, and installing both Prometheus and Grafana.
 
 [**Collecting DHCP Scope Data with Grafana**](https://litefoote.com/2018/08/16/collecting-dhcp-scope-data-with-grafana/): Eric wrote a Python script to help him collect aggregated data about groups of DHCP scopes and how his network users were changing. This lets him total up the number of free and used IPs in each range and visualize them on a graph in Grafana.
 
 [**How I host this blog, CI and tooling**](https://dizzy.zone/2018/08/15/How-I-host-this-blog-CI-and-tooling/): Vik is a budget conscious blogger and developer. In this article he provides a rundown of the infrastructure he uses for his blog and how he keeps it running for $8.53/month.
 
-[**Graphite Grafana: Metrics Monitoring Made Easy**](https://dzone.com/articles/graphite-grafana-metrics-monitoring-made-easy): The first in a series on metrics monitoring made easy, this article gets you started with spinning up a Graphite/Grafana stack. You'll learn about the components of Graphite, Grafana, and how to install everything. The next article will dive into the actual monitoring.
+[**Graphite Grafana: Metrics Monitoring Made Easy**](https://dzone.com/articles/graphite-grafana-metrics-monitoring-made-easy): The first in a series on metrics monitoring made easy, this article gets you started with spinning up a Graphite/Grafana stack. Learn about the components of Graphite, Grafana, and how to get everything installed - the next article will dive into the actual monitoring.
 
 [**System monitoring with Grafana, InfluxDB et Collectd**](https://medium.com/@cristianpb/system-monitoring-with-grafana-influxdb-et-collectd-7827969e1fe): Learn about the components of a responsive dashboard system and how to easily deploy it with Docker.
 
