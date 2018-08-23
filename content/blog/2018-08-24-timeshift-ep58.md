@@ -12,6 +12,8 @@ excerpt = "A video demo of the new Explore UI in Grafana, monitoring VMWare's VK
 +++
 
 ### Welcome to TimeShift
+
+
 Come across an article you think might be a good fit for an upcoming issue? Suggestions for new content? [Contact us](mailto:hello@grafana.com).
 <br />
 <hr />
@@ -57,7 +59,18 @@ Come across an article you think might be a good fit for an upcoming issue? Sugg
 <hr />
 
 #### From the Blogosphere
-[**Title**](https://youtu.be/YDkCgQ802aY?t=1798): Last week we shared David's [slides](https://www.slideshare.net/grafana/explore-your-prometheus-data-in-grafana-promcon-2018) Desc
+[**Kubernetes Monitoring with Prometheus, the ultimate guide (part 1)**](https://sysdig.com/blog/kubernetes-monitoring-prometheus/):  Desc
+
+[**Digital Dashboard: Making a Dashboard work for you, part one**](https://medium.com/@john_27348/digital-dashboard-727d6c4db89):  Desc
+
+[**First Steps with Prometheus and Grafana on Kubernetes on Windows**](https://technology.amis.nl/2018/08/14/first-steps-with-prometheus-and-grafana-on-kubernetes-on-windows/):  Desc
+
+[**PromQL for Humans**](https://timber.io//blog/promql-for-humans/):  Desc
+
+[**Monitoring Containerized Application Health with Docker**](https://blog.sixeyed.com/monitoring-containerized-application-health-with-docker/):  Desc
+
+[**Creating Visualizations in Grafana**](https://dzone.com/articles/creating-visualization-in-grafana):  Desc
+
 <br />
 <hr />
 
@@ -76,22 +89,6 @@ Come across an article you think might be a good fit for an upcoming issue? Sugg
 In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We also like to make sure we mention other Grafana-related events happening all over the world. If you're putting on just such an event, let us know and we'll list it here.
 
 <div class="blog-plugin">
-	<div class="row row--md-gutters">
-		<div class="col col--md-3">
-			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/sensu_summit.jpg" />
-		</div>
-		<div class="col col--md-8 col--sm-offset-1">
-			<p>
-				<strong><a href="https://sensu.io/summit" target="_blank">2018 Sensu Summit | Portland, OR - August 22-23, 2018</a>:</strong><br />
-				<strong>Brian Gann: The Sensu Plugin for Grafana</strong> - Brian will be showing a demo of the new Sensu plugin for Grafana on August 22, and conducting a 30 minute Grafana tutorial on the 23rd!
-			</p>
-			<p>
-				We are a proud sponsor of this year's Sensu Summit! Come enjoy Portland in the summer and learn a ton from the sharpest operations engineers in monitoring!
-			</p>
-			<a href="https://sensu.io/summit" target="_blank" class="btn btn--outline">More Info</a>
-		</div>
-	</div>
-	<br />
 	<div class="row row--md-gutters">
 		<div class="col col--md-3">
 			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/meetup.jpg" />
@@ -163,9 +160,9 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		<div class="col col--sm-12">
 			<h4>Tweet of the Week</h4>
 			We scour Twitter each week to find an interesting/beautiful dashboard or monitoring related tweet and show it off! <a href="https://twitter.com/hashtag/monitoringlove?src=hash" target="_blank">#monitoringLove</a>
-			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Graph of the day - 95th percentile inter-pod network latency heatmap for one of our control planes, log 2 y axis (min 0s, max 1s). Data from <a href="https://t.co/ViRlSiAW2l">https://t.co/ViRlSiAW2l</a>, <a href="https://twitter.com/grafana?ref_src=twsrc%5Etfw">@grafana</a> for the fanciness <a href="https://t.co/WVIwhD4sEe">pic.twitter.com/WVIwhD4sEe</a></p>&mdash; SALISBURY HEAVY INDUSTRIES (@salisbury_joe) <a href="https://twitter.com/salisbury_joe/status/1030022753066397697?ref_src=twsrc%5Etfw">August 16, 2018</a></blockquote>
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Sometimes your <a href="https://twitter.com/kubernetesio?ref_src=twsrc%5Etfw">@kubernetesio</a>  cluster dashboards can show T-Rex ! <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> <a href="https://twitter.com/hashtag/grafana?src=hash&amp;ref_src=twsrc%5Etfw">#grafana</a> <a href="https://t.co/QeuoIl9KtW">pic.twitter.com/QeuoIl9KtW</a></p>&mdash; Matas Tvarijonas (@wizardmatas) <a href="https://twitter.com/wizardmatas/status/1031597842295676928?ref_src=twsrc%5Etfw">August 20, 2018</a></blockquote>
 			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			<p>I love a good heatmap. Let us know if you figure out where that super high latency is coming from.</p>
+			<p>I see a T-Rex... or a really tall aligator running left.</p>
 		</div>
 	</div>
 </div>
