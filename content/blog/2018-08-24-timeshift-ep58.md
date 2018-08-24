@@ -14,7 +14,7 @@ excerpt = "The ultimate guide to monitoring Kubernetes with Prometheus and Grafa
 ### Welcome to TimeShift
 We have a Prometheus focused issue this week and share the ultimate guide to monitoring Kubernetes with Prometheus and Grafana, building effective dashboards, and a guide that will help demystify PromQL. 
 
-With Labor Day coming up next week, TimeShift is going to take a short break, but we'll see you again soon!
+With the upcoming Labor Day holiday, TimeShift is going to take a short break, but we'll see you again soon!
 
 Come across an article you think might be a good fit for an upcoming issue? Suggestions for new content? [Contact us](mailto:hello@grafana.com)!
 <br />
