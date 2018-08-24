@@ -8,11 +8,11 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "The ultimate guide to monitoring Kubernetes with Prometheus and Grafana, building effective dashboards, and a guide that will help demystify PromQL."
+excerpt = "The ultimate guide to monitoring Kubernetes with Prometheus and Grafana, how to build effective dashboards, and a guide that will help demystify PromQL."
 +++
 
 ### Welcome to TimeShift
-We have a Prometheus focused issue this week and share the ultimate guide to monitoring Kubernetes with Prometheus and Grafana, building effective dashboards, and a guide that will help demystify PromQL. 
+We have a Prometheus focused issue this week and share the ultimate guide to monitoring Kubernetes with Prometheus and Grafana, how to build effective dashboards, and a guide that will help demystify PromQL. 
 
 With the upcoming Labor Day holiday, TimeShift is going to take a short break, but we'll see you again soon!
 
