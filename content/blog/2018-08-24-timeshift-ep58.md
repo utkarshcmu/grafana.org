@@ -119,10 +119,10 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 			<p>
 				<strong><a href="https://ti.to/monitorama/ams2018" target="_blank">Monitorama AMS 2018 | Amsterdam, The Netherlands - September 4-5, 2018</a>:</strong>
 				<br />
-				Monitorama events bring together the brightest minds among the open source development and operations communities. Our goal is to continue to push the boundaries of monitoring and trending software, all while having a great time in a casual setting.
+				Monitorama events bring together the brightest minds among the open source development and operations communities. Their goal is to continue to push the boundaries of monitoring and trending software, all while having a great time in a casual setting.
 			</p>
 			<p>
-				This event takes place in the beautiful city of Amsterdam. If you haven't already experienced Monitorama, this is a great chance to make our acquaintance.
+				This event takes place in the beautiful city of Amsterdam. If you haven't already experienced Monitorama, this is a great chance to make their acquaintance.
 			</p>
 			<a href="https://ti.to/monitorama/ams2018" target="_blank" class="btn btn--outline">Get Your Ticket Now</a>
 		</div>
