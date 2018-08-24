@@ -8,13 +8,15 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "A video demo of the new Explore UI in Grafana, monitoring VMWare's VKE with Prometheus, maintaining a blog on a budget and more."
+excerpt = "The ultimate guide to monitoring Kubernetes with Prometheus and Grafana, building effective dashboards, and a guide that will help demystify PromQL."
 +++
 
 ### Welcome to TimeShift
+We have a Prometheus focused issue this week and share the ultimate guide to monitoring Kubernetes with Prometheus and Grafana, building effective dashboards, and a guide that will help demystify PromQL. 
 
+With Labor Day coming up next week, TimeShift is going to take a short break, but we'll see you again soon!
 
-Come across an article you think might be a good fit for an upcoming issue? Suggestions for new content? [Contact us](mailto:hello@grafana.com).
+Come across an article you think might be a good fit for an upcoming issue? Suggestions for new content? [Contact us](mailto:hello@grafana.com)!
 <br />
 <hr />
 
@@ -59,17 +61,15 @@ Come across an article you think might be a good fit for an upcoming issue? Sugg
 <hr />
 
 #### From the Blogosphere
-[**Kubernetes Monitoring with Prometheus, the ultimate guide (part 1)**](https://sysdig.com/blog/kubernetes-monitoring-prometheus/):  Desc
+[**Kubernetes Monitoring with Prometheus, the ultimate guide (part 1)**](https://sysdig.com/blog/kubernetes-monitoring-prometheus/):  Part 1 in a 4-part, in-depth series on how to implement Kubernetes monitoring with Prometheus. The series opens with an intro to Prometheus and its core concepts, how Prometheus stacks up to veteran monitoring solutions, and an overview of all the components in the architecture.
 
-[**Digital Dashboard: Making a Dashboard work for you, part one**](https://medium.com/@john_27348/digital-dashboard-727d6c4db89):  Desc
+[**Digital Dashboard: Making a Dashboard work for you, part one**](https://medium.com/@john_27348/digital-dashboard-727d6c4db89):  This series starts off by establishing a baseline for what makes an effective dashboard. John also highlights the strengths he sees in Grafana as well as areas for improvement. This type of thoughtful feedback is always helpful, as we are constantly working to improve the overall user experience. Interested to see where this series goes.
 
-[**First Steps with Prometheus and Grafana on Kubernetes on Windows**](https://technology.amis.nl/2018/08/14/first-steps-with-prometheus-and-grafana-on-kubernetes-on-windows/):  Desc
+[**First Steps with Prometheus and Grafana on Kubernetes on Windows**](https://technology.amis.nl/2018/08/14/first-steps-with-prometheus-and-grafana-on-kubernetes-on-windows/):  A step-by-step installation guide for monitoring Kubernetes with Prometheus and Grafana on Windows.
 
-[**PromQL for Humans**](https://timber.io//blog/promql-for-humans/):  Desc
+[**PromQL for Humans**](https://timber.io//blog/promql-for-humans/):  If you're new to Prometheus, PromQL can be daunting. This article attempts to demystify the query language. You'll also get a handy query cheat-sheet with plenty of real-world examples.
 
-[**Monitoring Containerized Application Health with Docker**](https://blog.sixeyed.com/monitoring-containerized-application-health-with-docker/):  Desc
-
-[**Creating Visualizations in Grafana**](https://dzone.com/articles/creating-visualization-in-grafana):  Desc
+[**Creating Visualizations in Grafana**](https://dzone.com/articles/creating-visualization-in-grafana):  This short walkthrough will help you get started creating dashboards in Grafana using your Prometheus metrics.
 
 <br />
 <hr />
