@@ -8,11 +8,11 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "The ultimate guide to monitoring Kubernetes with Prometheus and Grafana, how to build effective dashboards, and a guide that will help demystify PromQL."
+excerpt = "The ultimate guide to monitoring Kubernetes with Prometheus and Grafana, how to build effective dashboards, and a guide to help demystify PromQL."
 +++
 
 ### Welcome to TimeShift
-We have a Prometheus focused issue this week and share the ultimate guide to monitoring Kubernetes with Prometheus and Grafana, how to build effective dashboards, and a guide that will help demystify PromQL. 
+This week we highlight articles featuring the ultimate guide to monitoring Kubernetes using Prometheus and Grafana, how to build effective dashboards, and a guide to help demystify PromQL. 
 
 With the upcoming Labor Day holiday, TimeShift is going to take a short break, but we'll see you again soon!
 
@@ -85,10 +85,49 @@ Come across an article you think might be a good fit for an upcoming issue? Sugg
 <hr />
 <br />
 
+#### Grafana Plugin Update
+Plugin authors often add new features and fix bugs, so it's important to keep your plugins up to date. We've made the update process simple – for on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_56" target="_blank">grafana-cli tool</a>, or for <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_56" target="_blank">Hosted Grafana</a> update with one-click at grafana.com.
+<br />
+<div class="blog-plugin">
+	<div class="row row--md-gutters">
+		<div class="col col--sm-2 blog-plugin-grid__item">
+			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/singlestat/logos/large" />
+		</div>
+		<div class="col col--sm-10 blog-plugin-grid__item">
+			<p>
+				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
+				<strong>Single Stat Math Panel</strong> - A new feature in this panel adds a circle shape as a background option. This panel is similar to the native Singlestat Panel but also supports math functions across series using the <a href="http://mathjs.org/" target="_blank">math.js</a> library.
+			</p>
+			<p>
+				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/blackmirror1-singlestat-math-panel?utm_source=blog&utm_campaign=timeshift_56" target="_blank"><strong>Install</strong></a>
+			</p>
+		</div>
+	</div>
+</div>
+<br />
+<hr />
+
 #### Upcoming Events
 In between code pushes we like to speak at, sponsor and attend all kinds of conferences and meetups. We also like to make sure we mention other Grafana-related events happening all over the world. If you're putting on just such an event, let us know and we'll list it here.
 
 <div class="blog-plugin">
+	<div class="row row--md-gutters">
+		<div class="col col--md-3">
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/monitorama_m.png" />
+		</div>
+		<div class="col col--md-8 col--sm-offset-1">
+			<p>
+				<strong><a href="https://ti.to/monitorama/ams2018" target="_blank">Monitorama AMS 2018 | Amsterdam, The Netherlands - September 4-5, 2018</a>:</strong>
+				<br />
+				Monitorama events bring together the brightest minds among the open source development and operations communities. Our goal is to continue to push the boundaries of monitoring and trending software, all while having a great time in a casual setting.
+			</p>
+			<p>
+				This event takes place in the beautiful city of Amsterdam. If you haven't already experienced Monitorama, this is a great chance to make our acquaintance.
+			</p>
+			<a href="https://ti.to/monitorama/ams2018" target="_blank" class="btn btn--outline">Get Your Ticket Now</a>
+		</div>
+	</div>
+	<br />
 	<div class="row row--md-gutters">
 		<div class="col col--md-3">
 			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/meetup.jpg" />
