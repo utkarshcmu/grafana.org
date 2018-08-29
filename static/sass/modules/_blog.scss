@@ -40,6 +40,9 @@
   }
 }
 
+.blog-content {
+  margin-bottom: 40px;
+}
 
 blockquote {
   background: $darker-gray;
@@ -156,22 +159,22 @@ q.quote {
 
 .blog-plugin {
   img {
-    border-radius: 50%; 
+    border-radius: 50%;
     width: 100px;
     max-width: 100px;
   }
   .mvc {
-    border-radius: 50%; 
+    border-radius: 50%;
     width: 130px;
     max-width: 130px;
   }
   .med {
-    border-radius: 50%; 
+    border-radius: 50%;
     width: 150px;
     max-width: 150px;
   }
   .large {
-    border-radius: 50%; 
+    border-radius: 50%;
     width: 200px;
     max-width: 200px;
   }
@@ -180,7 +183,7 @@ q.quote {
 .speaker {
   text-align: center;
   .speaker-photo {
-    border-radius: 50%; 
+    border-radius: 50%;
     width: 200px;
   }
   .speaker-logo {
