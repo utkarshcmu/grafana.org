@@ -1,7 +1,7 @@
 +++
 title = "8 Reasons Why You Should Attend GrafanaCon (and how to get your boss to send you)"
 author = "jdam"
-date = "2018-08-02"
+date = "2018-09-12"
 keywords = ["GrafanaCon LA", "Conference", "GrafanaCon"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
