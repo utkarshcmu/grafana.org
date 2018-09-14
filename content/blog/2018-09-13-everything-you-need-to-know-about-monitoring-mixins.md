@@ -12,7 +12,7 @@ excerpt = "Monitoring mixins: A solution for packaging together templates for Gr
 draft = true
 +++
 
-![GrafabaCon EU](/assets/img/blog/tom_mixins_promcon.jpg)
+![GrafabaCon EU](/assets/img/blog/david_explore_promcon.jpg)
 
 When there’s an incident, Grafana is often the starting point for figuring out a response. Users look at a time series panel and form a hypothesis. And in many situations, they’d like to dive deeper.
 
