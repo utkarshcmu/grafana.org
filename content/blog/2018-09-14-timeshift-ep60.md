@@ -8,7 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "Notes on the important security update for 5.2.3+ and 4.6.4, the new 5.2.4 stable release &amp; 5.3.0-beta1, plus your weekly roundup of Grafana related articles from around the Web."
+excerpt = "Plugin updates and articles on monitoring mixins, cloud native monitoring, monitoring your microservices, and a unique way to know when your software license is going to expire."
 +++
 
 ### Welcome to TimeShift
