@@ -1,7 +1,7 @@
 +++
 title = "Grafana’s Explore UI: Taking a Deeper Dive into Data with Prometheus Queries"
 author = "jdam"
-date = "2018-09-13"
+date = "2018-09-19"
 keywords = ["Grafana", "PromCon", "Explore UI"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
