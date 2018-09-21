@@ -12,7 +12,7 @@ excerpt = "Grafana's alpha Explore UI, the many ways Logicify uses Grafana, buil
 +++
 
 ### Welcome to TimeShift
-This week we're sharing articles covering Grafana's alpha Explore UI, the many ways Logicify uses Grafana, building your own centralized monitoring stack, and more.
+This week we share articles covering Grafana's alpha Explore UI, the many ways Logicify uses Grafana, building your own centralized monitoring stack, and more.
 
 See something we missed? Know of an article that might be a good fit for an upcoming issue? [Contact us](mailto:hello@grafana.com)!
 <br />
@@ -76,7 +76,7 @@ See something we missed? Know of an article that might be a good fit for an upco
 #### From the Blogosphere
 [**Grafana’s Explore UI: Taking a Deeper Dive into Data with Prometheus Queries**](https://grafana.com/blog/2018/09/21/grafanas-explore-ui-taking-a-deeper-dive-into-data-with-prometheus-queries/?utm_source=blog&utm_campaign=timeshift_61):  In this recap from the most recent PromCon in Munich, David Kaltschmidt demos the Explore UI alpha. This new interface allows you to iterate quickly through Prometheus queries, while leaving your dashboards intact. You can also try it yourself with a simple config edit.
 
-[**Grafana, Graphite &amp; Max Data Points**](http://steffersaur.us/grafana-graphite-max-data-points/): Steph was on a quest to find out why a Grafana singlestat panel was returning wacky values. Her investigation lead her to learning about Graphite's default runtime consolidation. Our own [Dieter Plaetinck](https://twitter.com/Dieter_be) wrote an article that touches on this and 24 other [*gotchas*](https://grafana.com/blog/2016/03/03/25-graphite-grafana-and-statsd-gotchas//?utm_source=blog&utm_campaign=timeshift_61) he's encountered with Graphite, Grafana and Statsd.
+[**Grafana, Graphite &amp; Max Data Points**](http://steffersaur.us/grafana-graphite-max-data-points/): Steph was on a quest to find out why a Grafana singlestat panel was returning wacky values. Her investigation leads her to learning about Graphite's default runtime consolidation. Our own [Dieter Plaetinck](https://twitter.com/Dieter_be) wrote an article that touches on this and 24 other [*gotchas*](https://grafana.com/blog/2016/03/03/25-graphite-grafana-and-statsd-gotchas//?utm_source=blog&utm_campaign=timeshift_61) he's encountered with Graphite, Grafana and Statsd.
 
 [**Grafana as a Yet Another Tool for Technical Monitoring of Software Products We Build**](https://www.logicify.com/en/blog/grafana-as-a-yet-another-tool-for-technical-monitoring-of-software-products-we-build/): Logicify uses Grafana in both their internal and external projects from monitoring the temperature of their offices to tracking user behavior in their eCommerce apps.
 
