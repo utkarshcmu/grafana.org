@@ -63,7 +63,7 @@ See something we missed? Know of an article that might be a good fit for an upco
 	<div class="col col--sm-3">
 		<h4>GrafanaCon LA <br />Call for Proposals</h4>
 		<p>Join us in Los Angeles, California February 25-26, 2019 for 2 days of talks focused on Grafana and the open source monitoring ecosystem.</p>
-		<a class="btn btn--outline" href="https://www.grafanacon.org/2019/cfp" target="_blank"><strong>Submit You Proposal Today</strong></a>
+		<a class="btn btn--outline" href="https://www.grafanacon.org/2019/cfp" target="_blank"><strong>Submit Your Proposal Today</strong></a>
 	</div>
 	<div class="col col--sm-9">
 		<a href="https://www.grafanacon.org/2019/cfp" target="_blank"><img src="/assets/img/blog/timeshift/grafanacon_cfp_timeshift.png" width="600" /></a>
