@@ -23,7 +23,7 @@ Explore UI was designed to fit into workflows for both troubleshooting and data 
 
 “We wanted to bring a lot more interactivity to queries and to Grafana,” said Kaltschmidt, “and we iterated a bit and came up with this more query-centric view, as opposed to the classic Grafana dashboards, which are more about visualizations.”
 
-There’s now a new Explore field in the panel menu of Grafana. This new section, which Kaltschmidt demoed at PromCon, focuses on the queries themselves. “For Prometheus specifically, we want to make the things that should be easy a bit easier,” Kaltschmidt said. “So for example, there’s a little metrics explorer here which groups the available metrics by prefix, so you can have your Alertmanager-related metrics here, and then you just click one, and it fills it out. That’s pretty cool. And then it’s like, hmm, this is a time series that’s monotonically increasing, maybe we should apply a rate function, so then you just click this button, and boom that works.”
+There's now a new Explore icon in the panel menu of Grafana. This new section, which Kaltschmidt demoed at PromCon, focuses on the queries themselves. “For Prometheus specifically, we want to make the things that should be easy a bit easier,” Kaltschmidt said. “So for example, there’s a little metrics explorer here which groups the available metrics by prefix, so you can have your Alertmanager-related metrics here, and then you just click one, and it fills it out. That’s pretty cool. And then it’s like, hmm, this is a time series that’s monotonically increasing, maybe we should apply a rate function, so then you just click this button, and boom that works." Especially these last query hints will play a big part in making Prometheus more approachable for novices.
 
 <div class="row row--no-gutters">
 	<div class="col col--md-6">
@@ -36,17 +36,17 @@ There’s now a new Explore field in the panel menu of Grafana. This new section
 </div>
 <br />
 
-Kaltschmidt then showed how the same could be done for anything with buckets. Explore can fill out “what we hope is a good default function call for your buckets,” he said. 
+Kaltschmidt then showed how the same could be done for anything with buckets. Explore can fill out "what we hope is a good default function call for your buckets," he said, by wrapping the expression with the correct histogram function and its parameters. These resulting expressions are meant to be quick starting points, which you can then iterate through queries. 
 
-These functions are meant to be quick starting points, which you can then iterate through queries. History was added, so that you can see information such as the last things you queried, how often they've been queried in the last 24 hours, and how long ago someone did something. 
+A history was added, so that you can see information such as the last things you queried, how often they've been queried in the last 24 hours, and how long ago that was. 
 
-Another new feature: functions helper. “It always executes two queries, one for the instance query for the table, and one for the graphs,” said Kaltschmidt. “So if you have a bigger screen it’s actually easier to see all of this. You can also toggle the graph, and then you just see the table if you want to iterate more quickly.” It only takes one click to filter or to use the [Pushgateway](https://github.com/prometheus/pushgateway) function.
+“It always executes two queries, one for the instant query for the table, and one for the graphs,” said Kaltschmidt. "You can also toggle the graph, and then you just see the table if you want to iterate more quickly.” It only takes one click on a label to filter by it and drill-down.
 
-A feature that was recently added to Prometheus allows rules to be exposed by API, “which means I can also get recording rules here,” Kaltschmidt said. “If you want to start debugging a query that also contains recording rules, you can expand the rules and do this for all the recording rules that are in your query, in case you’ve forgotten what you’ve written there.”
+We're already supporting a brand new feature of the Prometheus API: recording rules, which means we have their definitions available in Grafana. "If you want to start debugging a query that also contains recording rules, you can expand the rules and do this for all the recording rules that are in your query, in case you’ve forgotten what you’ve written there.”
 
 A split view allows you to compare different Prometheus instances, for example, Dev vs. Prod. And multiple queries can be displayed in the same graph. 
 
-The last part of Kaltschmidt’s demo showed a long list of jobs. You can select a job, and “this basically helps you find out what actual queries are available by the Alertmanager job,” he said. “Then you can look for a metric here, and it totally zones in on the labels that are available based on the previous selectors. So you only end up with suggestions that make sense to everything that came before.”
+The last part of Kaltschmidt's demo showed a faceted search within a query. Starting with a long list of jobs you can select a job, e.g., Alertmanager, and “this basically helps you find out what actual queries are available by the Alertmanager job,” he said. “Then you can look for a metric here, and it totally zones in on the labels that are available based on the previous selectors. So you only end up with suggestions that make sense to everything that came before.”
 
 <div class="row row--no-gutters">
 	<div class="col col--md-6">
@@ -59,7 +59,7 @@ The last part of Kaltschmidt’s demo showed a long list of jobs. You can select
 </div>
 <br />
 
-Explore UI is still “super alpha,” Kaltschmidt concluded, but it’s behind the feature flag, and can be accessed if you’re using the latest Docker image. It will likely be released with Grafana v6.0. There are still things that need to be refined: “Support for completion needs a bit more work. We want Prometheus metric metadata from HELP line in the exposition. The Prometheus exposition format has this help text around what a query does, and when the ‘Write a head lock’ stuff is implemented, we can possibly show these query metadatas, time series metadata also in the UI. That will be pretty cool.” 
+Explore UI is still “super alpha,” Kaltschmidt concluded, but it’s behind the feature flag, and can be accessed if you’re using the latest Docker image. It will likely be released with Grafana v6.0. There are still things that need to be refined: “Support for completion needs a bit more work. We want Prometheus metric metadata from HELP line in the exposition. The Prometheus exposition format has this help text around what a query does, and when the 'Write-ahead lock' stuff is implemented, we can possibly show these query metadata, time series metadata also in the UI. That will be pretty cool.” 
 
 To enable, simply edit the Grafana config ini file:
 ```
