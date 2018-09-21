@@ -87,7 +87,7 @@ See something we missed? Know of an article that might be a good fit for an upco
 <hr />
 
 #### Grafana Plugin Update
-One plugin update this week containing a few bug fixes.]. To update in your on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_61" target="_blank">grafana-cli tool</a>, or for <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_61" target="_blank">Hosted Grafana</a> update with one-click at grafana.com.
+One plugin update this week containing a few bug fixes. To update in your on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_61" target="_blank">grafana-cli tool</a>, or for <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_61" target="_blank">Hosted Grafana</a> update with one-click at grafana.com.
 <br />
 <div class="blog-plugin">
 	<div class="row row--md-gutters">
