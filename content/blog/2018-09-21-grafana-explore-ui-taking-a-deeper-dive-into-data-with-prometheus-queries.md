@@ -9,7 +9,6 @@ cover_blur = "1px"
 description = "Grafana Labs has created the Explore UI, which allows you to iterate quickly through Prometheus queries, while leaving your dashboards intact. This post will walk you through a demo and show you how to try it out yourself."
 categories = ["Grafana", "PromCon", "Explore UI", "Prometheus"]
 excerpt = "Grafana Labs has created the Explore UI, which allows you to iterate quickly through Prometheus queries, while leaving your dashboards intact. This post will walk you through a demo and show you how to try it out yourself."
-draft = true
 +++
 
 ![GrafabaCon EU](/assets/img/blog/david_explore_promcon.jpg)
