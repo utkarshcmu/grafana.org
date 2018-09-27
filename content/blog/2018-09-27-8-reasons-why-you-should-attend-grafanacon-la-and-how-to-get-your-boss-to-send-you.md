@@ -9,12 +9,13 @@ cover_blur = "1px"
 description = "If you’ve attended GrafanaCon before, you already know how awesome it is. But if you’ve never been and you’re on the fence, read on to find out just what we can pack into a two-day conference."
 categories = ["Grafana", "GrafanaCon"]
 excerpt = "If you’ve attended GrafanaCon before, you already know how awesome it is. But if you’ve never been and you’re on the fence, read on to find out just what we can pack into a two-day conference."
-draft = true
 +++
 
 ![GrafabaCon EU](/assets/img/blog/grafanacon_crowd1.png)
 
-Mark your calendars! [GrafanaCon LA 2019](http://grafanacon.org) is scheduled for Feb. 25-26 in Los Angeles, California. The [CFP is offically open](https://www.grafanacon.org/2019/cfp), so we encourage you to submit as many proposals as you wish. All speakers who are selected will have their ticket comped. Also, [tickets are officially on sale](https://ti.to/grafanacon/grafanacon-la-2019)! If you’ve attended GrafanaCon before, you already know how awesome it is. But if you’ve never been and you’re on the fence, read on to find out just what we can pack into a two-day conference. And whether you’re a newbie or an alum, stick around for some tips on how to convince your boss to send you.
+Mark your calendars! [GrafanaCon LA 2019](http://grafanacon.org) is scheduled for Feb. 25-26 in Los Angeles, California. The [CFP is offically open](https://www.grafanacon.org/2019/cfp) and we encourage you to submit multiple proposals. All speakers who are selected will have their tickets comped. Speaking of tickets, [tickets are officially on sale](https://ti.to/grafanacon/grafanacon-la-2019)! 
+
+If you’ve attended GrafanaCon before, you already know how awesome it is. But if you’ve never been and you’re on the fence, read on to find out just what we can pack into a two-day conference. And whether you’re a newbie or an alum, stick around for some tips on how to convince your boss to send you.
 
 #### 1. Learning is fundamental. 
 
