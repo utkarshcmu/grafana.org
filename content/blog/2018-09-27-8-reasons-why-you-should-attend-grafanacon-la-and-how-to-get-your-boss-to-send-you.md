@@ -1,7 +1,7 @@
 +++
 title = "8 Reasons Why You Should Attend GrafanaCon (and how to get your boss to send you)"
 author = "jdam"
-date = "2018-09-19"
+date = "2018-09-27"
 keywords = ["GrafanaCon LA", "Conference", "GrafanaCon"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
@@ -14,11 +14,11 @@ draft = true
 
 ![GrafabaCon EU](/assets/img/blog/grafanacon_crowd1.png)
 
-Mark your calendars! [GrafanaCon LA 2019](https://grafanacon.org) is scheduled for Feb. 25-26 in Los Angeles, California. Registration and programming announcements are still a few weeks out, but it’s never too early to start planning. If you’ve attended GrafanaCon before, you already know how awesome it is. But if you’ve never been and you’re on the fence, read on to find out just what we can pack into a two-day conference. And whether you’re a newbie or veteran, stick around for some tips on how to convince your boss to send you.
+Mark your calendars! [GrafanaCon LA 2019](http://grafanacon.org) is scheduled for Feb. 25-26 in Los Angeles, California. The [CFP is offically open](https://www.grafanacon.org/2019/cfp), so we encourage you to submit as many proposals as you wish. All speakers who are selected will have their ticket comped. Also, [tickets are officially on sale](https://ti.to/grafanacon/grafanacon-la-2019)! If you’ve attended GrafanaCon before, you already know how awesome it is. But if you’ve never been and you’re on the fence, read on to find out just what we can pack into a two-day conference. And whether you’re a newbie or an alum, stick around for some tips on how to convince your boss to send you.
 
 #### 1. Learning is fundamental. 
 
-It goes without saying that there’s a lot of information to be had at a GrafanaCon. Because so many different people have embraced Grafana—from the monitoring tinkerer to Fortune 500 companies—GrafanaCon provides the opportunity to get first-hand accounts of monitoring at every scale. Here you can learn monitoring best practices from companies like eBay and Uber, and the ins and outs of the latest open source monitoring tools. GrafanaCon isn’t just about Grafana; it also encompasses the open source monitoring ecosystem at large. You can find out more about Prometheus, Graphite, InfluxDB, Kubernetes, and others. At the last GrafanaCon, attendees heard from more than 30 speakers over two days, covering topics ranging from how [Bloomberg built its monitoring infrastructure](https://grafana.com/blog/2018/06/28/evolution-of-telemetry-at-bloomberg/), to an overview of the [RED Method](https://grafana.com/blog/2018/08/02/the-red-method-how-to-instrument-your-services/) of instrumenting services (from its creator!), to a preview of the new [Influx Functional Query Engine](https://grafana.com/blog/2018/07/26/how-the-new-influx-query-engine-was-designedand-how-to-use-it-with-grafana/). 
+It goes without saying that there’s a lot of information to be had at GrafanaCon. Because so many different people have embraced Grafana—from the monitoring tinkerer to Fortune 500 companies—GrafanaCon provides the opportunity to get first-hand accounts of monitoring at every scale. Here you can learn monitoring best practices from companies like eBay and Uber, and the ins and outs of the latest open source monitoring tools. GrafanaCon isn’t just about Grafana; it also encompasses the open source monitoring ecosystem at large. You can find out more about Prometheus, Graphite, InfluxDB, Kubernetes, and others. At the last GrafanaCon, attendees heard from more than 30 speakers over two days, covering topics ranging from how [Bloomberg built its monitoring infrastructure](https://grafana.com/blog/2018/06/28/evolution-of-telemetry-at-bloomberg/), to an overview of the [RED Method](https://grafana.com/blog/2018/08/02/the-red-method-how-to-instrument-your-services/) of instrumenting services (from its creator!), to a preview of the new [Influx Functional Query Engine](https://grafana.com/blog/2018/07/26/how-the-new-influx-query-engine-was-designedand-how-to-use-it-with-grafana/). 
 
 #### 2. Networking opportunities galore. 
 
@@ -53,5 +53,9 @@ While the problems we solve through monitoring are important for businesses, we 
 Guess what? All of the above can be cited to convince your boss to send you to GrafanaCon. (Okay, maybe not #8. And lose the references to your CV.) 
 
 We understand that conferences can be expensive—the price of the ticket, travel, lodging, meals, and time off from our actual jobs. But think about what you get in return: the opportunity to get hands-on trials of new tools, learn how they’re implemented at scale by some of the biggest companies in the world, and crowdsource solutions for monitoring issues we’ve all struggled through. You’ll come back to work invigorated and inspired, armed with new ways of looking at and transforming the data you collect, important industry connections, and fresh ideas that will ultimately help your business succeed. Isn’t that worth your while?
+
+<a class="btn btn--primary btn--large" href="https://ti.to/grafanacon/grafanacon-la-2019" target="_blank">Get Your GrafanaCon Ticket Now!</a>
+<br />
+<br />
 
 ![GrafabaCon EU](/assets/img/blog/grafanacon_crowd3.png)

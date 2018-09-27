@@ -9,7 +9,6 @@ cover_blur = "1px"
 description = "Monitoring mixins: A solution for packaging together templates for Grafana dashboards and Prometheus alerts related to a specific piece of software."
 categories = ["Grafana", "PromCon", "Kubernetes", "Prometheus"]
 excerpt = "Monitoring mixins: A solution for packaging together templates for Grafana dashboards and Prometheus alerts related to a specific piece of software."
-draft = true
 +++
 
 ![GrafabaCon EU](/assets/img/blog/tom_mixins_promcon.jpg)
