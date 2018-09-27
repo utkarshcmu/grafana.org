@@ -29,7 +29,14 @@
 							</h5>
 
 							<div style="margin-bottom: 15px; position: relative; top: -10px;">
-								by {{ .Params.author }} published on {{ .Date.Format "2 Jan 2006" }}
+								<strong>by {{ .Params.author }} published on {{ .Date.Format "2 Jan 2006" }}</strong>
+								<p>
+									{{ if .Params.excerpt }}
+								    {{ .Params.excerpt }}
+									{{else}}
+								    {{ .Summary }}
+									{{ end }}
+								</p>
 							</div>
 						</article>
 						{{ end }}
