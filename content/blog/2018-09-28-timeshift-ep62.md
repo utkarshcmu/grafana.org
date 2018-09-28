@@ -8,7 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "Early bird tickets to GrafanaCon are now available. Also...."
+excerpt = "How to get your company to send you to GrafanaCon, monitoring Kubernetes, automating your dashboards, and more. "
 +++
 
 ### Welcome to TimeShift
