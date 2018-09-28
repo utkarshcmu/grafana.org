@@ -76,7 +76,7 @@ And now, on to the show!
 <hr />
 
 #### From the Blogosphere
-[**8 Reasons Why You Should Attend GrafanaCon (and how to get your boss to send you)**](http://localhost:3002/2018/09/27/8-reasons-why-you-should-attend-grafanacon-and-how-to-get-your-boss-to-send-you/?utm_source=blog&utm_campaign=timeshift_62):  We understand – conferences can be expensive. But the things you learn, people you meet, and memories you make are priceless. This article covers some of the major benefits of attending GrafanaCon, which we hope will convince your company they'd be silly not to send you.
+[**8 Reasons Why You Should Attend GrafanaCon (and how to get your boss to send you)**](https://grafana.com/blog/2018/09/27/8-reasons-why-you-should-attend-grafanacon-and-how-to-get-your-boss-to-send-you/?utm_source=blog&utm_campaign=timeshift_62):  We understand – conferences can be expensive. But the things you learn, people you meet, and memories you make are priceless. This article covers some of the major benefits of attending GrafanaCon, which we hope will convince your company they'd be silly not to send you.
 
 [**Instrumenting Porcupine With Prometheus & Grafana)**](https://blog.sebastian-daschner.com/entries/porcupine-metrics-grafana):  Adam Bien’s Porcupine library makes it easy to configure dedicated executor services that act as application bulkheads. Sebastian has created an extension that exposes the Porcupine statistics via MicroProfile Metrics, which can be visualized in Grafana via Prometheus.
 
