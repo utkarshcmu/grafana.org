@@ -68,7 +68,7 @@ And now, on to the show!
 	<div class="col col--sm-3">
 		<h4>GrafanaCon LA <br />Early Bird Tickets Now on Sale</h4>
 		<p>Join us in Los Angeles, California February 25-26, 2019 for 2 days of talks focused on Grafana and the open source monitoring ecosystem.</p>
-		<a class="btn btn--outline" href="https://www.grafanacon.org/" target="_blank"><strong>Get Your Ticker Now</strong></a>
+		<a class="btn btn--outline" href="https://www.grafanacon.org/" target="_blank"><strong>Get Your Ticket Now</strong></a>
 	</div>
 </div>
 
@@ -78,11 +78,11 @@ And now, on to the show!
 #### From the Blogosphere
 [**8 Reasons Why You Should Attend GrafanaCon (and how to get your boss to send you)**](https://grafana.com/blog/2018/09/27/8-reasons-why-you-should-attend-grafanacon-and-how-to-get-your-boss-to-send-you/?utm_source=blog&utm_campaign=timeshift_62):  We understand – conferences can be expensive. But the things you learn, people you meet, and memories you make are priceless. This article covers some of the major benefits of attending GrafanaCon, which we hope will convince your company they'd be silly not to send you.
 
-[**Instrumenting Porcupine With Prometheus & Grafana)**](https://blog.sebastian-daschner.com/entries/porcupine-metrics-grafana):  Adam Bien’s Porcupine library makes it easy to configure dedicated executor services that act as application bulkheads. Sebastian has created an extension that exposes the Porcupine statistics via MicroProfile Metrics, which can be visualized in Grafana via Prometheus.
+[**Instrumenting Porcupine With Prometheus & Grafana**](https://blog.sebastian-daschner.com/entries/porcupine-metrics-grafana):  Adam Bien’s Porcupine library makes it easy to configure dedicated executor services that act as application bulkheads. Sebastian has created an extension that exposes the Porcupine statistics via MicroProfile Metrics, which can be visualized in Grafana via Prometheus.
 
-[**Getting Started on Monitoring with Prometheus and Grafana)**](https://technology.amis.nl/2018/09/25/getting-started-on-monitoring-with-prometheus-and-grafana/):  This presentation from a recent meetup on monitoring with Prometheus touches on the "hows" and "whys" of monitoring as well as diving into that particulars of Prometheus and Grafana. Presentation slides from the meetup are included.
+[**Getting Started on Monitoring with Prometheus and Grafana**](https://technology.amis.nl/2018/09/25/getting-started-on-monitoring-with-prometheus-and-grafana/):  This presentation from a recent meetup on monitoring with Prometheus touches on the "hows" and "whys" of monitoring as well as diving into that particulars of Prometheus and Grafana. Presentation slides from the meetup are included.
 
-[**[Video] Boskey Savla - Monitoring VKE Kubernetes clusters with Prometheus/Grafana)**](https://www.youtube.com/watch?v=TGA95ritIYc):  In this video from VMware {code} Power Sessions you'll see how a K8s cluster deployed with VMware Kubernetes Engine can be monitored using Prometheus and Grafana.
+[**[Video] Boskey Savla - Monitoring VKE Kubernetes clusters with Prometheus/Grafana**](https://www.youtube.com/watch?v=TGA95ritIYc):  In this video from VMware {code} Power Sessions you'll see how a K8s cluster deployed with VMware Kubernetes Engine can be monitored using Prometheus and Grafana.
 
 [**Automate Grafana Dashboard Import Process**](https://blogcodevalue.wordpress.com/2018/09/16/automate-grafana-dashboard-import-process/):  This article talks about the components and process to automatically import dashboards into Grafana to monitor an application running on a Kubernetes cluster.
 
