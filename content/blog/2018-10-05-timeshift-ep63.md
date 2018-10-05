@@ -8,7 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "How to get your company to send you to GrafanaCon, monitoring Kubernetes, automating your dashboards, and more. "
+excerpt = "Notes on the new 5.3.0beta-3 release, new and updated plugins, GrafanaCon early bird tickets and more. Also how to display metrics in OpenShift, gathering data from IoT devices, and an introduction to the pillars of observability."
 +++
 
 ### Welcome to TimeShift
