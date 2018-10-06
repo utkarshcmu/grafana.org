@@ -81,7 +81,7 @@ Enjoy!
 
 [**Lab #1 – Migrating to Grafana/InfluxDB**](https://blog.abc-arbitrage.com/2018/09/28/lab-1-migrating-to-grafana-influxdb/):  While switching from a monolithic approach to a services-oriented architecture, ABC Arbitrage also needed a monitoring tool to gather and report application metrics. This post walks through the decisions they made to build their new monitoring stack.
 
-[**Real Time Analytics for IoT Data using Mosquitto, AWS Kinesis and InfluxDB**](https://velotio.com/blog/2018/9/26/real-time-analytics-for-iot-data-using-mosquitto-aws-kinesis-and-influxdb): IoT devices generate a large amount of data. Learn how build a data pipeline through common open source components and gain actionable insight from this data.
+[**Real Time Analytics for IoT Data using Mosquitto, AWS Kinesis and InfluxDB**](https://velotio.com/blog/2018/9/26/real-time-analytics-for-iot-data-using-mosquitto-aws-kinesis-and-influxdb): IoT devices generate a large amount of data. Learn how to build a data pipeline through common open source components and gain actionable insight from this data.
 
 <br />
 <hr />
