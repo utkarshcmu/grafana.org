@@ -24,7 +24,7 @@ Grafana v5.3 brings new features, many enhancements and bug fixes. This article 
 
 {{< docs-imagebox img="/img/docs/v53/stackdriver-with-heatmap.png"  max-width= "600px" class="docs-image--no-shadow docs-image--right" >}}
 
-Grafana v5.3 ships with built-in support for [Google Stackdriver](https://cloud.google.com/stackdriver/) and enables you to visualize your Stackdriver metrics in Grafana. 
+Grafana v5.3 ships with built-in support for [Google Stackdriver](https://cloud.google.com/stackdriver/) and enables you to visualize your Stackdriver metrics in Grafana.
 
 Getting started with the plugin is easy. Simply create a GCE Service account that has access to the Stackdriver API scope, download the Service Account key file from Google and upload it on the Stackdriver datasource config page in Grafana and you should have a secure server-to-server authentication setup. Like other core plugins, Stackdriver has built-in support for alerting. It also comes with support for heatmaps and basic variables.
 
@@ -37,7 +37,7 @@ The Grafana Stackdriver plugin comes with support for automatic unit detection. 
 The datasource is still in the `beta` phase, meaning it's currently in active development and is still missing one important feature - templating queries.
 Please try it out, but be aware of that it might be subject to changes and possible bugs. We would love to hear your feedback.
 
-Please read [Using Google Stackdriver in Grafana](/features/datasources/stackdriver/) for more detailed information on how to get started and use it.
+Please read [Using Google Stackdriver in Grafana](http://docs.grafana.org/features/datasources/stackdriver/) for more detailed information on how to get started and use it.
 
 ## TV and Kiosk Mode
 
@@ -50,32 +50,32 @@ We've improved the TV & kiosk mode to make it easier to use. There's now an icon
 3. Hit the escape key to go back to the default view mode.
 
 When switching view modes, the url will be updated to reflect the view mode selected. This allows a dashboard to be opened with a
-certain view mode enabled. Additionally, this also enables [playlists](/reference/playlist) to be started with a certain view mode enabled.
+certain view mode enabled. Additionally, this also enables [playlists](http://docs.grafana.org/reference/playlist) to be started with a certain view mode enabled.
 
 <div class="clearfix"></div>
 
 ## Notification Reminders
 
 Do you use Grafana alerting and have some notifications that are more important than others? Then it's possible to set reminders so that you continue to be alerted until the problem is fixed. This is done on the notification channel itself and will affect all alerts that use that channel.
-For additional examples of why reminders might be useful for you, see [multiple series](/alerting/rules/#multiple-series).
+For additional examples of why reminders might be useful for you, see [multiple series](http://docs.grafana.org/alerting/rules/#multiple-series).
 
-Learn how to enable and configure reminders [here](/alerting/notifications/#send-reminders).
+Learn how to enable and configure reminders [here](http://docs.grafana.org/alerting/notifications/#send-reminders).
 
 ## Postgres Query Builder
 
-Grafana 5.3 comes with a new graphical query builder for Postgres. This brings Postgres integration more in line with some of the other datasources and makes it easier for both advanced users and beginners to work with timeseries in Postgres. Learn more about it in the [documentation](/features/datasources/postgres/#query-editor).
+Grafana 5.3 comes with a new graphical query builder for Postgres. This brings Postgres integration more in line with some of the other datasources and makes it easier for both advanced users and beginners to work with timeseries in Postgres. Learn more about it in the [documentation](http://docs.grafana.org/features/datasources/postgres/#query-editor).
 
 {{< docs-imagebox img="/img/docs/v53/postgres_query_still.png" class="docs-image--no-shadow" animated-gif="/img/docs/v53/postgres_query.gif" >}}
 
 ## Improved OAuth Support for Gitlab
 
 Grafana 5.3 comes with a new OAuth integration for Gitlab that enables configuration to only allow users that are a member of certain Gitlab groups to authenticate. This makes it possible to use Gitlab OAuth with Grafana in a shared environment without giving everyone access to Grafana.
-Learn how to enable and configure it in the [documentation](/auth/gitlab/).
+Learn how to enable and configure it in the [documentation](http://docs.grafana.org/auth/gitlab/).
 
 ## Annotations
 
-Grafana 5.3 brings improved support for [native annotations](/reference/annotations/#native-annotations) and makes it possible to use template variables when filtering by tags.
-Learn more about it in the [documentation](/reference/annotations/#query-by-tag).
+Grafana 5.3 brings improved support for [native annotations](http://docs.grafana.org/reference/annotations/#native-annotations) and makes it possible to use template variables when filtering by tags.
+Learn more about it in the [documentation](http://docs.grafana.org/reference/annotations/#query-by-tag).
 
 {{< docs-imagebox img="/img/docs/v53/annotation_tag_filter_variable.png" max-width="600px" >}}
 
