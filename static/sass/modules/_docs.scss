@@ -317,7 +317,6 @@ $docs-subheader-bg-color: transparent;
 .nav-cards {
   width: 100%;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
@@ -326,7 +325,7 @@ $docs-subheader-bg-color: transparent;
   display: flex;
   flex-direction: column;
   padding: $spacer;
-  margin-bottom: 10px;
+  margin: 4px;
   justify-content: center;
   align-items: center;
   background: $card-background;
