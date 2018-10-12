@@ -317,16 +317,15 @@ $docs-subheader-bg-color: transparent;
 .nav-cards {
   width: 100%;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 30px;
+  justify-content: space-between;
 }
 
 .nav-cards__item {
   display: flex;
   flex-direction: column;
   padding: $spacer;
-  margin-bottom: 10px;
   justify-content: center;
   align-items: center;
   background: $card-background;
@@ -426,7 +425,7 @@ $docs-subheader-bg-color: transparent;
     }
 
     &--ds {
-      width: 24%;
+      width: 19%;
     }
   }
 }
@@ -442,7 +441,7 @@ $docs-subheader-bg-color: transparent;
     }
 
     &--ds {
-      width: 24%;
+      width: 19%;
     }
   }
 }
