@@ -1,7 +1,7 @@
 +++
-title = "timeShift(GrafanaBuzz, 1w) Issue 64"
+title = "timeShift(GrafanaBuzz, 1w) Issue 65"
 author = "trent"
-date = "2018-10-12"
+date = "2018-10-19"
 keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
@@ -12,7 +12,7 @@ excerpt = "Notes on the new Grafana v5.3 stable release, and description of new 
 +++
 
 ### Welcome to TimeShift
-This week the Grafana Labs team was busy prepping for the **[Grafana v5.3 stable release](https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_64)**! Grafana v5.3 adds Stackdriver as a core datasource, a new graphical query editor for Postgres, enhancements to TV and kiosk mode, and a lot more. See the release section for a list of all the new features.
+This week the Grafana Labs team was busy prepping for the **[Grafana v5.3 stable release](https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_65)**! Grafana v5.3 adds Stackdriver as a core datasource, a new graphical query editor for Postgres, enhancements to TV and kiosk mode, and a lot more. See the release section for a list of all the new features.
 
 #### GrafanaCon
 **The GrafanaCon CFP window is scheduled to close Oct 15.** Be sure and [submit your talk](http://www.grafanacon.org/2019/cfp) before it's too late.
@@ -50,9 +50,9 @@ Know of an article that might be a good fit for an upcoming issue? [Contact us](
 			<li><strong>Cloudwatch</strong>: Automatically set graph yaxis unit <a href="https://github.com/grafana/grafana/issues/13575">#13575</a>, thx <a href="https://github.com/mtanda">@mtanda</a></li>
 		</ul>
 		<p>
-			<a href="https://community.grafana.com/t/release-notes-v5-3-x/10244?utm_source=blog&utm_campaign=timeshift_64" target="_blank">See everything new in Grafana v5.3</a>.
+			<a href="https://community.grafana.com/t/release-notes-v5-3-x/10244?utm_source=blog&utm_campaign=timeshift_65" target="_blank">See everything new in Grafana v5.3</a>.
 		</p>
-		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_64" target="_blank" class="btn btn--primary">Download Grafana v5.3 Now</a>
+		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_65" target="_blank" class="btn btn--primary">Download Grafana v5.3 Now</a>
 	</div>
 </div>
 
@@ -90,7 +90,7 @@ Know of an article that might be a good fit for an upcoming issue? [Contact us](
 	<h4>We're Hiring!</h4>
 	<p>We've added new open positions at Grafana Labs! Do you love open source software? Do you thrive on tackling complex challenges to build the future? Want to work with awesome people? Be the next to join our team!
 	</p>
-	<a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_64" target="_blank">View our Open Positions</a>
+	<a class="btn btn-outline" href="https://grafana.com/about/hiring?utm_source=blog&utm_campaign=timeshift_65" target="_blank">View our Open Positions</a>
 </div>
 
 <br />
@@ -191,7 +191,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 <br />
 
 #### How are we doing?
-Hope you enjoyed this issue of TimeShift. What do you think? Are there other types of content you'd like to see here? Submit a comment on this issue below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_64).
+Hope you enjoyed this issue of TimeShift. What do you think? Are there other types of content you'd like to see here? Submit a comment on this issue below, or post something at our [community forum](http://community.grafana.com?utm_source=blog&utm_campaign=timeshift_65).
 
-Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_64).
+Follow us on [Twitter](http://twitter.com/grafana), like us on [Facebook](http://facebook.com/grafana), and join the [Grafana Labs community](http://grafana.com/signup?utm_source=blog&utm_campaign=timeshift_65).
 
