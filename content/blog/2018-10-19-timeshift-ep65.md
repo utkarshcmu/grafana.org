@@ -8,11 +8,11 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "This week we dive into the new Google Stackdriver core datasource in Grafana, go into detail on the new Postgres query editor and share some best practices. Also, GrafanaCon early bird tickets are going fast and we're closing the call for papers tonight (Oct 19)."
+excerpt = "This week we'll learn about the new Google Stackdriver core datasource in Grafana, dive into the new Postgres query editor and share some best practices. Also, GrafanaCon early bird tickets are going fast and we're closing the call for papers tonight (Oct 19)."
 +++
 
 ### Welcome to TimeShift
-This week we dive into the new Google Stackdriver core datasource in Grafana, go into detail on the new Postgres query editor and share some best practices.
+This week we'll learn about the new Google Stackdriver core datasource in Grafana, dive into the new Postgres query editor and share some best practices.
 
 #### GrafanaCon
 **The GrafanaCon CFP window is closing TODAY.** Be sure and [submit your talk](http://www.grafanacon.org/2019/cfp) before it's too late.
