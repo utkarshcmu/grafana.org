@@ -15,7 +15,7 @@ excerpt = "This week we dive into the new Google Stackdriver core datasource in 
 This week we dive into the new Google Stackdriver core datasource in Grafana, go into detail on the new Postgres query editor and share some best practices.
 
 #### GrafanaCon
-**The GrafanaCon CFP window is scheduled to close TODAY.** Be sure and [submit your talk](http://www.grafanacon.org/2019/cfp) before it's too late.
+**The GrafanaCon CFP window is closing TODAY.** Be sure and [submit your talk](http://www.grafanacon.org/2019/cfp) before it's too late.
 Also, don't forget to grab an [early bird ticket](http://grafanacon.org) they're going fast, and you don't want to miss out on this price! 
 
 Have an article you'd like shared here? [Contact us](mailto:hello@grafana.com)!
@@ -73,7 +73,7 @@ Have an article you'd like shared here? [Contact us](mailto:hello@grafana.com)!
 
 [**Bit v. Byte Episode 41 - Google & Facebook Hacks, Pixel 3 & Home Hub, Grafana**](https://anchor.fm/bit-v-byte/episodes/Episode-41---Google--Facebook-Hacks--Pixel-3--Home-Hub--GrafanaFontAwesomeDNSControlRestic-e2dd5b/a-a5rsro):  The release of Grafana 5.3 was mentioned in last week's Bit v. Byte podcast where Adam discussed some of the new features. Always a good series to stay up to date on the latest tools and techniques.
 
-[**Graph top N time series in Grafana**](https://www.robustperception.io/graph-top-n-time-series-in-grafana):  Brian Brazil explains how to graph the top N series over a duration in Grafana v5.3.
+[**Graph top N time series in Grafana**](https://www.robustperception.io/graph-top-n-time-series-in-grafana):  Brian Brazil explains how to graph the top N series over a duration using Prometheus in Grafana v5.3.
 
 <br />
 <hr />
@@ -171,7 +171,7 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 				David will show how these OSS parts should be deployed to achieve full observability in an engaging user experience that saves valuable minutes.
 			</p>
 			<p>
-				We are also a proud sponsor of the Cloud Native Computing Foundation's flagship conference. Join Kubernetes, Prometheus, OpenTracing, Fluentd, gRPC, containerd, rkt, CNI, Envoy, Jaeger, Notary, TUF, Vitess, CoreDNS, NATS, Linkerd and Helm as the community gathers for four days to further the education and advancement of cloud native computing.
+				We are also a proud sponsor of the Cloud Native Computing Foundation's flagship conference. Join Kubernetes, Prometheus, Cortex, OpenTracing, Fluentd, gRPC, containerd, rkt, CNI, Envoy, Jaeger, Notary, TUF, Vitess, CoreDNS, NATS, Linkerd and Helm as the community gathers for four days to further the education and advancement of cloud native computing.
 			</p>
 			<a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/" target="_blank" class="btn btn--outline">Register Now</a>
 		</div>
