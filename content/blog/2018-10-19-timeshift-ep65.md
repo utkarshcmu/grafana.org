@@ -2,26 +2,53 @@
 title = "timeShift(GrafanaBuzz, 1w) Issue 65"
 author = "trent"
 date = "2018-10-19"
-keywords = ["Grafana", "Blog", "Roundup", "timeShift"]
+keywords = ["Grafana", "Blog", "Roundup", "timeShift", "Stackdriver", "Postgres", "GrafanaCon"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "Notes on the new Grafana v5.3 stable release, and description of new featues, an upcoming Graphite webinar you don't want to miss, and announcing the closing of GrafanaCon CFP."
+excerpt = "This week we dive into the new Google Stackdriver core datasource in Grafana and go into detail about the new Postgres query editor and best practices to write efficient queries. Also, GrafanaCon early bird tickets are going fast and we're closing the call for papers tonight (Oct 19)."
 +++
 
 ### Welcome to TimeShift
-This week the Grafana Labs team was busy prepping for the **[Grafana v5.3 stable release](https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_65)**! Grafana v5.3 adds Stackdriver as a core datasource, a new graphical query editor for Postgres, enhancements to TV and kiosk mode, and a lot more. See the release section for a list of all the new features.
+This week we dive into the new Google Stackdriver core datasource in Grafana, go into detail on the new Postgres query editor and share some best practices.
 
 #### GrafanaCon
-**The GrafanaCon CFP window is scheduled to close Oct 15.** Be sure and [submit your talk](http://www.grafanacon.org/2019/cfp) before it's too late.
-Also, don't forget to grab an [early bird ticket](http://grafanacon.org) to GrafanaCon before they're sold out! 
+**The GrafanaCon CFP window is scheduled to close TODAY.** Be sure and [submit your talk](http://www.grafanacon.org/2019/cfp) before it's too late.
+Also, don't forget to grab an [early bird ticket](http://grafanacon.org) they're going fast, and you don't want to miss out on this price! 
 
-Know of an article that might be a good fit for an upcoming issue? [Contact us](mailto:hello@grafana.com)!
+Have an article you'd like shared here? [Contact us](mailto:hello@grafana.com)!
 <br />
 <hr />
 
+<div class="row row--no-gutters">
+	<div class="col col--sm-3">
+		<img src="/assets/img/blog/timeshift/grafana_release_icon.png" width="170" />
+	</div>
+	<div class="col col--sm-9">
+		<h3>Latest Stable Release: Grafana v5.3.1</h3>
+		<h5>Updates in this release</h5>
+		<ul>
+			<li><strong>Render</strong>: Fix PhantomJS render of graph panel when legend displayed as table to the right <a href="https://github.com/grafana/grafana/issues/13616">#13616</a></li>
+			<li><strong>Stackdriver</strong>: Filter option disappears after removing initial filter <a href="https://github.com/grafana/grafana/issues/13607">#13607</a></li>
+			<li><strong>Elasticsearch</strong>: Fix no limit size in terms aggregation for alerting queries <a href="https://github.com/grafana/grafana/issues/13172">#13172</a>, thx <a href="https://github.com/Yukinoshita-Yukino">@Yukinoshita-Yukino</a></li>
+			<li><strong>InfluxDB</strong>: Fix for annotation issue that caused text to be shown twice <a href="https://github.com/grafana/grafana/issues/13553">#13553</a></li>
+			<li><strong>Variables</strong>: Fix nesting variables leads to exception and missing refresh <a href="https://github.com/grafana/grafana/issues/13628">#13628</a></li>
+			<li><strong>Variables</strong>: Prometheus: Single letter labels are not supported <a href="https://github.com/grafana/grafana/issues/13641">#13641</a>, thx <a href="https://github.com/olshansky">@olshansky</a></li>
+			<li><strong>Graph</strong>: Fix graph time formatting for Last 24h ranges <a href="https://github.com/grafana/grafana/issues/13650">#13650</a></li>
+			<li><strong>Playlist</strong>: Fix cannot add dashboards with long names to playlist <a href="https://github.com/grafana/grafana/issues/13464">#13464</a>, thx <a href="https://github.com/neufeldtech">@neufeldtech</a></li>
+			<li><strong>HTTP API</strong>: Fix /api/org/users so that query and limit querystrings works</li>
+		</ul>
+		<p>
+			<a href="https://community.grafana.com/t/release-notes-v5-3-x/10244?utm_source=blog&utm_campaign=timeshift_65" target="_blank">See everything new in Grafana v5.3.1</a>.
+		</p>
+		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_65" target="_blank" class="btn btn--primary">Download Grafana v5.3.1 Now</a>
+	</div>
+</div>
+
+<br />
+<hr />
 
 <div class="row row--internal-gutters">
 	<div class="col col--sm-8">
@@ -37,51 +64,16 @@ Know of an article that might be a good fit for an upcoming issue? [Contact us](
 <br />
 <hr />
 
-<div class="row row--no-gutters">
-	<div class="col col--sm-3">
-		<img src="/assets/img/blog/timeshift/grafana_release_icon.png" width="170" />
-	</div>
-	<div class="col col--sm-9">
-		<h3>Latest Stable Release: Grafana v5.3</h3>
-		<h5>Updates in this stable release</h5>
-		<ul>
-			<li><strong>Stackdriver</strong>: Filter wildcards and regex matching are not yet supported <a href="https://github.com/grafana/grafana/issues/13495">#13495</a></li>
-			<li><strong>Stackdriver</strong>: Support the distribution metric type for heatmaps <a href="https://github.com/grafana/grafana/issues/13559">#13559</a></li>
-			<li><strong>Cloudwatch</strong>: Automatically set graph yaxis unit <a href="https://github.com/grafana/grafana/issues/13575">#13575</a>, thx <a href="https://github.com/mtanda">@mtanda</a></li>
-		</ul>
-		<p>
-			<a href="https://community.grafana.com/t/release-notes-v5-3-x/10244?utm_source=blog&utm_campaign=timeshift_65" target="_blank">See everything new in Grafana v5.3</a>.
-		</p>
-		<a href="https://grafana.com/grafana/download?utm_source=blog&utm_campaign=timeshift_65" target="_blank" class="btn btn--primary">Download Grafana v5.3 Now</a>
-	</div>
-</div>
-
-<br />
-<hr />
-
 #### From the Blogosphere
-[**Grafana v5.3 Released**](https://grafana.com/blog/2018/10/10/grafana-v5.3-released/):  Carl Bergquist wrote an article that dives into the new features of Grafana v5.3 and how to get started using them.
+[**Introducing Stackdriver as a datasource for Grafana**](https://cloud.google.com/blog/products/management-tools/introducing-stackdriver-as-a-data-source-for-grafana):  The Google Cloud team received lots of requests from customers wanting to view Stackdriver data in Grafana, so we worked closely with them to build and release the Stackdriver plugin for Grafana in v5.3. This article gives you some background on Stackdriver and shows how you can get started using this beta plugin. Please give it a try, we're looking forward to your feedback.
 
-[**Building a more reliable infrastructure with new Stackdriver tools and partners**](https://cloud.google.com/blog/products/management-tools/building-a-more-reliable-infrastructure-with-new-stackdriver-tools-and-partners):  This post from the Google Cloud team discusses Stackdriver and announces our partnership developing the Stackdriver datasource for Grafana.
+[**Make time-series exploration easier with the PostgreSQL/TimescaleDB query editor**](https://grafana.com/blog/2018/10/15/make-time-series-exploration-easier-with-the-postgresql/timescaledb-query-editor/):  Grafana v5.3 includes a new visual query editor for the PostgreSQL datasource. The folks from TimescaleDB did a lot of work on this feature (thanks [@svenklemm](https://github.com/svenklemm)), and put together a great writeup on using the new query builder and some best practices.
 
-[**Setting up Prometheus/Grafana Monitoring Dashboard for ForgeRock IDM**](https://identitybrandwag.blogspot.com/2018/10/setting-up-prometheusgrafana-monitoring.html):  This installation walkthrough shows you how to visualize data from ForgeRock Identity Management using Prometheus and Grafana.
+[**Azure Monitor – Combine Azure Monitor And Azure Log Analytics Data In Grafana**](https://www.stefanroth.net/2018/10/12/azure-monitor-combine-azure-monitor-and-azure-log-analytics-data-in-grafana/):  In this article, Stefan walks you through the steps to combine Azure Monitor and Azure LogAnalytics Data and embed the graphs in Grafana.
 
-[**Monitor using Grafana and Prometheus.**](https://medium.com/@niteshagarwal_/monitor-using-grafana-and-prometheus-93788ae7296c):  In the first in a new series on monitoring with Grafana and Prometheus, Nitesh discusses basic components you might need to get a simple monitoring system for your servers up and running.
+[**Bit v. Byte Episode 41 - Google & Facebook Hacks, Pixel 3 & Home Hub, Grafana**](https://anchor.fm/bit-v-byte/episodes/Episode-41---Google--Facebook-Hacks--Pixel-3--Home-Hub--GrafanaFontAwesomeDNSControlRestic-e2dd5b/a-a5rsro):  The release of Grafana 5.3 was mentioned in last week's Bit v. Byte podcast where Adam discussed some of the new features. Always a good series to stay up to date on the latest tools and techniques.
 
-<br />
-<hr />
-
-<div class="row row--internal-gutters">
-	<div class="col col--sm-8">
-		<a href="https://attendee.gotowebinar.com/register/6890462743886537729" target="_blank"><img src="/assets/img/blog/timeshift/graphite_webinar_tweet.png" /></a>
-	</div>
-	<div class="col col--sm-4">
-		<h2 class="event-type">WEBINAR - Oct 16, 1pm EDT</h2>
-		<h4>Making the most out of your upgrade to Graphite 1.1</h4>
-		<p>In this webinar, Graphite project maintainer Dan Cech will provide some history of the project, outline new features of Graphite 1.x, and show you how to best make use of them. Good for Graphite users of all levels, whether you've already upgraded to 1.1 or are still on an older version. Hope you can join us!</p>
-		<a class="btn btn--outline" href="https://attendee.gotowebinar.com/register/6890462743886537729" target="_blank"><strong>Register Now</strong></a>
-	</div>
-</div>
+[**Graph top N time series in Grafana**](https://www.robustperception.io/graph-top-n-time-series-in-grafana):  Brian Brazil explains how to graph the top N series over a duration in Grafana v5.3.
 
 <br />
 <hr />
@@ -151,6 +143,20 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 	<br />
 	<div class="row row--md-gutters">
 		<div class="col col--md-3">
+			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/timeshift/meetup.jpg" />
+		</div>
+		<div class="col col--md-8 col--sm-offset-1">
+			<p>
+				<strong><a href="https://www.meetup.com/Docker-London/events/249221928/" target="_blank">Docker London Meetup | London, United Kingdom - November 22, 2018</a>:</strong>
+				<br />
+				<strong>Tom Wilkie: Monitoring Docker with Prometheus</strong> – Prometheus has become the defacto monitoring system for cloud native applications, with many systems natively exposing Prometheus metrics. In this talk Tom will explore all the moving part for a working Prometheus-on-Docker monitoring system, including service discovery, node-exporter, cAdvisor and Grafana. Tom will also share some little tips and tricks for getting the most out of your Prometheus monitoring, including the common pitfalls and what you should be alerting on.
+			</p>
+			<a href="https://www.meetup.com/Docker-London/events/249221928/" target="_blank" class="btn btn--outline">Register Now</a>
+		</div>
+	</div>
+	<br />
+	<div class="row row--md-gutters">
+		<div class="col col--md-3">
 			<img style="border-radius: 50%;" class="large" src="/assets/img/blog/kubecon.png" />
 		</div>
 		<div class="col col--md-8 col--sm-offset-1">
@@ -180,9 +186,9 @@ In between code pushes we like to speak at, sponsor and attend all kinds of conf
 		<div class="col col--sm-12">
 			<h4>Tweet of the Week</h4>
 			We scour Twitter each week to find an interesting/beautiful dashboard or monitoring related tweet and show it off! <a href="https://twitter.com/hashtag/monitoringlove?src=hash" target="_blank">#monitoringLove</a>
-			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Google is including drivers for graphana on GCP. <a href="https://twitter.com/cosmotechweb?ref_src=twsrc%5Etfw">@cosmotechweb</a> too we are using <a href="https://twitter.com/grafana?ref_src=twsrc%5Etfw">@grafana</a> <br> <a href="https://twitter.com/hashtag/googlenext18?src=hash&amp;ref_src=twsrc%5Etfw">#googlenext18</a> <a href="https://t.co/lqCjOuPwF3">pic.twitter.com/lqCjOuPwF3</a></p>&mdash; Jean-Baptiste Briaud (@jbbriaud) <a href="https://twitter.com/jbbriaud/status/1050317852912349185?ref_src=twsrc%5Etfw">October 11, 2018</a></blockquote>
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Real time traffic visualization from <a href="https://twitter.com/hashtag/tmobile?src=hash&amp;ref_src=twsrc%5Etfw">#tmobile</a> app <a href="https://twitter.com/hashtag/grafana?src=hash&amp;ref_src=twsrc%5Etfw">#grafana</a> <a href="https://twitter.com/hashtag/elastic?src=hash&amp;ref_src=twsrc%5Etfw">#elastic</a> CXLab team killing it <a href="https://t.co/YiNbw5AgQt">pic.twitter.com/YiNbw5AgQt</a></p>&mdash; Ram (@rprakashg) <a href="https://twitter.com/rprakashg/status/1053082141716672512?ref_src=twsrc%5Etfw">October 19, 2018</a></blockquote>
 			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			<p>We are thrilled to be mentioned at Google Cloud Next London '18!</p>
+			<p>Very cool! The worldMap panel is one of my favorites - looks like something they'd use in the NORAD command center.</p>
 		</div>
 	</div>
 </div>
