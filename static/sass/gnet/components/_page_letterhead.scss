@@ -104,7 +104,9 @@
   -moz-border-image: $orange-gradient;
   -webkit-border-image: $orange-gradient;
   border-image: $orange-gradient;
+  -o-border-image: $orange-gradient;
   border-image-slice: 1;
+  border-image-width: 0 0 1 0;
   font-size: $font-size-h6;
 
   @include at-least(medium) {
