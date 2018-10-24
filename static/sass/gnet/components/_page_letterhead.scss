@@ -101,9 +101,8 @@
   margin: rem-calc(0 0 10 0);
   padding-bottom: rem-calc(10);
   border-bottom: 1px solid $primary-color;
-  border-top: none;
-  -moz-border-image: -moz-$orange-gradient;
-  -webkit-border-image: -webkit-$orange-gradient;
+  -moz-border-image: $orange-gradient;
+  -webkit-border-image: $orange-gradient;
   border-image: $orange-gradient;
   border-image-slice: 1;
   font-size: $font-size-h6;
