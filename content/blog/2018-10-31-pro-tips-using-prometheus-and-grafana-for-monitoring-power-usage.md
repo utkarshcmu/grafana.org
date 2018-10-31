@@ -29,10 +29,12 @@ So what’s an engineer to do? “I thought about putting a camera in there or b
 Erwin, who lives in the Netherlands, connected his Raspberry Pi Zero to his smart energy meter with a USB2 P1 cable, which enabled him to gather all of the data that the smart meter collected onto his Raspberry Pi. He wrote an [exporter](https://github.com/gnur/prometheus-p1-exporter) in Go using the [promhttp library](https://github.com/prometheus/client_golang) to get the data from the P1 port, store it, and expose the metrics to be scraped by Prometheus. 
 
 In his [presentation](https://www.grafanacon.org/2018/presentations/Erwin_de_Keijzer.pdf), Erwin showed the graphs from his smart meter. “You can see some peaks. I’m using four kilowatts [here]. That’s probably because when [the washing machine] turned on, that uses three kilowatts,” he said. “There’s some more going on, I’m not sure what it is. So I put Prometheus on the other [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html) that I had lying around. So you have the gathering, but the visualization of Prometheus is not stored, so here comes Grafana.”
+![Power usage](/assets/img/blog/4_kw_peak.jpg)
+<small>Default Prometheus graph showing the 4Kw peak</small>
 
 #### Enter Grafana
 
-With Grafana, Ermin made some graphs to show his gas usage versus the temperature. “I was interested if it’s very cold outside, do I use more gas?” he said. (Turns out, there was no correlation.) “I also wanted a method of looking at those graphs I created with Grafana, so in comes [Caddy](https://caddyserver.com/).” Caddy is an open source project that enables a web server with TLS encryption.
+With Grafana, Erwin made some graphs to show his gas usage versus the temperature. “I was interested if it’s very cold outside, do I use more gas?” he said. (Turns out, there was no correlation.) “I also wanted a method of looking at those graphs I created with Grafana, so in comes [Caddy](https://caddyserver.com/).” Caddy is an open source project that enables a web server with TLS encryption.
 
 So did the graphs show him when his washing machine was done? “The graphs are not linear,” he said, with some disappointment. “There’s not a clear cut-off point of when it was done. So I basically failed at getting notifications when my washing machine was done.”
 
