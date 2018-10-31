@@ -58,6 +58,6 @@ Though he still has to get up and go to the laundry room to check if his washing
 
 #### Video: Using Prometheus and Grafana for Monitoring Power Usage
 <div class="video-wrapper">
-	<iframe src="https://www.youtube.com/watch?v=wtna51BLYMc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/wtna51BLYMc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
