@@ -9,7 +9,6 @@ cover_blur = "1px"
 description = "Erwin de Keijzer, gave a talk at GrafanaCon EU about how he used Prometheus and Grafana to monitor the power usage… of his washing machine."
 categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
 excerpt = "Erwin de Keijzer, gave a talk at GrafanaCon EU about how he used Prometheus and Grafana to monitor the power usage… of his washing machine."
-draft = true
 +++
 
 ![Erwin de Keijzer](/assets/img/blog/erwin_de_keijzer.jpg)
