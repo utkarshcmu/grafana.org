@@ -1,7 +1,7 @@
 +++
 title = "Pro Tips: Using Prometheus and Grafana for Monitoring Power Usage"
 author = "jdam"
-date = "2018-10-31"
+date = "2018-11-01"
 keywords = ["Grafana", "Blog", "IoT", "Prometheus", "Conference", "GrafanaCon"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
