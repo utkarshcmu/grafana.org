@@ -51,9 +51,9 @@ See an article you think should be shared here? [Contact us](mailto:hello@grafan
 
 [**How to create a high availability Grafana 5.3 environment in AWS OpsWorks**](https://ulyaoth.com/tutorials/how-to-create-a-high-availability-grafana-5-3-environment-in-aws-opsworks/):  This tutorial will tell you everything you need to know to set up Grafana in AWS OpsWorks.
 
-[**Microservices monitoring with Envoy service mesh, Prometheus & Grafana**](https://hackernoon.com/microservices-monitoring-with-envoy-service-mesh-prometheus-grafana-a1c26a8595fc):  This is the second post in the *Observability with Envoy service mesh* series. You can read the first post about Distributed Tracing [here](https://medium.com/@dnivra26/distributed-tracing-with-envoy-service-mesh-jaeger-c365b6191592). This article explains what Envoy service mesh does, and how you get Envoy metrics into Prometheus and visualize the data in Grafana.
+[**Microservices monitoring with Envoy service mesh, Prometheus & Grafana**](https://hackernoon.com/microservices-monitoring-with-envoy-service-mesh-prometheus-grafana-a1c26a8595fc):  This is the second post in the *Observability with Envoy service mesh* series. You can read the first post about Distributed Tracing [here](https://medium.com/@dnivra26/distributed-tracing-with-envoy-service-mesh-jaeger-c365b6191592). This article explains what Envoy service mesh does, and how to get Envoy metrics into Prometheus and visualize the data in Grafana.
 
-[**[VIDEO] Bonobo, Airflow And Grafana To Visualize Your Business**](https://www.youtube.com/watch?v=UUrk1K45Euw):  At PyConDE, Romain Dorgueil shows us how to use a few different tools to build valuable dashboards to monitor your business metrics, and the steps that will set you up for success: 1. Plan, 2. Implement, 3. Monitor, 4. Iterate.
+[**[VIDEO] Bonobo, Airflow And Grafana To Visualize Your Business**](https://www.youtube.com/watch?v=UUrk1K45Euw):  At PyConDE, Romain Dorgueil shows us how to use a few different tools to build valuable dashboards to monitor business metrics and the steps that will set us up for success: 1. Plan, 2. Implement, 3. Monitor, 4. Iterate.
 
 <br />
 <hr />
@@ -91,7 +91,7 @@ See an article you think should be shared here? [Contact us](mailto:hello@grafan
 <br />
 
 #### Grafana Plugin Update
-This week we have a new plugin that allows you to integrate Consul key value data with Grafana and an update to the Clickhouse Datasource plugin. To update any of your plugins in your on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_63" target="_blank">grafana-cli tool</a>, or for <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_63" target="_blank">Hosted Grafana</a> update with one-click.
+This week we have 2 new plugins to share and an update to the Clickhouse datasource plugin. To update any of your plugins in your on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_63" target="_blank">grafana-cli tool</a>, or for <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_63" target="_blank">Hosted Grafana</a> update with one-click.
 <br />
 <div class="blog-plugin">
 	<div class="row row--md-gutters">
