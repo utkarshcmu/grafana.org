@@ -90,4 +90,4 @@ where we will post a summary, remediation, and mitigation details for any patch 
 
 If you run a Grafana between version 4.1.0 and 5.3.2 with users that should not have access to the filesystem where Grafana is running, please upgrade to Grafana [5.3.3](https://grafana.com/grafana/download/5.3.3) or [4.6.5](https://grafana.com/grafana/download/4.6.5) as soon as possible.
 
-We would like to thank Sebastian Solnica And NCC Group for reporting this issue.
+We would like to thank Daniele Costa, NCC Group for reporting this issue.
