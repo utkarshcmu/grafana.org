@@ -8,7 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "This week we released Grafana v5.3.4 which includes an important security fix, plus new GrafanaCon speakers and updated plugins."
+excerpt = "This week we released Grafana v5.3.4 which includes an important security fix, plus new GrafanaCon speakers and 5 updated plugins."
 +++
 
 ### Welcome to TimeShift
