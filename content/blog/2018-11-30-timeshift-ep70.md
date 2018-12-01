@@ -47,6 +47,8 @@ See an article we missed? [Contact us](mailto:hello@grafana.com)!
 
 [**Pro Tips: Using Grafana in Quality Assurance**](https://grafana.com/blog/2018/11/29/pro-tips-using-grafana-in-quality-assurance/?utm_source=blog&utm_campaign=timeshift_70): Quality assurance is a priority at Evolution Gaming, the world leader in live casino gaming, and as Andrejs Kalnacs, Lead Software Developer in Test, said during his GrafanaCon EU talk in March, Grafana has been a game changer.
 
+[**carbon-relay-ng v0.11.0 Available**](https://github.com/graphite-ng/carbon-relay-ng/releases): A new veresion of carbon-relay-ng has been released that includes a memory leak fix, a connection pooling fix, better logging, major input refactors and more.
+
 [**Stack Overflow: How We Do Monitoring - 2018 Edition**](https://nickcraver.com/blog/2018/11/29/stack-overflow-how-we-do-monitoring/): A very comprehensive article in a series about Stack Overflow's architecture. This article goes in-depth into their monitoring stack. In 2016 Kyle Brandt discussed the [culture and reality of monitoring at Stack Overflow](https://www.youtube.com/watch?v=BvFQoAF2bFo) at GrafanaCon NYC - might also be worth a watch
 
 [**VIDEO - How to use Grafana with AWS CloudWatch**](https://www.youtube.com/watch?v=tuhOdtsvoNY): Step-by-step video guide on how to connect AWS Cloudwatch to Grafana. There's also a [written article](https://www.ceos3c.com/cloud/use-grafana-with-aws-cloudwatch-easy-fast/) to use for reference.
