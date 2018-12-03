@@ -296,7 +296,7 @@ line-height: 1.3;
 
 .video-wrapper {
   position: relative;
-  padding-bottom:42.85%; /* 21:9 */
+  padding-bottom: 57%; /* was 42.85% / 21:9 */
   height: 0;
   overflow: hidden;
 }
