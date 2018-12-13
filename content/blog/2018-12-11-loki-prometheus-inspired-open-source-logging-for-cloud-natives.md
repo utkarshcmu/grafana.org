@@ -99,7 +99,7 @@ The read path is quite simple and has the querier doing most of the heavy liftin
 
 Note that, right now, for each query, a single querier greps through all the relevant logs for you. We’ve implemented query parallelisation in Cortex using a frontend and the same can be extended to Loki to give distributed grep which will make even large queries snappy enough.
 
-![Loki: A look at the Querier(/assets/img/blog/image5.png)
+![Loki: A look at the Querier](/assets/img/blog/image5.png)
 
 
 ### Scalability
