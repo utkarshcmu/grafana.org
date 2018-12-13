@@ -1,14 +1,14 @@
 +++
 title = "Loki: Prometheus-inspired, open source logging for cloud natives"
-author = "jdam"
+author = "goutham"
 date = "2018-12-11"
-keywords = ["Grafana", "Blog", "Load Testing", "InfluxData", "Conference", "GrafanaCon"]
+keywords = ["Grafana", "Blog", "Logging", "Prometheus", "KubeCon"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
-description = "Quality assurance is a priority at Evolution Gaming, the world leader in live casino gaming, and as Andrejs Kalnacs, Lead Software Developer in Test, said during his GrafanaCon EU talk in March, Grafana has been a game changer."
-categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
-excerpt = "Quality assurance is a priority at Evolution Gaming, the world leader in live casino gaming, and as Andrejs Kalnacs, Lead Software Developer in Test, said during his GrafanaCon EU talk in March, Grafana has been a game changer."
+description = "Loki: Prometheus-inspired, open source logging for cloud natives. The motivations, architecture, and the future of logging in Grafana!"
+categories = ["Video", "Grafana", "Loki", "Logging"]
+excerpt = "Loki: Prometheus-inspired, open source logging for cloud natives. The motivations, architecture, and the future of logging in Grafana!"
 +++
 
 ![Loki](/assets/img/blog/loki_hero.jpg)
