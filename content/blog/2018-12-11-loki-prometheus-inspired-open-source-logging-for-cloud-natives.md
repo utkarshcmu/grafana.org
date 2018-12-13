@@ -104,6 +104,7 @@ Note that, right now, for each query, a single querier greps through all the rel
 
 ### Scalability
 Now let’s see if this scales. 
+
 1. We’re putting the chunks into an object store and that scales. 
 2. We put the index into Cassandra/Bigtable/DynamoDB which again scales. 
 3. The distributors and queriers are stateless components that you can horizontally scale.
