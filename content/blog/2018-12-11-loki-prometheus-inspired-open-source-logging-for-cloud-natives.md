@@ -14,13 +14,13 @@ excerpt = "Loki: Prometheus-inspired, open source logging for cloud natives. The
 ![Loki](/assets/img/blog/loki_hero.jpg)
 
 ### Introduction
-This blog post is a companion piece for my talk at https://devopsdaysindia.org  I will discuss the motivations, architecture, and the future of logging in Grafana! Let’s get right down to it. You can see the slides for the talk here: https://speakerdeck.com/gouthamve/devopsdaysindia-2018-loki-prometheus-but-for-logs
+This blog post is a companion piece for my talk at https://devopsdaysindia.org. I will discuss the motivations, architecture, and the future of logging in Grafana! Let’s get right down to it. You can see the slides for the talk here: https://speakerdeck.com/gouthamve/devopsdaysindia-2018-loki-prometheus-but-for-logs
 
 ### Motivation
-Grafana is the defacto dashboarding solution for time-series data. It supports over 40 datasources (as of this writing),  and the dashboarding story has matured considerably with new features including  the addition of teams and folders. We now want to move on from being a dashboarding solution to being an observability platform, to be the go-to place when you need to debug systems on fire.
+Grafana is the defacto dashboarding solution for time-series data. It supports over 40 datasources (as of this writing),  and the dashboarding story has matured considerably with new features, including the addition of teams and folders. We now want to move on from being a dashboarding solution to being an observability platform, to be the go-to place when you need to debug systems on fire.
 
 ### Full Observability
-Observability. There are a lot of definitions out there as to what it is. Observability to me is visibility into your systems and how they are behaving and performing. I quite like the model where observability can be split into 3 parts (or pillars): metrics, logs and traces, each complimenting each other to help you figure out what’s wrong quickly.
+Observability. There are a lot of definitions out there as to what that means. Observability to me is visibility into your systems and how they are behaving and performing. I quite like the model where observability can be split into 3 parts (or pillars): metrics, logs and traces; each complimenting each other to help you figure out what’s wrong quickly.
 
 The following example illustrates how I tackle incidents at my job:
 ![how I tackle incidents](/assets/img/blog/image9.png)
@@ -41,7 +41,7 @@ This worked, as long as the pod wasn’t crashing or wasn’t being replaced. If
 This was expected as they do waaaay more than select + grep, which is essentially what we needed. After looking at existing solutions, we decided to build our own.
 
 ### Loki
-Not happy with any of the open-source solutions, we started speaking to people and noticed that A LOT of people had the same issues. Infact, I’ve come to realise that lots of developers still SSH and grep/tail the logs on machines even today! The solutions they were using were either too pricey or not stable enough. Infact, people were being asked to log less which we think is an anti-pattern for logs.  We thought we could build something that we internally, and the wider open-source community could use. We had one main goal:
+Not happy with any of the open-source solutions, we started speaking to people and noticed that A LOT of people had the same issues. In fact, I’ve come to realise that lots of developers still SSH and grep/tail the logs on machines even today! The solutions they were using were either too pricey or not stable enough. In fact, people were being asked to log less which we think is an anti-pattern for logs.  We thought we could build something that we internally, and the wider open-source community could use. We had one main goal:
 
 * Keep it simple. Just support grep!
 
