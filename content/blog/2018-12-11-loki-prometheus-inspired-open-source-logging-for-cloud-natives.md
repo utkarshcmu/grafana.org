@@ -32,16 +32,16 @@ Next up, once I have a vague mental model as to what is going wrong or where it 
 While these didn’t always directly tell me what is wrong, they usually got me close enough to look at the code and figure out what is going wrong. Then I can either scale up the service (if the service is overloaded) or deploy the fix.
 
 ### Logging
-Prometheus works great, Jaeger is getting there, and kubectl was decent. The label model was powerful enough for me to get to the bottom of erroring services. If I found that the ingester service was erroring, I’d do: `kc --namespace prod logs -l name=ingester | grep XXX`  to get the relevant logs and grep through them.
+Prometheus works great, Jaeger is getting there, and kubectl was decent. The label model was powerful enough for me to get to the bottom of erroring services. If I found that the ingester service was erroring, I’d do: `kubectl --namespace prod logs -l name=ingester | grep XXX`  to get the relevant logs and grep through them.
 
 If I found a particular instance was erroring or if I wanted to tail the logs of a service, I’d have to use the individual pod for tailing as kubectl doesn’t let you tail based on label selectors. This is not ideal, but works for most use-cases.
 
-This worked, as long as the pod wasn’t crashing or wasn’t being replaced. If the pod or node is terminated, the logs are lost forever. Also, kubectl only stores recent logs, so we’re blind when we want logs from the day before or earlier. Further, having to jump from Grafana to CLI and back again wasn’t ideal. We needed a solution that reduced context switching, but many of the solutions we explored were super pricey or didn’t scale very well.
+This worked, as long as the pod wasn’t crashing or wasn’t being replaced. If the pod or node is terminated, the logs are lost forever. Also, kubectl only stores recent logs, so we’re blind when we want logs from the day before or earlier. Further, having to jump from Grafana to CLI and back again wasn’t ideal. We needed a solution that reduced context switching, and many of the solutions we explored were super pricey or didn’t scale very well.
 
 This was expected as they do waaaay more than select + grep, which is essentially what we needed. After looking at existing solutions, we decided to build our own.
 
 ### Loki
-Not happy with any of the open-source solutions, we started speaking to people and noticed that A LOT of people had the same issues. Infact, I’ve come to realise that lots of developers still SSH and grep/tail the logs on machines even today! The solutions they were using either too pricey or not stable enough. Infact, people were being asked to log less which we think is an anti-pattern for logs.  We thought we could build something that we internally, and the wider open-source community could use. We had one main goal:
+Not happy with any of the open-source solutions, we started speaking to people and noticed that A LOT of people had the same issues. Infact, I’ve come to realise that lots of developers still SSH and grep/tail the logs on machines even today! The solutions they were using were either too pricey or not stable enough. Infact, people were being asked to log less which we think is an anti-pattern for logs.  We thought we could build something that we internally, and the wider open-source community could use. We had one main goal:
 
 * Keep it simple. Just support grep!
 
@@ -54,11 +54,16 @@ Not happy with any of the open-source solutions, we started speaking to people a
 	* Easy to operate and scale
 	* Metrics, logs (and traces later) need to work together
 
-The final point was important. We were already collecting metadata from Prometheus for the metrics and we wanted to use that for log correlation. For example, Prometheus tags each metric with the namespace, service name, instance ip, etc. When I get an alert, I use the metadata to figure out where to look for logs. If we manage to tag the logs with the same metadata, we can seamlessly switch between metrics and logs. You can see the internal design doc we wrote [here](https://docs.google.com/document/d/11tjK_lvp1-SVsFZjgOTr1vV3-q6vBAsZYIQ5ZeYBkyM/edit).
+The final point was important. We were already collecting metadata from Prometheus for the metrics and we wanted to use that for log correlation. For example, Prometheus tags each metric with the namespace, service name, instance ip, etc. When I get an alert, I use the metadata to figure out where to look for logs. If we manage to tag the logs with the same metadata, we can seamlessly switch between metrics and logs. You can see the internal design doc we wrote [here](https://docs.google.com/document/d/11tjK_lvp1-SVsFZjgOTr1vV3-q6vBAsZYIQ5ZeYBkyM/edit). See a demo video of Loki in action below:
 
-With this in mind, and with our experience building and running Cortex– the horizontally scalable, distributed version of Prometheus we run as a service– we came up with the following architecture:
+#### Video: Loki - Prometheus-inspired, open source logging for cloud natives.
+<div class="video-wrapper">
+	<iframe src="https://www.youtube.com/embed/7n342UsAMo0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 ### Architecture
+With our experience building and running [Cortex](https://github.com/cortexproject/cortex)– the horizontally scalable, distributed version of Prometheus we run as a service– we came up with the following architecture:
+
 ![Logging architecture!](/assets/img/blog/image1.png)
 
 Metadata between metrics and logs matching is critical for us and we initially decided to just target Kubernetes. The idea is to run a log-collection agent on each node, collect logs using that, talk to the kubernetes API to figure out the right metadata for the logs, and send them to a central service which we can use to show the logs collected inside Grafana.
@@ -111,11 +116,5 @@ While all of this works conceptually, we expect to hit new issues and limitation
 ### Conclusion
 Loki is very much alpha software and should not be used in production environments. We wanted to announce and release Loki as soon as possible to get feedback and contributions from the community and find out what’s working and what needs improvement. We believe this will help us deliver a higher quality and more on-point production release next year. 
 
-Loki can be run on-prem or as a free demo on Grafana Cloud. We urge you to give it a try and drop us a line and let us know what you think.
-
-
-#### Video: Loki - Prometheus-inspired, open source logging for cloud natives.
-<div class="video-wrapper">
-	<iframe src="https://www.youtube.com/embed/7n342UsAMo0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
+Loki can be run on-prem or as a free demo on Grafana Cloud. We urge you to give it a try and drop us a line and let us know what you think. Visit the [Loki homepage](https://grafana.com/loki) to get started today.
 
