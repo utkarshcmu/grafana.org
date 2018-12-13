@@ -1,7 +1,7 @@
 +++
 title = "Loki: Prometheus-inspired, open source logging for cloud natives"
 author = "goutham"
-date = "2018-12-11"
+date = "2018-12-12"
 keywords = ["Grafana", "Blog", "Logging", "Prometheus", "KubeCon"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
