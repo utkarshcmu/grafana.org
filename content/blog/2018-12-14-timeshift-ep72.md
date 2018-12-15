@@ -8,7 +8,7 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "Logging is coming to Grafana, Monitoring at Stack Overflow, Announcements from AWS re:Invent 2018 and more!"
+excerpt = "News on Grafana Loki, takeaways from KubeCon + CloudNativeCon NA 2018 and more!"
 +++
 
 ### Welcome to TimeShift
