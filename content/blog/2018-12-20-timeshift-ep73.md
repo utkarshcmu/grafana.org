@@ -2,19 +2,19 @@
 title = "timeShift(GrafanaBuzz, 1w) Issue 73"
 author = "trent"
 date = "2018-12-20"
-keywords = ["Grafana", "Blog", "Roundup", "timeShift", "security", "GrafanaCon"]
+keywords = ["Grafana", "Blog", "Roundup", "timeShift", "Loki", "Cortex", "GrafanaCon"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "News on Grafana Loki, takeaways from KubeCon + CloudNativeCon NA 2018 and more!"
+excerpt = "Last issue of TimeShift for 2018. News on GrafanaCon LA day 2 workshops, Grafana Loki, and learn about Cortex: the platform that powers Grafana Cloud."
 +++
 
 ### Welcome to TimeShift
 As 2018 draws to a close, we'd like to thank all of our readers for their support and feedback. We look forward to returning in 2019 and sharing more articles about Grafana and the open source monitoring community.
 
-Also, **[GrafanaCon LA](http://grafanacon.org)** is coming up Feb 25-26, 2019 and we're excited to announce **day 2** is going to be packed with **focused-TSDB tracks and hands-on workshops**. Learn how to get the most out of Grafana, how to extend Grafana's visualization capabilities and get instruction from the experts. We're also putting together an IoT session where you can get hands-on visualizing sensor data. It's going to be a blast, so [grab your ticket](http://www.grafanacon.org/) before they're sold out!
+Also, **[GrafanaCon LA](http://grafanacon.org)** is coming up Feb 25-26, 2019 and we're excited to announce **day 2** is going to be packed with **TSDB-focused tracks and hands-on workshops**. Learn how to get the most out of Grafana, how to extend Grafana's visualization capabilities and get instruction from the experts. We're also putting together an IoT session where you can get hands-on visualizing sensor data. It's going to be a blast, so [grab your ticket](http://www.grafanacon.org/) before they're sold out!
 
 <div class="row row--internal-gutters">
 	<div class="col col--sm-12">
