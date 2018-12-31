@@ -14,11 +14,11 @@ excerpt = "Loki and Grafana are a perfect match. The backend is kept lean and sp
 ### Introduction
 
 At Grafana Labs we run a plethora of microservices for our hosted offerings.
-We've been very happy with our monitoring with Prometheus, and our distributed tracing with Jaeger.
+We've been very happy with our monitoring with Graphite and Prometheus, and our distributed tracing using Jaeger.
 But we have had a difficult time finding a log aggregation system that fits our needs.
 Existing solutions offered lots of features, but those same features somehow got in the way of finding logs quickly.
 We decided to build our own simplified log aggregation: [Loki](https://grafana.com/loki).
-It is designed to be lean in the backend.
+It is [designed to be lean in the backend](../../../../2018/12/12/loki-prometheus-inspired-open-source-logging-for-cloud-natives/).
 In addition, we tried to pair this with a clean and intuitive way to read your logs inside Grafana.
 This post details some of the UX goals we had to deliver logs simpler and faster.
 
@@ -97,16 +97,16 @@ Explore got started with a more query-oriented workflow around troubleshooting w
 
 ![Metrics and logs side by side](/assets/img/blog/loki/loki_grafana_explore_split.png)
 
-Once you have refined your queries to show the unhealthy behavior, you will likely have identified a service and/or an instance that is acting up.
+Once you have refined your Prometheus queries to show the unhealthy behavior, you will likely have identified a service and/or an instance that is acting up.
 This is where Loki comes in.
 Loki uses the same selector logic as Prometheus.
-Thus, using Explore’s Split view, you can have Prometheus and Lok, showing you related metrics and logs side-by-side.
+Thus, using Explore’s Split view, you can have Prometheus and Loki, showing you related metrics and logs side-by-side.
 
 ### Conclusion
 
 Loki and Grafana are a perfect match.
 The backend is kept lean and space-efficient, while the user interface allows ad-hoc field parsing and simple statistics.
-While we will not be able to answer question like “Top n of X” across a long time range, we still believe that the tradeoff is a very useful one for troubleshooting.
+For now we will not be able to answer question like “Top n of X” across a long time range, but we still believe that the tradeoff is a very useful one for troubleshooting.
 It’s still early days, so please give it a try, provide [feedback on GitHub](https://github.com/grafana/grafana/issues/new), or contribute so we can make this even better for everyone.
 
 Loki can be run on-prem or as a free demo on Grafana Cloud. Visit the [Loki homepage](https://grafana.com/loki) to get started today.
