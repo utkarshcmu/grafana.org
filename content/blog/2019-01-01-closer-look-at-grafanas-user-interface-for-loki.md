@@ -105,6 +105,9 @@ Explore got started with a more query-oriented workflow around troubleshooting w
 Once you have refined your Prometheus queries to show the unhealthy behavior, you will likely have identified a service and/or an instance that is acting up.
 This is where Loki comes in.
 Loki uses the same selector logic as Prometheus.
+Consider a Prometheus query like `http_requests_total{job="app-server",instance="app1",route="/foo"}` that you may have used to identify a faulty instance.
+When switching to Loki, it reuses the relevant selector labels for which logs exists, e.g., `{job="app-server",instance="app1"}`.
+Notice how it automatically dropped the `route` label and the metric name.
 Thus, using Explore’s Split view, you can have Prometheus and Loki, showing you related metrics and logs side-by-side.
 
 ### Conclusion
