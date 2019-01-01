@@ -30,7 +30,7 @@ This post details some of the UX goals we had to deliver logs simpler and faster
   <img alt="All results are shown on a single page" src="/assets/img/blog/loki/loki_grafana_long_page.png" />
 </div>
 
-Traditionally, pagination is employed when content is split up across multiple pages.
+Pagination splits up content across multiple pages.
 The result is that you are allowed to see only so many log lines as to fit on a page, whether that is 20 or 50, or 100.
 To see more lines, you need to go to the next page, and wait for those results to load.
 
@@ -39,21 +39,23 @@ The first one is that it assumes that log lines are read individually, and that 
 This neglects the fact that we as humans are great at pattern recognition.
 Log outputs have rhythm and structure.
 A healthy log output may look like a healthy electrocardiogram.
-Pagination interrupts multi-row patterns and makes it harder to spot the hiccups you are looking for.
+Pagination interrupts multi-line patterns and makes it harder to spot the hiccups you are looking for.
 Just like you don't look at every c-h-a-r-a-c-t-e-r of a word to identify it, you don't need to look at every log line to spot at pattern.
 
 The second problem is delay.
 Every time I advance a page, a request is sent to load a new set.
 And since that request returns a similarly small set of lines, chances are that I might have to request the next page again.
-
 The worst problem we found, however, was that pagination takes control away from the user.
 Your built-in browser search becomes much less powerful, if the rendered set of lines is small.
+
 So what do we do instead?
-We return and render a decent number of rows that is big enough to spot patterns as you scroll down (currently 1000), and that, since it is already loaded in the browser, can be searched further using your browser’s search function.
+We return and render a decent number of log lines that is big enough to spot patterns as you scroll down.
+Since these logs are already loaded in the browser, they can be searched further using your browser’s search function.
+The default limit is currently 1000 lines, but is configurable.
 
 ### Filtering log lines
 
-Without paging, you need to make sure what you are looking for is in the result set of the 1000 rows.
+Without paging, you need to make sure what you are looking for is in the result set of the 1000 lines.
 You do this by filtering.
 The combination of time, labels, and a regular expression should be enough to return a decent result set to scroll through.
 A graph above the log results shows how many log lines coloured by log level for the given query are seen over time.
@@ -61,34 +63,37 @@ If you see a spike, you can use the graph to further zoom in based on patterns y
 
 ![Filter for log lines in the line histogram.](/assets/img/blog/loki/loki_grafana_filtering.png)
 
+The query field can take a proper regular expressions and its matches are highlighted as you type.
+This is useful when you are testing various expressions to further filter the existing results.
+When the query is run again, only matches are returned to get even more meaningful results.
 Ultimately, we would like the user to be able to select multiple log streams (just like they can graph data from multiple datasources in Grafana), multiplex them into a single stream, and then allow chained filtering, similar to the classic logging grep use case: `... | grep foo | grep -v bar`.
 
 ### Ad-hoc statistics
 
-Doing statistics across log rows is great for spotting unhealthy behavior.
+Doing statistics across log lines is great for spotting unhealthy behavior.
 For example, if your database cluster has 3 read-only nodes but only 2 are serving requests, something is up.
 In busy log lines, that pattern is hard to spot.
 
-We believe that 1000 rows may just be enough of a data set to run such an analysis on.
-We have implemented a handful of parser to extract fields from log lines, e.g., `instance=foo_1 status=400 ...`.
-This allows us to build dynamic field matchers on demand to gather the distribution of field values across the row set, e.g., `instance` is `foo_1` on 55 % of the rows that have the field `instance`.
+We believe that 1000 lines may just be enough of a data set to run such an analysis on.
+We have implemented a handful of parsers to extract fields from log lines, e.g., `instance=foo_1 status=400 ...`.
+This allows us to build dynamic field matchers on demand to gather the distribution of field values across the set of lines, e.g., `instance` is `foo_1` on 55 % of the lines that have the field `instance`.
 
 ![Ad-hoc statistics on a field.](/assets/img/blog/loki/loki_grafana_statistics.png)
 
 Since we are calculating the statistics on the result set that is already in the browser, the results show up instantly.
-It is worth noting that good filtering is important to maximise the number of rows that have the field present that you want to match against.
-We're extending the parse and match logic to also allow drawing of graphs based on number values, e.g., if your log lines contain something line `duration=11.3ms`, this should be graphable as an ad-hoc time series.
+It is worth noting that good filtering is important to maximise the number of lines that have the field present that you want to match against.
+We're extending the parse and match logic to also allow drawing graphs based on number values, e.g., if your log lines contain something line `duration=11.3ms`, this should be graphable as an ad-hoc time series.
 
 ### Performance
 
-Rendering 1000 rows is not easy on the browser.
+Rendering 1000 lines is not easy on the browser.
 It takes roughly 500 ms during which the main thread is blocked and the browser can feel frozen.
 To keep the page interactive, we're using a staged approach.
 First, the graph is rendered to give a quick overview of the log line distribution over time.
 Then the first 100 lines are rendered, which should cover the complete screen a few times over.
 This is to ensure that we quickly render meaningful logs “above the fold”.
 After a further delay, the remaining lines are rendered, to allow scrolling and in-browser search on all the results.
-We’re also making the row limit configurable in the Loki datasource, in case you want to adjust the number according your browser’s performance.
+Note that the line limit is configurable in the Loki datasource, in case you want to adjust the number according your browser’s performance.
 
 ### Explore and Split view
 
