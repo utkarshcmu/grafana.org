@@ -1,7 +1,7 @@
 +++
 title = "Closer look at Grafana's user interface for Loki"
 author = "david"
-date = "2018-12-28"
+date = "2019-01-01"
 keywords = ["Grafana", "Blog", "Logging", "Prometheus", "Loki"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
