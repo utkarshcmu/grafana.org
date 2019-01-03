@@ -11,6 +11,11 @@ aliases:
   - /using-grafana-with-intels-snap-for-ad-hoc-metric-exploration/
 ---
 
+#### NOTICE: DISCONTINUATION OF SNAP TELEMETRY PROJECT.
+The Snap Telemetry project will no longer be maintained by Intel.  Intel will not provide or guarantee development of or support for Snap, including but not limited to, maintenance, bug fixes, new releases or updates.  Patches to this project are no longer accepted by Intel. If you have an ongoing need to use Snap, are interested in independently developing it, or would like to maintain patches for the community, please create your own fork of the project.
+
+<br />
+<br />
 ### Grafana Live, New in Grafana v3.0.
 Over the last few months, the Grafana Labs team has been working extremely hard on the latest version of Grafana, adding not only UI and UX improvements, but some exciting new features and functionality. Many of these features are centered around a new plugin architecture which allows anyone to easily integrate external systems directly into Grafana, and share these integrations with the entire community through a new service called Grafana.net. One of the features that many may not be aware of is something we're calling "Grafana Live". Grafana Live adds the ability to have data sources **push** data into panels, rather than the existing pull method currently used by all data sources. At this time, there is one known data source which leverages this capability; an experimental version of the Snap data source, which is in active development.
 

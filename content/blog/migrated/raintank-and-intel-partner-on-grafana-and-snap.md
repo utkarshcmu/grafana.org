@@ -11,6 +11,12 @@ aliases:
   - /raintank-and-intel-partner-on-grafana-and-snap/
 ---
 
+#### NOTICE: DISCONTINUATION OF SNAP TELEMETRY PROJECT.
+The Snap Telemetry project will no longer be maintained by Intel.  Intel will not provide or guarantee development of or support for Snap, including but not limited to, maintenance, bug fixes, new releases or updates.  Patches to this project are no longer accepted by Intel. If you have an ongoing need to use Snap, are interested in independently developing it, or would like to maintain patches for the community, please create your own fork of the project.
+
+<br />
+<br />
+
 At Grafana Labs, we’re building an OpenSaaS monitoring platform around Grafana.
 
 We want to create a powerful yet turnkey experience; one that offers the best of both the SaaS and open source worlds.

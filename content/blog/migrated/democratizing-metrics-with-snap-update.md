@@ -12,6 +12,12 @@ aliases:
   - /democratizing-metrics-with-snap-update/
 ---
 
+#### NOTICE: DISCONTINUATION OF SNAP TELEMETRY PROJECT.
+The Snap Telemetry project will no longer be maintained by Intel.  Intel will not provide or guarantee development of or support for Snap, including but not limited to, maintenance, bug fixes, new releases or updates.  Patches to this project are no longer accepted by Intel. If you have an ongoing need to use Snap, are interested in independently developing it, or would like to maintain patches for the community, please create your own fork of the project.
+
+<br />
+<br />
+
 Back in April, we [announced a partnership with Intel](http://www.raintank.io/resources/press/intel-snap-grafana-live/) around their new open source telemetry framework: [Snap](http://itpeernetwork.intel.com/new-snap-framework-is-a-step-toward-cloud-for-all/). We’ve written before about [why we think Snap is really cool](https://blog.raintank.io/using-grafana-with-intels-snap-for-ad-hoc-metric-exploration/), and we’ve been hard at work on figuring out how to best make Snap a key part of the stack we’re building at raintank.
 
 We created a prototype [Grafana Snap datasource plugin](https://grafana.net/plugins/raintank-snap-app), which was the first step in that journey. This data source allows Grafana to talk to a given Snap server, and visualize a task “in realtime” by asking Snap to stream back data to Grafana. Our co-founder Torkel [demo’d this capability on stage with Intel](https://www.youtube.com/watch?v=lqjoZGacjOU), and you can expect an update it this month, just in time for [Monitorama](http://www.monitorama.com).
