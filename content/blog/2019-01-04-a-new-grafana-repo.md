@@ -1,6 +1,7 @@
 +++
 title = "Moving to packages.grafana.com"
 author = "leonard_gram"
+draft = true
 date = "2019-01-04"
 keywords = ["Grafana", "Blog"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
@@ -21,49 +22,11 @@ The previous repository over at [packagecloud](https://packagecloud.io/grafana/s
 
 ## Packages for arm
 
-A lot of you run Grafana on Raspberry Pi or other arm-based devices, now you can finally get the packages directly from the repository just like everyone else. Both `armv7` and `arm64` are available if you add the repository according to the instructions below.
+A lot of you run Grafana on Raspberry Pi or other arm-based devices, now you can finally get the packages directly from the repository just like everyone else. Both `armv7` and `arm64` are available.
 
 ## Usage
 
-Either, check the docs, or follow along below.
+You can find everything you need to know in the documention. 
 
 - [Ubuntu/Debian](http://docs.grafana.org/installation/debian/)
 - [Centos/Redhat](http://docs.grafana.org/installation/rpm/)
-
-### Ubuntu/Debian
-Trust our GPG key:
-```bash
-curl https://packages.grafana.com/gpg.key | sudo apt-key add -
-```
-
-Create `/etc/apt/sources.list.d/grafana.list`
-```bash
-deb https://packages.grafana.com/oss/deb stable main
-```
-
-#### Install Grafana
-```bash
-sudo apt-get update
-sudo apt-get install grafana
-```
-
-### Centos/Redhat
-
-Create `/etc/yum.repos.d/grafana.repo`
-
-```
-[grafana]
-name=grafana
-baseurl=https://packages.grafana.com/oss/rpm
-repo_gpgcheck=1
-enabled=1
-gpgcheck=1
-gpgkey=https://packages.grafana.com/gpg.key
-sslverify=1
-sslcacert=/etc/pki/tls/certs/ca-bundle.crt
-```
-
-#### Install Grafana
-```bash
-yum install grafana
-```
