@@ -1,7 +1,7 @@
 +++
 title = "Moving to packages.grafana.com"
 author = "leonard_gram"
-date = "2019-01-04"
+date = "2019-01-05"
 keywords = ["Grafana", "Blog"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
