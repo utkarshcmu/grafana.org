@@ -45,7 +45,7 @@ See an article we missed? [Contact us](mailto:hello@grafana.com).
 
 [**Monitoring Java Applications with Prometheus and Grafana - Part 1**](http://blog.klocwork.com/open-source/monitoring-java-applications-prometheus-grafana-part-1/): A step by step guide to monitoring Java applications with Prometheus and Grafana. Part 1 covers collecting and storing the metrics in Prometheus, and part 2 will dive into configuring Grafana and building your first dashboard.
 
-[**Outages in the Cloud. Whom to blame and how to prove it?**](https://www.claudiokuenzler.com/blog/822/outages-in-the-cloud-whom-to-blame-and-prove-it-using-mtr-influxdb-grafana#.XDkeaM9KgWo): Claudio describes how he used data visualization to helped settle the blame game when he was experiencing periodic outages in his hybrid infrastructure.
+[**Outages in the Cloud. Whom to blame and how to prove it?**](https://www.claudiokuenzler.com/blog/822/outages-in-the-cloud-whom-to-blame-and-prove-it-using-mtr-influxdb-grafana#.XDkeaM9KgWo): Claudio describes how he used data visualization to help settle the blame game when he was experiencing periodic outages in his hybrid infrastructure.
 
 
 <br />
