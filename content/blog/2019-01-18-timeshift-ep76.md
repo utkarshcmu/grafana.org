@@ -8,11 +8,11 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "News about the Azure Data Explorer plugin for Grafana, updates to the GrafanaCon LA speaker list, new functionality to the polystat panel plugin and more."
+excerpt = "News about the Azure Data Explorer plugin for Grafana, updates to the GrafanaCon LA speaker list, new functionality added to the polystat panel plugin and more."
 +++
 
 ### Welcome to TimeShift
-This week we share news about the Azure Data Explorer plugin for Grafana, updates to the [GrafanaCon LA speaker list](http://grafanacon.org), new functionality to the [polystat panel plugin](https://grafana.com/plugins/grafana-polystat-panel?utm_source=blog&utm_campaign=timeshift_76) and more.
+This week we share news about the Azure Data Explorer plugin for Grafana, updates to the [GrafanaCon LA speaker list](http://grafanacon.org), new functionality added to the [polystat panel plugin](https://grafana.com/plugins/grafana-polystat-panel?utm_source=blog&utm_campaign=timeshift_76) and more.
 
 See an article we missed? [Contact us](mailto:hello@grafana.com).
 
