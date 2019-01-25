@@ -8,11 +8,13 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "News about the Azure Data Explorer plugin for Grafana, updates to the GrafanaCon LA speaker list, new functionality added to the polystat panel plugin and more."
+excerpt = "Updates to the GrafanaCon LA speaker list and schedule, new features in the Azure Monitor Data Source, getting up and running with Grafana and Prometheus, plus learn how you can connect your Fitbit Blaze to Grafana."
 +++
 
 ### Welcome to TimeShift
-We've added more info on the upcoming talks at [GrafanaCon LA](http://grafanacon.org) and are excited to see the scheudle shaping up. Grab your ticket while the last and join us February 25-26 for two days of great talks and hands-on workshops. 
+We've added more info on the upcoming talks at [GrafanaCon LA](http://grafanacon.org) and are excited to see the schedule shaping up. Grab your ticket while the last and join us February 25-26 for two days of great talks and hands-on workshops. 
+
+This week we're happy to share articles on how to view Azure Monitor Log Analytics data in Grafana, a proof of concept to visualize Fitbit data, how to quickly get up and running with Prometheus and more.
 
 See an article we missed? [Contact us](mailto:hello@grafana.com).
 
