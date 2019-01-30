@@ -68,10 +68,7 @@ $docs-subheader-bg-color: transparent;
    }
 
    a {
-     font-size: 90%;
-     padding-top: 0.7rem;
-     padding-bottom: 0.7rem;
-     padding-left: 1rem;
+     padding: 5px 0 5px 20px;
      display: block;
      cursor: pointer;
      color: $off-white;
@@ -86,7 +83,6 @@ $docs-subheader-bg-color: transparent;
      & {
        border-bottom: none;
        text-decoration: none;
-       border-left: 2px solid rgba(188, 181, 185, 0.3);
      }
    }
 
@@ -102,9 +98,8 @@ $docs-subheader-bg-color: transparent;
 
  .nav-sub .current-page,
  .nav-sub .current-page:hover {
-   @include left-brand-border-gradient();
    color: $white;
-   background: $darker-gray;
+   border-left-width: 5px;
  }
 
  .menu-closed .nav-sub {
@@ -115,11 +110,18 @@ $docs-subheader-bg-color: transparent;
    height: auto;
  }
 
- .nav-sub li a {padding-left: 1em;}
- .nav-sub li li a {padding-left: 1.5em;}
- .nav-sub li li li a {padding-left: 2em;}
- .nav-sub li li li li a {padding-left: 2.5em;}
- .nav-sub li li li li li a {padding-left: 3em;}
+ .nav-sub li li a {
+   margin-left: 10px;
+   border-left: 1px solid rgb(138, 136, 135)
+ }
+
+ .nav-sub li li li a {
+   margin-left: 20px;
+ }
+
+ .nav-sub li li li li a {
+   margin-left: 20px;
+}
 
  .docs-aside-menu .menu-icon {
    float: right;
@@ -129,15 +131,16 @@ $docs-subheader-bg-color: transparent;
  .menu-open .menu-icon:after {
    margin: 0 5px;
    font-family: 'FontAwesome';
-   content: "\f053";
+   content: "\f0d7";
+   font-size: 12px;
  }
 
  .menu-closed .menu-icon:after {
-   content: "\f078";
+   font-size: 13px;
+   content: "\f0d9";
    margin: 0 5px;
    font-family: 'FontAwesome';
  }
-
 
 .docs-search {
   background-color: $docs-subheader-bg-color;
@@ -227,6 +230,7 @@ $docs-subheader-bg-color: transparent;
 }
 
 .docs-version-select__link {
+  font-size: 16px;
   cursor: pointer;
   padding: 7px;
   &:hover {
