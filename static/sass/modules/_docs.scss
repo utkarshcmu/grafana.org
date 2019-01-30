@@ -32,9 +32,12 @@ $docs-subheader-bg-color: transparent;
 }
 
 .docs-content {
+  padding: 0 20px;
   min-height: 50rem;
   flex-grow: 1;
   overflow: hidden;
+  max-width: 1024px;
+  min-width: 300px;
 
   h1, h2, h3, h4, h5 {
     &:hover {
