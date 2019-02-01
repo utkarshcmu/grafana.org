@@ -14,7 +14,7 @@ excerpt = "Grafana v6.0 beta1, Updates to the lineup at GrafanCon, monitoring hy
 ### Welcome to TimeShift
 Grafana v6.0 Beta1 was released this week, and it's packed with new features! This is one of the biggest updates to Grafana and introduces a new way to explore your data, support for log data, and includes tons of other enhancements. We hope you'll give v6.0 Beta1 a try and let us know what you think. You can see a few of the highlights below, but check out all of the updates in the [What's new in Grafana v6 documentation](http://docs.grafana.org/guides/whats-new-in-v6-0/?utm_source=blog&utm_campaign=timeshift_78).
 
-Also, there's only 3 weeks until GrafanaCon LA! Be sure to visit the [GrafanaCon LA](http://grafanacon.org) website to see the latest talks that have been added. There's still time to register so grab a ticket and join us! We've got some really interesting talks and hands-on workshops planned, and have a lot of fun in store. 
+Also, there's only 3 weeks until GrafanaCon LA! Be sure to visit the [GrafanaCon LA](http://grafanacon.org) website to see the latest talks that have been added. There's still time to register so grab a ticket and join us! We have some really interesting talks and hands-on workshops planned, and have a lot of fun in store. 
 
 Know of an article we missed? [Contact us](mailto:hello@grafana.com).
 
