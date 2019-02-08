@@ -54,7 +54,7 @@ We're really excited how the schedule has shaped up and hope you can join us!
 <hr />
 
 #### From the Blogosphere
-[**[VIDEO] Grafana Loki: Like Prometheus, but for logs**](https://ftp.osuosl.org/pub/fosdem/2019/UB2.252A/loki_prometheus_for_logs.mp4): Loki author and Grafana Labs VP, Product Tom Wilkie spoke at fosdemDEM last week on his latest stop on the Loki road show. The organizers of FOSDEM were in top form and had the video of his talk up the next day! That's a high bar to set as we prep for GrafanaCon LA and get videos published in a timely manner.
+[**[VIDEO] Grafana Loki: Like Prometheus, but for logs**](https://ftp.osuosl.org/pub/fosdem/2019/UB2.252A/loki_prometheus_for_logs.mp4): Loki author and Grafana Labs VP, Product Tom Wilkie spoke at FOSDEM last week on his latest stop on the Loki road show. The organizers of FOSDEM were in top form and had the video of his talk up the next day! That's a high bar to set as we prep for GrafanaCon LA and get videos published in a timely manner.
 
 [**FOSDEM Public Dashboards**](https://dashboard.fosdem.org/d/q4EXc9lik/noisy-rooms?orgId=1&from=1549075554720&to=1549232280301): The organizers of FOSDEM track tons of different metrics and visualize them in Grafana - from amount of conference swag remaining, to room capacity, and even the noise level of rooms. 
 
