@@ -8,17 +8,26 @@ cover_opacity = "0.4"
 cover_blur = "1px"
 description = "A weekly roundup of articles and links from Grafana and the surrounding community"
 categories = ["timeShift", "Grafana Buzz"]
-excerpt = "Grafana v6.0 beta1, Updates to the lineup at GrafanCon, monitoring hybrid cloud environments, and monitoring the fastest Internet in the world."
+excerpt = "This week we have a Loki presentation video from FOSDEM, using Grafana and Prometheus with Ansible, real-time heart monitoring during a presentation and info on GrafanaCon LA day 2 tracks and workshops."
 +++
 
 ### Welcome to TimeShift
-Grafana v6.0 Beta1 was released this week, and it's packed with new features! This is one of the biggest updates to Grafana and introduces a new way to explore your data, support for log data, and includes tons of other enhancements. We hope you'll give v6.0 Beta1 a try and let us know what you think. You can see a few of the highlights below, but check out all of the updates in the [What's new in Grafana v6 documentation](http://docs.grafana.org/guides/whats-new-in-v6-0/?utm_source=blog&utm_campaign=timeshift_79).
+Time is running out to get your ticket to GrafanaCon LA, but you can still [register](http://grafanacon.org).
 
-Also, there's only 3 weeks until GrafanaCon LA! Be sure to visit the [GrafanaCon LA](http://grafanacon.org) website to see the latest talks that have been added. There's still time to register so grab a ticket and join us! We have some really interesting talks and hands-on workshops planned, and have a lot of fun in store. 
+Day 2 is going to be filled with morning tracks on:
 
-Know of an article we missed? [Contact us](mailto:hello@grafana.com).
+* Real-time analytics in IoT
+* CloudNative obersvability
+* SQL and business analytics
 
-<br />
+Also, we'll have hands-on workshops and talks on:
+
+* Become a contributor - Get started developing Grafana
+* Writing React plugins
+* Grafana feature deep dives
+* Grafana plugin demos and showcases
+
+We're really excited how the schedule has shaped up and hope you can join us!
 <hr />
 
 <div class="row row--no-gutters">
@@ -45,15 +54,16 @@ Know of an article we missed? [Contact us](mailto:hello@grafana.com).
 <hr />
 
 #### From the Blogosphere
-[**Grafana Loki: Like Prometheus, but for logs**](https://speakerdeck.com/grafana/grafana-loki-like-prometheus-but-for-logs): Loki author and Grafana Labs VP, Platform Tom Wilkie gave a talk recently at the Cloud Native Computing Paris Meetup. If you want to catch one of his talks on Loki in person, he'll be giving a similar talk in Belgium at FOSDEM, Feb 2-3, and of course, at GrafanaCon LA Feb 25-26.
+[**[VIDEO] Grafana Loki: Like Prometheus, but for logs**](https://ftp.osuosl.org/pub/fosdem/2019/UB2.252A/loki_prometheus_for_logs.mp4): Loki author and Grafana Labs VP, Platform Tom Wilkie spoke at FODEM last week on his latest stop on the Loki road show. The organizers of FOSDEM were in top form and had the video of his talk up the next day! That's a high bar to set as we prep for GrafanaCon LA and get videos published in a timely manner.
 
-[**Automated Monitoring With Grafana and Prometheus**](https://dzone.com/articles/fully-automated-app-monitoring): While Grafana does have dashboard provisioning, it can be difficult to keep dashboards synchronized between environments. Fabio shows how he solves the issue with a Docker image he created.
+[**FOSDEM Public Dashboards**](https://dashboard.fosdem.org/d/q4EXc9lik/noisy-rooms?orgId=1&from=1549075554720&to=1549232280301): The organizers of FOSDEM track tons of different metrics and visualize them in Grafana - from amount of conference swag remaining, to room capacity, and even the noise level of rooms. 
 
-[**How to display Octopus Deploy deployment history on Grafana dashboards**](https://www.tomaszgawlik.co.uk/post/grafana-octopus-deployment-history/): Tomasz shows how he uses a SQL data source in Grafana to display data on deployments that he manages with the Octopus Deploy platform.
+[**Prometheus with Grafana Using Ansible**](https://itnext.io/prometheus-with-grafana-using-ansible-549e575c9dfa): This walkthrough shows you how to setup Grafana using Ansible. After Grafana is set up, Mitesh shows you how to add a data source and create a dashboard with Prometheus metrics.
 
-[**Monitoring Micro-Service Applications across Hybrid Clouds using Istio service mesh multi-clusters, Kiali observability, Zipkin tracing, Prometheus events and Grafana visualisations**](https://apicrazy.com/2019/01/23/monitoring-micro-service-applications-across-hybrid-clouds-using-istio-service-mesh-multi-clusters-kiali-observability-zipkin-tracing-prometheus-events-and-grafana-visualisations/): The title kind of explains it all, but this article discusses multi-cloud environments and trying to maintain the benefits of a centralised monitoring platform.
+[**Visualizing my heart rate on stage using a Hue lamp and a heart rate sensor and .NET**](https://danielwertheim.se/visualising-my-heart-rate-on-stage-using-a-hue-lamp-and-a-heart-rate-sensor-and-net/): At the Swetugg conference in Stockholm this week, Daniel tracked his heart rate in real time using a sensor and ANT+ SDK, which was published via NATS. He then visualised this data in 2 ways– first, on a Grafana dashboard, and second via a smart lightbulb that changed hues depending on his stress level. This article walks through how he did it, and the reactions he received after the talk.
 
-[**[VIDEO] World's Fastest Internet - 1.6 TERABITS per Second**](https://www.youtube.com/watch?v=WXt2gD4fS_k): An oldie, but a goodie - Take a look at the world's fastest Internet connection and how they built the network. Also note, Grafana spotted in the wild, around 5:30.
+[**Couchbase Monitoring Integration with Prometheus and Grafana**](https://blog.couchbase.com/couchbase-monitoring-integration-with-prometheus-and-grafana/): Using the new Couchbase exporter for Prometheus, you can visualize the performance of your Couchbase clusters in Grafana. This tutorial shows you how install and configure the components and import your first dashboard.
+
 
 <br />
 <hr />
@@ -111,31 +121,6 @@ Know of an article we missed? [Contact us](mailto:hello@grafana.com).
 <hr />
 <br />
 
-#### Grafana Plugin Update
-If you're using plugins in Grafana, be sure to keep them up to date to take advantage of new features and bug fixes. To update or install any plugin on your on-prem Grafana, use the <a href="http://docs.grafana.org/administration/cli/#grafana-cli?utm_source=blog&utm_campaign=timeshift_72" target="_blank">grafana-cli tool</a>, or for <a href="https://grafana.com/cloud/grafana?utm_source=blog&utm_campaign=timeshift_72" target="_blank">Hosted Grafana</a>,	 update with one-click.
-<br />
-<div class="blog-plugin">
-	<div class="row row--md-gutters">
-		<div class="col col--sm-2 blog-plugin-grid__item">
-			<img style="border-radius: 4px;" src="https://grafana.com/api/plugins/kentik-app/versions/1.3.3/logos/large" />
-		</div>
-		<div class="col col--sm-10 blog-plugin-grid__item">
-			<p>
-				<div class="updated-plugin-tag"><strong>UPDATED PLUGIN</strong></div><br/>
-				<strong>Kentik Connect Pro App</strong> - Version 1.3.3 of the Kentik app was released 2/1/2019 and includes support for selecting US and EU API endpoints, and several bug fixes.
-			</p>
-			<p>
-				<a class="btn btn-outline btn-small" href="https://grafana.com/plugins/kentik-app?utm_source=blog&utm_campaign=timeshift_79" target="_blank"><strong>Install</strong></a>
-			</p>
-		</div>
-	</div>
-
-</div>
- 
-<br />
-<hr />
-<br />
-
 <div class="row row--internal-gutters">
 	<div class="col col--sm-4">
 		<h4>We're Hiring</h4>
@@ -157,9 +142,9 @@ If you're using plugins in Grafana, be sure to keep them up to date to take adva
 		<div class="col col--sm-12">
 			<h4>Tweet of the Week</h4>
 			We scour Twitter each week to find an interesting/beautiful dashboard or monitoring related tweet and show it off! <a href="https://twitter.com/hashtag/monitoringlove?src=hash" target="_blank">#monitoringLove</a>
-			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Check live <a href="https://twitter.com/search?q=%24GENX&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$GENX</a> <a href="https://twitter.com/hashtag/blockchain?src=hash&amp;ref_src=twsrc%5Etfw">#blockchain</a> &amp; market stats with the refreshed <a href="https://twitter.com/hashtag/genesisnetwork?src=hash&amp;ref_src=twsrc%5Etfw">#genesisnetwork</a> infographics page at <a href="https://t.co/pPFPCxoLS7">https://t.co/pPFPCxoLS7</a>  <br><br>Rebuilt with speed in mind using <a href="https://twitter.com/InfluxDB?ref_src=twsrc%5Etfw">@InfluxDB</a>, the latest version of <a href="https://twitter.com/grafana?ref_src=twsrc%5Etfw">@grafana</a> &amp; stats from <a href="https://twitter.com/coingecko?ref_src=twsrc%5Etfw">@coingecko</a> <a href="https://twitter.com/hashtag/crypto?src=hash&amp;ref_src=twsrc%5Etfw">#crypto</a> <a href="https://t.co/O76f8cOFR5">pic.twitter.com/O76f8cOFR5</a></p>&mdash; Genesis Network - $GENX (@genx_network) <a href="https://twitter.com/genx_network/status/1090407535868346370?ref_src=twsrc%5Etfw">January 30, 2019</a></blockquote>
+			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Our brand new 70&quot; displays for all of our lovely <a href="https://twitter.com/hashtag/Grafana?src=hash&amp;ref_src=twsrc%5Etfw">#Grafana</a> dashboards using <a href="https://twitter.com/hashtag/elastic?src=hash&amp;ref_src=twsrc%5Etfw">#elastic</a> <a href="https://twitter.com/hashtag/influxdb?src=hash&amp;ref_src=twsrc%5Etfw">#influxdb</a> <a href="https://twitter.com/hashtag/metricbeat?src=hash&amp;ref_src=twsrc%5Etfw">#metricbeat</a> <a href="https://twitter.com/hashtag/filebeat?src=hash&amp;ref_src=twsrc%5Etfw">#filebeat</a> and much more 😍 <a href="https://t.co/72LuVndY8v">pic.twitter.com/72LuVndY8v</a></p>&mdash; Alex Gläser (@APGlaeser) <a href="https://twitter.com/APGlaeser/status/1093507232782839808?ref_src=twsrc%5Etfw">February 7, 2019</a></blockquote>
 			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			<p>Great looking dashboard - be sure to check out the new color picker in v6.0 beta1, will help you maintain consistent colors across dashboards.</p>
+			<p>Those display look great! Nice shirt too!</p>
 		</div>
 	</div>
 </div>
