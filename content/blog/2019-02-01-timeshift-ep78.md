@@ -45,7 +45,7 @@ Know of an article we missed? [Contact us](mailto:hello@grafana.com).
 <hr />
 
 #### From the Blogosphere
-[**Grafana Loki: Like Prometheus, but for logs**](https://speakerdeck.com/grafana/grafana-loki-like-prometheus-but-for-logs): Loki author and Grafana Labs VP, Platform Tom Wilkie gave a talk recently at the Cloud Native Computing Paris Meetup. If you want to catch one of his talks on Loki in person, he'll be giving a similar talk in Belgium at FOSDEM, Feb 2-3, and of course, at GrafanaCon LA Feb 25-26.
+[**Grafana Loki: Like Prometheus, but for logs**](https://speakerdeck.com/grafana/grafana-loki-like-prometheus-but-for-logs): Loki author and Grafana Labs VP, Product Tom Wilkie gave a talk recently at the Cloud Native Computing Paris Meetup. If you want to catch one of his talks on Loki in person, he'll be giving a similar talk in Belgium at FOSDEM, Feb 2-3, and of course, at GrafanaCon LA Feb 25-26.
 
 [**Automated Monitoring With Grafana and Prometheus**](https://dzone.com/articles/fully-automated-app-monitoring): While Grafana does have dashboard provisioning, it can be difficult to keep dashboards synchronized between environments. Fabio shows how he solves the issue with a Docker image he created.
 

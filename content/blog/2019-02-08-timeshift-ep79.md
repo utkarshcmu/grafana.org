@@ -12,15 +12,15 @@ excerpt = "This week we have a Loki presentation video from FOSDEM, using Grafan
 +++
 
 ### Welcome to TimeShift
-Time is running out to get your ticket to GrafanaCon LA, but you can still [register](http://grafanacon.org).
+Time is running out to get your ticket to GrafanaCon LA, but you can still [grab one of the last remaining seats](http://grafanacon.org).
 
 Day 2 is going to be filled with morning tracks on:
 
 * Real-time analytics in IoT
-* CloudNative obersvability
+* Cloud Native observability
 * SQL and business analytics
 
-Also, we'll have hands-on workshops and talks on:
+Also, we'll have hands-on workshops and talks:
 
 * Become a contributor - Get started developing Grafana
 * Writing React plugins
@@ -38,12 +38,12 @@ We're really excited how the schedule has shaped up and hope you can join us!
 		<h3>Latest Beta Release: Grafana v6.0 Beta1</h3>
 		<h5>New Features</h5>
 		<ul>
+			<li><strong>Explore</strong>: A whole new way to do ad-hoc metric queries and exploration. Split view in half and compare metrics &amp; logs and much much more. <a href="http://docs.grafana.org/features/explore/" rel="nofollow noopener">Read more here</a></li>
 			<li><strong>Alerting</strong>: Adds support for Google Hangouts Chat notifications <a href="https://github.com/grafana/grafana/issues/11221" rel="nofollow noopener">#11221</a>, thx <a href="https://github.com/PatrickSchuster" rel="nofollow noopener">@PatrickSchuster</a></li>
 			<li><strong>Elasticsearch</strong>: Support bucket script pipeline aggregations <a href="https://github.com/grafana/grafana/issues/5968" rel="nofollow noopener">#5968</a></li>
 			<li><strong>Influxdb</strong>: Add support for time zone (<code>tz</code>) clause <a href="https://github.com/grafana/grafana/issues/10322" rel="nofollow noopener">#10322</a>, thx <a href="https://github.com/cykl" rel="nofollow noopener">@cykl</a></li>
 			<li><strong>Snapshots</strong>: Enable deletion of public snapshot <a href="https://github.com/grafana/grafana/issues/14109" rel="nofollow noopener">#14109</a></li>
 			<li><strong>Provisioning</strong>: Provisioning support for alert notifiers <a href="https://github.com/grafana/grafana/issues/10487" rel="nofollow noopener">#10487</a>, thx <a href="https://github.com/pbakulev" rel="nofollow noopener">@pbakulev</a></li>
-			<li><strong>Explore</strong>: A whole new way to do ad-hoc metric queries and exploration. Split view in half and compare metrics &amp; logs and much much more. <a href="http://docs.grafana.org/features/explore/" rel="nofollow noopener">Read more here</a></li>
 		</ul>
 		<p>For a full list of changes, be sure to read through the <a href="https://community.grafana.com/t/release-notes-v6-0-x/14010" target="_blank">release notes</a> and get more in-depth info about the features in the <a href="http://docs.grafana.org/guides/whats-new-in-v6-0/?utm_source=blog&utm_campaign=timeshift_79" target="_blank">documentation</a>.</p>
 		<a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_79" target="_blank" class="btn btn--primary">Download Grafana v6.0 Beta1 Now</a>
@@ -54,7 +54,7 @@ We're really excited how the schedule has shaped up and hope you can join us!
 <hr />
 
 #### From the Blogosphere
-[**[VIDEO] Grafana Loki: Like Prometheus, but for logs**](https://ftp.osuosl.org/pub/fosdem/2019/UB2.252A/loki_prometheus_for_logs.mp4): Loki author and Grafana Labs VP, Platform Tom Wilkie spoke at FODEM last week on his latest stop on the Loki road show. The organizers of FOSDEM were in top form and had the video of his talk up the next day! That's a high bar to set as we prep for GrafanaCon LA and get videos published in a timely manner.
+[**[VIDEO] Grafana Loki: Like Prometheus, but for logs**](https://ftp.osuosl.org/pub/fosdem/2019/UB2.252A/loki_prometheus_for_logs.mp4): Loki author and Grafana Labs VP, Product Tom Wilkie spoke at fosdemDEM last week on his latest stop on the Loki road show. The organizers of FOSDEM were in top form and had the video of his talk up the next day! That's a high bar to set as we prep for GrafanaCon LA and get videos published in a timely manner.
 
 [**FOSDEM Public Dashboards**](https://dashboard.fosdem.org/d/q4EXc9lik/noisy-rooms?orgId=1&from=1549075554720&to=1549232280301): The organizers of FOSDEM track tons of different metrics and visualize them in Grafana - from amount of conference swag remaining, to room capacity, and even the noise level of rooms. 
 
@@ -144,7 +144,7 @@ We're really excited how the schedule has shaped up and hope you can join us!
 			We scour Twitter each week to find an interesting/beautiful dashboard or monitoring related tweet and show it off! <a href="https://twitter.com/hashtag/monitoringlove?src=hash" target="_blank">#monitoringLove</a>
 			<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Our brand new 70&quot; displays for all of our lovely <a href="https://twitter.com/hashtag/Grafana?src=hash&amp;ref_src=twsrc%5Etfw">#Grafana</a> dashboards using <a href="https://twitter.com/hashtag/elastic?src=hash&amp;ref_src=twsrc%5Etfw">#elastic</a> <a href="https://twitter.com/hashtag/influxdb?src=hash&amp;ref_src=twsrc%5Etfw">#influxdb</a> <a href="https://twitter.com/hashtag/metricbeat?src=hash&amp;ref_src=twsrc%5Etfw">#metricbeat</a> <a href="https://twitter.com/hashtag/filebeat?src=hash&amp;ref_src=twsrc%5Etfw">#filebeat</a> and much more 😍 <a href="https://t.co/72LuVndY8v">pic.twitter.com/72LuVndY8v</a></p>&mdash; Alex Gläser (@APGlaeser) <a href="https://twitter.com/APGlaeser/status/1093507232782839808?ref_src=twsrc%5Etfw">February 7, 2019</a></blockquote>
 			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			<p>Those display look great! Nice shirt too!</p>
+			<p>Those displays look great! Nice shirt too!</p>
 		</div>
 	</div>
 </div>
