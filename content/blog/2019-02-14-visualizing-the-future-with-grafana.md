@@ -1,7 +1,7 @@
 +++
 title = "Visualizing the Future with Grafana"
 author = "jdam"
-date = "2019-02-11"
+date = "2019-02-14"
 keywords = ["Grafana", "Blog", "Forecasting", "Weather", "Conference", "GrafanaCon"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
@@ -9,7 +9,6 @@ cover_blur = "1px"
 description = "You’ve used Grafana to visualize what’s happened in the past, or what’s currently happening. But what about what might happen in the future?"
 categories = ["Video", "Grafana", "GrafanaCon", "Talks"]
 excerpt = "You’ve used Grafana to visualize what’s happened in the past, or what’s currently happening. But what about what might happen in the future?"
-draft = "true"
 +++
 
 <div class="row row--internal-gutters row--extra-bottom">
