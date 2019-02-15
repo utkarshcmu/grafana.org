@@ -98,8 +98,13 @@ small {
 }
 
 body {
-  font-size: 18px;
+  font-size: 16px;
+
+  @include at-least(medium) {
+    font-size: 18px;
+  }
 }
+
 
 //
 // Set headings
