@@ -44,7 +44,7 @@ We're really excited how the schedule has shaped up and hope you can join us!
 	</div>
 	<div class="col col--sm-9">
 		<h3>Latest Beta Release: Grafana v6.0 Beta2</h3>
-		<p>Lots of minor fixes and enhancements added to the v6.0 Beta2 release. For a full list of changes, be sure to read through the <a href="https://community.grafana.com/t/release-notes-v6-0-x/14010" target="_blank">release notes</a> and get more in-depth info about the features in the <a href="http://docs.grafana.org/guides/whats-new-in-v6-0/?utm_source=blog&utm_campaign=timeshift_80" target="_blank">documentation</a>.</p>
+		<p>Beta2 is coming along nicely and stabilizing. Lots of minor fixes and enhancements added to this beta release. For a full list of changes, be sure to read through the <a href="https://community.grafana.com/t/release-notes-v6-0-x/14010" target="_blank">release notes</a> and get more in-depth info about the features in the <a href="http://docs.grafana.org/guides/whats-new-in-v6-0/?utm_source=blog&utm_campaign=timeshift_80" target="_blank">documentation</a>.</p>
 		<a href="https://grafana.com/grafana/download/beta?utm_source=blog&utm_campaign=timeshift_80" target="_blank" class="btn btn--primary">Download Grafana v6.0 Beta2 Now</a>
 	</div>
 </div>
@@ -54,8 +54,6 @@ We're really excited how the schedule has shaped up and hope you can join us!
 
 #### From the Blogosphere
 [**Visualizing the Future with Grafana**](https://grafana.com/blog/2019/02/14/visualizing-the-future-with-grafana/?utm_source=blog&utm_campaign=timeshift_80): Steffen Knott and Max von Roden from [Energy Weather](https://www.energyweather.com/en/) gave a really interesting talk at GrafanaCon AMS 2018 on how they use Grafana for forecasting, quantification of risk, and how weather affects energy markets. 
-
-If you liked that talk, you're in for a treat. We have 2 days of interesting talks like this scheduled for GrafanaCon LA, so [grab one of the last GA tickets](http://grafanacon.org) before they're gone.
 
 [**A Performance Dashboard for Apache Spark**](http://db-blog.web.cern.ch/blog/luca-canali/2019-02-performance-dashboard-apache-spark): This article from [CERN](https://home.cern/) dives into the steps for deploying and using a performance dashboard to gain insights for troubleshooting and monitoring Apache Spark workloads.
 
