@@ -1,7 +1,7 @@
 +++
 title = "Grafana v6.0 Released"
 author = "torkel"
-date = "2018-12-25"
+date = "2019-02-25"
 keywords = ["Grafana", "Blog", "v6.0", "Stable", "Release", "Download"]
 cover_image = "/assets/img/blog/timeshift/timeshift_14.jpg"
 cover_opacity = "0.4"
@@ -13,7 +13,12 @@ draft = true
 
 # v6.0 Stable released!
 
-<a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=v6" target="_blank" class="btn btn--primary">Download Grafana 6.0 Now</a>
+GrafanaCon LA is underway! Check out the [live stream](https://www.youtube.com/channel/UCYCwgQAMm9sTJv0rgwQLCxw) on the Grafana youtube channel. I am proud to announce that we
+are releasing Grafana v6.0 stable today. Before every major release I feel super excited about the progress that has been made and with this release, this is
+especially true.
+
+Grafana v6.0 brings many new and exciting features and enhancements and at the same time includes a new React platform and architecture for panels & plugins that will
+fundamentally change Grafana's future as a platform.
 
 ## What's New in Grafana v6.0
 
@@ -26,6 +31,8 @@ draft = true
 - [React Plugin]({{< relref "#react-panels-query-editors" >}}) support enables an easier way to build plugins.
 - [Named Colors]({{< relref "#named-colors" >}}) in our new improved color picker.
 - [Removal of user session storage]({{< relref "#easier-to-deploy-improved-security" >}}) makes Grafana easier to deploy & improves security.
+
+<a href="https://grafana.com/grafana/download/?utm_source=blog&utm_campaign=v6" target="_blank" class="btn btn--primary">Download Grafana 6.0 Now</a>
 
 ## Explore
 
